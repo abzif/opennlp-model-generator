@@ -10,9 +10,9 @@ Component-Name=StatisticalLemmatizer
 Language=de
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713587196566
+Timestamp=1716179753507
 TrainerType=Event
-Training-Eventhash=10bfb61baa2ef4fce329f85b6d857175
+Training-Eventhash=6868501f8758380014f4fe780f15f2ad
 factory=opennlp.tools.lemmatizer.LemmatizerFactory
 
 === MISCLASSIFIED DETAILS ===
@@ -957,7 +957,7 @@ geschrieben: schreiben | eschriebn
 Expected: {
 sein	DET	sein
 ziel	NOUN	ziel
-ist	VERB	sein
+ist	AUX	sein
 es	PRON	es
 ,	PUNCT	,
 die	DET	der
@@ -975,7 +975,7 @@ anzuheben	VERB	anheben
 Predicted: {
 sein	DET	sein
 ziel	NOUN	ziel
-ist	VERB	sein
+ist	AUX	sein
 es	PRON	es
 ,	PUNCT	,
 die	DET	der
@@ -1681,7 +1681,7 @@ weggingen: weggehen | weggingen
 }
 
 Expected: {
-ist	VERB	sein
+ist	AUX	sein
 wirklich	ADV	wirklich
 zu	PART	zu
 empfehlen	VERB	empfehlen
@@ -1723,7 +1723,7 @@ konnen	AUX	konnen
 .	PUNCT	.
 }
 Predicted: {
-ist	VERB	sein
+ist	AUX	sein
 wirklich	ADV	wirklich
 zu	PART	zu
 empfehlen	VERB	empfehlen
@@ -18882,7 +18882,7 @@ verneinen	VERB	verneinen
 zu	PART	zu
 wollen	AUX	wollen
 ,	PUNCT	,
-sei	VERB	sein
+sei	AUX	sein
 es	PRON	es
 das	DET	der
 ziel	NOUN	ziel
@@ -18922,7 +18922,7 @@ verneinen	VERB	verneinen
 zu	PART	zu
 wollen	AUX	wollen
 ,	PUNCT	,
-sei	VERB	sein
+sei	AUX	sein
 es	PRON	es
 das	DET	der
 ziel	NOUN	ziel

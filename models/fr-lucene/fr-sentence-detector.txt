@@ -1,5 +1,5 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.936080740117746
+Evaluation-Score=0.9341745531019979
 Training-Sample-Size=2179
 Evaluation-Sample-Size=242
 Training-Algorithm=MAXENT_QN
@@ -9,9 +9,9 @@ Component-Name=SentenceDetectorME
 Language=fr
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713595367374
+Timestamp=1716188113755
 TrainerType=Event
-Training-Eventhash=66ffb4d7a64abb711fbd57444ea487ce
+Training-Eventhash=eaf7d6c02caa8424bf3473360f037d29
 eosCharacters=.?!
 factory=opennlp.tools.sentdetect.SentenceDetectorFactory
 useTokenEnd=true
@@ -1034,6 +1034,38 @@ que cet acte se perpetue et se transmet de generation en generation... la ceremo
 }
 
 Expected: {
+on peut meme y observer des herons stries.
+le dessert etait bon d'apres ma femme (je ne suis pas tres dessert donc je ne l'ai pas accompagnee sur le sucre).
+c'est aussi a cette occasion qu'il decouvre que les dragons ont une sainte horreur des anguilles fumees.
+l'agence marocaine de presse et d'autres medias marocains, tres souvent pilotes par les services de renseignements du makhzen marocain, font de plus en plus apparition sur les sites mauritaniens pour nous denigrer le mouvement du f. polisario au sahara occidental.
+la commission electorale a cree la surprise, en preconisant de dissoudre son parti, le parti democrate, accuse d'avoir beneficie d'une donation illegale en 2005.
+la benecup, plus couramment appelee ing cup, regroupe les meilleurs clubs belges et neerlandais avec une grosse difference par rapport aux autres coupes europeennes, celle d'avoir obligatoirement en finale un club de chaque pays soit pas toujours les deux meilleures equipes.
+elle passe ses dernieres annees au luna park de coney island.
+un langage acrobatique et choregraphique singulier se dessine le long de ses pentes vertigineuses.
+photo prise a locronan dans le finistere.
+pour ma part, j'ai commande sur internet et le colis est bien arrive dans les delais.
+}
+Predicted: {
+on peut meme y observer des herons stries.
+le dessert etait bon d'apres ma femme (je ne suis pas tres dessert donc je ne l'ai pas accompagnee sur le sucre).
+c'est aussi a cette occasion qu'il decouvre que les dragons ont une sainte horreur des anguilles fumees.
+l'agence marocaine de presse et d'autres medias marocains, tres souvent pilotes par les services de renseignements du makhzen marocain, font de plus en plus apparition sur les sites mauritaniens pour nous denigrer le mouvement du f.
+polisario au sahara occidental.
+la commission electorale a cree la surprise, en preconisant de dissoudre son parti, le parti democrate, accuse d'avoir beneficie d'une donation illegale en 2005.
+la benecup, plus couramment appelee ing cup, regroupe les meilleurs clubs belges et neerlandais avec une grosse difference par rapport aux autres coupes europeennes, celle d'avoir obligatoirement en finale un club de chaque pays soit pas toujours les deux meilleures equipes.
+elle passe ses dernieres annees au luna park de coney island.
+un langage acrobatique et choregraphique singulier se dessine le long de ses pentes vertigineuses.
+photo prise a locronan dans le finistere.
+pour ma part, j'ai commande sur internet et le colis est bien arrive dans les delais.
+}
+False positives: {
+l'agence marocaine de presse et d'autres medias marocains, tres souvent pilotes par les services de renseignements du makhzen marocain, font de plus en plus apparition sur les sites mauritaniens pour nous denigrer le mouvement du f.
+polisario au sahara occidental.
+} False negatives: {
+l'agence marocaine de presse et d'autres medias marocains, tres souvent pilotes par les services de renseignements du makhzen marocain, font de plus en plus apparition sur les sites mauritaniens pour nous denigrer le mouvement du f. polisario au sahara occidental.
+}
+
+Expected: {
 la cathedrale de crotone est une eglise catholique romaine de crotone, en italie.
 selon la rumeur, le nom du groupe aurait ete choisi aleatoirement par ordinateur, le mot " eiffel " serait ainsi ressorti ;
 publie en 2009 aux editions jacob duvernet, la tentation d'une ile reste aujourd'hui le temoignage de reference en la matiere.
@@ -1582,6 +1614,7 @@ mh, ouais, ouais.
 }
 
 Expected: {
+angiox a ete le plus efficace chez les patients ayant egalement recu de l'aspirine et du clopidogrel.
 l'epar complet relatif a angiox est disponible ici.
 angiox 250 mg poudre pour solution a diluer pour solution injectable ou pour perfusion.
 pour la liste complete des excipients, voir rubrique 6.1.
@@ -1591,9 +1624,9 @@ voir la section 5.1 pour plus d'informations concernant l'utilisation de la biva
 dans tous les cas, lorsque la bivalirudine est associee a un inhibiteur plaquettaire ou a un anticoagulant, les parametres cliniques et biologiques de l'hemostase doivent etre regulierement surveilles.
 l'etude clinique acuity (sca)
 dans acuity, les donnees relatives aux saignements ont ete recueillies separement de celles concernant les evenements indesirables.
-les saignements majeurs bases sur les criteres timi sont definis comme etant les saignements intracraniens ou la chute de la concentration en hemoglobine 5 g/dl.
 }
 Predicted: {
+angiox a ete le plus efficace chez les patients ayant egalement recu de l'aspirine et du clopidogrel.
 l'epar complet relatif a angiox est disponible ici.
 angiox 250 mg poudre pour solution a diluer pour solution injectable ou pour perfusion.
 pour la liste complete des excipients, voir rubrique 6.1.
@@ -1602,7 +1635,6 @@ la securite et l'efficacite d'un bolus unique d'angiox n'ont pas ete evaluees.
 voir la section 5.1 pour plus d'informations concernant l'utilisation de la bivalirudine avec ou sans inhibiteur de la gpiib/iiia.
 dans tous les cas, lorsque la bivalirudine est associee a un inhibiteur plaquettaire ou a un anticoagulant, les parametres cliniques et biologiques de l'hemostase doivent etre regulierement surveilles.
 l'etude clinique acuity (sca) dans acuity, les donnees relatives aux saignements ont ete recueillies separement de celles concernant les evenements indesirables.
-les saignements majeurs bases sur les criteres timi sont definis comme etant les saignements intracraniens ou la chute de la concentration en hemoglobine 5 g/dl.
 }
 False positives: {
 l'etude clinique acuity (sca) dans acuity, les donnees relatives aux saignements ont ete recueillies separement de celles concernant les evenements indesirables.
@@ -1612,6 +1644,7 @@ dans acuity, les donnees relatives aux saignements ont ete recueillies separemen
 }
 
 Expected: {
+a son retour et jusqu'en 1980, il se fait apprecier a gfd avant de devenir pensionnaire a bavilliers de "la charmeuse".
 chez peugeot d'abord, puis successivement a hericourt (filature), ouvreuse de cinema, vendeuse de magasins (maroquinerie a montbeliard), avant de revenir au controle chez peugeot.
 angiox est aussi utilise pour prevenir la formation de caillots sanguins chez les patients qui vont subir une icp.
 afin de diminuer le risque de faibles valeurs d'act, le produit reconstitue et dilue doit etre bien melange puis doit etre administre en bolus par poussee intraveineuse rapide.
@@ -1621,9 +1654,9 @@ des etudes d'interactions medicamenteuses ont ete realisees avec des inhibiteurs
 grossesse et allaitement
 effets sur l'aptitude a conduire des vehicules et a utiliser des machines
 des diminutions significatives de la frequence des saignements majeurs et mineurs ont ete constatees chez les patients du groupe bivalidurine seule comparativement aux patients du groupe heparine plus inhibiteur de la gp iib/iiia et bivalidurine plus inhibiteur de la gp iib/iiia (voir table 2).
-tres frequent (1/10)
 }
 Predicted: {
+a son retour et jusqu'en 1980, il se fait apprecier a gfd avant de devenir pensionnaire a bavilliers de "la charmeuse".
 chez peugeot d'abord, puis successivement a hericourt (filature), ouvreuse de cinema, vendeuse de magasins (maroquinerie a montbeliard), avant de revenir au controle chez peugeot.
 angiox est aussi utilise pour prevenir la formation de caillots sanguins chez les patients qui vont subir une icp.
 afin de diminuer le risque de faibles valeurs d'act, le produit reconstitue et dilue doit etre bien melange puis doit etre administre en bolus par poussee intraveineuse rapide.
@@ -1631,7 +1664,6 @@ chez les patients atteints d'insuffisance renale, il n'est pas necessaire d'adap
 le controle du temps de coagulation est recommande durant l'icp chez les patients insuffisants renaux.
 des etudes d'interactions medicamenteuses ont ete realisees avec des inhibiteurs plaquettaires, notamment l'acide acetylsalicylique, la ticlopidine, le clopidogrel, l'abciximab, l'eptifibatide ou le tirofiban.
 grossesse et allaitement effets sur l'aptitude a conduire des vehicules et a utiliser des machines des diminutions significatives de la frequence des saignements majeurs et mineurs ont ete constatees chez les patients du groupe bivalidurine seule comparativement aux patients du groupe heparine plus inhibiteur de la gp iib/iiia et bivalidurine plus inhibiteur de la gp iib/iiia (voir table 2).
-tres frequent (1/10)
 }
 False positives: {
 grossesse et allaitement effets sur l'aptitude a conduire des vehicules et a utiliser des machines des diminutions significatives de la frequence des saignements majeurs et mineurs ont ete constatees chez les patients du groupe bivalidurine seule comparativement aux patients du groupe heparine plus inhibiteur de la gp iib/iiia et bivalidurine plus inhibiteur de la gp iib/iiia (voir table 2).
@@ -1642,6 +1674,7 @@ des diminutions significatives de la frequence des saignements majeurs et mineur
 }
 
 Expected: {
+effets pharmacodynamiques
 85% des patients n'avaient jamais recu de bisphosphonates.
 effets sur toutes les fractures cliniques
 tableau 3
@@ -1651,20 +1684,21 @@ aclasta a egalement reduit significativement le nombre moyen de jours d'activite
 le delai median de perfusion etait d'environ 6 semaines apres l'intervention.
 le critere principal d'efficacite etait l'incidence des fractures cliniques pendant toute la duree de l'etude.
 cette etude n'etait pas concue pour montrer une difference significative sur les fractures de hanche mais une reduction sur les nouvelles fractures de hanche a ete observee.
-une augmentation de 5,4% au femur total et de 4,3% au col femoral a ete observe sous aclasta, en comparaison au placebo durant les 24 mois.
 }
 Predicted: {
-85% des patients n'avaient jamais recu de bisphosphonates.
+effets pharmacodynamiques 85% des patients n'avaient jamais recu de bisphosphonates.
 effets sur toutes les fractures cliniques tableau 3 (2) y compris fractures cliniques dorsales et fractures cliniques vertebrales lombaires aclasta a reduit significativement le nombre moyen de jours d'activite limitee et de jours d'alitement du fait de douleurs rachidiennes de 17,9 jours par rapport a 11,3 jours dans le groupe placebo.
 aclasta a egalement reduit significativement le nombre moyen de jours d'activite limitee et de jours d'alitement du fait de fractures de 2,9 jours par rapport a 0,5 jours dans le groupe placebo (p < 0,01 pour toutes les valeurs).
 le delai median de perfusion etait d'environ 6 semaines apres l'intervention.
 le critere principal d'efficacite etait l'incidence des fractures cliniques pendant toute la duree de l'etude.
 cette etude n'etait pas concue pour montrer une difference significative sur les fractures de hanche mais une reduction sur les nouvelles fractures de hanche a ete observee.
-une augmentation de 5,4% au femur total et de 4,3% au col femoral a ete observe sous aclasta, en comparaison au placebo durant les 24 mois.
 }
 False positives: {
+effets pharmacodynamiques 85% des patients n'avaient jamais recu de bisphosphonates.
 effets sur toutes les fractures cliniques tableau 3 (2) y compris fractures cliniques dorsales et fractures cliniques vertebrales lombaires aclasta a reduit significativement le nombre moyen de jours d'activite limitee et de jours d'alitement du fait de douleurs rachidiennes de 17,9 jours par rapport a 11,3 jours dans le groupe placebo.
 } False negatives: {
+effets pharmacodynamiques
+85% des patients n'avaient jamais recu de bisphosphonates.
 effets sur toutes les fractures cliniques
 tableau 3
 (2) y compris fractures cliniques dorsales et fractures cliniques vertebrales lombaires
@@ -1672,6 +1706,7 @@ aclasta a reduit significativement le nombre moyen de jours d'activite limitee e
 }
 
 Expected: {
+- en 2001, le juge genevois paul perraudin a bloque a zurich 1,2 milliard de francs suisses appartenant sur les comptes suisses de l'intermediaire taiwanais, andrew wang, 73 ans.
 l'enquete a taiwan
 - l'actuelle direction de thales, presidee par denis ranque, dit n'etre pas concernee par l'enquete, et s'est desolidarisee d'alain gomez, pdg de thomson csf au moment des faits.
 - jacques morisson : capitaine de vaisseau de la marine francaise, il etait negociateur du volet technique de la vente des fregates a taiwan.
@@ -1681,17 +1716,17 @@ references
 epilogue
 references
 isbn 2840985314
-republique de chine
 }
 Predicted: {
+- en 2001, le juge genevois paul perraudin a bloque a zurich 1,2 milliard de francs suisses appartenant sur les comptes suisses de l'intermediaire taiwanais, andrew wang, 73 ans.
 l'enquete a taiwan - l'actuelle direction de thales, presidee par denis ranque, dit n'etre pas concernee par l'enquete, et s'est desolidarisee d'alain gomez, pdg de thomson csf au moment des faits.
 - jacques morisson : capitaine de vaisseau de la marine francaise, il etait negociateur du volet technique de la vente des fregates a taiwan.
 il concut le montage financier de l'operation bravo.
-references - des fregates et des morts, swiss info, 22 juin 2002 epilogue references isbn 2840985314 republique de chine
+references - des fregates et des morts, swiss info, 22 juin 2002 epilogue references isbn 2840985314
 }
 False positives: {
 l'enquete a taiwan - l'actuelle direction de thales, presidee par denis ranque, dit n'etre pas concernee par l'enquete, et s'est desolidarisee d'alain gomez, pdg de thomson csf au moment des faits.
-references - des fregates et des morts, swiss info, 22 juin 2002 epilogue references isbn 2840985314 republique de chine
+references - des fregates et des morts, swiss info, 22 juin 2002 epilogue references isbn 2840985314
 } False negatives: {
 l'enquete a taiwan
 - l'actuelle direction de thales, presidee par denis ranque, dit n'etre pas concernee par l'enquete, et s'est desolidarisee d'alain gomez, pdg de thomson csf au moment des faits.
@@ -1700,10 +1735,10 @@ references
 epilogue
 references
 isbn 2840985314
-republique de chine
 }
 
 Expected: {
+cet entrainement sera renouvele demain, aux memes horaires.
 billard
 aviron
 une sortie nautique d'entrainement est organisee aujourd'hui, a partir de 9h, pour les rameurs du club.
@@ -1713,15 +1748,14 @@ il avait epouse denise pierrejean le 26 octobre 1974 et de leur union, sont nes 
 guy hosneld etait une personne tres connue dans la commune et aux alentours, pour son grand devouement aux autres et sa participation a la vie associative du village ;
 il a assure la presidence de la societe de peche "la gaule vidusienne" durant une dizaine d'annees.
 guy affectionnait beaucoup le jardinage, loisir partage avec denise, son epouse, qu'il a eu la douleur de perdre il y a quinze jours.
-il laisse a sa famille et amis, le souvenir d'un homme devoue, genereux, jovial, toujours pret a rendre service.
 }
 Predicted: {
+cet entrainement sera renouvele demain, aux memes horaires.
 billard aviron une sortie nautique d'entrainement est organisee aujourd'hui, a partir de 9h, pour les rameurs du club.
 deces de guy hosneld nous apprenons avec beaucoup de tristesse, le deces de guy hosneld, suite a une longue et douloureuse maladie, a l'age de 44 ans.
 il avait epouse denise pierrejean le 26 octobre 1974 et de leur union, sont nes une fille et deux garcons, ages respectivement de 24, 23 et 14 ans.
 guy hosneld etait une personne tres connue dans la commune et aux alentours, pour son grand devouement aux autres et sa participation a la vie associative du village ; il a assure la presidence de la societe de peche "la gaule vidusienne" durant une dizaine d'annees.
 guy affectionnait beaucoup le jardinage, loisir partage avec denise, son epouse, qu'il a eu la douleur de perdre il y a quinze jours.
-il laisse a sa famille et amis, le souvenir d'un homme devoue, genereux, jovial, toujours pret a rendre service.
 }
 False positives: {
 billard aviron une sortie nautique d'entrainement est organisee aujourd'hui, a partir de 9h, pour les rameurs du club.
@@ -1738,6 +1772,7 @@ il a assure la presidence de la societe de peche "la gaule vidusienne" durant un
 }
 
 Expected: {
+quel est le risque associe a l'utilisation de angiox ?
 l'effet indesirable le plus frequent avec angiox (observe chez plus d'un patient sur 10) est le saignement benin.
 angiox ne doit pas etre utilise chez les personnes pouvant presenter une hypersensibilite (allergie) a la bivalirudine, aux autres hirudines, ou a l'un des autres composants constituant angiox.
 il convient en outre de ne pas l'utiliser chez les patients ayant eu une hemorragie recente, souffrant d'hypertension aigue ou presentant des troubles graves des reins, ou encore chez les patients presentant une infection cardiaque.
@@ -1747,27 +1782,27 @@ le comite a recommande l'octroi d'une autorisation de mise sur le marche pour an
 autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004
 ©emea 2008
 numero ue
-nom de fantaisie
 }
 Predicted: {
+quel est le risque associe a l'utilisation de angiox ?
 l'effet indesirable le plus frequent avec angiox (observe chez plus d'un patient sur 10) est le saignement benin.
 angiox ne doit pas etre utilise chez les personnes pouvant presenter une hypersensibilite (allergie) a la bivalirudine, aux autres hirudines, ou a l'un des autres composants constituant angiox.
 il convient en outre de ne pas l'utiliser chez les patients ayant eu une hemorragie recente, souffrant d'hypertension aigue ou presentant des troubles graves des reins, ou encore chez les patients presentant une infection cardiaque.
 pour une liste complete des restrictions, voir la notice.
 le comite a conclu que les benefices de angiox sont superieurs aux risques qu'il comporte pour le traitement des patients adultes souffrant de sca et devant subir une intervention urgente ou precoce, avec de l'aspirine et du clopidogrel, et comme anticoagulant chez les patients subissant une intervention coronaire percutanee (icp).
 le comite a recommande l'octroi d'une autorisation de mise sur le marche pour angiox.
-autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004 ©emea 2008 numero ue nom de fantaisie
+autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004 ©emea 2008 numero ue
 }
 False positives: {
-autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004 ©emea 2008 numero ue nom de fantaisie
+autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004 ©emea 2008 numero ue
 } False negatives: {
 autres informations relatives a angiox : la commission europeenne a delivre une autorisation de mise sur le marche valide dans toute l'union europeenne pour angiox a the medicines company uk ltd, le 20 septembre 2004
 ©emea 2008
 numero ue
-nom de fantaisie
 }
 
 Expected: {
+frequent (1/100 a < 1/10)
 troubles du systeme immunitaire
 hypersensibilite
 troubles du systeme nerveux
@@ -1777,14 +1812,14 @@ saignements majeurs
 hematomes, hypotension,
 hemorragie, pseudoanevrisme vasculaire
 nausees, vomissements
-rash, urticaire
 }
 Predicted: {
-troubles du systeme immunitaire hypersensibilite troubles du systeme nerveux troubles cardiaques bradycardie saignements majeurs hematomes, hypotension, hemorragie, pseudoanevrisme vasculaire nausees, vomissements rash, urticaire
+frequent (1/100 a < 1/10) troubles du systeme immunitaire hypersensibilite troubles du systeme nerveux troubles cardiaques bradycardie saignements majeurs hematomes, hypotension, hemorragie, pseudoanevrisme vasculaire nausees, vomissements
 }
 False positives: {
-troubles du systeme immunitaire hypersensibilite troubles du systeme nerveux troubles cardiaques bradycardie saignements majeurs hematomes, hypotension, hemorragie, pseudoanevrisme vasculaire nausees, vomissements rash, urticaire
+frequent (1/100 a < 1/10) troubles du systeme immunitaire hypersensibilite troubles du systeme nerveux troubles cardiaques bradycardie saignements majeurs hematomes, hypotension, hemorragie, pseudoanevrisme vasculaire nausees, vomissements
 } False negatives: {
+frequent (1/100 a < 1/10)
 troubles du systeme immunitaire
 hypersensibilite
 troubles du systeme nerveux
@@ -1794,10 +1829,10 @@ saignements majeurs
 hematomes, hypotension,
 hemorragie, pseudoanevrisme vasculaire
 nausees, vomissements
-rash, urticaire
 }
 
 Expected: {
+une comparaison des etudes a dose unique et a doses repetees a revele que la toxicite etait principalement liee a la duree d'exposition.
 tous les effets indesirables, primaires et secondaires, resultant d'une activite pharmacologique excessive ont ete reversibles.
 apres une breve exposition comparable a celle qui prevaut lors d'une utilisation clinique, et meme apres une exposition a des doses bien plus elevees, il n'a pas ete observe d'effet indesirable resultant d'un stress physiologique prolonge en reponse a un etat de coagulation non homeostasique.
 la bivalirudine etant destinee a une administration de courte duree, on ne dispose d'aucune donnee concernant son potentiel carcinogene a long terme.
@@ -1807,15 +1842,14 @@ mannitol
 solution d'hydroxyde de sodium 2% (pour l'ajustement du ph).
 incompatibilites
 les medicaments suivants ne doivent pas etre administres dans la meme perfusion intraveineuse que la bivalirudine, parce que cela peut se traduire par la formation d'un trouble, la formation de microparticules ou une precipitation importante : alteplase, chlorhydrate d'amiodarone, amphotericine b, chlorhydrate de chlorpromazine, diazepam, edisylate de prochlorperazine, reteplase, streptokinase et chlorhydrate de vancomycine.
-4 ans
 }
 Predicted: {
+une comparaison des etudes a dose unique et a doses repetees a revele que la toxicite etait principalement liee a la duree d'exposition.
 tous les effets indesirables, primaires et secondaires, resultant d'une activite pharmacologique excessive ont ete reversibles.
 apres une breve exposition comparable a celle qui prevaut lors d'une utilisation clinique, et meme apres une exposition a des doses bien plus elevees, il n'a pas ete observe d'effet indesirable resultant d'un stress physiologique prolonge en reponse a un etat de coagulation non homeostasique.
 la bivalirudine etant destinee a une administration de courte duree, on ne dispose d'aucune donnee concernant son potentiel carcinogene a long terme.
 donnees pharmaceutiques liste des excipients mannitol solution d'hydroxyde de sodium 2% (pour l'ajustement du ph).
 incompatibilites les medicaments suivants ne doivent pas etre administres dans la meme perfusion intraveineuse que la bivalirudine, parce que cela peut se traduire par la formation d'un trouble, la formation de microparticules ou une precipitation importante : alteplase, chlorhydrate d'amiodarone, amphotericine b, chlorhydrate de chlorpromazine, diazepam, edisylate de prochlorperazine, reteplase, streptokinase et chlorhydrate de vancomycine.
-4 ans
 }
 False positives: {
 donnees pharmaceutiques liste des excipients mannitol solution d'hydroxyde de sodium 2% (pour l'ajustement du ph).
@@ -1830,6 +1864,7 @@ les medicaments suivants ne doivent pas etre administres dans la meme perfusion 
 }
 
 Expected: {
+- avant le debut de la procedure, votre medecin vous informera sur les signes de reaction allergique (hypersensibilite).
 - si vous suivez une procedure de type brachytherapie beta ou gamma, votre medecin vous controlera encore plus soigneusement.
 - la dose administree depend de votre poids et du traitement qui vous a ete prescrit.
 dosage
@@ -1839,14 +1874,13 @@ un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
 0.25 mg/kg/h signifie un quart d'un milligramme pour chaque kilogramme de poids corporel, par heure)
 si, apres cela, vous devez beneficier d'une intervention coronaire percutanee (icp), il vous sera administre :
 - apres l'intervention, la perfusion sera ramenee a 0,25 mg/kg/h.
-pour les patients beneficiant d'une intervention coronaire percutanee (icp), la dose recommandee est :
 }
 Predicted: {
+- avant le debut de la procedure, votre medecin vous informera sur les signes de reaction allergique (hypersensibilite).
 - si vous suivez une procedure de type brachytherapie beta ou gamma, votre medecin vous controlera encore plus soigneusement.
 - la dose administree depend de votre poids et du traitement qui vous a ete prescrit.
 dosage pour les patients atteints d'un sca, la dose initiale recommandee est : un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
 (0.1 mg/kg signifie un dixieme d'un milligramme du medicament pour chaque kilogramme de poids corporel ; 0.25 mg/kg/h signifie un quart d'un milligramme pour chaque kilogramme de poids corporel, par heure) si, apres cela, vous devez beneficier d'une intervention coronaire percutanee (icp), il vous sera administre : - apres l'intervention, la perfusion sera ramenee a 0,25 mg/kg/h.
-pour les patients beneficiant d'une intervention coronaire percutanee (icp), la dose recommandee est :
 }
 False positives: {
 dosage pour les patients atteints d'un sca, la dose initiale recommandee est : un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
@@ -1862,6 +1896,7 @@ si, apres cela, vous devez beneficier d'une intervention coronaire percutanee (i
 }
 
 Expected: {
+patients ages (65 ans)
 enfants et adolescents
 la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
 aclasta n'est pas recommande chez les patients atteints d'insuffisance renale severe (clairance de la creatinine < 35 ml/min) en raison d'une experience clinique limitee dans cette population.
@@ -1871,10 +1906,9 @@ la prudence est requise en cas d'administration concomitante d'aclasta et de med
 une hypocalcemie preexistante doit etre traitee par des apports appropries de calcium et de vitamine d avant l'instauration du traitement par aclasta (voir rubrique 4.3).
 un remodelage osseux eleve est l'une des caracteristiques de la maladie de paget.
 en raison du delai d'action rapide de l'acide zoledronique sur le remodelage osseux, une hypocalcemie transitoire, parfois symptomatique, peut se produire et atteint generalement une valeur maximale dans les 10 premiers jours suivant l'administration d'aclasta (voir rubrique 4.8).
-il est recommande de mesurer la calcemie avant la perfusion d'aclasta chez les patients atteints de la maldie osseuse de paget.
 }
 Predicted: {
-enfants et adolescents la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
+patients ages (65 ans) enfants et adolescents la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
 aclasta n'est pas recommande chez les patients atteints d'insuffisance renale severe (clairance de la creatinine < 35 ml/min) en raison d'une experience clinique limitee dans cette population.
 la creatininemie devra etre mesuree avant l'administration d'aclasta.
 cela est particulierement important pour les patients ages et pour les patients recevant un traitement diuretique.
@@ -1882,16 +1916,17 @@ la prudence est requise en cas d'administration concomitante d'aclasta et de med
 une hypocalcemie preexistante doit etre traitee par des apports appropries de calcium et de vitamine d avant l'instauration du traitement par aclasta (voir rubrique 4.3).
 un remodelage osseux eleve est l'une des caracteristiques de la maladie de paget.
 en raison du delai d'action rapide de l'acide zoledronique sur le remodelage osseux, une hypocalcemie transitoire, parfois symptomatique, peut se produire et atteint generalement une valeur maximale dans les 10 premiers jours suivant l'administration d'aclasta (voir rubrique 4.8).
-il est recommande de mesurer la calcemie avant la perfusion d'aclasta chez les patients atteints de la maldie osseuse de paget.
 }
 False positives: {
-enfants et adolescents la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
+patients ages (65 ans) enfants et adolescents la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
 } False negatives: {
+patients ages (65 ans)
 enfants et adolescents
 la dose de 5 mg d'acide zoledronique doit etre administree pendant au moins 15 minutes.
 }
 
 Expected: {
+l'histologie osseuse a ete evaluee 6 mois apres le traitement par 5 mg d'acide zoledronique chez 7 patients atteints de la maladie de paget.
 les resultats de la biopsie osseuse ont mis en evidence un os de qualite normale, sans signe d'alteration du remodelage osseux et sans signe de defaut de mineralisation.
 ces resultats etaient coherents avec la normalisation du remodelage osseux mise en evidence par les marqueurs biochimiques osseux.
 aucune accumulation de la substance active n'a ete observee dans le plasma apres l'administration de doses multiples tous les 28 jours.
@@ -1901,9 +1936,9 @@ il est ensuite libere tres lentement du tissu osseux dans la circulation systemi
 la clairance corporelle totale est de 5,04 ± 2,5 l/h, elle est independante de la dose et n'est pas influencee par le sexe, l'age, l'ethnie ou le poids corporel.
 osteoporose
 l'osteoporose est une maladie induisant un amincissement et une fragilisation des os.
-a la menopause, les ovaires arretent leur production d'hormones feminines, les estrogenes, qui permet de maintenir les os en bonne sante.
 }
 Predicted: {
+l'histologie osseuse a ete evaluee 6 mois apres le traitement par 5 mg d'acide zoledronique chez 7 patients atteints de la maladie de paget.
 les resultats de la biopsie osseuse ont mis en evidence un os de qualite normale, sans signe d'alteration du remodelage osseux et sans signe de defaut de mineralisation.
 ces resultats etaient coherents avec la normalisation du remodelage osseux mise en evidence par les marqueurs biochimiques osseux.
 aucune accumulation de la substance active n'a ete observee dans le plasma apres l'administration de doses multiples tous les 28 jours.
@@ -1912,7 +1947,6 @@ au cours des 24 premieres heures, 39 ± 16% de la dose administree sont recupere
 il est ensuite libere tres lentement du tissu osseux dans la circulation systemique et elimine par voie renale.
 la clairance corporelle totale est de 5,04 ± 2,5 l/h, elle est independante de la dose et n'est pas influencee par le sexe, l'age, l'ethnie ou le poids corporel.
 osteoporose l'osteoporose est une maladie induisant un amincissement et une fragilisation des os.
-a la menopause, les ovaires arretent leur production d'hormones feminines, les estrogenes, qui permet de maintenir les os en bonne sante.
 }
 False positives: {
 osteoporose l'osteoporose est une maladie induisant un amincissement et une fragilisation des os.
@@ -1922,6 +1956,7 @@ l'osteoporose est une maladie induisant un amincissement et une fragilisation de
 }
 
 Expected: {
+je remercie le president en exercice pour sa reponse.
 je suis certain qu'il a conscience de la menace tres grave qui pese sur le modele europeen fonde sur l'exploitation familiale.
 les premiers concernes sont les producteurs de viande de boeuf et de mouton, dont on attend aujourd'hui qu'ils vendent leurs produits a des prix egaux ou inferieurs a leurs couts de production.
 notre groupe les approuvera donc.
@@ -1931,9 +1966,9 @@ le present document repond tout a fait a cet objectif.
 et l'electricite represente 35% de l'ensemble de la consommation energetique au sein de l'ue.
 si nous parvenons a atteindre nos objectifs, nous aurons economise, en 2020, 6 millions de tonnes d'emissions de co2 par an.
 nous economiserons 10% de la consommation d'electricite a des fins d'eclairage a l'aide de tubes fluorescents, ce qui, traduit en argent, constitue une economie de 250 millions d'euros par an.
-cette proposition aura egalement des effets considerables sur le climat et sur l'economie et, si nous realisons les objectifs proposes, notre industrie aura un temps suffisamment long pour se restructurer.
 }
 Predicted: {
+je remercie le president en exercice pour sa reponse.
 je suis certain qu'il a conscience de la menace tres grave qui pese sur le modele europeen fonde sur l'exploitation familiale.
 les premiers concernes sont les producteurs de viande de boeuf et de mouton, dont on attend aujourd'hui qu'ils vendent leurs produits a des prix egaux ou inferieurs a leurs couts de production.
 notre groupe les approuvera donc.
@@ -1942,7 +1977,6 @@ le present document repond tout a fait a cet objectif.
 et l'electricite represente 35% de l'ensemble de la consommation energetique au sein de l'ue.
 si nous parvenons a atteindre nos objectifs, nous aurons economise, en 2020, 6 millions de tonnes d'emissions de co2 par an.
 nous economiserons 10% de la consommation d'electricite a des fins d'eclairage a l'aide de tubes fluorescents, ce qui, traduit en argent, constitue une economie de 250 millions d'euros par an.
-cette proposition aura egalement des effets considerables sur le climat et sur l'economie et, si nous realisons les objectifs proposes, notre industrie aura un temps suffisamment long pour se restructurer.
 }
 False positives: {
 nous savons qu'a mesure que l'asie beneficiera d'un niveau de vie accru, 1,4 milliard de chinois et 1 milliard d'indiens commenceront a consommer de plus en plus d'energie ; nous nous sommes engages a rio a proteger le climat.
@@ -1952,6 +1986,7 @@ nous nous sommes engages a rio a proteger le climat.
 }
 
 Expected: {
+affaire des couveuses au koweit
 l'affaire des couveuses en irak s'est deroulee le 10 octobre 1990, lors de l'invasion du koweit par les armees de saddam hussein et etait destinee a justifier l'entree en guerre des puissances occidentales contre l'irak aupres de l'opinion publique.
 une jeune femme temoigne, les larmes au yeux, devant le congres americain.
 l'evenement est retransmis rapidement par les televisions du monde entier :
@@ -1961,10 +1996,9 @@ ma soeur ainee avait accouche le 29 juillet et nous voulions passer quelques tem
 [...] pendant que j'etais la, j'ai vu les soldats irakiens entrer dans l'hopital avec leurs armes.
 ils ont tire sur les bebes des couveuses, ils ont pris les couveuses et ont laisse mourir les bebes sur le sol froid.
 j'etais horrifiee.
-[...] les irakiens ont tout detruit au koweit.
 }
 Predicted: {
-l'affaire des couveuses en irak s'est deroulee le 10 octobre 1990, lors de l'invasion du koweit par les armees de saddam hussein et etait destinee a justifier l'entree en guerre des puissances occidentales contre l'irak aupres de l'opinion publique.
+affaire des couveuses au koweit l'affaire des couveuses en irak s'est deroulee le 10 octobre 1990, lors de l'invasion du koweit par les armees de saddam hussein et etait destinee a justifier l'entree en guerre des puissances occidentales contre l'irak aupres de l'opinion publique.
 une jeune femme temoigne, les larmes au yeux, devant le congres americain.
 l'evenement est retransmis rapidement par les televisions du monde entier : "monsieur le president, messieurs les membres de ce comite, je m'appelle nayirah et je reviens du koweit.
 ma mere et moi etions au koweit le 2 aout pour passer de paisibles vacances.
@@ -1972,16 +2006,19 @@ ma soeur ainee avait accouche le 29 juillet et nous voulions passer quelques tem
 [...] pendant que j'etais la, j'ai vu les soldats irakiens entrer dans l'hopital avec leurs armes.
 ils ont tire sur les bebes des couveuses, ils ont pris les couveuses et ont laisse mourir les bebes sur le sol froid.
 j'etais horrifiee.
-[...] les irakiens ont tout detruit au koweit.
 }
 False positives: {
+affaire des couveuses au koweit l'affaire des couveuses en irak s'est deroulee le 10 octobre 1990, lors de l'invasion du koweit par les armees de saddam hussein et etait destinee a justifier l'entree en guerre des puissances occidentales contre l'irak aupres de l'opinion publique.
 l'evenement est retransmis rapidement par les televisions du monde entier : "monsieur le president, messieurs les membres de ce comite, je m'appelle nayirah et je reviens du koweit.
 } False negatives: {
+affaire des couveuses au koweit
+l'affaire des couveuses en irak s'est deroulee le 10 octobre 1990, lors de l'invasion du koweit par les armees de saddam hussein et etait destinee a justifier l'entree en guerre des puissances occidentales contre l'irak aupres de l'opinion publique.
 l'evenement est retransmis rapidement par les televisions du monde entier :
 "monsieur le president, messieurs les membres de ce comite, je m'appelle nayirah et je reviens du koweit.
 }
 
 Expected: {
+voir aussi
 categories : financement illegal du rpr.
 histoire de paris
 affaire des faux electeurs du 3e arrondissement de paris
@@ -1991,21 +2028,22 @@ chronologie
 - 4 janvier 1989 : quelques semaines avant les elections municipales de 1989, l'hebdomadaire le canard enchaine publie un article denoncant des inscriptions illegales a paris d'electeurs n'y residant pas.
 - 9 janvier 1989 : quatre electeurs ecologistes deposent plainte a paris avec constitution de partie civile.
 une fraude aux "faux" electeurs est suspectee dans plusieurs arrondissements parisiens, mais les investigations se limiteront rapidement au seul 3e arrondissement.
-- 15 fevrier 1989 : la cour de cassation renvoie le dossier a amiens en vertu du privilege de juridiction qui impose alors le depaysement des dossiers mettant en cause des elus.
 }
 Predicted: {
-categories : financement illegal du rpr.
+voir aussi categories : financement illegal du rpr.
 histoire de paris affaire des faux electeurs du 3e arrondissement de paris l'affaire des faux electeurs du 3e arrondissement de paris est une affaire de fraude electorale.
 selon une liste retrouvee fortuitement dans les ordinateurs de la mairie du 3e arrondissement en 1995, de nombreux membres plus ou moins eloignes de la famille dominati, des chauffeurs ou anciens chauffeurs de l'udf et de la mairie ainsi que leurs epouses, avaient ete inscrits frauduleusement.
 chronologie - 4 janvier 1989 : quelques semaines avant les elections municipales de 1989, l'hebdomadaire le canard enchaine publie un article denoncant des inscriptions illegales a paris d'electeurs n'y residant pas.
 - 9 janvier 1989 : quatre electeurs ecologistes deposent plainte a paris avec constitution de partie civile.
 une fraude aux "faux" electeurs est suspectee dans plusieurs arrondissements parisiens, mais les investigations se limiteront rapidement au seul 3e arrondissement.
-- 15 fevrier 1989 : la cour de cassation renvoie le dossier a amiens en vertu du privilege de juridiction qui impose alors le depaysement des dossiers mettant en cause des elus.
 }
 False positives: {
+voir aussi categories : financement illegal du rpr.
 histoire de paris affaire des faux electeurs du 3e arrondissement de paris l'affaire des faux electeurs du 3e arrondissement de paris est une affaire de fraude electorale.
 chronologie - 4 janvier 1989 : quelques semaines avant les elections municipales de 1989, l'hebdomadaire le canard enchaine publie un article denoncant des inscriptions illegales a paris d'electeurs n'y residant pas.
 } False negatives: {
+voir aussi
+categories : financement illegal du rpr.
 histoire de paris
 affaire des faux electeurs du 3e arrondissement de paris
 l'affaire des faux electeurs du 3e arrondissement de paris est une affaire de fraude electorale.
@@ -2014,6 +2052,7 @@ chronologie
 }
 
 Expected: {
+l'ancien ministre a assure que "c'etait legal et regulier" mais a refuse de reveler le montant de ces commissions au nom du "secret defense".
 ces commissions sont par ailleurs deductibles d'impot puisqu'elles sont considerees comme des frais de prospection.
 - cette autorisation est maintenant interdite depuis la ratification par la france de la convention de l'ocde contre la corruption.
 references
@@ -2023,9 +2062,9 @@ les juges francais estiment que 3 milliards de francs (environ 458 millions d'eu
 l'enquete des juges francais a ete close le 2 octobre 2006.
 - 500 millions de dollars ont ete bloques sur les 46 comptes suisses de l'intermediaire andrew wang (certains au nom de ses proches).
 - le retour vers l'europe d'une partie de cette masse enorme (retrocommissions) a nourri d'importants fantasmes dont le prolongement a ete trouve dans l'affaire clearstream 2, dont la base est la scenarisation par le "corbeau" de distribution de ces retrocommissions a travers la boite noire financiere clearstream.
-- une autre enquete est en cours a taiwan pour les actes de corruption des fonctionnaires et des personnalites politiques taiwanaises.
 }
 Predicted: {
+l'ancien ministre a assure que "c'etait legal et regulier" mais a refuse de reveler le montant de ces commissions au nom du "secret defense".
 ces commissions sont par ailleurs deductibles d'impot puisqu'elles sont considerees comme des frais de prospection.
 - cette autorisation est maintenant interdite depuis la ratification par la france de la convention de l'ocde contre la corruption.
 references - fregates de taiwan : charasse se defend, ap, 28 mai 2004 - une information judiciaire francaise, ouverte contre x en juin 2001, pour "abus de biens sociaux et recel", concerne d'eventuelles retrocommissions versees a des personnalites francaises en marge de la vente des fregates.
@@ -2033,7 +2072,6 @@ les juges francais estiment que 3 milliards de francs (environ 458 millions d'eu
 l'enquete des juges francais a ete close le 2 octobre 2006.
 - 500 millions de dollars ont ete bloques sur les 46 comptes suisses de l'intermediaire andrew wang (certains au nom de ses proches).
 - le retour vers l'europe d'une partie de cette masse enorme (retrocommissions) a nourri d'importants fantasmes dont le prolongement a ete trouve dans l'affaire clearstream 2, dont la base est la scenarisation par le "corbeau" de distribution de ces retrocommissions a travers la boite noire financiere clearstream.
-- une autre enquete est en cours a taiwan pour les actes de corruption des fonctionnaires et des personnalites politiques taiwanaises.
 }
 False positives: {
 references - fregates de taiwan : charasse se defend, ap, 28 mai 2004 - une information judiciaire francaise, ouverte contre x en juin 2001, pour "abus de biens sociaux et recel", concerne d'eventuelles retrocommissions versees a des personnalites francaises en marge de la vente des fregates.
@@ -2044,6 +2082,7 @@ references
 }
 
 Expected: {
+voir aussi
 - affaire des hlm de paris
 - financement illegal du rpr
 affaire des hlm de paris
@@ -2053,20 +2092,19 @@ l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour 
 - 9 fevrier 1994 : ouverture d'une information judiciaire confiee au juge d'instruction eric halphen.
 selon le monde du 25 janvier 2006, une "petite chemise rose" en provenance du ministere du budget, alors dirige par nicolas sarkozy, atterrit sur le bureau d'instruction du juge eric halphen.
 - 3 aout 1994 : le juge eric halphen place sous mandat de depot francis poullain.
-le montant des fausses factures est estimee a 20 millions de francs.
 }
 Predicted: {
-- affaire des hlm de paris - financement illegal du rpr affaire des hlm de paris l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour des faits s'etendant entre 1989 et 1995.
+voir aussi - affaire des hlm de paris - financement illegal du rpr affaire des hlm de paris l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour des faits s'etendant entre 1989 et 1995.
 - janvier 1994 : le fisc decouvre qu'une societe d'assistance commerciale, la seatib, adresse des factures ne correspondant a aucune prestation a une entreprise specialisee dans le revetement de facades, la sar, dirigee par un ancien gardien de la paix, gaulliste de toujours et proche de chirac, francis poullain.
 - 20 janvier 1994 : la direction generale des impots (dgi) transmet au parquet de creteil une enquete sur une entreprise appartenant a francis poullain, soupconne d'avoir regle des fausses factures par l'intermediaire de ses societes, lesquelles auraient beneficie de marches passes par l'opac (office public d'amenagement et de construction de la ville de paris).
 - 9 fevrier 1994 : ouverture d'une information judiciaire confiee au juge d'instruction eric halphen.
 selon le monde du 25 janvier 2006, une "petite chemise rose" en provenance du ministere du budget, alors dirige par nicolas sarkozy, atterrit sur le bureau d'instruction du juge eric halphen.
 - 3 aout 1994 : le juge eric halphen place sous mandat de depot francis poullain.
-le montant des fausses factures est estimee a 20 millions de francs.
 }
 False positives: {
-- affaire des hlm de paris - financement illegal du rpr affaire des hlm de paris l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour des faits s'etendant entre 1989 et 1995.
+voir aussi - affaire des hlm de paris - financement illegal du rpr affaire des hlm de paris l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour des faits s'etendant entre 1989 et 1995.
 } False negatives: {
+voir aussi
 - affaire des hlm de paris
 - financement illegal du rpr
 affaire des hlm de paris
@@ -2074,6 +2112,7 @@ l'enquete sur l'affaire des hlm de paris (opac) a debute en septembre 1994 pour 
 }
 
 Expected: {
+les clubs italiens font appel.
 ils mettent en avant le manque de temoignages les concernant.
 le 25 juillet, contrairement a ce que demandait le procureur stefano palazzi qui souhaitait une aggravation des peines, la cour federale d'appel de la justice sportive les revoit a la baisse.
 la juve est finalement le seul club relegue et le milan ac, penalise de 30 points, passe de la seconde a la quatrieme place et participera au tour preliminaire de la ligue des champions.
@@ -2083,33 +2122,31 @@ condamnations intermediaires
 notes & references
 - ^ cf. "quand la juve choisit l'arbitre...", l'equipe, 5 mai 2006
 - ^ cf. "le conseil demissionne", l'equipe, 11 mai 2006
-- ^ cf. "la juventus en serie b", l'equipe, 14 juillet 2006
 }
 Predicted: {
+les clubs italiens font appel.
 ils mettent en avant le manque de temoignages les concernant.
 le 25 juillet, contrairement a ce que demandait le procureur stefano palazzi qui souhaitait une aggravation des peines, la cour federale d'appel de la justice sportive les revoit a la baisse.
 la juve est finalement le seul club relegue et le milan ac, penalise de 30 points, passe de la seconde a la quatrieme place et participera au tour preliminaire de la ligue des champions.
 la fiorentina et la lazio de rome restent en serie a mais sont privees de coupe d'europe.
 rebondissement le 27 octobre 2006 par suite de la decision de la cour arbitrale du comite national olympique italien : les clubs condamnes voient leurs penalites reduites de facon importante, ainsi la juventus passe de 17 a 9 points de retard, la fiorentina de 19 a 15 et la lazio de 11 a 3. condamnations intermediaires notes & references - ^ cf.
 "quand la juve choisit l'arbitre...", l'equipe, 5 mai 2006 - ^ cf.
-"le conseil demissionne", l'equipe, 11 mai 2006 - ^ cf.
-"la juventus en serie b", l'equipe, 14 juillet 2006
+"le conseil demissionne", l'equipe, 11 mai 2006
 }
 False positives: {
 rebondissement le 27 octobre 2006 par suite de la decision de la cour arbitrale du comite national olympique italien : les clubs condamnes voient leurs penalites reduites de facon importante, ainsi la juventus passe de 17 a 9 points de retard, la fiorentina de 19 a 15 et la lazio de 11 a 3. condamnations intermediaires notes & references - ^ cf.
 "quand la juve choisit l'arbitre...", l'equipe, 5 mai 2006 - ^ cf.
-"le conseil demissionne", l'equipe, 11 mai 2006 - ^ cf.
-"la juventus en serie b", l'equipe, 14 juillet 2006
+"le conseil demissionne", l'equipe, 11 mai 2006
 } False negatives: {
 rebondissement le 27 octobre 2006 par suite de la decision de la cour arbitrale du comite national olympique italien : les clubs condamnes voient leurs penalites reduites de facon importante, ainsi la juventus passe de 17 a 9 points de retard, la fiorentina de 19 a 15 et la lazio de 11 a 3.
 condamnations intermediaires
 notes & references
 - ^ cf. "quand la juve choisit l'arbitre...", l'equipe, 5 mai 2006
 - ^ cf. "le conseil demissionne", l'equipe, 11 mai 2006
-- ^ cf. "la juventus en serie b", l'equipe, 14 juillet 2006
 }
 
 Expected: {
+l'aventure coloniale n'a ete profitable que pour quelques grandes compagnies privees, comme la banque d'indochine, descours & cabaud, les brasseries et glacieres d'indochine, etc.
 les banquiers n'ont jamais ete arretes ni juges, a l'exception de la chartered bank qui fut inculpee pour des pratiques nettement frauduleuses.
 le "scandale des piastres" fut ramene a l'etat de detail exotique et insignifiant, indigne d'etre mentionne dans les manuels d'histoire.
 references bibliographiques
@@ -2119,17 +2156,17 @@ references bibliographiques
 - guerre d'indochine
 liens externes
 - guerre d'indochine
-- dernier resume : l'"affaire des piastres"
 }
 Predicted: {
+l'aventure coloniale n'a ete profitable que pour quelques grandes compagnies privees, comme la banque d'indochine, descours & cabaud, les brasseries et glacieres d'indochine, etc.
 les banquiers n'ont jamais ete arretes ni juges, a l'exception de la chartered bank qui fut inculpee pour des pratiques nettement frauduleuses.
 le "scandale des piastres" fut ramene a l'etat de detail exotique et insignifiant, indigne d'etre mentionne dans les manuels d'histoire.
 references bibliographiques - paul mus, vietnam : sociologie d'une guerre, seuil, paris, 1952.
-- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine francaise - guerre d'indochine liens externes - guerre d'indochine - dernier resume : l'"affaire des piastres"
+- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine francaise - guerre d'indochine liens externes - guerre d'indochine
 }
 False positives: {
 references bibliographiques - paul mus, vietnam : sociologie d'une guerre, seuil, paris, 1952.
-- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine francaise - guerre d'indochine liens externes - guerre d'indochine - dernier resume : l'"affaire des piastres"
+- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine francaise - guerre d'indochine liens externes - guerre d'indochine
 } False negatives: {
 references bibliographiques
 - paul mus, vietnam : sociologie d'une guerre, seuil, paris, 1952.
@@ -2138,5 +2175,4 @@ references bibliographiques
 - guerre d'indochine
 liens externes
 - guerre d'indochine
-- dernier resume : l'"affaire des piastres"
 }

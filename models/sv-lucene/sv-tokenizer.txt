@@ -1,7 +1,7 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9995799613564449
+Evaluation-Score=0.9995167525773195
 Training-Sample-Size=10143
-Evaluation-Sample-Size=1126
+Evaluation-Sample-Size=1127
 Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
@@ -9,65 +9,76 @@ Component-Name=TokenizerME
 Language=sv
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713754781925
+Timestamp=1716349846319
 TrainerType=Event
-Training-Eventhash=798db7474a535f17a101619b7f1058d3
+Training-Eventhash=4979e80536cc61cffb12b567ebfaadf0
 alphaNumericPattern=^[A-Za-z0-9]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
 Expected: {
-adnan z. amin<SPLIT>, generaldirektor for den internationella organisationen for fornyelsebara energier (<SPLIT>irena<SPLIT>)<SPLIT>, ar saker<SPLIT>: "<SPLIT>vindkraft till havs kan bli den storsta energikallan i en global ekonomi som ar fri fran kolbaserad energi<SPLIT>.<SPLIT>"}
+sammantradet avbrots kl. 11.25 i avvaktan pa omrostningen<SPLIT>, och aterupptogs kl. 11.30<SPLIT>.}
 Predicted: {
-adnan z<SPLIT>. amin<SPLIT>, generaldirektor for den internationella organisationen for fornyelsebara energier (<SPLIT>irena<SPLIT>)<SPLIT>, ar saker<SPLIT>: "<SPLIT>vindkraft till havs kan bli den storsta energikallan i en global ekonomi som ar fri fran kolbaserad energi<SPLIT>.<SPLIT>"}
+sammantradet avbrots kl. 11<SPLIT>.25 i avvaktan pa omrostningen<SPLIT>, och aterupptogs kl. 11.30<SPLIT>.}
 False positives: {
-z
-.
+11
+.25
 } False negatives: {
-z.
+11.25
 }
 
 Expected: {
-fackforbundet force ouvriere beklagar att dess anmarkningar pa guidens innehall inte inkluderades<SPLIT>: "<SPLIT>det var egentligen inte nagon overlaggning<SPLIT>,<SPLIT>" sade ms. gillard<SPLIT>.}
+jag traffade gwenzis bror i london en dag medan han arbetade i gray's inn<SPLIT>;}
 Predicted: {
-fackforbundet force ouvriere beklagar att dess anmarkningar pa guidens innehall inte inkluderades<SPLIT>: "<SPLIT>det var egentligen inte nagon overlaggning<SPLIT>,<SPLIT>" sade ms<SPLIT>. gillard<SPLIT>.}
+jag traffade gwenzis bror i london en dag medan han arbetade i gray'<SPLIT>s inn<SPLIT>;}
 False positives: {
-ms
-.
+gray'
+s
 } False negatives: {
-ms.
+gray's
 }
 
 Expected: {
-foljden blir ett efterfrageoverskott = e<SPLIT>.}
+2010 publicerade stiftelsen en typsatt utgava av "<SPLIT>zettel's traum<SPLIT>"<SPLIT>, vilket tog bort intradeshindret for de som ryggat for den utkastliknande kanslan av den fotografiska offseten<SPLIT>.}
 Predicted: {
-foljden blir ett efterfrageoverskott = e.}
+2010 publicerade stiftelsen en typsatt utgava av "<SPLIT>zettel'<SPLIT>s traum<SPLIT>"<SPLIT>, vilket tog bort intradeshindret for de som ryggat for den utkastliknande kanslan av den fotografiska offseten<SPLIT>.}
 False positives: {
-e.
+zettel'
+s
 } False negatives: {
-e
+zettel's
+}
+
+Expected: {
+det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk "<SPLIT>hog plats<SPLIT>" fran medelbronsalder<SPLIT>, ca 1600 f.v.t<SPLIT>.}
+Predicted: {
+det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk "<SPLIT>hog plats<SPLIT>" fran medelbronsalder<SPLIT>, ca 1600 f.v.t.}
+False positives: {
+f.v.t.
+} False negatives: {
+f.v.t
 .
 }
 
 Expected: {
-se ocksa sveri m.fl. , kap. 1<SPLIT>.}
+enligt le figaro kan denna regeringsplan frigora upp till 42 miljoner euro<SPLIT>, varav 15,5 miljoner skulle ga till sakerhet<SPLIT>.}
 Predicted: {
-se ocksa sveri m.fl. , kap. 1.}
+enligt le figaro kan denna regeringsplan frigora upp till 42 miljoner euro<SPLIT>, varav 15<SPLIT>,5 miljoner skulle ga till sakerhet<SPLIT>.}
 False positives: {
-1.
+15
+,5
 } False negatives: {
-1
-.
+15,5
 }
 
 Expected: {
-1 i kor. 7:2<SPLIT>.}
+svarsfrekvenserna bestyrker i nagon man parsons och bales' antagande<SPLIT>.}
 Predicted: {
-1 i kor<SPLIT>. 7:2<SPLIT>.}
+svarsfrekvenserna bestyrker i nagon man parsons och bales<SPLIT>' antagande<SPLIT>.}
 False positives: {
-kor
-.
+bales
+'
 } False negatives: {
-kor.
+bales'
 }

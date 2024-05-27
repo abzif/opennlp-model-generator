@@ -1,5 +1,5 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.8457350272232306
+Evaluation-Score=0.8446866485013624
 Training-Sample-Size=1015
 Evaluation-Sample-Size=112
 Training-Algorithm=MAXENT
@@ -9,9 +9,9 @@ Component-Name=SentenceDetectorME
 Language=sv
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713754759876
+Timestamp=1716349825912
 TrainerType=Event
-Training-Eventhash=5f240301cc874ef1813cdbe4cc100b81
+Training-Eventhash=7e138c8c12007ab982c083c0a9ae773f
 eosCharacters=.?!
 factory=opennlp.tools.sentdetect.SentenceDetectorFactory
 useTokenEnd=true
@@ -624,6 +624,7 @@ sager han.
 }
 
 Expected: {
+och sa flog den ivag och fartyget fortsatte pa sin smutsiga bana.
 det ar vattnet som pumpas in i tankarna som ballast och sen pumpas ut igen som fororenar havsvattnet, sager john.
 innan jag for fran chicago sa konstkritikern harold rosenberg till mig: "du ska fara till jerusalem?
 och du undrar om folk kommer att tala oppet med dig?
@@ -633,9 +634,9 @@ om en dorr i ett flygplan gar upp nar man ar i luften sugs man ut i rymden.
 gar man ut har i jerusalem och stanger dorren till sin vaning bakom sig dras man in i en stormvind av konversation utlaggningar, argument, haranger, analyser, teorier, forebraelser, hotelser och spadomar.
 av diplomater far man hora listigt formulerade forklaringar;
 ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor;
-foraldrar och barn ger uttryck at dodliga motsattningar;
 }
 Predicted: {
+och sa flog den ivag och fartyget fortsatte pa sin smutsiga bana.
 det ar vattnet som pumpas in i tankarna som ballast och sen pumpas ut igen som fororenar havsvattnet, sager john.
 innan jag for fran chicago sa konstkritikern harold rosenberg till mig: "du ska fara till jerusalem?
 och du undrar om folk kommer att tala oppet med dig?
@@ -643,17 +644,17 @@ nu skamtar du val anda de kommer att prata dig fordarvad."
 detta sa han om den judiska talformagan som en jude till en annan.
 om en dorr i ett flygplan gar upp nar man ar i luften sugs man ut i rymden.
 gar man ut har i jerusalem och stanger dorren till sin vaning bakom sig dras man in i en stormvind av konversation utlaggningar, argument, haranger, analyser, teorier, forebraelser, hotelser och spadomar.
-av diplomater far man hora listigt formulerade forklaringar; ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor; foraldrar och barn ger uttryck at dodliga motsattningar;
+av diplomater far man hora listigt formulerade forklaringar; ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor;
 }
 False positives: {
-av diplomater far man hora listigt formulerade forklaringar; ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor; foraldrar och barn ger uttryck at dodliga motsattningar;
+av diplomater far man hora listigt formulerade forklaringar; ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor;
 } False negatives: {
 av diplomater far man hora listigt formulerade forklaringar;
 ansvarsfulla personer avger motvilligt forsiktiga utlatanden som innebar omskrivningar och forbattringar av ens egna fragor;
-foraldrar och barn ger uttryck at dodliga motsattningar;
 }
 
 Expected: {
+ogonen, av den vanliga bla fargen, var kanske anmarkningsvart kalla och han kunde otvivelaktigt hugga till en med blicken skarpt och djupt som med en yxa.
 men till och med vid sadana tillfallen tycktes hans ovriga person forneka avsikten.
 for ovrigt lade man bara marke till att hans lappar hade ett odefinierbart, svavande uttryck, nagonting forstulet - ett leende - nej, inte ett leende - jag minns det, men jag kan inte beskriva det.
 det var omedvetet, det dar leendet, men det djupnade alltid for ett ogonblick just som han hade sagt nagot.
@@ -663,9 +664,9 @@ han blev atlydd, men han ingav varken tillgivenhet eller fruktan, inte ens respe
 han ingav en kansla av osakerhet. just det! osakerhet. inte nagon bestamd misstro - bara osakerhet, inget annat.
 ni anar inte hur effektiv en san... en san... formaga kan vara.
 han hade ingen begavning for organisation, inget initiativ, inte ens nagot sinne for ordning.
-det syntes pa det bedrovliga skick stationen befann sig i.
 }
 Predicted: {
+ogonen, av den vanliga bla fargen, var kanske anmarkningsvart kalla och han kunde otvivelaktigt hugga till en med blicken skarpt och djupt som med en yxa.
 men till och med vid sadana tillfallen tycktes hans ovriga person forneka avsikten.
 for ovrigt lade man bara marke till att hans lappar hade ett odefinierbart, svavande uttryck, nagonting forstulet - ett leende - nej, inte ett leende - jag minns det, men jag kan inte beskriva det.
 det var omedvetet, det dar leendet, men det djupnade alltid for ett ogonblick just som han hade sagt nagot.
@@ -677,7 +678,6 @@ just det! osakerhet.
 inte nagon bestamd misstro - bara osakerhet, inget annat.
 ni anar inte hur effektiv en san... en san... formaga kan vara.
 han hade ingen begavning for organisation, inget initiativ, inte ens nagot sinne for ordning.
-det syntes pa det bedrovliga skick stationen befann sig i.
 }
 False positives: {
 han ingav en kansla av osakerhet.
@@ -688,6 +688,7 @@ han ingav en kansla av osakerhet. just det! osakerhet. inte nagon bestamd misstr
 }
 
 Expected: {
+ett ingripande av hogre makter kanske.
 forresten gjorde de inte annat an vantade allesammans - alla de sexton, tjugu pilgrimerna - pa nagonting; och att doma av deras uppsyn var det ingen motbjudande sysselsattning, fast det enda den inbringade dem, vad jag kunde se, var ohalsa.
 de fordrev tiden med att bakdanta varandra och intrigera pa det barnsligaste satt.
 hela stationen var en harva av komplotter - som givetvis aldrig ledde till nagonting.
@@ -697,9 +698,9 @@ for detta intrigerade de och baktalade och hatade varandra, men sa mycket som ro
 det ligger anda nagot i detta att varlden tillater den ene att stjala en hast, medan den andre inte far titta at ett grimskaft.
 en karl stjal en hast utan vidare athavor. na da sa. gjort som gjort. han kanske kan rida.
 men det finns ett satt att snegla efter ett grimskaft som skulle kunna fresta det mest overseende helgon till en spark.
-med ett sadant perspektiv kanske utvarderingen av budgetarbetet far en dimension som omfattar mer an rena detaljer.
 }
 Predicted: {
+ett ingripande av hogre makter kanske.
 forresten gjorde de inte annat an vantade allesammans - alla de sexton, tjugu pilgrimerna - pa nagonting; och att doma av deras uppsyn var det ingen motbjudande sysselsattning, fast det enda den inbringade dem, vad jag kunde se, var ohalsa.
 de fordrev tiden med att bakdanta varandra och intrigera pa det barnsligaste satt.
 hela stationen var en harva av komplotter - som givetvis aldrig ledde till nagonting.
@@ -712,7 +713,6 @@ na da sa.
 gjort som gjort.
 han kanske kan rida.
 men det finns ett satt att snegla efter ett grimskaft som skulle kunna fresta det mest overseende helgon till en spark.
-med ett sadant perspektiv kanske utvarderingen av budgetarbetet far en dimension som omfattar mer an rena detaljer.
 }
 False positives: {
 en karl stjal en hast utan vidare athavor.
@@ -724,6 +724,7 @@ en karl stjal en hast utan vidare athavor. na da sa. gjort som gjort. han kanske
 }
 
 Expected: {
+vara medborgares natter och dagar blir allt bullrigare.
 for tva manader sedan blev jag tvungen att laggas in for ett kirurgiskt ingrepp pa grund av en svar sjukdom.
 forvisso ligger mycket av det som vara medborgare uppfattar som buller inte inom unionens ansvarsomrade.
 men det ar en av de aldsta olagenhetslagstiftningarna som vi har i europa.
@@ -733,9 +734,9 @@ vice ordforandes avgang
 nasta punkt pa foredragningslistan ar faststallande av arbetsplanen.
 jag paminner er om att betankandet av cornelissen ar infort i tisdagens foredragningslista.
 jag hoppas att hon kommer att beakta detta, eftersom det ar en viktig sak.
-(ordforanden avbrot talaren).
 }
 Predicted: {
+vara medborgares natter och dagar blir allt bullrigare.
 for tva manader sedan blev jag tvungen att laggas in for ett kirurgiskt ingrepp pa grund av en svar sjukdom.
 forvisso ligger mycket av det som vara medborgare uppfattar som buller inte inom unionens ansvarsomrade.
 men det ar en av de aldsta olagenhetslagstiftningarna som vi har i europa.
@@ -744,7 +745,6 @@ detta tillbakavisande kan tolkas som en indirekt uppmuntran till straffrihet och
 vice ordforandes avgang nasta punkt pa foredragningslistan ar faststallande av arbetsplanen.
 jag paminner er om att betankandet av cornelissen ar infort i tisdagens foredragningslista.
 jag hoppas att hon kommer att beakta detta, eftersom det ar en viktig sak.
-(ordforanden avbrot talaren).
 }
 False positives: {
 vice ordforandes avgang nasta punkt pa foredragningslistan ar faststallande av arbetsplanen.
@@ -754,6 +754,7 @@ nasta punkt pa foredragningslistan ar faststallande av arbetsplanen.
 }
 
 Expected: {
+konsumenterna kommer att betala den, det kommer att vara ytterligare en del av kostnaden per kilowattimme.
 jag vill bara kontrollera om svaret pa fragan skall uppfattas som att det finns en overensstammelse mellan kommissionarens syn och den franske europaministerns syn pa denna punkt.
 jag ar givetvis intresserad av att hora vad hon har att saga.
 i vilket fall som helst gratulerar jag thors till hennes franska, jag ar sjalv inte kapabel att uttrycka mig pa vare sig svenska eller finlandska.
@@ -763,9 +764,9 @@ vi har gjort det: den 4 februari offentliggjorde vi en mycket exakt kommunike so
 jag noterar emellertid, eftersom dessa debatter ar av ett mycket speciellt intresse for mig, att man ar sarskilt kanslig fran spansk sida.
 jag vill garna bekrafta att kommissionen har tagit emot den rapport som ledamoten menar.
 ordet gar till hatzidakis for en minut. med denna fraga avslutar vi fragestunden till van den broek.
-nar det galler forhandlingarna sa kanner ni till kommissionens standpunkt.
 }
 Predicted: {
+konsumenterna kommer att betala den, det kommer att vara ytterligare en del av kostnaden per kilowattimme.
 jag vill bara kontrollera om svaret pa fragan skall uppfattas som att det finns en overensstammelse mellan kommissionarens syn och den franske europaministerns syn pa denna punkt.
 jag ar givetvis intresserad av att hora vad hon har att saga.
 i vilket fall som helst gratulerar jag thors till hennes franska, jag ar sjalv inte kapabel att uttrycka mig pa vare sig svenska eller finlandska.
@@ -776,7 +777,6 @@ jag noterar emellertid, eftersom dessa debatter ar av ett mycket speciellt intre
 jag vill garna bekrafta att kommissionen har tagit emot den rapport som ledamoten menar.
 ordet gar till hatzidakis for en minut.
 med denna fraga avslutar vi fragestunden till van den broek.
-nar det galler forhandlingarna sa kanner ni till kommissionens standpunkt.
 }
 False positives: {
 ordet gar till hatzidakis for en minut.
@@ -786,6 +786,7 @@ ordet gar till hatzidakis for en minut. med denna fraga avslutar vi fragestunden
 }
 
 Expected: {
+hon tillhorde den generation och klass som betalade andra kvinnor for att virka och sticka, och nu nar hon sjalv snart skulle bli mormor gjorde hon sma lustiga tygleksaker at slaktens smabarn.
 hon hade en cigarrask full med gamla udda knappar att ha till ogon, men den skot hon nu ifran sig; darfor att en av de saker hon hade avskytt som ung var det hyckleri som aldre kvinnor brukade omge sig med nar de stalldes infor saker och ting som var av verklig vikt for dem.
 om jag minns ratt sa vi manga ganger att vi skulle komma tillbaka nar de hade fatt sin sjalvstandighet.
 hon sade det med en liten halvt fragande axelryckning, ett erkannande av falskheten i ett annat slags vardagsfraser i ett annat tidsskede.
@@ -795,9 +796,9 @@ hon sag forst ut over dalen och sa lugnt och stilla pa honom, med det dar uttryc
 ja, naturligtvis tankte jag att vi skulle komma tillbaka, da, sade han. innan vi gav oss i vag.
 liksom jag visste att vi skulle bli tvungna att lamna landet.
 stackars adamson, det verkade tamligen hopplost ibland.
-men anda gick det sa fort.
 }
 Predicted: {
+hon tillhorde den generation och klass som betalade andra kvinnor for att virka och sticka, och nu nar hon sjalv snart skulle bli mormor gjorde hon sma lustiga tygleksaker at slaktens smabarn.
 hon hade en cigarrask full med gamla udda knappar att ha till ogon, men den skot hon nu ifran sig; darfor att en av de saker hon hade avskytt som ung var det hyckleri som aldre kvinnor brukade omge sig med nar de stalldes infor saker och ting som var av verklig vikt for dem.
 om jag minns ratt sa vi manga ganger att vi skulle komma tillbaka nar de hade fatt sin sjalvstandighet.
 hon sade det med en liten halvt fragande axelryckning, ett erkannande av falskheten i ett annat slags vardagsfraser i ett annat tidsskede.
@@ -808,7 +809,6 @@ ja, naturligtvis tankte jag att vi skulle komma tillbaka, da, sade han.
 innan vi gav oss i vag.
 liksom jag visste att vi skulle bli tvungna att lamna landet.
 stackars adamson, det verkade tamligen hopplost ibland.
-men anda gick det sa fort.
 }
 False positives: {
 ja, naturligtvis tankte jag att vi skulle komma tillbaka, da, sade han.
@@ -818,6 +818,7 @@ ja, naturligtvis tankte jag att vi skulle komma tillbaka, da, sade han. innan vi
 }
 
 Expected: {
+han har just varit oppe i danmark eller nanstans eftersom modern hade dott.
 vi ska ta och titta in dit en kvall och ata en biff, dom har forsokt satta sprutt pa stallet med en trakolsgrill och gud vet vad.
 vart tog mcgowan vagen da?
 josses, gosse, det ar minst fem, sex ar sen dom gav sig ivag.
@@ -827,9 +828,9 @@ det har kvar sin gamla pragel av gruvjobbarpub, men det passar bra for dom nya s
 gentila varre, valdigt medvetna om sin vardighet, varldsvana och sa vidare; man kan ju forestalla sig hur dom vita tuffingarna kanner sig infor anblicken av alla dessa vita kragar runt svarta halsar i baren.
 hjalmar ar mild som ett lamm, men pa nagot satt maste han anda halla ordning pa stallet.
 apropa det, jag kan atminstone namna en som fortfarande ar kvar... barry forsyth.
-just det... och pengar tjanar han ocksa.
 }
 Predicted: {
+han har just varit oppe i danmark eller nanstans eftersom modern hade dott.
 vi ska ta och titta in dit en kvall och ata en biff, dom har forsokt satta sprutt pa stallet med en trakolsgrill och gud vet vad.
 vart tog mcgowan vagen da?
 josses, gosse, det ar minst fem, sex ar sen dom gav sig ivag.
@@ -838,7 +839,6 @@ det ar inte latt att gora nanting av det dar stallet nu; det har kvar sin gamla 
 gentila varre, valdigt medvetna om sin vardighet, varldsvana och sa vidare; man kan ju forestalla sig hur dom vita tuffingarna kanner sig infor anblicken av alla dessa vita kragar runt svarta halsar i baren.
 hjalmar ar mild som ett lamm, men pa nagot satt maste han anda halla ordning pa stallet.
 apropa det, jag kan atminstone namna en som fortfarande ar kvar... barry forsyth.
-just det... och pengar tjanar han ocksa.
 }
 False positives: {
 det ar inte latt att gora nanting av det dar stallet nu; det har kvar sin gamla pragel av gruvjobbarpub, men det passar bra for dom nya statliga institutionerna, jag menar inte allt for imponerande, sa en hel del afrikaner har borjat frekventera det.
@@ -848,6 +848,7 @@ det har kvar sin gamla pragel av gruvjobbarpub, men det passar bra for dom nya s
 }
 
 Expected: {
+bayleys var vanner till cyprian kente, mwetas inrikesminister, och hans hustru tindi, och timothy odara, en av territoriets fa afrikanska lakare, som bray naturligtvis kande mycket val.
 genom varje individ vidgades gruppen till nagon annan och kom - tack vare den lilla huvudstadens nya internationella pragel - att omfatta polacker, ghananer, ungrare, israeler och flyktingar fran sydafrika och rhodesia.
 statsbalen foljdes av ett party som pagick hela natten i ett stort talt.
 roly dando hade lovat att titta in, och naturligtvis foljde bray med.
@@ -857,9 +858,9 @@ nagon hade gillrat upp ett collage med fotoforstoringar av mweta - i fard med at
 manga andra gaster som bray hade sett pa balen strommade in i sin stass:
 de hade bidragit till arrangemangen for tillstallningen.
 den moda som alla hade gjort sig gav en pragel av festligt overdad at till och med de uppsluppnaste ogonblicken under natten.
-den tjugosexariga vivien bayley - drottninglik med sitt skona, beharskade, disciplinerade ansikte - kom da och da over till bray mellan ansvarskannande rekognosceringsturer i taltet for att overtyga sig om att den eller den unga flickan inte besvarades allt for mycket av en eller annan aldre eller mera patagligt berusad individ, eller att den eller den unge mannen inte ignorerades av flickorna, som borde agna honom storre uppmarksamhet.
 }
 Predicted: {
+bayleys var vanner till cyprian kente, mwetas inrikesminister, och hans hustru tindi, och timothy odara, en av territoriets fa afrikanska lakare, som bray naturligtvis kande mycket val.
 genom varje individ vidgades gruppen till nagon annan och kom - tack vare den lilla huvudstadens nya internationella pragel - att omfatta polacker, ghananer, ungrare, israeler och flyktingar fran sydafrika och rhodesia.
 statsbalen foljdes av ett party som pagick hela natten i ett stort talt.
 roly dando hade lovat att titta in, och naturligtvis foljde bray med.
@@ -869,7 +870,6 @@ hela taltet var fyllt av stolar och divaner, som hade lanats ihop fran deltagarn
 nagon hade gillrat upp ett collage med fotoforstoringar av mweta - i fard med att tala, skratta, gaspa, nyfiket rora vid en eller annan maskin, ta avsked, anlanda, ja, pa ett av fotona stirrade han rent av hotfullt mot askadaren.
 manga andra gaster som bray hade sett pa balen strommade in i sin stass: de hade bidragit till arrangemangen for tillstallningen.
 den moda som alla hade gjort sig gav en pragel av festligt overdad at till och med de uppsluppnaste ogonblicken under natten.
-den tjugosexariga vivien bayley - drottninglik med sitt skona, beharskade, disciplinerade ansikte - kom da och da over till bray mellan ansvarskannande rekognosceringsturer i taltet for att overtyga sig om att den eller den unga flickan inte besvarades allt for mycket av en eller annan aldre eller mera patagligt berusad individ, eller att den eller den unge mannen inte ignorerades av flickorna, som borde agna honom storre uppmarksamhet.
 }
 False positives: {
 de halsades av jubel fran alla dem som redan hade infunnit sig men som inte hade varit med pa balen; ocksa de hade beslutat att for en gangs skull kla upp sig, och de bada kvinnogrupperna forenade sig med varandra under fortjusta tillrop.
@@ -882,6 +882,7 @@ de hade bidragit till arrangemangen for tillstallningen.
 }
 
 Expected: {
+bankade pa guvernorens dorr med en panga medan dom andra var bara en hop snoriga barnungar...
 dando hade vid det har laget lyckats dra till sig ett visst buttert, forargat intresse fran en ung patriot i socialdepartementet, en glitterogd likgiltighet fran doris manyema, en av landets tre eller fyra kvinnor med akademisk examen, och ett visst roat gillande fran en flykting fran sydafrika, vars gulbruna hy, lilla nasa och finskurna lappar skilde honom fran de bada andras djupa svarta.
 i ljuset avtecknade sig margot wentz' huvud som galjonsfiguren pa ett fartyg ovan kroppens skrov:
 en snygg, morkblond kvinna med dubbelhaka, kort, framtradande nasa som skot ut fran den magnifika pannan, akvarelltonade ogon, understrukna av djupa faror av trotthet som lopte ner mot bada kinderna.
@@ -891,10 +892,9 @@ vi behover inte tvista om den saken; vi kan utga ifran att kolonialism ar oforsv
 ni anser det, jag anser det... utmarkt!
 timothy odara stod med slutna ogon och lutade sig mot vaggen med en aning tillbakadragna lappar, vaken och intresserad.
 ... ursakta, i fyrtioatta ar stod ni under brittiskt herravalde, arbetade i deras gruvor, drog vagar at dom, byggde stader, bodde i skjul och passade opp pa dom, stadade efter dom, blev behandlade som skit... men nu nar allt det dar ar overstandet, tror ni verkligen att det over huvud taget fanns nagot satt for er att trada in i den moderna varlden utan lidande?
-tror ni att det fanns nagon annan som kunde ha gett er alfabetet och elektricitet och tagit kal pa malariamyggan... av ren manniskokarlek?
 }
 Predicted: {
-dando hade vid det har laget lyckats dra till sig ett visst buttert, forargat intresse fran en ung patriot i socialdepartementet, en glitterogd likgiltighet fran doris manyema, en av landets tre eller fyra kvinnor med akademisk examen, och ett visst roat gillande fran en flykting fran sydafrika, vars gulbruna hy, lilla nasa och finskurna lappar skilde honom fran de bada andras djupa svarta.
+bankade pa guvernorens dorr med en panga medan dom andra var bara en hop snoriga barnungar... dando hade vid det har laget lyckats dra till sig ett visst buttert, forargat intresse fran en ung patriot i socialdepartementet, en glitterogd likgiltighet fran doris manyema, en av landets tre eller fyra kvinnor med akademisk examen, och ett visst roat gillande fran en flykting fran sydafrika, vars gulbruna hy, lilla nasa och finskurna lappar skilde honom fran de bada andras djupa svarta.
 i ljuset avtecknade sig margot wentz' huvud som galjonsfiguren pa ett fartyg ovan kroppens skrov: en snygg, morkblond kvinna med dubbelhaka, kort, framtradande nasa som skot ut fran den magnifika pannan, akvarelltonade ogon, understrukna av djupa faror av trotthet som lopte ner mot bada kinderna.
 med ett franvarande leende mot bray tvars over rummet tog hon for ett ogonblick hand om en overgiven skonhet.
 nar han slot sig till gruppen stod de och lyssnade pa henne.
@@ -903,19 +903,22 @@ ni anser det, jag anser det... utmarkt!
 timothy odara stod med slutna ogon och lutade sig mot vaggen med en aning tillbakadragna lappar, vaken och intresserad.
 ...
 ursakta, i fyrtioatta ar stod ni under brittiskt herravalde, arbetade i deras gruvor, drog vagar at dom, byggde stader, bodde i skjul och passade opp pa dom, stadade efter dom, blev behandlade som skit... men nu nar allt det dar ar overstandet, tror ni verkligen att det over huvud taget fanns nagot satt for er att trada in i den moderna varlden utan lidande?
-tror ni att det fanns nagon annan som kunde ha gett er alfabetet och elektricitet och tagit kal pa malariamyggan... av ren manniskokarlek?
 }
 False positives: {
+bankade pa guvernorens dorr med en panga medan dom andra var bara en hop snoriga barnungar... dando hade vid det har laget lyckats dra till sig ett visst buttert, forargat intresse fran en ung patriot i socialdepartementet, en glitterogd likgiltighet fran doris manyema, en av landets tre eller fyra kvinnor med akademisk examen, och ett visst roat gillande fran en flykting fran sydafrika, vars gulbruna hy, lilla nasa och finskurna lappar skilde honom fran de bada andras djupa svarta.
 i ljuset avtecknade sig margot wentz' huvud som galjonsfiguren pa ett fartyg ovan kroppens skrov: en snygg, morkblond kvinna med dubbelhaka, kort, framtradande nasa som skot ut fran den magnifika pannan, akvarelltonade ogon, understrukna av djupa faror av trotthet som lopte ner mot bada kinderna.
 ...
 ursakta, i fyrtioatta ar stod ni under brittiskt herravalde, arbetade i deras gruvor, drog vagar at dom, byggde stader, bodde i skjul och passade opp pa dom, stadade efter dom, blev behandlade som skit... men nu nar allt det dar ar overstandet, tror ni verkligen att det over huvud taget fanns nagot satt for er att trada in i den moderna varlden utan lidande?
 } False negatives: {
+bankade pa guvernorens dorr med en panga medan dom andra var bara en hop snoriga barnungar...
+dando hade vid det har laget lyckats dra till sig ett visst buttert, forargat intresse fran en ung patriot i socialdepartementet, en glitterogd likgiltighet fran doris manyema, en av landets tre eller fyra kvinnor med akademisk examen, och ett visst roat gillande fran en flykting fran sydafrika, vars gulbruna hy, lilla nasa och finskurna lappar skilde honom fran de bada andras djupa svarta.
 i ljuset avtecknade sig margot wentz' huvud som galjonsfiguren pa ett fartyg ovan kroppens skrov:
 en snygg, morkblond kvinna med dubbelhaka, kort, framtradande nasa som skot ut fran den magnifika pannan, akvarelltonade ogon, understrukna av djupa faror av trotthet som lopte ner mot bada kinderna.
 ... ursakta, i fyrtioatta ar stod ni under brittiskt herravalde, arbetade i deras gruvor, drog vagar at dom, byggde stader, bodde i skjul och passade opp pa dom, stadade efter dom, blev behandlade som skit... men nu nar allt det dar ar overstandet, tror ni verkligen att det over huvud taget fanns nagot satt for er att trada in i den moderna varlden utan lidande?
 }
 
 Expected: {
+mrs weasley stannade tvart framfor dem med handerna i sidorna och stirrade fran det ena skuldmedvetna ansiktet till det andra.
 hon var iford ett blommigt forklade och ur en av fickorna stack ett trollspo upp.
 "jasa", sade hon.
 alla mrs weasleys tre soner var langre an hon, men de hukade sig da hennes vrede brot loss over dem.
@@ -925,9 +928,9 @@ det kandes som om det pagick i timmar.
 mrs weasley hade hunnit skrika sig hes innan hon vande sig mot harry som forskrackt backade ett par steg.
 "kom in och at lite frukost."
 hon vande sig om och gick tillbaka in i huset och efter en nervos blick pa ron, som nickade uppmuntrande, foljde harry efter henne.
-koket var litet och ganska trangt.
 }
 Predicted: {
+mrs weasley stannade tvart framfor dem med handerna i sidorna och stirrade fran det ena skuldmedvetna ansiktet till det andra.
 hon var iford ett blommigt forklade och ur en av fickorna stack ett trollspo upp.
 "jasa", sade hon. alla mrs weasleys tre soner var langre an hon, men de hukade sig da hennes vrede brot loss over dem.
 inget meddelande!
@@ -936,7 +939,6 @@ aldrig i hela mitt liv vanta ni bara tills pappa kommer hem sana har bekymmer ha
 mrs weasley hade hunnit skrika sig hes innan hon vande sig mot harry som forskrackt backade ett par steg.
 "kom in och at lite frukost."
 hon vande sig om och gick tillbaka in i huset och efter en nervos blick pa ron, som nickade uppmuntrande, foljde harry efter henne.
-koket var litet och ganska trangt.
 }
 False positives: {
 "jasa", sade hon. alla mrs weasleys tre soner var langre an hon, men de hukade sig da hennes vrede brot loss over dem.
@@ -950,6 +952,7 @@ det kandes som om det pagick i timmar.
 }
 
 Expected: {
+varfor brottas hela natten med en angel nar brottningsmatchen bara gor en ofardig?
 varfor inte ga sin vag?
 varfor inte sova?
 han hade fatt lara sig att halla i mitt huvud och stotta min brackliga ryggrad, och jag tycker mig minnas hur jag hogtidligt satt pa hans utstrackta handflata och forsokte fixera den oskarpa bilden av honom som angsligt och entraget betraktade mig, som om jag kunde avsloja for honom vem han var.
@@ -959,9 +962,9 @@ som lang och tystlaten nioaring var jag olycklig.
 min far, som hade overgivit sin religion men inte den vidskeplighet som medfoljde den, tolkade min fortvivlan som ett bevis for arvsynden.
 eftersom det inte kunde finnas nagot skal for mig att vara olycklig maste fortvivlan tillhora manniskans grundvillkor.
 hur kunde han tro att han skulle undga det som ett oskyldigt barn inte kunde undga?
-i likhet med farmor hade han anlag for svarmod, men hon hade behallit sin gud och darfor ocksa sin tro pa naden.
 }
 Predicted: {
+varfor brottas hela natten med en angel nar brottningsmatchen bara gor en ofardig?
 varfor inte ga sin vag?
 varfor inte sova?
 han hade fatt lara sig att halla i mitt huvud och stotta min brackliga ryggrad, och jag tycker mig minnas hur jag hogtidligt satt pa hans utstrackta handflata och forsokte fixera den oskarpa bilden av honom som angsligt och entraget betraktade mig, som om jag kunde avsloja for honom vem han var.
@@ -972,7 +975,6 @@ som lang och tystlaten nioaring var jag olycklig.
 min far, som hade overgivit sin religion men inte den vidskeplighet som medfoljde den, tolkade min fortvivlan som ett bevis for arvsynden.
 eftersom det inte kunde finnas nagot skal for mig att vara olycklig maste fortvivlan tillhora manniskans grundvillkor.
 hur kunde han tro att han skulle undga det som ett oskyldigt barn inte kunde undga?
-i likhet med farmor hade han anlag for svarmod, men hon hade behallit sin gud och darfor ocksa sin tro pa naden.
 }
 False positives: {
 "nej".
@@ -982,6 +984,7 @@ sa farmor.
 }
 
 Expected: {
+jag visste inte att min mor kunde springa.
 jag hade aldrig sett henne springa.
 hon slangde in mig i baksatet och kastade sig sjalv efter i en virvelvind av dior och harnalar.
 page i svard
@@ -991,9 +994,9 @@ religionen kanske haller pa att forlora sin dragningskraft men jartecken ar popu
 oturligt nog var vadret sa daligt att de flesta vuxna fann sina basta visioner i en champagneflaska.
 min far var mycket upptagen och jag lamnades ensam.
 alla i hans familj hade gatt till jobbet i rena klader, det var deras stolthet, men ingen hade nagonsin kommit hem ren.
-for dem hade det som gallt varit mor som vantade med kokhett sittbad och ett paket tvalflingor.
 }
 Predicted: {
+jag visste inte att min mor kunde springa.
 jag hade aldrig sett henne springa.
 hon slangde in mig i baksatet och kastade sig sjalv efter i en virvelvind av dior och harnalar.
 page i svard iden, hans ide, var att ge sig ut pa en tredagarskryssning pa jakt efter kometen kohoutek, uppkallad efter den tjeckiske astronomen som hade upptackt den.
@@ -1002,7 +1005,6 @@ religionen kanske haller pa att forlora sin dragningskraft men jartecken ar popu
 oturligt nog var vadret sa daligt att de flesta vuxna fann sina basta visioner i en champagneflaska.
 min far var mycket upptagen och jag lamnades ensam.
 alla i hans familj hade gatt till jobbet i rena klader, det var deras stolthet, men ingen hade nagonsin kommit hem ren.
-for dem hade det som gallt varit mor som vantade med kokhett sittbad och ett paket tvalflingor.
 }
 False positives: {
 page i svard iden, hans ide, var att ge sig ut pa en tredagarskryssning pa jakt efter kometen kohoutek, uppkallad efter den tjeckiske astronomen som hade upptackt den.
@@ -1012,38 +1014,7 @@ iden, hans ide, var att ge sig ut pa en tredagarskryssning pa jakt efter kometen
 }
 
 Expected: {
-genom den bla ridan av kold, rakt in mot det brandgula ljuset, drog sex vargar en slade.
-de tva ledardjuren stannade fem centimeter fran hans brost och i samma hojd.
-en av vargarna slickade honom i ansiktet med sin brunrosa parmaskinkstunga.
-nu skulle han bli uppaten.
-de hade borjat med forsta moseboken och hade nu kommit till jobs bok, vars provningar vackte stor medkansla hos farmor, speciellt eftersom hon just fatt en varbold.
-"ar inte amerikaner artiga?"
-"bara om man ger dem tillrackligt betalt."
-"engelsman ar inte artiga hur mycket man an betalar dem."
-"da maste bade du och jag vara invandrare."
-medan hon laste "vem ska bista mig i min nod?" for dorren upp och min far stack ner handerna i badkaret, hamtade upp min mor och bar ivag med henne in i sovrummet.
-}
-Predicted: {
-genom den bla ridan av kold, rakt in mot det brandgula ljuset, drog sex vargar en slade.
-de tva ledardjuren stannade fem centimeter fran hans brost och i samma hojd.
-en av vargarna slickade honom i ansiktet med sin brunrosa parmaskinkstunga.
-nu skulle han bli uppaten.
-de hade borjat med forsta moseboken och hade nu kommit till jobs bok, vars provningar vackte stor medkansla hos farmor, speciellt eftersom hon just fatt en varbold.
-"ar inte amerikaner artiga?"
-"bara om man ger dem tillrackligt betalt."
-"engelsman ar inte artiga hur mycket man an betalar dem."
-"da maste bade du och jag vara invandrare."
-medan hon laste "vem ska bista mig i min nod?"
-for dorren upp och min far stack ner handerna i badkaret, hamtade upp min mor och bar ivag med henne in i sovrummet.
-}
-False positives: {
-medan hon laste "vem ska bista mig i min nod?"
-for dorren upp och min far stack ner handerna i badkaret, hamtade upp min mor och bar ivag med henne in i sovrummet.
-} False negatives: {
-medan hon laste "vem ska bista mig i min nod?" for dorren upp och min far stack ner handerna i badkaret, hamtade upp min mor och bar ivag med henne in i sovrummet.
-}
-
-Expected: {
+frankrike har inte nagot bra rykte.
 "tina anselmi foddes den 25 mars 1927 i castelfranco veneto; hon vaxte upp i en antifacistisk katolsk familj, som praglades av forfoljelsen av hennes militant socialistiske fader. "
 da hon alltid statt nara det katolska fackforbundet agnade sig tina anselmi sarskilt at textilarbetares och larares rattigheter.
 det ar svart att tanka sig att italien har farre kilometrar tunnelbana an madrid.
@@ -1053,9 +1024,9 @@ hitlaten ar "geronimo" av sheppard.
 de som har aldern inne kommer att erbjudas 500 euro av staten, att spendera fore 31 december 2017.
 det skapas en voucher som kan sparas pa din smartphone eller uppvisas i kassan.
 fran den 1 januari kommer det vara en okning pa bensin och diesel.
-cgi mestre har uppgett i en notering att det inte kommer forekomma nagon hojning av moms, i alla fall inte under 2017.
 }
 Predicted: {
+frankrike har inte nagot bra rykte.
 "tina anselmi foddes den 25 mars 1927 i castelfranco veneto; hon vaxte upp i en antifacistisk katolsk familj, som praglades av forfoljelsen av hennes militant socialistiske fader.
 " da hon alltid statt nara det katolska fackforbundet agnade sig tina anselmi sarskilt at textilarbetares och larares rattigheter.
 det ar svart att tanka sig att italien har farre kilometrar tunnelbana an madrid.
@@ -1065,7 +1036,6 @@ hitlaten ar "geronimo" av sheppard.
 de som har aldern inne kommer att erbjudas 500 euro av staten, att spendera fore 31 december 2017.
 det skapas en voucher som kan sparas pa din smartphone eller uppvisas i kassan.
 fran den 1 januari kommer det vara en okning pa bensin och diesel.
-cgi mestre har uppgett i en notering att det inte kommer forekomma nagon hojning av moms, i alla fall inte under 2017.
 }
 False positives: {
 "tina anselmi foddes den 25 mars 1927 i castelfranco veneto; hon vaxte upp i en antifacistisk katolsk familj, som praglades av forfoljelsen av hennes militant socialistiske fader.
@@ -1076,6 +1046,7 @@ da hon alltid statt nara det katolska fackforbundet agnade sig tina anselmi sars
 }
 
 Expected: {
+hans ursprungliga fragestallning gallde betydelsen av moderskontakten under de forsta aren av barnens liv.
 det har ofta framhallits den skadliga verkan det kan ha pa barns utveckling att vara utan en fast, kontinuerlig kontakt med modern eller att byta mellan flera modersfigurer under de forsta aren, vilket ar vad kibbutzbarnen gor.
 7. for en narmare beskrivning av testmetoderna och resultaten, se a. i. rabin: infants and children under conditions of 'intermittent' mothering in the kibbutz.
 i alla test var moshavbarnen nagot overlagsna, men bara for det sistnamnda testet var skillnaden signifikant stor.
@@ -1085,9 +1056,9 @@ kibbutzbarnen tycktes vara mer ointresserade och likgiltiga an moshavbarnen, moj
 8. ur a. i. rabin: kibbutzchildren - researchfindings to date.
 kvarstar denna forsening i utveckling hos aldre kibbutzbarn?
 kibbutzbarnen visade i denna undersokning en nagot hogre niva bade i intellektuell utveckling och i emotionell mognad.
-'nagonting hander med kibbutzbarnen mellan 1 och 10 ars alder, som hjalper dem att komma over tidigare hinder och mer an kompenserar for de brister som funnits.'
 }
 Predicted: {
+hans ursprungliga fragestallning gallde betydelsen av moderskontakten under de forsta aren av barnens liv.
 det har ofta framhallits den skadliga verkan det kan ha pa barns utveckling att vara utan en fast, kontinuerlig kontakt med modern eller att byta mellan flera modersfigurer under de forsta aren, vilket ar vad kibbutzbarnen gor.
 7.
 for en narmare beskrivning av testmetoderna och resultaten, se a.
@@ -1101,7 +1072,6 @@ ur a. i.
 rabin: kibbutzchildren - researchfindings to date.
 kvarstar denna forsening i utveckling hos aldre kibbutzbarn?
 kibbutzbarnen visade i denna undersokning en nagot hogre niva bade i intellektuell utveckling och i emotionell mognad.
-'nagonting hander med kibbutzbarnen mellan 1 och 10 ars alder, som hjalper dem att komma over tidigare hinder och mer an kompenserar for de brister som funnits.'
 }
 False positives: {
 7.
@@ -1122,6 +1092,7 @@ kibbutzbarnen tycktes vara mer ointresserade och likgiltiga an moshavbarnen, moj
 }
 
 Expected: {
+(om fortidspension kan ni lasa i en annan broschyr hos forsakringskassan.)
 uppskjutet uttag ger hogre pension
 detta innebar att pensionen genom uppskjutet uttag kan forhojas med hogst 21,6 procent.
 atp de forsta aren
@@ -1131,9 +1102,9 @@ for de inkomsterna har inte heller avgift erlagts.
 for att fa full alderspension fran atp fordras enligt huvudregeln att man har 30 ar med pensionsgrundande inkomst.
 salunda behover den som ar fodd 1923 endast pensionsgrundande inkomst for 29 ar for att fa full atp, den som ar fodd 1922 behover endast 28 ar, osv; den som ar fodd 1914 behover endast 20 ar.
 de som ar fodda 1913 och tidigare hinner inte forvarva pensionsgrundande inkomst for 20 ar.
-de kan alltsa inte fa full atp.
 }
 Predicted: {
+(om fortidspension kan ni lasa i en annan broschyr hos forsakringskassan.)
 uppskjutet uttag ger hogre pension detta innebar att pensionen genom uppskjutet uttag kan forhojas med hogst 21,6 procent.
 atp de forsta aren atp infordes 1960.
 inkomster som man haft dessforinnan ger inte ratt till atp.
@@ -1141,7 +1112,6 @@ for de inkomsterna har inte heller avgift erlagts.
 for att fa full alderspension fran atp fordras enligt huvudregeln att man har 30 ar med pensionsgrundande inkomst.
 salunda behover den som ar fodd 1923 endast pensionsgrundande inkomst for 29 ar for att fa full atp, den som ar fodd 1922 behover endast 28 ar, osv; den som ar fodd 1914 behover endast 20 ar.
 de som ar fodda 1913 och tidigare hinner inte forvarva pensionsgrundande inkomst for 20 ar.
-de kan alltsa inte fa full atp.
 }
 False positives: {
 uppskjutet uttag ger hogre pension detta innebar att pensionen genom uppskjutet uttag kan forhojas med hogst 21,6 procent.
@@ -1154,6 +1124,7 @@ atp infordes 1960.
 }
 
 Expected: {
+de har alltsa ansvar och omsorg om barnen.
 de foretrader barnen utat i olika fragor och de ar skyldiga att bekosta barnens uppehalle och uppfostran.
 se arv sida 5, formyndare sida 12 och testamente sida 22.
 man vander sig till pastorsexpeditionen.
@@ -1163,9 +1134,9 @@ innan ett aktenskap upploses ska i allmanhet domstolen forst ha beslutat om att 
 denna dom kallas hemskillnadsdom.
 den kan sokas hos domstolen av bada makarna tillsammans.
 da behover inte annat skal uppges an att de ar overens om att inte fortsatta att leva tillsammans.
-om bara den ena maken vill ha hemskillnad maste han eller hon stamma den andra infor domstol.
 }
 Predicted: {
+de har alltsa ansvar och omsorg om barnen.
 de foretrader barnen utat i olika fragor och de ar skyldiga att bekosta barnens uppehalle och uppfostran.
 se arv sida 5, formyndare sida 12 och testamente sida 22.
 man vander sig till pastorsexpeditionen.
@@ -1173,7 +1144,6 @@ skilsmassa hemskillnad innan ett aktenskap upploses ska i allmanhet domstolen fo
 denna dom kallas hemskillnadsdom.
 den kan sokas hos domstolen av bada makarna tillsammans.
 da behover inte annat skal uppges an att de ar overens om att inte fortsatta att leva tillsammans.
-om bara den ena maken vill ha hemskillnad maste han eller hon stamma den andra infor domstol.
 }
 False positives: {
 skilsmassa hemskillnad innan ett aktenskap upploses ska i allmanhet domstolen forst ha beslutat om att samlevnaden upphavs.
@@ -1184,6 +1154,7 @@ innan ett aktenskap upploses ska i allmanhet domstolen forst ha beslutat om att 
 }
 
 Expected: {
+det ar oundvikligt att spadbarn skriker ibland, och om det inte beror pa sjukdom ar det inget att oroa sig for.
 skriker de ihardigt finns alltid en orsak, fast den manga ganger kan vara svar att komma pa.
 barnen kan t.ex. vara hungriga eller torstiga.
 de kan vara for varma eller for kalla.
@@ -1193,9 +1164,9 @@ en lika viktig orsak ar att barnen kanner sig ensamma och har behov av att komma
 att trosta barn nar de ar ledsna ar inte att skamma bort dem.
 manga nyblivna foraldrar kanner sig forst osakra infor varden av sitt spada barn.
 men snart blir skotningarna de efterlangtade stunderna.
-forsok ta god tid vid skotningen, lek och kela med barnet och njut av att vara tillsammans med det.
 }
 Predicted: {
+det ar oundvikligt att spadbarn skriker ibland, och om det inte beror pa sjukdom ar det inget att oroa sig for.
 skriker de ihardigt finns alltid en orsak, fast den manga ganger kan vara svar att komma pa.
 barnen kan t.ex. vara hungriga eller torstiga.
 de kan vara for varma eller for kalla.
@@ -1204,7 +1175,6 @@ de kanske ligger obekvamt, har ont i magen eller stors av starka ljud eller ljus
 en lika viktig orsak ar att barnen kanner sig ensamma och har behov av att komma upp i famnen en stund. att trosta barn nar de ar ledsna ar inte att skamma bort dem.
 manga nyblivna foraldrar kanner sig forst osakra infor varden av sitt spada barn.
 men snart blir skotningarna de efterlangtade stunderna.
-forsok ta god tid vid skotningen, lek och kela med barnet och njut av att vara tillsammans med det.
 }
 False positives: {
 en lika viktig orsak ar att barnen kanner sig ensamma och har behov av att komma upp i famnen en stund. att trosta barn nar de ar ledsna ar inte att skamma bort dem.
@@ -1214,6 +1184,7 @@ att trosta barn nar de ar ledsna ar inte att skamma bort dem.
 }
 
 Expected: {
+de blev 'tvungna att gifta sig'.
 deras val av aktenskapspartner blev kanske slumpmassigt.
 den personlighetspsykologiska delen av avhandlingen gar mera pa djupet.
 kvinnor som inte kan acceptera modersrollen i djupare bemarkelse, som inte kan identifiera sig med sin egen mor eller har en markant starkare identifikation med fadern far oftare svarigheter vid en graviditet.
@@ -1223,9 +1194,9 @@ en omedvetet negativ installning till havandeskapet kan ge en oppen konflikt for
 smartfylld forlossning
 man haller ocksa pa att undersoka upplevelsen av forlossningen narmare och det arbetet skall laggas fram i en sarskild publikation.
 jag har funnit att man inte kan betrakta sjalva forlossningen som en fristaende foreteelse, sager ake nilsson.
-naturligtvis spelar faktorer som om barnet ar onskat eller inte en stor roll vid upplevelsen av smartan.
 }
 Predicted: {
+de blev 'tvungna att gifta sig'.
 deras val av aktenskapspartner blev kanske slumpmassigt.
 den personlighetspsykologiska delen av avhandlingen gar mera pa djupet.
 kvinnor som inte kan acceptera modersrollen i djupare bemarkelse, som inte kan identifiera sig med sin egen mor eller har en markant starkare identifikation med fadern far oftare svarigheter vid en graviditet.
@@ -1234,7 +1205,6 @@ franvaron av besvar kan vara ett uttryck for en fortrangning av graviditeten, sa
 en omedvetet negativ installning till havandeskapet kan ge en oppen konflikt forst nar barnet ar fott.
 smartfylld forlossning man haller ocksa pa att undersoka upplevelsen av forlossningen narmare och det arbetet skall laggas fram i en sarskild publikation.
 jag har funnit att man inte kan betrakta sjalva forlossningen som en fristaende foreteelse, sager ake nilsson.
-naturligtvis spelar faktorer som om barnet ar onskat eller inte en stor roll vid upplevelsen av smartan.
 }
 False positives: {
 smartfylld forlossning man haller ocksa pa att undersoka upplevelsen av forlossningen narmare och det arbetet skall laggas fram i en sarskild publikation.
@@ -1244,6 +1214,7 @@ man haller ocksa pa att undersoka upplevelsen av forlossningen narmare och det a
 }
 
 Expected: {
+observera att ansokan harom skall goras senast den 1 juli 1971.
 kommunalskatteavdraget slopas
 for fysiska personer, dodsbon och familjestiftelser slopas ratten att gora avdrag for kommunalskatten fr.o.m. den sjalvdeklaration som skall avlamnas 1972.
 i sjalvdeklarationen 1971 - som alltsa avser 1970 ars inkomster - far avdrag goras som tidigare.
@@ -1253,31 +1224,29 @@ barns alder raknas efter forhallandet den 1 november under inkomstaret.
 nar det galler inkomstaret 1971 (taxeringsaret 1972) skall barnet alltsa vara fott efter den 1 november 1955.
 med makar likstalls de som utan att vara gifta lever tillsammans om de tidigare varit gifta med varandra eller har eller har haft barn gemensamt.
 hojt avdrag for underhallsbidrag till icke hemmavarande barn
-avdrag for utgivet underhallsbidrag till icke hemmavarande barn hojs fran 1000 kr till 1500 kr per barn och ar.
 }
 Predicted: {
+observera att ansokan harom skall goras senast den 1 juli 1971.
 kommunalskatteavdraget slopas for fysiska personer, dodsbon och familjestiftelser slopas ratten att gora avdrag for kommunalskatten fr.o.m. den sjalvdeklaration som skall avlamnas 1972.
 i sjalvdeklarationen 1971 - som alltsa avser 1970 ars inkomster - far avdrag goras som tidigare.
 forvarvsavdragen andras sadant avdrag medges pa satt framgar av nedanstaende tabla.
 barns alder raknas efter forhallandet den 1 november under inkomstaret.
 nar det galler inkomstaret 1971 (taxeringsaret 1972) skall barnet alltsa vara fott efter den 1 november 1955.
 med makar likstalls de som utan att vara gifta lever tillsammans om de tidigare varit gifta med varandra eller har eller har haft barn gemensamt.
-hojt avdrag for underhallsbidrag till icke hemmavarande barn avdrag for utgivet underhallsbidrag till icke hemmavarande barn hojs fran 1000 kr till 1500 kr per barn och ar.
+hojt avdrag for underhallsbidrag till icke hemmavarande barn
 }
 False positives: {
 kommunalskatteavdraget slopas for fysiska personer, dodsbon och familjestiftelser slopas ratten att gora avdrag for kommunalskatten fr.o.m. den sjalvdeklaration som skall avlamnas 1972.
 forvarvsavdragen andras sadant avdrag medges pa satt framgar av nedanstaende tabla.
-hojt avdrag for underhallsbidrag till icke hemmavarande barn avdrag for utgivet underhallsbidrag till icke hemmavarande barn hojs fran 1000 kr till 1500 kr per barn och ar.
 } False negatives: {
 kommunalskatteavdraget slopas
 for fysiska personer, dodsbon och familjestiftelser slopas ratten att gora avdrag for kommunalskatten fr.o.m. den sjalvdeklaration som skall avlamnas 1972.
 forvarvsavdragen andras
 sadant avdrag medges pa satt framgar av nedanstaende tabla.
-hojt avdrag for underhallsbidrag till icke hemmavarande barn
-avdrag for utgivet underhallsbidrag till icke hemmavarande barn hojs fran 1000 kr till 1500 kr per barn och ar.
 }
 
 Expected: {
+en militar arbetsdag
 i regel vacks du kl 6 pa morgonen.
 den forsta uppstallningen till ovning sker i allmanhet kl 0730.
 pa formiddagen tranas du i olika utbildningsgrenar, i regel till omkring kl 11.
@@ -1287,10 +1256,9 @@ sedan du skott om din utrustning och tvattat dig ar det dags for middag.
 hinner du inte skota om utrustningen fore maten, skall du gora det efterat.
 varje vecka ordnas en och ibland tva kvallsovningar, da du skall lara dig upptrada i morker.
 utbildningstiden
-alla varnpliktiga har inte lika lang utbildningstid.
 }
 Predicted: {
-i regel vacks du kl 6 pa morgonen.
+en militar arbetsdag i regel vacks du kl 6 pa morgonen.
 den forsta uppstallningen till ovning sker i allmanhet kl 0730.
 pa formiddagen tranas du i olika utbildningsgrenar, i regel till omkring kl 11.
 da far du en dryg timmes lunchrast.
@@ -1298,16 +1266,17 @@ darefter borjar eftermiddagens ovningar, som oftast pagar till kl 1700.
 sedan du skott om din utrustning och tvattat dig ar det dags for middag.
 hinner du inte skota om utrustningen fore maten, skall du gora det efterat.
 varje vecka ordnas en och ibland tva kvallsovningar, da du skall lara dig upptrada i morker.
-utbildningstiden alla varnpliktiga har inte lika lang utbildningstid.
-}
-False positives: {
-utbildningstiden alla varnpliktiga har inte lika lang utbildningstid.
-} False negatives: {
 utbildningstiden
-alla varnpliktiga har inte lika lang utbildningstid.
+}
+False positives: {
+en militar arbetsdag i regel vacks du kl 6 pa morgonen.
+} False negatives: {
+en militar arbetsdag
+i regel vacks du kl 6 pa morgonen.
 }
 
 Expected: {
+paket och adresskort skall vara markta med 'ilpaket' vid inlamningen.
 postbehandlingstid
 ett ilpaket transporteras till adressorten pa snabbast mojliga satt.
 adresskortet delas ut till adressaten pa forsta vardagen efter inlamningsdagen.
@@ -1317,31 +1286,29 @@ ilbefordran + expressutdelning - nar ni onskar att sandningen dels nar adressort
 inlamning
 paket och adresskort skall vara markta med 'ilpaket' och 'express' vid inlamningen.
 postbehandlingstid
-samma transporttid som ovan, dvs ilpaketet nar i regel fram till adressorten pa forsta vardagen efter inlamningsdagen.
 }
 Predicted: {
+paket och adresskort skall vara markta med 'ilpaket' vid inlamningen.
 postbehandlingstid ett ilpaket transporteras till adressorten pa snabbast mojliga satt.
 adresskortet delas ut till adressaten pa forsta vardagen efter inlamningsdagen.
 i vissa forbindelser mellan avlagsna orter racker emellertid inte nattimmarna till for att tag och flyg skall hinna transportera fram ilpaket till adressorten innan brevbaringsturen paborjas.
 i sadana fall forsoker postanstalten pa adressorten komma i kontakt med adressaten per telefon for att meddela att ett ilpaket finns att hamta.
 ilbefordran + expressutdelning - nar ni onskar att sandningen dels nar adressorten sa snabbt som mojligt, dels delas ut till adressaten med sarskilt bud snarast mojligt.
 inlamning paket och adresskort skall vara markta med 'ilpaket' och 'express' vid inlamningen.
-postbehandlingstid samma transporttid som ovan, dvs ilpaketet nar i regel fram till adressorten pa forsta vardagen efter inlamningsdagen.
+postbehandlingstid
 }
 False positives: {
 postbehandlingstid ett ilpaket transporteras till adressorten pa snabbast mojliga satt.
 inlamning paket och adresskort skall vara markta med 'ilpaket' och 'express' vid inlamningen.
-postbehandlingstid samma transporttid som ovan, dvs ilpaketet nar i regel fram till adressorten pa forsta vardagen efter inlamningsdagen.
 } False negatives: {
 postbehandlingstid
 ett ilpaket transporteras till adressorten pa snabbast mojliga satt.
 inlamning
 paket och adresskort skall vara markta med 'ilpaket' och 'express' vid inlamningen.
-postbehandlingstid
-samma transporttid som ovan, dvs ilpaketet nar i regel fram till adressorten pa forsta vardagen efter inlamningsdagen.
 }
 
 Expected: {
+musik, teckning och slojd blir obligatoriska amnen med samma antal timmar for samtliga.
 musik forekommer i arskurserna 7 och 9, teckning och slojd i samtliga arskurser.
 hemkunskap och barnkunskap kommer att inga obligatoriskt i arskurserna 8 och 9 (tidigare var hemkunskap obligatorisk i arskurs 7 och kunde sedan valjas frivilligt).
 praktisk yrkesorientering (pryo), dvs praktik pa en arbetsplats, skall alla elever i arskurs 9 ha under tva veckor.
@@ -1351,29 +1318,27 @@ nya tillvalsamnen
 pa hogstadiet skall varje elev valja ett av fyra tillvalsamnen: * sprak (franska eller tyska) * ekonomi * teknik * konst
 de tre senare har saval teoretiska som praktiska inslag.
 val av kurs
-tilltrade till hogre studier
 }
 Predicted: {
+musik, teckning och slojd blir obligatoriska amnen med samma antal timmar for samtliga.
 musik forekommer i arskurserna 7 och 9, teckning och slojd i samtliga arskurser.
 hemkunskap och barnkunskap kommer att inga obligatoriskt i arskurserna 8 och 9 (tidigare var hemkunskap obligatorisk i arskurs 7 och kunde sedan valjas frivilligt).
 praktisk yrkesorientering (pryo), dvs praktik pa en arbetsplats, skall alla elever i arskurs 9 ha under tva veckor.
 tidigare forekom pryo i arskurs 8.
 den praktiska yrkesorienteringen forberedes genom sarskilda studiebesok under arskurs 8.
 nya tillvalsamnen pa hogstadiet skall varje elev valja ett av fyra tillvalsamnen: * sprak (franska eller tyska) * ekonomi * teknik * konst de tre senare har saval teoretiska som praktiska inslag.
-val av kurs tilltrade till hogre studier
+val av kurs
 }
 False positives: {
 nya tillvalsamnen pa hogstadiet skall varje elev valja ett av fyra tillvalsamnen: * sprak (franska eller tyska) * ekonomi * teknik * konst de tre senare har saval teoretiska som praktiska inslag.
-val av kurs tilltrade till hogre studier
 } False negatives: {
 nya tillvalsamnen
 pa hogstadiet skall varje elev valja ett av fyra tillvalsamnen: * sprak (franska eller tyska) * ekonomi * teknik * konst
 de tre senare har saval teoretiska som praktiska inslag.
-val av kurs
-tilltrade till hogre studier
 }
 
 Expected: {
+man skickar en anmalan till barnavardsnamnden.
 pa bb brukar personalen se till att anmalan blir ifylld och avsand.
 barnavardsnamnden svarar for att bidraget betalas ut genom posten.
 forslag har lagts fram om att barnbidraget ska hojas till 1200 kr / ar fran 1 januari 1971.
@@ -1383,9 +1348,9 @@ det finns olika slags barnhem.
 spadbarnshem for vard av barn under ett ar.
 modrahem for vard av spadbarn tillsammans med modrar.
 upptagningshem for tillfallig vard av barn t.ex. vid foraldrarnas sjukdom.
-specialhem for barn som behover vard under langre tid.
 }
 Predicted: {
+man skickar en anmalan till barnavardsnamnden.
 pa bb brukar personalen se till att anmalan blir ifylld och avsand.
 barnavardsnamnden svarar for att bidraget betalas ut genom posten.
 forslag har lagts fram om att barnbidraget ska hojas till 1200 kr / ar fran 1 januari 1971.
@@ -1394,7 +1359,6 @@ barnhem det finns olika slags barnhem.
 spadbarnshem for vard av barn under ett ar.
 modrahem for vard av spadbarn tillsammans med modrar.
 upptagningshem for tillfallig vard av barn t.ex. vid foraldrarnas sjukdom.
-specialhem for barn som behover vard under langre tid.
 }
 False positives: {
 barnhem det finns olika slags barnhem.
@@ -1404,6 +1368,7 @@ det finns olika slags barnhem.
 }
 
 Expected: {
+dar kan hyrorna i stort sett inte andras savida inte kostnaderna okar for fastighetsforvaltning, genom ombyggnad eller forbattring.
 lagenheter som har fardigstallts efter ar 1968 undantas dock fran regleringen.
 tvister om hyran pa dessa orter provas av de nya statliga hyresnamnderna.
 man vander sig till lanshyresnamnden.
@@ -1413,9 +1378,9 @@ prishojningar gor det dyrare for oss att leva.
 hur mycket dyrare?
 statistiska centralbyran beraknar varje manad de genomsnittliga prisforandringarna for de varor och tjanster vi konsumerar.
 prisforandringarna uttrycks i konsumentprisindex (kpi).
-for att kunna uppratthalla oforandrad standard vill vi ha kompensation for prisstegringarna.
 }
 Predicted: {
+dar kan hyrorna i stort sett inte andras savida inte kostnaderna okar for fastighetsforvaltning, genom ombyggnad eller forbattring.
 lagenheter som har fardigstallts efter ar 1968 undantas dock fran regleringen.
 tvister om hyran pa dessa orter provas av de nya statliga hyresnamnderna.
 man vander sig till lanshyresnamnden.
@@ -1425,7 +1390,6 @@ prishojningar gor det dyrare for oss att leva.
 hur mycket dyrare?
 statistiska centralbyran beraknar varje manad de genomsnittliga prisforandringarna for de varor och tjanster vi konsumerar.
 prisforandringarna uttrycks i konsumentprisindex (kpi).
-for att kunna uppratthalla oforandrad standard vill vi ha kompensation for prisstegringarna.
 }
 False positives: {
 sanitar olagenhet om man behover klaga over t.ex. dalig uppvarmning, storande buller etc.
@@ -1436,6 +1400,7 @@ om man behover klaga over t.ex. dalig uppvarmning, storande buller etc. vander m
 }
 
 Expected: {
+man kommer sarskilt att uppmarksamma tendenser mot okad prissattning i femoressteg.
 (de ratta losningarna ar 6:20 resp. 6:25.)
 mer an en halv miljon fritidsbatar ar i rorelse under den svenska sommaren.
 finns det flytvastar pa alla barn ombord?
@@ -1445,9 +1410,9 @@ det ar en billig form av trygghet.
 aven vuxna borde i storre utstrackning anvanda flytvast.
 simkunnighet ar sjalvklart bra men forslar inte langt i de kyliga svenska vattnen.
 en frusen eller medvetslos person kan inte simma.
-134 personer drunknade 1969 genom olyckor med smabatar.
 }
 Predicted: {
+man kommer sarskilt att uppmarksamma tendenser mot okad prissattning i femoressteg.
 (de ratta losningarna ar 6:20 resp.
 6:25.)
 mer an en halv miljon fritidsbatar ar i rorelse under den svenska sommaren.
@@ -1458,7 +1423,6 @@ det ar en billig form av trygghet.
 aven vuxna borde i storre utstrackning anvanda flytvast.
 simkunnighet ar sjalvklart bra men forslar inte langt i de kyliga svenska vattnen.
 en frusen eller medvetslos person kan inte simma.
-134 personer drunknade 1969 genom olyckor med smabatar.
 }
 False positives: {
 (de ratta losningarna ar 6:20 resp.
@@ -1468,6 +1432,7 @@ False positives: {
 }
 
 Expected: {
+fyra miljoner trangs
 varje morgon aker tre miljoner manniskor nastan samtidigt till sina arbeten.
 pa samma gang skall en miljon barn till skolan.
 halften av alla bilresor gors till och fran arbetet.
@@ -1477,10 +1442,9 @@ de har trafikolyckorna kan minskas om
 arbetsplatser och bostader laggs narmare varandra.
 tiderna forskjuts sa att farre manniskor samtidigt ar ute i trafiken.
 fler resor gors kollektivt.
-541 bilforare och passagerare dodades forra aret i trafiken (preliminar statistik).
 }
 Predicted: {
-varje morgon aker tre miljoner manniskor nastan samtidigt till sina arbeten.
+fyra miljoner trangs varje morgon aker tre miljoner manniskor nastan samtidigt till sina arbeten.
 pa samma gang skall en miljon barn till skolan.
 halften av alla bilresor gors till och fran arbetet.
 olyckor pa vag till eller fran arbete raknas fran forsakringssynpunkt som olycksfall i arbetet.
@@ -1488,16 +1452,19 @@ var fjarde som dodas i arbetet har i verkligheten gjort det i trafiken - pa vag 
 de har trafikolyckorna kan minskas om arbetsplatser och bostader laggs narmare varandra.
 tiderna forskjuts sa att farre manniskor samtidigt ar ute i trafiken.
 fler resor gors kollektivt.
-541 bilforare och passagerare dodades forra aret i trafiken (preliminar statistik).
 }
 False positives: {
+fyra miljoner trangs varje morgon aker tre miljoner manniskor nastan samtidigt till sina arbeten.
 de har trafikolyckorna kan minskas om arbetsplatser och bostader laggs narmare varandra.
 } False negatives: {
+fyra miljoner trangs
+varje morgon aker tre miljoner manniskor nastan samtidigt till sina arbeten.
 de har trafikolyckorna kan minskas om
 arbetsplatser och bostader laggs narmare varandra.
 }
 
 Expected: {
+valsedlarna maste ha: * partibeteckning * standardiserat format * farg som anger till vilket val de galler
 valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige)
 liksom tidigare kan man stryka namn pa valsedel.
 valsedlarna blir ogiltiga * om de har kannetecken som satts dit i uppenbar avsikt att marka dem (galler aven valkuverten) * om de saknar partibeteckning eller har mer an en partibeteckning * om mer an en valsedel finns i samma kuvert.
@@ -1507,24 +1474,23 @@ vallokal och valtider star angivet pa rostsedeln.
 valskjutsar
 for valjare som har svart att komma till vallokalen ordnar vissa kommuner valskjutsar.
 din kommun ger narmare upplysningar.
-aven partierna brukar ordna med valskjutsar.
 }
 Predicted: {
-valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige) liksom tidigare kan man stryka namn pa valsedel.
+valsedlarna maste ha: * partibeteckning * standardiserat format * farg som anger till vilket val de galler valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige) liksom tidigare kan man stryka namn pa valsedel.
 valsedlarna blir ogiltiga * om de har kannetecken som satts dit i uppenbar avsikt att marka dem (galler aven valkuverten) * om de saknar partibeteckning eller har mer an en partibeteckning * om mer an en valsedel finns i samma kuvert.
 rostning i vallokalen den 20 september sjalva rostningen gar i stort sett till som tidigare med den skillnaden att det galler tre val * * i goteborg, malmo och pa gotland, dar kommunerna sjalva fullgor landstingens uppgifter, har man tva val - inte landstingsval.
 samtidigt.
 vallokal och valtider star angivet pa rostsedeln.
 valskjutsar for valjare som har svart att komma till vallokalen ordnar vissa kommuner valskjutsar.
 din kommun ger narmare upplysningar.
-aven partierna brukar ordna med valskjutsar.
 }
 False positives: {
-valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige) liksom tidigare kan man stryka namn pa valsedel.
+valsedlarna maste ha: * partibeteckning * standardiserat format * farg som anger till vilket val de galler valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige) liksom tidigare kan man stryka namn pa valsedel.
 rostning i vallokalen den 20 september sjalva rostningen gar i stort sett till som tidigare med den skillnaden att det galler tre val * * i goteborg, malmo och pa gotland, dar kommunerna sjalva fullgor landstingens uppgifter, har man tva val - inte landstingsval.
 samtidigt.
 valskjutsar for valjare som har svart att komma till vallokalen ordnar vissa kommuner valskjutsar.
 } False negatives: {
+valsedlarna maste ha: * partibeteckning * standardiserat format * farg som anger till vilket val de galler
 valsedlarna bor ha * namn pa en eller flera kandidater * valkretsbeteckning * uppgift om till vilket val de galler (riksdag, landsting eller kommunfullmaktige)
 liksom tidigare kan man stryka namn pa valsedel.
 rostning i vallokalen den 20 september
@@ -1534,6 +1500,7 @@ for valjare som har svart att komma till vallokalen ordnar vissa kommuner valskj
 }
 
 Expected: {
+foretagsutbildning anordnas i olika former.
 i vissa fall utgar bidrag till foretag, som anstaller elev med avtalsenlig lon.
 det galler t.ex. lokaliseringsutbildning vid foretag, som paborjar eller utvidgar sin verksamhet pa orter med svag sysselsattning.
 motsvarande kan ocksa galla da foretag utbildar handikappade eller aldre.
@@ -1543,9 +1510,9 @@ jobbet for dig finns kanske pa en annan ort
 nar det inte finns lampligt arbete pa hemorten kan samhallet ge bidrag at den som vill flytta till en ort dar man kan fa arbete.
 avsikten med bidragen ar att den enskilde inte ska drabbas alltfor hart av forandringarna pa arbetsmarknaden, utan sa langt som mojligt fa sina kostnader i samband med flyttning tackta.
 en flyttning till en ort med behov av arbetskraft medfor okad trygghet och okade valmojligheter for hela familjen.
-du kan fa ekonomisk hjalp vid flyttning
 }
 Predicted: {
+foretagsutbildning anordnas i olika former.
 i vissa fall utgar bidrag till foretag, som anstaller elev med avtalsenlig lon.
 det galler t.ex. lokaliseringsutbildning vid foretag, som paborjar eller utvidgar sin verksamhet pa orter med svag sysselsattning.
 motsvarande kan ocksa galla da foretag utbildar handikappade eller aldre.
@@ -1554,7 +1521,6 @@ utbildningsbidrag utgar ocksa till aldre arbetstagare, som far provanstallning i
 jobbet for dig finns kanske pa en annan ort nar det inte finns lampligt arbete pa hemorten kan samhallet ge bidrag at den som vill flytta till en ort dar man kan fa arbete.
 avsikten med bidragen ar att den enskilde inte ska drabbas alltfor hart av forandringarna pa arbetsmarknaden, utan sa langt som mojligt fa sina kostnader i samband med flyttning tackta.
 en flyttning till en ort med behov av arbetskraft medfor okad trygghet och okade valmojligheter for hela familjen.
-du kan fa ekonomisk hjalp vid flyttning
 }
 False positives: {
 jobbet for dig finns kanske pa en annan ort nar det inte finns lampligt arbete pa hemorten kan samhallet ge bidrag at den som vill flytta till en ort dar man kan fa arbete.
@@ -1564,6 +1530,7 @@ nar det inte finns lampligt arbete pa hemorten kan samhallet ge bidrag at den so
 }
 
 Expected: {
+borja nu
 det ar klokt att i god tid borja se sig om pa arbetsmarknaden.
 tag kontakt med arbetsformedlingen om du ar osaker pa vad du skall gora efter skolan.
 vantar du minskar dina mojligheter att noga tanka igenom olika forslag, och du tvingas kanske gora ett mindre overvagt val.
@@ -1573,18 +1540,19 @@ anlagsprovning
 arbetsmarknadsutbildning
 bocker och broschyrer om yrkesval
 vad ar viktigt att ta reda pa nar man soker arbete?
-eec ar ingen rikemansklubb.
 }
 Predicted: {
-det ar klokt att i god tid borja se sig om pa arbetsmarknaden.
+borja nu det ar klokt att i god tid borja se sig om pa arbetsmarknaden.
 tag kontakt med arbetsformedlingen om du ar osaker pa vad du skall gora efter skolan.
 vantar du minskar dina mojligheter att noga tanka igenom olika forslag, och du tvingas kanske gora ett mindre overvagt val.
 kunskaper om arbete och utbildning flyttningshjalp anlagsprovning arbetsmarknadsutbildning bocker och broschyrer om yrkesval vad ar viktigt att ta reda pa nar man soker arbete?
-eec ar ingen rikemansklubb.
 }
 False positives: {
+borja nu det ar klokt att i god tid borja se sig om pa arbetsmarknaden.
 kunskaper om arbete och utbildning flyttningshjalp anlagsprovning arbetsmarknadsutbildning bocker och broschyrer om yrkesval vad ar viktigt att ta reda pa nar man soker arbete?
 } False negatives: {
+borja nu
+det ar klokt att i god tid borja se sig om pa arbetsmarknaden.
 kunskaper om arbete och utbildning
 flyttningshjalp
 anlagsprovning
@@ -1594,6 +1562,7 @@ vad ar viktigt att ta reda pa nar man soker arbete?
 }
 
 Expected: {
+nato: north atlantic treaty organization (atlantpakten).
 en jattemarknad for sverige
 i de 18 afrikanska staterna plus madagaskar bor 65 miljoner.
 kommer storbritannien, irland, sverige, norge och danmark med sa vaxer eec med ytterligare cirka 75 milj manniskor.
@@ -1603,9 +1572,9 @@ i usa var den samma tid 78 proc.
 for sverige var okningen cirka 79 proc.
 sverige noterade under samma tid en okning pa 55 proc.
 nu har den sjunkit betydligt, men ar fortfarande god, ca 4 proc.
-med ekonomisk tillvaxt forstas den arliga okningen av ett lands samlade produktion av varor och tjanster.
 }
 Predicted: {
+nato: north atlantic treaty organization (atlantpakten).
 en jattemarknad for sverige i de 18 afrikanska staterna plus madagaskar bor 65 miljoner.
 kommer storbritannien, irland, sverige, norge och danmark med sa vaxer eec med ytterligare cirka 75 milj manniskor.
 under det tiotal ar som eec hittills existerat har man gatt framat ganska kraftigt.
@@ -1614,7 +1583,6 @@ i usa var den samma tid 78 proc.
 for sverige var okningen cirka 79 proc.
 sverige noterade under samma tid en okning pa 55 proc.
 nu har den sjunkit betydligt, men ar fortfarande god, ca 4 proc.
-med ekonomisk tillvaxt forstas den arliga okningen av ett lands samlade produktion av varor och tjanster.
 }
 False positives: {
 en jattemarknad for sverige i de 18 afrikanska staterna plus madagaskar bor 65 miljoner.
@@ -1624,6 +1592,7 @@ i de 18 afrikanska staterna plus madagaskar bor 65 miljoner.
 }
 
 Expected: {
+det finns rostskyddsvatska (kostar ungefar en tia) pa alla bensinstationer.
 det ar bland annat darfor man bor vara ute i tid, sa att man slipper alla problem med igenisade dorrar och mekaniska delar.
 byt vindrutetorkarblad.
 det kostar cirka 20 kronor att fa nya blad, men det har du nytta av.
@@ -1633,9 +1602,9 @@ kontrollera att defrostern fungerar bra.
 under motorhuven:
 tappa ur det gamla kylvattnet.
 fyll pa glykol.
-byt motorolja - tunnare kvalitet - lattare att starta.
 }
 Predicted: {
+det finns rostskyddsvatska (kostar ungefar en tia) pa alla bensinstationer.
 det ar bland annat darfor man bor vara ute i tid, sa att man slipper alla problem med igenisade dorrar och mekaniska delar.
 byt vindrutetorkarblad.
 det kostar cirka 20 kronor att fa nya blad, men det har du nytta av.
@@ -1644,7 +1613,6 @@ pa bakrutan - som gors helt ren fran fet belaggning - monterar du en imruta (den
 kontrollera att defrostern fungerar bra.
 under motorhuven: tappa ur det gamla kylvattnet.
 fyll pa glykol.
-byt motorolja - tunnare kvalitet - lattare att starta.
 }
 False positives: {
 under motorhuven: tappa ur det gamla kylvattnet.
@@ -1654,6 +1622,7 @@ tappa ur det gamla kylvattnet.
 }
 
 Expected: {
+sveriges framste expert pa omradet, docenten ingmar h:son klockhoff, vid uppsala akademiska sjukhus, sager till expressen:
 - alla skjutvapen ar farliga for horseln.
 pansarvarnsvapnen skall vi bara inte tala om.
 smallarna ar som enorma pisksnartar.
@@ -1663,10 +1632,9 @@ de horselskydd - foretradesvis glasdun - som hittills anvants vid skjutningar me
 resten far skytten och laddaren i orat ...
 docent klockhoff:
 - vid en sadan small slocknar en stor del av orats nervcellsklaviatur for alltid.
-en soldat kan bli obotligt horselskadad redan vid sin forsta skjutning.
 }
 Predicted: {
-- alla skjutvapen ar farliga for horseln.
+sveriges framste expert pa omradet, docenten ingmar h:son klockhoff, vid uppsala akademiska sjukhus, sager till expressen: - alla skjutvapen ar farliga for horseln.
 pansarvarnsvapnen skall vi bara inte tala om.
 smallarna ar som enorma pisksnartar.
 ett skott kan pa grund av tillfalliga terrangforhallanden fa samma verkan som fem andra tillsammans.
@@ -1674,16 +1642,49 @@ resultatet kan man tanka sig.
 de horselskydd - foretradesvis glasdun - som hittills anvants vid skjutningar med granatgevar och pansarvarnskanon eliminerar 20 av 170 decibel.
 resten far skytten och laddaren i orat ...
 docent klockhoff: - vid en sadan small slocknar en stor del av orats nervcellsklaviatur for alltid.
-en soldat kan bli obotligt horselskadad redan vid sin forsta skjutning.
 }
 False positives: {
+sveriges framste expert pa omradet, docenten ingmar h:son klockhoff, vid uppsala akademiska sjukhus, sager till expressen: - alla skjutvapen ar farliga for horseln.
 docent klockhoff: - vid en sadan small slocknar en stor del av orats nervcellsklaviatur for alltid.
 } False negatives: {
+sveriges framste expert pa omradet, docenten ingmar h:son klockhoff, vid uppsala akademiska sjukhus, sager till expressen:
+- alla skjutvapen ar farliga for horseln.
 docent klockhoff:
 - vid en sadan small slocknar en stor del av orats nervcellsklaviatur for alltid.
 }
 
 Expected: {
+hog temperatur
+- kvallsmanniskor som nu tvingas upp tidigt kan inte heller utnyttja sin fritid meningsfullt.
+pa lordagar och sondagar da de ar lediga behover de sova for att kompensera sin 'somnskuld' och inte heller da kan de som 'morgonmanniskor' utnyttja ledigheten.
+medicinska undersokningar visar att de som ar pigga pa morgonen har en hog adrenalinproduktion da, medan de som har kvallsarbete och en sen dygnsrytm, exempelvis inom serviceyrken, har maximal adrenalinproduktion pa kvallen.
+prestationsformagan ar som hogst nar den normala kroppstemperaturen ar som hogst pa dygnet, visar oqvists undersokning.
+den morgonpigga har sin temptopp tidigt och for andra kommer denna topp kanske forst under formiddagstimmarna eller senare pa dagen.
+- ta som exempel en processtyrd industri dar en person som ar en utpraglad kvallsmanniska men tvingas att borja jobba tidigt placeras vid en kontrollpanel.
+han maste handla utomordentligt snabbt i vissa situationer men han har inte den vakenhetsgrad som fordras.
+jag finner det underligt att industrin inte visat nagot intresse for att ta reda pa nar deras anstallda anser sig fungera bast pa dygnet.
+en kopp kaffe ...
+}
+Predicted: {
+hog temperatur - kvallsmanniskor som nu tvingas upp tidigt kan inte heller utnyttja sin fritid meningsfullt.
+pa lordagar och sondagar da de ar lediga behover de sova for att kompensera sin 'somnskuld' och inte heller da kan de som 'morgonmanniskor' utnyttja ledigheten.
+medicinska undersokningar visar att de som ar pigga pa morgonen har en hog adrenalinproduktion da, medan de som har kvallsarbete och en sen dygnsrytm, exempelvis inom serviceyrken, har maximal adrenalinproduktion pa kvallen.
+prestationsformagan ar som hogst nar den normala kroppstemperaturen ar som hogst pa dygnet, visar oqvists undersokning.
+den morgonpigga har sin temptopp tidigt och for andra kommer denna topp kanske forst under formiddagstimmarna eller senare pa dagen.
+- ta som exempel en processtyrd industri dar en person som ar en utpraglad kvallsmanniska men tvingas att borja jobba tidigt placeras vid en kontrollpanel.
+han maste handla utomordentligt snabbt i vissa situationer men han har inte den vakenhetsgrad som fordras.
+jag finner det underligt att industrin inte visat nagot intresse for att ta reda pa nar deras anstallda anser sig fungera bast pa dygnet.
+en kopp kaffe ...
+}
+False positives: {
+hog temperatur - kvallsmanniskor som nu tvingas upp tidigt kan inte heller utnyttja sin fritid meningsfullt.
+} False negatives: {
+hog temperatur
+- kvallsmanniskor som nu tvingas upp tidigt kan inte heller utnyttja sin fritid meningsfullt.
+}
+
+Expected: {
+kylningsresurserna racker ofta inte till, varken hos skalaren, i bilarna eller i mottagande storkok.
 'mandagspotatis'
 dessforinnan ar den val sa hog i industriskalad som i skalkokt potatis.
 men hinnan ar oaptitlig, konsistensen ofta sorglig.
@@ -1693,9 +1694,9 @@ varfor kan vi inte ga tillbaka till den potatis vi at for trettio ar sen?
 da skalade storkoken var for sig med karborundum (slipskivor) plus efterputs.
 det kraver mera arbetskraft i koket.
 och numera ser man surt pa avloppsvattnet fran apparaterna.
-det innebar belastning pa reningsverken och ett sloseri med vardefull organisk substans.
 }
 Predicted: {
+kylningsresurserna racker ofta inte till, varken hos skalaren, i bilarna eller i mottagande storkok.
 'mandagspotatis' dessforinnan ar den val sa hog i industriskalad som i skalkokt potatis.
 men hinnan ar oaptitlig, konsistensen ofta sorglig.
 pa sjukhusen klagas sarskilt hogt over mandagspotatisen, som aldrig ar skalad senare an torsdag.
@@ -1703,7 +1704,6 @@ ingen atervando varfor kan vi inte ga tillbaka till den potatis vi at for tretti
 da skalade storkoken var for sig med karborundum (slipskivor) plus efterputs.
 det kraver mera arbetskraft i koket.
 och numera ser man surt pa avloppsvattnet fran apparaterna.
-det innebar belastning pa reningsverken och ett sloseri med vardefull organisk substans.
 }
 False positives: {
 'mandagspotatis' dessforinnan ar den val sa hog i industriskalad som i skalkokt potatis.
@@ -1716,6 +1716,7 @@ varfor kan vi inte ga tillbaka till den potatis vi at for trettio ar sen?
 }
 
 Expected: {
+varfor okar da skolket och strofranvaron?
 dr tomas hedqvist forsokte svara pa den fragan:
 skolk ar ju sallan en isolerad foreteelse.
 orsakerna ar komplexa.
@@ -1725,9 +1726,9 @@ studieavbrott forekommer ocksa av taktiska skal.
 en gymnasist far inte tillrackligt hoga betyg och slutar for att senare ga i vuxengymnasium och konkurrera med mindre studievana kamrater.
 eleverna behover en morot, sade bengt silfverberg.
 man maste skapa nagot positivt av skolan, gora nagot sa att eleverna finner det vart att ga i skolan.
-hur skall den moroten se ut, undrade en kurator i publiken.
 }
 Predicted: {
+varfor okar da skolket och strofranvaron?
 dr tomas hedqvist forsokte svara pa den fragan: skolk ar ju sallan en isolerad foreteelse.
 orsakerna ar komplexa.
 miljon utanfor skolan och i hemmet spelar storre roll an miljon inne i skolan.
@@ -1736,7 +1737,6 @@ studieavbrott forekommer ocksa av taktiska skal.
 en gymnasist far inte tillrackligt hoga betyg och slutar for att senare ga i vuxengymnasium och konkurrera med mindre studievana kamrater.
 eleverna behover en morot, sade bengt silfverberg.
 man maste skapa nagot positivt av skolan, gora nagot sa att eleverna finner det vart att ga i skolan.
-hur skall den moroten se ut, undrade en kurator i publiken.
 }
 False positives: {
 dr tomas hedqvist forsokte svara pa den fragan: skolk ar ju sallan en isolerad foreteelse.
@@ -1746,6 +1746,7 @@ skolk ar ju sallan en isolerad foreteelse.
 }
 
 Expected: {
+till en sadan har anlaggning kan man med ett enkelt rorsystem ut pa bryggorna koppla utsugningsslangar till batarnas uppsamlingstankar.
 batens uppsamlingstank behover inte vara nagon speciellt utformad vakuumtank, och man kan saledes anvanda de flesta tanksystem som finns pa marknaden i dag.
 battoaletter ett miljovardsproblem
 i morgon oppnas ett nytt avsnitt pa essingeleden och skanstullsbron far en sarskild kollektivfil.
@@ -1755,9 +1756,9 @@ samtidigt infors sarskild kollektivfil over skanstullsbron.
 nya essingeleden innebar framfor allt att bilisterna slipper ge sig in i innerstan om de ska passera stockholm.
 flaskhalsarna vid s:t eriksgatan och fridhemsplan forsvinner.
 luften och miljon pa kungsholmen blir en aning battre.
-samtidigt blir det samre for alla som bor pa norra stationsgatan, en av essingeledens stora tillfarter.
 }
 Predicted: {
+till en sadan har anlaggning kan man med ett enkelt rorsystem ut pa bryggorna koppla utsugningsslangar till batarnas uppsamlingstankar.
 batens uppsamlingstank behover inte vara nagon speciellt utformad vakuumtank, och man kan saledes anvanda de flesta tanksystem som finns pa marknaden i dag.
 battoaletter ett miljovardsproblem i morgon oppnas ett nytt avsnitt pa essingeleden och skanstullsbron far en sarskild kollektivfil.
 tva glada trafiknyheter den har veckan: i morgon oppnas ett nytt avsnitt av essingeleden.
@@ -1765,7 +1766,6 @@ samtidigt infors sarskild kollektivfil over skanstullsbron.
 nya essingeleden innebar framfor allt att bilisterna slipper ge sig in i innerstan om de ska passera stockholm.
 flaskhalsarna vid s:t eriksgatan och fridhemsplan forsvinner.
 luften och miljon pa kungsholmen blir en aning battre.
-samtidigt blir det samre for alla som bor pa norra stationsgatan, en av essingeledens stora tillfarter.
 }
 False positives: {
 battoaletter ett miljovardsproblem i morgon oppnas ett nytt avsnitt pa essingeleden och skanstullsbron far en sarskild kollektivfil.
@@ -1778,6 +1778,7 @@ i morgon oppnas ett nytt avsnitt av essingeleden.
 }
 
 Expected: {
+lekradet lanserar nu en helt ny form av information, som vander sig till konsumenten i det psykologiska ogonblicket.
 man finner den pa leksaksavdelningen i varuhuset just nar man star i valet och kvalet.
 information ges dels i en broschyr, 'tjana pa att veta om leksaker', som delas ut utan kostnad, dels pa skarmar vid de olika typerna av leksaker och lekmaterial.
 men den fyller ocksa en annan funktion, den ger vardefulla upplysningar till inkoparna av leksaker, vilka har en mycket viktig uppgift.
@@ -1787,9 +1788,9 @@ i varuhusen borjar nu leksakerna ordnas efter samma grunder.
 pa sa satt blir det lattare att valja leksaker at barn i olika aldrar och utvecklingsstadier.
 sa fungerar lekcirkeln:
 lekcirkeln ar uppdelad i fem sektorer i var sin glad farg.
-den orangefargade biten i cirkeln star for skapande lek, bygglek och konstruktiv lek.
 }
 Predicted: {
+lekradet lanserar nu en helt ny form av information, som vander sig till konsumenten i det psykologiska ogonblicket.
 man finner den pa leksaksavdelningen i varuhuset just nar man star i valet och kvalet.
 information ges dels i en broschyr, 'tjana pa att veta om leksaker', som delas ut utan kostnad, dels pa skarmar vid de olika typerna av leksaker och lekmaterial.
 men den fyller ocksa en annan funktion, den ger vardefulla upplysningar till inkoparna av leksaker, vilka har en mycket viktig uppgift.
@@ -1798,7 +1799,6 @@ nar kf:s leksaksinkopare far till england, tyskland, japan och hongkong for att 
 i varuhusen borjar nu leksakerna ordnas efter samma grunder.
 pa sa satt blir det lattare att valja leksaker at barn i olika aldrar och utvecklingsstadier.
 sa fungerar lekcirkeln: lekcirkeln ar uppdelad i fem sektorer i var sin glad farg.
-den orangefargade biten i cirkeln star for skapande lek, bygglek och konstruktiv lek.
 }
 False positives: {
 sa fungerar lekcirkeln: lekcirkeln ar uppdelad i fem sektorer i var sin glad farg.
@@ -1808,6 +1808,7 @@ lekcirkeln ar uppdelad i fem sektorer i var sin glad farg.
 }
 
 Expected: {
+men den kan ocksa ha klarat sig ifran det vid ett liknande tillfalle.
 nu chansar hunden och forefaller alltsa oskyldig.
 doc. bergman papekade att det mojligen finns en lagre intelligens hos hunden.
 den drommer ju bl.a. men ofta efter stora aktiviteter.
@@ -1817,9 +1818,9 @@ skotten blev aggressiv da dofterna narmade sig hans nos.
 huset syntes inte.
 val pa bryggan hoppade skotten i land och anfoll gardens nya, men betydligt fogligare, hund av samma ras som den forra.
 doftminnet fran slagsmalet satt kvar efter sju ar.
-en hund glommer aldrig en sadan upplevelse.
 }
 Predicted: {
+men den kan ocksa ha klarat sig ifran det vid ett liknande tillfalle.
 nu chansar hunden och forefaller alltsa oskyldig.
 doc.
 bergman papekade att det mojligen finns en lagre intelligens hos hunden.
@@ -1831,7 +1832,6 @@ skotten blev aggressiv da dofterna narmade sig hans nos.
 huset syntes inte.
 val pa bryggan hoppade skotten i land och anfoll gardens nya, men betydligt fogligare, hund av samma ras som den forra.
 doftminnet fran slagsmalet satt kvar efter sju ar.
-en hund glommer aldrig en sadan upplevelse.
 }
 False positives: {
 doc.
@@ -1844,6 +1844,7 @@ doc. bergman berattade om en egen upplevelse dar hans davarande hund, en skotte,
 }
 
 Expected: {
+daremot har familjen fortfarande en allman kanslomassig funktion.
 svarast ar att bestamma vilka forandringar som har skett i fraga om den sexuella funktionen.
 det finns en lang tradition i vart land att acceptera foraktenskapliga forbindelser (i vissa former) men det forefaller vara sannolikt att de foraktenskapliga och utomaktenskapliga forbindelserna har okat.
 de skal som talar for detta ar dels den mindre starka sociala kontrollen (jfr s. 102) i de typiska tatortssamhallena, dels andrade attityder till sexuella forbindelser utom aktenskapet och dels battre metoder for fodelsekontroll.
@@ -1853,9 +1854,9 @@ vilka konsekvenser kan det ha for olika familjemedlemmar?
 jordens befolkning uppgick vid mitten av 1967 till omkring 3,42 miljarder och okar arligen med ungefar 2 %.
 detta motsvarar en okning av folkmangden med 65 miljoner varje ar eller 180000 varje dygn.
 befolkningstillvaxten ar storst i utvecklingslanderna, allra storst i centralamerika med 3,5 %.
-varldsbefolkningens utveckling fran ar 1650 till 1967 och fn:s prognos till ar 2000.
 }
 Predicted: {
+daremot har familjen fortfarande en allman kanslomassig funktion.
 svarast ar att bestamma vilka forandringar som har skett i fraga om den sexuella funktionen.
 det finns en lang tradition i vart land att acceptera foraktenskapliga forbindelser (i vissa former) men det forefaller vara sannolikt att de foraktenskapliga och utomaktenskapliga forbindelserna har okat.
 de skal som talar for detta ar dels den mindre starka sociala kontrollen (jfr s. 102) i de typiska tatortssamhallena, dels andrade attityder till sexuella forbindelser utom aktenskapet och dels battre metoder for fodelsekontroll.
@@ -1864,7 +1865,6 @@ vilka konsekvenser kan det ha for olika familjemedlemmar?
 jordens befolkning uppgick vid mitten av 1967 till omkring 3,42 miljarder och okar arligen med ungefar 2 %.
 detta motsvarar en okning av folkmangden med 65 miljoner varje ar eller 180000 varje dygn.
 befolkningstillvaxten ar storst i utvecklingslanderna, allra storst i centralamerika med 3,5 %.
-varldsbefolkningens utveckling fran ar 1650 till 1967 och fn:s prognos till ar 2000.
 }
 False positives: {
 diskutera hur har de har olika funktionerna inom familjen andrats.
@@ -1874,36 +1874,7 @@ hur har de har olika funktionerna inom familjen andrats.
 }
 
 Expected: {
-heliga ar dess forbindelser, heliga dess andamal.
-(ur svenska kyrkans vigselritual.)
-de har citaten representerar tva diametralt motsatta standpunkter nar det galler synen pa aktenskapet och familjen.
-den stundtals mycket intensiva debatten pa detta omrade har framfor allt rort sig kring sex fragor.
-ar aktenskapet en privatsak eller en social institution?
-den har fragan dyker ofta upp i diskussioner om aktenskapet.
-de besvaras ibland med pastaendet, att aktenskapet ar en ren privatsak, som inte angar samhallet.
-men man observerar inte alltid, att ordet privatsak ar mangtydigt.
-aktenskapet ar en institution i samhallet
-en man och en kvinna kan mycket val bo tillsammans och skaffa sig barn, utan att deras forhallande raknas som aktenskap.
-}
-Predicted: {
-heliga ar dess forbindelser, heliga dess andamal.
-(ur svenska kyrkans vigselritual.)
-de har citaten representerar tva diametralt motsatta standpunkter nar det galler synen pa aktenskapet och familjen.
-den stundtals mycket intensiva debatten pa detta omrade har framfor allt rort sig kring sex fragor.
-ar aktenskapet en privatsak eller en social institution?
-den har fragan dyker ofta upp i diskussioner om aktenskapet.
-de besvaras ibland med pastaendet, att aktenskapet ar en ren privatsak, som inte angar samhallet.
-men man observerar inte alltid, att ordet privatsak ar mangtydigt.
-aktenskapet ar en institution i samhallet en man och en kvinna kan mycket val bo tillsammans och skaffa sig barn, utan att deras forhallande raknas som aktenskap.
-}
-False positives: {
-aktenskapet ar en institution i samhallet en man och en kvinna kan mycket val bo tillsammans och skaffa sig barn, utan att deras forhallande raknas som aktenskap.
-} False negatives: {
-aktenskapet ar en institution i samhallet
-en man och en kvinna kan mycket val bo tillsammans och skaffa sig barn, utan att deras forhallande raknas som aktenskap.
-}
-
-Expected: {
+intressant ar ocksa att se den forhallandevis ringa roll, som vattenkraften spelar for varldens totala energiproduktion.
 en grov analys av varldens energibalans ger vid handen, att usa ensamt svarar for drygt 35 % av varldens totala energiforbrukning.
 vasteuropa tar sedan ca 20 % och sovjetunionen ca 16 %.
 dessa tre omraden, som bara rymmer ca 20 % av varldens folkmangd, svarar alltsa for drygt 70 % av varldens energikonsumtion.
@@ -1913,9 +1884,9 @@ totalt 1964: 5100 milj. t.)
 eftersom samtidigt verkningsgraden hojts, kan vi rakna med att konsumtionsstegringen av den nyttiggjorda energin varit betydligt hogre an dessa varden.
 hur kommer da energikonsumtionen att utvecklas i framtiden?
 svaret pa fragan beror pa ett flertal faktorer och kan darfor bara bli en ganska osaker prognos.
-men lat oss forsoka rakna fram till ar 2000.
 }
 Predicted: {
+intressant ar ocksa att se den forhallandevis ringa roll, som vattenkraften spelar for varldens totala energiproduktion.
 en grov analys av varldens energibalans ger vid handen, att usa ensamt svarar for drygt 35 % av varldens totala energiforbrukning.
 vasteuropa tar sedan ca 20 % och sovjetunionen ca 16 %.
 dessa tre omraden, som bara rymmer ca 20 % av varldens folkmangd, svarar alltsa for drygt 70 % av varldens energikonsumtion.
@@ -1925,7 +1896,6 @@ totalt 1964: 5100 milj.
 t.) eftersom samtidigt verkningsgraden hojts, kan vi rakna med att konsumtionsstegringen av den nyttiggjorda energin varit betydligt hogre an dessa varden.
 hur kommer da energikonsumtionen att utvecklas i framtiden?
 svaret pa fragan beror pa ett flertal faktorer och kan darfor bara bli en ganska osaker prognos.
-men lat oss forsoka rakna fram till ar 2000.
 }
 False positives: {
 varldens produktion och konsumtion av energi med fordelning pa omraden (uttryckt i milj.
@@ -1940,6 +1910,7 @@ eftersom samtidigt verkningsgraden hojts, kan vi rakna med att konsumtionsstegri
 }
 
 Expected: {
+socialvardarna svarar:
 tyngdpunkten i samhallets ansvar for den enskilde medborgarens ekonomiska trygghet ligger i socialforsakringarna.
 dar dessa inte racker till skall socialhjalpen komma in och bygga pa.
 tyvarr dras man med en del fordomar fran den foregaende fattigvardslagen.
@@ -1949,27 +1920,29 @@ socialhjalpslagen
 den obligatoriska hjalpen regleras i § 12.
 frivillig hjalp kan kommunen ge enligt § 13.
 som lagen nu ar formulerad star det kommunerna fritt att tolka denna paragraf.
-den ger ocksa mojlighet att underlata att ge hjalp.
 }
 Predicted: {
-tyngdpunkten i samhallets ansvar for den enskilde medborgarens ekonomiska trygghet ligger i socialforsakringarna.
+socialvardarna svarar: tyngdpunkten i samhallets ansvar for den enskilde medborgarens ekonomiska trygghet ligger i socialforsakringarna.
 dar dessa inte racker till skall socialhjalpen komma in och bygga pa.
 tyvarr dras man med en del fordomar fran den foregaende fattigvardslagen.
 fortfarande ar socialhjalpen kringgardad av en omfattande detaljgranskning och ett visst kineseri varfor manga kanner motvilja, t.o.m. angest, for att soka hjalp.
 man ser inte bistandet som en rattighet om man ar sjuk, har det bekymmersamt eller ar handikappad sa att man behover ekonomiskt stod, kanske bara for tillfallet.
-socialhjalpslagen den obligatoriska hjalpen regleras i § 12. frivillig hjalp kan kommunen ge enligt § 13.
+socialhjalpslagen den obligatoriska hjalpen regleras i § 12.
+frivillig hjalp kan kommunen ge enligt § 13.
 som lagen nu ar formulerad star det kommunerna fritt att tolka denna paragraf.
-den ger ocksa mojlighet att underlata att ge hjalp.
 }
 False positives: {
-socialhjalpslagen den obligatoriska hjalpen regleras i § 12. frivillig hjalp kan kommunen ge enligt § 13.
+socialvardarna svarar: tyngdpunkten i samhallets ansvar for den enskilde medborgarens ekonomiska trygghet ligger i socialforsakringarna.
+socialhjalpslagen den obligatoriska hjalpen regleras i § 12.
 } False negatives: {
+socialvardarna svarar:
+tyngdpunkten i samhallets ansvar for den enskilde medborgarens ekonomiska trygghet ligger i socialforsakringarna.
 socialhjalpslagen
 den obligatoriska hjalpen regleras i § 12.
-frivillig hjalp kan kommunen ge enligt § 13.
 }
 
 Expected: {
+han representerar familjen utat, han bestammer om den materiella forsorjningen, han uppratthaller ordning, bestraffar och belonar.
 den expressiva funktionen utovas huvudsakligen av modern.
 det ar hon som svarar for de inre relationerna mellan familjemedlemmarna.
 hon tillgodoser medlemmarnas emotionella behov, hon vardar dem, hon medlar mellan dem osv.
@@ -1979,16 +1952,15 @@ i intervjuer fick foraldrarna till dessa pojkar svara pa fragan'
 vems ord vager tyngst, ert eller er makes / makas om ni ar av olika mening om en sak?'
 har ar svaren i procent:
 svarsfrekvenserna bestyrker i nagon man parsons och bales' antagande.
-bada konen anser att manlig dominans ar vanligare an kvinnlig.
 }
 Predicted: {
+han representerar familjen utat, han bestammer om den materiella forsorjningen, han uppratthaller ordning, bestraffar och belonar.
 den expressiva funktionen utovas huvudsakligen av modern.
 det ar hon som svarar for de inre relationerna mellan familjemedlemmarna.
 hon tillgodoser medlemmarnas emotionella behov, hon vardar dem, hon medlar mellan dem osv.
 se figuren, som ocksa visar barnens placering efter denna andra dimension.
 auktoritetssystemet i stockholmsfamiljer i intervjuer fick foraldrarna till dessa pojkar svara pa fragan' vems ord vager tyngst, ert eller er makes / makas om ni ar av olika mening om en sak?'
 har ar svaren i procent: svarsfrekvenserna bestyrker i nagon man parsons och bales' antagande.
-bada konen anser att manlig dominans ar vanligare an kvinnlig.
 }
 False positives: {
 auktoritetssystemet i stockholmsfamiljer i intervjuer fick foraldrarna till dessa pojkar svara pa fragan' vems ord vager tyngst, ert eller er makes / makas om ni ar av olika mening om en sak?'
@@ -2002,6 +1974,7 @@ svarsfrekvenserna bestyrker i nagon man parsons och bales' antagande.
 }
 
 Expected: {
+en katalog over pafoljderna finns i brottsbalken 1 kap. 3 §.
 nar det galler grovre brott blir pafoljden i regel olika former av frihetsstraff, dvs. kriminalvard pa anstalt.
 i allt storre utstrackning tillampas dock kriminalvard i frihet.
 diskussionen om kriminalvardens utformning har under de senaste aren varit livlig.
@@ -2011,9 +1984,9 @@ men kriminalvarden i frihet medfor ocksa svara problem.
 hur valfardssamhallet skall losa sina kriminalpolitiska problem beror pa en mangd faktorer: forskning, opinionsbildning, valjarnas installning och den lagstiftning och de anslag som riksdag och regering bestammer sig for.
 uppgifter
 vilka felkallor kan finnas i polisstatistiken?
-hur mycket har olika tillgreppsbrott okat fran 1960 till 1967?
 }
 Predicted: {
+en katalog over pafoljderna finns i brottsbalken 1 kap. 3 §.
 nar det galler grovre brott blir pafoljden i regel olika former av frihetsstraff, dvs. kriminalvard pa anstalt.
 i allt storre utstrackning tillampas dock kriminalvard i frihet.
 diskussionen om kriminalvardens utformning har under de senaste aren varit livlig.
@@ -2022,7 +1995,6 @@ de intagna isoleras socialt och aterfaller i stor utstrackning till brottslighet
 men kriminalvarden i frihet medfor ocksa svara problem.
 hur valfardssamhallet skall losa sina kriminalpolitiska problem beror pa en mangd faktorer: forskning, opinionsbildning, valjarnas installning och den lagstiftning och de anslag som riksdag och regering bestammer sig for.
 uppgifter vilka felkallor kan finnas i polisstatistiken?
-hur mycket har olika tillgreppsbrott okat fran 1960 till 1967?
 }
 False positives: {
 uppgifter vilka felkallor kan finnas i polisstatistiken?
@@ -2032,6 +2004,7 @@ vilka felkallor kan finnas i polisstatistiken?
 }
 
 Expected: {
+en social gemenskap kan a andra sidan inte existera utan former av social kontroll som ocksa inbegriper ett sanktionssystem.
 men for en kristen ar det karleken, inte fruktan for sanktioner som borde vara barande motiv for handlingen.
 kyrkans uppgift - att overtyga
 vi vet att det finns former av oansvarig sexuell losslappthet, som astadkommer manskliga tragedier och socialt ont.
@@ -2041,9 +2014,9 @@ ratt framford aktualiserar en kristen uppfattning om aktenskapet det forpliktand
 vi kanner f.n. ingen social institution som i dessa avseenden kan ersatta aktenskapet.
 en kristen idealmoral med detta innehall som framfors med full insikt om relativiteten och de skiftande individuella betingelserna pa detta omrade, kommer inte att verka upplosande pa sexualmoralen.
 den kommer tvartom att ge enskilda som lyssnar till en sadan nyanserad information impulser till personlig avgorelse.
-forst nar manniskor moter generositet och fortroende for eget stallningstagande, skarps deras eftertanke och ansvarskansla.
 }
 Predicted: {
+en social gemenskap kan a andra sidan inte existera utan former av social kontroll som ocksa inbegriper ett sanktionssystem.
 men for en kristen ar det karleken, inte fruktan for sanktioner som borde vara barande motiv for handlingen.
 kyrkans uppgift - att overtyga vi vet att det finns former av oansvarig sexuell losslappthet, som astadkommer manskliga tragedier och socialt ont.
 vi har ocksa gett exempel pa en rad komplikationer som den kristna etiken maste se, om den vill ge en nyanserad bedomning.
@@ -2052,7 +2025,6 @@ ratt framford aktualiserar en kristen uppfattning om aktenskapet det forpliktand
 vi kanner f.n. ingen social institution som i dessa avseenden kan ersatta aktenskapet.
 en kristen idealmoral med detta innehall som framfors med full insikt om relativiteten och de skiftande individuella betingelserna pa detta omrade, kommer inte att verka upplosande pa sexualmoralen.
 den kommer tvartom att ge enskilda som lyssnar till en sadan nyanserad information impulser till personlig avgorelse.
-forst nar manniskor moter generositet och fortroende for eget stallningstagande, skarps deras eftertanke och ansvarskansla.
 }
 False positives: {
 kyrkans uppgift - att overtyga vi vet att det finns former av oansvarig sexuell losslappthet, som astadkommer manskliga tragedier och socialt ont.
@@ -2062,6 +2034,7 @@ vi vet att det finns former av oansvarig sexuell losslappthet, som astadkommer m
 }
 
 Expected: {
+vilket annat syfte med aktenskapets stiftelse som harutover an kan anges, blir hur som helst ett andrahandssyfte.
 a andra sidan foljer harav, att dar viljan till och langtan efter att 'vara fruktsamma' inte finns hos tva makar, ar det inte langre tal om ett aktenskap pa biblisk grund.
 da har man kommit vid sidan om aktenskapets enligt bibeln primara 2 2 primara = forsta. syfte.
 kraftfullt har martin luther i stora katekesen utlagt detta:
@@ -2071,9 +2044,9 @@ ty det ligger for gud all makt uppa, att man uppfostrar barn, som aro samhallet 
 fruktsamheten, barnafodandet och barnuppfostrandet ar alltsa aktenskapets primara syftning.
 i gamla s.k. ortodoxa 2 2 ortodox = renlarig. laroframstallningar om aktenskapet brukar dessutom tre andra syften anges, tillsammans alltsa fyra syften: 1. slaktets forokelse 2. inbordes hjalp 3. undvikande av otukt 4. mojliggorande av en kristen kyrka 3
 3 ntu iii, sid. 1257.
-av dessa syften ar det (forutom det primara syftet med slaktets forokelse) undvikandet av otukt, som kanske tilldragit sig den storsta uppmarksamheten i tidigare framstallningar om aktenskapet.
 }
 Predicted: {
+vilket annat syfte med aktenskapets stiftelse som harutover an kan anges, blir hur som helst ett andrahandssyfte.
 a andra sidan foljer harav, att dar viljan till och langtan efter att 'vara fruktsamma' inte finns hos tva makar, ar det inte langre tal om ett aktenskap pa biblisk grund.
 da har man kommit vid sidan om aktenskapets enligt bibeln primara 2 2 primara = forsta.
 syfte.
@@ -2088,7 +2061,6 @@ inbordes hjalp 3.
 undvikande av otukt 4.
 mojliggorande av en kristen kyrka 3 3 ntu iii, sid.
 1257.
-av dessa syften ar det (forutom det primara syftet med slaktets forokelse) undvikandet av otukt, som kanske tilldragit sig den storsta uppmarksamheten i tidigare framstallningar om aktenskapet.
 }
 False positives: {
 da har man kommit vid sidan om aktenskapets enligt bibeln primara 2 2 primara = forsta.

@@ -1,5 +1,5 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9525384357959802
+Evaluation-Score=0.9525778066497372
 Training-Sample-Size=61992
 Evaluation-Sample-Size=6887
 Training-Algorithm=MAXENT
@@ -10,9 +10,9 @@ Component-Name=POSTaggerME
 Language=de
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713585653463
+Timestamp=1716178197832
 TrainerType=Event
-Training-Eventhash=4f6c6d69a40597622a1aa9c317ce0224
+Training-Eventhash=d9cdef20b85f57552e0f8b814b661f92
 factory=opennlp.tools.postag.POSTaggerFactory
 
 === MISCLASSIFIED DETAILS ===
@@ -365,17 +365,6 @@ ein: ADV | DET
 }
 
 Expected: {
-der_DET kern_NOUN des_DET konflikts_NOUN ist_AUX vielschichtig_ADJ ._PUNCT}
-Predicted: {
-der_DET kern_NOUN des_DET konflikts_NOUN ist_VERB vielschichtig_ADV ._PUNCT}
-Errors: {
-Tok: Ref | Pred
----------------
-ist: AUX | VERB
-vielschichtig: ADJ | ADV
-}
-
-Expected: {
 baumbestandene_ADJ straßen_NOUN mit_ADP kopfsteinpflaster_NOUN und_CCONJ pastellfarbene_ADJ gipsfassaden_NOUN aus_ADP dem_DET 18._ADJ jahrhundert_NOUN machen_VERB das_DET boheme_NOUN -_PUNCT viertel_NOUN interessant_ADJ ._PUNCT}
 Predicted: {
 baumbestandene_ADJ straßen_NOUN mit_ADP kopfsteinpflaster_NOUN und_CCONJ pastellfarbene_NOUN gipsfassaden_VERB aus_ADP dem_DET 18._ADJ jahrhundert_NOUN machen_VERB das_DET boheme_NOUN -_PUNCT viertel_NOUN interessant_ADJ ._PUNCT}
@@ -405,16 +394,6 @@ Tok: Ref | Pred
 ---------------
 slow: X | PROPN
 speed: X | PROPN
-}
-
-Expected: {
-sein_DET ziel_NOUN ist_VERB es_PRON ,_PUNCT die_DET verbrauchsteuern_NOUN zu_PART senken_VERB und_CCONJ die_DET steuern_NOUN auf_ADP vermögen_NOUN anzuheben_VERB ._PUNCT}
-Predicted: {
-sein_DET ziel_NOUN ist_AUX es_PRON ,_PUNCT die_DET verbrauchsteuern_NOUN zu_PART senken_VERB und_CCONJ die_DET steuern_NOUN auf_ADP vermögen_NOUN anzuheben_VERB ._PUNCT}
-Errors: {
-Tok: Ref | Pred
----------------
-ist: VERB | AUX
 }
 
 Expected: {
@@ -703,14 +682,12 @@ positiv: ADV | ADJ
 }
 
 Expected: {
-ist_VERB wirklich_ADV zu_PART empfehlen_VERB und_CCONJ ich_PRON wundere_VERB mich_PRON immer_ADV wider_ADV ,_PUNCT dass_SCONJ nach_ADP sovielen_DET jahren_NOUN ,_PUNCT der_DET laden_NOUN so_ADV wenig_DET bewertungen_NOUN hat_VERB ,_PUNCT deshalb_SCONJ habe_AUX ich_PRON mir_PRON jetzt_ADV ein_DET konto_NOUN eingerichtet_VERB ,_PUNCT um_ADP auch_ADV meine_DET meinung_NOUN schreiben_VERB zu_PART können_AUX ._PUNCT}
+ist_AUX wirklich_ADV zu_PART empfehlen_VERB und_CCONJ ich_PRON wundere_VERB mich_PRON immer_ADV wider_ADV ,_PUNCT dass_SCONJ nach_ADP sovielen_DET jahren_NOUN ,_PUNCT der_DET laden_NOUN so_ADV wenig_DET bewertungen_NOUN hat_VERB ,_PUNCT deshalb_SCONJ habe_AUX ich_PRON mir_PRON jetzt_ADV ein_DET konto_NOUN eingerichtet_VERB ,_PUNCT um_ADP auch_ADV meine_DET meinung_NOUN schreiben_VERB zu_PART können_AUX ._PUNCT}
 Predicted: {
-ist_AUX wirklich_ADJ zu_PART empfehlen_VERB und_CCONJ ich_PRON wundere_VERB mich_PRON immer_ADV wider_ADV ,_PUNCT dass_SCONJ nach_ADP sovielen_DET jahren_NOUN ,_PUNCT der_DET laden_NOUN so_ADV wenig_DET bewertungen_NOUN hat_AUX ,_PUNCT deshalb_ADV habe_AUX ich_PRON mir_PRON jetzt_ADV ein_DET konto_NOUN eingerichtet_VERB ,_PUNCT um_SCONJ auch_ADV meine_DET meinung_NOUN schreiben_VERB zu_PART können_AUX ._PUNCT}
+ist_AUX wirklich_ADV zu_PART empfehlen_VERB und_CCONJ ich_PRON wundere_VERB mich_PRON immer_ADV wider_ADV ,_PUNCT dass_SCONJ nach_ADP sovielen_DET jahren_NOUN ,_PUNCT der_DET laden_NOUN so_ADV wenig_DET bewertungen_NOUN hat_AUX ,_PUNCT deshalb_ADV habe_AUX ich_PRON mir_PRON jetzt_ADV ein_DET konto_NOUN eingerichtet_VERB ,_PUNCT um_SCONJ auch_ADV meine_DET meinung_NOUN schreiben_VERB zu_PART können_AUX ._PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
-ist: VERB | AUX
-wirklich: ADV | ADJ
 hat: VERB | AUX
 deshalb: SCONJ | ADV
 um: ADP | SCONJ
@@ -1437,16 +1414,6 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 flott: ADV | NOUN
-}
-
-Expected: {
-in dem_ADP DET winter_NOUN sind_VERB die_DET lammfellmützen_NOUN zu_PART empfehlen_VERB ._PUNCT}
-Predicted: {
-in dem_ADP DET winter_NOUN sind_AUX die_DET lammfellmützen_NOUN zu_PART empfehlen_VERB ._PUNCT}
-Errors: {
-Tok: Ref | Pred
----------------
-sind: VERB | AUX
 }
 
 Expected: {
@@ -6954,16 +6921,6 @@ turnbackmen: PROPN | NOUN
 }
 
 Expected: {
-ohne_ADP die_DET unterschiedlichen_ADJ klasseninteressen_NOUN verneinen_VERB zu_PART wollen_AUX ,_PUNCT sei_VERB es_PRON das_DET ziel_NOUN volksheims_PROPN ,_PUNCT den_DET gegensatz_NOUN durch_ADP "_PUNCT das_DET höhere_ADJ recht_NOUN des_DET geschichtlich_ADJ gewordenen_ADJ volksganzen_NOUN und_CCONJ die_DET höhere_ADJ pflicht_NOUN der_DET einordnung_NOUN in_ADP die_DET gemeinschaft_NOUN "_PUNCT zu_PART überbrücken_VERB ._PUNCT}
-Predicted: {
-ohne_ADP die_DET unterschiedlichen_ADJ klasseninteressen_NOUN verneinen_VERB zu_PART wollen_AUX ,_PUNCT sei_AUX es_PRON das_DET ziel_NOUN volksheims_PROPN ,_PUNCT den_DET gegensatz_NOUN durch_ADP "_PUNCT das_DET höhere_ADJ recht_NOUN des_DET geschichtlich_ADJ gewordenen_ADJ volksganzen_NOUN und_CCONJ die_DET höhere_ADJ pflicht_NOUN der_DET einordnung_NOUN in_ADP die_DET gemeinschaft_NOUN "_PUNCT zu_PART überbrücken_VERB ._PUNCT}
-Errors: {
-Tok: Ref | Pred
----------------
-sei: VERB | AUX
-}
-
-Expected: {
 der_DET gott_NOUN wird_AUX unter_ADP aurelian_PROPN aber_CCONJ auch_ADV mit_ADP peitsche_NOUN in_ADP der_DET einen_DET und_CCONJ weltkugel_NOUN in_ADP der_DET anderen_DET hand_NOUN oder_CCONJ die_DET weltkugel_NOUN dem_DET kaiser_NOUN übergebend_ADJ oder_CCONJ auch_ADV mit_ADP dem_DET viergespann_NOUN gezeigt_VERB ._PUNCT}
 Predicted: {
 der_DET gott_NOUN wird_AUX unter_ADP aurelian_PROPN aber_CCONJ auch_ADV mit_ADP peitsche_ADJ in_ADP der_DET einen_DET und_CCONJ weltkugel_NOUN in_ADP der_DET anderen_DET hand_NOUN oder_CCONJ die_DET weltkugel_NOUN dem_DET kaiser_NOUN übergebend_ADJ oder_CCONJ auch_ADV mit_ADP dem_DET viergespann_NOUN gezeigt_VERB ._PUNCT}
@@ -11324,12 +11281,11 @@ die: PRON | DET
 Expected: {
 "_PUNCT stadtinfo_X "_PUNCT nur_ADV als_CCONJ domain_NOUN geschützt_VERB}
 Predicted: {
-"_PUNCT stadtinfo_PROPN "_PUNCT nur_ADV als_ADP domain_NOUN geschützt_VERB}
+"_PUNCT stadtinfo_PROPN "_PUNCT nur_ADV als_CCONJ domain_NOUN geschützt_VERB}
 Errors: {
 Tok: Ref | Pred
 ---------------
 stadtinfo: X | PROPN
-als: CCONJ | ADP
 }
 
 Expected: {
@@ -13752,11 +13708,22 @@ wie: ADV | CCONJ
 Expected: {
 sämtliche_DET gekürten_ADJ und_CCONJ nominierten_ADJ programme_NOUN sind_AUX auf_ADP der_DET homepage_NOUN der_DET shareware_X industry_X conference_X zu_PART bekommen_VERB ._PUNCT}
 Predicted: {
-sämtliche_DET gekürten_ADJ und_CCONJ nominierten_ADJ programme_NOUN sind_AUX auf_ADP der_DET homepage_NOUN der_DET shareware_PROPN industry_X conference_X zu_PART bekommen_VERB ._PUNCT}
+sämtliche_DET gekürten_VERB und_CCONJ nominierten_ADJ programme_NOUN sind_AUX auf_ADP der_DET homepage_NOUN der_DET shareware_PROPN industry_X conference_X zu_PART bekommen_VERB ._PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
+gekürten: ADJ | VERB
 shareware: X | PROPN
+}
+
+Expected: {
+teilt_VERB der_DET ausgeloste_ADJ die_DET ablehnung_NOUN aol_PROPN sofort_ADV mit_ADP ,_PUNCT soll_AUX die_DET flatrate_NOUN zwar_ADV erneut_ADJ ausgelost_VERB werden_AUX ._PUNCT}
+Predicted: {
+teilt_VERB der_DET ausgeloste_NOUN die_DET ablehnung_NOUN aol_PROPN sofort_ADV mit_ADP ,_PUNCT soll_AUX die_DET flatrate_NOUN zwar_ADV erneut_ADJ ausgelost_VERB werden_AUX ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ausgeloste: ADJ | NOUN
 }
 
 Expected: {
@@ -14844,6 +14811,16 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 lahm: ADP | ADJ
+}
+
+Expected: {
+dass_SCONJ der_DET kreis_NOUN der_DET bieter_NOUN noch_ADV vor_ADP beginn_NOUN der_DET auktion_NOUN noch_ADV kleiner_ADJ wird_AUX ,_PUNCT ist_AUX jedenfalls_ADV nicht_PART zu_PART erwarten_VERB ._PUNCT}
+Predicted: {
+dass_SCONJ der_DET kreis_NOUN der_DET bieter_NOUN noch_ADV vor_ADP beginn_NOUN der_DET auktion_NOUN noch_ADV kleiner_ADJ wird_VERB ,_PUNCT ist_AUX jedenfalls_ADV nicht_PART zu_PART erwarten_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+wird: AUX | VERB
 }
 
 Expected: {
@@ -18191,12 +18168,11 @@ da: ADV | SCONJ
 Expected: {
 aber_CCONJ nicht_PART alle_DET reaktionen_NOUN waren_AUX positiv_ADJ ._PUNCT}
 Predicted: {
-aber_ADV nicht_PART alle_DET reaktionen_NOUN waren_VERB positiv_ADJ ._PUNCT}
+aber_ADV nicht_PART alle_DET reaktionen_NOUN waren_AUX positiv_ADJ ._PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
 aber: CCONJ | ADV
-waren: AUX | VERB
 }
 
 Expected: {
@@ -19177,12 +19153,13 @@ steuern: VERB | NOUN
 Expected: {
 andererseits_ADV könnten_AUX handys_PROPN auch_ADV den_DET drang_NOUN von_ADP jugendlichen_NOUN mildern_VERB ,_PUNCT das_DET rauchen_NOUN zu_PART beginnen_VERB ,_PUNCT um_SCONJ als_CCONJ erwachsene_NOUN aufzutreten_VERB ._PUNCT}
 Predicted: {
-andererseits_ADV könnten_AUX handys_NOUN auch_ADV den_DET drang_NOUN von_ADP jugendlichen_NOUN mildern_VERB ,_PUNCT das_PRON rauchen_NOUN zu_PART beginnen_VERB ,_PUNCT um_SCONJ als_CCONJ erwachsene_ADJ aufzutreten_VERB ._PUNCT}
+andererseits_ADV könnten_AUX handys_NOUN auch_ADV den_DET drang_NOUN von_ADP jugendlichen_NOUN mildern_VERB ,_PUNCT das_PRON rauchen_VERB zu_PART beginnen_VERB ,_PUNCT um_SCONJ als_CCONJ erwachsene_ADJ aufzutreten_VERB ._PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
 handys: PROPN | NOUN
 das: DET | PRON
+rauchen: NOUN | VERB
 erwachsene: NOUN | ADJ
 }
 
@@ -21157,16 +21134,6 @@ rauen: ADJ | NOUN
 }
 
 Expected: {
-doch_CCONJ noch_ADV sei_AUX es_PRON zu_ADV früh_ADJ ,_PUNCT zahlen_NOUN zu_PART nennen_VERB ._PUNCT}
-Predicted: {
-doch_ADV noch_ADV sei_AUX es_PRON zu_ADV früh_ADJ ,_PUNCT zahlen_NOUN zu_PART nennen_VERB ._PUNCT}
-Errors: {
-Tok: Ref | Pred
----------------
-doch: CCONJ | ADV
-}
-
-Expected: {
 in_ADP diesem_DET sinne_NOUN kann_AUX ich_PRON ja_ADV eigentlich_ADV nur_ADV noch_ADV einen_DET frohen_ADJ sonntag_NOUN wünschen_VERB -_PUNCT oder_CCONJ mich_PRON herausreden_VERB ,_PUNCT dass_SCONJ ich_PRON solche_DET blätter_NOUN keineswegs_ADV zu dem_ADP DET vorbild_NOUN nehme_VERB ,_PUNCT sondern_CCONJ sie_PRON wie_CCONJ alle_DET anderen_DET ja_ADV eh_ADJ nur_ADV bei dem_ADP DET friseur_NOUN oder_CCONJ zahnarzt_NOUN lese_VERB ._PUNCT}
 Predicted: {
 in_ADP diesem_DET sinne_NOUN kann_AUX ich_PRON ja_ADV eigentlich_ADV nur_ADV noch_ADV einen_DET frohen_ADJ sonntag_NOUN wünschen_VERB -_PUNCT oder_CCONJ mich_PRON herausreden_VERB ,_PUNCT dass_SCONJ ich_PRON solche_DET blätter_NOUN keineswegs_ADV zu dem_ADP DET vorbild_NOUN nehme_VERB ,_PUNCT sondern_CCONJ sie_PRON wie_ADV alle_DET anderen_DET ja_ADV eh_ADJ nur_ADV bei dem_ADP DET friseur_NOUN oder_CCONJ zahnarzt_NOUN lese_VERB ._PUNCT}
@@ -23112,11 +23079,12 @@ version: NOUN | X
 Expected: {
 ich_PRON weiß_VERB heute_ADV ,_PUNCT dass_SCONJ er_PRON nicht_PART recht_ADP hatte_AUX ._PUNCT "_PUNCT}
 Predicted: {
-ich_PRON weiß_VERB heute_ADV ,_PUNCT dass_SCONJ er_PRON nicht_PART recht_ADV hatte_AUX ._PUNCT "_PUNCT}
+ich_PRON weiß_VERB heute_ADV ,_PUNCT dass_SCONJ er_PRON nicht_PART recht_ADV hatte_VERB ._PUNCT "_PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
 recht: ADP | ADV
+hatte: AUX | VERB
 }
 
 Expected: {
@@ -27002,12 +26970,13 @@ sehen: NOUN | VERB
 Expected: {
 das_DET talent_NOUN darzustellen_VERB ,_PUNCT genau_ADV zu_PART beobachten_VERB ,_PUNCT zweckmäßig_ADV die_DET beobachtung_NOUN zu_PART beschreiben_VERB ,_PUNCT ist_AUX also_ADV vom_ADP genie_NOUN verschieden_ADJ ._PUNCT}
 Predicted: {
-das_DET talent_NOUN darzustellen_VERB ,_PUNCT genau_ADJ zu_PART beobachten_VERB ,_PUNCT zweckmäßig_ADJ die_DET beobachtung_NOUN zu_PART beschreiben_VERB ,_PUNCT ist_AUX also_ADV vom_ADP genie_NOUN verschieden_ADJ ._PUNCT}
+das_DET talent_NOUN darzustellen_VERB ,_PUNCT genau_ADJ zu_PART beobachten_VERB ,_PUNCT zweckmäßig_ADJ die_DET beobachtung_NOUN zu_PART beschreiben_VERB ,_PUNCT ist_AUX also_ADV vom_ADP genie_NOUN verschieden_VERB ._PUNCT}
 Errors: {
 Tok: Ref | Pred
 ---------------
 genau: ADV | ADJ
 zweckmäßig: ADV | ADJ
+verschieden: ADJ | VERB
 }
 
 Expected: {

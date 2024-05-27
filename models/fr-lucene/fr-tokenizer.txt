@@ -1,6 +1,6 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9990480824149092
-Training-Sample-Size=21781
+Evaluation-Score=0.9992445227902291
+Training-Sample-Size=21782
 Evaluation-Sample-Size=2420
 Training-Algorithm=MAXENT_QN
 
@@ -9,9 +9,9 @@ Component-Name=TokenizerME
 Language=fr
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713595427151
+Timestamp=1716188163886
 TrainerType=Event
-Training-Eventhash=bd3a3e78ae35d58d3eef8354f44b2132
+Training-Eventhash=14ada9706b60c2f0656bec4da0b14fa6
 alphaNumericPattern=^[A-Za-z0-9]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
@@ -40,17 +40,6 @@ solidar'monde
 }
 
 Expected: {
-comme chaque soir a 18h40<SPLIT>, il tranche<SPLIT>, malmene et detourne l'<SPLIT>actualite<SPLIT>.}
-Predicted: {
-comme chaque soir a 18<SPLIT>h40<SPLIT>, il tranche<SPLIT>, malmene et detourne l'<SPLIT>actualite<SPLIT>.}
-False positives: {
-18
-h40
-} False negatives: {
-18h40
-}
-
-Expected: {
 ils m'<SPLIT>ont dit que c'<SPLIT>est un systeme de securite quand tu tournes le volant au maximum<SPLIT>.... n'<SPLIT>importe quoi<SPLIT>... par contre<SPLIT>, ils sont excellent pour '<SPLIT>bullshitter<SPLIT>'<SPLIT>.}
 Predicted: {
 ils m'<SPLIT>ont dit que c'<SPLIT>est un systeme de securite quand tu tournes le volant au maximum<SPLIT>.... n'<SPLIT>importe quoi<SPLIT>... par contre<SPLIT>, ils sont excellent pour 'bullshitter'<SPLIT>.}
@@ -71,17 +60,6 @@ False positives: {
 h
 } False negatives: {
 18h
-}
-
-Expected: {
-une bonne experience de la scene rock<SPLIT>, fusion et jazz<SPLIT>, il a etudie l'<SPLIT>alto des l'<SPLIT>age de 6 ans<SPLIT>, la basse au m. a. i a nancy (<SPLIT>cursus professionnel<SPLIT>) puis la contrebasse au conservatoire de metz<SPLIT>.}
-Predicted: {
-une bonne experience de la scene rock<SPLIT>, fusion et jazz<SPLIT>, il a etudie l'<SPLIT>alto des l'<SPLIT>age de 6 ans<SPLIT>, la basse au m. a<SPLIT>. i a nancy (<SPLIT>cursus professionnel<SPLIT>) puis la contrebasse au conservatoire de metz<SPLIT>.}
-False positives: {
-a
-.
-} False negatives: {
-a.
 }
 
 Expected: {
@@ -133,17 +111,6 @@ False positives: {
 }
 
 Expected: {
-il pourrait etre en l'<SPLIT>honneur de joseph a. devereaux<SPLIT>, le premier maitre des postes en 1914<SPLIT>, ou en l'<SPLIT>honneur de joseph devereaux<SPLIT>, un des premiers proprietaires terriens<SPLIT>.}
-Predicted: {
-il pourrait etre en l'<SPLIT>honneur de joseph a<SPLIT>. devereaux<SPLIT>, le premier maitre des postes en 1914<SPLIT>, ou en l'<SPLIT>honneur de joseph devereaux<SPLIT>, un des premiers proprietaires terriens<SPLIT>.}
-False positives: {
-a
-.
-} False negatives: {
-a.
-}
-
-Expected: {
 comment etre chic et style (<SPLIT>e<SPLIT>) en moins de 5 minutes et sans depenser beaucoup d'<SPLIT>argent ?}
 Predicted: {
 comment etre chic et style (<SPLIT>e) en moins de 5 minutes et sans depenser beaucoup d'<SPLIT>argent ?}
@@ -163,6 +130,17 @@ etc
 .
 } False negatives: {
 etc.
+}
+
+Expected: {
+le blasonnement represente les armoiries de la province affuble d'<SPLIT>un livre ouvert portant les initiaux ver<SPLIT>/<SPLIT>bvm<SPLIT>/<SPLIT>dni bt<SPLIT>/<SPLIT>cer<SPLIT>/<SPLIT>na<SPLIT>, abreviations pour verbum domini nostris lucerna pedibus<SPLIT>.}
+Predicted: {
+le blasonnement represente les armoiries de la province affuble d'<SPLIT>un livre ouvert portant les initiaux ver<SPLIT>/<SPLIT>bvm<SPLIT>/dni bt<SPLIT>/<SPLIT>cer<SPLIT>/<SPLIT>na<SPLIT>, abreviations pour verbum domini nostris lucerna pedibus<SPLIT>.}
+False positives: {
+/dni
+} False negatives: {
+/
+dni
 }
 
 Expected: {
@@ -216,17 +194,6 @@ veeted
 }
 
 Expected: {
-l'<SPLIT>adoption de cette dkg<SPLIT>, permet a la m3 coupe de gagner 2 dixiemes de seconde sur le 0<SPLIT>-<SPLIT>100 km/h pour se contenter de 4,6 secondes<SPLIT>.}
-Predicted: {
-l'<SPLIT>adoption de cette dkg<SPLIT>, permet a la m3 coupe de gagner 2 dixiemes de seconde sur le 0<SPLIT>-<SPLIT>100 km/<SPLIT>h pour se contenter de 4,6 secondes<SPLIT>.}
-False positives: {
-km/
-h
-} False negatives: {
-km/h
-}
-
-Expected: {
 il fit ensuite construire la villa pouquette dans la presqu'ile et jean anouilh proceda de la meme facon puisque apres avoir loue la villa takis<SPLIT>, il fit construire la villa les pecheurs pres de l'<SPLIT>eglise<SPLIT>.}
 Predicted: {
 il fit ensuite construire la villa pouquette dans la presqu'<SPLIT>ile et jean anouilh proceda de la meme facon puisque apres avoir loue la villa takis<SPLIT>, il fit construire la villa les pecheurs pres de l'<SPLIT>eglise<SPLIT>.}
@@ -249,17 +216,6 @@ False positives: {
 }
 
 Expected: {
-le reste de la riviere entre ces deux points revient a benjamin a. scott<SPLIT>, un entrepreneur de chicoutimi qui gere une scierie a roberval<SPLIT>.}
-Predicted: {
-le reste de la riviere entre ces deux points revient a benjamin a<SPLIT>. scott<SPLIT>, un entrepreneur de chicoutimi qui gere une scierie a roberval<SPLIT>.}
-False positives: {
-a
-.
-} False negatives: {
-a.
-}
-
-Expected: {
 en ce sens<SPLIT>, je voudrais egalement aborder tres brievement les problemes des tunnels<SPLIT>, auxquels mm. rack et swoboda ont fait reference<SPLIT>, et qui<SPLIT>, dans le cas de l'<SPLIT>autriche<SPLIT>, constituent sans aucun doute un sujet tres sensible<SPLIT>, raison pour laquelle il est necessaire de faire des efforts pour voir comment accroitre leur securite<SPLIT>.}
 Predicted: {
 en ce sens<SPLIT>, je voudrais egalement aborder tres brievement les problemes des tunnels<SPLIT>, auxquels mm<SPLIT>. rack et swoboda ont fait reference<SPLIT>, et qui<SPLIT>, dans le cas de l'<SPLIT>autriche<SPLIT>, constituent sans aucun doute un sujet tres sensible<SPLIT>, raison pour laquelle il est necessaire de faire des efforts pour voir comment accroitre leur securite<SPLIT>.}
@@ -271,46 +227,24 @@ mm.
 }
 
 Expected: {
-et du coup<SPLIT>, euh<SPLIT>, bah<SPLIT>, j'<SPLIT>etais pas tres enthousiaste a l'<SPLIT>idee que il y ait quelqu'<SPLIT>un de nouveau<SPLIT>, parce que<SPLIT>, comme c'<SPLIT>est un petit cinema<SPLIT>, bah<SPLIT>, on travaille<SPLIT>, euh<SPLIT>, a<SPLIT>, toujours tout seul<SPLIT>, donc<SPLIT>, euh<SPLIT>, je me suis dit<SPLIT>, elle va piquer mon travail<SPLIT>.}
+(<SPLIT>la seance solennelle est close a 12<SPLIT>h<SPLIT>30<SPLIT>)}
 Predicted: {
-et du coup<SPLIT>, euh<SPLIT>, bah<SPLIT>, j'<SPLIT>etais pas tres enthousiaste a l'<SPLIT>idee que il y ait quelqu'un de nouveau<SPLIT>, parce que<SPLIT>, comme c'<SPLIT>est un petit cinema<SPLIT>, bah<SPLIT>, on travaille<SPLIT>, euh<SPLIT>, a<SPLIT>, toujours tout seul<SPLIT>, donc<SPLIT>, euh<SPLIT>, je me suis dit<SPLIT>, elle va piquer mon travail<SPLIT>.}
+(<SPLIT>la seance solennelle est close a 12h30<SPLIT>)}
 False positives: {
-quelqu'un
+12h30
 } False negatives: {
-quelqu'
-un
+12
+h
+30
 }
 
 Expected: {
-natif des forges de mezire<SPLIT>, en 1928<SPLIT>, il a frequente l'<SPLIT>ecole de morvillars jusqu'<SPLIT>au cep<SPLIT>.}
+emea / h/c/595}
 Predicted: {
-natif des forges de mezire<SPLIT>, en 1928<SPLIT>, il a frequente l'<SPLIT>ecole de morvillars jusqu'<SPLIT>au cep.}
+emea / h/c/<SPLIT>595}
 False positives: {
-cep.
+h/c/
+595
 } False negatives: {
-cep
-.
-}
-
-Expected: {
-il n'<SPLIT>existe pas d'<SPLIT>antidote connu pour la bivalirudine<SPLIT>, mais son effet disparait rapidement (<SPLIT>t1/2 35 a 40 minutes<SPLIT>)<SPLIT>.}
-Predicted: {
-il n'<SPLIT>existe pas d'<SPLIT>antidote connu pour la bivalirudine<SPLIT>, mais son effet disparait rapidement (<SPLIT>t1<SPLIT>/<SPLIT>2 35 a 40 minutes<SPLIT>)<SPLIT>.}
-False positives: {
-t1
-/
-2
-} False negatives: {
-t1/2
-}
-
-Expected: {
-si vous avez tant besoin de couper l'<SPLIT>herbe sous le pied de quelqu'<SPLIT>un<SPLIT>, je vous proposerais de vous en prendre a m. solana<SPLIT>.}
-Predicted: {
-si vous avez tant besoin de couper l'<SPLIT>herbe sous le pied de quelqu'un<SPLIT>, je vous proposerais de vous en prendre a m. solana<SPLIT>.}
-False positives: {
-quelqu'un
-} False negatives: {
-quelqu'
-un
+h/c/595
 }

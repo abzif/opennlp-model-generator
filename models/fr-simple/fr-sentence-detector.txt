@@ -1,5 +1,5 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9192625556261921
+Evaluation-Score=0.9192967591611947
 Training-Sample-Size=2179
 Evaluation-Sample-Size=242
 Training-Algorithm=MAXENT_QN
@@ -9,9 +9,9 @@ Component-Name=SentenceDetectorME
 Language=fr
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713595011969
+Timestamp=1716187765493
 TrainerType=Event
-Training-Eventhash=4eb4399970cea118a5af4932d0c4fe10
+Training-Eventhash=4400092b8dd4a81474bd174abb18636c
 eosCharacters=.?!
 factory=opennlp.tools.sentdetect.SentenceDetectorFactory
 useTokenEnd=true
@@ -234,6 +234,38 @@ bien évidemment tous les matériaux de valeur avaient été prélevés depuis l
 }
 
 Expected: {
+en raison d'une possibilité de monopole, la décision de fusionner a été suspendu par les instances américaines.
+ibrahim ibn sinan ibn thabit ibn qurra, plus connu sous le nom de ibrahim ibn sinan, né en 908 à bagdad et mort en 946 dans la même ville, est un mathématicien et astronome.
+elle court sous licence italienne jusqu'en 2005.
+elle a ainsi recherché des corrélations angulaires entre le degré de flexion de la base du crâne, son raccourcissement antéropostérieur et les changements de position des os dans le plan transversal.
+les iguanes, par exemple, vous tendront le cou pour montrer qu'ils apprécient vos caresses ».
+robert k. merton mobilise la notion d'anomie élaborée par durkheim afin d'analyser les comportements individuels non conformes.
+aujourd'hui, il continue à faire certains concerts seul, mais il présente la plupart de ses concerts avec ses pleureurs.
+c'est pour l'événement de la fête de la musique au bataclan qu'il interprète pour la première fois le titre ma s... à moi (le titre censuré sur la pochette du disque est en fait ma salope à moi), qui quelques mois plus tard passera symboliquement 69 fois sur la radio skyrock la première semaine de sa sortie commerciale.
+il aime trop son rôle et sa mission pour en rester là.
+lorsque les fruits s'écrasaient à la cuisson, on parlait au contraire de marmelade : une marmelade de pommes.
+}
+Predicted: {
+en raison d'une possibilité de monopole, la décision de fusionner a été suspendu par les instances américaines.
+ibrahim ibn sinan ibn thabit ibn qurra, plus connu sous le nom de ibrahim ibn sinan, né en 908 à bagdad et mort en 946 dans la même ville, est un mathématicien et astronome.
+elle court sous licence italienne jusqu'en 2005.
+elle a ainsi recherché des corrélations angulaires entre le degré de flexion de la base du crâne, son raccourcissement antéropostérieur et les changements de position des os dans le plan transversal.
+les iguanes, par exemple, vous tendront le cou pour montrer qu'ils apprécient vos caresses ».
+robert k.
+merton mobilise la notion d'anomie élaborée par durkheim afin d'analyser les comportements individuels non conformes.
+aujourd'hui, il continue à faire certains concerts seul, mais il présente la plupart de ses concerts avec ses pleureurs.
+c'est pour l'événement de la fête de la musique au bataclan qu'il interprète pour la première fois le titre ma s... à moi (le titre censuré sur la pochette du disque est en fait ma salope à moi), qui quelques mois plus tard passera symboliquement 69 fois sur la radio skyrock la première semaine de sa sortie commerciale.
+il aime trop son rôle et sa mission pour en rester là.
+lorsque les fruits s'écrasaient à la cuisson, on parlait au contraire de marmelade : une marmelade de pommes.
+}
+False positives: {
+robert k.
+merton mobilise la notion d'anomie élaborée par durkheim afin d'analyser les comportements individuels non conformes.
+} False negatives: {
+robert k. merton mobilise la notion d'anomie élaborée par durkheim afin d'analyser les comportements individuels non conformes.
+}
+
+Expected: {
 le montant du transfert est alors estimé à 5 millions d'euros.
 dans une interview accordée à espyrock, il explique que le titre de l'album « est une façon de dire aux gens que nous n'appartenons ou ne croyons ni au paradis, ni à l'enfer.
 il semble être de bon ton depuis plusieurs décennies de nous imposer, par médias interposés, qu'il s'agisse de cinéma, de télévision, de publicité, de clips, de livres ou de presse, une certaine iconographie de la femme.
@@ -279,7 +311,8 @@ Predicted: {
 lett s'évade toutefois durant le trajet en train et part en cavale pendant 15 mois.
 le tableau qui suit présente les principales données financières pour les huit trimestres les plus récents.
 tous les services judiciaires qui étaient éparpillés ont donc pu être regroupés.
-les niveaux de production sont particulièrement faibles, avec par exemple 2000 litres de lait produits par vache et par lactation, 100 œufs produits par poule et par an, 10 porcelets sevrés par an par truie... la traction animale est encore largement prédominante, et de nombreuses maladies comme la tuberculose, la brucellose ou la peste porcine sont courantes dans les campagnes.
+les niveaux de production sont particulièrement faibles, avec par exemple 2000 litres de lait produits par vache et par lactation, 100 œufs produits par poule et par an, 10 porcelets sevrés par an par truie...
+la traction animale est encore largement prédominante, et de nombreuses maladies comme la tuberculose, la brucellose ou la peste porcine sont courantes dans les campagnes.
 quatorze célébrités ont fait partie du casting de cette deuxième saison.
 « el aâyoune s'est transformée en une ville fantôme...
 les rues ont été désertées par les habitants autochtones qui craignent d'être lynchés par les colons épaulés par l'armée...
@@ -289,13 +322,10 @@ bieber ajoute « as long you love me/ i'll be your platinum/ i'll be your silver
 à ce jour, six directeurs se sont succédé à la tête de l'établissement :
 }
 False positives: {
-les niveaux de production sont particulièrement faibles, avec par exemple 2000 litres de lait produits par vache et par lactation, 100 œufs produits par poule et par an, 10 porcelets sevrés par an par truie... la traction animale est encore largement prédominante, et de nombreuses maladies comme la tuberculose, la brucellose ou la peste porcine sont courantes dans les campagnes.
 « el aâyoune s'est transformée en une ville fantôme...
 les rues ont été désertées par les habitants autochtones qui craignent d'être lynchés par les colons épaulés par l'armée...
 c'est un nettoyage ethnique contre tous ceux qui portent l'habit traditionnel sahraoui, boubou, melhfa (voile) ou turban.
 } False negatives: {
-les niveaux de production sont particulièrement faibles, avec par exemple 2000 litres de lait produits par vache et par lactation, 100 œufs produits par poule et par an, 10 porcelets sevrés par an par truie...
-la traction animale est encore largement prédominante, et de nombreuses maladies comme la tuberculose, la brucellose ou la peste porcine sont courantes dans les campagnes.
 « el aâyoune s'est transformée en une ville fantôme... les rues ont été désertées par les habitants autochtones qui craignent d'être lynchés par les colons épaulés par l'armée... c'est un nettoyage ethnique contre tous ceux qui portent l'habit traditionnel sahraoui, boubou, melhfa (voile) ou turban.
 }
 
@@ -790,36 +820,6 @@ charge ▶ go! / lights est le 30e single du groupe aaa sorti sous le label avex
 }
 
 Expected: {
-elles constituent les néoplasies les plus fréquentes chez le cheval, l'âne et le mulet.
-on retrouve tous les inconvénients de l'idf !
-les vengeances tenaces des anciens de la commune viendront le tourmenter..
-je m'y engage.
-cette décision s'est avéré très polémique, avec les manifestations que cela a entraîné parmi les habitants de landarbaso et des trois communes voisines.
-« maintenant, nous connaissons la réalité, a réagi lionel leifer, administrateur de la fnaim dans le rhône.
-les deux entraîneurs effectuent alors des changements, milan baros est remplacé par djibril cissé du côté de liverpool, hernán crespo et clarence seedorf sortent pour milan et sont remplacé par jon dahl tomasson et serginho.
-il crée aussi des œuvres de grande dimension sur la mer marine i et sur le rivage the big leap.
-il donne alors sa démission de la marine pour tenter sa chance en tant que planteur en amérique du sud, mais il revient en allemagne en 1905 et devient écrivain, publie des ouvrages politiques comme kaiser wilhelm ii.
-par exemple, s55 signifie shōwa 55.
-}
-Predicted: {
-elles constituent les néoplasies les plus fréquentes chez le cheval, l'âne et le mulet.
-on retrouve tous les inconvénients de l'idf !
-les vengeances tenaces des anciens de la commune viendront le tourmenter.. je m'y engage.
-cette décision s'est avéré très polémique, avec les manifestations que cela a entraîné parmi les habitants de landarbaso et des trois communes voisines.
-« maintenant, nous connaissons la réalité, a réagi lionel leifer, administrateur de la fnaim dans le rhône.
-les deux entraîneurs effectuent alors des changements, milan baros est remplacé par djibril cissé du côté de liverpool, hernán crespo et clarence seedorf sortent pour milan et sont remplacé par jon dahl tomasson et serginho.
-il crée aussi des œuvres de grande dimension sur la mer marine i et sur le rivage the big leap.
-il donne alors sa démission de la marine pour tenter sa chance en tant que planteur en amérique du sud, mais il revient en allemagne en 1905 et devient écrivain, publie des ouvrages politiques comme kaiser wilhelm ii.
-par exemple, s55 signifie shōwa 55.
-}
-False positives: {
-les vengeances tenaces des anciens de la commune viendront le tourmenter.. je m'y engage.
-} False negatives: {
-les vengeances tenaces des anciens de la commune viendront le tourmenter..
-je m'y engage.
-}
-
-Expected: {
 elle n'en demandait pas tant.
 au sud, les sites les plus importants sont khotan, niya et cherchen ;
 les logos des six confédérations internationales de football sont apposés sur les anneaux.
@@ -1001,6 +1001,38 @@ boursier de l'état, prix national en 1950, il est nommé à la maison descartes
 } False negatives: {
 boursier de l'état, prix national en 1950, il est nommé à la maison descartes à amsterdam en 1952 ;
 armand gouffé, né à paris le 22 mars 1775 et mort à beaune le 19 octobre 1845, est un poète, chansonnier, goguettier et vaudevilliste français.
+}
+
+Expected: {
+à l'issue du championnat, les deux derniers du classement sont relégués et remplacés par les deux meilleurs clubs de ii.
+de nos jours, le château est en ruine.
+finalement, si le dossier n'est pas du tout concluant, on peut tout simplement décider de rejeter la plainte.
+il s'agit d'une gêne ou douleur pelvienne, de pollakiurie et de constipation.
+n'y allez pas !
+que cet acte se perpétue et se transmet de génération en génération... la cérémonie formelle de l'allégeance... sont parties intégrantes des institutions du royaume du maroc.
+de 1852 à 1866, il s'établit à torino où il dirige plusieurs ateliers.
+il inclut le concert à park west, chicago, en octobre 2005 ainsi que diverses prestations du groupe.
+les super héros connaissent parfois, eux aussi, des fins de mois difficiles.
+borena est un ancien awraja de la province du sidamo, en éthiopie.
+}
+Predicted: {
+à l'issue du championnat, les deux derniers du classement sont relégués et remplacés par les deux meilleurs clubs de ii.
+de nos jours, le château est en ruine.
+finalement, si le dossier n'est pas du tout concluant, on peut tout simplement décider de rejeter la plainte.
+il s'agit d'une gêne ou douleur pelvienne, de pollakiurie et de constipation.
+n'y allez pas !
+que cet acte se perpétue et se transmet de génération en génération...
+la cérémonie formelle de l'allégeance... sont parties intégrantes des institutions du royaume du maroc.
+de 1852 à 1866, il s'établit à torino où il dirige plusieurs ateliers.
+il inclut le concert à park west, chicago, en octobre 2005 ainsi que diverses prestations du groupe.
+les super héros connaissent parfois, eux aussi, des fins de mois difficiles.
+borena est un ancien awraja de la province du sidamo, en éthiopie.
+}
+False positives: {
+que cet acte se perpétue et se transmet de génération en génération...
+la cérémonie formelle de l'allégeance... sont parties intégrantes des institutions du royaume du maroc.
+} False negatives: {
+que cet acte se perpétue et se transmet de génération en génération... la cérémonie formelle de l'allégeance... sont parties intégrantes des institutions du royaume du maroc.
 }
 
 Expected: {
@@ -1206,7 +1238,8 @@ l'australie, endurcie par ses matchs récents du rugby championship, était pass
 la victoire de donald trump aurait l'effet immédiat de rendre ce monde plus inquiétant et incertain qu'il ne l'est déjà.
 }
 Predicted: {
-l'une des nombreuses publications de deuil sur facebook contient une phrase qui aurait enchanté chris: « je n'ai jamais connu plus africain que toi. » qui peut arrêter l'équipe d'australie ?
+l'une des nombreuses publications de deuil sur facebook contient une phrase qui aurait enchanté chris: « je n'ai jamais connu plus africain que toi.
+» qui peut arrêter l'équipe d'australie ?
 ils ont une occasion pour se faire pardonner : battre l'angleterre.
 l'afrique du sud est presque au point de non retour et nous devons être capable de montrer la même envie.
 il donne à son jeu ce côté agressif, mais avec une main de velours.
@@ -1217,7 +1250,8 @@ l'australie, endurcie par ses matchs récents du rugby championship, était pass
 la victoire de donald trump aurait l'effet immédiat de rendre ce monde plus inquiétant et incertain qu'il ne l'est déjà.
 }
 False positives: {
-l'une des nombreuses publications de deuil sur facebook contient une phrase qui aurait enchanté chris: « je n'ai jamais connu plus africain que toi. » qui peut arrêter l'équipe d'australie ?
+l'une des nombreuses publications de deuil sur facebook contient une phrase qui aurait enchanté chris: « je n'ai jamais connu plus africain que toi.
+» qui peut arrêter l'équipe d'australie ?
 } False negatives: {
 l'une des nombreuses publications de deuil sur facebook contient une phrase qui aurait enchanté chris: « je n'ai jamais connu plus africain que toi. »
 qui peut arrêter l'équipe d'australie ?
@@ -1363,20 +1397,16 @@ du coup euh, donc voilà.
 le lendemain donc je passais mon permis.
 j'ai eu très peur parce que euh le même jour de que mon permis j'avais un examen, un contrôle de l'espagnol, et euh, du coup, bah, j'ai réussi à faire les deux.
 le matin j'avais eu mon partiel d'espagnol.
-et, en fait, euh vu que j'habite sur euh la...
-enfin, dans le sud de seine et marne, j'ai dû me déplacer sur paris le matin, prendre le train et tout, et remonter après mon partiel.
+et, en fait, euh vu que j'habite sur euh la... enfin, dans le sud de seine et marne, j'ai dû me déplacer sur paris le matin, prendre le train et tout, et remonter après mon partiel.
 donc ça s'est fait.
 j'ai eu de la chance que c'était... ça tombait pas à le même moment.
 du coup j'ai repris le train pour redescendre là où j'habite.
 }
 False positives: {
 j'ai eu très peur parce que euh le même jour de que mon permis j'avais un examen, un contrôle de l'espagnol, et euh, du coup, bah, j'ai réussi à faire les deux.
-et, en fait, euh vu que j'habite sur euh la...
-enfin, dans le sud de seine et marne, j'ai dû me déplacer sur paris le matin, prendre le train et tout, et remonter après mon partiel.
 } False negatives: {
 j'ai eu très peur parce que euh le même jour de que mon permis j'avais un examen, un contrôle de l'espagnol,
 et euh, du coup, bah, j'ai réussi à faire les deux.
-et, en fait, euh vu que j'habite sur euh la... enfin, dans le sud de seine et marne, j'ai dû me déplacer sur paris le matin, prendre le train et tout, et remonter après mon partiel.
 }
 
 Expected: {
@@ -1778,6 +1808,7 @@ mh, ouais, ouais.
 }
 
 Expected: {
+mais je voulais aller à bout, au bout de ce savoir.
 les mathématiques, je l~, je les ai vues toujours comme très, euh, poétiques.
 non.
 j'avais…
@@ -1787,9 +1818,9 @@ je l'ai toujours été.
 j'ai jamais eu envie d'aller faire une carrière politique.
 vous êtes venue à paris à quel âge ?
 eh bien, euh, voilà.
-mes parents, tous les deux, ont vécu à paris jeunes, hein.
 }
 Predicted: {
+mais je voulais aller à bout, au bout de ce savoir.
 les mathématiques, je l~, je les ai vues toujours comme très, euh, poétiques.
 non.
 j'avais… non.
@@ -1798,7 +1829,6 @@ je l'ai toujours été.
 j'ai jamais eu envie d'aller faire une carrière politique.
 vous êtes venue à paris à quel âge ?
 eh bien, euh, voilà.
-mes parents, tous les deux, ont vécu à paris jeunes, hein.
 }
 False positives: {
 j'avais… non.
@@ -1808,6 +1838,7 @@ non.
 }
 
 Expected: {
+mh, mh.
 donc, c'est pas normal qu'ils arrivent en cp ne parlant pas français.
 mais ils arrivent en cp ne parlant pas français parce que comme ils sont beaucoup trop nombreux en maternelle, on ne peut pas leur apprendre le français.
 et comme les mamans ne parlent pas français…
@@ -1817,9 +1848,9 @@ oui.
 oui, d'abord c'est…
 beh j~, j'ai vu que ça commençait à se faire.
 mh, mh.
-hein, je veux dire, ça, c'est un, c'est une des, des, c'est une des mesures du plan banlieue le busing.
 }
 Predicted: {
+mh, mh.
 donc, c'est pas normal qu'ils arrivent en cp ne parlant pas français.
 mais ils arrivent en cp ne parlant pas français parce que comme ils sont beaucoup trop nombreux en maternelle, on ne peut pas leur apprendre le français.
 et comme les mamans ne parlent pas français… on pourrait imaginer des mélanges.
@@ -1827,7 +1858,6 @@ on pourrait imaginer du busing.
 oui.
 oui, d'abord c'est… beh j~, j'ai vu que ça commençait à se faire.
 mh, mh.
-hein, je veux dire, ça, c'est un, c'est une des, des, c'est une des mesures du plan banlieue le busing.
 }
 False positives: {
 et comme les mamans ne parlent pas français… on pourrait imaginer des mélanges.
@@ -1840,6 +1870,7 @@ beh j~, j'ai vu que ça commençait à se faire.
 }
 
 Expected: {
+c'est la place de verdun.
 là, sur la place de verdun, il y a, mh, la préfecture.
 voilà.
 comme repère, il y a la préfecture.
@@ -1849,9 +1880,9 @@ en fait, euh, ben, là, euh, vous passez, euh…
 ben, en fait, c'est la ligne du tram toujours là.
 vous t~, vous suivez la ligne du tram qui passe vers la je crois que c'est une ancienne caserne, je crois.
 voilà.
-et vous suivez toujours la ligne du tram.
 }
 Predicted: {
+c'est la place de verdun.
 là, sur la place de verdun, il y a, mh, la préfecture.
 voilà.
 comme repère, il y a la préfecture.
@@ -1860,7 +1891,6 @@ vous, vous continuez tout droit.
 en fait, euh, ben, là, euh, vous passez, euh… ben, en fait, c'est la ligne du tram toujours là.
 vous t~, vous suivez la ligne du tram qui passe vers la je crois que c'est une ancienne caserne, je crois.
 voilà.
-et vous suivez toujours la ligne du tram.
 }
 False positives: {
 en fait, euh, ben, là, euh, vous passez, euh… ben, en fait, c'est la ligne du tram toujours là.
@@ -1870,6 +1900,7 @@ ben, en fait, c'est la ligne du tram toujours là.
 }
 
 Expected: {
+mais j'avais peur qu'il ne soit pas celui que les gens attendaient de moi.
 puis, voilà.
 et alors, la critique déferlante, c'est une vague incroyable.
 xxx.
@@ -1879,9 +1910,9 @@ oui.
 ah, alors.
 oui.
 vraiment, il doit être…
-il en faut bien un.
 }
 Predicted: {
+mais j'avais peur qu'il ne soit pas celui que les gens attendaient de moi.
 puis, voilà.
 et alors, la critique déferlante, c'est une vague incroyable.
 xxx.
@@ -1889,19 +1920,17 @@ ah, quelqu'un a dit du mal quand même de c~… ah bon ?
 oui.
 ah, alors.
 oui.
-vraiment, il doit être… il en faut bien un.
+vraiment, il doit être…
 }
 False positives: {
 ah, quelqu'un a dit du mal quand même de c~… ah bon ?
-vraiment, il doit être… il en faut bien un.
 } False negatives: {
 ah, quelqu'un a dit du mal quand même de c~…
 ah bon ?
-vraiment, il doit être…
-il en faut bien un.
 }
 
 Expected: {
+mais c'est de là que tout est parti, le fleuve une fois traversé.
 alors, vous en donnez…
 c'est une morris léon bollée.
 oui.
@@ -1911,9 +1940,9 @@ c'était…
 avec xxx.
 dans cette auto.
 c'était gigantesque.
-alors, qui vous regarde ?
 }
 Predicted: {
+mais c'est de là que tout est parti, le fleuve une fois traversé.
 alors, vous en donnez… c'est une morris léon bollée.
 oui.
 hein ?
@@ -1921,7 +1950,6 @@ ah, oui, non, de toute façon, il y a bien longtemps qu'elles sont dans les mus�
 c'était… avec xxx.
 dans cette auto.
 c'était gigantesque.
-alors, qui vous regarde ?
 }
 False positives: {
 alors, vous en donnez… c'est une morris léon bollée.
@@ -1934,6 +1962,7 @@ avec xxx.
 }
 
 Expected: {
+ce sont pas des prévisions.
 c'est…
 voilà.
 c'est un, un des scénarios possibles, euh.
@@ -1943,9 +1972,9 @@ et, euh, on n'a pas beaucoup d'expérience.
 mais on a quand même de l'expérience de trois pandémies passées.
 et aucun des pays n'a su pour l'instant arrêter la vague pandémique dans son pays.
 mais si elle se déroule de façon, je dirais, euh, un peu comme dans les, les fois passées, c'est les scénarios que l'on peut imaginer.
-alors, je, je, je…
 }
 Predicted: {
+ce sont pas des prévisions.
 c'est… voilà.
 c'est un, un des scénarios possibles, euh.
 oui.
@@ -1954,7 +1983,6 @@ et, euh, on n'a pas beaucoup d'expérience.
 mais on a quand même de l'expérience de trois pandémies passées.
 et aucun des pays n'a su pour l'instant arrêter la vague pandémique dans son pays.
 mais si elle se déroule de façon, je dirais, euh, un peu comme dans les, les fois passées, c'est les scénarios que l'on peut imaginer.
-alors, je, je, je…
 }
 False positives: {
 c'est… voilà.
@@ -1964,6 +1992,7 @@ voilà.
 }
 
 Expected: {
+aujourd'hui, on sait que la petite souche qui a émergé au mexique est quand même un peu plus contagieuse que, euh, on aurait pu l'espérer.
 oui.
 elle est plus contagieuse.
 alors, j~…
@@ -1973,9 +2002,9 @@ l'oms voit d'ailleurs grand puisqu'elle a même évoqué la possibilité d'une p
 visite à l'épicentre de la peur avec sophie pagès et dominique le marchant.
 c'est la première journée de jésus que nous venons d'entendre, la première journée où il manifeste son autorité et la nouveauté, la bonne nouvelle, l'évangile qui arrive avec lui.
 et vous l'avez remarqué en écoutant l'évangile.
-jésus ne dit rien avant la fin de l'épisode.
 }
 Predicted: {
+aujourd'hui, on sait que la petite souche qui a émergé au mexique est quand même un peu plus contagieuse que, euh, on aurait pu l'espérer.
 oui.
 elle est plus contagieuse.
 alors, j~… alors, je vous rappelle que depuis le début de la crise, l'organisation mondiale de la santé, euh, contribue largement, euh, à l'angoisse ou à l'inquiétude par ses communiqués, euh.
@@ -1984,7 +2013,6 @@ l'oms voit d'ailleurs grand puisqu'elle a même évoqué la possibilité d'une p
 visite à l'épicentre de la peur avec sophie pagès et dominique le marchant.
 c'est la première journée de jésus que nous venons d'entendre, la première journée où il manifeste son autorité et la nouveauté, la bonne nouvelle, l'évangile qui arrive avec lui.
 et vous l'avez remarqué en écoutant l'évangile.
-jésus ne dit rien avant la fin de l'épisode.
 }
 False positives: {
 alors, j~… alors, je vous rappelle que depuis le début de la crise, l'organisation mondiale de la santé, euh, contribue largement, euh, à l'angoisse ou à l'inquiétude par ses communiqués, euh.
@@ -1994,6 +2022,7 @@ alors, je vous rappelle que depuis le début de la crise, l'organisation mondial
 }
 
 Expected: {
+c'est un homme incapable de dire quoi que ce soit de désagréable sur qui que ce soit.
 je ne vois pas pourquoi j'aurais fait exception à cette règle.
 je crois que je sais regarder.
 mais je crois que j'ai toujours, oui, eu, eu cette, cette, disons, cette faculté.
@@ -2003,9 +2032,9 @@ j'aime bien comprendre comment ça marche les autres.
 ça, c'est, euh…
 bon, je l'ai toujours eu, je crois.
 par conséquent, j'ai eu envie de savoir un petit peu mieux comment ça marchait.
-et puis je suis toujours étonnée, maintenant, plus.
 }
 Predicted: {
+c'est un homme incapable de dire quoi que ce soit de désagréable sur qui que ce soit.
 je ne vois pas pourquoi j'aurais fait exception à cette règle.
 je crois que je sais regarder.
 mais je crois que j'ai toujours, oui, eu, eu cette, cette, disons, cette faculté.
@@ -2014,7 +2043,6 @@ le mécanisme tout simplement, pas spécialement de la carrière.
 j'aime bien comprendre comment ça marche les autres.
 ça, c'est, euh… bon, je l'ai toujours eu, je crois.
 par conséquent, j'ai eu envie de savoir un petit peu mieux comment ça marchait.
-et puis je suis toujours étonnée, maintenant, plus.
 }
 False positives: {
 ça, c'est, euh… bon, je l'ai toujours eu, je crois.
@@ -2024,6 +2052,7 @@ bon, je l'ai toujours eu, je crois.
 }
 
 Expected: {
+mh, mh.
 alors vous abordez là tout, tout cet aspect de l'effort de l'église actuelle pour n'être pas simplement en contact avec ceux qui traditionnellement sont chrétiens, mais le problème de l'église, du contact avec tous les hommes, et en particulier avec ceux qui, qui sont plus, plus éprouvés, quoi, dans le travail…
 vous connaissez bien les problèmes actuels.
 je n'ai pas l'intention en ce moment de pouvoir vous exposer quelles sont les difficultés de contact qu'il peut y avoir entre les églises, que ce soit l'église catholique, l'église protestante, l'église orthodoxe, toutes les églises et le monde des travailleurs.
@@ -2033,9 +2062,9 @@ je remonte, euh, l'avenue général champon.
 je traverse, euh, face à la, euh, mde.
 et je, euh, je continue, je continue jusqu'à une place qui est face à la grande poste où il y a la, euh, chambre de commerce et d'industrie.
 et, euh, je reprends, je crois, le, non.
-c'est pas le boulevard gambetta.
 }
 Predicted: {
+mh, mh.
 alors vous abordez là tout, tout cet aspect de l'effort de l'église actuelle pour n'être pas simplement en contact avec ceux qui traditionnellement sont chrétiens, mais le problème de l'église, du contact avec tous les hommes, et en particulier avec ceux qui, qui sont plus, plus éprouvés, quoi, dans le travail… vous connaissez bien les problèmes actuels.
 je n'ai pas l'intention en ce moment de pouvoir vous exposer quelles sont les difficultés de contact qu'il peut y avoir entre les églises, que ce soit l'église catholique, l'église protestante, l'église orthodoxe, toutes les églises et le monde des travailleurs.
 et nous savons très bien, quelle que soit l'église à laquelle nous appartenons.
@@ -2044,7 +2073,6 @@ je remonte, euh, l'avenue général champon.
 je traverse, euh, face à la, euh, mde.
 et je, euh, je continue, je continue jusqu'à une place qui est face à la grande poste où il y a la, euh, chambre de commerce et d'industrie.
 et, euh, je reprends, je crois, le, non.
-c'est pas le boulevard gambetta.
 }
 False positives: {
 alors vous abordez là tout, tout cet aspect de l'effort de l'église actuelle pour n'être pas simplement en contact avec ceux qui traditionnellement sont chrétiens, mais le problème de l'église, du contact avec tous les hommes, et en particulier avec ceux qui, qui sont plus, plus éprouvés, quoi, dans le travail… vous connaissez bien les problèmes actuels.
@@ -2054,6 +2082,7 @@ vous connaissez bien les problèmes actuels.
 }
 
 Expected: {
+xxx ouais.
 alors, là, vous faisiez des études de médecine déjà.
 alors, j'ai fait mes études de médecine à paris.
 et après la guerre, je suis venue…
@@ -2063,59 +2092,57 @@ et, et, et c'est un type, euh, passionnant.
 et j'ai toujours lu tous ses livres.
 et j'avais absolument envie d'aller dans la corne de l'afrique, la, l'ethiopie, la somalie, euh, l'ora~, l'arabie, tout ça.
 c'était, c'ét~…
-là, je voulais y aller.
 }
 Predicted: {
+xxx ouais.
 alors, là, vous faisiez des études de médecine déjà.
 alors, j'ai fait mes études de médecine à paris.
 et après la guerre, je suis venue… parce que il y avait toujours dep~… alors, depuis avant la guerre, j'avais rencontré, euh, monfreid, henry de monfreid qui venait faire des conférences à, à mulhouse.
 et, et, et c'est un type, euh, passionnant.
 et j'ai toujours lu tous ses livres.
 et j'avais absolument envie d'aller dans la corne de l'afrique, la, l'ethiopie, la somalie, euh, l'ora~, l'arabie, tout ça.
-c'était, c'ét~… là, je voulais y aller.
+c'était, c'ét~…
 }
 False positives: {
 et après la guerre, je suis venue… parce que il y avait toujours dep~… alors, depuis avant la guerre, j'avais rencontré, euh, monfreid, henry de monfreid qui venait faire des conférences à, à mulhouse.
-c'était, c'ét~… là, je voulais y aller.
 } False negatives: {
 et après la guerre, je suis venue…
 parce que il y avait toujours dep~…
 alors, depuis avant la guerre, j'avais rencontré, euh, monfreid, henry de monfreid qui venait faire des conférences à, à mulhouse.
-c'était, c'ét~…
-là, je voulais y aller.
 }
 
 Expected: {
-et il court dans son couloir, euh, le dénommé, euh, papa.
-le ballon récupéré par heinze maintenant.
-les français qui sont obligés de courir après ce ballon.
-et encore papa, justement, qui franchit la ligne médiane, qui accélère maintenant, qui va trouver agüero.
-agüero en retrait pour, euh, gago.
-gago pour, euh, euh, de nouveau papa.
-ballon contré.
-xxx.
-mais ça continue de circuler avec…
-et oui, messi maintenant.
+ils sont deux argentins, hein, et…
+l'autre argentin, c'est rodriguez, hein.
+c'est rodriguez, maxi rodriguez.
+alors, le pied droit de rodriguez ou le pied gauche de messi.
+ce sera le droit de rodriguez.
+le ballon à la surface de réparation.
+la tête argentine contre.
+ah, la tête de mexès, qui repousse ce ballon de la tête en corner.
+le contre de mexès.
+il saute plus haut, euh, que les attaquants argentins.
 }
 Predicted: {
-et il court dans son couloir, euh, le dénommé, euh, papa.
-le ballon récupéré par heinze maintenant.
-les français qui sont obligés de courir après ce ballon.
-et encore papa, justement, qui franchit la ligne médiane, qui accélère maintenant, qui va trouver agüero.
-agüero en retrait pour, euh, gago.
-gago pour, euh, euh, de nouveau papa.
-ballon contré.
-xxx.
-mais ça continue de circuler avec… et oui, messi maintenant.
+ils sont deux argentins, hein, et… l'autre argentin, c'est rodriguez, hein.
+c'est rodriguez, maxi rodriguez.
+alors, le pied droit de rodriguez ou le pied gauche de messi.
+ce sera le droit de rodriguez.
+le ballon à la surface de réparation.
+la tête argentine contre.
+ah, la tête de mexès, qui repousse ce ballon de la tête en corner.
+le contre de mexès.
+il saute plus haut, euh, que les attaquants argentins.
 }
 False positives: {
-mais ça continue de circuler avec… et oui, messi maintenant.
+ils sont deux argentins, hein, et… l'autre argentin, c'est rodriguez, hein.
 } False negatives: {
-mais ça continue de circuler avec…
-et oui, messi maintenant.
+ils sont deux argentins, hein, et…
+l'autre argentin, c'est rodriguez, hein.
 }
 
 Expected: {
+et comme j'étais le seul informaticien, euh, ben, ça, c'est devenu assez dur, puisque maint~, enfin, dur relativement, puisque maintenant, je suis responsable…
 bon, il y a un parc, euh, une cinquantaine, euh, d'ordinateurs, euh, plus un certain nombre d'imprimantes et tout ça.
 et, euh, bon, ben, ça pose des problèmes de maintenan~, enfin, de maintenance, euh, de, de mise à jour, et tout ça, euh, voilà.
 donc, c'est, c'est…
@@ -2125,21 +2152,22 @@ parce que sinon, c'est, c'est, c'est, c'est intenable, hein.
 ouais.
 c'est…
 il y a trop de, il y a trop de boulot, euh.
-surtout que a fallu former les gens aussi à l'informatique, hein.
 }
 Predicted: {
-bon, il y a un parc, euh, une cinquantaine, euh, d'ordinateurs, euh, plus un certain nombre d'imprimantes et tout ça.
+et comme j'étais le seul informaticien, euh, ben, ça, c'est devenu assez dur, puisque maint~, enfin, dur relativement, puisque maintenant, je suis responsable… bon, il y a un parc, euh, une cinquantaine, euh, d'ordinateurs, euh, plus un certain nombre d'imprimantes et tout ça.
 et, euh, bon, ben, ça pose des problèmes de maintenan~, enfin, de maintenance, euh, de, de mise à jour, et tout ça, euh, voilà.
 donc, c'est, c'est… à un moment donné, ça devenait… surtout qu'en même temps, j'avais mon travail aussi de m~, pour écrire des programmes et tout, des logiciels.
 parce que sinon, c'est, c'est, c'est, c'est intenable, hein.
 ouais.
 c'est… il y a trop de, il y a trop de boulot, euh.
-surtout que a fallu former les gens aussi à l'informatique, hein.
 }
 False positives: {
+et comme j'étais le seul informaticien, euh, ben, ça, c'est devenu assez dur, puisque maint~, enfin, dur relativement, puisque maintenant, je suis responsable… bon, il y a un parc, euh, une cinquantaine, euh, d'ordinateurs, euh, plus un certain nombre d'imprimantes et tout ça.
 donc, c'est, c'est… à un moment donné, ça devenait… surtout qu'en même temps, j'avais mon travail aussi de m~, pour écrire des programmes et tout, des logiciels.
 c'est… il y a trop de, il y a trop de boulot, euh.
 } False negatives: {
+et comme j'étais le seul informaticien, euh, ben, ça, c'est devenu assez dur, puisque maint~, enfin, dur relativement, puisque maintenant, je suis responsable…
+bon, il y a un parc, euh, une cinquantaine, euh, d'ordinateurs, euh, plus un certain nombre d'imprimantes et tout ça.
 donc, c'est, c'est…
 à un moment donné, ça devenait…
 surtout qu'en même temps, j'avais mon travail aussi de m~, pour écrire des programmes et tout, des logiciels.
@@ -2148,6 +2176,7 @@ il y a trop de, il y a trop de boulot, euh.
 }
 
 Expected: {
+il a pas de définition, forcément, de ce qu'est l'art à…
 c'est pas, c'est pas…
 ça fait pas partie de ces artistes très théoriciens yves klein.
 il a, il a une approche directe de ce qu'il fait.
@@ -2157,10 +2186,9 @@ c'est une petite référence philosophique.
 il y a un philosophe qui a dit, euh, euh, qui a fait l'éloge de la grande santé et qui a dit, notamment, l'art, ça doit être du côté de la grande santé.
 ça vous dit quelque chose ça ?
 nietzsche.
-nietzsche dit tout ça, c'est une conception maladive, c'est le, c'est de la conception maladive de la création.
 }
 Predicted: {
-c'est pas, c'est pas… ça fait pas partie de ces artistes très théoriciens yves klein.
+il a pas de définition, forcément, de ce qu'est l'art à… c'est pas, c'est pas… ça fait pas partie de ces artistes très théoriciens yves klein.
 il a, il a une approche directe de ce qu'il fait.
 mais il a pas beaucoup théorisé ce qu'il a fait.
 par contre, quand même, c'est une, c'est une référence.
@@ -2168,16 +2196,47 @@ c'est une petite référence philosophique.
 il y a un philosophe qui a dit, euh, euh, qui a fait l'éloge de la grande santé et qui a dit, notamment, l'art, ça doit être du côté de la grande santé.
 ça vous dit quelque chose ça ?
 nietzsche.
-nietzsche dit tout ça, c'est une conception maladive, c'est le, c'est de la conception maladive de la création.
 }
 False positives: {
-c'est pas, c'est pas… ça fait pas partie de ces artistes très théoriciens yves klein.
+il a pas de définition, forcément, de ce qu'est l'art à… c'est pas, c'est pas… ça fait pas partie de ces artistes très théoriciens yves klein.
 } False negatives: {
+il a pas de définition, forcément, de ce qu'est l'art à…
 c'est pas, c'est pas…
 ça fait pas partie de ces artistes très théoriciens yves klein.
 }
 
 Expected: {
+il y a, il y a, il y a, bon…
+je suis un peu, un peu branchée bio.
+donc, il y a un boulanger bio et, euh, une autre boutique.
+enfin, voilà.
+c'est, c'est ponctuel.
+c'est des achats ponctuels.
+mh, oui, d'accord.
+non.
+je fais pas mes courses au marché d'aligre sinon pour des petits trucs.
+voilà.
+}
+Predicted: {
+il y a, il y a, il y a, bon… je suis un peu, un peu branchée bio.
+donc, il y a un boulanger bio et, euh, une autre boutique.
+enfin, voilà.
+c'est, c'est ponctuel.
+c'est des achats ponctuels.
+mh, oui, d'accord.
+non.
+je fais pas mes courses au marché d'aligre sinon pour des petits trucs.
+voilà.
+}
+False positives: {
+il y a, il y a, il y a, bon… je suis un peu, un peu branchée bio.
+} False negatives: {
+il y a, il y a, il y a, bon…
+je suis un peu, un peu branchée bio.
+}
+
+Expected: {
+d'autres réseaux sociaux thématiques devraient voir le jour prochainement, notamment un site pour les amateurs de sport et un autre pour les clubbers branchés.
 alors, euh, il y a une, euh, jeune fille, euh, qui…
 en abord, j'ai commencé.
 il y a, d'abord, euh, une voiture qui est, ouais, c'est un ca~, une voiture avec des ma~, des, des marchandises qui arrive.
@@ -2187,9 +2246,9 @@ et en fait, euh, ouais, il y a la jeune fille.
 il y a une jeune fille qui est, qui a l'air pauvre, qui a juste, euh, juste un mor~, un morceau de tissu comme habit et qui, euh, et qui voit, euh, qui voit ça passer.
 et donc, elle se dit, eh, bah, elle peut récupérer, elle pourra récupérer quelque chose.
 donc, elle va voler, en fait, un, une baguette.
-et donc, elle va courir, euh.
 }
 Predicted: {
+d'autres réseaux sociaux thématiques devraient voir le jour prochainement, notamment un site pour les amateurs de sport et un autre pour les clubbers branchés.
 alors, euh, il y a une, euh, jeune fille, euh, qui… en abord, j'ai commencé.
 il y a, d'abord, euh, une voiture qui est, ouais, c'est un ca~, une voiture avec des ma~, des, des marchandises qui arrive.
 et en fait, c'est pour un boulanger.
@@ -2198,7 +2257,6 @@ et en fait, euh, ouais, il y a la jeune fille.
 il y a une jeune fille qui est, qui a l'air pauvre, qui a juste, euh, juste un mor~, un morceau de tissu comme habit et qui, euh, et qui voit, euh, qui voit ça passer.
 et donc, elle se dit, eh, bah, elle peut récupérer, elle pourra récupérer quelque chose.
 donc, elle va voler, en fait, un, une baguette.
-et donc, elle va courir, euh.
 }
 False positives: {
 alors, euh, il y a une, euh, jeune fille, euh, qui… en abord, j'ai commencé.
@@ -2208,6 +2266,7 @@ en abord, j'ai commencé.
 }
 
 Expected: {
+et je suis, euh, je sais pas, quoi, épouvantablement éclectique, quoi.
 donc, ça va vraiment de, de romans étrangers à quelques romans français contemporains, mais aussi des essais, mais un peu de bande dessinée, mais pas mal de livres sur les jardins, euh, sur les livres de cuisine.
 enfin, je veux dire, c'est, c'est, c'est très, très varié.
 on va regarder ça de près, euh.
@@ -2217,9 +2276,9 @@ ah, non.
 ça, les livres politiques, enfin, non.
 mais ça, c'est…
 vous me parlez même pas de livres politiques là.
-vous me parlez de trucs people, euh.
 }
 Predicted: {
+et je suis, euh, je sais pas, quoi, épouvantablement éclectique, quoi.
 donc, ça va vraiment de, de romans étrangers à quelques romans français contemporains, mais aussi des essais, mais un peu de bande dessinée, mais pas mal de livres sur les jardins, euh, sur les livres de cuisine.
 enfin, je veux dire, c'est, c'est, c'est très, très varié.
 on va regarder ça de près, euh.
@@ -2228,7 +2287,6 @@ ah, non.
 ça, non, non.
 ça, les livres politiques, enfin, non.
 mais ça, c'est… vous me parlez même pas de livres politiques là.
-vous me parlez de trucs people, euh.
 }
 False positives: {
 mais ça, c'est… vous me parlez même pas de livres politiques là.
@@ -2238,6 +2296,7 @@ vous me parlez même pas de livres politiques là.
 }
 
 Expected: {
+mh, mh.
 et puis, et puis surtout le, le temps que les gens passent devant internet.
 ça, ça commence aussi ?
 oui.
@@ -2247,9 +2306,9 @@ le, le loisir lecture est devenu le loisir image, hein.
 quelque part on est…
 mh, mh.
 quand on passe quatre heures sur internet, on pen~, on n'a plus beaucoup de temps pour ouvrir un livre.
-donc, euh, et, et ça, ce sont des jeunes qui sont vraiment génération image.
 }
 Predicted: {
+mh, mh.
 et puis, et puis surtout le, le temps que les gens passent devant internet.
 ça, ça commence aussi ?
 oui.
@@ -2258,7 +2317,6 @@ ah, ça, ça a mangé énormément.
 le, le loisir lecture est devenu le loisir image, hein.
 quelque part on est… mh, mh.
 quand on passe quatre heures sur internet, on pen~, on n'a plus beaucoup de temps pour ouvrir un livre.
-donc, euh, et, et ça, ce sont des jeunes qui sont vraiment génération image.
 }
 False positives: {
 quelque part on est… mh, mh.
@@ -2268,6 +2326,7 @@ mh, mh.
 }
 
 Expected: {
+pour plus d'informations, voir le résumé des caractéristiques du produit (également inclus dans l'epar).
 angiox est un anticoagulant ;
 en utilisant angiox durant le sca ou l'icp, le risque de formation de caillots sanguins est considérablement réduit.
 angiox a été comparé à l'héparine.
@@ -2277,9 +2336,9 @@ angiox 250 mg poudre pour solution à diluer pour solution injectable ou pour pe
 pour la liste complète des excipients, voir rubrique 6.1.
 la dose recommandée d'angiox, pour les patients bénéficiant d'une icp, est un bolus intraveineux de 0,75 mg/kg de poids corporel immédiatement suivi d'une perfusion intraveineuse à raison de 1,75 mg/kg/heure pendant au moins la durée de l'intervention.
 la sécurité et l'efficacité d'un bolus unique d'angiox n'ont pas été évaluées.
-voir la section 5.1 pour plus d'informations concernant l'utilisation de la bivalirudine avec ou sans inhibiteur de la gpiib/iiia.
 }
 Predicted: {
+pour plus d'informations, voir le résumé des caractéristiques du produit (également inclus dans l'epar).
 angiox est un anticoagulant ; en utilisant angiox durant le sca ou l'icp, le risque de formation de caillots sanguins est considérablement réduit.
 angiox a été comparé à l'héparine.
 angiox a été le plus efficace chez les patients ayant également reçu de l'aspirine et du clopidogrel.
@@ -2288,7 +2347,6 @@ angiox 250 mg poudre pour solution à diluer pour solution injectable ou pour pe
 pour la liste complète des excipients, voir rubrique 6.1.
 la dose recommandée d'angiox, pour les patients bénéficiant d'une icp, est un bolus intraveineux de 0,75 mg/kg de poids corporel immédiatement suivi d'une perfusion intraveineuse à raison de 1,75 mg/kg/heure pendant au moins la durée de l'intervention.
 la sécurité et l'efficacité d'un bolus unique d'angiox n'ont pas été évaluées.
-voir la section 5.1 pour plus d'informations concernant l'utilisation de la bivalirudine avec ou sans inhibiteur de la gpiib/iiia.
 }
 False positives: {
 angiox est un anticoagulant ; en utilisant angiox durant le sca ou l'icp, le risque de formation de caillots sanguins est considérablement réduit.
@@ -2298,6 +2356,7 @@ en utilisant angiox durant le sca ou l'icp, le risque de formation de caillots s
 }
 
 Expected: {
+d'autres manifestations ont très bien fonctionné en terme d'affluence, notamment lors de la fête des fraises organisée le 1er dimanche de juin, ou encore la journée des associations au zénith, où 2.000 visiteurs étaient présents.
 le voyage d'arturo le corbeau
 le comédien a fait participer les enfants au spectacle.
 les projets se concrétisent.
@@ -2307,9 +2366,9 @@ cantine.
 jacques rousselot qui tenait à conserver correa repassa à l'offensive et après une première proposition d'un an, il se rangea au souhait du joueur qui en souhaitait deux : "notre objectif reste le maintien.
 m. rousselot a insisté pour me garder et je l'en remercie.
 bien sûr, je ne néglige pas l'aspect financier, mais il n'est pas le seul élément que j'ai pris en compte ".
-l'automobile a perdu sa roue gauche, et a décollé pour se retourner et terminer sa course sur le toit.
 }
 Predicted: {
+d'autres manifestations ont très bien fonctionné en terme d'affluence, notamment lors de la fête des fraises organisée le 1er dimanche de juin, ou encore la journée des associations au zénith, où 2.000 visiteurs étaient présents.
 le voyage d'arturo le corbeau le comédien a fait participer les enfants au spectacle.
 les projets se concrétisent.
 la commune compte 50 de ces avaloirs et ils seront nettoyés deux fois par an.
@@ -2318,7 +2377,6 @@ cantine.
 jacques rousselot qui tenait à conserver correa repassa à l'offensive et après une première proposition d'un an, il se rangea au souhait du joueur qui en souhaitait deux : "notre objectif reste le maintien.
 m. rousselot a insisté pour me garder et je l'en remercie.
 bien sûr, je ne néglige pas l'aspect financier, mais il n'est pas le seul élément que j'ai pris en compte ".
-l'automobile a perdu sa roue gauche, et a décollé pour se retourner et terminer sa course sur le toit.
 }
 False positives: {
 le voyage d'arturo le corbeau le comédien a fait participer les enfants au spectacle.
@@ -2328,6 +2386,7 @@ le comédien a fait participer les enfants au spectacle.
 }
 
 Expected: {
+une insuffisance rénale a été observée après l'administration d'acide zolédronique, en particulier chez les patients présentant une altération rénale préexistante ou des facteurs de risque supplémentaires (par exemple, chimiothérapie anticancéreuse, médicaments néphrotoxiques concomitants, déshydratation sévère, etc.).
 aucun cas d'hypocalcémie symptomatique n'a été observé.
 dans les deux cas, l'évolution a été favorable.
 les patients ayant reçu une dose supérieure à la dose recommandée doivent être surveillés attentivement.
@@ -2337,15 +2396,14 @@ effets sur toutes les fractures cliniques
 tableau 3
 (2) y compris fractures cliniques dorsales et fractures cliniques vertébrales lombaires
 aclasta a réduit significativement le nombre moyen de jours d'activité limitée et de jours d'alitement du fait de douleurs rachidiennes de 17,9 jours par rapport à 11,3 jours dans le groupe placebo.
-aclasta a également réduit significativement le nombre moyen de jours d'activité limitée et de jours d'alitement du fait de fractures de 2,9 jours par rapport à 0,5 jours dans le groupe placebo (p < 0,01 pour toutes les valeurs).
 }
 Predicted: {
+une insuffisance rénale a été observée après l'administration d'acide zolédronique, en particulier chez les patients présentant une altération rénale préexistante ou des facteurs de risque supplémentaires (par exemple, chimiothérapie anticancéreuse, médicaments néphrotoxiques concomitants, déshydratation sévère, etc.).
 aucun cas d'hypocalcémie symptomatique n'a été observé.
 dans les deux cas, l'évolution a été favorable.
 les patients ayant reçu une dose supérieure à la dose recommandée doivent être surveillés attentivement.
 effets pharmacodynamiques 85% des patients n'avaient jamais reçu de bisphosphonates.
 effets sur toutes les fractures cliniques tableau 3 (2) y compris fractures cliniques dorsales et fractures cliniques vertébrales lombaires aclasta a réduit significativement le nombre moyen de jours d'activité limitée et de jours d'alitement du fait de douleurs rachidiennes de 17,9 jours par rapport à 11,3 jours dans le groupe placebo.
-aclasta a également réduit significativement le nombre moyen de jours d'activité limitée et de jours d'alitement du fait de fractures de 2,9 jours par rapport à 0,5 jours dans le groupe placebo (p < 0,01 pour toutes les valeurs).
 }
 False positives: {
 effets pharmacodynamiques 85% des patients n'avaient jamais reçu de bisphosphonates.
@@ -2360,6 +2418,7 @@ aclasta a réduit significativement le nombre moyen de jours d'activité limité
 }
 
 Expected: {
+- une information judiciaire contre x a été ouverte en juin 2001 pour "abus de biens sociaux et recel" après la découverte sur un compte suisse, et la mise sous séquestre, de plusieurs dizaines de millions d'euros qui pourrait être liée à cette affaire.
 secret défense
 le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'economie thierry breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de taïwan.
 - le 16 juin 2006, les juges renaud van ruymbeke et xavière simeoni (qui remplace dominique de talancé) ont adressé une nouvelle demande de levée du secret défense au ministère de l'économie et des finances, seul habilité à saisir la commission consultative du secret de la défense nationale (ccsdn).
@@ -2369,31 +2428,29 @@ l'enquête à taïwan
 - jacques morisson : capitaine de vaisseau de la marine française, il était négociateur du volet technique de la vente des frégates à taiwan.
 il conçut le montage financier de l'opération bravo.
 références
-- des frégates et des morts, swiss info, 22 juin 2002
 }
 Predicted: {
+- une information judiciaire contre x a été ouverte en juin 2001 pour "abus de biens sociaux et recel" après la découverte sur un compte suisse, et la mise sous séquestre, de plusieurs dizaines de millions d'euros qui pourrait être liée à cette affaire.
 secret défense le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'economie thierry breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de taïwan.
 - le 16 juin 2006, les juges renaud van ruymbeke et xavière simeoni (qui remplace dominique de talancé) ont adressé une nouvelle demande de levée du secret défense au ministère de l'économie et des finances, seul habilité à saisir la commission consultative du secret de la défense nationale (ccsdn).
 - en 2001, le juge genevois paul perraudin a bloqué à zurich 1,2 milliard de francs suisses appartenant sur les comptes suisses de l'intermédiaire taiwanais, andrew wang, 73 ans.
 l'enquête à taïwan - l'actuelle direction de thales, présidée par denis ranque, dit n'être pas concernée par l'enquête, et s'est désolidarisée d'alain gomez, pdg de thomson csf au moment des faits.
 - jacques morisson : capitaine de vaisseau de la marine française, il était négociateur du volet technique de la vente des frégates à taiwan.
 il conçut le montage financier de l'opération bravo.
-références - des frégates et des morts, swiss info, 22 juin 2002
+références
 }
 False positives: {
 secret défense le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'economie thierry breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de taïwan.
 l'enquête à taïwan - l'actuelle direction de thales, présidée par denis ranque, dit n'être pas concernée par l'enquête, et s'est désolidarisée d'alain gomez, pdg de thomson csf au moment des faits.
-références - des frégates et des morts, swiss info, 22 juin 2002
 } False negatives: {
 secret défense
 le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'economie thierry breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de taïwan.
 l'enquête à taïwan
 - l'actuelle direction de thales, présidée par denis ranque, dit n'être pas concernée par l'enquête, et s'est désolidarisée d'alain gomez, pdg de thomson csf au moment des faits.
-références
-- des frégates et des morts, swiss info, 22 juin 2002
 }
 
 Expected: {
+football
 une seule rencontre est au programme des licenciés du fc aujourd'hui.
 l'équipe b, chez les seniors, évoluera à partir de 15h, sur la pelouse du terrain d'honneur, face à la formation de laneuville.
 une journée du championnat de promotion de première division départementale.
@@ -2403,21 +2460,22 @@ aviron
 une sortie nautique d'entraînement est organisée aujourd'hui, à partir de 9h, pour les rameurs du club.
 décès de guy hosneld
 nous apprenons avec beaucoup de tristesse, le décès de guy hosneld, suite à une longue et douloureuse maladie, à l'âge de 44 ans.
-il avait épousé denise pierrejean le 26 octobre 1974 et de leur union, sont nés une fille et deux garçons, âgés respectivement de 24, 23 et 14 ans.
 }
 Predicted: {
-une seule rencontre est au programme des licenciés du fc aujourd'hui.
+football une seule rencontre est au programme des licenciés du fc aujourd'hui.
 l'équipe b, chez les seniors, évoluera à partir de 15h, sur la pelouse du terrain d'honneur, face à la formation de laneuville.
 une journée du championnat de promotion de première division départementale.
 cet entraînement sera renouvelé demain, aux mêmes horaires.
 billard aviron une sortie nautique d'entraînement est organisée aujourd'hui, à partir de 9h, pour les rameurs du club.
 décès de guy hosneld nous apprenons avec beaucoup de tristesse, le décès de guy hosneld, suite à une longue et douloureuse maladie, à l'âge de 44 ans.
-il avait épousé denise pierrejean le 26 octobre 1974 et de leur union, sont nés une fille et deux garçons, âgés respectivement de 24, 23 et 14 ans.
 }
 False positives: {
+football une seule rencontre est au programme des licenciés du fc aujourd'hui.
 billard aviron une sortie nautique d'entraînement est organisée aujourd'hui, à partir de 9h, pour les rameurs du club.
 décès de guy hosneld nous apprenons avec beaucoup de tristesse, le décès de guy hosneld, suite à une longue et douloureuse maladie, à l'âge de 44 ans.
 } False negatives: {
+football
+une seule rencontre est au programme des licenciés du fc aujourd'hui.
 billard
 aviron
 une sortie nautique d'entraînement est organisée aujourd'hui, à partir de 9h, pour les rameurs du club.
@@ -2426,6 +2484,7 @@ nous apprenons avec beaucoup de tristesse, le décès de guy hosneld, suite à u
 }
 
 Expected: {
+en parfaite femme d'intérieur, elle a pu, lors de ce repos bien mérité, s'occuper de sa maison, de ses fleurs.
 une famille qu'elle chérissait plus que tout et qu'elle avait toujours plaisir à recevoir.
 pendant 15 ans, elle a été l'assistante efficace de son mari, rené s'occupant du secrétariat et denise de la trésorerie de la section l'isloise.
 jardiniers de france : entre bilan et perspectives
@@ -2435,9 +2494,9 @@ preuve que ce loisir se porte bien dans la commune.
 du point de vue financier, l'association fonctionne essentiellement grâce à l'aide d'une subvention attribuée par le siège basé à valenciennes ainsi qu'une cotisation de 17 euros par an et par adhérents.
 cela permet de mettre en place différentes actions, dont la plus importante fut, cette année encore, la bourse aux plantes organisée par la mairie, deux fois par an, le 29 mars et 11 octobre à la salle du parc.
 il fut également question d'évoquer les projets à mettre en place pour cette nouvelle année.
-dernièrement, les élèves de l'école maternelle ont assisté à un spectacle intitulé "arturo aux quatre coins du monde".
 }
 Predicted: {
+en parfaite femme d'intérieur, elle a pu, lors de ce repos bien mérité, s'occuper de sa maison, de ses fleurs.
 une famille qu'elle chérissait plus que tout et qu'elle avait toujours plaisir à recevoir.
 pendant 15 ans, elle a été l'assistante efficace de son mari, rené s'occupant du secrétariat et denise de la trésorerie de la section l'isloise.
 jardiniers de france : entre bilan et perspectives une association qui compte aujourd'hui 39 passionnés.
@@ -2446,7 +2505,6 @@ preuve que ce loisir se porte bien dans la commune.
 du point de vue financier, l'association fonctionne essentiellement grâce à l'aide d'une subvention attribuée par le siège basé à valenciennes ainsi qu'une cotisation de 17 euros par an et par adhérents.
 cela permet de mettre en place différentes actions, dont la plus importante fut, cette année encore, la bourse aux plantes organisée par la mairie, deux fois par an, le 29 mars et 11 octobre à la salle du parc.
 il fut également question d'évoquer les projets à mettre en place pour cette nouvelle année.
-dernièrement, les élèves de l'école maternelle ont assisté à un spectacle intitulé "arturo aux quatre coins du monde".
 }
 False positives: {
 jardiniers de france : entre bilan et perspectives une association qui compte aujourd'hui 39 passionnés.
@@ -2456,6 +2514,7 @@ une association qui compte aujourd'hui 39 passionnés.
 }
 
 Expected: {
+tableau 1 :
 effets indésirables survenus au cours de l'étude acuity
 classes de systèmes d'organes
 troubles de la circulation sanguine et lymphatique
@@ -2465,14 +2524,14 @@ hypersensibilité
 troubles du système nerveux
 troubles cardiaques
 bradycardie
-saignements majeurs
 }
 Predicted: {
-effets indésirables survenus au cours de l'étude acuity classes de systèmes d'organes troubles de la circulation sanguine et lymphatique fréquent (1/100 à < 1/10) troubles du système immunitaire hypersensibilité troubles du système nerveux troubles cardiaques bradycardie saignements majeurs
+tableau 1 : effets indésirables survenus au cours de l'étude acuity classes de systèmes d'organes troubles de la circulation sanguine et lymphatique fréquent (1/100 à < 1/10) troubles du système immunitaire hypersensibilité troubles du système nerveux troubles cardiaques bradycardie
 }
 False positives: {
-effets indésirables survenus au cours de l'étude acuity classes de systèmes d'organes troubles de la circulation sanguine et lymphatique fréquent (1/100 à < 1/10) troubles du système immunitaire hypersensibilité troubles du système nerveux troubles cardiaques bradycardie saignements majeurs
+tableau 1 : effets indésirables survenus au cours de l'étude acuity classes de systèmes d'organes troubles de la circulation sanguine et lymphatique fréquent (1/100 à < 1/10) troubles du système immunitaire hypersensibilité troubles du système nerveux troubles cardiaques bradycardie
 } False negatives: {
+tableau 1 :
 effets indésirables survenus au cours de l'étude acuity
 classes de systèmes d'organes
 troubles de la circulation sanguine et lymphatique
@@ -2482,10 +2541,10 @@ hypersensibilité
 troubles du système nerveux
 troubles cardiaques
 bradycardie
-saignements majeurs
 }
 
 Expected: {
+il n'y a pas d'effets du sexe sur la pharmacocinétique de la bivalirudine.
 la dose de bivalirudine est adaptée en fonction du poids corporel en mg/kg.
 les données non cliniques, basées sur des études conventionnelles de sécurité, de pharmacologie, de toxicité à doses répétées, de génotoxicité, ou de toxicité pour la reproduction, n'indiquent aucun risque particulier pour l'être humain.
 la toxicité chez l'animal lors d'expositions répétées ou continues (1 jour à 4 semaines à des niveaux d'exposition allant jusqu'à 10 fois la concentration plasmatique clinique à l'état d'équilibre) s'est limitée à des effets pharmacologiques exagérés.
@@ -2495,9 +2554,9 @@ après une brève exposition comparable à celle qui prévaut lors d'une utilisa
 la bivalirudine étant destinée à une administration de courte durée, on ne dispose d'aucune donnée concernant son potentiel carcinogène à long terme.
 donnees pharmaceutiques
 liste des excipients
-mannitol
 }
 Predicted: {
+il n'y a pas d'effets du sexe sur la pharmacocinétique de la bivalirudine.
 la dose de bivalirudine est adaptée en fonction du poids corporel en mg/kg.
 les données non cliniques, basées sur des études conventionnelles de sécurité, de pharmacologie, de toxicité à doses répétées, de génotoxicité, ou de toxicité pour la reproduction, n'indiquent aucun risque particulier pour l'être humain.
 la toxicité chez l'animal lors d'expositions répétées ou continues (1 jour à 4 semaines à des niveaux d'exposition allant jusqu'à 10 fois la concentration plasmatique clinique à l'état d'équilibre) s'est limitée à des effets pharmacologiques exagérés.
@@ -2505,17 +2564,17 @@ une comparaison des études à dose unique et à doses répétées a révélé q
 tous les effets indésirables, primaires et secondaires, résultant d'une activité pharmacologique excessive ont été réversibles.
 après une brève exposition comparable à celle qui prévaut lors d'une utilisation clinique, et même après une exposition à des doses bien plus élevées, il n'a pas été observé d'effet indésirable résultant d'un stress physiologique prolongé en réponse à un état de coagulation non homéostasique.
 la bivalirudine étant destinée à une administration de courte durée, on ne dispose d'aucune donnée concernant son potentiel carcinogène à long terme.
-donnees pharmaceutiques liste des excipients mannitol
+donnees pharmaceutiques liste des excipients
 }
 False positives: {
-donnees pharmaceutiques liste des excipients mannitol
+donnees pharmaceutiques liste des excipients
 } False negatives: {
 donnees pharmaceutiques
 liste des excipients
-mannitol
 }
 
 Expected: {
+votre traitement sera surveillé par un médecin.
 votre médecin déterminera quelle quantité d'angiox vous sera administrée et la préparera.
 - pendant la procédure, votre médecin vous examinera pour contrôler tout signe de saignement.
 si un saignement se produit, le traitement sera arrêté.
@@ -2525,9 +2584,9 @@ si un saignement se produit, le traitement sera arrêté.
 dosage
 pour les patients atteints d'un sca, la dose initiale recommandée est :
 un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
-(0.1 mg/kg signifie un dixième d'un milligramme du médicament pour chaque kilogramme de poids corporel ;
 }
 Predicted: {
+votre traitement sera surveillé par un médecin.
 votre médecin déterminera quelle quantité d'angiox vous sera administrée et la préparera.
 - pendant la procédure, votre médecin vous examinera pour contrôler tout signe de saignement.
 si un saignement se produit, le traitement sera arrêté.
@@ -2535,7 +2594,6 @@ si un saignement se produit, le traitement sera arrêté.
 - si vous suivez une procédure de type brachythérapie bêta ou gamma, votre médecin vous contrôlera encore plus soigneusement.
 - la dose administrée dépend de votre poids et du traitement qui vous a été prescrit.
 dosage pour les patients atteints d'un sca, la dose initiale recommandée est : un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
-(0.1 mg/kg signifie un dixième d'un milligramme du médicament pour chaque kilogramme de poids corporel ;
 }
 False positives: {
 dosage pour les patients atteints d'un sca, la dose initiale recommandée est : un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
@@ -2546,6 +2604,7 @@ un bolus intraveineux de 0,1 mg/kg suivi d'une perfusion de 0,25 mg/kg/h.
 }
 
 Expected: {
+l'utilisation d'aclasta n'est pas recommandée chez les patients dont la clairance de la créatinine est < 35 ml/min en raison d'une expérience clinique limitée dans cette population.
 aucun ajustement de la dose n'est nécessaire chez les patients dont la clairance de la créatinine est 35 ml/min.
 patients insuffisants hépatiques
 aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
@@ -2555,16 +2614,15 @@ la dose de 5 mg d'acide zolédronique doit être administrée pendant au moins 1
 aclasta n'est pas recommandé chez les patients atteints d'insuffisance rénale sévère (clairance de la créatinine < 35 ml/min) en raison d'une expérience clinique limitée dans cette population.
 la créatininémie devra être mesurée avant l'administration d'aclasta.
 cela est particulièrement important pour les patients âgés et pour les patients recevant un traitement diurétique.
-la prudence est requise en cas d'administration concomitante d'aclasta et de médicaments susceptibles d'affecter de manière significative la fonction rénale (par exemple, aminosides ou diurétiques susceptibles de provoquer une déshydratation), voir rubrique 4.5.
 }
 Predicted: {
+l'utilisation d'aclasta n'est pas recommandée chez les patients dont la clairance de la créatinine est < 35 ml/min en raison d'une expérience clinique limitée dans cette population.
 aucun ajustement de la dose n'est nécessaire chez les patients dont la clairance de la créatinine est 35 ml/min.
 patients insuffisants hépatiques aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
 patients âgés (65 ans) enfants et adolescents la dose de 5 mg d'acide zolédronique doit être administrée pendant au moins 15 minutes.
 aclasta n'est pas recommandé chez les patients atteints d'insuffisance rénale sévère (clairance de la créatinine < 35 ml/min) en raison d'une expérience clinique limitée dans cette population.
 la créatininémie devra être mesurée avant l'administration d'aclasta.
 cela est particulièrement important pour les patients âgés et pour les patients recevant un traitement diurétique.
-la prudence est requise en cas d'administration concomitante d'aclasta et de médicaments susceptibles d'affecter de manière significative la fonction rénale (par exemple, aminosides ou diurétiques susceptibles de provoquer une déshydratation), voir rubrique 4.5.
 }
 False positives: {
 patients insuffisants hépatiques aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
@@ -2578,6 +2636,7 @@ la dose de 5 mg d'acide zolédronique doit être administrée pendant au moins 1
 }
 
 Expected: {
+- les flacons non ouverts ne nécessitent pas de conditions particulières de conservation.
 - après ouverture du flacon, le produit doit être utilisé immédiatement afin d'éviter toute contamination microbienne.
 si le produit n'est pas utilisé immédiatement, la durée et les conditions de conservation avant utilisation relèvent de la responsabilité de l'utilisateur et ne doivent pas normalement dépasser 24 heures à une température de 2 °c à 8 °c.
 il faut attendre que la solution réfrigérée revienne à température ambiante avant de l'administrer.
@@ -2587,9 +2646,9 @@ les premiers concernés sont les producteurs de viande de boeuf et de mouton, do
 notre groupe les approuvera donc.
 nous savons qu'à mesure que l'asie bénéficiera d'un niveau de vie accru, 1,4 milliard de chinois et 1 milliard d'indiens commenceront à consommer de plus en plus d'énergie ;
 nous nous sommes engagés à rio à protéger le climat.
-le présent document répond tout à fait à cet objectif.
 }
 Predicted: {
+- les flacons non ouverts ne nécessitent pas de conditions particulières de conservation.
 - après ouverture du flacon, le produit doit être utilisé immédiatement afin d'éviter toute contamination microbienne.
 si le produit n'est pas utilisé immédiatement, la durée et les conditions de conservation avant utilisation relèvent de la responsabilité de l'utilisateur et ne doivent pas normalement dépasser 24 heures à une température de 2 °c à 8 °c.
 il faut attendre que la solution réfrigérée revienne à température ambiante avant de l'administrer.
@@ -2598,7 +2657,6 @@ je suis certain qu'il a conscience de la menace très grave qui pèse sur le mod
 les premiers concernés sont les producteurs de viande de boeuf et de mouton, dont on attend aujourd'hui qu'ils vendent leurs produits à des prix égaux ou inférieurs à leurs coûts de production.
 notre groupe les approuvera donc.
 nous savons qu'à mesure que l'asie bénéficiera d'un niveau de vie accru, 1,4 milliard de chinois et 1 milliard d'indiens commenceront à consommer de plus en plus d'énergie ; nous nous sommes engagés à rio à protéger le climat.
-le présent document répond tout à fait à cet objectif.
 }
 False positives: {
 nous savons qu'à mesure que l'asie bénéficiera d'un niveau de vie accru, 1,4 milliard de chinois et 1 milliard d'indiens commenceront à consommer de plus en plus d'énergie ; nous nous sommes engagés à rio à protéger le climat.
@@ -2608,6 +2666,37 @@ nous nous sommes engagés à rio à protéger le climat.
 }
 
 Expected: {
+ceci doit maintenant également s'opérer au sens pénal sur le plan européen dans le cadre d'une coopération très ouverte et très claire avec les pays membres ;
+c'est pourquoi nous avons besoin d'une coordination sur le plan européen, sans pour autant empiéter sur la compétence des tribunaux nationaux en ce qui concerne la conduite de la procédure.
+je suis très reconnaissante aux états membres -et en particulier à la commission- d'accueillir cette idée très favorablement.
+monsieur le président, famine et éthiopie, ces deux mots sont déjà douloureusement liés dans nos mémoires.
+dans cette corne de l'afrique, devenue le lieu de tous les fléaux, 16 millions de victimes de la famine, dont 8 en éthiopie, attendent du secours.
+alors, bien sûr, nous devons réagir, et vite, et nous savons trop bien, hélas, que le prix de nos atermoiements et de nos retards se paie en vies humaines.
+je remercie d'ailleurs le conseil et la commission pour ce qu'ils ont déjà entrepris et pour les précisions qu'ils nous ont apportées tout à l'heure.
+nous devons exiger de l'érythrée et de l'éthiopie un gel des activités militaires afin que tous les moyens, toutes les capacités logistiques et humaines de ces pays soient mis au service de leurs peuples.
+c'est pourquoi nous devons lancer un appel à la raison aux dirigeants éthiopiens et érythréens pour que cesse le conflit, pour que, dans le cadre du plan de paix de l'o.u.a., un accord rapide sur les arrangements techniques intervienne.
+je pense que l'on peut dire que cette conférence a été une réussite, pas seulement du point de vue financier, mais également en raison du fait que lors de cette conférence on a particulièrement mis l'accent sur des projets qui relient réciproquement les régions entre elles, et c'est l'un des points principaux du rapport et l'essence même du pacte de stabilité.
+}
+Predicted: {
+ceci doit maintenant également s'opérer au sens pénal sur le plan européen dans le cadre d'une coopération très ouverte et très claire avec les pays membres ; c'est pourquoi nous avons besoin d'une coordination sur le plan européen, sans pour autant empiéter sur la compétence des tribunaux nationaux en ce qui concerne la conduite de la procédure.
+je suis très reconnaissante aux états membres -et en particulier à la commission- d'accueillir cette idée très favorablement.
+monsieur le président, famine et éthiopie, ces deux mots sont déjà douloureusement liés dans nos mémoires.
+dans cette corne de l'afrique, devenue le lieu de tous les fléaux, 16 millions de victimes de la famine, dont 8 en éthiopie, attendent du secours.
+alors, bien sûr, nous devons réagir, et vite, et nous savons trop bien, hélas, que le prix de nos atermoiements et de nos retards se paie en vies humaines.
+je remercie d'ailleurs le conseil et la commission pour ce qu'ils ont déjà entrepris et pour les précisions qu'ils nous ont apportées tout à l'heure.
+nous devons exiger de l'érythrée et de l'éthiopie un gel des activités militaires afin que tous les moyens, toutes les capacités logistiques et humaines de ces pays soient mis au service de leurs peuples.
+c'est pourquoi nous devons lancer un appel à la raison aux dirigeants éthiopiens et érythréens pour que cesse le conflit, pour que, dans le cadre du plan de paix de l'o.u.a., un accord rapide sur les arrangements techniques intervienne.
+je pense que l'on peut dire que cette conférence a été une réussite, pas seulement du point de vue financier, mais également en raison du fait que lors de cette conférence on a particulièrement mis l'accent sur des projets qui relient réciproquement les régions entre elles, et c'est l'un des points principaux du rapport et l'essence même du pacte de stabilité.
+}
+False positives: {
+ceci doit maintenant également s'opérer au sens pénal sur le plan européen dans le cadre d'une coopération très ouverte et très claire avec les pays membres ; c'est pourquoi nous avons besoin d'une coordination sur le plan européen, sans pour autant empiéter sur la compétence des tribunaux nationaux en ce qui concerne la conduite de la procédure.
+} False negatives: {
+ceci doit maintenant également s'opérer au sens pénal sur le plan européen dans le cadre d'une coopération très ouverte et très claire avec les pays membres ;
+c'est pourquoi nous avons besoin d'une coordination sur le plan européen, sans pour autant empiéter sur la compétence des tribunaux nationaux en ce qui concerne la conduite de la procédure.
+}
+
+Expected: {
+- timisoara
 sources
 catégories : wikipédia : ébauche roumanie.
 histoire de la roumanie
@@ -2617,21 +2706,20 @@ une jeune femme témoigne, les larmes au yeux, devant le congrès américain.
 l'évènement est retransmis rapidement par les télévisions du monde entier :
 "monsieur le président, messieurs les membres de ce comité, je m'appelle nayirah et je reviens du koweit.
 ma mère et moi étions au koweit le 2 août pour passer de paisibles vacances.
-ma soeur aînée avait accouché le 29 juillet et nous voulions passer quelques temps au koweit auprès d'elle.
 }
 Predicted: {
-sources catégories : wikipédia : ébauche roumanie.
+- timisoara sources catégories : wikipédia : ébauche roumanie.
 histoire de la roumanie affaire des couveuses au koweït l'affaire des couveuses en irak s'est déroulée le 10 octobre 1990, lors de l'invasion du koweït par les armées de saddam hussein et était destinée à justifier l'entrée en guerre des puissances occidentales contre l'irak auprès de l'opinion publique.
 une jeune femme témoigne, les larmes au yeux, devant le congrès américain.
 l'évènement est retransmis rapidement par les télévisions du monde entier : "monsieur le président, messieurs les membres de ce comité, je m'appelle nayirah et je reviens du koweit.
 ma mère et moi étions au koweit le 2 août pour passer de paisibles vacances.
-ma soeur aînée avait accouché le 29 juillet et nous voulions passer quelques temps au koweit auprès d'elle.
 }
 False positives: {
-sources catégories : wikipédia : ébauche roumanie.
+- timisoara sources catégories : wikipédia : ébauche roumanie.
 histoire de la roumanie affaire des couveuses au koweït l'affaire des couveuses en irak s'est déroulée le 10 octobre 1990, lors de l'invasion du koweït par les armées de saddam hussein et était destinée à justifier l'entrée en guerre des puissances occidentales contre l'irak auprès de l'opinion publique.
 l'évènement est retransmis rapidement par les télévisions du monde entier : "monsieur le président, messieurs les membres de ce comité, je m'appelle nayirah et je reviens du koweit.
 } False negatives: {
+- timisoara
 sources
 catégories : wikipédia : ébauche roumanie.
 histoire de la roumanie
@@ -2642,6 +2730,7 @@ l'évènement est retransmis rapidement par les télévisions du monde entier :
 }
 
 Expected: {
+les anciens directeurs de cabinet de jacques chirac à la mairie de paris de 1983 à 1993 (michel roussin, robert pandraud et daniel naftalski) sont poursuivis pour une vingtaine d'emplois fictifs rémunérés par la mairie de paris.
 cette affaire est distincte de l'affaire des emplois fictifs du rpr qui a abouti à la condamnation d'alain juppé.
 sur le plan procédural, l'affaire est au point mort, grâce à une interminable guérilla de recours.
 en février 2007, la chambre de l'instruction du tribunal de paris a validé la mise en examen des directeurs de cabinet de jacques chirac à la mairie de paris de 1983 à 1993 : michel roussin, qui s'est pourvu en cassation, robert pandraud et daniel naftalski.
@@ -2651,16 +2740,15 @@ histoire de paris
 affaire des faux électeurs du 3e arrondissement de paris
 l'affaire des faux électeurs du 3e arrondissement de paris est une affaire de fraude électorale.
 selon une liste retrouvée fortuitement dans les ordinateurs de la mairie du 3e arrondissement en 1995, de nombreux membres plus ou moins éloignés de la famille dominati, des chauffeurs ou anciens chauffeurs de l'udf et de la mairie ainsi que leurs épouses, avaient été inscrits frauduleusement.
-chronologie
 }
 Predicted: {
+les anciens directeurs de cabinet de jacques chirac à la mairie de paris de 1983 à 1993 (michel roussin, robert pandraud et daniel naftalski) sont poursuivis pour une vingtaine d'emplois fictifs rémunérés par la mairie de paris.
 cette affaire est distincte de l'affaire des emplois fictifs du rpr qui a abouti à la condamnation d'alain juppé.
 sur le plan procédural, l'affaire est au point mort, grâce à une interminable guérilla de recours.
 en février 2007, la chambre de l'instruction du tribunal de paris a validé la mise en examen des directeurs de cabinet de jacques chirac à la mairie de paris de 1983 à 1993 : michel roussin, qui s'est pourvu en cassation, robert pandraud et daniel naftalski.
 voir aussi catégories : financement illégal du rpr.
 histoire de paris affaire des faux électeurs du 3e arrondissement de paris l'affaire des faux électeurs du 3e arrondissement de paris est une affaire de fraude électorale.
 selon une liste retrouvée fortuitement dans les ordinateurs de la mairie du 3e arrondissement en 1995, de nombreux membres plus ou moins éloignés de la famille dominati, des chauffeurs ou anciens chauffeurs de l'udf et de la mairie ainsi que leurs épouses, avaient été inscrits frauduleusement.
-chronologie
 }
 False positives: {
 voir aussi catégories : financement illégal du rpr.
@@ -2674,6 +2762,7 @@ l'affaire des faux électeurs du 3e arrondissement de paris est une affaire de f
 }
 
 Expected: {
+selon roland dumas, les commissions étaient destinées à 80% aux "responsables de taiwan" et à 20% au "comité central du parti communiste chinois"
 l'autorisation du ministère du budget
 - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
 "j'ai signé, comme ministre chargé de l'administration des douanes et des impôts, la commission douanière, ce qu'on appelle les frais de prospection de marché, qui a été allouée aux intermédiaires étrangers qui ont facilité l'acquisition des frégates de taïwan", a expliqué michel charasse.
@@ -2683,21 +2772,20 @@ ces commissions sont par ailleurs déductibles d'impôt puisqu'elles sont consid
 références
 - frégates de taïwan : charasse se défend, ap, 28 mai 2004
 - une information judiciaire française, ouverte contre x en juin 2001, pour "abus de biens sociaux et recel", concerne d'éventuelles rétrocommissions versées à des personnalités françaises en marge de la vente des frégates.
-les juges français estiment que 3 milliards de francs (environ 458 millions d'euros) de commissions auraient été versés à l'occasion du marché.
 }
 Predicted: {
-l'autorisation du ministère du budget - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
+selon roland dumas, les commissions étaient destinées à 80% aux "responsables de taiwan" et à 20% au "comité central du parti communiste chinois" l'autorisation du ministère du budget - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
 "j'ai signé, comme ministre chargé de l'administration des douanes et des impôts, la commission douanière, ce qu'on appelle les frais de prospection de marché, qui a été allouée aux intermédiaires étrangers qui ont facilité l'acquisition des frégates de taïwan", a expliqué michel charasse.
 l'ancien ministre a assuré que "c'était légal et régulier" mais a refusé de révéler le montant de ces commissions au nom du "secret défense".
 ces commissions sont par ailleurs déductibles d'impôt puisqu'elles sont considérées comme des frais de prospection.
 - cette autorisation est maintenant interdite depuis la ratification par la france de la convention de l'ocde contre la corruption.
 références - frégates de taïwan : charasse se défend, ap, 28 mai 2004 - une information judiciaire française, ouverte contre x en juin 2001, pour "abus de biens sociaux et recel", concerne d'éventuelles rétrocommissions versées à des personnalités françaises en marge de la vente des frégates.
-les juges français estiment que 3 milliards de francs (environ 458 millions d'euros) de commissions auraient été versés à l'occasion du marché.
 }
 False positives: {
-l'autorisation du ministère du budget - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
+selon roland dumas, les commissions étaient destinées à 80% aux "responsables de taiwan" et à 20% au "comité central du parti communiste chinois" l'autorisation du ministère du budget - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
 références - frégates de taïwan : charasse se défend, ap, 28 mai 2004 - une information judiciaire française, ouverte contre x en juin 2001, pour "abus de biens sociaux et recel", concerne d'éventuelles rétrocommissions versées à des personnalités françaises en marge de la vente des frégates.
 } False negatives: {
+selon roland dumas, les commissions étaient destinées à 80% aux "responsables de taiwan" et à 20% au "comité central du parti communiste chinois"
 l'autorisation du ministère du budget
 - le 17 mai 2004, l'ancien ministre socialiste du budget michel charasse a reconnu avoir signé des commissions "légales" pour les frégates de taïwan.
 références
@@ -2706,6 +2794,7 @@ références
 }
 
 Expected: {
+m. schuller est poursuivi pour "recel d'abus de biens sociaux et trafic d'influence".
 - 21 juin 2005 : début du procès.
 - 15 juillet 2005 : réquisitoire du parquet, qui demande quatre ans de prison dont un an ferme contre didier schuller, qualifié de "fanfaron", et la relaxe pour patrick balkany.
 patrick balkany est disculpé et relaxé.
@@ -2715,15 +2804,14 @@ voir aussi
 affaire des hlm de paris
 l'enquête sur l'affaire des hlm de paris (opac) a débuté en septembre 1994 pour des faits s'étendant entre 1989 et 1995.
 - janvier 1994 : le fisc découvre qu'une société d'assistance commerciale, la seatib, adresse des factures ne correspondant à aucune prestation à une entreprise spécialisée dans le revêtement de façades, la sar, dirigée par un ancien gardien de la paix, gaulliste de toujours et proche de chirac, francis poullain.
-- 20 janvier 1994 : la direction générale des impôts (dgi) transmet au parquet de créteil une enquête sur une entreprise appartenant à francis poullain, soupçonné d'avoir réglé des fausses factures par l'intermédiaire de ses sociétés, lesquelles auraient bénéficié de marchés passés par l'opac (office public d'aménagement et de construction de la ville de paris).
 }
 Predicted: {
+m. schuller est poursuivi pour "recel d'abus de biens sociaux et trafic d'influence".
 - 21 juin 2005 : début du procès.
 - 15 juillet 2005 : réquisitoire du parquet, qui demande quatre ans de prison dont un an ferme contre didier schuller, qualifié de "fanfaron", et la relaxe pour patrick balkany.
 patrick balkany est disculpé et relaxé.
 voir aussi - affaire des hlm de paris - financement illégal du rpr affaire des hlm de paris l'enquête sur l'affaire des hlm de paris (opac) a débuté en septembre 1994 pour des faits s'étendant entre 1989 et 1995.
 - janvier 1994 : le fisc découvre qu'une société d'assistance commerciale, la seatib, adresse des factures ne correspondant à aucune prestation à une entreprise spécialisée dans le revêtement de façades, la sar, dirigée par un ancien gardien de la paix, gaulliste de toujours et proche de chirac, francis poullain.
-- 20 janvier 1994 : la direction générale des impôts (dgi) transmet au parquet de créteil une enquête sur une entreprise appartenant à francis poullain, soupçonné d'avoir réglé des fausses factures par l'intermédiaire de ses sociétés, lesquelles auraient bénéficié de marchés passés par l'opac (office public d'aménagement et de construction de la ville de paris).
 }
 False positives: {
 voir aussi - affaire des hlm de paris - financement illégal du rpr affaire des hlm de paris l'enquête sur l'affaire des hlm de paris (opac) a débuté en septembre 1994 pour des faits s'étendant entre 1989 et 1995.
@@ -2736,6 +2824,7 @@ l'enquête sur l'affaire des hlm de paris (opac) a débuté en septembre 1994 po
 }
 
 Expected: {
+en fait, il semble que la france ait cherché à sauver au moins l'institut d'émission, pièce maîtresse de sa diplomatie financière en indochine.
 le 12 décembre suivant, l'assemblée nationale décida de tenir secrets les travaux de cette commission.
 en juillet de l'année suivante, les accords de genève étaient signés et l'indochine française avait vécu.
 épilogue
@@ -2745,26 +2834,23 @@ le "scandale des piastres" fut ramené à l'état de détail exotique et insigni
 références bibliographiques
 - paul mus, viêtnam : sociologie d'une guerre, seuil, paris, 1952.
 - despuech jacques, le trafic des piastres, deux rives, 1953
-- indochine française
 }
 Predicted: {
+en fait, il semble que la france ait cherché à sauver au moins l'institut d'émission, pièce maîtresse de sa diplomatie financière en indochine.
 le 12 décembre suivant, l'assemblée nationale décida de tenir secrets les travaux de cette commission.
 en juillet de l'année suivante, les accords de genève étaient signés et l'indochine française avait vécu.
 épilogue l'aventure coloniale n'a été profitable que pour quelques grandes compagnies privées, comme la banque d'indochine, descours & cabaud, les brasseries et glacières d'indochine, etc.
 les banquiers n'ont jamais été arrêtés ni jugés, à l'exception de la chartered bank qui fut inculpée pour des pratiques nettement frauduleuses.
 le "scandale des piastres" fut ramené à l'état de détail exotique et insignifiant, indigne d'être mentionné dans les manuels d'histoire.
 références bibliographiques - paul mus, viêtnam : sociologie d'une guerre, seuil, paris, 1952.
-- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine française
+- despuech jacques, le trafic des piastres, deux rives, 1953
 }
 False positives: {
 épilogue l'aventure coloniale n'a été profitable que pour quelques grandes compagnies privées, comme la banque d'indochine, descours & cabaud, les brasseries et glacières d'indochine, etc.
 références bibliographiques - paul mus, viêtnam : sociologie d'une guerre, seuil, paris, 1952.
-- despuech jacques, le trafic des piastres, deux rives, 1953 - indochine française
 } False negatives: {
 épilogue
 l'aventure coloniale n'a été profitable que pour quelques grandes compagnies privées, comme la banque d'indochine, descours & cabaud, les brasseries et glacières d'indochine, etc.
 références bibliographiques
 - paul mus, viêtnam : sociologie d'une guerre, seuil, paris, 1952.
-- despuech jacques, le trafic des piastres, deux rives, 1953
-- indochine française
 }

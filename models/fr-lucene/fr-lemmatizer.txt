@@ -1,6 +1,6 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9871707731520816
-Training-Sample-Size=21708
+Evaluation-Score=0.9871144999148066
+Training-Sample-Size=21709
 Evaluation-Sample-Size=2412
 Training-Algorithm=MAXENT
 
@@ -10,9 +10,9 @@ Component-Name=StatisticalLemmatizer
 Language=fr
 Manifest-Version=1.0
 OpenNLP-Version=1.9.4
-Timestamp=1713595672623
+Timestamp=1716188412386
 TrainerType=Event
-Training-Eventhash=822db2d705f4bcdc09aa256d374acd3e
+Training-Eventhash=ce9a67cf853ff8033afe53c430a88342
 factory=opennlp.tools.lemmatizer.LemmatizerFactory
 
 === MISCLASSIFIED DETAILS ===
@@ -589,6 +589,40 @@ Tok: Ref | Pred
 s': le/lui | soi
 se: le/lui | soi
 dominos: domino | dominos
+}
+
+Expected: {
+quel	ADJ	quel
+est	AUX	etre
+le	DET	le
+pourcentage	NOUN	pourcentage
+d'	ADP	de
+eau	NOUN	eau
+contenu	VERB	contenir
+dans	ADP	dans
+le	DET	le
+corps	NOUN	corps
+humain	ADJ	humain
+?	PUNCT	?
+}
+Predicted: {
+quel	ADJ	quel
+est	AUX	etre
+le	DET	le
+pourcentage	NOUN	pourcentage
+d'	ADP	de
+eau	NOUN	eau
+contenu	VERB	contenu
+dans	ADP	dans
+le	DET	le
+corps	NOUN	corps
+humain	ADJ	humain
+?	PUNCT	?
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+contenu: contenir | contenu
 }
 
 Expected: {
@@ -2134,7 +2168,7 @@ fonds	NOUN	fonds
 verses	VERB	verser
 par	ADP	par
 l'	DET	le
-union	PROPN	union
+union	NOUN	union
 europeenne	ADJ	europeen
 ,	PUNCT	,
 sur	ADP	sur
@@ -2185,7 +2219,7 @@ fonds	NOUN	fond
 verses	VERB	verser
 par	ADP	par
 l'	DET	le
-union	PROPN	union
+union	NOUN	union
 europeenne	ADJ	europeen
 ,	PUNCT	,
 sur	ADP	sur
@@ -2787,6 +2821,130 @@ banlieues: banlieue | banlieues
 }
 
 Expected: {
+des	ADP	des
+1676	NUM	1676
+,	PUNCT	,
+et	CCONJ	et
+probablement	ADV	probablement
+auparavant	ADV	auparavant
+,	PUNCT	,
+les	DET	le
+seigneurs	NOUN	seigneur
+de	ADP	de
+la	DET	le
+crochais	PROPN	crochais
+possedent	VERB	posseder
+un	DET	un
+privilege	NOUN	privilege
+de le	ADP DET	de le
+passage	NOUN	passage
+de	ADP	de
+dinard	PROPN	dinard
+,	PUNCT	,
+qui	PRON	qui
+leur	PRON	eux
+permet	VERB	permettre
+d'	ADP	de
+exercer	VERB	exercer
+en	ADP	en
+cette	DET	ce
+qualite	NOUN	qualite
+des	DET	un
+droits	NOUN	droit
+de	ADP	de
+haute	ADJ	haut
+justice	NOUN	justice
+ainsi	ADV	ainsi
+que	SCONJ	que
+de	ADP	de
+prelever	VERB	prelever
+des	DET	un
+droits	NOUN	droit
+sur	ADP	sur
+le	DET	le
+passage	NOUN	passage
+de les	ADP DET	de le
+personnes	NOUN	personne
+comme	CCONJ	comme
+sur	ADP	sur
+le	DET	le
+passage	NOUN	passage
+et	CCONJ	et
+la	DET	le
+vente	NOUN	vente
+de les	ADP DET	de le
+boissons	NOUN	boisson
+et	CCONJ	et
+de les	ADP DET	de le
+marchandises	NOUN	marchandise
+.	PUNCT	.
+}
+Predicted: {
+des	ADP	un
+1676	NUM	1676
+,	PUNCT	,
+et	CCONJ	et
+probablement	ADV	probablement
+auparavant	ADV	auparavant
+,	PUNCT	,
+les	DET	le
+seigneurs	NOUN	seigneur
+de	ADP	de
+la	DET	le
+crochais	PROPN	crochais
+possedent	VERB	posseder
+un	DET	un
+privilege	NOUN	privilege
+de le	ADP DET	de le
+passage	NOUN	passage
+de	ADP	de
+dinard	PROPN	dinard
+,	PUNCT	,
+qui	PRON	qui
+leur	PRON	eux
+permet	VERB	permettre
+d'	ADP	de
+exercer	VERB	exercer
+en	ADP	en
+cette	DET	ce
+qualite	NOUN	qualite
+des	DET	un
+droits	NOUN	droit
+de	ADP	de
+haute	ADJ	haut
+justice	NOUN	justice
+ainsi	ADV	ainsi
+que	SCONJ	que
+de	ADP	de
+prelever	VERB	prelever
+des	DET	un
+droits	NOUN	droit
+sur	ADP	sur
+le	DET	le
+passage	NOUN	passage
+de les	ADP DET	de le
+personnes	NOUN	personne
+comme	CCONJ	comme
+sur	ADP	sur
+le	DET	le
+passage	NOUN	passage
+et	CCONJ	et
+la	DET	le
+vente	NOUN	vente
+de les	ADP DET	de le
+boissons	NOUN	boisson
+et	CCONJ	et
+de les	ADP DET	de le
+marchandises	NOUN	marchandise
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+des: des | un
+}
+
+Expected: {
 cela	PRON	cela
 n'	ADV	ne
 empecha	VERB	empecher
@@ -2843,6 +3001,76 @@ Tok: Ref | Pred
 ---------------
 empecha: empecher | empecha
 des: des | un
+}
+
+Expected: {
+ces	DET	ce
+brevets	NOUN	brevet
+de	ADP	de
+capacite	NOUN	capacite
+seront	AUX	etre
+fixes	VERB	fixer
+a le	ADP DET	a le
+nombre	NOUN	nombre
+de	ADP	de
+deux	NUM	deux
+:	PUNCT	:
+un	DET	un
+brevet	NOUN	brevet
+"	PUNCT	"
+elementaire	ADJ	elementaire
+"	PUNCT	"
+(	PUNCT	(
+be	NOUN	be
+)	PUNCT	)
+suivi	VERB	suivre
+d'	ADP	de
+un	DET	un
+brevet	NOUN	brevet
+"	PUNCT	"
+superieur	ADJ	superieur
+"	PUNCT	"
+(	PUNCT	(
+bs	NOUN	bs
+)	PUNCT	)
+.	PUNCT	.
+}
+Predicted: {
+ces	DET	ce
+brevets	NOUN	brevet
+de	ADP	de
+capacite	NOUN	capacite
+seront	AUX	etre
+fixes	VERB	fixer
+a le	ADP DET	a le
+nombre	NOUN	nombre
+de	ADP	de
+deux	NUM	deux
+:	PUNCT	:
+un	DET	un
+brevet	NOUN	brevet
+"	PUNCT	"
+elementaire	ADJ	elementaire
+"	PUNCT	"
+(	PUNCT	(
+be	NOUN	be
+)	PUNCT	)
+suivi	VERB	suivre
+d'	ADP	de
+un	DET	un
+brevet	NOUN	brevet
+"	PUNCT	"
+superieur	ADJ	superieur
+"	PUNCT	"
+(	PUNCT	(
+bs	NOUN	b
+)	PUNCT	)
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+bs: bs | b
 }
 
 Expected: {
@@ -3198,7 +3426,7 @@ l'	DET	le
 afrique	PROPN	afrique
 de	ADP	de
 l'	DET	le
-ouest	PROPN	ouest
+ouest	NOUN	ouest
 est	AUX	etre
 devenue	VERB	devenir
 une	DET	un
@@ -3216,7 +3444,7 @@ l'	DET	le
 afrique	PROPN	afrique
 de	ADP	de
 l'	DET	le
-ouest	PROPN	ouest
+ouest	NOUN	ouest
 est	AUX	etre
 devenue	VERB	devenir
 une	DET	un
@@ -3635,9 +3863,9 @@ crawford	PROPN	crawford
 )	PUNCT	)
 recevant	VERB	recevoir
 le	DET	le
-wampas	X	wampas
-baby	X	baby
-stars	X	stars
+wampas	PROPN	wampas
+baby	PROPN	baby
+stars	PROPN	stars
 .	PUNCT	.
 }
 Predicted: {
@@ -3666,9 +3894,9 @@ crawford	PROPN	crawford
 )	PUNCT	)
 recevant	VERB	recevoir
 le	DET	le
-wampas	X	wampas
-baby	X	baby
-stars	X	stars
+wampas	PROPN	wampas
+baby	PROPN	baby
+stars	PROPN	stars
 .	PUNCT	.
 }
 Errors: {
@@ -3966,6 +4194,94 @@ redevint: redevenir | redevintre
 }
 
 Expected: {
+les	DET	le
+gisements	NOUN	gisement
+qui	PRON	qui
+alimentent	VERB	alimenter
+arun	PROPN	arun
+et	CCONJ	et
+bontang	PROPN	bontang
+s'	PRON	soi
+epuisent	VERB	epuiser
+plus	ADV	plus
+vite	ADV	vite
+que	SCONJ	que
+prevu	VERB	prevoir
+,	PUNCT	,
+placant	VERB	placer
+l'	DET	le
+indonesie	PROPN	indonesie
+dans	ADP	dans
+l'	DET	le
+obligation	NOUN	obligation
+d'	ADP	de
+acheter	VERB	acheter
+du	DET	du
+gaz	NOUN	gaz
+a	ADP	a
+d'	DET	un
+autres	ADJ	autre
+pays	NOUN	pays
+(	PUNCT	(
+qatar	PROPN	qatar
+...	PUNCT	...
+)	PUNCT	)
+pour	ADP	pour
+honorer	VERB	honorer
+ses	DET	son
+contrats	NOUN	contrat
+d'	ADP	de
+approvisionnements	NOUN	approvisionnement
+.	PUNCT	.
+}
+Predicted: {
+les	DET	le
+gisements	NOUN	gisement
+qui	PRON	qui
+alimentent	VERB	alimenter
+arun	PROPN	arun
+et	CCONJ	et
+bontang	PROPN	bontang
+s'	PRON	soi
+epuisent	VERB	epuisentr
+plus	ADV	plus
+vite	ADV	vite
+que	SCONJ	que
+prevu	VERB	prevoir
+,	PUNCT	,
+placant	VERB	placer
+l'	DET	le
+indonesie	PROPN	indonesie
+dans	ADP	dans
+l'	DET	le
+obligation	NOUN	obligation
+d'	ADP	de
+acheter	VERB	acheter
+du	DET	du
+gaz	NOUN	gaz
+a	ADP	a
+d'	DET	un
+autres	ADJ	autre
+pays	NOUN	pays
+(	PUNCT	(
+qatar	PROPN	qatar
+...	PUNCT	...
+)	PUNCT	)
+pour	ADP	pour
+honorer	VERB	honorer
+ses	DET	son
+contrats	NOUN	contrat
+d'	ADP	de
+approvisionnements	NOUN	approvisionnement
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+epuisent: epuiser | epuisentr
+}
+
+Expected: {
 en	ADP	en
 2002	NUM	2002
 ,	PUNCT	,
@@ -4210,7 +4526,7 @@ en	ADP	en
 sony	PROPN	sony
 distribuera	VERB	distribuer
 en	ADP	en
-dvd	PROPN	dvd
+dvd	NOUN	dvd
 une	DET	un
 nouvelle	ADJ	nouveau
 version	NOUN	version
@@ -4225,7 +4541,7 @@ en	ADP	en
 sony	PROPN	sony
 distribuera	VERB	distribuer
 en	ADP	en
-dvd	PROPN	dvd
+dvd	NOUN	dvd
 une	DET	un
 nouvelle	ADJ	nouveau
 version	NOUN	version
@@ -4683,6 +4999,72 @@ talentueuse: talentueux | talentueuse
 }
 
 Expected: {
+bascet	PROPN	bascet
+,	PUNCT	,
+acronyme	NOUN	acronyme
+de	ADP	de
+blackboard	PROPN	blackboard
+,	PUNCT	,
+agents	NOUN	agent
+,	PUNCT	,
+concepts	NOUN	concept
+,	PUNCT	,
+exemples	NOUN	exemple
+et	CCONJ	et
+temperature	NOUN	temperature
+,	PUNCT	,
+est	AUX	etre
+une	DET	un
+architecture	NOUN	architecture
+d'	ADP	de
+intelligence	NOUN	intelligence
+artificielle	ADJ	artificiel
+generale	ADJ	general
+fortement	ADV	fortement
+inspiree	VERB	inspirer
+de	ADP	de
+celle	PRON	celui
+de	ADP	de
+copycat	PROPN	copycat
+.	PUNCT	.
+}
+Predicted: {
+bascet	PROPN	bascet
+,	PUNCT	,
+acronyme	NOUN	acronyme
+de	ADP	de
+blackboard	PROPN	blackboard
+,	PUNCT	,
+agents	NOUN	agent
+,	PUNCT	,
+concepts	NOUN	concepts
+,	PUNCT	,
+exemples	NOUN	exemple
+et	CCONJ	et
+temperature	NOUN	temperature
+,	PUNCT	,
+est	AUX	etre
+une	DET	un
+architecture	NOUN	architecture
+d'	ADP	de
+intelligence	NOUN	intelligence
+artificielle	ADJ	artificiel
+generale	ADJ	general
+fortement	ADV	fortement
+inspiree	VERB	inspirer
+de	ADP	de
+celle	PRON	celui
+de	ADP	de
+copycat	PROPN	copycat
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+concepts: concept | concepts
+}
+
+Expected: {
 ce	PRON	ce
 qui	PRON	qui
 apporte	VERB	apporter
@@ -5123,7 +5505,7 @@ monde	NOUN	monde
 Predicted: {
 vous	PRON	vous
 vous	PRON	vous
-attaquez	VERB	attaquez
+attaquez	VERB	attaquezr
 a le	ADP DET	a le
 fondement	NOUN	fondement
 meme	ADV	meme
@@ -5153,7 +5535,7 @@ monde	NOUN	monde
 Errors: {
 Tok: Ref | Pred
 ---------------
-attaquez: attaquer | attaquez
+attaquez: attaquer | attaquezr
 ebranlez: ebranler | ebranlez
 }
 
@@ -5627,6 +6009,54 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 entretiennent: entretenir | entretienner
+}
+
+Expected: {
+ceux	PRON	celui
+qui	PRON	qui
+occupent	VERB	occuper
+encore	ADV	encore
+le	DET	le
+fort	NOUN	fort
+de	ADP	de
+bicetre	PROPN	bicetre
+l'	PRON	lui
+evacuent	VERB	evacuer
+dans	ADP	dans
+la	DET	le
+nuit	NOUN	nuit
+de le	ADP DET	de le
+24	NUM	24
+a le	ADP DET	a le
+25	NUM	25
+mai	NOUN	mai
+.	PUNCT	.
+}
+Predicted: {
+ceux	PRON	celui
+qui	PRON	qui
+occupent	VERB	occuper
+encore	ADV	encore
+le	DET	le
+fort	NOUN	fort
+de	ADP	de
+bicetre	PROPN	bicetre
+l'	PRON	lui
+evacuent	VERB	evacuent
+dans	ADP	dans
+la	DET	le
+nuit	NOUN	nuit
+de le	ADP DET	de le
+24	NUM	24
+a le	ADP DET	a le
+25	NUM	25
+mai	NOUN	mai
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+evacuent: evacuer | evacuent
 }
 
 Expected: {
@@ -6771,14 +7201,13 @@ sahraouis	ADJ	sahraoui
 femmes	NOUN	femme
 enfants	NOUN	enfant
 et	CCONJ	et
-vieillards	NOUN	vieillards
+vieillards	NOUN	vieillard
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
 dorment: dormir | dormer
-vieillards: vieillard | vieillards
 }
 
 Expected: {
@@ -7057,6 +7486,56 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 apporterai: apporter | apporterai
+}
+
+Expected: {
+la	DET	le
+commission	NOUN	commission
+de	ADP	de
+l'	DET	le
+ue	PROPN	ue
+n'	ADV	ne
+ayant	AUX	avoir
+trouve	VERB	trouver
+aucun	DET	aucun
+accord	NOUN	accord
+sur	ADP	sur
+la	DET	le
+viande	NOUN	viande
+clonee	VERB	cloner
+,	PUNCT	,
+sa	DET	son
+commercialisation	NOUN	commercialisation
+reste	VERB	rester
+autorisee	ADJ	autorise
+.	PUNCT	.
+}
+Predicted: {
+la	DET	le
+commission	NOUN	commission
+de	ADP	de
+l'	DET	le
+ue	PROPN	ue
+n'	ADV	ne
+ayant	AUX	avoir
+trouve	VERB	trouver
+aucun	DET	aucun
+accord	NOUN	accord
+sur	ADP	sur
+la	DET	le
+viande	NOUN	viande
+clonee	VERB	clonee
+,	PUNCT	,
+sa	DET	son
+commercialisation	NOUN	commercialisation
+reste	VERB	rester
+autorisee	ADJ	autorise
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+clonee: cloner | clonee
 }
 
 Expected: {
@@ -8269,6 +8748,85 @@ la: la | le
 }
 
 Expected: {
+son	DET	son
+travail	NOUN	travail
+sur	ADP	sur
+le	DET	le
+scenario	NOUN	scenario
+de le	ADP DET	de le
+film	NOUN	film
+"	PUNCT	"
+les	DET	le
+infiltres	VERB	infiltrer
+"	PUNCT	"
+lui	PRON	lui
+a	AUX	avoir
+d'	ADP	de
+ailleurs	ADV	ailleurs
+valu	VERB	valoir
+en	ADP	en
+2006	NUM	2006
+un	DET	un
+prix	NOUN	prix
+decerne	VERB	decerner
+par	ADP	par
+la	DET	le
+wga	PROPN	wga
+award	PROPN	award
+et	CCONJ	et
+surtout	ADV	surtout
+l'	DET	le
+oscar	NOUN	oscar
+de le	ADP DET	de le
+meilleur	ADJ	meilleur
+scenario	NOUN	scenario
+adapte	VERB	adapter
+.	PUNCT	.
+}
+Predicted: {
+son	DET	son
+travail	NOUN	travail
+sur	ADP	sur
+le	DET	le
+scenario	NOUN	scenario
+de le	ADP DET	de le
+film	NOUN	film
+"	PUNCT	"
+les	DET	le
+infiltres	VERB	infiltr
+"	PUNCT	"
+lui	PRON	lui
+a	AUX	avoir
+d'	ADP	de
+ailleurs	ADV	ailleurs
+valu	VERB	valu
+en	ADP	en
+2006	NUM	2006
+un	DET	un
+prix	NOUN	prix
+decerne	VERB	decerner
+par	ADP	par
+la	DET	le
+wga	PROPN	wga
+award	PROPN	award
+et	CCONJ	et
+surtout	ADV	surtout
+l'	DET	le
+oscar	NOUN	oscar
+de le	ADP DET	de le
+meilleur	ADJ	meilleur
+scenario	NOUN	scenario
+adapte	VERB	adapter
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+infiltres: infiltrer | infiltr
+valu: valoir | valu
+}
+
+Expected: {
 en	ADP	en
 effet	NOUN	effet
 ,	PUNCT	,
@@ -8719,7 +9277,7 @@ defaite	NOUN	defaite
 en	ADP	en
 fusillade	NOUN	fusillade
 ,	PUNCT	,
-pts	X	pt
+pts	X	pts
 :	PUNCT	:
 points	NOUN	point
 ,	PUNCT	,
@@ -8743,7 +9301,6 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 jouees: joue | jouee
-pts: pts | pt
 }
 
 Expected: {
@@ -10302,66 +10859,6 @@ eruptive: eruptif | eruptive
 }
 
 Expected: {
-la	DET	le
-seconde	ADJ	second
-periode	NOUN	periode
-commencait	VERB	commencer
-un	DET	un
-peu	NOUN	peu
-comme	ADP	comme
-la	DET	le
-premiere	ADJ	premier
-alors	ADV	alors
-que	SCONJ	que
-le	DET	le
-chili	PROPN	chili
-dominait	VERB	dominer
-sans	ADP	sans
-vraiment	ADV	vraiment
-obtenir	VERB	obtenir
-de	DET	un
-grandes	ADJ	grand
-occasions	NOUN	occasion
-de	ADP	de
-doubler	VERB	doubler
-son	DET	son
-avance	NOUN	avance
-.	PUNCT	.
-}
-Predicted: {
-la	DET	le
-seconde	ADJ	second
-periode	NOUN	periode
-commencait	VERB	commencer
-un	DET	un
-peu	NOUN	peu
-comme	ADP	comme
-la	DET	le
-premiere	ADJ	premier
-alors	ADV	alors
-que	SCONJ	que
-le	DET	le
-chili	PROPN	chili
-dominait	VERB	dominaitr
-sans	ADP	sans
-vraiment	ADV	vraiment
-obtenir	VERB	obtenir
-de	DET	un
-grandes	ADJ	grand
-occasions	NOUN	occasion
-de	ADP	de
-doubler	VERB	doubler
-son	DET	son
-avance	NOUN	avance
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-dominait: dominer | dominaitr
-}
-
-Expected: {
 cela	PRON	cela
 est	AUX	etre
 particulierement	ADV	particulierement
@@ -11120,7 +11617,7 @@ se	PRON	soi
 plaint	VERB	plaindre
 ,	PUNCT	,
 qui	PRON	qui
-quemande	VERB	quemande
+quemande	VERB	quemander
 aupres	ADV	aupres
 de	ADP	de
 son	DET	son
@@ -11139,7 +11636,6 @@ la	ADV	le
 Errors: {
 Tok: Ref | Pred
 ---------------
-quemande: quemander | quemande
 la: la | le
 }
 
@@ -12380,7 +12876,7 @@ par	ADP	par
 une	DET	un
 peinture	NOUN	peinture
 nouvelle	ADJ	nouveau
-rompant	VERB	rompre
+rompant	VERB	rompant
 avec	ADP	avec
 les	DET	le
 principes	NOUN	principe
@@ -12394,6 +12890,7 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 florentine: florentin | florentine
+rompant: rompre | rompant
 }
 
 Expected: {
@@ -14233,7 +14730,7 @@ Expected: {
 en	ADP	en
 1642	NUM	1642
 ,	PUNCT	,
-la	DET	le
+la	PROPN	la
 place	PROPN	place
 fut	AUX	etre
 vivement	ADV	vivement
@@ -14292,7 +14789,7 @@ Predicted: {
 en	ADP	en
 1642	NUM	1642
 ,	PUNCT	,
-la	DET	le
+la	PROPN	le
 place	PROPN	place
 fut	AUX	etre
 vivement	ADV	vivement
@@ -14350,6 +14847,7 @@ adam	PROPN	adam
 Errors: {
 Tok: Ref | Pred
 ---------------
+la: la | le
 soutenait: soutenir | soutener
 }
 
@@ -14631,7 +15129,7 @@ parce	ADV	parce
 que	SCONJ	que
 l'on	PRON	on
 n'	ADV	ne
-ose	VERB	oser
+ose	VERB	ose
 pas	ADV	pas
 les	PRON	eux
 demander	VERB	demander
@@ -14660,6 +15158,7 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 tentant: tentant | tenter
+ose: oser | ose
 }
 
 Expected: {
@@ -14826,138 +15325,6 @@ Tok: Ref | Pred
 attiraient: attirer | attiraier
 noyaient: noyer | noyaientr
 dansant: danser | dansant
-}
-
-Expected: {
-elle	PRON	lui
-recoit	VERB	recevoir
-,	PUNCT	,
-entre	ADP	entre
-autres	PRON	autre
-,	PUNCT	,
-le	DET	le
-prix	NOUN	prix
-hugo	PROPN	hugo
-en	ADP	en
-1994	NUM	1994
-et	CCONJ	et
-le	DET	le
-prix	NOUN	prix
-world	X	world
-fantasy	X	fantasy
-pour	ADP	pour
-son	DET	son
-travail	NOUN	travail
-d'	ADP	de
-editrice	NOUN	editrice
-de le	ADP DET	de le
-magazine	X	magazine
-of	X	of
-fantasy	X	fantasy
-ans	X	ans
-science	X	science
-fiction	X	fiction
-,	PUNCT	,
-ainsi	ADV	ainsi
-que	SCONJ	que
-le	DET	le
-prix	NOUN	prix
-locus	PROPN	locus
-de le	ADP DET	de le
-meilleur	ADJ	meilleur
-roman	NOUN	roman
-court	ADJ	court
-en	ADP	en
-1992	NUM	1992
-(	PUNCT	(
-pour	ADP	pour
-la	DET	le
-nouvelle	NOUN	nouvelle
-la	DET	le
-galerie	PROPN	galerie
-de	ADP	de
-ses	DET	son
-reves	NOUN	reve
-,	PUNCT	,
-the	X	the
-gallery	X	gallery
-of	X	of
-his	X	his
-dreams	X	dreams
-)	PUNCT	)
-et	CCONJ	et
-de le	ADP DET	de le
-meilleur	ADJ	meilleur
-essai	NOUN	essai
-.	PUNCT	.
-}
-Predicted: {
-elle	PRON	lui
-recoit	VERB	recevoir
-,	PUNCT	,
-entre	ADP	entre
-autres	PRON	autre
-,	PUNCT	,
-le	DET	le
-prix	NOUN	prix
-hugo	PROPN	hugo
-en	ADP	en
-1994	NUM	1994
-et	CCONJ	et
-le	DET	le
-prix	NOUN	prix
-world	X	world
-fantasy	X	fantasy
-pour	ADP	pour
-son	DET	son
-travail	NOUN	travail
-d'	ADP	de
-editrice	NOUN	editrice
-de le	ADP DET	de le
-magazine	X	magazine
-of	X	of
-fantasy	X	fantasy
-ans	X	an
-science	X	science
-fiction	X	fiction
-,	PUNCT	,
-ainsi	ADV	ainsi
-que	SCONJ	que
-le	DET	le
-prix	NOUN	prix
-locus	PROPN	locus
-de le	ADP DET	de le
-meilleur	ADJ	meilleur
-roman	NOUN	roman
-court	ADJ	court
-en	ADP	en
-1992	NUM	1992
-(	PUNCT	(
-pour	ADP	pour
-la	DET	le
-nouvelle	NOUN	nouvelle
-la	DET	le
-galerie	PROPN	galerie
-de	ADP	de
-ses	DET	son
-reves	NOUN	reve
-,	PUNCT	,
-the	X	the
-gallery	X	gallery
-of	X	of
-his	X	his
-dreams	X	dreams
-)	PUNCT	)
-et	CCONJ	et
-de le	ADP DET	de le
-meilleur	ADJ	meilleur
-essai	NOUN	essai
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-ans: ans | an
 }
 
 Expected: {
@@ -15633,7 +16000,7 @@ moi: soi | moi
 Expected: {
 aussi	ADV	aussi
 surprenant	ADJ	surprenant
-que	ADP	que
+que	SCONJ	que
 cela	PRON	cela
 puisse	VERB	pouvoir
 paraitre	VERB	paraitre
@@ -15655,7 +16022,7 @@ prometteuses	ADJ	prometteur
 Predicted: {
 aussi	ADV	aussi
 surprenant	ADJ	surprenant
-que	ADP	que
+que	SCONJ	que
 cela	PRON	cela
 puisse	VERB	pouvoir
 paraitre	VERB	paraitre
@@ -16296,110 +16663,6 @@ Tok: Ref | Pred
 il: il | lui
 d': un | de
 minerais: minerai | minerais
-}
-
-Expected: {
-l'	DET	le
-enquete	NOUN	enquete
-sur	ADP	sur
-les	DET	le
-pires	ADJ	pire
-formes	NOUN	forme
-de	ADP	de
-travail	NOUN	travail
-de les	ADP DET	de le
-enfants	NOUN	enfant
-de le	ADP DET	de le
-departement	NOUN	departement
-de le	ADP DET	de le
-travail	NOUN	travail
-a	AUX	avoir
-revele	VERB	reveler
-que	SCONJ	que
-56	NUM	56
-%	SYM	%
-de les	ADP DET	de le
-enfants	NOUN	enfant
-ages	ADJ	age
-de	ADP	de
-5	NUM	5
-a	ADP	a
-14	NUM	14
-ans	NOUN	an
-travaillaient	VERB	travailler
-et	CCONJ	et
-que	SCONJ	que
-pres	ADV	pres
-de	ADP	de
-53	NUM	53
-%	SYM	%
-de les	ADP DET	de le
-enfants	NOUN	enfant
-ages	ADJ	age
-de	ADP	de
-7	NUM	7
-a	ADP	a
-14	NUM	14
-ans	NOUN	an
-alliaient	VERB	allier
-travail	NOUN	travail
-et	CCONJ	et
-ecole	NOUN	ecole
-.	PUNCT	.
-}
-Predicted: {
-l'	DET	le
-enquete	NOUN	enquete
-sur	ADP	sur
-les	DET	le
-pires	ADJ	pire
-formes	NOUN	forme
-de	ADP	de
-travail	NOUN	travail
-de les	ADP DET	de le
-enfants	NOUN	enfant
-de le	ADP DET	de le
-departement	NOUN	departement
-de le	ADP DET	de le
-travail	NOUN	travail
-a	AUX	avoir
-revele	VERB	reveler
-que	SCONJ	que
-56	NUM	56
-%	SYM	%
-de les	ADP DET	de le
-enfants	NOUN	enfant
-ages	ADJ	age
-de	ADP	de
-5	NUM	5
-a	ADP	a
-14	NUM	14
-ans	NOUN	an
-travaillaient	VERB	travailler
-et	CCONJ	et
-que	SCONJ	que
-pres	ADV	pres
-de	ADP	de
-53	NUM	53
-%	SYM	%
-de les	ADP DET	de le
-enfants	NOUN	enfant
-ages	ADJ	age
-de	ADP	de
-7	NUM	7
-a	ADP	a
-14	NUM	14
-ans	NOUN	an
-alliaient	VERB	alliaier
-travail	NOUN	travail
-et	CCONJ	et
-ecole	NOUN	ecole
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-alliaient: allier | alliaier
 }
 
 Expected: {
@@ -17580,6 +17843,54 @@ Tok: Ref | Pred
 ---------------
 ils: il | eux
 se: se | soi
+}
+
+Expected: {
+durant	ADP	durant
+le	DET	le
+sejour	NOUN	sejour
+,	PUNCT	,
+l'	DET	le
+homme	NOUN	homme
+et	CCONJ	et
+la	DET	le
+jeune	ADJ	jeune
+fille	NOUN	fille
+entretiennent	VERB	entretenir
+une	DET	un
+courte	ADJ	court
+liaison	NOUN	liaison
+amoureuse	ADJ	amoureux
+avouee	VERB	avouer
+peu	ADV	peu
+apres	ADV	apres
+.	PUNCT	.
+}
+Predicted: {
+durant	ADP	durant
+le	DET	le
+sejour	NOUN	sejour
+,	PUNCT	,
+l'	DET	le
+homme	NOUN	homme
+et	CCONJ	et
+la	DET	le
+jeune	ADJ	jeune
+fille	NOUN	fille
+entretiennent	VERB	entretienner
+une	DET	un
+courte	ADJ	court
+liaison	NOUN	liaison
+amoureuse	ADJ	amoureux
+avouee	VERB	avouer
+peu	ADV	peu
+apres	ADV	apres
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+entretiennent: entretenir | entretienner
 }
 
 Expected: {
@@ -19420,7 +19731,7 @@ transport	NOUN	transport
 de	ADP	de
 quantites	NOUN	quantite
 tres	ADV	tres
-reduites	ADJ	reduire
+reduites	ADJ	reduite
 de	ADP	de
 marchandises	NOUN	marchandise
 dangereuses	ADJ	dangereux
@@ -19436,7 +19747,7 @@ Tok: Ref | Pred
 ---------------
 elle: elle | lui
 strictes: stricte | strict
-reduites: reduit | reduire
+reduites: reduit | reduite
 }
 
 Expected: {
@@ -20050,7 +20361,7 @@ est	AUX	etre
 l'	DET	le
 age	NOUN	age
 minimal	ADJ	minimal
-requis	VERB	requis
+requis	VERB	requerir
 pour	ADP	pour
 s'	PRON	soi
 inscrire	VERB	inscrire
@@ -20061,7 +20372,6 @@ facebook	PROPN	facebook
 Errors: {
 Tok: Ref | Pred
 ---------------
-requis: requerir | requis
 s': si | soi
 }
 
@@ -20242,7 +20552,7 @@ profil	NOUN	profil
 Predicted: {
 lorsque	SCONJ	lorsque
 vous	PRON	vous
-activez	VERB	activer
+activez	VERB	activez
 la	DET	le
 fonctionnalite	NOUN	fonctionnalite
 d'	ADP	de
@@ -20264,6 +20574,7 @@ profil	NOUN	profil
 Errors: {
 Tok: Ref | Pred
 ---------------
+activez: activer | activez
 s': se | soi
 votre: votre | son
 }
@@ -21151,7 +21462,7 @@ quelle	DET	quelle
 raison	NOUN	raison
 ,	PUNCT	,
 on	PRON	on
-n'	ADV	n'
+n'	ADV	ne
 a	AUX	avoir
 jamais	ADV	jamais
 vraiment	ADV	vraiment
@@ -21193,7 +21504,6 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 quelle: quelle | quel
-n': n' | ne
 }
 
 Expected: {
@@ -21791,50 +22101,6 @@ les: eux | le
 }
 
 Expected: {
-et	CCONJ	et
-on	PRON	on
-a	AUX	avoir
-atterri	VERB	atterrir
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-on	PRON	on
-a	AUX	avoir
-atterri	VERB	atterrir
-dans	ADP	dans
-,	PUNCT	,
-pres	ADV	pres
-d'	ADP	d'
-une	DET	un
-grange	NOUN	grange
-.	PUNCT	.
-}
-Predicted: {
-et	CCONJ	et
-on	PRON	on
-a	AUX	avoir
-atterri	VERB	atterrir
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-on	PRON	on
-a	AUX	avoir
-atterri	VERB	atterrir
-dans	ADP	dans
-,	PUNCT	,
-pres	ADV	pres
-d'	ADP	de
-une	DET	un
-grange	NOUN	grange
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': d' | de
-}
-
-Expected: {
 ensuite	ADV	ensuite
 ,	PUNCT	,
 on	PRON	on
@@ -22220,42 +22486,6 @@ accrochees: accrocher | accrochee
 }
 
 Expected: {
-d'	ADP	d'
-ou	PRON	ou
-le	DET	le
-fait	NOUN	fait
-que	SCONJ	que
-j'	PRON	moi
-ai	VERB	avoir
-une	DET	un
-magnifique	ADJ	magnifique
-voix	NOUN	voix
-de	ADP	de
-canard	NOUN	canard
-.	PUNCT	.
-}
-Predicted: {
-d'	ADP	de
-ou	PRON	ou
-le	DET	le
-fait	NOUN	fait
-que	SCONJ	que
-j'	PRON	moi
-ai	VERB	avoir
-une	DET	un
-magnifique	ADJ	magnifique
-voix	NOUN	voix
-de	ADP	de
-canard	NOUN	canard
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': d' | de
-}
-
-Expected: {
 les	DET	le
 gens	NOUN	gens
 crient	VERB	crier
@@ -22400,40 +22630,6 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 supspendu: supspendre | supspendur
-}
-
-Expected: {
-hein	INTJ	hein
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-comme	ADP	comme
-d'	ADP	d'
-habitude	NOUN	habitude
-,	PUNCT	,
-tu	PRON	toi
-la	PRON	lui
-connais	VERB	connaitre
-!	PUNCT	!
-}
-Predicted: {
-hein	INTJ	hein
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-comme	ADP	comme
-d'	ADP	de
-habitude	NOUN	habitude
-,	PUNCT	,
-tu	PRON	toi
-la	PRON	lui
-connais	VERB	connaitre
-!	PUNCT	!
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': d' | de
 }
 
 Expected: {
@@ -23161,138 +23357,6 @@ gere: gere | gerer
 
 Expected: {
 et	CCONJ	et
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-et	CCONJ	et
-a le	ADP DET	a le
-bout	NOUN	bout
-d'	ADP	d'
-un	DET	un
-moment	NOUN	moment
-on	PRON	on
-a	AUX	avoir
-craque	VERB	craquer
-parce	ADV	parce
-que	SCONJ	que
-,	PUNCT	,
-bah	INTJ	bah
-,	PUNCT	,
-elle	PRON	lui
-est	AUX	etre
-,	PUNCT	,
-elle	PRON	lui
-forcait	VERB	forcer
-,	PUNCT	,
-elle	PRON	lui
-forcait	VERB	forcer
-,	PUNCT	,
-puis	CCONJ	puis
-,	PUNCT	,
-elle	PRON	lui
-etait	AUX	etre
-plus	ADV	plus
-jamais	ADV	jamais
-a	ADP	a
-la	DET	le
-maison	NOUN	maison
-et	CCONJ	et
-tout	ADV	tout
-.	PUNCT	.
-}
-Predicted: {
-et	CCONJ	et
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-et	CCONJ	et
-a le	ADP DET	a le
-bout	NOUN	bout
-d'	ADP	de
-un	DET	un
-moment	NOUN	moment
-on	PRON	on
-a	AUX	avoir
-craque	VERB	craquer
-parce	ADV	parce
-que	SCONJ	que
-,	PUNCT	,
-bah	INTJ	bah
-,	PUNCT	,
-elle	PRON	lui
-est	AUX	etre
-,	PUNCT	,
-elle	PRON	lui
-forcait	VERB	forcer
-,	PUNCT	,
-elle	PRON	lui
-forcait	VERB	forcer
-,	PUNCT	,
-puis	CCONJ	puis
-,	PUNCT	,
-elle	PRON	lui
-etait	AUX	etre
-plus	ADV	plus
-jamais	ADV	jamais
-a	ADP	a
-la	DET	le
-maison	NOUN	maison
-et	CCONJ	et
-tout	ADV	tout
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': d' | de
-}
-
-Expected: {
-ce	PRON	ce
-qui	PRON	qui
-fait	VERB	faire
-que	SCONJ	que
-s'	SCONJ	s'
-il	PRON	lui
-etait	AUX	etre
-pas	ADV	pas
-premier	ADJ	premier
-,	PUNCT	,
-il	PRON	lui
-etait	AUX	etre
-a	ADP	a
-se	PRON	soi
-plaindre	VERB	plaindre
-a	ADP	a
-...	PUNCT	...
-}
-Predicted: {
-ce	PRON	ce
-qui	PRON	qui
-fait	VERB	faire
-que	SCONJ	que
-s'	SCONJ	si
-il	PRON	lui
-etait	AUX	etre
-pas	ADV	pas
-premier	ADJ	premier
-,	PUNCT	,
-il	PRON	lui
-etait	AUX	etre
-a	ADP	a
-se	PRON	soi
-plaindre	VERB	plaindre
-a	ADP	a
-...	PUNCT	...
-}
-Errors: {
-Tok: Ref | Pred
----------------
-s': s' | si
-}
-
-Expected: {
-et	CCONJ	et
 la	ADV	la
 ,	PUNCT	,
 on	PRON	on
@@ -23402,32 +23466,12 @@ bokits: bokits | bokit
 }
 
 Expected: {
-tu	PRON	toi
-viens	VERB	venir
-d'	ADP	d'
-ou	ADV	ou
-?	PUNCT	?
-}
-Predicted: {
-tu	PRON	toi
-viens	VERB	venir
-d'	ADP	de
-ou	ADV	ou
-?	PUNCT	?
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': d' | de
-}
-
-Expected: {
 et	CCONJ	et
 elle	PRON	lui
 m'	PRON	moi
 a	AUX	avoir
 dit	VERB	dire
-qu'	SCONJ	qu'
+qu'	SCONJ	que
 elle	PRON	lui
 s'	PRON	soi
 appelait	VERB	appeler
@@ -23464,7 +23508,6 @@ regardee	VERB	regarder
 Errors: {
 Tok: Ref | Pred
 ---------------
-qu': qu' | que
 la: la | le
 }
 
@@ -23488,36 +23531,6 @@ Errors: {
 Tok: Ref | Pred
 ---------------
 tous: tous | tout
-}
-
-Expected: {
-surtout	ADV	surtout
-qu'	SCONJ	qu'
-il	PRON	lui
-y	PRON	y
-avait	VERB	avoir
-mon	DET	son
-pere	NOUN	pere
-a	ADP	a
-cote	NOUN	cote
-.	PUNCT	.
-}
-Predicted: {
-surtout	ADV	surtout
-qu'	SCONJ	que
-il	PRON	lui
-y	PRON	y
-avait	VERB	avoir
-mon	DET	son
-pere	NOUN	pere
-a	ADP	a
-cote	NOUN	cote
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-qu': qu' | que
 }
 
 Expected: {
@@ -23903,1153 +23916,265 @@ la: la | le
 }
 
 Expected: {
-et	CCONJ	et
-la	ADV	la
+bientot	ADV	bientot
 ,	PUNCT	,
-vous	PRON	vous
-prenez	VERB	prendre
-a	ADP	a
-droite	NOUN	droite
-jusqu'	ADP	jusque
-a	ADP	a
-voir	VERB	voir
-la	DET	le
-cathedrale	NOUN	cathedrale
+je	PRON	moi
+serai	AUX	etre
+grisonnant	ADJ	grisonnant
 .	PUNCT	.
 }
 Predicted: {
-et	CCONJ	et
-la	ADV	le
+bientot	ADV	bientot
 ,	PUNCT	,
-vous	PRON	vous
-prenez	VERB	prendre
-a	ADP	a
-droite	NOUN	droite
-jusqu'	ADP	jusque
-a	ADP	a
-voir	VERB	voir
-la	DET	le
-cathedrale	NOUN	cathedrale
+je	PRON	moi
+serai	AUX	ser
+grisonnant	ADJ	grisonnant
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-la: la | le
-}
-
-Expected: {
-ses	DET	son
-talents	NOUN	talent
-seduisent	VERB	seduire
-un	DET	un
-large	ADJ	large
-public	NOUN	public
-.	PUNCT	.
-}
-Predicted: {
-ses	DET	son
-talents	NOUN	talent
-seduisent	VERB	seduiser
-un	DET	un
-large	ADJ	large
-public	NOUN	public
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-seduisent: seduire | seduiser
-}
-
-Expected: {
-donc	ADV	donc
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-j'	PRON	moi
-irais	VERB	aller
-a	ADP	a
-pied	NOUN	pied
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-en	ADP	en
-longeant	VERB	longer
-la	ADV	la
-,	PUNCT	,
-donc	ADV	donc
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-cinema	NOUN	cinema
-nef	PROPN	nef
-chavant	PROPN	chavant
-.	PUNCT	.
-}
-Predicted: {
-donc	ADV	donc
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-j'	PRON	moi
-irais	VERB	irer
-a	ADP	a
-pied	NOUN	pied
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-en	ADP	en
-longeant	VERB	longer
-la	ADV	le
-,	PUNCT	,
-donc	ADV	donc
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-cinema	NOUN	cinema
-nef	PROPN	nef
-chavant	PROPN	chavant
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-irais: aller | irer
-la: la | le
-}
-
-Expected: {
-donc	ADV	donc
-,	PUNCT	,
-vous	PRON	vous
-allez	VERB	aller
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-bout	NOUN	bout
-,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-un	DET	un
-grand	ADJ	grand
-carrefour	NOUN	carrefour
-,	PUNCT	,
-la	ADV	la
-ou	PRON	ou
-vous	PRON	vous
-allez	VERB	aller
-voir	VERB	voir
-le	DET	le
-,	PUNCT	,
-le	DET	le
-cinema	NOUN	cinema
-la	DET	le
-nef	PROPN	nef
-chavant	PROPN	chavant
-.	PUNCT	.
-}
-Predicted: {
-donc	ADV	donc
-,	PUNCT	,
-vous	PRON	vous
-allez	VERB	aller
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-bout	NOUN	bout
-,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-un	DET	un
-grand	ADJ	grand
-carrefour	NOUN	carrefour
-,	PUNCT	,
-la	ADV	le
-ou	PRON	ou
-vous	PRON	vous
-allez	VERB	aller
-voir	VERB	voir
-le	DET	le
-,	PUNCT	,
-le	DET	le
-cinema	NOUN	cinema
-la	DET	le
-nef	PROPN	nef
-chavant	PROPN	chavant
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-la: la | le
-}
-
-Expected: {
-puisque	SCONJ	puisque
-un	DET	un
-professeur	NOUN	professeur
-certifie	ADJ	certifie
-va	VERB	aller
-commencer	VERB	commencer
-a	ADP	a
-mille	NUM	mille
-quatre	NUM	quatre
-cents	NUM	cents
-euros	NOUN	euro
-par	ADP	par
-mois	NOUN	mois
-et	CCONJ	et
-finira	VERB	finir
-a les	ADP DET	a le
-alentours	NOUN	alentours
-de	ADP	de
-trois	NUM	trois
-mille	NUM	mille
-euros	NOUN	euro
-.	PUNCT	.
-}
-Predicted: {
-puisque	SCONJ	puisque
-un	DET	un
-professeur	NOUN	professeur
-certifie	ADJ	certifie
-va	VERB	aller
-commencer	VERB	commencer
-a	ADP	a
-mille	NUM	mille
-quatre	NUM	quatre
-cents	NUM	cent
-euros	NOUN	euro
-par	ADP	par
-mois	NOUN	mois
-et	CCONJ	et
-finira	VERB	finir
-a les	ADP DET	a le
-alentours	NOUN	alentours
-de	ADP	de
-trois	NUM	trois
-mille	NUM	mille
-euros	NOUN	euro
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-cents: cents | cent
-}
-
-Expected: {
-oh	INTJ	oh
-la	INTJ	la
-.	PUNCT	.
-}
-Predicted: {
-oh	INTJ	oh
-la	INTJ	le
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-la: la | le
-}
-
-Expected: {
-quelqu'un	PRON	quelqu'un
-a	AUX	avoir
-dit	VERB	dire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-on	PRON	on
-n~	ADV	n~
-,	PUNCT	,
-on	PRON	on
-ne	ADV	ne
-comprend	VERB	comprendre
-pas	ADV	pas
-qu'	SCONJ	que
-un	DET	un
-editeur	NOUN	editeur
-laisse	VERB	laisser
-passer	VERB	passer
-des	DET	un
-fautes	NOUN	faute
-de	ADP	de
-grammaire	NOUN	grammaire
-pareilles	ADJ	pareil
-.	PUNCT	.
-}
-Predicted: {
-quelqu'un	PRON	quelqu'un
-a	AUX	avoir
-dit	VERB	dire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-on	PRON	on
-n~	ADV	n~
-,	PUNCT	,
-on	PRON	on
-ne	ADV	ne
-comprend	VERB	comprendre
-pas	ADV	pas
-qu'	SCONJ	que
-un	DET	un
-editeur	NOUN	editeur
-laisse	VERB	laisser
-passer	VERB	passer
-des	DET	un
-fautes	NOUN	faute
-de	ADP	de
-grammaire	NOUN	grammaire
-pareilles	ADJ	pareille
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-pareilles: pareil | pareille
-}
-
-Expected: {
-et	CCONJ	et
-a	ADP	a
-la	DET	le
-fin	NOUN	fin
-de	ADP	de
-sa	DET	son
-vie	NOUN	vie
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-quand	SCONJ	quand
-il	PRON	lui
-est	VERB	etre
-en	ADP	en
-france	PROPN	france
-,	PUNCT	,
-d'	ADP	de
-ailleurs	ADV	ailleurs
-,	PUNCT	,
-pour	ADP	pour
-essayer	VERB	essayer
-de	ADP	de
-soigner	VERB	soigner
-en	ADP	en
-vain	ADJ	vain
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-sa	DET	son
-tuberculose	NOUN	tuberculose
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-il	PRON	lui
-dira	VERB	dire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-si	SCONJ	si
-,	PUNCT	,
-si	SCONJ	si
-je	PRON	moi
-dois	VERB	devoir
-aller	VERB	aller
-dans	ADP	dans
-un	DET	un
-bouiboui	NOUN	bouiboui
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-je	PRON	moi
-caricature	VERB	caricaturer
-un	DET	un
-petit	ADJ	petit
-peu	NOUN	peu
-,	PUNCT	,
-mais	CCONJ	mais
-enfin	ADV	enfin
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-si	SCONJ	si
-je	PRON	moi
-dois	VERB	devoir
-descendre	VERB	descendre
-dans	ADP	dans
-un	DET	un
-hotel	NOUN	hotel
-de	ADP	de
-troisieme	ADJ	troisieme
-categorie	NOUN	categorie
-,	PUNCT	,
-alors	ADV	alors
-,	PUNCT	,
-ca	PRON	ca
-ne	ADV	ne
-vaut	VERB	valoir
-plus	ADV	plus
-la	DET	le
-peine	NOUN	peine
-.	PUNCT	.
-}
-Predicted: {
-et	CCONJ	et
-a	ADP	a
-la	DET	le
-fin	NOUN	fin
-de	ADP	de
-sa	DET	son
-vie	NOUN	vie
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-quand	SCONJ	quand
-il	PRON	lui
-est	VERB	etre
-en	ADP	en
-france	PROPN	france
-,	PUNCT	,
-d'	ADP	de
-ailleurs	ADV	ailleurs
-,	PUNCT	,
-pour	ADP	pour
-essayer	VERB	essayer
-de	ADP	de
-soigner	VERB	soigner
-en	ADP	en
-vain	ADJ	vain
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-sa	DET	son
-tuberculose	NOUN	tuberculose
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-il	PRON	lui
-dira	VERB	dire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-si	SCONJ	si
-,	PUNCT	,
-si	SCONJ	si
-je	PRON	moi
-dois	VERB	devoir
-aller	VERB	aller
-dans	ADP	dans
-un	DET	un
-bouiboui	NOUN	bouiboui
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-je	PRON	moi
-caricature	VERB	caricature
-un	DET	un
-petit	ADJ	petit
-peu	NOUN	peu
-,	PUNCT	,
-mais	CCONJ	mais
-enfin	ADV	enfin
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-si	SCONJ	si
-je	PRON	moi
-dois	VERB	devoir
-descendre	VERB	descendre
-dans	ADP	dans
-un	DET	un
-hotel	NOUN	hotel
-de	ADP	de
-troisieme	ADJ	troisieme
-categorie	NOUN	categorie
-,	PUNCT	,
-alors	ADV	alors
-,	PUNCT	,
-ca	PRON	ca
-ne	ADV	ne
-vaut	VERB	valoir
-plus	ADV	plus
-la	DET	le
-peine	NOUN	peine
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-caricature: caricaturer | caricature
-}
-
-Expected: {
-si	SCONJ	si
-je	PRON	moi
-ne	ADV	ne
-craignais	VERB	craindre
-pas	ADV	pas
-d'	ADP	de
-entrer	VERB	entrer
-dans	ADP	dans
-le	DET	le
-jeu	NOUN	jeu
-de	ADP	de
-certains	DET	certain
-hommes	NOUN	homme
-qui	PRON	qui
-abusent	VERB	abuser
-de	ADP	de
-leur	DET	son
-condition	NOUN	condition
-,	PUNCT	,
-je	PRON	moi
-dirais	VERB	dire
-que	SCONJ	que
-vous	PRON	vous
-avez	AUX	avoir
-donne	VERB	donner
-quelque	DET	quelque
-chose	NOUN	chose
-de	ADP	de
-plus	ADV	plus
-a	ADP	a
-la	DET	le
-femme	NOUN	femme
-,	PUNCT	,
-des	DET	un
-armes	NOUN	arme
-de	ADP	de
-persuasion	NOUN	persuasion
-.	PUNCT	.
-}
-Predicted: {
-si	SCONJ	si
-je	PRON	moi
-ne	ADV	ne
-craignais	VERB	craignais
-pas	ADV	pas
-d'	ADP	de
-entrer	VERB	entrer
-dans	ADP	dans
-le	DET	le
-jeu	NOUN	jeu
-de	ADP	de
-certains	DET	certain
-hommes	NOUN	homme
-qui	PRON	qui
-abusent	VERB	abuser
-de	ADP	de
-leur	DET	son
-condition	NOUN	condition
-,	PUNCT	,
-je	PRON	moi
-dirais	VERB	dire
-que	SCONJ	que
-vous	PRON	vous
-avez	AUX	avoir
-donne	VERB	donner
-quelque	DET	quelque
-chose	NOUN	chose
-de	ADP	de
-plus	ADV	plus
-a	ADP	a
-la	DET	le
-femme	NOUN	femme
-,	PUNCT	,
-des	DET	un
-armes	NOUN	arme
-de	ADP	de
-persuasion	NOUN	persuasion
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-craignais: craindre | craignais
+serai: etre | ser
 }
 
 Expected: {
 il	PRON	lui
-faut	VERB	falloir
-que	SCONJ	que
-tu	PRON	toi
-deviennes	VERB	devenir
-script	NOUN	script
-girl	NOUN	girl
-par	ADP	par
-exemple	NOUN	exemple
-.	PUNCT	.
-}
-Predicted: {
-il	PRON	lui
-faut	VERB	falloir
-que	SCONJ	que
-tu	PRON	toi
-deviennes	VERB	devienner
-script	NOUN	script
-girl	NOUN	girl
-par	ADP	par
-exemple	NOUN	exemple
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-deviennes: devenir | devienner
-}
-
-Expected: {
-et	CCONJ	et
-j~	PRON	j~
-,	PUNCT	,
-je	PRON	moi
-crois	VERB	croire
-que	SCONJ	que
-je	PRON	moi
-n'	ADV	ne
-avais	VERB	avoir
-aucune	PRON	aucun
-de les	ADP DET	de le
-qualites	NOUN	qualite
-ni	CCONJ	ni
-de les	ADP DET	de le
-defauts	NOUN	defaut
-qui	PRON	qui
-font	VERB	faire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-une	DET	un
-bonne	ADJ	bon
-comedienne	NOUN	comedien
-.	PUNCT	.
-}
-Predicted: {
-et	CCONJ	et
-j~	PRON	j~
-,	PUNCT	,
-je	PRON	moi
-crois	VERB	croire
-que	SCONJ	que
-je	PRON	moi
-n'	ADV	ne
-avais	VERB	avoir
-aucune	PRON	aucun
-de les	ADP DET	de le
-qualites	NOUN	qualite
-ni	CCONJ	ni
-de les	ADP DET	de le
-defauts	NOUN	defaut
-qui	PRON	qui
-font	VERB	faire
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-une	DET	un
-bonne	ADJ	bon
-comedienne	NOUN	comedienne
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-comedienne: comedien | comedienne
-}
-
-Expected: {
-apres	ADP	apres
-ma	DET	son
-visite	NOUN	visite
-a	ADP	a
-landivisiau	PROPN	landivisiau
-et	CCONJ	et
-a	ADP	a
-l'	DET	le
-ile	NOUN	ile
-longue	ADJ	longue
-ce	DET	ce
-matin	NOUN	matin
-,	PUNCT	,
-c'	PRON	ce
+s'	PRON	soi
 est	AUX	etre
-donc	ADV	donc
-une	DET	un
-journee	NOUN	journee
-entiere	ADJ	entier
-que	PRON	que
-j'	PRON	moi
-aurai	AUX	avoir
-passee	VERB	passer
-avec	ADP	avec
-nos	DET	son
-forces	NOUN	force
-armees	ADJ	arme
+voulu	VERB	vouloir
+comme	ADP	comme
+un	DET	un
+homme	NOUN	homme
+d'	ADP	de
+idees	NOUN	idee
+,	PUNCT	,
+un	DET	un
+homme	NOUN	homme
+de	ADP	de
+concepts	NOUN	concept
 .	PUNCT	.
 }
 Predicted: {
-apres	ADP	apres
-ma	DET	son
-visite	NOUN	visite
-a	ADP	a
-landivisiau	PROPN	landivisiau
-et	CCONJ	et
-a	ADP	a
-l'	DET	le
-ile	NOUN	ile
-longue	ADJ	long
-ce	DET	ce
-matin	NOUN	matin
-,	PUNCT	,
-c'	PRON	ce
+il	PRON	lui
+s'	PRON	soi
 est	AUX	etre
-donc	ADV	donc
-une	DET	un
-journee	NOUN	journee
-entiere	ADJ	entier
-que	PRON	que
-j'	PRON	moi
-aurai	AUX	avoir
-passee	VERB	passer
-avec	ADP	avec
-nos	DET	son
-forces	NOUN	force
-armees	ADJ	arme
+voulu	VERB	vouloir
+comme	ADP	comme
+un	DET	un
+homme	NOUN	homme
+d'	ADP	de
+idees	NOUN	idee
+,	PUNCT	,
+un	DET	un
+homme	NOUN	homme
+de	ADP	de
+concepts	NOUN	concepts
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-longue: longue | long
+concepts: concept | concepts
 }
 
 Expected: {
-et	CCONJ	et
-la	ADV	la
-,	PUNCT	,
 je	PRON	moi
-me	PRON	moi
-retrouve	VERB	retrouver
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-en	ADP	en
-effet	NOUN	effet
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-s~	X	s~
-,	PUNCT	,
-pres	ADV	pres
-de les	ADP DET	de le
-rails	NOUN	rail
-de le	ADP DET	de le
-tram	NOUN	tram
+suis	AUX	etre
+ne	VERB	naitre
+un	DET	un
+premier	ADJ	premier
+novembre	NOUN	novembre
 .	PUNCT	.
 }
 Predicted: {
-et	CCONJ	et
-la	ADV	le
-,	PUNCT	,
 je	PRON	moi
-me	PRON	moi
-retrouve	VERB	retrouver
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-en	ADP	en
-effet	NOUN	effet
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-s~	X	s~
-,	PUNCT	,
-pres	ADV	pres
-de les	ADP DET	de le
-rails	NOUN	rail
-de le	ADP DET	de le
-tram	NOUN	tram
+suis	AUX	etre
+ne	VERB	ne
+un	DET	un
+premier	ADJ	premier
+novembre	NOUN	novembre
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-la: la | le
+ne: naitre | ne
 }
 
 Expected: {
-mais	CCONJ	mais
-ils	PRON	eux
-ont	AUX	avoir
-dit	VERB	dire
-venez	VERB	venir
+alors	ADV	alors
+le	DET	le
+probleme	NOUN	probleme
 ,	PUNCT	,
-venez	VERB	venir
-vous	PRON	vous
-installer	VERB	installer
-a	ADP	a
-vos	DET	son
-,	PUNCT	,
-vos	DET	son
-,	PUNCT	,
-nous	PRON	nous
-se~	VERB	se~
-,	PUNCT	,
-nous	PRON	nous
-serons	AUX	etre
-tres	ADV	tres
-heureux	ADJ	heureux
 si	SCONJ	si
 vous	PRON	vous
 voulez	VERB	vouloir
-vous	PRON	vous
-installer	VERB	installer
-a	ADP	a
 ,	PUNCT	,
-a	ADP	a
-vos	DET	son
-frais	NOUN	frais
-n'	ADV	ne
-importe	VERB	importer
-ou	PRON	ou
+qui	PRON	qui
+se	PRON	soi
+pose	VERB	poser
 ,	PUNCT	,
 euh	INTJ	euh
 ,	PUNCT	,
-on	PRON	on
+a	ADP	a
+paris	PROPN	paris
 ,	PUNCT	,
-on	PRON	on
+enfin	ADV	enfin
 ,	PUNCT	,
-on	PRON	on
-voudrait	VERB	vouloir
-bien	ADV	bien
-que	SCONJ	que
+que	PRON	que
+je	PRON	moi
+vois	VERB	voir
+dans	ADP	dans
+le	DET	le
+vingtieme	NOUN	vingtieme
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+le	DET	le
+probleme	NOUN	probleme
+de les	ADP DET	de le
+ecoles	NOUN	ecole
+maternelles	ADJ	maternel
+et	CCONJ	et
+primaires	NOUN	primaire
+dans	ADP	dans
+lequel	PRON	lequel
+quand	SCONJ	quand
 vous	PRON	vous
-fassiez	VERB	faire
-...	PUNCT	...
+avez	VERB	avoir
+effectivement	ADV	effectivement
+un	DET	un
+certain	ADJ	certain
+nombre	NOUN	nombre
+d'	ADP	de
+enfants	NOUN	enfant
+qui	PRON	qui
+ne	ADV	ne
+sont	AUX	etre
+pas	ADV	pas
+,	PUNCT	,
+qui	PRON	qui
+ne	ADV	ne
+parlent	VERB	parler
+pas	ADV	pas
+couramment	ADV	couramment
+francais	ADJ	francais
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+pour	ADP	pour
+les	DET	le
+enseignants	NOUN	enseignant
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+pas	ADV	pas
+facile	ADJ	facile
+.	PUNCT	.
 }
 Predicted: {
-mais	CCONJ	mais
-ils	PRON	eux
-ont	AUX	avoir
-dit	VERB	dire
-venez	VERB	venir
+alors	ADV	alors
+le	DET	le
+probleme	NOUN	probleme
 ,	PUNCT	,
-venez	VERB	venir
-vous	PRON	vous
-installer	VERB	installer
-a	ADP	a
-vos	DET	son
-,	PUNCT	,
-vos	DET	son
-,	PUNCT	,
-nous	PRON	nous
-se~	VERB	se~
-,	PUNCT	,
-nous	PRON	nous
-serons	AUX	etre
-tres	ADV	tres
-heureux	ADJ	heureux
 si	SCONJ	si
 vous	PRON	vous
 voulez	VERB	vouloir
-vous	PRON	vous
-installer	VERB	installer
-a	ADP	a
 ,	PUNCT	,
-a	ADP	a
-vos	DET	son
-frais	NOUN	frais
-n'	ADV	ne
-importe	VERB	importer
-ou	PRON	ou
+qui	PRON	qui
+se	PRON	soi
+pose	VERB	poser
 ,	PUNCT	,
 euh	INTJ	euh
 ,	PUNCT	,
-on	PRON	on
-,	PUNCT	,
-on	PRON	on
-,	PUNCT	,
-on	PRON	on
-voudrait	VERB	vouloir
-bien	ADV	bien
-que	SCONJ	que
-vous	PRON	vous
-fassiez	VERB	fasre
-...	PUNCT	...
-}
-Errors: {
-Tok: Ref | Pred
----------------
-fassiez: faire | fasre
-}
-
-Expected: {
-pour	ADP	pour
-l'	DET	le
-independant	NOUN	independant
-de le	ADP DET	de le
-midi	NOUN	midi
-,	PUNCT	,
-c'	PRON	ce
-est	AUX	etre
-la	DET	le
-gifle	NOUN	gifle
-.	PUNCT	.
-}
-Predicted: {
-pour	ADP	pour
-l'	DET	le
-independant	NOUN	independant
-de le	ADP DET	de le
-midi	NOUN	midi
-,	PUNCT	,
-c'	PRON	ce
-est	AUX	etre
-la	DET	le
-gifle	NOUN	gifler
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-gifle: gifle | gifler
-}
-
-Expected: {
 a	ADP	a
-la	DET	le
-une	NOUN	une
-de	ADP	de
-liberation	PROPN	liberation
+paris	PROPN	paris
+,	PUNCT	,
+enfin	ADV	enfin
+,	PUNCT	,
+que	PRON	que
+je	PRON	moi
+vois	VERB	voir
+dans	ADP	dans
+le	DET	le
+vingtieme	NOUN	vingtieme
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+le	DET	le
+probleme	NOUN	probleme
+de les	ADP DET	de le
+ecoles	NOUN	ecole
+maternelles	ADJ	maternelle
+et	CCONJ	et
+primaires	NOUN	primaire
+dans	ADP	dans
+lequel	PRON	lequel
+quand	SCONJ	quand
+vous	PRON	vous
+avez	VERB	avoir
+effectivement	ADV	effectivement
+un	DET	un
+certain	ADJ	certain
+nombre	NOUN	nombre
+d'	ADP	de
+enfants	NOUN	enfant
 qui	PRON	qui
 ne	ADV	ne
-boude	VERB	bouder
+sont	AUX	etre
 pas	ADV	pas
-son	DET	son
-plaisir	NOUN	plaisir
 ,	PUNCT	,
-une	DET	un
-caricature	NOUN	caricature
-de	ADP	de
-nicolas	PROPN	nicolas
-sarkozy	PROPN	sarkozy
-tout	ADV	tout
-ratatine	ADJ	ratatine
-sous	ADP	sous
-cette	DET	ce
-exclamation	NOUN	exclamation
-:	PUNCT	:
-et	CCONJ	et
-bling	INTJ	bling
-!	PUNCT	!
-}
-Predicted: {
-a	ADP	a
-la	DET	le
-une	NOUN	un
-de	ADP	de
-liberation	PROPN	liberation
 qui	PRON	qui
 ne	ADV	ne
-boude	VERB	boude
+parlent	VERB	parler
 pas	ADV	pas
-son	DET	son
-plaisir	NOUN	plaisir
-,	PUNCT	,
-une	DET	un
-caricature	NOUN	caricature
-de	ADP	de
-nicolas	PROPN	nicolas
-sarkozy	PROPN	sarkozy
-tout	ADV	tout
-ratatine	ADJ	ratatine
-sous	ADP	sous
-cette	DET	ce
-exclamation	NOUN	exclamation
-:	PUNCT	:
-et	CCONJ	et
-bling	INTJ	bling
-!	PUNCT	!
-}
-Errors: {
-Tok: Ref | Pred
----------------
-une: une | un
-boude: bouder | boude
-}
-
-Expected: {
-comme	ADP	comme
-en	ADP	en
-echo	NOUN	echo
-,	PUNCT	,
-dans	ADP	dans
-liberation	PROPN	liberation
-,	PUNCT	,
-laurent	PROPN	laurent
-joffrin	PROPN	joffrin
-,	PUNCT	,
-qui	PRON	qui
-n'	ADV	ne
-est	AUX	etre
-evidemment	ADV	evidemment
-pas	ADV	pas
-convaincu	VERB	convaincre
-,	PUNCT	,
-balaye	VERB	balayer
-d'	ADP	de
-un	DET	un
-ricanement	NOUN	ricanement
-la	DET	le
-pensee	NOUN	pensee
-d'	ADP	de
-etienne	PROPN	etienne
-mougeotte	PROPN	mougeotte
-.	PUNCT	.
-}
-Predicted: {
-comme	ADP	comme
-en	ADP	en
-echo	NOUN	echo
-,	PUNCT	,
-dans	ADP	dans
-liberation	PROPN	liberation
-,	PUNCT	,
-laurent	PROPN	laurent
-joffrin	PROPN	joffrin
-,	PUNCT	,
-qui	PRON	qui
-n'	ADV	ne
-est	AUX	etre
-evidemment	ADV	evidemment
-pas	ADV	pas
-convaincu	VERB	convaincre
-,	PUNCT	,
-balaye	VERB	balaye
-d'	ADP	de
-un	DET	un
-ricanement	NOUN	ricanement
-la	DET	le
-pensee	NOUN	pensee
-d'	ADP	de
-etienne	PROPN	etienne
-mougeotte	PROPN	mougeotte
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-balaye: balayer | balaye
-}
-
-Expected: {
-on	PRON	on
-l'	PRON	lui
-avait	AUX	avoir
-un	DET	un
-peu	NOUN	peu
-oublie	VERB	oublier
-apres	ADP	apres
-les	DET	le
-records	NOUN	record
-de	ADP	de
-la	DET	le
-presidentielle	NOUN	presidentielle
-.	PUNCT	.
-}
-Predicted: {
-on	PRON	on
-l'	PRON	lui
-avait	AUX	avoir
-un	DET	un
-peu	NOUN	peu
-oublie	VERB	oublier
-apres	ADP	apres
-les	DET	le
-records	NOUN	record
-de	ADP	de
-la	DET	le
-presidentielle	NOUN	presidentiel
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-presidentielle: presidentielle | presidentiel
-}
-
-Expected: {
-alors	ADV	alors
-que	ADV	que
-c'	PRON	ce
-est	VERB	etre
-a le	ADP DET	a le
-moment	NOUN	moment
-ou	PRON	ou
-l'	DET	le
-equipe	NOUN	equipe
-de	ADP	de
-france	PROPN	france
+couramment	ADV	couramment
+francais	ADJ	francais
 ,	PUNCT	,
 euh	INTJ	euh
 ,	PUNCT	,
-dominait	VERB	dominer
-un	DET	un
-peu	NOUN	peu
-globalement	ADV	globalement
-.	PUNCT	.
-}
-Predicted: {
-alors	ADV	alors
-que	ADV	que
+pour	ADP	pour
+les	DET	le
+enseignants	NOUN	enseignant
+,	PUNCT	,
 c'	PRON	ce
-est	VERB	etre
-a le	ADP DET	a le
-moment	NOUN	moment
-ou	PRON	ou
-l'	DET	le
-equipe	NOUN	equipe
-de	ADP	de
-france	PROPN	france
+est	AUX	etre
 ,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-dominait	VERB	dominaitr
-un	DET	un
-peu	NOUN	peu
-globalement	ADV	globalement
+c'	PRON	ce
+est	AUX	etre
+pas	ADV	pas
+facile	ADJ	facile
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-dominait: dominer | dominaitr
+maternelles: maternel | maternelle
 }
 
 Expected: {
-mais	CCONJ	mais
+vous	PRON	vous
+remontez	VERB	remonter
+le	DET	le
+grand	ADJ	grand
+boulevard	NOUN	boulevard
 la	ADV	la
 ,	PUNCT	,
-ils	PRON	eux
-lachent	VERB	lacher
-de	ADP	de
-nouveau	ADJ	nouveau
-prise	NOUN	prise
+euh	INTJ	euh
 .	PUNCT	.
 }
 Predicted: {
-mais	CCONJ	mais
+vous	PRON	vous
+remontez	VERB	remonter
+le	DET	le
+grand	ADJ	grand
+boulevard	NOUN	boulevard
 la	ADV	le
 ,	PUNCT	,
-ils	PRON	eux
-lachent	VERB	lacher
-de	ADP	de
-nouveau	ADJ	nouveau
-prise	NOUN	prise
+euh	INTJ	euh
 .	PUNCT	.
 }
 Errors: {
@@ -25059,1192 +24184,3204 @@ la: la | le
 }
 
 Expected: {
-ce	PRON	ce
-qui	PRON	qui
-paraissait	VERB	paraitre
-tres	ADV	tres
-lointain	ADJ	lointain
 et	CCONJ	et
-qui	PRON	qui
-a	AUX	avoir
-longtemps	ADV	longtemps
-symbolise	VERB	symboliser
-le	DET	le
-futur	NOUN	futur
-,	PUNCT	,
-l'	DET	le
-an	NOUN	an
-deux	NUM	deux
-mille	NUM	mille
-,	PUNCT	,
-est	AUX	etre
-devenu	VERB	devenir
-contemporain	ADJ	contemporain
-,	PUNCT	,
-immediat	ADJ	immediat
-.	PUNCT	.
-}
-Predicted: {
-ce	PRON	ce
-qui	PRON	qui
-paraissait	VERB	paraisser
-tres	ADV	tres
-lointain	ADJ	lointain
-et	CCONJ	et
-qui	PRON	qui
-a	AUX	avoir
-longtemps	ADV	longtemps
-symbolise	VERB	symboliser
-le	DET	le
-futur	NOUN	futur
-,	PUNCT	,
-l'	DET	le
-an	NOUN	an
-deux	NUM	deux
-mille	NUM	mille
-,	PUNCT	,
-est	AUX	etre
-devenu	VERB	devenir
-contemporain	ADJ	contemporain
-,	PUNCT	,
-immediat	ADJ	immediat
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-paraissait: paraitre | paraisser
-}
-
-Expected: {
-mes	DET	son
-chers	ADJ	cher
-compatriotes	NOUN	compatriote
-,	PUNCT	,
-nous	PRON	nous
-avons	VERB	avoir
-en	ADP	en
-commun	NOUN	commun
-certaines	DET	certain
-valeurs	NOUN	valeur
-,	PUNCT	,
-la	DET	le
-volonte	NOUN	volonte
-de	ADP	de
-donner	VERB	donner
 a	ADP	a
-chacun	PRON	chacun
-sa	DET	son
-chance	NOUN	chance
-pour	ADP	pour
-que	SCONJ	que
-notre	DET	son
-societe	NOUN	societe
-soit	AUX	etre
-plus	ADV	plus
-allante	ADJ	allant
+un	DET	un
+moment	NOUN	moment
 ,	PUNCT	,
-plus	ADV	plus
-mobile	ADJ	mobile
-,	PUNCT	,
-plus	ADV	plus
-optimiste	ADJ	optimiste
-,	PUNCT	,
-l'	DET	le
-exigence	NOUN	exigence
-de	ADP	de
-solidarite	NOUN	solidarite
-,	PUNCT	,
-une	DET	un
-solidarite	NOUN	solidarite
-plus	ADV	plus
-responsable	ADJ	responsable
-ou	PRON	ou
-chacun	PRON	chacun
-s'	PRON	soi
-efforcerait	VERB	efforcer
-de	ADP	de
-prendre	VERB	prendre
-sa	DET	son
-part	NOUN	part
-de le	ADP DET	de le
-contrat	NOUN	contrat
-,	PUNCT	,
-l'	DET	le
-attachement	NOUN	attachement
-a	ADP	a
-la	DET	le
-famille	NOUN	famille
-parce	ADV	parce
-qu'	SCONJ	que
-elle	PRON	lui
-est	AUX	etre
-chaleur	NOUN	chaleur
-,	PUNCT	,
-entraide	NOUN	entraide
-,	PUNCT	,
-securite	NOUN	securite
-,	PUNCT	,
-le	DET	le
-desir	NOUN	desir
-d'	ADP	de
-etre	AUX	etre
-utile	ADJ	utile
-,	PUNCT	,
-de	ADP	de
-trouver	VERB	trouver
-sa	DET	son
-place	NOUN	place
+rozycki	PROPN	rozycki
+raconte	VERB	raconter
 dans	ADP	dans
-la	DET	le
-societe	NOUN	societe
-,	PUNCT	,
-de	ADP	de
-donner	VERB	donner
-autour	ADV	autour
-de	ADP	de
-soi	PRON	soi
-,	PUNCT	,
-de	ADP	de
-se	PRON	soi
-realiser	VERB	realiser
-,	PUNCT	,
-la	DET	le
-tolerance	NOUN	tolerance
-qui	PRON	qui
-ne	ADV	ne
-doit	VERB	devoir
-pas	ADV	pas
-etre	AUX	etre
-renoncement	NOUN	renoncement
-a	ADP	a
 ses	DET	son
-convictions	NOUN	conviction
-mais	CCONJ	mais
-respect	NOUN	respect
-de	ADP	de
-l'	DET	le
-autre	PRON	autre
-,	PUNCT	,
-l'	DET	le
-esprit	NOUN	esprit
-republicain	ADJ	republicain
-et	CCONJ	et
-le	DET	le
-sens	NOUN	sens
-de	ADP	de
-l'	DET	le
-interet	NOUN	interet
-general	ADJ	general
-qui	PRON	qui
-impose	VERB	imposer
+souvenirs	NOUN	souvenir
 que	SCONJ	que
-l'	DET	le
-etat	PROPN	etat
-conserve	VERB	conserver
-toute	ADJ	tout
-sa	DET	son
-place	NOUN	place
-pour	ADP	pour
-dire	VERB	dire
-le	DET	le
-droit	NOUN	droit
-,	PUNCT	,
-le	PRON	lui
-faire	AUX	faire
-respecter	VERB	respecter
-avec	ADP	avec
-autorite	NOUN	autorite
-,	PUNCT	,
-avec	ADP	avec
-justice	NOUN	justice
-.	PUNCT	.
-}
-Predicted: {
-mes	DET	son
-chers	ADJ	cher
-compatriotes	NOUN	compatriote
-,	PUNCT	,
-nous	PRON	nous
-avons	VERB	avoir
-en	ADP	en
-commun	NOUN	commun
-certaines	DET	certain
-valeurs	NOUN	valeur
-,	PUNCT	,
-la	DET	le
-volonte	NOUN	volonte
-de	ADP	de
-donner	VERB	donner
+ils	PRON	eux
+jouaient	VERB	jouer
 a	ADP	a
-chacun	PRON	chacun
-sa	DET	son
-chance	NOUN	chance
-pour	ADP	pour
-que	SCONJ	que
-notre	DET	son
-societe	NOUN	societe
-soit	AUX	etre
-plus	ADV	plus
-allante	ADJ	allant
-,	PUNCT	,
-plus	ADV	plus
-mobile	ADJ	mobile
-,	PUNCT	,
-plus	ADV	plus
-optimiste	ADJ	optimiste
-,	PUNCT	,
-l'	DET	le
-exigence	NOUN	exigence
-de	ADP	de
-solidarite	NOUN	solidarite
-,	PUNCT	,
-une	DET	un
-solidarite	NOUN	solidarite
-plus	ADV	plus
-responsable	ADJ	responsable
-ou	PRON	ou
-chacun	PRON	chacun
-s'	PRON	soi
-efforcerait	VERB	efforcerer
-de	ADP	de
-prendre	VERB	prendre
-sa	DET	son
-part	NOUN	part
-de le	ADP DET	de le
-contrat	NOUN	contrat
-,	PUNCT	,
-l'	DET	le
-attachement	NOUN	attachement
-a	ADP	a
-la	DET	le
-famille	NOUN	famille
-parce	ADV	parce
-qu'	SCONJ	que
-elle	PRON	lui
-est	AUX	etre
-chaleur	NOUN	chaleur
-,	PUNCT	,
-entraide	NOUN	entraide
-,	PUNCT	,
-securite	NOUN	securite
-,	PUNCT	,
-le	DET	le
-desir	NOUN	desir
-d'	ADP	de
-etre	AUX	etre
-utile	ADJ	utile
-,	PUNCT	,
-de	ADP	de
-trouver	VERB	trouver
-sa	DET	son
-place	NOUN	place
-dans	ADP	dans
-la	DET	le
-societe	NOUN	societe
-,	PUNCT	,
-de	ADP	de
-donner	VERB	donner
-autour	ADV	autour
-de	ADP	de
-soi	PRON	soi
-,	PUNCT	,
-de	ADP	de
-se	PRON	soi
-realiser	VERB	realiser
-,	PUNCT	,
-la	DET	le
-tolerance	NOUN	tolerance
-qui	PRON	qui
-ne	ADV	ne
-doit	VERB	devoir
-pas	ADV	pas
-etre	AUX	etre
-renoncement	NOUN	renoncement
-a	ADP	a
-ses	DET	son
-convictions	NOUN	conviction
-mais	CCONJ	mais
-respect	NOUN	respect
-de	ADP	de
-l'	DET	le
-autre	PRON	autre
-,	PUNCT	,
-l'	DET	le
-esprit	NOUN	esprit
-republicain	ADJ	republicain
-et	CCONJ	et
-le	DET	le
-sens	NOUN	sens
-de	ADP	de
-l'	DET	le
-interet	NOUN	interet
-general	ADJ	general
-qui	PRON	qui
-impose	VERB	imposer
-que	SCONJ	que
-l'	DET	le
-etat	PROPN	etat
-conserve	VERB	conserver
-toute	ADJ	tout
-sa	DET	son
-place	NOUN	place
-pour	ADP	pour
-dire	VERB	dire
-le	DET	le
-droit	NOUN	droit
-,	PUNCT	,
-le	PRON	lui
-faire	AUX	faire
-respecter	VERB	respecter
-avec	ADP	avec
-autorite	NOUN	autorite
-,	PUNCT	,
-avec	ADP	avec
-justice	NOUN	justice
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-efforcerait: efforcer | efforcerer
-}
-
-Expected: {
-moi	PRON	moi
-,	PUNCT	,
-je	PRON	moi
-vous	PRON	vous
-conseillerais	VERB	conseiller
-de	ADP	de
-,	PUNCT	,
-d'	ADP	de
-aller	VERB	aller
-tout	ADV	tout
+quatre	NUM	quatre
+mains	NOUN	main
+tout	ADJ	tout
+strauss	PROPN	strauss
+strauss	PROPN	strauss
+que	PRON	que
 ,	PUNCT	,
 euh	INTJ	euh
 ,	PUNCT	,
+szymanoski	PROPN	szymanoski
+jouait	VERB	jouer
+aussi	ADV	aussi
+a	ADP	a
+quatre	NUM	quatre
+mains	NOUN	main
+avec	ADP	avec
+le	DET	le
+cousin	NOUN	cousin
+neuhaus	PROPN	neuhaus
+qui	PRON	qui
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+est	AUX	etre
+pianiste	NOUN	pianiste
+bien	ADV	bien
+connu	ADJ	connu
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+a	ADP	a
+un	DET	un
+moment	NOUN	moment
+,	PUNCT	,
+rozycki	PROPN	rozycki
+raconte	VERB	raconter
+dans	ADP	dans
+ses	DET	son
+souvenirs	NOUN	souvenir
+que	SCONJ	que
+ils	PRON	eux
+jouaient	VERB	jouer
+a	ADP	a
+quatre	NUM	quatre
+mains	NOUN	main
+tout	ADJ	tout
+strauss	PROPN	strauss
+strauss	PROPN	strauss
+que	PRON	que
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+szymanoski	PROPN	szymanoski
+jouait	VERB	jouer
+aussi	ADV	aussi
+a	ADP	a
+quatre	NUM	quatre
+mains	NOUN	main
+avec	ADP	avec
+le	DET	le
+cousin	NOUN	cousin
+neuhaus	PROPN	neuhaus
+qui	PRON	qui
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+est	AUX	etre
+pianiste	NOUN	pianiste
+bien	ADV	bien
+connu	ADJ	connaitre
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+connu: connu | connaitre
+}
+
+Expected: {
+il	PRON	lui
+guerit	VERB	guerir
+ensuite	ADV	ensuite
+toutes	DET	tout
+sortes	NOUN	sorte
 de	ADP	de
-traverser	VERB	traverser
+malades	NOUN	malade
+comme	ADP	comme
+plus	ADV	plus
+tard	ADV	tard
+,	PUNCT	,
+dans	ADP	dans
+l'	DET	le
+evangile	NOUN	evangile
+,	PUNCT	,
+il	PRON	lui
+acceptera	VERB	accepter
+de	ADP	de
+se	PRON	soi
+laisser	VERB	laisser
+toucher	VERB	toucher
+ou	CCONJ	ou
+de	ADP	de
+benir	VERB	benir
+en	ADP	en
+imposant	VERB	imposer
 les	DET	le
-jardins	NOUN	jardin
+mains	NOUN	main
+.	PUNCT	.
+}
+Predicted: {
+il	PRON	lui
+guerit	VERB	guerir
+ensuite	ADV	ensuite
+toutes	DET	tout
+sortes	NOUN	sorte
 de	ADP	de
+malades	NOUN	malade
+comme	ADP	comme
+plus	ADV	plus
+tard	ADV	tard
+,	PUNCT	,
+dans	ADP	dans
+l'	DET	le
+evangile	NOUN	evangile
+,	PUNCT	,
+il	PRON	lui
+acceptera	VERB	accepter
+de	ADP	de
+se	PRON	soi
+laisser	VERB	laisser
+toucher	VERB	toucher
+ou	CCONJ	ou
+de	ADP	de
+benir	VERB	benir
+en	ADP	en
+imposant	VERB	imposant
+les	DET	le
+mains	NOUN	main
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+imposant: imposer | imposant
+}
+
+Expected: {
+je	PRON	moi
+fini~	VERB	fini~
+,	PUNCT	,
+je	PRON	moi
+finirai	VERB	finir
+ma	DET	son
+licence	NOUN	licence
+pour	ADP	pour
+avoir	VERB	avoir
+ma	DET	son
+licence	NOUN	licence
+.	PUNCT	.
+}
+Predicted: {
+je	PRON	moi
+fini~	VERB	fini~r
+,	PUNCT	,
+je	PRON	moi
+finirai	VERB	finir
+ma	DET	son
+licence	NOUN	licence
+pour	ADP	pour
+avoir	VERB	avoir
+ma	DET	son
+licence	NOUN	licence
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+fini~: fini~ | fini~r
+}
+
+Expected: {
+francoise	PROPN	francoise
+giroud	PROPN	giroud
+,	PUNCT	,
+vous	PRON	vous
+occupez	VERB	occuper
+un	DET	un
+poste	NOUN	poste
+d'	ADP	de
+observation	NOUN	observation
+que	PRON	que
+des	DET	un
+gens	NOUN	gens
+haut	ADV	haut
+places	ADJ	place
+vous	PRON	vous
+envient	VERB	envier
+.	PUNCT	.
+}
+Predicted: {
+francoise	PROPN	francoise
+giroud	PROPN	giroud
+,	PUNCT	,
+vous	PRON	vous
+occupez	VERB	occupezr
+un	DET	un
+poste	NOUN	poste
+d'	ADP	de
+observation	NOUN	observation
+que	PRON	que
+des	DET	un
+gens	NOUN	gens
+haut	ADV	haut
+places	ADJ	place
+vous	PRON	vous
+envient	VERB	envient
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+occupez: occuper | occupezr
+envient: envier | envient
+}
+
+Expected: {
+je	PRON	moi
+ne	ADV	ne
+suis	AUX	etre
+pas	ADV	pas
+de le	ADP DET	de le
+tout	NOUN	tout
+quelqu'un	PRON	quelqu'un
+de	ADP	de
+,	PUNCT	,
+d'	ADP	de
+extraverti	ADJ	extravertir
+.	PUNCT	.
+}
+Predicted: {
+je	PRON	moi
+ne	ADV	ne
+suis	AUX	etre
+pas	ADV	pas
+de le	ADP DET	de le
+tout	NOUN	tout
+quelqu'un	PRON	quelqu'un
+de	ADP	de
+,	PUNCT	,
+d'	ADP	de
+extraverti	ADJ	extraverti
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+extraverti: extravertir | extraverti
+}
+
+Expected: {
+et	CCONJ	et
+nous	PRON	nous
+jouions	VERB	jouer
+tous	ADJ	tout
+les	DET	le
+deux	NUM	deux
+de le	ADP DET	de le
+piano	NOUN	piano
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+nous	PRON	nous
+jouions	VERB	jouionsr
+tous	ADJ	tout
+les	DET	le
+deux	NUM	deux
+de le	ADP DET	de le
+piano	NOUN	piano
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+jouions: jouer | jouionsr
+}
+
+Expected: {
+mesdames	NOUN	monsieur
+et	CCONJ	et
+messieurs	NOUN	monsieur
+,	PUNCT	,
+je	PRON	moi
+suis	AUX	etre
+heureux	ADJ	heureux
+de	ADP	de
+me	PRON	moi
+retrouver	VERB	retrouver
+ce	DET	ce
+soir	NOUN	soir
+parmi	ADP	parmi
+vous	PRON	vous
+.	PUNCT	.
+}
+Predicted: {
+mesdames	NOUN	mesdame
+et	CCONJ	et
+messieurs	NOUN	monsieur
+,	PUNCT	,
+je	PRON	moi
+suis	AUX	etre
+heureux	ADJ	heureux
+de	ADP	de
+me	PRON	moi
+retrouver	VERB	retrouver
+ce	DET	ce
+soir	NOUN	soir
+parmi	ADP	parmi
+vous	PRON	vous
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+mesdames: monsieur | mesdame
+}
+
+Expected: {
+c'	PRON	ce
+est	AUX	etre
+l'	DET	le
+image	NOUN	image
+d'	ADP	de
+une	DET	un
+europe	PROPN	europe
+qui	PRON	qui
+repart	VERB	repartir
+d'	ADP	de
+un	DET	un
+meme	ADJ	meme
+pas	NOUN	pas
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+resolue	ADJ	resolu
+a	ADP	a
+se	PRON	soi
+remettre	VERB	remettre
+en	ADP	en
+mouvement	NOUN	mouvement
+apres	ADP	apres
+deux	NUM	deux
+annees	NOUN	annee
+d'	ADP	de
+immobilisme	NOUN	immobilisme
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+vigilante	ADJ	vigilant
+qui	PRON	qui
+n'	ADV	ne
+oublie	VERB	oublier
+pas	ADV	pas
+l'	DET	le
+imperatif	NOUN	imperatif
+de	ADP	de
+protection	NOUN	protection
+dans	ADP	dans
+un	DET	un
+monde	NOUN	monde
+plus	ADV	plus
+instable	ADJ	instable
+et	CCONJ	et
+moins	ADV	moins
+previsible	ADJ	previsible
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+prete	ADJ	pret
+a	ADP	a
+assumer	VERB	assumer
+ses	DET	son
+responsabilites	NOUN	responsabilite
+et	CCONJ	et
+a le	ADP DET	a le
+sein	NOUN	sein
+de	ADP	de
+laquelle	PRON	lequel
+la	DET	le
+france	PROPN	france
+a	VERB	avoir
+bien	ADV	bien
+l'	DET	le
+intention	NOUN	intention
+de	ADP	de
+tenir	VERB	tenir
+son	DET	son
+rang	NOUN	rang
+.	PUNCT	.
+}
+Predicted: {
+c'	PRON	ce
+est	AUX	etre
+l'	DET	le
+image	NOUN	image
+d'	ADP	de
+une	DET	un
+europe	PROPN	europe
+qui	PRON	qui
+repart	VERB	repartir
+d'	ADP	de
+un	DET	un
+meme	ADJ	meme
+pas	NOUN	pas
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+resolue	ADJ	resolu
+a	ADP	a
+se	PRON	soi
+remettre	VERB	remettre
+en	ADP	en
+mouvement	NOUN	mouvement
+apres	ADP	apres
+deux	NUM	deux
+annees	NOUN	annee
+d'	ADP	de
+immobilisme	NOUN	immobilisme
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+vigilante	ADJ	vigilante
+qui	PRON	qui
+n'	ADV	ne
+oublie	VERB	oublier
+pas	ADV	pas
+l'	DET	le
+imperatif	NOUN	imperatif
+de	ADP	de
+protection	NOUN	protection
+dans	ADP	dans
+un	DET	un
+monde	NOUN	monde
+plus	ADV	plus
+instable	ADJ	instable
+et	CCONJ	et
+moins	ADV	moins
+previsible	ADJ	previsible
+,	PUNCT	,
+une	DET	un
+europe	PROPN	europe
+prete	ADJ	pret
+a	ADP	a
+assumer	VERB	assumer
+ses	DET	son
+responsabilites	NOUN	responsabilite
+et	CCONJ	et
+a le	ADP DET	a le
+sein	NOUN	sein
+de	ADP	de
+laquelle	PRON	lequel
+la	DET	le
+france	PROPN	france
+a	VERB	avoir
+bien	ADV	bien
+l'	DET	le
+intention	NOUN	intention
+de	ADP	de
+tenir	VERB	tenir
+son	DET	son
+rang	NOUN	rang
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+vigilante: vigilant | vigilante
+}
+
+Expected: {
+alors	ADV	alors
+,	PUNCT	,
+la	ADV	la
+,	PUNCT	,
+tu	PRON	toi
+vois	VERB	voir
+,	PUNCT	,
+donc	ADV	donc
+.	PUNCT	.
+}
+Predicted: {
+alors	ADV	alors
+,	PUNCT	,
+la	ADV	le
+,	PUNCT	,
+tu	PRON	toi
+vois	VERB	voir
+,	PUNCT	,
+donc	ADV	donc
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+la	ADV	la
+,	PUNCT	,
+c'	PRON	ce
+est	VERB	etre
+encore	ADV	encore
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Predicted: {
+la	ADV	le
+,	PUNCT	,
+c'	PRON	ce
+est	VERB	etre
+encore	ADV	encore
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+et	CCONJ	et
+je	PRON	moi
+suis	AUX	etre
+restee	VERB	rester
+la	ADV	la
+presqu'	ADV	presque
+un	DET	un
+an	NOUN	an
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+je	PRON	moi
+suis	AUX	etre
+restee	VERB	rester
+la	ADV	le
+presqu'	ADV	presqu'
+un	DET	un
+an	NOUN	an
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+presqu': presque | presqu'
+}
+
+Expected: {
+et	CCONJ	et
+rien	PRON	rien
+n'	ADV	ne
+arrete	VERB	arreter
+la	DET	le
+vague	NOUN	vague
+rose	ADJ	rose
+,	PUNCT	,
+ecrivent	VERB	ecrire
+les	DET	le
+dernieres	ADJ	dernieres
+nouvelles	PROPN	nouvelles
+d'	ADP	de
+alsace	PROPN	alsace
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+rien	PRON	rien
+n'	ADV	ne
+arrete	VERB	arreter
+la	DET	le
+vague	NOUN	vague
+rose	ADJ	rose
+,	PUNCT	,
+ecrivent	VERB	ecrire
+les	DET	le
+dernieres	ADJ	dernier
+nouvelles	PROPN	nouveau
+d'	ADP	de
+alsace	PROPN	alsace
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+dernieres: dernieres | dernier
+nouvelles: nouvelles | nouveau
+}
+
+Expected: {
+c'	PRON	ce
+est	AUX	etre
+meme	ADV	meme
+le	DET	le
+triomphe	NOUN	triomphe
+d'	ADP	de
+un	DET	un
+revenant	NOUN	revenant
+,	PUNCT	,
+ecrit	VERB	ecrire
+l'	DET	le
+alsace	PROPN	alsace
+.	PUNCT	.
+}
+Predicted: {
+c'	PRON	ce
+est	AUX	etre
+meme	ADV	meme
+le	DET	le
+triomphe	NOUN	triomphe
+d'	ADP	de
+un	DET	un
+revenant	NOUN	revenir
+,	PUNCT	,
+ecrit	VERB	ecrire
+l'	DET	le
+alsace	PROPN	alsace
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+revenant: revenant | revenir
+}
+
+Expected: {
+ce	DET	ce
+soir	NOUN	soir
+,	PUNCT	,
+nous	PRON	nous
+vivons	VERB	vivre
+ensemble	ADV	ensemble
+un	DET	un
+moment	NOUN	moment
+fort	ADJ	fort
+et	CCONJ	et
+singulier	ADJ	singulier
+.	PUNCT	.
+}
+Predicted: {
+ce	DET	ce
+soir	NOUN	soir
+,	PUNCT	,
+nous	PRON	nous
+vivons	VERB	vivonsvoir
+ensemble	ADV	ensemble
+un	DET	un
+moment	NOUN	moment
+fort	ADJ	fort
+et	CCONJ	et
+singulier	ADJ	singulier
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+vivons: vivre | vivonsvoir
+}
+
+Expected: {
+et	CCONJ	et
+la	ADV	la
+,	PUNCT	,
+vous	PRON	vous
+,	PUNCT	,
+vous	PRON	vous
+reprenez	VERB	reprendre
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+la	ADV	le
+,	PUNCT	,
+vous	PRON	vous
+,	PUNCT	,
+vous	PRON	vous
+reprenez	VERB	reprener
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+reprenez: reprendre | reprener
+}
+
+Expected: {
+c~	X	c~
+,	PUNCT	,
+c~	X	c~
+,	PUNCT	,
+ce	PRON	ce
+qu'	PRON	que
+il	PRON	lui
+faudrait	VERB	falloir
+dire	VERB	dire
+,	PUNCT	,
+c'	PRON	ce
+est	VERB	etre
+que	SCONJ	que
+toutes	ADJ	tout
+ces	DET	ce
+interpretations	NOUN	interpretation
+sur	ADP	sur
+la	DET	le
+mort	NOUN	mort
+,	PUNCT	,
+a	ADP	a
+la	DET	le
+fin	NOUN	fin
+la	ADV	la
+,	PUNCT	,
+qui	PRON	qui
+disent	VERB	dire
+,	PUNCT	,
+oui	INTJ	oui
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+cette	DET	ce
+trace	NOUN	trace
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+les	DET	le
+traces	NOUN	trace
+d'	ADP	de
+un	DET	un
+corps	NOUN	corps
+mort	ADJ	mort
+ou	CCONJ	ou
+qui	PRON	qui
+va	VERB	aller
+mourir	VERB	mourir
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+un	DET	un
+petit	ADJ	petit
+peu	NOUN	peu
+du	DET	du
+contresens	NOUN	contresens
+par	ADP	par
+rapport	NOUN	rapport
+a	ADP	a
+ce	PRON	ce
+que	PRON	que
+...	PUNCT	...
+}
+Predicted: {
+c~	X	c~
+,	PUNCT	,
+c~	X	c~
+,	PUNCT	,
+ce	PRON	ce
+qu'	PRON	que
+il	PRON	lui
+faudrait	VERB	falloir
+dire	VERB	dire
+,	PUNCT	,
+c'	PRON	ce
+est	VERB	etre
+que	SCONJ	que
+toutes	ADJ	tout
+ces	DET	ce
+interpretations	NOUN	interpretation
+sur	ADP	sur
+la	DET	le
+mort	NOUN	mort
+,	PUNCT	,
+a	ADP	a
+la	DET	le
+fin	NOUN	fin
+la	ADV	le
+,	PUNCT	,
+qui	PRON	qui
+disent	VERB	dire
+,	PUNCT	,
+oui	INTJ	oui
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+cette	DET	ce
+trace	NOUN	trace
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+les	DET	le
+traces	NOUN	trace
+d'	ADP	de
+un	DET	un
+corps	NOUN	corps
+mort	ADJ	mort
+ou	CCONJ	ou
+qui	PRON	qui
+va	VERB	aller
+mourir	VERB	mourir
+,	PUNCT	,
+c'	PRON	ce
+est	AUX	etre
+un	DET	un
+petit	ADJ	petit
+peu	NOUN	peu
+du	DET	du
+contresens	NOUN	contresens
+par	ADP	par
+rapport	NOUN	rapport
+a	ADP	a
+ce	PRON	ce
+que	PRON	que
+...	PUNCT	...
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+quand	SCONJ	quand
+tu	PRON	toi
+arrives	VERB	arriver
+a	ADP	a
+l'	DET	le
+arret	NOUN	arret
+de	ADP	de
+tram	NOUN	tram
+,	PUNCT	,
+la	ADV	la
+,	PUNCT	,
+tu	PRON	toi
+tournes	VERB	tourner
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Predicted: {
+quand	SCONJ	quand
+tu	PRON	toi
+arrives	VERB	arriver
+a	ADP	a
+l'	DET	le
+arret	NOUN	arret
+de	ADP	de
+tram	NOUN	tram
+,	PUNCT	,
+la	ADV	le
+,	PUNCT	,
+tu	PRON	toi
+tournes	VERB	tourner
+a	ADP	a
+gauche	NOUN	gauche
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+et	CCONJ	et
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+apres	ADP	apres
+quelques	DET	quelque
+explications	NOUN	explication
+,	PUNCT	,
+on	PRON	on
+comprend	VERB	comprendre
+que	SCONJ	que
+charlot	PROPN	charlot
+prend	VERB	prendre
+la	DET	le
+,	PUNCT	,
+la	DET	le
+faute	NOUN	faute
+ou	CCONJ	ou
+le	DET	le
+larcin	NOUN	larcin
+sur	ADP	sur
+lui	PRON	lui
+et	CCONJ	et
+s'	PRON	soi
+en	PRON	en
+me~	VERB	me~
+,	PUNCT	,
+est	AUX	etre
+emmene	VERB	emmener
+par	ADP	par
+le	DET	le
+policier	NOUN	policier
+,	PUNCT	,
+et	CCONJ	et
+que	SCONJ	que
+la	DET	le
+jeune	ADJ	jeune
+fille	NOUN	fille
+toute	ADV	toute
+,	PUNCT	,
+toute	ADV	toute
+ebahie	ADJ	ebahi
+se	PRON	soi
+retrouve	VERB	retrouver
+seule	ADJ	seul
+sur	ADP	sur
+le	DET	le
+trottoir	NOUN	trottoir
+mais	CCONJ	mais
+libre	ADJ	libre
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+apres	ADP	apres
+quelques	DET	quelque
+explications	NOUN	explication
+,	PUNCT	,
+on	PRON	on
+comprend	VERB	comprendre
+que	SCONJ	que
+charlot	PROPN	charlot
+prend	VERB	prendre
+la	DET	le
+,	PUNCT	,
+la	DET	le
+faute	NOUN	faute
+ou	CCONJ	ou
+le	DET	le
+larcin	NOUN	larcin
+sur	ADP	sur
+lui	PRON	lui
+et	CCONJ	et
+s'	PRON	soi
+en	PRON	en
+me~	VERB	me~
+,	PUNCT	,
+est	AUX	etre
+emmene	VERB	emmener
+par	ADP	par
+le	DET	le
+policier	NOUN	policier
+,	PUNCT	,
+et	CCONJ	et
+que	SCONJ	que
+la	DET	le
+jeune	ADJ	jeune
+fille	NOUN	fille
+toute	ADV	toute
+,	PUNCT	,
+toute	ADV	toute
+ebahie	ADJ	ebahie
+se	PRON	soi
+retrouve	VERB	retrouver
+seule	ADJ	seul
+sur	ADP	sur
+le	DET	le
+trottoir	NOUN	trottoir
+mais	CCONJ	mais
+libre	ADJ	libre
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+ebahie: ebahi | ebahie
+}
+
+Expected: {
+et	CCONJ	et
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+cela	PRON	cela
+designe	VERB	designer
+l'	DET	le
+espece	NOUN	espece
+de	ADP	de
+,	PUNCT	,
+de	ADP	de
+force	NOUN	force
+qui	PRON	qui
+mine	VERB	miner
+l'	DET	le
+institution	NOUN	institution
+litteraire	ADJ	litteraire
+certainement	ADV	certainement
+.	PUNCT	.
+}
+Predicted: {
+et	CCONJ	et
+,	PUNCT	,
+euh	INTJ	euh
+,	PUNCT	,
+cela	PRON	cela
+designe	VERB	designer
+l'	DET	le
+espece	NOUN	espece
+de	ADP	de
+,	PUNCT	,
+de	ADP	de
+force	NOUN	force
+qui	PRON	qui
+mine	VERB	mine
+l'	DET	le
+institution	NOUN	institution
+litteraire	ADJ	litteraire
+certainement	ADV	certainement
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+mine: miner | mine
+}
+
+Expected: {
+je	PRON	moi
+me	PRON	moi
+dis	VERB	dire
+souvent	ADV	souvent
+quand	SCONJ	quand
+je	PRON	moi
+les	PRON	eux
+vois	VERB	voir
+rentrer	VERB	rentrer
+,	PUNCT	,
+je	PRON	moi
+me	PRON	moi
+dis	VERB	dire
+,	PUNCT	,
+ah	INTJ	ah
+,	PUNCT	,
+j'	PRON	moi
+aurais	AUX	avoir
+du	VERB	devoir
+xxx	X	xxx
+,	PUNCT	,
+je	PRON	moi
+devrais	VERB	devoir
+etre	AUX	etre
+fermee	VERB	fermer
+la	ADV	la
+normalement	ADV	normalement
+.	PUNCT	.
+}
+Predicted: {
+je	PRON	moi
+me	PRON	moi
+dis	VERB	dire
+souvent	ADV	souvent
+quand	SCONJ	quand
+je	PRON	moi
+les	PRON	eux
+vois	VERB	voir
+rentrer	VERB	rentrer
+,	PUNCT	,
+je	PRON	moi
+me	PRON	moi
+dis	VERB	dire
+,	PUNCT	,
+ah	INTJ	ah
+,	PUNCT	,
+j'	PRON	moi
+aurais	AUX	avoir
+du	VERB	devoir
+xxx	X	xxx
+,	PUNCT	,
+je	PRON	moi
+devrais	VERB	devoir
+etre	AUX	etre
+fermee	VERB	fermer
+la	ADV	le
+normalement	ADV	normalement
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+mais	CCONJ	mais
+dans	ADP	dans
+le	DET	le
+secteur	NOUN	secteur
+de le	ADP DET	de le
+pre	NOUN	pre
+l'	DET	le
+eveque	NOUN	eveque
+et	CCONJ	et
+les	DET	le
+pres	NOUN	pre
+avoisinants	ADJ	avoisinant
+,	PUNCT	,
+la	DET	le
+glace	NOUN	glace
+est	AUX	etre
+encore	ADV	encore
+bien	ADV	bien
+presente	ADJ	present
+et	CCONJ	et
+risque	VERB	risquer
+d'	ADP	de
+etre	VERB	etre
+encore	ADV	encore
+la	ADV	la
+pendant	ADP	pendant
+plusieurs	DET	plusieurs
+jours	NOUN	jour
+.	PUNCT	.
+}
+Predicted: {
+mais	CCONJ	mais
+dans	ADP	dans
+le	DET	le
+secteur	NOUN	secteur
+de le	ADP DET	de le
+pre	NOUN	pre
+l'	DET	le
+eveque	NOUN	eveque
+et	CCONJ	et
+les	DET	le
+pres	NOUN	pre
+avoisinants	ADJ	avoisinant
+,	PUNCT	,
+la	DET	le
+glace	NOUN	glace
+est	AUX	etre
+encore	ADV	encore
+bien	ADV	bien
+presente	ADJ	present
+et	CCONJ	et
+risque	VERB	risquer
+d'	ADP	de
+etre	VERB	etre
+encore	ADV	encore
+la	ADV	le
+pendant	ADP	pendant
+plusieurs	DET	plusieurs
+jours	NOUN	jour
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+la: la | le
+}
+
+Expected: {
+capitaine	NOUN	capitaine
+de	ADP	de
+la	DET	le
+marine	NOUN	marine
+de	ADP	de
+guerre	NOUN	guerre
+taiwanaise	ADJ	taiwanais
+,	PUNCT	,
+il	PRON	lui
+gerait	VERB	gerer
+la	DET	le
+direction	NOUN	direction
+de les	ADP DET	de le
+achats	NOUN	achat
+de	ADP	de
+la	DET	le
+marine	NOUN	marine
+taiwanaise	ADJ	taiwanais
+.	PUNCT	.
+}
+Predicted: {
+capitaine	NOUN	capitaine
+de	ADP	de
+la	DET	le
+marine	NOUN	marine
+de	ADP	de
+guerre	NOUN	guerre
+taiwanaise	ADJ	taiwanais
+,	PUNCT	,
+il	PRON	lui
+gerait	VERB	ger
+la	DET	le
+direction	NOUN	direction
+de les	ADP DET	de le
+achats	NOUN	achat
+de	ADP	de
+la	DET	le
+marine	NOUN	marine
+taiwanaise	ADJ	taiwanais
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+gerait: gerer | ger
+}
+
+Expected: {
+malgre	ADP	malgre
+la	DET	le
+distance	NOUN	distance
+parcourue	VERB	parcourir
+,	PUNCT	,
+tout	PRON	tout
+a	AUX	avoir
+ete	AUX	etre
+tres	ADV	tres
+rapide	ADJ	rapide
+pour	ADP	pour
+le	DET	le
+couple	NOUN	couple
+originaire	ADJ	originaire
+de le	ADP DET	de le
+territoire	NOUN	territoire
+de	ADP	de
+belfort	PROPN	belfort
+.	PUNCT	.
+}
+Predicted: {
+malgre	ADP	malgre
+la	DET	le
+distance	NOUN	distance
+parcourue	VERB	parcourue
+,	PUNCT	,
+tout	PRON	tout
+a	AUX	avoir
+ete	AUX	etre
+tres	ADV	tres
+rapide	ADJ	rapide
+pour	ADP	pour
+le	DET	le
+couple	NOUN	couple
+originaire	ADJ	originaire
+de le	ADP DET	de le
+territoire	NOUN	territoire
+de	ADP	de
+belfort	PROPN	belfort
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+parcourue: parcourir | parcourue
+}
+
+Expected: {
+des	DET	un
+diminutions	NOUN	diminution
+significatives	ADJ	significatif
+de	ADP	de
+la	DET	le
+frequence	NOUN	frequence
+de les	ADP DET	de le
+saignements	NOUN	saignement
+majeurs	ADJ	majeur
+et	CCONJ	et
+mineurs	ADJ	mineur
+ont	AUX	avoir
+ete	AUX	etre
+constatees	VERB	constater
+chez	ADP	chez
+les	DET	le
+patients	NOUN	patient
+de le	ADP DET	de le
+groupe	NOUN	groupe
+bivalidurine	NOUN	bivalidurine
+seule	ADJ	seul
+comparativement	ADV	comparativement
+a les	ADP DET	a le
+patients	NOUN	patient
+de le	ADP DET	de le
+groupe	NOUN	groupe
+heparine	NOUN	heparine
+plus	ADP	plus
+inhibiteur	NOUN	inhibiteur
+de	ADP	de
+la	DET	le
+gp	NOUN	gp
+iib/iiia	PROPN	iib/iiia
+et	CCONJ	et
+bivalidurine	NOUN	bivalidurine
+plus	ADP	plus
+inhibiteur	NOUN	inhibiteur
+de	ADP	de
+la	DET	le
+gp	NOUN	gp
+iib/iiia	PROPN	iib/iiia
+(	PUNCT	(
+voir	VERB	voir
+table	NOUN	table
+2	NUM	2
+)	PUNCT	)
+.	PUNCT	.
+}
+Predicted: {
+des	DET	un
+diminutions	NOUN	diminution
+significatives	ADJ	significative
+de	ADP	de
+la	DET	le
+frequence	NOUN	frequence
+de les	ADP DET	de le
+saignements	NOUN	saignement
+majeurs	ADJ	majeur
+et	CCONJ	et
+mineurs	ADJ	mineur
+ont	AUX	avoir
+ete	AUX	etre
+constatees	VERB	constater
+chez	ADP	chez
+les	DET	le
+patients	NOUN	patient
+de le	ADP DET	de le
+groupe	NOUN	groupe
+bivalidurine	NOUN	bivalidurine
+seule	ADJ	seul
+comparativement	ADV	comparativement
+a les	ADP DET	a le
+patients	NOUN	patient
+de le	ADP DET	de le
+groupe	NOUN	groupe
+heparine	NOUN	heparine
+plus	ADP	plus
+inhibiteur	NOUN	inhibiteur
+de	ADP	de
+la	DET	le
+gp	NOUN	gp
+iib/iiia	PROPN	iib/iiia
+et	CCONJ	et
+bivalidurine	NOUN	bivalidurine
+plus	ADP	plus
+inhibiteur	NOUN	inhibiteur
+de	ADP	de
+la	DET	le
+gp	NOUN	gp
+iib/iiia	PROPN	iib/iiia
+(	PUNCT	(
+voir	VERB	voir
+table	NOUN	table
+2	NUM	2
+)	PUNCT	)
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+significatives: significatif | significative
+}
+
+Expected: {
+composition	NOUN	composition
+en	ADP	en
+substance(s)	NOUN	substance
+active(s)	ADJ	actif
+}
+Predicted: {
+composition	NOUN	composition
+en	ADP	en
+substance(s)	NOUN	substance(s)
+active(s)	ADJ	active(s)
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+substance(s): substance | substance(s)
+active(s): actif | active(s)
+}
+
+Expected: {
+pour	ADP	pour
+le	DET	le
+traitement	NOUN	traitement
+de	ADP	de
+l'	DET	le
+osteoporose	NOUN	osteoporose
+,	PUNCT	,
+les	DET	le
+effets	NOUN	effet
+d'	ADP	de
+aclasta	PROPN	aclasta
+administre	VERB	administrer
+une	DET	un
+fois	NOUN	fois
+par	ADP	par
+an	NOUN	an
+ont	AUX	avoir
+ete	AUX	etre
+compares	VERB	comparer
+a	ADP	a
+ceux	PRON	celui
+d'	ADP	de
+un	DET	un
+placebo	NOUN	placebo
+(	PUNCT	(
+traitement	NOUN	traitement
+fictif	ADJ	fictif
+)	PUNCT	)
+a le	ADP DET	a le
+cours	NOUN	cours
+de	ADP	de
+deux	NUM	deux
+etudes	NOUN	etude
+princpales	ADJ	principal
+.	PUNCT	.
+}
+Predicted: {
+pour	ADP	pour
+le	DET	le
+traitement	NOUN	traitement
+de	ADP	de
+l'	DET	le
+osteoporose	NOUN	osteoporose
+,	PUNCT	,
+les	DET	le
+effets	NOUN	effet
+d'	ADP	de
+aclasta	PROPN	aclasta
+administre	VERB	administrer
+une	DET	un
+fois	NOUN	fois
+par	ADP	par
+an	NOUN	an
+ont	AUX	avoir
+ete	AUX	etre
+compares	VERB	comparer
+a	ADP	a
+ceux	PRON	celui
+d'	ADP	de
+un	DET	un
+placebo	NOUN	placebo
+(	PUNCT	(
+traitement	NOUN	traitement
+fictif	ADJ	fictif
+)	PUNCT	)
+a le	ADP DET	a le
+cours	NOUN	cours
+de	ADP	de
+deux	NUM	deux
+etudes	NOUN	etude
+princpales	ADJ	princpal
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+princpales: principal | princpal
+}
+
+Expected: {
+thierry	PROPN	thierry
+imbot	PROPN	imbot
+,	PUNCT	,
+fils	NOUN	fils
+de	ADP	de
+l'	DET	le
+ancien	ADJ	ancien
+directeur	NOUN	directeur
+de	ADP	de
+la	DET	le
+dgse	PROPN	dgse
+rene	PROPN	rene
+imbot	PROPN	imbot
+,	PUNCT	,
+est	AUX	etre
+decede	VERB	deceder
+en	ADP	en
+octobre	NOUN	octobre
+2000	NUM	2000
+a	ADP	a
+paris	PROPN	paris
+en	ADP	en
+chutant	VERB	chuter
+de le	ADP DET	de le
+quatrieme	ADJ	quatrieme
+etage	NOUN	etage
+de	ADP	de
+son	DET	son
+appartement	NOUN	appartement
+.	PUNCT	.
+}
+Predicted: {
+thierry	PROPN	thierry
+imbot	PROPN	imbot
+,	PUNCT	,
+fils	NOUN	fils
+de	ADP	de
+l'	DET	le
+ancien	ADJ	ancien
+directeur	NOUN	directeur
+de	ADP	de
+la	DET	le
+dgse	PROPN	dgse
+rene	PROPN	rene
+imbot	PROPN	imbot
+,	PUNCT	,
+est	AUX	etre
+decede	VERB	deceder
+en	ADP	en
+octobre	NOUN	octobre
+2000	NUM	2000
+a	ADP	a
+paris	PROPN	paris
+en	ADP	en
+chutant	VERB	chutant
+de le	ADP DET	de le
+quatrieme	ADJ	quatrieme
+etage	NOUN	etage
+de	ADP	de
+son	DET	son
+appartement	NOUN	appartement
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+chutant: chuter | chutant
+}
+
+Expected: {
+monsieur	NOUN	monsieur
+le	DET	le
+president	NOUN	president
+,	PUNCT	,
+a le	ADP DET	a le
+nom	NOUN	nom
+de le	ADP DET	de le
+groupe	NOUN	groupe
+de le	ADP DET	de le
+parti	NOUN	parti
+de les	ADP DET	de le
+socialistes	NOUN	socialiste
+europeens	ADJ	europeen
+,	PUNCT	,
+je	PRON	moi
+voudrais	VERB	vouloir
+me	PRON	moi
+rejouir	VERB	rejouir
+de	ADP	de
+la	DET	le
+proposition	NOUN	proposition
+de	ADP	de
+resolution	NOUN	resolution
+de	ADP	de
+mme	NOUN	monsieur
+malmstrom	PROPN	malmstrom
+.	PUNCT	.
+}
+Predicted: {
+monsieur	NOUN	monsieur
+le	DET	le
+president	NOUN	president
+,	PUNCT	,
+a le	ADP DET	a le
+nom	NOUN	nom
+de le	ADP DET	de le
+groupe	NOUN	groupe
+de le	ADP DET	de le
+parti	NOUN	parti
+de les	ADP DET	de le
+socialistes	NOUN	socialiste
+europeens	ADJ	europeen
+,	PUNCT	,
+je	PRON	moi
+voudrais	VERB	vouloir
+me	PRON	moi
+rejouir	VERB	rejouir
+de	ADP	de
+la	DET	le
+proposition	NOUN	proposition
+de	ADP	de
+resolution	NOUN	resolution
+de	ADP	de
+mme	NOUN	madame
+malmstrom	PROPN	malmstrom
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+mme: monsieur | madame
+}
+
+Expected: {
+c'	PRON	ce
+est	VERB	etre
+pourquoi	ADV	pourquoi
+nous	PRON	nous
+ne	ADV	ne
+soumettrons	VERB	soumettre
+pas	ADV	pas
+aujourd'hui	ADV	aujourd'hui
+cette	DET	ce
+resolution	NOUN	resolution
+a le	ADP DET	a le
+vote	NOUN	vote
+.	PUNCT	.
+}
+Predicted: {
+c'	PRON	ce
+est	VERB	etre
+pourquoi	ADV	pourquoi
+nous	PRON	nous
+ne	ADV	ne
+soumettrons	VERB	soumettrontsre
+pas	ADV	pas
+aujourd'hui	ADV	aujourd'hui
+cette	DET	ce
+resolution	NOUN	resolution
+a le	ADP DET	a le
+vote	NOUN	vote
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+soumettrons: soumettre | soumettrontsre
+}
+
+Expected: {
+elle	PRON	lui
+fut	AUX	etre
+tres	ADV	tres
+affectee	VERB	affecter
+par	ADP	par
+le	DET	le
+deces	NOUN	deces
+de	ADP	de
+son	DET	son
+mari	NOUN	mari
+en	ADP	en
+avril	NOUN	avril
+1993	NUM	1993
+,	PUNCT	,
+une	DET	un
+disparition	NOUN	disparition
+qu'	PRON	que
+elle	PRON	lui
+surmonta	VERB	surmonter
+avec	ADP	avec
+beaucoup	ADV	beaucoup
+de	ADP	de
+courage	NOUN	courage
+.	PUNCT	.
+}
+Predicted: {
+elle	PRON	lui
+fut	AUX	etre
+tres	ADV	tres
+affectee	VERB	affecter
+par	ADP	par
+le	DET	le
+deces	NOUN	deces
+de	ADP	de
+son	DET	son
+mari	NOUN	mari
+en	ADP	en
+avril	NOUN	avril
+1993	NUM	1993
+,	PUNCT	,
+une	DET	un
+disparition	NOUN	disparition
+qu'	PRON	que
+elle	PRON	lui
+surmonta	VERB	surmontar
+avec	ADP	avec
+beaucoup	ADV	beaucoup
+de	ADP	de
+courage	NOUN	courage
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+surmonta: surmonter | surmontar
+}
+
+Expected: {
+date	NOUN	date
+de	ADP	de
+premiere	ADJ	premiere
+autorisation	NOUN	autorisation
+/	CCONJ	ou
+de	ADP	de
+renouvellement	NOUN	renouvellement
+de	ADP	de
+l'	DET	le
+autorisation	NOUN	autorisation
+}
+Predicted: {
+date	NOUN	date
+de	ADP	de
+premiere	ADJ	premier
+autorisation	NOUN	autorisation
+/	CCONJ	ou
+de	ADP	de
+renouvellement	NOUN	renouvellement
+de	ADP	de
+l'	DET	le
+autorisation	NOUN	autorisation
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+premiere: premiere | premier
+}
+
+Expected: {
+-	PUNCT	-
+le	DET	le
+16	NUM	16
+juin	NOUN	juin
+2006	NUM	2006
+,	PUNCT	,
+les	DET	le
+juges	NOUN	juge
+renaud	PROPN	renaud
+van	PROPN	van
+ruymbeke	PROPN	ruymbeke
+et	CCONJ	et
+xaviere	PROPN	xaviere
+simeoni	PROPN	simeoni
+(	PUNCT	(
+qui	PRON	qui
+remplace	VERB	remplacer
+dominique	PROPN	dominique
+de	ADP	de
+talance	PROPN	talance
+)	PUNCT	)
+ont	AUX	avoir
+adresse	VERB	adresser
+une	DET	un
+nouvelle	ADJ	nouveau
+demande	NOUN	demande
+de	ADP	de
+levee	NOUN	levee
+de le	ADP DET	de le
+secret	NOUN	secret
+defense	NOUN	defense
+a le	ADP DET	a le
+ministere	NOUN	ministere
+de	ADP	de
+l'	DET	le
+economie	NOUN	economie
+et	CCONJ	et
+de les	ADP DET	de le
+finances	NOUN	finance
+,	PUNCT	,
+seul	ADJ	seul
+habilite	VERB	habiliter
+a	ADP	a
+saisir	VERB	saisir
+la	DET	le
+commission	NOUN	commission
+consultative	ADJ	consultatif
+de le	ADP DET	de le
+secret	NOUN	secret
+de	ADP	de
+la	DET	le
+defense	NOUN	defense
+nationale	ADJ	national
+(	PUNCT	(
+ccsdn	PROPN	ccsdn
+)	PUNCT	)
+.	PUNCT	.
+}
+Predicted: {
+-	PUNCT	-
+le	DET	le
+16	NUM	16
+juin	NOUN	juin
+2006	NUM	2006
+,	PUNCT	,
+les	DET	le
+juges	NOUN	juge
+renaud	PROPN	renaud
+van	PROPN	van
+ruymbeke	PROPN	ruymbeke
+et	CCONJ	et
+xaviere	PROPN	xaviere
+simeoni	PROPN	simeoni
+(	PUNCT	(
+qui	PRON	qui
+remplace	VERB	remplacer
+dominique	PROPN	dominique
+de	ADP	de
+talance	PROPN	talance
+)	PUNCT	)
+ont	AUX	avoir
+adresse	VERB	adresser
+une	DET	un
+nouvelle	ADJ	nouveau
+demande	NOUN	demande
+de	ADP	de
+levee	NOUN	levee
+de le	ADP DET	de le
+secret	NOUN	secret
+defense	NOUN	defense
+a le	ADP DET	a le
+ministere	NOUN	ministere
+de	ADP	de
+l'	DET	le
+economie	NOUN	economie
+et	CCONJ	et
+de les	ADP DET	de le
+finances	NOUN	finance
+,	PUNCT	,
+seul	ADJ	seul
+habilite	VERB	habilite
+a	ADP	a
+saisir	VERB	saisir
+la	DET	le
+commission	NOUN	commission
+consultative	ADJ	consultatif
+de le	ADP DET	de le
+secret	NOUN	secret
+de	ADP	de
+la	DET	le
+defense	NOUN	defense
+nationale	ADJ	national
+(	PUNCT	(
+ccsdn	PROPN	ccsdn
+)	PUNCT	)
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+habilite: habiliter | habilite
+}
+
+Expected: {
+une	DET	un
+seconde	ADJ	second
+operation	NOUN	operation
+se	PRON	soi
+deroulait	VERB	derouler
+en	ADP	en
+parallele	NOUN	parallele
+sur	ADP	sur
+le	DET	le
+territoire	NOUN	territoire
+de	ADP	de
+la	DET	le
+commune	NOUN	commune
+,	PUNCT	,
+avec	ADP	avec
+un	DET	un
+groupe	NOUN	groupe
+d'	ADP	de
+une	DET	un
+dizaine	NOUN	dizaine
+de	ADP	de
+chevaliers	NOUN	chevalier
+de	ADP	de
+la	DET	le
+gaule	PROPN	gaule
+"	PUNCT	"
+la	DET	le
+barisienne	PROPN	barisienne
+"	PUNCT	"
+,	PUNCT	,
+des	DET	un
+pecheurs	NOUN	pecheur
+a	ADP	a
+la	DET	le
+ligne	NOUN	ligne
+venus	VERB	venir
+nettoyer	VERB	nettoyer
+les	DET	le
+rives	NOUN	rive
+et	CCONJ	et
+curer	VERB	curer
+le	DET	le
+petit	ADJ	petit
+ruisseau	NOUN	ruisseau
+qui	PRON	qui
+serpente	VERB	serpenter
+sous	ADP	sous
+les	DET	le
+"	PUNCT	"
+sources	PROPN	sources
+"	PUNCT	"
+avant	ADP	avant
+de	ADP	de
+se	PRON	soi
+jeter	VERB	jeter
+dans	ADP	dans
+l'	DET	le
+ornain	PROPN	ornain
+.	PUNCT	.
+}
+Predicted: {
+une	DET	un
+seconde	ADJ	second
+operation	NOUN	operation
+se	PRON	soi
+deroulait	VERB	derouler
+en	ADP	en
+parallele	NOUN	parallele
+sur	ADP	sur
+le	DET	le
+territoire	NOUN	territoire
+de	ADP	de
+la	DET	le
+commune	NOUN	commune
+,	PUNCT	,
+avec	ADP	avec
+un	DET	un
+groupe	NOUN	groupe
+d'	ADP	de
+une	DET	un
+dizaine	NOUN	dizaine
+de	ADP	de
+chevaliers	NOUN	chevalier
+de	ADP	de
+la	DET	le
+gaule	PROPN	gaule
+"	PUNCT	"
+la	DET	le
+barisienne	PROPN	barisien
+"	PUNCT	"
+,	PUNCT	,
+des	DET	un
+pecheurs	NOUN	pecheur
+a	ADP	a
+la	DET	le
+ligne	NOUN	ligne
+venus	VERB	venir
+nettoyer	VERB	nettoyer
+les	DET	le
+rives	NOUN	rive
+et	CCONJ	et
+curer	VERB	curer
+le	DET	le
+petit	ADJ	petit
+ruisseau	NOUN	ruisseau
+qui	PRON	qui
+serpente	VERB	serpenter
+sous	ADP	sous
+les	DET	le
+"	PUNCT	"
+sources	PROPN	sources
+"	PUNCT	"
+avant	ADP	avant
+de	ADP	de
+se	PRON	soi
+jeter	VERB	jeter
+dans	ADP	dans
+l'	DET	le
+ornain	PROPN	ornain
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+barisienne: barisienne | barisien
+}
+
+Expected: {
+a	ADP	a
+la	DET	le
+maison	NOUN	maison
+,	PUNCT	,
+ses	DET	son
+seuls	ADJ	seul
+plaisirs	NOUN	plaisir
+etaient	AUX	etre
+de	ADP	de
+regarder	VERB	regarder
+les	DET	le
+emissions	NOUN	emission
+de	ADP	de
+jeux	NOUN	jeu
+a	ADP	a
+la	DET	le
+television	NOUN	television
+et	CCONJ	et
+de	ADP	de
+faire	VERB	faire
+les	DET	le
+mots	NOUN	mot
+meles	VERB	meler
+,	PUNCT	,
+un	DET	un
+exercice	NOUN	exercice
+de	ADP	de
+memoire	NOUN	memoire
+qu'	PRON	que
+elle	PRON	lui
+affectionnait	VERB	affectionner
+.	PUNCT	.
+}
+Predicted: {
+a	ADP	a
+la	DET	le
+maison	NOUN	maison
+,	PUNCT	,
+ses	DET	son
+seuls	ADJ	seul
+plaisirs	NOUN	plaisir
+etaient	AUX	etre
+de	ADP	de
+regarder	VERB	regarder
+les	DET	le
+emissions	NOUN	emission
+de	ADP	de
+jeux	NOUN	jeu
+a	ADP	a
+la	DET	le
+television	NOUN	television
+et	CCONJ	et
+de	ADP	de
+faire	VERB	faire
+les	DET	le
+mots	NOUN	mot
+meles	VERB	mele
+,	PUNCT	,
+un	DET	un
+exercice	NOUN	exercice
+de	ADP	de
+memoire	NOUN	memoire
+qu'	PRON	que
+elle	PRON	lui
+affectionnait	VERB	affectionner
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+meles: meler | mele
+}
+
+Expected: {
+mais	CCONJ	mais
+desolante	ADJ	desolant
+aussi	ADV	aussi
+pour	ADP	pour
+la	DET	le
 ville	NOUN	ville
 .	PUNCT	.
 }
 Predicted: {
-moi	PRON	moi
-,	PUNCT	,
-je	PRON	moi
-vous	PRON	vous
-conseillerais	VERB	conseilleraisr
-de	ADP	de
-,	PUNCT	,
-d'	ADP	de
-aller	VERB	aller
-tout	ADV	tout
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-de	ADP	de
-traverser	VERB	traverser
-les	DET	le
-jardins	NOUN	jardin
-de	ADP	de
+mais	CCONJ	mais
+desolante	ADJ	desolante
+aussi	ADV	aussi
+pour	ADP	pour
+la	DET	le
 ville	NOUN	ville
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-conseillerais: conseiller | conseilleraisr
+desolante: desolant | desolante
 }
 
 Expected: {
-vous	PRON	vous
-continuez	VERB	continuer
-sur	ADP	sur
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-deux	NUM	deux
-cents	NUM	cents
-metres	NOUN	metre
+rixe	NOUN	rixe
+a	ADP	a
+montbeliard	PROPN	montbeliard
+:	PUNCT	:
+un	DET	un
+belfortain	NOUN	belfortain
+ivre	ADJ	ivre
+interpelle	VERB	interpeller
 .	PUNCT	.
 }
 Predicted: {
-vous	PRON	vous
-continuez	VERB	continuer
-sur	ADP	sur
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-deux	NUM	deux
-cents	NUM	cent
-metres	NOUN	metre
+rixe	NOUN	rixe
+a	ADP	a
+montbeliard	PROPN	montbeliard
+:	PUNCT	:
+un	DET	un
+belfortain	NOUN	belfortain
+ivre	ADJ	ivre
+interpelle	VERB	interpelle
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-cents: cents | cent
+interpelle: interpeller | interpelle
 }
 
 Expected: {
-tu	PRON	toi
-suis	VERB	suivre
+il	PRON	lui
+appartiendra	VERB	appartenir
+ensuite	ADV	ensuite
+a le	ADP DET	a le
+conseil	NOUN	conseil
+de	ADP	de
+prendre	VERB	prendre
+une	DET	un
+decision	NOUN	decision
+definitive	ADJ	definitif
+sur	ADP	sur
 la	DET	le
-ligne	NOUN	ligne
+faisabilite	NOUN	faisabilite
 de le	ADP DET	de le
-tram	NOUN	tram
-jusqu'	ADP	jusque
-a	ADP	a
+projet	NOUN	projet
 ,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-,	PUNCT	,
-ben	INTJ	ben
-,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-la	DET	le
-nef	PROPN	nef
-chavant	PROPN	chavant
+sachant	VERB	savoir
+que	SCONJ	que
+le	DET	le
+lot	NOUN	lot
+gros	ADJ	gros
+oeuvre	NOUN	oeuvre
+devra	VERB	devoir
+probablement	ADV	probablement
+etre	AUX	etre
+declare	VERB	declarer
+infructueux	ADJ	infructueux
 .	PUNCT	.
 }
 Predicted: {
-tu	PRON	toi
-suis	VERB	etre
+il	PRON	lui
+appartiendra	VERB	appartiendre
+ensuite	ADV	ensuite
+a le	ADP DET	a le
+conseil	NOUN	conseil
+de	ADP	de
+prendre	VERB	prendre
+une	DET	un
+decision	NOUN	decision
+definitive	ADJ	definitif
+sur	ADP	sur
 la	DET	le
-ligne	NOUN	ligne
+faisabilite	NOUN	faisabilite
 de le	ADP DET	de le
-tram	NOUN	tram
-jusqu'	ADP	jusque
-a	ADP	a
+projet	NOUN	projet
 ,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-,	PUNCT	,
-ben	INTJ	ben
-,	PUNCT	,
-jusqu'	ADP	jusque
-a	ADP	a
-la	DET	le
-nef	PROPN	nef
-chavant	PROPN	chavant
+sachant	VERB	savoir
+que	SCONJ	que
+le	DET	le
+lot	NOUN	lot
+gros	ADJ	gros
+oeuvre	NOUN	oeuvre
+devra	VERB	devoir
+probablement	ADV	probablement
+etre	AUX	etre
+declare	VERB	declarer
+infructueux	ADJ	infructueux
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-suis: suivre | etre
+appartiendra: appartenir | appartiendre
 }
 
 Expected: {
+quelques	DET	quelque
+questions	NOUN	question
+diverses	ADJ	divers
+comme	ADP	comme
+l'	DET	le
+indemnite	NOUN	indemnite
+de le	ADP DET	de le
+tresorier	NOUN	tresorier
+principal	ADJ	principal
+de	ADP	de
+toul	PROPN	toul
+,	PUNCT	,
+ou	CCONJ	ou
+l'	DET	le
+assurance	NOUN	assurance
+de les	ADP DET	de le
+personnel	NOUN	personnel
+communaux	ADJ	communal
+ont	AUX	avoir
+clos	VERB	clore
+cette	DET	ce
+soiree	NOUN	soiree
+de	ADP	de
+travail	NOUN	travail
+.	PUNCT	.
+}
+Predicted: {
+quelques	DET	quelque
+questions	NOUN	question
+diverses	ADJ	divers
+comme	ADP	comme
+l'	DET	le
+indemnite	NOUN	indemnite
+de le	ADP DET	de le
+tresorier	NOUN	tresorier
+principal	ADJ	principal
+de	ADP	de
+toul	PROPN	toul
+,	PUNCT	,
+ou	CCONJ	ou
+l'	DET	le
+assurance	NOUN	assurance
+de les	ADP DET	de le
+personnel	NOUN	personnel
+communaux	ADJ	communaux
+ont	AUX	avoir
+clos	VERB	clore
+cette	DET	ce
+soiree	NOUN	soiree
+de	ADP	de
+travail	NOUN	travail
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+communaux: communal | communaux
+}
+
+Expected: {
+la	DET	le
+thrombine	NOUN	thrombine
+active	VERB	activer
+egalement	ADV	egalement
+les	DET	le
+facteurs	NOUN	facteur
+v	ADJ	v
 et	CCONJ	et
+viii	ADJ	viii
+,	PUNCT	,
 ce	PRON	ce
 qui	PRON	qui
-est	AUX	etre
-interessant	ADJ	interessant
-a	ADP	a
-souligner	VERB	souligner
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-si	SCONJ	si
-vous	PRON	vous
-poursuivez	VERB	poursuivre
-des	DET	un
-etudes	NOUN	etude
-d'	ADP	de
-histoire	NOUN	histoire
+entraine	VERB	entrainer
+une	DET	un
+plus	ADV	plus
+grande	ADJ	grand
+production	NOUN	production
 de	ADP	de
-l'	DET	le
-art	NOUN	art
-par	ADP	par
-exemple	NOUN	exemple
+thrombine	NOUN	thrombine
+et	CCONJ	et
+active	VERB	activer
+les	DET	le
+plaquettes	NOUN	plaquette
 ,	PUNCT	,
-vous	PRON	vous
-le	PRON	lui
-verrez	VERB	voir
-tres	ADV	tres
-bien	ADV	bien
-,	PUNCT	,
-c'	PRON	ce
-est	VERB	etre
-que	SCONJ	que
-pendant	ADP	pendant
-tres	ADV	tres
-longtemps	ADV	longtemps
-on	PRON	on
-n'	ADV	ne
-a	AUX	avoir
-pas	ADV	pas
-beaucoup	ADV	beaucoup
-parle	VERB	parler
-d'	ADP	de
-esthetique	NOUN	esthetique
+stimulant	VERB	stimuler
+leur	DET	son
+agregation	NOUN	agregation
+et	CCONJ	et
+la	DET	le
+liberation	NOUN	liberation
+de les	ADP DET	de le
+granules	NOUN	granule
 .	PUNCT	.
 }
 Predicted: {
+la	DET	le
+thrombine	NOUN	thrombine
+active	VERB	activer
+egalement	ADV	egalement
+les	DET	le
+facteurs	NOUN	facteur
+v	ADJ	v
 et	CCONJ	et
+viii	ADJ	viii
+,	PUNCT	,
 ce	PRON	ce
 qui	PRON	qui
-est	AUX	etre
-interessant	ADJ	interessant
+entraine	VERB	entrainer
+une	DET	un
+plus	ADV	plus
+grande	ADJ	grand
+production	NOUN	production
+de	ADP	de
+thrombine	NOUN	thrombine
+et	CCONJ	et
+active	VERB	activer
+les	DET	le
+plaquettes	NOUN	plaquette
+,	PUNCT	,
+stimulant	VERB	stimulant
+leur	DET	son
+agregation	NOUN	agregation
+et	CCONJ	et
+la	DET	le
+liberation	NOUN	liberation
+de les	ADP DET	de le
+granules	NOUN	granule
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+stimulant: stimuler | stimulant
+}
+
+Expected: {
+une	DET	un
+comparaison	NOUN	comparaison
+de les	ADP DET	de le
+etudes	NOUN	etude
 a	ADP	a
-souligner	VERB	souligner
+dose	NOUN	dose
+unique	ADJ	unique
+et	CCONJ	et
+a	ADP	a
+doses	NOUN	dose
+repetees	VERB	repeter
+a	AUX	avoir
+revele	VERB	reveler
+que	SCONJ	que
+la	DET	le
+toxicite	NOUN	toxicite
+etait	AUX	etre
+principalement	ADV	principalement
+liee	VERB	lier
+a	ADP	a
+la	DET	le
+duree	NOUN	duree
+d'	ADP	de
+exposition	NOUN	exposition
+.	PUNCT	.
+}
+Predicted: {
+une	DET	un
+comparaison	NOUN	comparaison
+de les	ADP DET	de le
+etudes	NOUN	etude
+a	ADP	a
+dose	NOUN	dose
+unique	ADJ	unique
+et	CCONJ	et
+a	ADP	a
+doses	NOUN	dose
+repetees	VERB	repeter
+a	AUX	a
+revele	VERB	reveler
+que	SCONJ	que
+la	DET	le
+toxicite	NOUN	toxicite
+etait	AUX	etre
+principalement	ADV	principalement
+liee	VERB	lier
+a	ADP	a
+la	DET	le
+duree	NOUN	duree
+d'	ADP	de
+exposition	NOUN	exposition
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+a: avoir | a
+}
+
+Expected: {
+-	PUNCT	-
+gardez	VERB	garder
+cette	DET	ce
+notice	NOUN	notice
 ,	PUNCT	,
-euh	INTJ	euh
+vous	PRON	vous
+pourriez	VERB	pouvoir
+avoir	VERB	avoir
+besoin	NOUN	besoin
+de	ADP	de
+la	PRON	lui
+relire	VERB	relire
+.	PUNCT	.
+}
+Predicted: {
+-	PUNCT	-
+gardez	VERB	garder
+cette	DET	ce
+notice	NOUN	notice
 ,	PUNCT	,
+vous	PRON	vous
+pourriez	VERB	pourriez
+avoir	VERB	avoir
+besoin	NOUN	besoin
+de	ADP	de
+la	PRON	lui
+relire	VERB	relire
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+pourriez: pouvoir | pourriez
+}
+
+Expected: {
+il	PRON	lui
+est	AUX	etre
+recommande	VERB	recommander
+de	ADP	de
+mesurer	VERB	mesurer
+la	DET	le
+calcemie	NOUN	calcemie
+avant	ADP	avant
+la	DET	le
+perfusion	NOUN	perfusion
+d'	ADP	de
+aclasta	PROPN	aclasta
+chez	ADP	chez
+les	DET	le
+patients	NOUN	patient
+atteints	VERB	atteindre
+de	ADP	de
+la	DET	le
+maldie	NOUN	maladie
+osseuse	ADJ	osseux
+de	ADP	de
+paget	PROPN	paget
+.	PUNCT	.
+}
+Predicted: {
+il	PRON	lui
+est	AUX	etre
+recommande	VERB	recommander
+de	ADP	de
+mesurer	VERB	mesurer
+la	DET	le
+calcemie	NOUN	calcemie
+avant	ADP	avant
+la	DET	le
+perfusion	NOUN	perfusion
+d'	ADP	de
+aclasta	PROPN	aclasta
+chez	ADP	chez
+les	DET	le
+patients	NOUN	patient
+atteints	VERB	atteindre
+de	ADP	de
+la	DET	le
+maldie	NOUN	maldie
+osseuse	ADJ	osseux
+de	ADP	de
+paget	PROPN	paget
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+maldie: maladie | maldie
+}
+
+Expected: {
+aucune	DET	aucun
+etude	NOUN	etude
+specifique	ADJ	specifique
+d'	ADP	de
+interaction	NOUN	interaction
+medicamenteuse	ADJ	medicamenteux
+n'	ADV	ne
+a	AUX	avoir
+ete	AUX	etre
+conduite	VERB	conduire
+avec	ADP	avec
+l'	DET	le
+acide	NOUN	acide
+zoledronique	ADJ	zoledronique
+.	PUNCT	.
+}
+Predicted: {
+aucune	DET	aucun
+etude	NOUN	etude
+specifique	ADJ	specifique
+d'	ADP	de
+interaction	NOUN	interaction
+medicamenteuse	ADJ	medicamenteuse
+n'	ADV	ne
+a	AUX	avoir
+ete	AUX	etre
+conduite	VERB	conduire
+avec	ADP	avec
+l'	DET	le
+acide	NOUN	acide
+zoledronique	ADJ	zoledronique
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+medicamenteuse: medicamenteux | medicamenteuse
+}
+
+Expected: {
+aclasta	PROPN	aclasta
+ne	ADV	ne
+doit	VERB	devoir
+pas	ADV	pas
+etre	AUX	etre
+melange	VERB	melanger
+ou	CCONJ	ou
+administre	VERB	administrer
+par	ADP	par
+voie	NOUN	voie
+intraveineuse	ADJ	intraveineux
+avec	ADP	avec
+un	DET	un
+autre	ADJ	autre
+medicament	NOUN	medicament
+,	PUNCT	,
+et	CCONJ	et
+doit	VERB	devoir
+etre	AUX	etre
+administre	VERB	administrer
+avec	ADP	avec
+une	DET	un
+ligne	NOUN	ligne
+de	ADP	de
+perfusion	NOUN	perfusion
+separee	ADJ	separe
+,	PUNCT	,
+avec	ADP	avec
+prise	NOUN	prise
+d'	ADP	de
+air	NOUN	air
+,	PUNCT	,
+a	ADP	a
+vitesse	NOUN	vitesse
+de	ADP	de
+perfusion	NOUN	perfusion
+constante	ADJ	constant
+.	PUNCT	.
+}
+Predicted: {
+aclasta	PROPN	aclasta
+ne	ADV	ne
+doit	VERB	devoir
+pas	ADV	pas
+etre	AUX	etre
+melange	VERB	melanger
+ou	CCONJ	ou
+administre	VERB	administrer
+par	ADP	par
+voie	NOUN	voie
+intraveineuse	ADJ	intraveineux
+avec	ADP	avec
+un	DET	un
+autre	ADJ	autre
+medicament	NOUN	medicament
+,	PUNCT	,
+et	CCONJ	et
+doit	VERB	devoir
+etre	AUX	etre
+administre	VERB	administrer
+avec	ADP	avec
+une	DET	un
+ligne	NOUN	ligne
+de	ADP	de
+perfusion	NOUN	perfusion
+separee	ADJ	separee
+,	PUNCT	,
+avec	ADP	avec
+prise	NOUN	prise
+d'	ADP	de
+air	NOUN	air
+,	PUNCT	,
+a	ADP	a
+vitesse	NOUN	vitesse
+de	ADP	de
+perfusion	NOUN	perfusion
+constante	ADJ	constant
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+separee: separe | separee
+}
+
+Expected: {
 si	SCONJ	si
 vous	PRON	vous
-poursuivez	VERB	poursuiver
-des	DET	un
-etudes	NOUN	etude
-d'	ADP	de
-histoire	NOUN	histoire
-de	ADP	de
-l'	DET	le
-art	NOUN	art
-par	ADP	par
-exemple	NOUN	exemple
-,	PUNCT	,
-vous	PRON	vous
-le	PRON	lui
-verrez	VERB	voir
-tres	ADV	tres
-bien	ADV	bien
-,	PUNCT	,
-c'	PRON	ce
-est	VERB	etre
-que	SCONJ	que
-pendant	ADP	pendant
-tres	ADV	tres
-longtemps	ADV	longtemps
-on	PRON	on
-n'	ADV	ne
-a	AUX	avoir
-pas	ADV	pas
-beaucoup	ADV	beaucoup
-parle	VERB	parler
-d'	ADP	de
-esthetique	NOUN	esthetique
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-poursuivez: poursuivre | poursuiver
-}
-
-Expected: {
-il	PRON	lui
-y	PRON	y
-a	VERB	avoir
-toujours	ADV	toujours
-une	DET	un
-,	PUNCT	,
-u~	DET	u~
-,	PUNCT	,
-plus	ADV	plus
-ou	CCONJ	ou
-moins	ADV	moins
-,	PUNCT	,
-mh	INTJ	mh
-,	PUNCT	,
-la	ADV	la
-,	PUNCT	,
-ou	CCONJ	ou
-plus	ADV	plus
-ou	CCONJ	ou
-moins	ADV	moins
-pregnante	ADJ	pregnant
-,	PUNCT	,
-une	DET	un
-espece	NOUN	espece
-d'	ADP	de
-ambiance	NOUN	ambiance
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-fantastique	ADJ	fantastique
-,	PUNCT	,
-de	ADP	de
-choses	NOUN	chose
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-completement	ADV	completement
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-irreelles	ADJ	irreel
-ou	CCONJ	ou
-surnaturelles	ADJ	surnaturel
-.	PUNCT	.
+ratifiez	VERB	ratifier
+...	PUNCT	...
 }
 Predicted: {
-il	PRON	lui
-y	PRON	y
-a	VERB	avoir
-toujours	ADV	toujours
-une	DET	un
-,	PUNCT	,
-u~	DET	u~
-,	PUNCT	,
-plus	ADV	plus
-ou	CCONJ	ou
-moins	ADV	moins
-,	PUNCT	,
-mh	INTJ	mh
-,	PUNCT	,
-la	ADV	le
-,	PUNCT	,
-ou	CCONJ	ou
-plus	ADV	plus
-ou	CCONJ	ou
-moins	ADV	moins
-pregnante	ADJ	pregnant
-,	PUNCT	,
-une	DET	un
-espece	NOUN	espece
-d'	ADP	de
-ambiance	NOUN	ambiance
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-fantastique	ADJ	fantastique
-,	PUNCT	,
-de	ADP	de
-choses	NOUN	chose
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-completement	ADV	completement
-,	PUNCT	,
-euh	INTJ	euh
-,	PUNCT	,
-irreelles	ADJ	irreelle
-ou	CCONJ	ou
-surnaturelles	ADJ	surnaturelle
-.	PUNCT	.
+si	SCONJ	si
+vous	PRON	vous
+ratifiez	VERB	ratifiezr
+...	PUNCT	...
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-la: la | le
-irreelles: irreel | irreelle
-surnaturelles: surnaturel | surnaturelle
+ratifiez: ratifier | ratifiezr
 }
 
 Expected: {
-donc	ADV	donc
-,	PUNCT	,
-la	ADV	la
-,	PUNCT	,
-vous	PRON	vous
-partez	VERB	partir
 dans	ADP	dans
-cette	DET	ce
-direction	NOUN	direction
-,	PUNCT	,
-toujours	ADV	toujours
-tout	ADV	tout
-droit	ADJ	droit
-.	PUNCT	.
-}
-Predicted: {
-donc	ADV	donc
-,	PUNCT	,
-la	ADV	le
-,	PUNCT	,
-vous	PRON	vous
-partez	VERB	partir
-dans	ADP	dans
-cette	DET	ce
-direction	NOUN	direction
-,	PUNCT	,
-toujours	ADV	toujours
-tout	ADV	tout
-droit	ADJ	droit
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-la: la | le
-}
-
-Expected: {
-les	DET	le
-recommandations	NOUN	recommandation
-proposees	VERB	proposer
-n'	ADV	ne
-amelioreront	VERB	ameliorer
-pas	ADV	pas
 la	DET	le
-position	NOUN	position
-de	ADP	de
-la	DET	le
-culture	NOUN	culture
-en	ADP	en
-europe	PROPN	europe
+pratique	NOUN	pratique
 ,	PUNCT	,
-bien	ADV	bien
-a le	ADP DET	a le
-contraire	NOUN	contraire
-.	PUNCT	.
-}
-Predicted: {
-les	DET	le
-recommandations	NOUN	recommandation
-proposees	VERB	proposer
-n'	ADV	ne
-amelioreront	VERB	amelioreront
-pas	ADV	pas
-la	DET	le
-position	NOUN	position
-de	ADP	de
-la	DET	le
-culture	NOUN	culture
-en	ADP	en
-europe	PROPN	europe
-,	PUNCT	,
-bien	ADV	bien
-a le	ADP DET	a le
-contraire	NOUN	contraire
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-amelioreront: ameliorer | amelioreront
-}
-
-Expected: {
-je	PRON	moi
-crois	VERB	croire
-aussi	ADV	aussi
-qu'	SCONJ	que
 il	PRON	lui
-faut	VERB	falloir
-accorder	VERB	accorder
-une	DET	un
-attention	NOUN	attention
-particuliere	ADJ	particulier
--	PUNCT	-
-c'	PRON	ce
-est	AUX	etre
-l'	DET	le
-objet	NOUN	objet
-d'	ADP	de
-un	DET	un
-amendement	NOUN	amendement
+s'	PRON	soi
+agit	VERB	agir
+cependant	ADV	cependant
+de	ADP	de
+deux	NUM	deux
+actes	NOUN	acte
 que	PRON	que
 nous	PRON	nous
-presenterons	VERB	presenter
-demain	ADV	demain
-en	ADP	en
-pleniere	ADJ	plenier
--	PUNCT	-
-a le	ADP DET	a le
-droit	NOUN	droit
+executons	VERB	executer
+,	PUNCT	,
 a	ADP	a
+savoir	VERB	savoir
+d'	ADP	de
+une	DET	un
+part	NOUN	part
+l'	DET	le
+evaluation	NOUN	evaluation
+politique	ADJ	politique
+dans	ADP	dans
 la	DET	le
-vie	NOUN	vie
-privee	ADJ	prive
+decision	NOUN	decision
+de	ADP	de
+decharge	NOUN	decharge
+et	CCONJ	et
+,	PUNCT	,
+dans	ADP	dans
+un	DET	un
+deuxieme	ADJ	deuxieme
+acte	NOUN	acte
+,	PUNCT	,
+la	DET	le
+cloture	NOUN	cloture
+de les	ADP DET	de le
+comptes	NOUN	compte
+de	ADP	de
+l'	DET	le
+exercice	NOUN	exercice
 .	PUNCT	.
 }
 Predicted: {
-je	PRON	moi
-crois	VERB	croire
-aussi	ADV	aussi
-qu'	SCONJ	que
+dans	ADP	dans
+la	DET	le
+pratique	NOUN	pratique
+,	PUNCT	,
 il	PRON	lui
-faut	VERB	falloir
-accorder	VERB	accorder
-une	DET	un
-attention	NOUN	attention
-particuliere	ADJ	particulier
--	PUNCT	-
-c'	PRON	ce
-est	AUX	etre
-l'	DET	le
-objet	NOUN	objet
-d'	ADP	de
-un	DET	un
-amendement	NOUN	amendement
+s'	PRON	soi
+agit	VERB	agir
+cependant	ADV	cependant
+de	ADP	de
+deux	NUM	deux
+actes	NOUN	acte
 que	PRON	que
 nous	PRON	nous
-presenterons	VERB	presenterer
-demain	ADV	demain
-en	ADP	en
-pleniere	ADJ	pleniere
--	PUNCT	-
-a le	ADP DET	a le
-droit	NOUN	droit
+executons	VERB	executonsr
+,	PUNCT	,
 a	ADP	a
-la	DET	le
-vie	NOUN	vie
-privee	ADJ	prive
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-presenterons: presenter | presenterer
-pleniere: plenier | pleniere
-}
-
-Expected: {
-madame	NOUN	monsieur
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-j'	PRON	moi
-ai	AUX	avoir
-appris	VERB	apprendre
-hier	ADV	hier
-soir	NOUN	soir
-que	SCONJ	que
-m.	NOUN	monsieur
-akim	PROPN	akim
-birdal	PROPN	birdal
-,	PUNCT	,
-l'	DET	le
-ancien	ADJ	ancien
-president	NOUN	president
-de le	ADP DET	de le
-comite	NOUN	comite
-de les	ADP DET	de le
-droits	NOUN	droit
-de	ADP	de
-l'	DET	le
-homme	NOUN	homme
-de	ADP	de
-turquie	PROPN	turquie
-,	PUNCT	,
-a	AUX	avoir
-ete	AUX	etre
-remis	VERB	remettre
-en	ADP	en
-prison	NOUN	prison
-.	PUNCT	.
-}
-Predicted: {
-madame	NOUN	madame
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-j'	PRON	moi
-ai	AUX	avoir
-appris	VERB	apprendre
-hier	ADV	hier
-soir	NOUN	soir
-que	SCONJ	que
-m.	NOUN	monsieur
-akim	PROPN	akim
-birdal	PROPN	birdal
-,	PUNCT	,
-l'	DET	le
-ancien	ADJ	ancien
-president	NOUN	president
-de le	ADP DET	de le
-comite	NOUN	comite
-de les	ADP DET	de le
-droits	NOUN	droit
-de	ADP	de
-l'	DET	le
-homme	NOUN	homme
-de	ADP	de
-turquie	PROPN	turquie
-,	PUNCT	,
-a	AUX	avoir
-ete	AUX	etre
-remis	VERB	remettre
-en	ADP	en
-prison	NOUN	prison
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-d'	ADP	de
-autant	ADV	autant
-que	SCONJ	que
-le	DET	le
-relevement	NOUN	relevement
-de les	ADP DET	de le
-seuils	NOUN	seuil
-exclurait	VERB	exclure
-de	DET	un
-nombreuses	ADJ	nombreux
-petites	ADJ	petit
-listes	NOUN	liste
-.	PUNCT	.
-}
-Predicted: {
-d'	ADP	de
-autant	ADV	autant
-que	SCONJ	que
-le	DET	le
-relevement	NOUN	relevement
-de les	ADP DET	de le
-seuils	NOUN	seuil
-exclurait	VERB	exclurri
-de	DET	un
-nombreuses	ADJ	nombreux
-petites	ADJ	petit
-listes	NOUN	liste
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-exclurait: exclure | exclurri
-}
-
-Expected: {
-votre	DET	son
-medecin	NOUN	medecin
-vous	PRON	vous
-conseillera	VERB	conseiller
-et	CCONJ	et
-decidera	VERB	decider
-pendant	ADP	pendant
-combien	ADV	combien
-de	ADP	de
-temps	NOUN	temps
-vous	PRON	vous
-devez	VERB	devoir
-etre	AUX	etre
-traite(e)	VERB	traite(e)
-par	ADP	par
-aclasta	PROPN	aclasta
-.	PUNCT	.
-}
-Predicted: {
-votre	DET	son
-medecin	NOUN	medecin
-vous	PRON	vous
-conseillera	VERB	conseiller
-et	CCONJ	et
-decidera	VERB	decider
-pendant	ADP	pendant
-combien	ADV	combien
-de	ADP	de
-temps	NOUN	temps
-vous	PRON	vous
-devez	VERB	devoir
-etre	AUX	etre
-traite(e)	VERB	traite(e)r
-par	ADP	par
-aclasta	PROPN	aclasta
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-traite(e): traite(e) | traite(e)r
-}
-
-Expected: {
-les	DET	le
-epouses	NOUN	epouse
-de les	ADP DET	de le
-fusilles	NOUN	fusille
-recurent	VERB	recevoir
-le	DET	le
-franc	NOUN	franc
-symbolique	ADJ	symbolique
-a le	ADP DET	a le
-titre	NOUN	titre
-de	ADP	de
-dommages	NOUN	dommage
-et	CCONJ	et
-interets	NOUN	interet
-,	PUNCT	,
-mais	CCONJ	mais
-l'	DET	le
-essentiel	NOUN	essentiel
-etait	AUX	etre
-que	SCONJ	que
-ces	DET	ce
-4	NUM	4
-hommes	NOUN	homme
-soient	AUX	etre
-rehabilites	VERB	rehabiliter
-dans	ADP	dans
-la	DET	le
-memoire	NOUN	memoire
-de les	ADP DET	de le
-francais	NOUN	francais
-et	CCONJ	et
-que	SCONJ	que
-leurs	DET	son
-veuves	NOUN	veuve
-puissent	VERB	pouvoir
-enfin	ADV	enfin
-faire	AUX	faire
-valoir	VERB	valoir
-leurs	DET	son
-droits	NOUN	droit
-a	ADP	a
-pension	NOUN	pension
-.	PUNCT	.
-}
-Predicted: {
-les	DET	le
-epouses	NOUN	epouse
-de les	ADP DET	de le
-fusilles	NOUN	fusille
-recurent	VERB	recurer
-le	DET	le
-franc	NOUN	franc
-symbolique	ADJ	symbolique
-a le	ADP DET	a le
-titre	NOUN	titre
-de	ADP	de
-dommages	NOUN	dommage
-et	CCONJ	et
-interets	NOUN	interet
-,	PUNCT	,
-mais	CCONJ	mais
-l'	DET	le
-essentiel	NOUN	essentiel
-etait	AUX	etre
-que	SCONJ	que
-ces	DET	ce
-4	NUM	4
-hommes	NOUN	homme
-soient	AUX	etre
-rehabilites	VERB	rehabiliter
-dans	ADP	dans
-la	DET	le
-memoire	NOUN	memoire
-de les	ADP DET	de le
-francais	NOUN	francais
-et	CCONJ	et
-que	SCONJ	que
-leurs	DET	son
-veuves	NOUN	veuve
-puissent	VERB	pouvoir
-enfin	ADV	enfin
-faire	AUX	faire
-valoir	VERB	valoir
-leurs	DET	son
-droits	NOUN	droit
-a	ADP	a
-pension	NOUN	pension
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-recurent: recevoir | recurer
-}
-
-Expected: {
-selon	ADP	selon
-bernard	PROPN	bernard
-b.	PROPN	b.
-fall	PROPN	fall
-,	PUNCT	,
-ce	DET	ce
-trafic	NOUN	trafic
-fut	AUX	etre
-l'	DET	le
-une	PRON	un
-de les	ADP DET	de le
-sources	NOUN	source
-de	ADP	de
-profit	NOUN	profit
-dans	ADP	dans
-le	DET	le
-cadre	NOUN	cadre
+savoir	VERB	savoir
 d'	ADP	de
 une	DET	un
-colonisation	NOUN	colonisation
-dont	PRON	dont
-le	DET	le
-bilan	NOUN	bilan
-general	ADJ	general
-s'	PRON	soi
-avera	VERB	averer
-tres	ADV	tres
-negatif	ADJ	negatif
-pour	ADP	pour
-le	DET	le
-budget	NOUN	budget
-national	ADJ	national
-.	PUNCT	.
-}
-Predicted: {
-selon	ADP	selon
-bernard	PROPN	bernard
-b.	PROPN	b.
-fall	PROPN	fall
-,	PUNCT	,
-ce	DET	ce
-trafic	NOUN	trafic
-fut	AUX	etre
+part	NOUN	part
 l'	DET	le
-une	PRON	un
-de les	ADP DET	de le
-sources	NOUN	source
-de	ADP	de
-profit	NOUN	profit
+evaluation	NOUN	evaluation
+politique	ADJ	politique
 dans	ADP	dans
-le	DET	le
-cadre	NOUN	cadre
-d'	ADP	de
-une	DET	un
-colonisation	NOUN	colonisation
-dont	PRON	dont
-le	DET	le
-bilan	NOUN	bilan
-general	ADJ	general
-s'	PRON	soi
-avera	VERB	aver
-tres	ADV	tres
-negatif	ADJ	negatif
-pour	ADP	pour
-le	DET	le
-budget	NOUN	budget
-national	ADJ	national
+la	DET	le
+decision	NOUN	decision
+de	ADP	de
+decharge	NOUN	decharge
+et	CCONJ	et
+,	PUNCT	,
+dans	ADP	dans
+un	DET	un
+deuxieme	ADJ	deuxieme
+acte	NOUN	acte
+,	PUNCT	,
+la	DET	le
+cloture	NOUN	cloture
+de les	ADP DET	de le
+comptes	NOUN	compte
+de	ADP	de
+l'	DET	le
+exercice	NOUN	exercice
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-avera: averer | aver
+executons: executer | executonsr
 }
 
 Expected: {
-les	DET	le
-jeunes	NOUN	jeune
-interesses	VERB	interesser
-peuvent	VERB	pouvoir
-s'	PRON	soi
-inscrire	VERB	inscrire
+tout	ADJ	tout
+le	DET	le
+monde	NOUN	monde
+attendait	VERB	attendre
+avec	ADP	avec
+impatience	NOUN	impatience
+de	ADP	de
+connaitre	VERB	connaitre
+le	DET	le
+montant	NOUN	montant
+que	PRON	que
+le	DET	le
+commissaire	NOUN	commissaire
+annoncerait	VERB	annoncer
+.	PUNCT	.
+}
+Predicted: {
+tout	ADJ	tout
+le	DET	le
+monde	NOUN	monde
+attendait	VERB	attendre
+avec	ADP	avec
+impatience	NOUN	impatience
+de	ADP	de
+connaitre	VERB	connaitre
+le	DET	le
+montant	NOUN	montant
+que	PRON	que
+le	DET	le
+commissaire	NOUN	commissaire
+annoncerait	VERB	annoncerer
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+annoncerait: annoncer | annoncerer
+}
+
+Expected: {
+si	SCONJ	si
+vous	PRON	vous
+avez	VERB	avoir
+tant	ADV	tant
+besoin	NOUN	besoin
+de	ADP	de
+couper	VERB	couper
+l'	DET	le
+herbe	NOUN	herbe
+sous	ADP	sous
+le	DET	le
+pied	NOUN	pied
+de	ADP	de
+quelqu'un	PRON	quelqu'un
+,	PUNCT	,
+je	PRON	moi
+vous	PRON	vous
+proposerais	VERB	proposer
+de	ADP	de
+vous	PRON	vous
+en	PRON	en
+prendre	VERB	prendre
+a	ADP	a
+m.	NOUN	monsieur
+solana	PROPN	solana
+.	PUNCT	.
+}
+Predicted: {
+si	SCONJ	si
+vous	PRON	vous
+avez	VERB	avoir
+tant	ADV	tant
+besoin	NOUN	besoin
+de	ADP	de
+couper	VERB	couper
+l'	DET	le
+herbe	NOUN	herbe
+sous	ADP	sous
+le	DET	le
+pied	NOUN	pied
+de	ADP	de
+quelqu'un	PRON	quelqu'un
+,	PUNCT	,
+je	PRON	moi
+vous	PRON	vous
+proposerais	VERB	proposeraisr
+de	ADP	de
+vous	PRON	vous
+en	PRON	en
+prendre	VERB	prendre
+a	ADP	a
+m.	NOUN	monsieur
+solana	PROPN	solana
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+proposerais: proposer | proposeraisr
+}
+
+Expected: {
+ce	DET	ce
+trafic	NOUN	trafic
+est	AUX	etre
+tres	ADV	tres
+etroitement	ADV	etroitement
+lie	VERB	lier
+a	ADP	a
+la	DET	le
+drogue	NOUN	drogue
+et	CCONJ	et
+a le	ADP DET	a le
+blanchiment	NOUN	blanchiment
+d'	ADP	de
+argent	NOUN	argent
+,	PUNCT	,
+et	CCONJ	et
+il	PRON	lui
+est	AUX	etre
+vraisemblable	ADJ	vraisemblable
+que	SCONJ	que
+ce	PRON	ce
+sont	AUX	etre
+differents	ADJ	different
+types	NOUN	type
+de	ADP	de
+mafias	NOUN	mafia
+qui	PRON	qui
+l'	PRON	lui
+organisent	VERB	organiser
+.	PUNCT	.
+}
+Predicted: {
+ce	DET	ce
+trafic	NOUN	trafic
+est	AUX	etre
+tres	ADV	tres
+etroitement	ADV	etroitement
+lie	VERB	lier
+a	ADP	a
+la	DET	le
+drogue	NOUN	drogue
+et	CCONJ	et
+a le	ADP DET	a le
+blanchiment	NOUN	blanchiment
+d'	ADP	de
+argent	NOUN	argent
+,	PUNCT	,
+et	CCONJ	et
+il	PRON	lui
+est	AUX	etre
+vraisemblable	ADJ	vraisemblable
+que	SCONJ	que
+ce	PRON	ce
+sont	AUX	etre
+differents	ADJ	different
+types	NOUN	type
+de	ADP	de
+mafias	NOUN	mafias
+qui	PRON	qui
+l'	PRON	lui
+organisent	VERB	organiser
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+mafias: mafia | mafias
+}
+
+Expected: {
+le	DET	le
+26	NUM	26
+mars	NOUN	mars
+1922	NUM	1922
+,	PUNCT	,
+le	DET	le
+dossier	NOUN	dossier
+de les	ADP DET	de le
+caporaux	NOUN	caporal
+de	ADP	de
+souain	PROPN	souain
+etait	AUX	etre
+rejete	VERB	rejeter
+par	ADP	par
+la	DET	le
+cour	NOUN	cour
+de	ADP	de
+cassation	NOUN	cassation
+qui	PRON	qui
+jugeait	VERB	juger
+sur	ADP	sur
+la	DET	le
+forme	NOUN	forme
+sans	ADP	sans
+trouver	VERB	trouver
+a	ADP	a
+redire	VERB	redire
+sur	ADP	sur
+le	DET	le
+fond	NOUN	fond
+,	PUNCT	,
+puis	CCONJ	puis
+une	DET	un
+seconde	ADJ	second
+fois	NOUN	fois
+le	DET	le
+21	NUM	21
+avril	NOUN	avril
+1926	NUM	1926
+.	PUNCT	.
+}
+Predicted: {
+le	DET	le
+26	NUM	26
+mars	NOUN	mars
+1922	NUM	1922
+,	PUNCT	,
+le	DET	le
+dossier	NOUN	dossier
+de les	ADP DET	de le
+caporaux	NOUN	caporal
+de	ADP	de
+souain	PROPN	souain
+etait	AUX	etre
+rejete	VERB	rejeter
+par	ADP	par
+la	DET	le
+cour	NOUN	cour
+de	ADP	de
+cassation	NOUN	cassation
+qui	PRON	qui
+jugeait	VERB	jugeer
+sur	ADP	sur
+la	DET	le
+forme	NOUN	forme
+sans	ADP	sans
+trouver	VERB	trouver
+a	ADP	a
+redire	VERB	redire
+sur	ADP	sur
+le	DET	le
+fond	NOUN	fond
+,	PUNCT	,
+puis	CCONJ	puis
+une	DET	un
+seconde	ADJ	second
+fois	NOUN	fois
+le	DET	le
+21	NUM	21
+avril	NOUN	avril
+1926	NUM	1926
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+jugeait: juger | jugeer
+}
+
+Expected: {
+ces	DET	ce
+personnes	NOUN	personne
+sont	AUX	etre
+interpellees	VERB	interpeller
 des	ADP	des
-maintenant	ADV	maintenant
+leur	DET	son
+arrivee	NOUN	arrivee
+a	ADP	a
+brazzaville	PROPN	brazzaville
+,	PUNCT	,
+acheminees	VERB	acheminer
+par	ADP	par
+convois	NOUN	convoi
+dans	ADP	dans
+des	DET	un
+camps	NOUN	camp
+ou	CCONJ	ou
+vers	ADP	vers
+la	DET	le
+presidence	NOUN	presidence
+selon	ADP	selon
+les	DET	le
+sources	NOUN	source
 .	PUNCT	.
 }
 Predicted: {
+ces	DET	ce
+personnes	NOUN	personne
+sont	AUX	etre
+interpellees	VERB	interpeller
+des	ADP	des
+leur	DET	son
+arrivee	NOUN	arrivee
+a	ADP	a
+brazzaville	PROPN	brazzaville
+,	PUNCT	,
+acheminees	VERB	acheminer
+par	ADP	par
+convois	NOUN	convois
+dans	ADP	dans
+des	DET	un
+camps	NOUN	camp
+ou	CCONJ	ou
+vers	ADP	vers
+la	DET	le
+presidence	NOUN	presidence
+selon	ADP	selon
 les	DET	le
-jeunes	NOUN	jeune
-interesses	VERB	interesser
-peuvent	VERB	pouvoir
-s'	PRON	soi
-inscrire	VERB	inscrire
+sources	NOUN	source
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+convois: convoi | convois
+}
+
+Expected: {
+-	PUNCT	-
+une	DET	un
+autre	ADJ	autre
+enquete	NOUN	enquete
+est	AUX	etre
+en	ADP	en
+cours	NOUN	cours
+a	ADP	a
+taiwan	PROPN	taiwan
+pour	ADP	pour
+les	DET	le
+actes	NOUN	acte
+de	ADP	de
+corruption	NOUN	corruption
+de les	ADP DET	de le
+fonctionnaires	NOUN	fonctionnaire
+et	CCONJ	et
+de les	ADP DET	de le
+personnalites	NOUN	personnalite
+politiques	ADJ	politique
+taiwanaises	ADJ	taiwanais
+.	PUNCT	.
+}
+Predicted: {
+-	PUNCT	-
+une	DET	un
+autre	ADJ	autre
+enquete	NOUN	enquete
+est	AUX	etre
+en	ADP	en
+cours	NOUN	cours
+a	ADP	a
+taiwan	PROPN	taiwan
+pour	ADP	pour
+les	DET	le
+actes	NOUN	acte
+de	ADP	de
+corruption	NOUN	corruption
+de les	ADP DET	de le
+fonctionnaires	NOUN	fonctionnaire
+et	CCONJ	et
+de les	ADP DET	de le
+personnalites	NOUN	personnalite
+politiques	ADJ	politique
+taiwanaises	ADJ	taiwanaise
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+taiwanaises: taiwanais | taiwanaise
+}
+
+Expected: {
+l'	DET	le
+enquete	NOUN	enquete
+a	AUX	avoir
+peu	ADV	peu
+progresse	VERB	progresser
+,	PUNCT	,
+les	DET	le
+magistrats	NOUN	magistrat
+se	PRON	soi
+heurtant	VERB	heurter
+systematiquement	ADV	systematiquement
+a le	ADP DET	a le
+secret	NOUN	secret
+defense	NOUN	defense
+.	PUNCT	.
+}
+Predicted: {
+l'	DET	le
+enquete	NOUN	enquete
+a	AUX	avoir
+peu	ADV	peu
+progresse	VERB	progresser
+,	PUNCT	,
+les	DET	le
+magistrats	NOUN	magistrat
+se	PRON	soi
+heurtant	VERB	heurtant
+systematiquement	ADV	systematiquement
+a le	ADP DET	a le
+secret	NOUN	secret
+defense	NOUN	defense
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+heurtant: heurter | heurtant
+}
+
+Expected: {
+il	PRON	lui
+apparait	VERB	apparaitre
+que	SCONJ	que
+nicolas	PROPN	nicolas
+sarkozy	PROPN	sarkozy
+etait	AUX	etre
+a le	ADP DET	a le
+courant	NOUN	courant
+de	ADP	de
+l'	DET	le
+affaire	NOUN	affaire
+des	ADP	des
+septembre	NOUN	septembre
+2004	NUM	2004
+,	PUNCT	,
+mais	CCONJ	mais
+a	AUX	avoir
+garde	VERB	garder
+le	DET	le
+silence	NOUN	silence
+sans	ADP	sans
+chercher	VERB	chercher
+a	ADP	a
+se	PRON	soi
+defendre	VERB	defendre
+jusqu'	ADP	jusque
+a	ADP	a
+debut	NOUN	debut
+2006	NUM	2006
+.	PUNCT	.
+}
+Predicted: {
+il	PRON	lui
+apparait	VERB	apparaitre
+que	SCONJ	que
+nicolas	PROPN	nicolas
+sarkozy	PROPN	sarkozy
+etait	AUX	etre
+a le	ADP DET	a le
+courant	NOUN	courant
+de	ADP	de
+l'	DET	le
+affaire	NOUN	affaire
 des	ADP	un
-maintenant	ADV	maintenant
+septembre	NOUN	septembre
+2004	NUM	2004
+,	PUNCT	,
+mais	CCONJ	mais
+a	AUX	avoir
+garde	VERB	garder
+le	DET	le
+silence	NOUN	silence
+sans	ADP	sans
+chercher	VERB	chercher
+a	ADP	a
+se	PRON	soi
+defendre	VERB	defendre
+jusqu'	ADP	jusque
+a	ADP	a
+debut	NOUN	debut
+2006	NUM	2006
 .	PUNCT	.
 }
 Errors: {
@@ -26254,1383 +27391,239 @@ des: des | un
 }
 
 Expected: {
-les	DET	le
-associations	NOUN	association
-de le	ADP DET	de le
-village	NOUN	village
-ont	AUX	avoir
-vu	VERB	voir
-leur	DET	son
-contribution	NOUN	contribution
-revue	VERB	revoir
-a	ADP	a
-la	DET	le
-baisse	NOUN	baisse
-.	PUNCT	.
-}
-Predicted: {
-les	DET	le
-associations	NOUN	association
-de le	ADP DET	de le
-village	NOUN	village
-ont	AUX	avoir
-vu	VERB	voir
-leur	DET	son
-contribution	NOUN	contribution
-revue	VERB	revue
-a	ADP	a
-la	DET	le
-baisse	NOUN	baisse
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-revue: revoir | revue
-}
-
-Expected: {
 l'	DET	le
-associations	NOUN	association
-de les	ADP DET	de le
-anciennes	ADJ	ancien
-internees	NOUN	interne
-et	CCONJ	et
-deportees	NOUN	deporte
+idee	NOUN	idee
+serait	AUX	etre
 de	ADP	de
-la	DET	le
-resistance	PROPN	resistance
-;	PUNCT	;
-}
-Predicted: {
-l'	DET	le
-associations	NOUN	association
-de les	ADP DET	de le
-anciennes	ADJ	ancien
-internees	NOUN	internee
-et	CCONJ	et
-deportees	NOUN	deporte
-de	ADP	de
-la	DET	le
-resistance	PROPN	resistance
-;	PUNCT	;
-}
-Errors: {
-Tok: Ref | Pred
----------------
-internees: interne | internee
-}
-
-Expected: {
-natif	ADJ	natif
-de les	ADP DET	de le
-forges	PROPN	forges
-de	ADP	de
-mezire	PROPN	mezire
-,	PUNCT	,
-en	ADP	en
-1928	NUM	1928
-,	PUNCT	,
-il	PRON	lui
-a	AUX	avoir
-frequente	VERB	frequenter
-l'	DET	le
-ecole	NOUN	ecole
-de	ADP	de
-morvillars	PROPN	morvillars
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-cep	NOUN	cep
-.	PUNCT	.
-}
-Predicted: {
-natif	ADJ	natif
-de les	ADP DET	de le
-forges	PROPN	forges
-de	ADP	de
-mezire	PROPN	mezire
-,	PUNCT	,
-en	ADP	en
-1928	NUM	1928
-,	PUNCT	,
-il	PRON	lui
-a	AUX	avoir
-frequente	VERB	frequenter
-l'	DET	le
-ecole	NOUN	ecole
-de	ADP	de
-morvillars	PROPN	morvillars
-jusqu'	ADP	jusque
-a le	ADP DET	a le
-cep	NOUN	ce
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-cep: cep | ce
-}
-
-Expected: {
-les	DET	le
-resultats	NOUN	resultat
-de	ADP	de
-ces	DET	ce
-etudes	NOUN	etude
-ne	ADV	ne
-permettent	VERB	permettre
-pas	ADV	pas
-de	ADP	de
-penser	VERB	penser
-qu'	SCONJ	que
-il	PRON	lui
-se	PRON	soi
-produise	VERB	produire
-d'	DET	un
-interactions	NOUN	interaction
-pharmacodynamiques	ADJ	pharmacodynamique
-avec	ADP	avec
-ces	DET	ce
-medicaments	NOUN	medicament
-.	PUNCT	.
-}
-Predicted: {
-les	DET	le
-resultats	NOUN	resultat
-de	ADP	de
-ces	DET	ce
-etudes	NOUN	etude
-ne	ADV	ne
-permettent	VERB	permettre
-pas	ADV	pas
-de	ADP	de
-penser	VERB	penser
-qu'	SCONJ	que
-il	PRON	lui
-se	PRON	soi
-produise	VERB	produire
-d'	DET	de
-interactions	NOUN	interaction
-pharmacodynamiques	ADJ	pharmacodynamique
-avec	ADP	avec
-ces	DET	ce
-medicaments	NOUN	medicament
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-d': un | de
-}
-
-Expected: {
--	PUNCT	-
-si	SCONJ	si
-vous	PRON	vous
-presentez	VERB	presenter
-ou	CCONJ	ou
-avez	AUX	avoir
-recemment	ADV	recemment
-presente	VERB	presenter
+trouver	VERB	trouver
 un	DET	un
-saignement	NOUN	saignement
-a le	ADP DET	a le
-niveau	NOUN	niveau
-de	ADP	de
-l'	DET	le
-estomac	NOUN	estomac
-,	PUNCT	,
-de les	ADP DET	de le
-intestins	NOUN	intestin
-,	PUNCT	,
-de	ADP	de
-la	DET	le
-vessie	NOUN	vessie
-ou	CCONJ	ou
-d'	ADP	de
-autres	ADJ	autre
-organes	NOUN	organes
-,	PUNCT	,
-par	ADP	par
-exemple	NOUN	exemple
-si	SCONJ	si
-vous	PRON	vous
-avez	VERB	avoir
-du	DET	du
-sang	NOUN	sang
-anormal	ADJ	anormal
-dans	ADP	dans
-vos	DET	son
-selles	NOUN	selles
-ou	CCONJ	ou
-vos	DET	son
-urines	NOUN	urine
-(	PUNCT	(
-excepte	ADP	excepte
-un	DET	un
-saignement	NOUN	saignement
-menstruel	ADJ	menstruel
-)	PUNCT	)
-.	PUNCT	.
-}
-Predicted: {
--	PUNCT	-
-si	SCONJ	si
-vous	PRON	vous
-presentez	VERB	presenter
-ou	CCONJ	ou
-avez	AUX	avoir
-recemment	ADV	recemment
-presente	VERB	presenter
-un	DET	un
-saignement	NOUN	saignement
-a le	ADP DET	a le
-niveau	NOUN	niveau
-de	ADP	de
-l'	DET	le
-estomac	NOUN	estomac
-,	PUNCT	,
-de les	ADP DET	de le
-intestins	NOUN	intestin
-,	PUNCT	,
-de	ADP	de
-la	DET	le
-vessie	NOUN	vessie
-ou	CCONJ	ou
-d'	ADP	de
-autres	ADJ	autre
-organes	NOUN	organe
-,	PUNCT	,
-par	ADP	par
-exemple	NOUN	exemple
-si	SCONJ	si
-vous	PRON	vous
-avez	VERB	avoir
-du	DET	du
-sang	NOUN	sang
-anormal	ADJ	anormal
-dans	ADP	dans
-vos	DET	son
-selles	NOUN	selle
-ou	CCONJ	ou
-vos	DET	son
-urines	NOUN	urine
-(	PUNCT	(
-excepte	ADP	excepte
-un	DET	un
-saignement	NOUN	saignement
-menstruel	ADJ	menstruel
-)	PUNCT	)
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-organes: organes | organe
-selles: selles | selle
-}
-
-Expected: {
-l'	DET	le
-osteonecrose	NOUN	osteonecrose
-de	ADP	de
-la	DET	le
-machoire	NOUN	machoire
-presente	VERB	presenter
-de	DET	un
-multiples	ADJ	multiple
-facteurs	NOUN	facteur
-de	ADP	de
-risque	NOUN	risque
-bien	ADV	bien
-documentes	VERB	documenter
-incluant	VERB	inclure
-le	DET	le
-diagnostic	NOUN	diagnostic
-d'	ADP	de
-un	DET	un
-cancer	NOUN	cancer
-,	PUNCT	,
-les	DET	le
-traitements	NOUN	traitement
-associes	ADJ	associe
-(	PUNCT	(
-par	ADP	par
-exemple	NOUN	exemple
-:	PUNCT	:
-chimiotherapie	NOUN	chimiotherapie
-,	PUNCT	,
-radiotherapie	NOUN	radiotherapie
-,	PUNCT	,
-corticotherapie	NOUN	corticotherapie
-)	PUNCT	)
-et	CCONJ	et
-des	DET	un
-affections	NOUN	affection
-associees	ADJ	associe
-(	PUNCT	(
-par	ADP	par
-exemple	NOUN	exemple
-:	PUNCT	:
-anemie	NOUN	anemie
-,	PUNCT	,
-troubles	NOUN	trouble
-de	ADP	de
-la	DET	le
-coagulation	NOUN	coagulation
-,	PUNCT	,
-infection	NOUN	infection
-,	PUNCT	,
-maladie	NOUN	maladie
-buccale	ADJ	buccal
-preexistante	ADJ	preexistant
-)	PUNCT	)
-.	PUNCT	.
-}
-Predicted: {
-l'	DET	le
-osteonecrose	NOUN	osteonecrose
-de	ADP	de
-la	DET	le
-machoire	NOUN	machoire
-presente	VERB	presenter
-de	DET	un
-multiples	ADJ	multiple
-facteurs	NOUN	facteur
-de	ADP	de
-risque	NOUN	risque
-bien	ADV	bien
-documentes	VERB	documenter
-incluant	VERB	inclure
-le	DET	le
-diagnostic	NOUN	diagnostic
-d'	ADP	de
-un	DET	un
-cancer	NOUN	cancer
-,	PUNCT	,
-les	DET	le
-traitements	NOUN	traitement
-associes	ADJ	associe
-(	PUNCT	(
-par	ADP	par
-exemple	NOUN	exemple
-:	PUNCT	:
-chimiotherapie	NOUN	chimiotherapie
-,	PUNCT	,
-radiotherapie	NOUN	radiotherapie
-,	PUNCT	,
-corticotherapie	NOUN	corticotherapie
-)	PUNCT	)
-et	CCONJ	et
-des	DET	un
-affections	NOUN	affection
-associees	ADJ	associee
-(	PUNCT	(
-par	ADP	par
-exemple	NOUN	exemple
-:	PUNCT	:
-anemie	NOUN	anemie
-,	PUNCT	,
-troubles	NOUN	trouble
-de	ADP	de
-la	DET	le
-coagulation	NOUN	coagulation
-,	PUNCT	,
-infection	NOUN	infection
-,	PUNCT	,
-maladie	NOUN	maladie
-buccale	ADJ	buccal
-preexistante	ADJ	preexistant
-)	PUNCT	)
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-associees: associe | associee
-}
-
-Expected: {
-madame	NOUN	monsieur
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-cette	DET	ce
-resolution	NOUN	resolution
-me	PRON	moi
-pose	VERB	poser
-un	DET	un
-probleme	NOUN	probleme
-majeur	ADJ	majeur
-.	PUNCT	.
-}
-Predicted: {
-madame	NOUN	madame
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-cette	DET	ce
-resolution	NOUN	resolution
-me	PRON	moi
-pose	VERB	poser
-un	DET	un
-probleme	NOUN	probleme
-majeur	ADJ	majeur
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-c'	PRON	ce
-est	AUX	etre
-ce	PRON	ce
-que	PRON	que
-mettent	VERB	mettre
-a	ADP	a
-mon	DET	son
-avis	NOUN	avis
-en	ADP	en
-lumiere	NOUN	lumiere
-quelques	DET	quelque
-propositions	NOUN	proposition
-d'	ADP	de
-amendement	NOUN	amendement
-relatives	ADJ	relatif
-a	ADP	a
-la	DET	le
-coincineration	NOUN	coincineration
+pays	NOUN	pays
+tiers	ADJ	tiers
 qui	PRON	qui
-ont	AUX	avoir
-ete	AUX	etre
-deposees	VERB	deposer
-en	ADP	en
-commission	NOUN	commission
-et	CCONJ	et
-qui	PRON	qui
-sont	AUX	etre
-maintenant	ADV	maintenant
-presentees	VERB	presenter
-une	DET	un
-nouvelle	ADJ	nouveau
-fois	NOUN	fois
-en	ADP	en
-seance	NOUN	seance
-pleniere	ADJ	plenier
-.	PUNCT	.
-}
-Predicted: {
-c'	PRON	ce
-est	AUX	etre
-ce	PRON	ce
-que	PRON	que
-mettent	VERB	mettre
-a	ADP	a
-mon	DET	son
-avis	NOUN	avis
-en	ADP	en
-lumiere	NOUN	lumiere
-quelques	DET	quelque
-propositions	NOUN	proposition
-d'	ADP	de
-amendement	NOUN	amendement
-relatives	ADJ	relatif
-a	ADP	a
-la	DET	le
-coincineration	NOUN	coincineration
-qui	PRON	qui
-ont	AUX	avoir
-ete	AUX	etre
-deposees	VERB	deposer
-en	ADP	en
-commission	NOUN	commission
-et	CCONJ	et
-qui	PRON	qui
-sont	AUX	etre
-maintenant	ADV	maintenant
-presentees	VERB	presenter
-une	DET	un
-nouvelle	ADJ	nouveau
-fois	NOUN	fois
-en	ADP	en
-seance	NOUN	seance
-pleniere	ADJ	pleniere
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-pleniere: plenier | pleniere
-}
-
-Expected: {
-nous	PRON	nous
-presenterons	VERB	presenter
-des	DET	un
-propositions	NOUN	proposition
-a le	ADP DET	a le
-parlement	NOUN	parlement
-et	CCONJ	et
-a le	ADP DET	a le
-conseil	NOUN	conseil
-dans	ADP	dans
+racheterait	VERB	racheter
 les	DET	le
-prochains	ADJ	prochain
-mois	NOUN	mois
+fregates	NOUN	fregate
+maudites	ADJ	maudit
 .	PUNCT	.
 }
 Predicted: {
-nous	PRON	nous
-presenterons	VERB	presenterer
-des	DET	un
-propositions	NOUN	proposition
-a le	ADP DET	a le
-parlement	NOUN	parlement
-et	CCONJ	et
-a le	ADP DET	a le
-conseil	NOUN	conseil
-dans	ADP	dans
-les	DET	le
-prochains	ADJ	prochain
-mois	NOUN	mois
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-presenterons: presenter | presenterer
-}
-
-Expected: {
-je	PRON	moi
-sais	VERB	savoir
-,	PUNCT	,
-madame	NOUN	monsieur
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-que	SCONJ	que
-vous	PRON	vous
-etes	AUX	etre
-deja	ADV	deja
-intervenue	VERB	intervenir
-pour	ADP	pour
-solliciter	VERB	solliciter
-la	DET	le
-presence	NOUN	presence
-a le	ADP DET	a le
-proces	NOUN	proces
-d'	ADP	de
-une	DET	un
-delegation	NOUN	delegation
-de le	ADP DET	de le
-parlement	NOUN	parlement
-europeen	ADJ	europeen
-,	PUNCT	,
-a	ADP	a
-la	DET	le
-demande	NOUN	demande
+l'	DET	le
+idee	NOUN	idee
+serait	AUX	etre
 de	ADP	de
-certains	DET	certain
-deputes	NOUN	depute
-.	PUNCT	.
-}
-Predicted: {
-je	PRON	moi
-sais	VERB	savoir
-,	PUNCT	,
-madame	NOUN	madame
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-que	SCONJ	que
-vous	PRON	vous
-etes	AUX	etre
-deja	ADV	deja
-intervenue	VERB	intervenir
-pour	ADP	pour
-solliciter	VERB	solliciter
-la	DET	le
-presence	NOUN	presence
-a le	ADP DET	a le
-proces	NOUN	proces
-d'	ADP	de
-une	DET	un
-delegation	NOUN	delegation
-de le	ADP DET	de le
-parlement	NOUN	parlement
-europeen	ADJ	europeen
-,	PUNCT	,
-a	ADP	a
-la	DET	le
-demande	NOUN	demande
-de	ADP	de
-certains	DET	certain
-deputes	NOUN	depute
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-madame	NOUN	monsieur
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-ministre	NOUN	ministre
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-secretaire	NOUN	secretaire
-d'	ADP	de
-etat	NOUN	etat
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-commissaire	NOUN	commissaire
-,	PUNCT	,
-chers	ADJ	cher
-collegues	NOUN	collegue
-,	PUNCT	,
-nous	PRON	nous
-voici	VERB	voici
-face	NOUN	face
-a	ADP	a
+trouver	VERB	trouver
 un	DET	un
-tournant	NOUN	tournant
-reellement	ADV	reellement
-tres	ADV	tres
-important	ADJ	important
-dans	ADP	dans
-l'	DET	le
-evolution	NOUN	evolution
-de	ADP	de
-l'	DET	le
-union	PROPN	union
-europeenne	ADJ	europeen
-.	PUNCT	.
-}
-Predicted: {
-madame	NOUN	madame
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-ministre	NOUN	ministre
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-secretaire	NOUN	secretaire
-d'	ADP	de
-etat	NOUN	etat
-,	PUNCT	,
-monsieur	NOUN	monsieur
-le	DET	le
-commissaire	NOUN	commissaire
-,	PUNCT	,
-chers	ADJ	cher
-collegues	NOUN	collegue
-,	PUNCT	,
-nous	PRON	nous
-voici	VERB	voici
-face	NOUN	face
-a	ADP	a
-un	DET	un
-tournant	NOUN	tournant
-reellement	ADV	reellement
-tres	ADV	tres
-important	ADJ	important
-dans	ADP	dans
-l'	DET	le
-evolution	NOUN	evolution
-de	ADP	de
-l'	DET	le
-union	PROPN	union
-europeenne	ADJ	europeen
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-madame	NOUN	monsieur
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-le	DET	le
-president	NOUN	president
-de	ADP	de
-groupe	NOUN	groupe
-m.	NOUN	monsieur
-baron	PROPN	baron
-crespo	PROPN	crespo
-s'	PRON	soi
-est	AUX	etre
-aussi	ADV	aussi
-adresse	VERB	adresser
-a	ADP	a
-moi	PRON	moi
-.	PUNCT	.
-}
-Predicted: {
-madame	NOUN	madame
-la	DET	le
-presidente	NOUN	president
-,	PUNCT	,
-le	DET	le
-president	NOUN	president
-de	ADP	de
-groupe	NOUN	groupe
-m.	NOUN	monsieur
-baron	PROPN	baron
-crespo	PROPN	crespo
-s'	PRON	soi
-est	AUX	etre
-aussi	ADV	aussi
-adresse	VERB	adresser
-a	ADP	a
-moi	PRON	moi
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-monsieur	NOUN	monsieur
-le	DET	le
-president	NOUN	president
-,	PUNCT	,
-chers	ADJ	cher
-collegues	NOUN	collegue
-,	PUNCT	,
-madame	NOUN	monsieur
-le	DET	le
-rapporteur	NOUN	rapporteur
-,	PUNCT	,
-comme	SCONJ	comme
-dit	VERB	dire
-le	DET	le
-proverbe	NOUN	proverbe
-:	PUNCT	:
-mieux	ADV	mieux
-vaut	VERB	valoir
-prevenir	VERB	prevenir
-que	SCONJ	que
-guerir	VERB	guerir
-.	PUNCT	.
-}
-Predicted: {
-monsieur	NOUN	monsieur
-le	DET	le
-president	NOUN	president
-,	PUNCT	,
-chers	ADJ	cher
-collegues	NOUN	collegue
-,	PUNCT	,
-madame	NOUN	madame
-le	DET	le
-rapporteur	NOUN	rapporteur
-,	PUNCT	,
-comme	SCONJ	comme
-dit	VERB	dire
-le	DET	le
-proverbe	NOUN	proverbe
-:	PUNCT	:
-mieux	ADV	mieux
-vaut	VERB	valoir
-prevenir	VERB	prevenir
-que	SCONJ	que
-guerir	VERB	guerir
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-madame: monsieur | madame
-}
-
-Expected: {
-en	ADP	en
-consequence	NOUN	consequence
-,	PUNCT	,
-les	DET	le
-partis	NOUN	parti
-nationalistes	ADJ	nationaliste
-democratiques	ADJ	democratique
-ont	AUX	avoir
-du	VERB	devoir
-rompre	VERB	rompre
-les	DET	le
-coalitions	NOUN	coalition
-conclues	VERB	conclure
-avec	ADP	avec
-euskal	PROPN	euskal
-herritarrok	PROPN	herritarrok
-dans	ADP	dans
-certaines	DET	certain
-municipalites	NOUN	municipalite
-parce	SCONJ	parce
-qu'	SCONJ	que
-il	PRON	lui
-est	AUX	etre
-inconcevable	ADJ	inconcevable
-d'	ADP	de
-accepter	VERB	accepter
-et	CCONJ	et
-de	ADP	de
-comprendre	VERB	comprendre
-ce	DET	ce
-tir	NOUN	tir
-dans	ADP	dans
-la	DET	le
-nuque	NOUN	nuque
-et	CCONJ	et
-la	DET	le
-violence	NOUN	violence
-permanente	ADJ	permanent
-en	ADP	en
-tant	ADV	tant
-que	SCONJ	que
-strategie	NOUN	strategie
-politique	ADJ	politique
-.	PUNCT	.
-}
-Predicted: {
-en	ADP	en
-consequence	NOUN	consequence
-,	PUNCT	,
-les	DET	le
-partis	NOUN	parti
-nationalistes	ADJ	nationaliste
-democratiques	ADJ	democratique
-ont	AUX	avoir
-du	VERB	devoir
-rompre	VERB	rompre
-les	DET	le
-coalitions	NOUN	coalition
-conclues	VERB	concluer
-avec	ADP	avec
-euskal	PROPN	euskal
-herritarrok	PROPN	herritarrok
-dans	ADP	dans
-certaines	DET	certain
-municipalites	NOUN	municipalite
-parce	SCONJ	parce
-qu'	SCONJ	que
-il	PRON	lui
-est	AUX	etre
-inconcevable	ADJ	inconcevable
-d'	ADP	de
-accepter	VERB	accepter
-et	CCONJ	et
-de	ADP	de
-comprendre	VERB	comprendre
-ce	DET	ce
-tir	NOUN	tir
-dans	ADP	dans
-la	DET	le
-nuque	NOUN	nuque
-et	CCONJ	et
-la	DET	le
-violence	NOUN	violence
-permanente	ADJ	permanent
-en	ADP	en
-tant	ADV	tant
-que	SCONJ	que
-strategie	NOUN	strategie
-politique	ADJ	politique
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-conclues: conclure | concluer
-}
-
-Expected: {
-blanche	PROPN	blanche
-maupas	PROPN	maupas
-creait	VERB	creer
-alors	ADV	alors
-le	DET	le
-"	PUNCT	"
-comite	NOUN	comite
-maupas	PROPN	maupas
-"	PUNCT	"
+pays	NOUN	pays
+tiers	ADJ	tiers
 qui	PRON	qui
-deviendrait	VERB	devenir
-en	ADP	en
-1928	NUM	1928
-"	PUNCT	"
-comite	NOUN	comite
-national	ADJ	national
-pour	ADP	pour
-la	DET	le
-rehabilitation	NOUN	rehabilitation
-de les	ADP DET	de le
-victimes	NOUN	victime
-de	ADP	de
-guerre	NOUN	guerre
-"	PUNCT	"
-.	PUNCT	.
-}
-Predicted: {
-blanche	PROPN	blanche
-maupas	PROPN	maupas
-creait	VERB	creaitr
-alors	ADV	alors
-le	DET	le
-"	PUNCT	"
-comite	NOUN	comite
-maupas	PROPN	maupas
-"	PUNCT	"
-qui	PRON	qui
-deviendrait	VERB	devenir
-en	ADP	en
-1928	NUM	1928
-"	PUNCT	"
-comite	NOUN	comite
-national	ADJ	national
-pour	ADP	pour
-la	DET	le
-rehabilitation	NOUN	rehabilitation
-de les	ADP DET	de le
-victimes	NOUN	victime
-de	ADP	de
-guerre	NOUN	guerre
-"	PUNCT	"
+racheterait	VERB	racheter
+les	DET	le
+fregates	NOUN	fregate
+maudites	ADJ	maudite
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-creait: creer | creaitr
+maudites: maudit | maudite
 }
 
 Expected: {
-certaines	DET	certain
-rumeurs	NOUN	rumeur
-parlent	VERB	parler
-de	ADP	de
-personnes	NOUN	personne
-entassees	VERB	entasser
-vivantes	ADJ	vivant
-dans	ADP	dans
-des	DET	un
-containers	NOUN	container
+huit	NUM	huit
+jours	NOUN	jour
+apres	ADV	apres
 ,	PUNCT	,
-qui	PRON	qui
-auraient	AUX	avoir
-ete	AUX	etre
-soudes	VERB	souder
-et	CCONJ	et
-jetes	VERB	jeter
-dans	ADP	dans
-le	DET	le
-fleuve	NOUN	fleuve
-.	PUNCT	.
-}
-Predicted: {
-certaines	DET	certain
-rumeurs	NOUN	rumeur
-parlent	VERB	parler
-de	ADP	de
-personnes	NOUN	personne
-entassees	VERB	entasser
-vivantes	ADJ	vivant
-dans	ADP	dans
-des	DET	un
-containers	NOUN	container
-,	PUNCT	,
-qui	PRON	qui
-auraient	AUX	avoir
-ete	AUX	etre
-soudes	VERB	soudesr
-et	CCONJ	et
-jetes	VERB	jeter
-dans	ADP	dans
-le	DET	le
-fleuve	NOUN	fleuve
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-soudes: souder | soudesr
-}
-
-Expected: {
--	PUNCT	-
-15	NUM	15
-janvier	NOUN	janvier
-1992	NUM	1992
-:	PUNCT	:
-un	DET	un
-premier	ADJ	premier
-rapport	NOUN	rapport
-de	ADP	de
-gendarmerie	NOUN	gendarmerie
-confirme	VERB	confirmer
-l'	DET	le
-inscription	NOUN	inscription
-frauduleuse	ADJ	frauduleux
-d'	ADP	de
-electeurs	NOUN	electeur
+didier	PROPN	didier
+schuller	PROPN	schuller
+prenait	VERB	prendre
+la	DET	le
+fuite	NOUN	fuite
+en	ADP	en
+republique	PROPN	republique
+dominicaine	ADJ	dominicain
 sur	ADP	sur
 les	DET	le
-listes	NOUN	liste
-electorales	ADJ	electoral
-de le	ADP DET	de le
-3e	ADJ	3e
-et	CCONJ	et
-d'	ADP	de
-autres	ADJ	autre
-arrondissements	NOUN	arrondissement
+conseil	NOUN	conseil
 de	ADP	de
-paris	PROPN	paris
+son	DET	son
+avocat	NOUN	avocat
+me	NOUN	me
+francis	PROPN	francis
+szpiner	PROPN	szpiner
+et	CCONJ	et
+de	ADP	de
+la	DET	le
+cellule	NOUN	cellule
+juridique	ADJ	juridique
+de	ADP	de
+l'	DET	le
+elysee	PROPN	elysee
+(	PUNCT	(
+le	DET	le
+'	PUNCT	'
+cabinet	NOUN	cabinet
+noir	ADJ	noir
+'	PUNCT	'
+)	PUNCT	)
 .	PUNCT	.
 }
 Predicted: {
--	PUNCT	-
-15	NUM	15
-janvier	NOUN	janvier
-1992	NUM	1992
-:	PUNCT	:
-un	DET	un
-premier	ADJ	premier
-rapport	NOUN	rapport
-de	ADP	de
-gendarmerie	NOUN	gendarmerie
-confirme	VERB	confirmer
-l'	DET	le
-inscription	NOUN	inscription
-frauduleuse	ADJ	frauduleuse
-d'	ADP	de
-electeurs	NOUN	electeur
+huit	NUM	huit
+jours	NOUN	jour
+apres	ADV	apres
+,	PUNCT	,
+didier	PROPN	didier
+schuller	PROPN	schuller
+prenait	VERB	prendre
+la	DET	le
+fuite	NOUN	fuite
+en	ADP	en
+republique	PROPN	republique
+dominicaine	ADJ	dominicain
 sur	ADP	sur
 les	DET	le
-listes	NOUN	liste
-electorales	ADJ	electoral
-de le	ADP DET	de le
-3e	ADJ	3e
-et	CCONJ	et
-d'	ADP	de
-autres	ADJ	autre
-arrondissements	NOUN	arrondissement
+conseil	NOUN	conseil
 de	ADP	de
-paris	PROPN	paris
+son	DET	son
+avocat	NOUN	avocat
+me	NOUN	moi
+francis	PROPN	francis
+szpiner	PROPN	szpiner
+et	CCONJ	et
+de	ADP	de
+la	DET	le
+cellule	NOUN	cellule
+juridique	ADJ	juridique
+de	ADP	de
+l'	DET	le
+elysee	PROPN	elysee
+(	PUNCT	(
+le	DET	le
+'	PUNCT	'
+cabinet	NOUN	cabinet
+noir	ADJ	noir
+'	PUNCT	'
+)	PUNCT	)
 .	PUNCT	.
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-frauduleuse: frauduleux | frauduleuse
+me: me | moi
+}
+
+Expected: {
+revelee	VERB	reveler
+a le	ADP DET	a le
+grand	ADJ	grand
+jour	NOUN	jour
+,	PUNCT	,
+cette	DET	ce
+"	PUNCT	"
+affaire	NOUN	affaire
+dans	ADP	dans
+l'	DET	le
+affaire	NOUN	affaire
+"	PUNCT	"
+a	VERB	avoir
+une	DET	un
+consequence	NOUN	consequence
+immediate	ADJ	immediat
+:	PUNCT	:
+elle	PRON	lui
+destabilise	VERB	destabiliser
+le	DET	le
+juge	NOUN	juge
+eric	PROPN	eric
+halphen	PROPN	halphen
+,	PUNCT	,
+qui	PRON	qui
+prend	VERB	prendre
+quelques	DET	quelque
+jours	NOUN	jour
+de	ADP	de
+vacances	NOUN	vacances
+.	PUNCT	.
+}
+Predicted: {
+revelee	VERB	reveler
+a le	ADP DET	a le
+grand	ADJ	grand
+jour	NOUN	jour
+,	PUNCT	,
+cette	DET	ce
+"	PUNCT	"
+affaire	NOUN	affaire
+dans	ADP	dans
+l'	DET	le
+affaire	NOUN	affaire
+"	PUNCT	"
+a	VERB	avoir
+une	DET	un
+consequence	NOUN	consequence
+immediate	ADJ	immediat
+:	PUNCT	:
+elle	PRON	lui
+destabilise	VERB	destabiliser
+le	DET	le
+juge	NOUN	juge
+eric	PROPN	eric
+halphen	PROPN	halphen
+,	PUNCT	,
+qui	PRON	qui
+prend	VERB	prendre
+quelques	DET	quelque
+jours	NOUN	jour
+de	ADP	de
+vacances	NOUN	vacance
+.	PUNCT	.
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+vacances: vacances | vacance
 }
 
 Expected: {
 -	PUNCT	-
-un	DET	un
-an	NOUN	an
-d'	ADP	de
-emprisonnement	NOUN	emprisonnement
-avec	ADP	avec
-sursis	NOUN	sursis
-et	CCONJ	et
-cinq	NUM	cinq
-ans	NOUN	an
-d'	ADP	de
-ineligibilite	NOUN	ineligibilite
-requis	VERB	requerir
-contre	ADP	contre
-jacques	PROPN	jacques
-dominati	PROPN	dominati
+^	PUNCT	^
+cf.	VERB	cf.
+"	PUNCT	"
+la	DET	le
+juventus	NOUN	juventu
+en	ADP	en
+serie	NOUN	serie
+b	NOUN	b
+"	PUNCT	"
 ,	PUNCT	,
-le	DET	le
-monde	PROPN	monde
+l'	DET	le
+equipe	PROPN	equipe
 ,	PUNCT	,
-24	NUM	24
-octobre	NOUN	octobre
+14	NUM	14
+juillet	NOUN	juillet
 2006	NUM	2006
 }
 Predicted: {
 -	PUNCT	-
-un	DET	un
-an	NOUN	an
-d'	ADP	de
-emprisonnement	NOUN	emprisonnement
-avec	ADP	avec
-sursis	NOUN	sursis
-et	CCONJ	et
-cinq	NUM	cinq
-ans	NOUN	an
-d'	ADP	de
-ineligibilite	NOUN	ineligibilite
-requis	VERB	requis
-contre	ADP	contre
-jacques	PROPN	jacques
-dominati	PROPN	dominati
+^	PUNCT	^
+cf.	VERB	cf.
+"	PUNCT	"
+la	DET	le
+juventus	NOUN	juventus
+en	ADP	en
+serie	NOUN	serie
+b	NOUN	b
+"	PUNCT	"
 ,	PUNCT	,
-le	DET	le
-monde	PROPN	monde
+l'	DET	le
+equipe	PROPN	equipe
 ,	PUNCT	,
-24	NUM	24
-octobre	NOUN	octobre
+14	NUM	14
+juillet	NOUN	juillet
 2006	NUM	2006
 }
 Errors: {
 Tok: Ref | Pred
 ---------------
-requis: requerir | requis
-}
-
-Expected: {
-il	PRON	lui
-fut	AUX	etre
-l'	DET	le
-objet	NOUN	objet
-de	ADP	de
-plus	ADV	plus
-de	ADP	de
-500	NUM	500
-millions	NOUN	million
-de	ADP	de
-dollars	NOUN	dollar
-de	ADP	de
-commissions	NOUN	commission
-et	CCONJ	et
-retrocommissions	NOUN	retrocommission
-qui	PRON	qui
-ont	AUX	avoir
-nourri	VERB	nourrir
-beaucoup	ADV	beaucoup
-de	ADP	de
-fantasmes	NOUN	fantasme
-et	CCONJ	et
-fut	AUX	etre
-entoure	VERB	entourer
-d'	ADP	de
-une	DET	un
-epidemie	NOUN	epidemie
-de	ADP	de
-morts	NOUN	mort
-subites	ADJ	subit
-(	PUNCT	(
-noyades	NOUN	noyade
-,	PUNCT	,
-defenestrations	NOUN	defenestration
-,	PUNCT	,
-accidents	NOUN	accident
-therapeutiques	ADJ	therapeutique
-)	PUNCT	)
-.	PUNCT	.
-}
-Predicted: {
-il	PRON	lui
-fut	AUX	etre
-l'	DET	le
-objet	NOUN	objet
-de	ADP	de
-plus	ADV	plus
-de	ADP	de
-500	NUM	500
-millions	NOUN	million
-de	ADP	de
-dollars	NOUN	dollar
-de	ADP	de
-commissions	NOUN	commission
-et	CCONJ	et
-retrocommissions	NOUN	retrocommission
-qui	PRON	qui
-ont	AUX	avoir
-nourri	VERB	nourrir
-beaucoup	ADV	beaucoup
-de	ADP	de
-fantasmes	NOUN	fantasme
-et	CCONJ	et
-fut	AUX	etre
-entoure	VERB	entourer
-d'	ADP	de
-une	DET	un
-epidemie	NOUN	epidemie
-de	ADP	de
-morts	NOUN	mort
-subites	ADJ	subite
-(	PUNCT	(
-noyades	NOUN	noyade
-,	PUNCT	,
-defenestrations	NOUN	defenestration
-,	PUNCT	,
-accidents	NOUN	accident
-therapeutiques	ADJ	therapeutique
-)	PUNCT	)
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-subites: subit | subite
-}
-
-Expected: {
-alfred	PROPN	alfred
-sirven	PROPN	sirven
-fait	AUX	faire
-payer	VERB	payer
-une	DET	un
-partie	NOUN	partie
-de	ADP	de
-la	DET	le
-commission	NOUN	commission
-promise	VERB	promettre
-par	ADP	par
-les	DET	le
-fonds	NOUN	fonds
-secrets	ADJ	secret
-d'	ADP	de
-elf	PROPN	elf
-.	PUNCT	.
-}
-Predicted: {
-alfred	PROPN	alfred
-sirven	PROPN	sirven
-fait	AUX	faire
-payer	VERB	payer
-une	DET	un
-partie	NOUN	partie
-de	ADP	de
-la	DET	le
-commission	NOUN	commission
-promise	VERB	promiser
-par	ADP	par
-les	DET	le
-fonds	NOUN	fond
-secrets	ADJ	secret
-d'	ADP	de
-elf	PROPN	elf
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-promise: promettre | promiser
-fonds: fonds | fond
-}
-
-Expected: {
-l'	DET	le
-enquete	NOUN	enquete
-sur	ADP	sur
-sa	DET	son
-mort	NOUN	mort
-a	AUX	avoir
-ete	AUX	etre
-classee	VERB	classer
-sans	ADP	sans
-suite	NOUN	suite
-,	PUNCT	,
-etant	AUX	etre
-consideree	VERB	considerer
-comme	ADP	comme
-accidentelle	ADJ	accidentel
-.	PUNCT	.
-}
-Predicted: {
-l'	DET	le
-enquete	NOUN	enquete
-sur	ADP	sur
-sa	DET	son
-mort	NOUN	mort
-a	AUX	avoir
-ete	AUX	etre
-classee	VERB	classer
-sans	ADP	sans
-suite	NOUN	suite
-,	PUNCT	,
-etant	AUX	etre
-consideree	VERB	considerer
-comme	ADP	comme
-accidentelle	ADJ	accidentelle
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-accidentelle: accidentel | accidentelle
-}
-
-Expected: {
-les	DET	le
-banquiers	NOUN	banquier
-n'	ADV	ne
-ont	AUX	avoir
-jamais	ADV	jamais
-ete	AUX	etre
-arretes	VERB	arreter
-ni	CCONJ	ni
-juges	VERB	juger
-,	PUNCT	,
-a	ADP	a
-l'	DET	le
-exception	NOUN	exception
-de	ADP	de
-la	DET	le
-chartered	X	chartered
-bank	X	bank
-qui	PRON	qui
-fut	AUX	etre
-inculpee	VERB	inculper
-pour	ADP	pour
-des	DET	un
-pratiques	NOUN	pratique
-nettement	ADV	nettement
-frauduleuses	ADJ	frauduleux
-.	PUNCT	.
-}
-Predicted: {
-les	DET	le
-banquiers	NOUN	banquier
-n'	ADV	ne
-ont	AUX	avoir
-jamais	ADV	jamais
-ete	AUX	etre
-arretes	VERB	arreter
-ni	CCONJ	ni
-juges	VERB	juger
-,	PUNCT	,
-a	ADP	a
-l'	DET	le
-exception	NOUN	exception
-de	ADP	de
-la	DET	le
-chartered	X	chartered
-bank	X	bank
-qui	PRON	qui
-fut	AUX	etre
-inculpee	VERB	inculpeer
-pour	ADP	pour
-des	DET	un
-pratiques	NOUN	pratique
-nettement	ADV	nettement
-frauduleuses	ADJ	frauduleux
-.	PUNCT	.
-}
-Errors: {
-Tok: Ref | Pred
----------------
-inculpee: inculper | inculpeer
+juventus: juventu | juventus
 }
