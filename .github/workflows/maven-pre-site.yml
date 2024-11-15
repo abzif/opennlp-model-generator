@@ -19,7 +19,7 @@ jobs:
           restore-keys: maven-repo-
       - uses: actions/cache@v3
         with:
-          path: ~/.cache/babzel
+          path: ~/.cache/opennlp-model-generator
           key: opennlp-model-cache-${{ github.run_id }}
           restore-keys: opennlp-model-cache-
       - run: mvn clean install

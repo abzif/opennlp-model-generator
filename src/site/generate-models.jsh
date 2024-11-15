@@ -25,10 +25,10 @@ List<String> languageCodes = List.of(
 List<String> modelMarkdownLines = new ArrayList<>();
 modelMarkdownLines.add("# Pre-trained models");
 modelMarkdownLines.add("");
+modelMarkdownLines.add("---");
 
 String javaOpts = System.getProperty("java.opts", "");
-String toolsSimpleJar = System.getProperty("tools.simple.jar", "");
-String toolsLuceneJar = System.getProperty("tools.lucene.jar", "");
+String toolsJar = System.getProperty("tools.jar", "");
 Path workDirectory = Path.of(System.getProperty("work.dir", "."));
 Path siteDirectory = Path.of(System.getProperty("site.dir", "."));
 Integer maxExecMinutes = Integer.parseInt(System.getProperty("max.exec.minutes", "0"));
@@ -83,18 +83,17 @@ String getEvaluationScoreInPercent(Path reportFile) throws Exception {
     }
 }
 
-String createLanguageHeader(Path workDir, String languageCode) throws Exception {
+String createLanguageHeader(String languageCode) {
+    return String.format("## %s", languageCode);
+}
+
+String createLanguageDescription(Path workDir, String languageCode) throws Exception {
     String languageName = getLanguageName(languageCode);
     String resourceDirName = getResourceDirectoryName(languageCode, "lucene");
     String reportFileName = getReportFileName(languageCode, "lemmatizer");
     Path reportPath = workDir.resolve(resourceDirName).resolve(reportFileName);
     String trainingSampleSize = getTrainingSampleSizeInThousands(reportPath);
-    return String.format("1. language code: **%s**, language name: **%s**, training sample size: **%s**", languageCode, languageName, trainingSampleSize);
-}
-
-String createModelHeader(Path workDir, String languageCode, String normalizerType) {
-    String resourceDirName = getResourceDirectoryName(languageCode, normalizerType);
-    return String.format("   - %s", resourceDirName);
+    return String.format("language code: **%s**, language name: **%s**, training sample size: **%s**", languageCode, languageName, trainingSampleSize);
 }
 
 String createModelLine(Path workDir, String languageCode, String normalizerType, String modelType) throws Exception {
@@ -104,14 +103,13 @@ String createModelLine(Path workDir, String languageCode, String normalizerType,
     Path reportPath = workDir.resolve(resourceDirName).resolve(reportFileName);
     String algorithm = getTrainingAlgorithm(reportPath);
     String score = getEvaluationScoreInPercent(reportPath);
-    return String.format("     - model file: **[%s](models/%s/%s)**, evaluation report: **[%s](models/%s/%s)**, training algorithm: **%s**, evaluation score: **%s**%%",
+    return String.format("- model file: **[%s](models/%s/%s)**, evaluation report: **[%s](models/%s/%s)**, training algorithm: **%s**, evaluation score: **%s**%%",
             modelFileName, resourceDirName, modelFileName,
             reportFileName, resourceDirName, reportFileName,
             algorithm, score);
 }
 
 void appendModelMarkdownLines(Path workDir, String languageCode, String normalizerType, List<String> modelMarkdownLines) throws Exception {
-    modelMarkdownLines.add(createModelHeader(workDir, languageCode, normalizerType));
     modelMarkdownLines.add(createModelLine(workDir, languageCode, normalizerType, "sentence-detector"));
     modelMarkdownLines.add(createModelLine(workDir, languageCode, normalizerType, "tokenizer"));
     modelMarkdownLines.add(createModelLine(workDir, languageCode, normalizerType, "pos-tagger"));
@@ -119,8 +117,11 @@ void appendModelMarkdownLines(Path workDir, String languageCode, String normaliz
 }
 
 void appendModelMarkdown(Path workDir, String languageCode, List<String> modelMarkdownLines) throws Exception {
-    modelMarkdownLines.add(createLanguageHeader(workDir, languageCode));
-    appendModelMarkdownLines(workDir, languageCode, "simple", modelMarkdownLines);
+    modelMarkdownLines.add("");
+    modelMarkdownLines.add(createLanguageHeader(languageCode));
+    modelMarkdownLines.add("");
+    modelMarkdownLines.add(createLanguageDescription(workDir, languageCode));
+    modelMarkdownLines.add("");
     appendModelMarkdownLines(workDir, languageCode, "lucene", modelMarkdownLines);
 }
 
@@ -135,7 +136,6 @@ void copyModelAndReport(Path workDir, String languageCode, String normalizerType
     Files.createDirectories(dstModelFile.getParent());
     Files.copy(srcModelFile, dstModelFile, StandardCopyOption.REPLACE_EXISTING);
     Files.copy(srcReportFile, dstReportFile, StandardCopyOption.REPLACE_EXISTING);
-
 }
 
 void copyModelDir(Path workDir, String languageCode, String normalizerType, Path siteDirectory) throws Exception {
@@ -146,12 +146,11 @@ void copyModelDir(Path workDir, String languageCode, String normalizerType, Path
 }
 
 void copyModelFiles(Path workDir, String languageCode, Path siteDirectory) throws Exception {
-    copyModelDir(workDir, languageCode, "simple", siteDirectory);
     copyModelDir(workDir, languageCode, "lucene", siteDirectory);
 }
 
 Process startModelTrainProcess(Path workDir, String languageCode, String javaOpts, String jarFileName) throws Exception {
-    ProcessBuilder builder = new ProcessBuilder("java", javaOpts, "-jar", jarFileName, "train", languageCode, workDir.toAbsolutePath().toString());
+    ProcessBuilder builder = new ProcessBuilder("java", javaOpts, "-jar", jarFileName, languageCode);
     builder.redirectErrorStream(true).redirectOutput(ProcessBuilder.Redirect.INHERIT);
     return builder.start();
 }
@@ -180,13 +179,12 @@ void trainModel(Path workDir, String languageCode, String javaOpts, String jarFi
     }
 }
 
-if (toolsSimpleJar.length() > 0 && toolsLuceneJar.length() > 0) {
+if (toolsJar.length() > 0) {
     try {
         var startTime = LocalDateTime.now();
         for (String languageCode : languageCodes) {
             try {
-                trainModel(workDirectory, languageCode, javaOpts, toolsSimpleJar, startTime);
-                trainModel(workDirectory, languageCode, javaOpts, toolsLuceneJar, startTime);
+                trainModel(workDirectory, languageCode, javaOpts, toolsJar, startTime);
                 copyModelFiles(workDirectory, languageCode, siteDirectory);
                 appendModelMarkdown(workDirectory, languageCode, modelMarkdownLines);
             } catch (IllegalStateException e) {
