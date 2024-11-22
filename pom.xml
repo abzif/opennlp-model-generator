@@ -64,7 +64,8 @@
                 </executions>
                 <configuration>
                     <includes>
-                        <include>opennlpmodgen/**</include>
+                        <include>**/tools/**</include>
+                        <include>**/lucene/**</include>
                     </includes>
                     <excludes>
                         <exclude>**/*Config*.class</exclude>
