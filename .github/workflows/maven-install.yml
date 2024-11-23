@@ -1,4 +1,4 @@
-name: maven-deploy
+name: maven-install
 on:
   push:
     branches:
