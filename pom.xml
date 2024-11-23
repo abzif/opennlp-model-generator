@@ -33,7 +33,7 @@
         <generateProjectInfo>false</generateProjectInfo>
         <generateReports>false</generateReports>
         <maven.site.deploy.skip>true</maven.site.deploy.skip>
-        <argLine/>
+        <argLine></argLine>
     </properties>
 
     <build>
