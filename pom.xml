@@ -79,10 +79,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <includes>
-                        <include>**/tools/**</include>
-                        <include>**/lucene/**</include>
-                    </includes>
                     <excludes>
                         <exclude>**/*Config*.class</exclude>
                         <exclude>**/*Cmd*.class</exclude>
