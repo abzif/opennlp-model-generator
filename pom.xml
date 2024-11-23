@@ -37,6 +37,7 @@
 
     <build>
         <plugins>
+            <!-- test plugin, force newer version in order to work in github workflows -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -198,6 +199,12 @@
                 <groupId>org.jsoup</groupId>
                 <artifactId>jsoup</artifactId>
                 <version>1.18.1</version>
+            </dependency>
+            <!-- gzip, explicit version, default from spring boot is vulnerable -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>1.26.2</version>
             </dependency>
             <!-- lucene -->
             <dependency>
