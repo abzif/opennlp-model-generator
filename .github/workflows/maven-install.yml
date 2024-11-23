@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  maven-deploy:
+  maven-install:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
