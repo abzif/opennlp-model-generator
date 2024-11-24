@@ -33,6 +33,7 @@
         <generateProjectInfo>false</generateProjectInfo>
         <generateReports>false</generateReports>
         <maven.site.deploy.skip>true</maven.site.deploy.skip>
+        <max.exec.minutes>0</max.exec.minutes>
     </properties>
 
     <build>
@@ -142,7 +143,7 @@
                         <argument>-J-Dtools.jar=${project.build.directory}/${project.artifactId}-${project.version}.jar</argument>
                         <argument>-J-Dwork.dir=${user.home}/.cache/opennlp-model-generator</argument>
                         <argument>-J-Dsite.dir=${project.build.directory}/generated-site</argument>
-                        <argument>-J-Dmax.exec.minutes=0</argument>
+                        <argument>-J-Dmax.exec.minutes=${max.exec.minutes}</argument>
                         <argument>${project.basedir}/src/site/generate-models.jsh</argument>
                     </arguments>
                 </configuration>
