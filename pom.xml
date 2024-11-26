@@ -139,7 +139,7 @@
                     <arguments>
                         <argument>--execution</argument>
                         <argument>local</argument>
-                        <argument>-J-Djava.opts=-Xmx6g</argument>
+                        <argument>-J-Djava.opts=-Xmx12g</argument>
                         <argument>-J-Dtools.jar=${project.build.directory}/${project.artifactId}-${project.version}.jar</argument>
                         <argument>-J-Dwork.dir=${user.home}/.cache/opennlp-model-generator</argument>
                         <argument>-J-Dsite.dir=${project.build.directory}/generated-site</argument>
