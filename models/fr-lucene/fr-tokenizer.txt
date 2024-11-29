@@ -1,87 +1,240 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9992445227902291
-Training-Sample-Size=21782
-Evaluation-Sample-Size=2420
+Evaluation-Score=0.9993730341459303
+Training-Sample-Size=42266
+Evaluation-Sample-Size=4696
 Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
 Component-Name=TokenizerME
 Language=fr
 Manifest-Version=1.0
-OpenNLP-Version=1.9.4
-Timestamp=1729408659778
+OpenNLP-Version=2.5.0
+Timestamp=1732510119671
 TrainerType=Event
-Training-Eventhash=14ada9706b60c2f0656bec4da0b14fa6
-alphaNumericPattern=^[A-Za-z0-9]+$
+Training-Eventhash=3937571131
+alphaNumericPattern=^[a-zA-Z0-9àâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
 Expected: {
-fichier : gare de houdan 10.jpg | le batiment voyageurs<SPLIT>.}
+Une série placée sur une orbite du matin (<SPLIT>Morning Orbit ou M<SPLIT>) dédiée à l'<SPLIT>étude de la météorologie<SPLIT>, de l'<SPLIT>atmosphère<SPLIT>, de l'<SPLIT>océan et des glaces<SPLIT>.}
 Predicted: {
-fichier : gare de houdan 10<SPLIT>.jpg | le batiment voyageurs<SPLIT>.}
+Une série placée sur une orbite du matin (<SPLIT>Morning Orbit ou M) dédiée à l'<SPLIT>étude de la météorologie<SPLIT>, de l'<SPLIT>atmosphère<SPLIT>, de l'<SPLIT>océan et des glaces<SPLIT>.}
 False positives: {
-10
-.jpg
+M)
 } False negatives: {
-10.jpg
+M
+)
 }
 
 Expected: {
-le reseau artisans du monde propose des interventions dans les ecoles<SPLIT>, des formations et des outils pedagogiques (<SPLIT>accessible par la centrale d'<SPLIT>achats solidar'monde<SPLIT>) " pour permettre aux citoyens<SPLIT>, selon les termes de l'<SPLIT>association<SPLIT>, d'<SPLIT>avoir un regard critique sur les dysfonctionnements du commerce international et de devenir acteurs d'<SPLIT>une societe plus juste "<SPLIT>.}
+Le réseau Artisans du Monde propose des interventions dans les écoles<SPLIT>, des formations et des outils pédagogiques (<SPLIT>accessible par la centrale d'<SPLIT>achats Solidar'Monde<SPLIT>) « pour permettre aux citoyens<SPLIT>, selon les termes de l'<SPLIT>association<SPLIT>, d'<SPLIT>avoir un regard critique sur les dysfonctionnements du commerce international et de devenir acteurs d'<SPLIT>une société plus juste »<SPLIT>.}
 Predicted: {
-le reseau artisans du monde propose des interventions dans les ecoles<SPLIT>, des formations et des outils pedagogiques (<SPLIT>accessible par la centrale d'<SPLIT>achats solidar'<SPLIT>monde<SPLIT>) " pour permettre aux citoyens<SPLIT>, selon les termes de l'<SPLIT>association<SPLIT>, d'<SPLIT>avoir un regard critique sur les dysfonctionnements du commerce international et de devenir acteurs d'<SPLIT>une societe plus juste "<SPLIT>.}
+Le réseau Artisans du Monde propose des interventions dans les écoles<SPLIT>, des formations et des outils pédagogiques (<SPLIT>accessible par la centrale d'<SPLIT>achats Solidar'<SPLIT>Monde<SPLIT>) « pour permettre aux citoyens<SPLIT>, selon les termes de l'<SPLIT>association<SPLIT>, d'<SPLIT>avoir un regard critique sur les dysfonctionnements du commerce international et de devenir acteurs d'<SPLIT>une société plus juste »<SPLIT>.}
 False positives: {
-solidar'
-monde
+Solidar'
+Monde
 } False negatives: {
-solidar'monde
+Solidar'Monde
 }
 
 Expected: {
-ils m'<SPLIT>ont dit que c'<SPLIT>est un systeme de securite quand tu tournes le volant au maximum<SPLIT>.... n'<SPLIT>importe quoi<SPLIT>... par contre<SPLIT>, ils sont excellent pour '<SPLIT>bullshitter<SPLIT>'<SPLIT>.}
+Mais voilà : la pluie de dollars sur l'<SPLIT>Égypte et Israël n'<SPLIT>a pas empêché le pire d'<SPLIT>arriver :<SPLIT>'<SPLIT>une secousse d'<SPLIT>en bas<SPLIT>'<SPLIT>, dans la société civile du peuple égyptien<SPLIT>, encouragée par l'<SPLIT>exemple tunisien !}
 Predicted: {
-ils m'<SPLIT>ont dit que c'<SPLIT>est un systeme de securite quand tu tournes le volant au maximum<SPLIT>.... n'<SPLIT>importe quoi<SPLIT>... par contre<SPLIT>, ils sont excellent pour 'bullshitter'<SPLIT>.}
+Mais voilà : la pluie de dollars sur l'<SPLIT>Égypte et Israël n'<SPLIT>a pas empêché le pire d'<SPLIT>arriver :'<SPLIT>une secousse d'<SPLIT>en bas<SPLIT>'<SPLIT>, dans la société civile du peuple égyptien<SPLIT>, encouragée par l'<SPLIT>exemple tunisien !}
 False positives: {
-'bullshitter'
+:'
 } False negatives: {
+:
 '
-bullshitter
+}
+
+Expected: {
+Ainsi si le cours des actions monte à 150 euros<SPLIT>, nous remonterons notre ordre de vente à 140<SPLIT>, si elles montent à 170<SPLIT>, nous le passerons à 160<SPLIT>, etc.}
+Predicted: {
+Ainsi si le cours des actions monte à 150 euros<SPLIT>, nous remonterons notre ordre de vente à 140<SPLIT>, si elles montent à 170<SPLIT>, nous le passerons à 160<SPLIT>, etc<SPLIT>.}
+False positives: {
+etc
+.
+} False negatives: {
+etc.
+}
+
+Expected: {
+Le trio se reforme en 1939<SPLIT>, pour présenter au Center Theater de Broadway<SPLIT>, la comédie musicale Swingin'<SPLIT>the dream produite par Erik Charell<SPLIT>.}
+Predicted: {
+Le trio se reforme en 1939<SPLIT>, pour présenter au Center Theater de Broadway<SPLIT>, la comédie musicale Swingin<SPLIT>'<SPLIT>the dream produite par Erik Charell<SPLIT>.}
+False positives: {
+Swingin
 '
+} False negatives: {
+Swingin'
 }
 
 Expected: {
-les terrains de tennis ferment a 18h !}
+Les hivers sont très froids<SPLIT>, avec des températures tombant à −25 °<SPLIT>C<SPLIT>, et les étés sont tempérés<SPLIT>, avec des températures qui ne dépassent guère 35 °<SPLIT>C<SPLIT>.}
 Predicted: {
-les terrains de tennis ferment a 18<SPLIT>h !}
+Les hivers sont très froids<SPLIT>, avec des températures tombant à −25 °C<SPLIT>, et les étés sont tempérés<SPLIT>, avec des températures qui ne dépassent guère 35 °C<SPLIT>.}
 False positives: {
-18
-h
+°C
+°C
 } False negatives: {
-18h
+°
+C
+°
+C
 }
 
 Expected: {
-c'<SPLIT>est un animal gregaire et se mele souvent a d'<SPLIT>autres especes de bruants ou de pinsons (<SPLIT>fringilla spp<SPLIT>.<SPLIT>)}
+Acesur (<SPLIT>Aceites del Sur<SPLIT>) est une entreprise espagnole fondée en<SPLIT>1840<SPLIT>, dans le secteur de l'<SPLIT>huile d'<SPLIT>olive<SPLIT>.}
 Predicted: {
-c'<SPLIT>est un animal gregaire et se mele souvent a d'<SPLIT>autres especes de bruants ou de pinsons (<SPLIT>fringilla spp.<SPLIT>)}
+Acesur (<SPLIT>Aceites del Sur<SPLIT>) est une entreprise espagnole fondée en1840<SPLIT>, dans le secteur de l'<SPLIT>huile d'<SPLIT>olive<SPLIT>.}
 False positives: {
-spp.
+en1840
 } False negatives: {
-spp
+en
+1840
+}
+
+Expected: {
+Andreï Illarionov est un économiste russe né en 1961<SPLIT>, surtout connu pour avoir conseillé le gouvernement russe sur les réformes économiques dans les années 1990 et pour avoir été le conseiller pour les affaires économiques du président russe<SPLIT>Vladimir Poutine<SPLIT>.}
+Predicted: {
+Andreï Illarionov est un économiste russe né en 1961<SPLIT>, surtout connu pour avoir conseillé le gouvernement russe sur les réformes économiques dans les années 1990 et pour avoir été le conseiller pour les affaires économiques du président russeVladimir Poutine<SPLIT>.}
+False positives: {
+russeVladimir
+} False negatives: {
+russe
+Vladimir
+}
+
+Expected: {
+Elle s'<SPLIT>achève en faisant office d'<SPLIT>introduction a la mini série événement House of M<SPLIT>.}
+Predicted: {
+Elle s'<SPLIT>achève en faisant office d'<SPLIT>introduction a la mini série événement House of M.}
+False positives: {
+M.
+} False negatives: {
+M
 .
 }
 
 Expected: {
-il y a frequemment des precipitations de 200 a 300 mm en 24<SPLIT>h<SPLIT>.}
+Le système actuel garantit déjà la mobilité professionnelle<SPLIT>, a assuré Hildegard Fässler (<SPLIT>PS<SPLIT>/<SPLIT>SG<SPLIT>)<SPLIT>.}
 Predicted: {
-il y a frequemment des precipitations de 200 a 300 mm en 24h<SPLIT>.}
+Le système actuel garantit déjà la mobilité professionnelle<SPLIT>, a assuré Hildegard Fässler (<SPLIT>PS/<SPLIT>SG<SPLIT>)<SPLIT>.}
 False positives: {
-24h
+PS/
 } False negatives: {
-24
+PS
+/
+}
+
+Expected: {
+À la fin de son mandat il a œuvré à réunir 11 millions de livres sterling afin remplacer les goélettes à hunier de la STA<SPLIT>, les Sir Winston Churchill et Malcom Miller<SPLIT>, par deux bricks<SPLIT>, les Prince William et Stavros S. Niarchos<SPLIT>.}
+Predicted: {
+À la fin de son mandat il a œuvré à réunir 11 millions de livres sterling afin remplacer les goélettes à hunier de la STA<SPLIT>, les Sir Winston Churchill et Malcom Miller<SPLIT>, par deux bricks<SPLIT>, les Prince William et Stavros S<SPLIT>. Niarchos<SPLIT>.}
+False positives: {
+S
+.
+} False negatives: {
+S.
+}
+
+Expected: {
+Nous avons eu la joie d'<SPLIT>entendre les ébats de nos voisins du dessus jusque vers 3<SPLIT>h<SPLIT>00 du matin ainsi que le ronflement désagréable de leur jacuzzi<SPLIT>.}
+Predicted: {
+Nous avons eu la joie d'<SPLIT>entendre les ébats de nos voisins du dessus jusque vers 3<SPLIT>h00 du matin ainsi que le ronflement désagréable de leur jacuzzi<SPLIT>.}
+False positives: {
+h00
+} False negatives: {
 h
+00
+}
+
+Expected: {
+Les oncles ont donc le droit d'<SPLIT>épouser leur nièce<SPLIT>, dans le silence du texte ou à l'<SPLIT>alliance de la femme<SPLIT>, ou au fait qu'<SPLIT>elle allaite<SPLIT>.. Rien n'<SPLIT>est jusqu'<SPLIT>ici donc dit de l'<SPLIT>époux<SPLIT>, en revanche (<SPLIT>art. 24<SPLIT>, v. cep. art 30 infra<SPLIT>)<SPLIT>.}
+Predicted: {
+Les oncles ont donc le droit d'<SPLIT>épouser leur nièce<SPLIT>, dans le silence du texte ou à l'<SPLIT>alliance de la femme<SPLIT>, ou au fait qu'<SPLIT>elle allaite<SPLIT>.. Rien n'<SPLIT>est jusqu'<SPLIT>ici donc dit de l'<SPLIT>époux<SPLIT>, en revanche (<SPLIT>art<SPLIT>. 24<SPLIT>, v. cep<SPLIT>. art 30 infra<SPLIT>)<SPLIT>.}
+False positives: {
+art
+.
+cep
+.
+} False negatives: {
+art.
+cep.
+}
+
+Expected: {
+Il n'<SPLIT>y a pas de mécanisme dans ce jeu qui leur permette d'<SPLIT>aller ailleurs que dans une pile de plus en plus grande de<SPLIT>chips polystyrène indigestes<SPLIT>.}
+Predicted: {
+Il n'<SPLIT>y a pas de mécanisme dans ce jeu qui leur permette d'<SPLIT>aller ailleurs que dans une pile de plus en plus grande dechips polystyrène indigestes<SPLIT>.}
+False positives: {
+dechips
+} False negatives: {
+de
+chips
+}
+
+Expected: {
+[mh<SPLIT>.]}
+Predicted: {
+[<SPLIT>mh<SPLIT>.<SPLIT>]}
+False positives: {
+[
+mh
+.
+]
+} False negatives: {
+[mh
+.]
+}
+
+Expected: {
+[vous vous entraidiez<SPLIT>, etc<SPLIT>.]}
+Predicted: {
+[vous vous entraidiez<SPLIT>, etc.<SPLIT>]}
+False positives: {
+etc.
+]
+} False negatives: {
+etc
+.]
+}
+
+Expected: {
+à 6 mois<SPLIT>, Aclasta a montré des taux de réponse et de normalisation des phosphatases alcalines sériques (<SPLIT>PAS<SPLIT>) de 96<SPLIT>% (<SPLIT>169/176<SPLIT>) et 89<SPLIT>% (<SPLIT>156/176<SPLIT>) comparé à 74<SPLIT>% (<SPLIT>127/171<SPLIT>) et 58<SPLIT>% (<SPLIT>99/171<SPLIT>) pour le risédronate (<SPLIT>p < 0,001 pour toutes les valeurs<SPLIT>)<SPLIT>.}
+Predicted: {
+à 6 mois<SPLIT>, Aclasta a montré des taux de réponse et de normalisation des phosphatases alcalines sériques (<SPLIT>PAS<SPLIT>) de 96<SPLIT>% (<SPLIT>169/176<SPLIT>) et 89<SPLIT>% (<SPLIT>156<SPLIT>/<SPLIT>176<SPLIT>) comparé à 74<SPLIT>% (<SPLIT>127/171<SPLIT>) et 58<SPLIT>% (<SPLIT>99/171<SPLIT>) pour le risédronate (<SPLIT>p < 0,001 pour toutes les valeurs<SPLIT>)<SPLIT>.}
+False positives: {
+156
+/
+176
+} False negatives: {
+156/176
+}
+
+Expected: {
+quel president americain est enterre a washington<SPLIT>, d. c. ?}
+Predicted: {
+quel president americain est enterre a washington<SPLIT>, d<SPLIT>. c. ?}
+False positives: {
+d
+.
+} False negatives: {
+d.
+}
+
+Expected: {
+soumise a la votation le 18 mai 2003<SPLIT>, l'<SPLIT>initiative est refusee par la totalite des 20 6<SPLIT>/<SPLIT>2 cantons et par 68,4<SPLIT>% des suffrages exprimes<SPLIT>.}
+Predicted: {
+soumise a la votation le 18 mai 2003<SPLIT>, l'<SPLIT>initiative est refusee par la totalite des 20 6/<SPLIT>2 cantons et par 68,4<SPLIT>% des suffrages exprimes<SPLIT>.}
+False positives: {
+6/
+} False negatives: {
+6
+/
 }
 
 Expected: {
@@ -93,21 +246,6 @@ False positives: {
 } False negatives: {
 30
 mm
-}
-
-Expected: {
-elle se situe par 20 o 59<SPLIT>'<SPLIT>32 "<SPLIT>de latitude sud et par 48 o 55<SPLIT>'<SPLIT>07<SPLIT>" de longitude ouest<SPLIT>, a une altitude de 555 metres<SPLIT>.}
-Predicted: {
-elle se situe par 20 o 59'<SPLIT>32 "<SPLIT>de latitude sud et par 48 o 55'07<SPLIT>" de longitude ouest<SPLIT>, a une altitude de 555 metres<SPLIT>.}
-False positives: {
-59'
-55'07
-} False negatives: {
-59
-'
-55
-'
-07
 }
 
 Expected: {
@@ -144,107 +282,136 @@ dni
 }
 
 Expected: {
-brittney reese debute sa saison en plein air 2011 par une victoire obtenue au meeting golden gala de rome<SPLIT>, deuxieme etape de la ligue de diamant<SPLIT>, avec la marque de 6,94 m<SPLIT>.}
+ces principes ont ete definis par le pasteur americain leon h. sullivan<SPLIT>, contemporain et ami de martin luther king<SPLIT>.}
 Predicted: {
-brittney reese debute sa saison en plein air 2011 par une victoire obtenue au meeting golden gala de rome<SPLIT>, deuxieme etape de la ligue de diamant<SPLIT>, avec la marque de 6,94 m.}
+ces principes ont ete definis par le pasteur americain leon h<SPLIT>. sullivan<SPLIT>, contemporain et ami de martin luther king<SPLIT>.}
 False positives: {
-m.
-} False negatives: {
-m
-.
-}
-
-Expected: {
-de la on atteint le fond du cirque<SPLIT>, a pied<SPLIT>, en 1 heure 1<SPLIT>/<SPLIT>4 environ<SPLIT>.}
-Predicted: {
-de la on atteint le fond du cirque<SPLIT>, a pied<SPLIT>, en 1 heure 1/4 environ<SPLIT>.}
-False positives: {
-1/4
-} False negatives: {
-1
-/
-4
-}
-
-Expected: {
-son nom complet est banksia integrifolia<SPLIT>'<SPLIT>roller coaster<SPLIT>.}
-Predicted: {
-son nom complet est banksia integrifolia'roller coaster<SPLIT>.}
-False positives: {
-integrifolia'roller
-} False negatives: {
-integrifolia
-'
-roller
-}
-
-Expected: {
-en 2010 la liaison est geree par la compagnie<SPLIT>''<SPLIT>kihnu veeted<SPLIT>''<SPLIT>.}
-Predicted: {
-en 2010 la liaison est geree par la compagnie<SPLIT>'<SPLIT>'<SPLIT>kihnu veeted'<SPLIT>'<SPLIT>.}
-False positives: {
-'
-'
-veeted'
-'
-} False negatives: {
-''
-veeted
-''
-}
-
-Expected: {
-il fit ensuite construire la villa pouquette dans la presqu'ile et jean anouilh proceda de la meme facon puisque apres avoir loue la villa takis<SPLIT>, il fit construire la villa les pecheurs pres de l'<SPLIT>eglise<SPLIT>.}
-Predicted: {
-il fit ensuite construire la villa pouquette dans la presqu'<SPLIT>ile et jean anouilh proceda de la meme facon puisque apres avoir loue la villa takis<SPLIT>, il fit construire la villa les pecheurs pres de l'<SPLIT>eglise<SPLIT>.}
-False positives: {
-presqu'
-ile
-} False negatives: {
-presqu'ile
-}
-
-Expected: {
-il faut venir y manger au moins une fois dans votre vie<SPLIT>, vous ne pourrez pas le regretter :)}
-Predicted: {
-il faut venir y manger au moins une fois dans votre vie<SPLIT>, vous ne pourrez pas le regretter :<SPLIT>)}
-False positives: {
-:
-)
-} False negatives: {
-:)
-}
-
-Expected: {
-en ce sens<SPLIT>, je voudrais egalement aborder tres brievement les problemes des tunnels<SPLIT>, auxquels mm. rack et swoboda ont fait reference<SPLIT>, et qui<SPLIT>, dans le cas de l'<SPLIT>autriche<SPLIT>, constituent sans aucun doute un sujet tres sensible<SPLIT>, raison pour laquelle il est necessaire de faire des efforts pour voir comment accroitre leur securite<SPLIT>.}
-Predicted: {
-en ce sens<SPLIT>, je voudrais egalement aborder tres brievement les problemes des tunnels<SPLIT>, auxquels mm<SPLIT>. rack et swoboda ont fait reference<SPLIT>, et qui<SPLIT>, dans le cas de l'<SPLIT>autriche<SPLIT>, constituent sans aucun doute un sujet tres sensible<SPLIT>, raison pour laquelle il est necessaire de faire des efforts pour voir comment accroitre leur securite<SPLIT>.}
-False positives: {
-mm
-.
-} False negatives: {
-mm.
-}
-
-Expected: {
-(<SPLIT>la seance solennelle est close a 12<SPLIT>h<SPLIT>30<SPLIT>)}
-Predicted: {
-(<SPLIT>la seance solennelle est close a 12h30<SPLIT>)}
-False positives: {
-12h30
-} False negatives: {
-12
 h
-30
+.
+} False negatives: {
+h.
 }
 
 Expected: {
-emea / h/c/595}
+elle englobe la totalite du territoire administratif de la commune de montefalco ainsi que partiellement<SPLIT>, ceux des communes de bevagna<SPLIT>, gualdo cattaneo<SPLIT>, castel ritaldi et giano dell'umbria tous situes dans la province de perouse<SPLIT>.}
 Predicted: {
-emea / h/c/<SPLIT>595}
+elle englobe la totalite du territoire administratif de la commune de montefalco ainsi que partiellement<SPLIT>, ceux des communes de bevagna<SPLIT>, gualdo cattaneo<SPLIT>, castel ritaldi et giano dell'<SPLIT>umbria tous situes dans la province de perouse<SPLIT>.}
 False positives: {
-h/c/
-595
+dell'
+umbria
 } False negatives: {
-h/c/595
+dell'umbria
+}
+
+Expected: {
+dans ce film realise par m. night shyamalan (<SPLIT>le sixieme sens<SPLIT>)<SPLIT>, bruce willis incarnait david dunn et samuel l. jackson<SPLIT>, elijah price<SPLIT>.}
+Predicted: {
+dans ce film realise par m. night shyamalan (<SPLIT>le sixieme sens<SPLIT>)<SPLIT>, bruce willis incarnait david dunn et samuel l<SPLIT>. jackson<SPLIT>, elijah price<SPLIT>.}
+False positives: {
+l
+.
+} False negatives: {
+l.
+}
+
+Expected: {
+le principal contributeur a l'<SPLIT>ouvrage est russell mittermeier<SPLIT>, president de conservation international<SPLIT>, et les illustrations sont l'<SPLIT>oeuvre de stephen d. nash<SPLIT>.}
+Predicted: {
+le principal contributeur a l'<SPLIT>ouvrage est russell mittermeier<SPLIT>, president de conservation international<SPLIT>, et les illustrations sont l'<SPLIT>oeuvre de stephen d<SPLIT>. nash<SPLIT>.}
+False positives: {
+d
+.
+} False negatives: {
+d.
+}
+
+Expected: {
+on recherche donc des solutions ou tous les champs varient comme exp[i(k.r-ωt)]<SPLIT>.}
+Predicted: {
+on recherche donc des solutions ou tous les champs varient comme exp[i(<SPLIT>k.r-<SPLIT>ωt<SPLIT>)<SPLIT>]<SPLIT>.}
+False positives: {
+exp[i(
+k.r-
+ωt
+)
+]
+} False negatives: {
+exp[i(k.r-ωt)]
+}
+
+Expected: {
+je voulais faire s<SPLIT>.}
+Predicted: {
+je voulais faire s.}
+False positives: {
+s.
+} False negatives: {
+s
+.
+}
+
+Expected: {
+le programme<SPLIT>, monsieur le premier ministre<SPLIT>, comporte un certain nombre de projets<SPLIT>, d'autant plus interessants a nos yeux que nous les proposons depuis longtemps<SPLIT>: relevement du smic<SPLIT>, amnistie pour les commercants et les artisans<SPLIT>, aide aux chomeurs partiels<SPLIT>, egalisation des salaires feminins et masculins<SPLIT>, participation accrue des cadres aux conseils d'<SPLIT>administration des societes<SPLIT>, reforme du droit de licenciement<SPLIT>, nomination d'<SPLIT>un mediateur entre l'<SPLIT>administration et le public<SPLIT>, controle des depenses electorales<SPLIT>, toutes mesures qui dormaient dans vos cartons<SPLIT>, que vos predecesseurs avaient energiquement refusees<SPLIT>, et que l'on retrouve dans le programme commun de la gauche<SPLIT>.}
+Predicted: {
+le programme<SPLIT>, monsieur le premier ministre<SPLIT>, comporte un certain nombre de projets<SPLIT>, d'<SPLIT>autant plus interessants a nos yeux que nous les proposons depuis longtemps<SPLIT>: relevement du smic<SPLIT>, amnistie pour les commercants et les artisans<SPLIT>, aide aux chomeurs partiels<SPLIT>, egalisation des salaires feminins et masculins<SPLIT>, participation accrue des cadres aux conseils d'<SPLIT>administration des societes<SPLIT>, reforme du droit de licenciement<SPLIT>, nomination d'<SPLIT>un mediateur entre l'<SPLIT>administration et le public<SPLIT>, controle des depenses electorales<SPLIT>, toutes mesures qui dormaient dans vos cartons<SPLIT>, que vos predecesseurs avaient energiquement refusees<SPLIT>, et que l'on retrouve dans le programme commun de la gauche<SPLIT>.}
+False positives: {
+d'
+autant
+} False negatives: {
+d'autant
+}
+
+Expected: {
+ces durees ne devraient normalement pas depasser 24 heures<SPLIT>, a une temperature comprise entre 2 °c et 8 °c<SPLIT>.}
+Predicted: {
+ces durees ne devraient normalement pas depasser 24 heures<SPLIT>, a une temperature comprise entre 2 °c et 8 °<SPLIT>c<SPLIT>.}
+False positives: {
+°
+c
+} False negatives: {
+°c
+}
+
+Expected: {
+la stabilite physicochimique du produit reconstitue a ete demontree pendant 24 heures entre 2 °c<SPLIT>- 8 °c<SPLIT>.}
+Predicted: {
+la stabilite physicochimique du produit reconstitue a ete demontree pendant 24 heures entre 2 °c<SPLIT>- 8 °<SPLIT>c<SPLIT>.}
+False positives: {
+°
+c
+} False negatives: {
+°c
+}
+
+Expected: {
+pendant 15 ans<SPLIT>, elle a ete l'<SPLIT>assistante efficace de son mari<SPLIT>, rene s'<SPLIT>occupant du secretariat et denise de la tresorerie de la section l'isloise<SPLIT>.}
+Predicted: {
+pendant 15 ans<SPLIT>, elle a ete l'<SPLIT>assistante efficace de son mari<SPLIT>, rene s'<SPLIT>occupant du secretariat et denise de la tresorerie de la section l'<SPLIT>isloise<SPLIT>.}
+False positives: {
+l'
+isloise
+} False negatives: {
+l'isloise
+}
+
+Expected: {
+en cas d'<SPLIT>utilisation non immediate<SPLIT>, les durees et conditions de conservation apres reconstitution et avant utilisation relevent de la seule responsabilite de l'<SPLIT>utilisateur et ne doivent pas depasser 24 heures entre 2 °c<SPLIT>- 8 °c<SPLIT>, sauf en cas de reconstitution<SPLIT>/<SPLIT>dilution realisee en conditions d'<SPLIT>aseptie dument controlees et validees<SPLIT>.}
+Predicted: {
+en cas d'<SPLIT>utilisation non immediate<SPLIT>, les durees et conditions de conservation apres reconstitution et avant utilisation relevent de la seule responsabilite de l'<SPLIT>utilisateur et ne doivent pas depasser 24 heures entre 2 °c<SPLIT>- 8 °<SPLIT>c<SPLIT>, sauf en cas de reconstitution<SPLIT>/<SPLIT>dilution realisee en conditions d'<SPLIT>aseptie dument controlees et validees<SPLIT>.}
+False positives: {
+°
+c
+} False negatives: {
+°c
+}
+
+Expected: {
+si le produit n'<SPLIT>est pas utilise immediatement<SPLIT>, la duree et les conditions de conservation avant utilisation relevent de la responsabilite de l'<SPLIT>utilisateur et ne doivent pas normalement depasser 24 heures a une temperature de 2 °c a 8 °c<SPLIT>.}
+Predicted: {
+si le produit n'<SPLIT>est pas utilise immediatement<SPLIT>, la duree et les conditions de conservation avant utilisation relevent de la responsabilite de l'<SPLIT>utilisateur et ne doivent pas normalement depasser 24 heures a une temperature de 2 °c a 8 °<SPLIT>c<SPLIT>.}
+False positives: {
+°
+c
+} False negatives: {
+°c
 }

@@ -1,51 +1,62 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9994926433282598
-Training-Sample-Size=3818
-Evaluation-Sample-Size=424
-Training-Algorithm=PERCEPTRON
+Evaluation-Score=0.9996531992370383
+Training-Sample-Size=7587
+Evaluation-Sample-Size=842
+Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
 Component-Name=TokenizerME
 Language=el
 Manifest-Version=1.0
-OpenNLP-Version=1.9.4
-Timestamp=1729400633957
+OpenNLP-Version=2.5.0
+Timestamp=1732503844634
 TrainerType=Event
-Training-Eventhash=3b1acaaf4729e355cba61a80f11155af
+Training-Eventhash=1640198272
 alphaNumericPattern=^[A-Za-z0-9]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
 Expected: {
-με την αμεση μεταφραση<SPLIT>, ορισμενοι θα ψηφιζουν για το κονδυλιο 2 του προυπολογισμου<SPLIT>, την ωρα που καποιοι αλλοι θα ψηφιζουν ακομη για το κονδυλιο 1<SPLIT>.}
+3. Η εκκένωση των Τουρκικών θυλάκων από την Ειρηνευτική Δύναμη του ΟΗΕ.}
 Predicted: {
-με την αμεση μεταφραση<SPLIT>, ορισμενοι θα ψηφιζουν για το κονδυλιο 2 του προυπολογισμου<SPLIT>, την ωρα που καποιοι αλλοι θα ψηφιζουν ακομη για το κονδυλιο 1.}
+3. Η εκκένωση των Τουρκικών θυλάκων από την Ειρηνευτική Δύναμη του ΟΗΕ<SPLIT>.}
 False positives: {
-1.
-} False negatives: {
-1
+ΟΗΕ
 .
+} False negatives: {
+ΟΗΕ.
 }
 
 Expected: {
-13,6 εκ. ανθρωπων σ<SPLIT>την εε ειναι ανεργοι<SPLIT>.}
+« Θ<SPLIT>' αφήσεις κανένα γερό αυγό μπας και τσουγκρίσουμε κι αύριο ; »}
 Predicted: {
-13,6 εκ<SPLIT>. ανθρωπων σ<SPLIT>την εε ειναι ανεργοι<SPLIT>.}
+« Θ' αφήσεις κανένα γερό αυγό μπας και τσουγκρίσουμε κι αύριο ; »}
 False positives: {
-εκ
-.
+Θ'
 } False negatives: {
-εκ.
+Θ
+'
 }
 
 Expected: {
-5. η διεξαγωγη διαπραγματευσεων με συμμετοχη ελληνοκυπριων και τουρκοκυπριων για οριστικη διευθετηση του κυπριακου<SPLIT>.}
+το 2002 χρηματοδοτήθηκαν 10.029 σχέδια με ποσόν λίγο μεγαλύτερο των 80 εκατ. ευρώ<SPLIT>.}
 Predicted: {
-5<SPLIT>. η διεξαγωγη διαπραγματευσεων με συμμετοχη ελληνοκυπριων και τουρκοκυπριων για οριστικη διευθετηση του κυπριακου<SPLIT>.}
+το 2002 χρηματοδοτήθηκαν 10.029 σχέδια με ποσόν λίγο μεγαλύτερο των 80 εκατ<SPLIT>. ευρώ<SPLIT>.}
 False positives: {
-5
+εκατ
 .
 } False negatives: {
-5.
+εκατ.
+}
+
+Expected: {
+οι εξτρεμιστές απήγαγαν τα άτομα κατά τη διάρκεια επίθεσης που πραγματοποίησαν την τετάρτη σε εγκαταστάσεις εξόρυξης φυσικού αερίου<SPLIT>, οι οποίες εν μέρει ανήκουν σ<SPLIT>τη βρετανική εταιρεία bp.}
+Predicted: {
+οι εξτρεμιστές απήγαγαν τα άτομα κατά τη διάρκεια επίθεσης που πραγματοποίησαν την τετάρτη σε εγκαταστάσεις εξόρυξης φυσικού αερίου<SPLIT>, οι οποίες εν μέρει ανήκουν σ<SPLIT>τη βρετανική εταιρεία bp<SPLIT>.}
+False positives: {
+bp
+.
+} False negatives: {
+bp.
 }

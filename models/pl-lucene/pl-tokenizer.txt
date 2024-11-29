@@ -1,93 +1,59 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9978204632024932
-Training-Sample-Size=36020
-Evaluation-Sample-Size=4002
+Evaluation-Score=0.9986050734745845
+Training-Sample-Size=72037
+Evaluation-Sample-Size=8004
 Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
 Component-Name=TokenizerME
 Language=pl
 Manifest-Version=1.0
-OpenNLP-Version=1.9.4
-Timestamp=1729485306049
+OpenNLP-Version=2.5.0
+Timestamp=1732516244260
 TrainerType=Event
-Training-Eventhash=1803ba9ac1737e6916111de4f2db19f8
-alphaNumericPattern=^[A-Za-z0-9]+$
+Training-Eventhash=1894841785
+alphaNumericPattern=^[A-Za-z0-9żźćńółęąśŻŹĆĄŚĘŁÓŃ]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
 Expected: {
-prof. mmaa milczal chwile<SPLIT>.}
+Prof. Mmaa milczał chwilę<SPLIT>.}
 Predicted: {
-prof<SPLIT>. mmaa milczal chwile<SPLIT>.}
+Prof<SPLIT>. Mmaa milczał chwilę<SPLIT>.}
 False positives: {
-prof
+Prof
 .
 } False negatives: {
-prof.
+Prof.
 }
 
 Expected: {
-zapalam swiatlo<SPLIT>.}
+Zapalam światło<SPLIT>.}
 Predicted: {
-zapala<SPLIT>m swiatlo<SPLIT>.}
+Zapala<SPLIT>m światło<SPLIT>.}
 False positives: {
-zapala
+Zapala
 m
 } False negatives: {
-zapalam
+Zapalam
 }
 
 Expected: {
-- i ja tam nie wszedl<SPLIT>em<SPLIT>.<SPLIT>.}
+Nowym polskim artykułem eksportowym są modlitewniki dla muzułmanów<SPLIT>.}
 Predicted: {
-- i ja tam nie wszedlem<SPLIT>.<SPLIT>.}
+Nowym polskim artykuł<SPLIT>em eksportowym są modlitewniki dla muzułmanów<SPLIT>.}
 False positives: {
-wszedlem
-} False negatives: {
-wszedl
-em
-}
-
-Expected: {
-jakim materialem jest lod<SPLIT>?}
-Predicted: {
-jakim material<SPLIT>em jest lod<SPLIT>?}
-False positives: {
-material
+artykuł
 em
 } False negatives: {
-materialem
+artykułem
 }
 
 Expected: {
-lepiej nie ry(d)zykowac<SPLIT>.}
+Wskazuje na to rys. 13<SPLIT>.}
 Predicted: {
-lepiej nie ry<SPLIT>(<SPLIT>d)zykowac<SPLIT>.}
-False positives: {
-ry
-(
-d)zykowac
-} False negatives: {
-ry(d)zykowac
-}
-
-Expected: {
-pozdrawiam serdecznie<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.}
-Predicted: {
-pozdrawiam serdecznie<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>..<SPLIT>.}
-False positives: {
-..
-} False negatives: {
-.
-.
-}
-
-Expected: {
-wskazuje na to rys. 13<SPLIT>.}
-Predicted: {
-wskazuje na to rys<SPLIT>. 13<SPLIT>.}
+Wskazuje na to rys<SPLIT>. 13<SPLIT>.}
 False positives: {
 rys
 .
@@ -96,20 +62,9 @@ rys.
 }
 
 Expected: {
-bylo jeszcze w tym grubym tomie wiele uczonych spekulacji<SPLIT>.}
+- dodaje gen. Biel<SPLIT>.}
 Predicted: {
-bylo jeszcze w tym gruby<SPLIT>m tomie wiele uczonych spekulacji<SPLIT>.}
-False positives: {
-gruby
-m
-} False negatives: {
-grubym
-}
-
-Expected: {
-- dodaje gen. biel<SPLIT>.}
-Predicted: {
-- dodaje gen<SPLIT>. biel<SPLIT>.}
+- dodaje gen<SPLIT>. Biel<SPLIT>.}
 False positives: {
 gen
 .
@@ -118,9 +73,9 @@ gen.
 }
 
 Expected: {
-drugi zaplanowano na 2006 r.}
+Drugi zaplanowano na 2006 r.}
 Predicted: {
-drugi zaplanowano na 2006 r<SPLIT>.}
+Drugi zaplanowano na 2006 r<SPLIT>.}
 False positives: {
 r
 .
@@ -129,81 +84,517 @@ r.
 }
 
 Expected: {
-- niech jej babcia kupi<SPLIT>.<SPLIT>.}
+Następnym mówcą będzie pan poseł Andrzej Gołaś<SPLIT>.}
 Predicted: {
-- niech jej babcia kupi.<SPLIT>.}
+Następnym mówcą będzie pan poseł Andrzej Goła<SPLIT>ś<SPLIT>.}
 False positives: {
-kupi.
+Goła
+ś
 } False negatives: {
-kupi
+Gołaś
+}
+
+Expected: {
+to wszystko<SPLIT>zależy od księdza<SPLIT>.}
+Predicted: {
+to wszystkozależy od księdza<SPLIT>.}
+False positives: {
+wszystkozależy
+} False negatives: {
+wszystko
+zależy
+}
+
+Expected: {
+- Ty<SPLIT>ś widział w kinie<SPLIT>?}
+Predicted: {
+- Tyś widział w kinie<SPLIT>?}
+False positives: {
+Tyś
+} False negatives: {
+Ty
+ś
+}
+
+Expected: {
+W 1995 r. kandydowała w wyborach prezydenckich<SPLIT>.}
+Predicted: {
+W 1995 r<SPLIT>. kandydowała w wyborach prezydenckich<SPLIT>.}
+False positives: {
+r
+.
+} False negatives: {
+r.
+}
+
+Expected: {
+W ataku grali Michalis Konstantinou i Nikos Liberopoulos<SPLIT>.}
+Predicted: {
+W ataku grali Michali<SPLIT>s Konstantinou i Nikos Liberopoulos<SPLIT>.}
+False positives: {
+Michali
+s
+} False negatives: {
+Michalis
+}
+
+Expected: {
+Śpiewającą męską siódemką dyryguje na estradzie po mistrzowsku Charles Bailly<SPLIT>.}
+Predicted: {
+Śpiewającą męską siódemką dyryguje na estradzie po mistrzowsku Charl<SPLIT>es Bailly<SPLIT>.}
+False positives: {
+Charl
+es
+} False negatives: {
+Charles
+}
+
+Expected: {
+Pierwszy polsko<SPLIT>-<SPLIT>rosyjski serwis komercyjny "<SPLIT>ForSa<SPLIT>" (<SPLIT>http://www.mtl.pl/bart<SPLIT>) nawiąże współpracę z przedstawicielami handlowymi - firmami oraz osobami fizycznymi - na terenie całego kraju<SPLIT>.}
+Predicted: {
+Pierwszy polsko<SPLIT>-<SPLIT>rosyjski serwis komercyjny "<SPLIT>ForSa<SPLIT>" (<SPLIT>http://www.mtl.pl/<SPLIT>bart<SPLIT>) nawiąże współpracę z przedstawicielami handlowymi - firmami oraz osobami fizycznymi - na terenie całego kraju<SPLIT>.}
+False positives: {
+http://www.mtl.pl/
+bart
+} False negatives: {
+http://www.mtl.pl/bart
+}
+
+Expected: {
+- Te ściany należy umyć porządnie szarym mydłem i pobiałkować - powiedział likwidator oddziału PZU w Kolbuszowej Janowi Augustynowi z Widełki<SPLIT>, któremu prawie dwa tygodnie temu spłonął dom<SPLIT>.}
+Predicted: {
+- Te ściany należy umyć porządnie szarym mydł<SPLIT>em i pobiałkować - powiedział likwidator oddziału PZU w Kolbuszowej Janowi Augustynowi z Widełki<SPLIT>, któremu prawie dwa tygodnie temu spłonął dom<SPLIT>.}
+False positives: {
+mydł
+em
+} False negatives: {
+mydłem
+}
+
+Expected: {
+Zwyczajne posiedzenia Stron niniejszego Protokołu odbywają się w połączeniu ze zwyczajnymi posiedzeniami Umawiających się Stron Konwencji<SPLIT>, odbywanymi zgodnie z artykułem 14 Konwencji<SPLIT>.}
+Predicted: {
+Zwyczajne posiedzenia Stron niniejszego Protokołu odbywają się w połączeniu ze zwyczajnymi posiedzeniami Umawiających się Stron Konwencji<SPLIT>, odbywanymi zgodnie z artykuł<SPLIT>em 14 Konwencji<SPLIT>.}
+False positives: {
+artykuł
+em
+} False negatives: {
+artykułem
+}
+
+Expected: {
+To jest mój debiut w kierowaniu kropidłem<SPLIT>.}
+Predicted: {
+To jest mój debiut w kierowaniu kropidł<SPLIT>em<SPLIT>.}
+False positives: {
+kropidł
+em
+} False negatives: {
+kropidłem
+}
+
+Expected: {
+Gdy przyjmiemy<SPLIT>, że TP S.A. jako własność państwa udostępnia "<SPLIT>coś<SPLIT>" np<SPLIT>.<SPLIT>: rozmowę telefoniczną<SPLIT>, to identycznie musi za określoną opłatą udostępnić wszystkie zasoby sieci<SPLIT>, obojętnie czy podoba się to komuś<SPLIT>, czy też nie<SPLIT>.}
+Predicted: {
+Gdy przyjmiemy<SPLIT>, że TP S.A<SPLIT>. jako własność państwa udostępnia "<SPLIT>coś<SPLIT>" np<SPLIT>.<SPLIT>: rozmowę telefoniczną<SPLIT>, to identycznie musi za określoną opłatą udostępnić wszystkie zasoby sieci<SPLIT>, obojętnie czy podoba się to komuś<SPLIT>, czy też nie<SPLIT>.}
+False positives: {
+S.A
+.
+} False negatives: {
+S.A.
+}
+
+Expected: {
+Wspomniane nachylenie dolnych części studni<SPLIT>, chociaż dyskusyjne (<SPLIT>Hooke<SPLIT>, 1989<SPLIT>)<SPLIT>, pozwala wyobrazić sobie łagodne połączenie z kanałem podlodowcowym<SPLIT>.}
+Predicted: {
+Wspomniane nachylenie dolnych części studni<SPLIT>, chociaż dyskusyjne (<SPLIT>Hooke<SPLIT>, 1989<SPLIT>)<SPLIT>, pozwala wyobrazić sobie łagodne połączenie z kanał<SPLIT>em podlodowcowym<SPLIT>.}
+False positives: {
+kanał
+em
+} False negatives: {
+kanałem
+}
+
+Expected: {
+Nie pójdę do Szamockiego i nie powiem<SPLIT>, co że<SPLIT>ście kombinowali<SPLIT>, bo kogo jak kogo<SPLIT>, ale ciebie może spokojnie kropnąć<SPLIT>.}
+Predicted: {
+Nie pójdę do Szamockiego i nie powiem<SPLIT>, co żeście kombinowali<SPLIT>, bo kogo jak kogo<SPLIT>, ale ciebie może spokojnie kropnąć<SPLIT>.}
+False positives: {
+żeście
+} False negatives: {
+że
+ście
+}
+
+Expected: {
+Mężczyzna z kartonowym pudłem na głowie i butelką wina w ręku stoi obok mężczyzny w bluzie z kapturem<SPLIT>.}
+Predicted: {
+Mężczyzna z kartonowym pudł<SPLIT>em na głowie i butelką wina w ręku stoi obok mężczyzny w bluzie z kapturem<SPLIT>.}
+False positives: {
+pudł
+em
+} False negatives: {
+pudłem
+}
+
+Expected: {
+Wysyłam je najczęściej za pośrednictwem konduktorów autobusowych<SPLIT>.}
+Predicted: {
+Wysyła<SPLIT>m je najczęściej za pośrednictwem konduktorów autobusowych<SPLIT>.}
+False positives: {
+Wysyła
+m
+} False negatives: {
+Wysyłam
+}
+
+Expected: {
+Mi nie chodziło o kwantowanie energii jako takiej<SPLIT>, ale fakt<SPLIT>, że długość fali promieniowania el<SPLIT>.<SPLIT>-<SPLIT>mag<SPLIT>. ciała stałego zmienia się w sposób ciągły (<SPLIT>jeśli oglądamy je przez spektroskop<SPLIT>, to widzimy "<SPLIT>tęczę<SPLIT>"<SPLIT>)<SPLIT>.}
+Predicted: {
+Mi nie chodziło o kwantowanie energii jako takiej<SPLIT>, ale fakt<SPLIT>, że długość fali promieniowania el.<SPLIT>-<SPLIT>mag<SPLIT>. ciała stałego zmienia się w sposób ciągły (<SPLIT>jeśli oglądamy je przez spektroskop<SPLIT>, to widzimy "<SPLIT>tęczę<SPLIT>"<SPLIT>)<SPLIT>.}
+False positives: {
+el.
+} False negatives: {
+el
 .
 }
 
 Expected: {
-potem zjawil sie ten mezczyzna<SPLIT>...}
+W obrębie Jest możecie przemieszczać się świadomością w dowolny '<SPLIT>czas<SPLIT>' czy '<SPLIT>miejsce<SPLIT>"<SPLIT>.}
 Predicted: {
-potem zjawil sie ten mezczyzna<SPLIT>.<SPLIT>.<SPLIT>.}
+W obrębie Jest możecie przemieszczać się świadomością w dowolny 'czas' czy 'miejsce<SPLIT>"<SPLIT>.}
 False positives: {
-.
-.
-.
+'czas'
+'miejsce
 } False negatives: {
-...
+'
+czas
+'
+'
+miejsce
 }
 
 Expected: {
-prawie jej wspolczul<SPLIT>em<SPLIT>.}
+Nie stanowi ona jednak po prostu kolekcji żywotów<SPLIT>, lecz - w krytycznym spojrzeniu współczesnym<SPLIT>, ocierającym się być może niekiedy o blasfemię czy libertynizm - próbuje odsłonić świętość jako radykalne wydarzenie antropologiczne<SPLIT>: jako dramat człowieka<SPLIT>, jako dramat jego duszy i ciała<SPLIT>, gęsty nieraz od porażających wypadków i paradoksów<SPLIT>, od niebywałych zdarzeń i dziejowych zawikłań<SPLIT>, które trwają i całe stulecia<SPLIT>, angażując kolejne pokolenia (<SPLIT>różnych zresztą narodów i wyznań<SPLIT>)<SPLIT>.}
 Predicted: {
-prawie jej wspolczulem<SPLIT>.}
+Nie stanowi ona jednak po prostu kolekcji żywotów<SPLIT>, lecz - w krytycznym spojrzeniu współczesnym<SPLIT>, ocierającym się być może niekiedy o blasfemię czy libertynizm - próbuje odsłonić świętość jako radykalne wydarzenie antropologiczne<SPLIT>: jako dramat człowieka<SPLIT>, jako dramat jego duszy i ciała<SPLIT>, gęsty nieraz od porażających wypadków i paradoksów<SPLIT>, od niebywałych zdarzeń i dziejowych zawikła<SPLIT>ń<SPLIT>, które trwają i całe stulecia<SPLIT>, angażując kolejne pokolenia (<SPLIT>różnych zresztą narodów i wyznań<SPLIT>)<SPLIT>.}
 False positives: {
-wspolczulem
+zawikła
+ń
 } False negatives: {
-wspolczul
+zawikłań
+}
+
+Expected: {
+Pamiętam<SPLIT>, że stawali<SPLIT>śmy o 3.15 nad ranem<SPLIT>, udając się do zakładu samochodów małolitrażowych<SPLIT>.}
+Predicted: {
+Pamiętam<SPLIT>, że stawali<SPLIT>śmy o 3<SPLIT>.15 nad ranem<SPLIT>, udając się do zakładu samochodów małolitrażowych<SPLIT>.}
+False positives: {
+3
+.15
+} False negatives: {
+3.15
+}
+
+Expected: {
+Każde żelazo<SPLIT>, nawet to zawarte w multiwitaminie (<SPLIT>np<SPLIT>.<SPLIT>w kinderbiovitalu<SPLIT>) często powoduje sciemnienie ząbków<SPLIT>, ale o ile mi wiadomo<SPLIT>, nie na zawsze<SPLIT>.}
+Predicted: {
+Każde żelazo<SPLIT>, nawet to zawarte w multiwitaminie (<SPLIT>np<SPLIT>.w kinderbiovitalu<SPLIT>) często powoduje sciemnienie ząbków<SPLIT>, ale o ile mi wiadomo<SPLIT>, nie na zawsze<SPLIT>.}
+False positives: {
+.w
+} False negatives: {
+.
+w
+}
+
+Expected: {
+Pamiętała tylko ocynkowany<SPLIT>, wmurowany w podłogę stół<SPLIT>, na którym spoczywał przykryty prześcieradłem kształt – tak mały<SPLIT>, że materiał swobodnie opadał już w dwóch trzecich długości stołu<SPLIT>.}
+Predicted: {
+Pamiętała tylko ocynkowany<SPLIT>, wmurowany w podłogę stół<SPLIT>, na którym spoczywał przykryty prześcieradł<SPLIT>em kształt – tak mały<SPLIT>, że materiał swobodnie opadał już w dwóch trzecich długości stołu<SPLIT>.}
+False positives: {
+prześcieradł
+em
+} False negatives: {
+prześcieradłem
+}
+
+Expected: {
+Witraże projektował Jerzy Skąpski<SPLIT>, a wykonali w 1991<SPLIT>r<SPLIT>. Anna i Ireneusz Zarzyccy<SPLIT>.}
+Predicted: {
+Witraże projektował Jerzy Skąpski<SPLIT>, a wykonali w 1991r<SPLIT>. Anna i Ireneusz Zarzyccy<SPLIT>.}
+False positives: {
+1991r
+} False negatives: {
+1991
+r
+}
+
+Expected: {
+Wracać będzie natomiast Wałem Miedzeszyńskim<SPLIT>.}
+Predicted: {
+Wracać będzie natomiast Wał<SPLIT>em Miedzeszyńskim<SPLIT>.}
+False positives: {
+Wał
+em
+} False negatives: {
+Wałem
+}
+
+Expected: {
+Samorządowcy znają realia<SPLIT>, a ponadto czytali w "<SPLIT>NIE<SPLIT>" (<SPLIT>nr 14<SPLIT>/<SPLIT>94<SPLIT>)<SPLIT>, że są kobiety<SPLIT>, do których zamiast pomocnej dłoni Fundacja wyciągnęła piąchę<SPLIT>.}
+Predicted: {
+Samorządowcy znają realia<SPLIT>, a ponadto czytali w "<SPLIT>NIE<SPLIT>" (<SPLIT>nr 14/94<SPLIT>)<SPLIT>, że są kobiety<SPLIT>, do których zamiast pomocnej dłoni Fundacja wyciągnęła piąchę<SPLIT>.}
+False positives: {
+14/94
+} False negatives: {
+14
+/
+94
+}
+
+Expected: {
+Co prawda<SPLIT>: istniały próby narzucenia światu yiddish jako języka uniwersalnego (<SPLIT>tzw<SPLIT>. rząd polski w Białymstoku 1920 r<SPLIT>. uznawał język polski jako ,<SPLIT>,<SPLIT>język mniejszości<SPLIT>"<SPLIT>!<SPLIT>!<SPLIT>)<SPLIT>.}
+Predicted: {
+Co prawda<SPLIT>: istniały próby narzucenia światu yiddish jako języka uniwersalnego (<SPLIT>tzw<SPLIT>. rząd polski w Białymstoku 1920 r<SPLIT>. uznawał język polski jako ,<SPLIT>,język mniejszości<SPLIT>"<SPLIT>!<SPLIT>!<SPLIT>)<SPLIT>.}
+False positives: {
+,język
+} False negatives: {
+,
+język
+}
+
+Expected: {
+2<SPLIT>. Ja nie pisał<SPLIT>em w odpowiedzi Panu o mojej wypowiedzi w tym temacie tylko wiele wczesniejszych nt<SPLIT>. polityki gospodarczej i społecznej d***kratycznych rządów w stosunku do których pańska wypowiedź jest właśnie przysłowiowym "<SPLIT>Filipem z konopii<SPLIT>"<SPLIT>.}
+Predicted: {
+2<SPLIT>. Ja nie pisał<SPLIT>em w odpowiedzi Panu o mojej wypowiedzi w tym temacie tylko wiele wczesniejszych nt<SPLIT>. polityki gospodarczej i społecznej d*<SPLIT>*<SPLIT>*kratycznych rządów w stosunku do których pańska wypowiedź jest właśnie przysłowiowym "<SPLIT>Filipem z konopii<SPLIT>"<SPLIT>.}
+False positives: {
+d*
+*
+*kratycznych
+} False negatives: {
+d***kratycznych
+}
+
+Expected: {
+Jeżeli by ktoś wiedział proszę o informacje<SPLIT>: bburski@friko6.onet.pl}
+Predicted: {
+Jeżeli by ktoś wiedział proszę o informacje<SPLIT>: bburski@friko6<SPLIT>.onet<SPLIT>.pl}
+False positives: {
+bburski@friko6
+.onet
+.pl
+} False negatives: {
+bburski@friko6.onet.pl
+}
+
+Expected: {
+Oficjalna część obchodów rozpoczęła się już mszą świętą w intencji zachodniopomorskiej policji<SPLIT>, która celebrowana jest w kościele p<SPLIT>.<SPLIT>w<SPLIT>. św<SPLIT>. Katarzyny<SPLIT>, uroczysta gala<SPLIT>, której gośćmi specjalnymi będą wiceminister Spraw Wewnętrznych i Administracji Adam Rapacki oraz zastępca Komendanta Głównego Policji nadinsp<SPLIT>. Arkadiusz Pawełczyk<SPLIT>, odbędzie się po niej<SPLIT>.}
+Predicted: {
+Oficjalna część obchodów rozpoczęła się już mszą świętą w intencji zachodniopomorskiej policji<SPLIT>, która celebrowana jest w kościele p.w<SPLIT>. św<SPLIT>. Katarzyny<SPLIT>, uroczysta gala<SPLIT>, której gośćmi specjalnymi będą wiceminister Spraw Wewnętrznych i Administracji Adam Rapacki oraz zastępca Komendanta Głównego Policji nadinsp<SPLIT>. Arkadiusz Pawełczyk<SPLIT>, odbędzie się po niej<SPLIT>.}
+False positives: {
+p.w
+} False negatives: {
+p
+.
+w
+}
+
+Expected: {
+Zwał jak zwał<SPLIT>, ale człowieka<SPLIT>, którego skroją z komórki<SPLIT>/<SPLIT>pobiją wygoleni osobnicy typu 4x4 nie będzie obchodziło do jakiej grupy się zaliczają<SPLIT>.}
+Predicted: {
+Zwał jak zwał<SPLIT>, ale człowieka<SPLIT>, którego skroją z komórki/<SPLIT>pobiją wygoleni osobnicy typu 4x4 nie będzie obchodziło do jakiej grupy się zaliczają<SPLIT>.}
+False positives: {
+komórki/
+} False negatives: {
+komórki
+/
+}
+
+Expected: {
+Gdzie<SPLIT>, kiedy i który z przywódców byłego ZSRR spotkał się z Janem Pawłem II<SPLIT>?}
+Predicted: {
+Gdzie<SPLIT>, kiedy i który z przywódców byłego ZSRR spotkał się z Janem Pawł<SPLIT>em II<SPLIT>?}
+False positives: {
+Pawł
+em
+} False negatives: {
+Pawłem
+}
+
+Expected: {
+18 lipca prezydent depeszował do Ignacego Paderewskiego<SPLIT>, że w związku z memoriałem Sikorskiego z 19 czerwca współpraca z dotychczasowym prezesem Rady Ministrów "<SPLIT>stała się niemożliwa<SPLIT>"<SPLIT>.}
+Predicted: {
+18 lipca prezydent depeszował do Ignacego Paderewskiego<SPLIT>, że w związku z memoriał<SPLIT>em Sikorskiego z 19 czerwca współpraca z dotychczasowym prezesem Rady Ministrów "<SPLIT>stała się niemożliwa<SPLIT>"<SPLIT>.}
+False positives: {
+memoriał
+em
+} False negatives: {
+memoriałem
+}
+
+Expected: {
+Przy samym brzegu czekają przycumowane łańcuchami tratwy (<SPLIT>5 zł<SPLIT>/<SPLIT>godzina<SPLIT>) i łódki (<SPLIT>10 zł<SPLIT>)<SPLIT>.}
+Predicted: {
+Przy samym brzegu czekają przycumowane łańcuchami tratwy (<SPLIT>5 zł<SPLIT>/godzina<SPLIT>) i łódki (<SPLIT>10 zł<SPLIT>)<SPLIT>.}
+False positives: {
+/godzina
+} False negatives: {
+/
+godzina
+}
+
+Expected: {
+– Śmierć<SPLIT>! – i rozgniotł<SPLIT>em mu pięścią nos<SPLIT>.}
+Predicted: {
+– Śmierć<SPLIT>! – i rozgniotłem mu pięścią nos<SPLIT>.}
+False positives: {
+rozgniotłem
+} False negatives: {
+rozgniotł
 em
 }
 
 Expected: {
-- przepraszam<SPLIT>, ale nie widziala<SPLIT>m powodu<SPLIT>...}
+Powinien<SPLIT>em sam je zawieźć<SPLIT>, ale zatrzymują mnie inne zajęcia<SPLIT>.}
 Predicted: {
-- przepraszam<SPLIT>, ale nie widziala<SPLIT>m powodu<SPLIT>.<SPLIT>.<SPLIT>.}
+Powinienem sam je zawieźć<SPLIT>, ale zatrzymują mnie inne zajęcia<SPLIT>.}
 False positives: {
-.
-.
-.
+Powinienem
 } False negatives: {
-...
+Powinien
+em
 }
 
 Expected: {
-- tamta babcia niech jej kupi<SPLIT>.<SPLIT>.}
+Szlam mógł<SPLIT>by być składowany w gospodarstwach i przetwarzany w biogaz<SPLIT>, a odpady z tego pochodzące mogły<SPLIT>by zostać rozprowadzane po ziemi<SPLIT>.}
 Predicted: {
-- tamta babcia niech jej kupi.<SPLIT>.}
+Szla<SPLIT>m mógł<SPLIT>by być składowany w gospodarstwach i przetwarzany w biogaz<SPLIT>, a odpady z tego pochodzące mogły<SPLIT>by zostać rozprowadzane po ziemi<SPLIT>.}
 False positives: {
-kupi.
+Szla
+m
 } False negatives: {
-kupi
-.
+Szlam
 }
 
 Expected: {
-to jest raczej cytat<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.}
+Po zatrzymaniu się na 96<SPLIT>. miejscu listy Billboard 200<SPLIT>, album „<SPLIT>Thought 'Ya Knew<SPLIT>” wspiął się na miejsce 31<SPLIT>. w Wielkiej Brytanii<SPLIT>, ale utrzymał się na liście tylko przez dwa tygodnie<SPLIT>.}
 Predicted: {
-to jest raczej cytat<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>..<SPLIT>.}
+Po zatrzymaniu się na 96<SPLIT>. miejscu listy Billboard 200<SPLIT>, album „<SPLIT>Thought '<SPLIT>Ya Knew<SPLIT>” wspiął się na miejsce 31<SPLIT>. w Wielkiej Brytanii<SPLIT>, ale utrzymał się na liście tylko przez dwa tygodnie<SPLIT>.}
 False positives: {
-..
+'
+Ya
 } False negatives: {
-.
-.
+'Ya
 }
 
 Expected: {
-- to juz powiedziala<SPLIT>s<SPLIT>.}
+ach<SPLIT>, od dawna to<SPLIT>m juz czul<SPLIT>!}
 Predicted: {
-- to juz powiedzialas<SPLIT>.}
+ach<SPLIT>, od dawna tom juz czul<SPLIT>!}
 False positives: {
-powiedzialas
+tom
 } False negatives: {
-powiedziala
+to
+m
+}
+
+Expected: {
+czy<SPLIT>s ty nie bral kluczy<SPLIT>?<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>"}
+Predicted: {
+czys ty nie bral kluczy<SPLIT>?<SPLIT>.<SPLIT>.<SPLIT>.<SPLIT>"}
+False positives: {
+czys
+} False negatives: {
+czy
+s
+}
+
+Expected: {
+dla ciezszej gramatury gastronomicznej trzykrotnie polskosci sie wyparl<SPLIT>em<SPLIT>.}
+Predicted: {
+dla ciezszej gramatury gastronomicznej trzykrotnie polskosci sie wyparlem<SPLIT>.}
+False positives: {
+wyparlem
+} False negatives: {
+wyparl
+em
+}
+
+Expected: {
+maruderow dziarsko pochlastal<SPLIT>es<SPLIT>.<SPLIT>.<SPLIT>.}
+Predicted: {
+maruderow dziarsko pochlastales<SPLIT>.<SPLIT>.<SPLIT>.}
+False positives: {
+pochlastales
+} False negatives: {
+pochlastal
+es
+}
+
+Expected: {
+mowila<SPLIT>s<SPLIT>.}
+Predicted: {
+mowilas<SPLIT>.}
+False positives: {
+mowilas
+} False negatives: {
+mowila
+s
+}
+
+Expected: {
+okolo 15 km za nag-czu<SPLIT>, boczna<SPLIT>, terenowa droga dojechali<SPLIT>smy do pasterskich namiotow<SPLIT>.}
+Predicted: {
+okolo 15 km za nag<SPLIT>-<SPLIT>czu<SPLIT>, boczna<SPLIT>, terenowa droga dojechali<SPLIT>smy do pasterskich namiotow<SPLIT>.}
+False positives: {
+nag
+-
+czu
+} False negatives: {
+nag-czu
+}
+
+Expected: {
+- pan posel kulas sie zglasza<SPLIT>?}
+Predicted: {
+- pan posel kula<SPLIT>s sie zglasza<SPLIT>?}
+False positives: {
+kula
+s
+} False negatives: {
+kulas
+}
+
+Expected: {
+podobna akcje przeprowadzono w czasie wojny w zatoce perskiej w 1990 r.}
+Predicted: {
+podobna akcje przeprowadzono w czasie wojny w zatoce perskiej w 1990 r<SPLIT>.}
+False positives: {
+r
+.
+} False negatives: {
+r.
+}
+
+Expected: {
+- przyniosla<SPLIT>s<SPLIT>.}
+Predicted: {
+- przynioslas<SPLIT>.}
+False positives: {
+przynioslas
+} False negatives: {
+przyniosla
+s
+}
+
+Expected: {
+- sama mowila<SPLIT>s<SPLIT>.}
+Predicted: {
+- sama mowilas<SPLIT>.}
+False positives: {
+mowilas
+} False negatives: {
+mowila
 s
 }
 
@@ -287,36 +678,20 @@ elas
 Expected: {
 17<SPLIT>.<SPLIT>ten nowy<SPLIT>, drogi plaszcz marszczy ci sie na biodrach<SPLIT>.}
 Predicted: {
-17.ten nowy<SPLIT>, drogi plaszcz marszczy ci sie na biodrach<SPLIT>.}
+17<SPLIT>.ten nowy<SPLIT>, drogi plaszcz marszczy ci sie na biodrach<SPLIT>.}
 False positives: {
-17.ten
+.ten
 } False negatives: {
-17
 .
 ten
 }
 
 Expected: {
-stezenie wazopresyny w osoczu wynosi 1<SPLIT>-<SPLIT>5 pg<SPLIT>/<SPLIT>ml<SPLIT>, a jej okres poltrwania w osoczu ok<SPLIT>. 5<SPLIT>-<SPLIT>7 min<SPLIT>.}
-Predicted: {
-stezenie wazopresyny w osoczu wynosi 1<SPLIT>-<SPLIT>5 pg/ml<SPLIT>, a jej okres poltrwania w osoczu ok<SPLIT>. 5<SPLIT>-<SPLIT>7 min<SPLIT>.}
-False positives: {
-pg/ml
-} False negatives: {
-pg
-/
-ml
-}
-
-Expected: {
 pierwszy polsko<SPLIT>-<SPLIT>rosyjski serwis komercyjny "<SPLIT>forsa<SPLIT>" (<SPLIT>http://www.mtl.pl/bart<SPLIT>) nawiaze wspolprace z przedstawicielami handlowymi - firmami oraz osobami fizycznymi - na terenie calego kraju<SPLIT>.}
 Predicted: {
-pierwszy polsko<SPLIT>-<SPLIT>rosyjski serwis komercyjny "<SPLIT>forsa<SPLIT>" (<SPLIT>http:<SPLIT>/<SPLIT>/www<SPLIT>.mtl.pl/<SPLIT>bart<SPLIT>) nawiaze wspolprace z przedstawicielami handlowymi - firmami oraz osobami fizycznymi - na terenie calego kraju<SPLIT>.}
+pierwszy polsko<SPLIT>-<SPLIT>rosyjski serwis komercyjny "<SPLIT>forsa<SPLIT>" (<SPLIT>http://www.mtl.pl/<SPLIT>bart<SPLIT>) nawiaze wspolprace z przedstawicielami handlowymi - firmami oraz osobami fizycznymi - na terenie calego kraju<SPLIT>.}
 False positives: {
-http:
-/
-/www
-.mtl.pl/
+http://www.mtl.pl/
 bart
 } False negatives: {
 http://www.mtl.pl/bart
@@ -334,6 +709,17 @@ mydlem
 }
 
 Expected: {
+to jest moj debiut w kierowaniu kropidlem<SPLIT>.}
+Predicted: {
+to jest moj debiut w kierowaniu kropidl<SPLIT>em<SPLIT>.}
+False positives: {
+kropidl
+em
+} False negatives: {
+kropidlem
+}
+
+Expected: {
 gdy przyjmiemy<SPLIT>, ze tp s.a. jako wlasnosc panstwa udostepnia "<SPLIT>cos<SPLIT>" np<SPLIT>.<SPLIT>: rozmowe telefoniczna<SPLIT>, to identycznie musi za okreslona oplata udostepnic wszystkie zasoby sieci<SPLIT>, obojetnie czy podoba sie to komus<SPLIT>, czy tez nie<SPLIT>.}
 Predicted: {
 gdy przyjmiemy<SPLIT>, ze tp s.a<SPLIT>. jako wlasnosc panstwa udostepnia "<SPLIT>cos<SPLIT>" np<SPLIT>.<SPLIT>: rozmowe telefoniczna<SPLIT>, to identycznie musi za okreslona oplata udostepnic wszystkie zasoby sieci<SPLIT>, obojetnie czy podoba sie to komus<SPLIT>, czy tez nie<SPLIT>.}
@@ -342,29 +728,6 @@ s.a
 .
 } False negatives: {
 s.a.
-}
-
-Expected: {
-a<SPLIT>.<SPLIT>w<SPLIT>.<SPLIT>: tak<SPLIT>, chociaz zdecydowanie latwiej jest pokazywac kobiecie piersi niz "<SPLIT>dol<SPLIT>"<SPLIT>.}
-Predicted: {
-a.w<SPLIT>.<SPLIT>: tak<SPLIT>, chociaz zdecydowanie latwiej jest pokazywac kobiecie piersi niz "<SPLIT>dol<SPLIT>"<SPLIT>.}
-False positives: {
-a.w
-} False negatives: {
-a
-.
-w
-}
-
-Expected: {
-wspomniane nachylenie dolnych czesci studni<SPLIT>, chociaz dyskusyjne (<SPLIT>hooke<SPLIT>, 1989<SPLIT>)<SPLIT>, pozwala wyobrazic sobie lagodne polaczenie z kanalem podlodowcowym<SPLIT>.}
-Predicted: {
-wspomniane nachylenie dolnych czesci studni<SPLIT>, chociaz dyskusyjne (<SPLIT>hooke<SPLIT>, 1989<SPLIT>)<SPLIT>, pozwala wyobrazic sobie lagodne polaczenie z kanal<SPLIT>em podlodowcowym<SPLIT>.}
-False positives: {
-kanal
-em
-} False negatives: {
-kanalem
 }
 
 Expected: {
@@ -401,28 +764,6 @@ wysylam
 }
 
 Expected: {
-sejmowa debata nad ustawami dotyczacymi tzw<SPLIT>. dezubekizacji mogla<SPLIT>by stac sie materialem szkoleniowym dla przyszlych jurystow na temat<SPLIT>: jak nie stanowic prawa<SPLIT>.}
-Predicted: {
-sejmowa debata nad ustawami dotyczacymi tzw<SPLIT>. dezubekizacji mogla<SPLIT>by stac sie material<SPLIT>em szkoleniowym dla przyszlych jurystow na temat<SPLIT>: jak nie stanowic prawa<SPLIT>.}
-False positives: {
-material
-em
-} False negatives: {
-materialem
-}
-
-Expected: {
-a skad ich wzieli<SPLIT>scie<SPLIT>?}
-Predicted: {
-a skad ich wzieliscie<SPLIT>?}
-False positives: {
-wzieliscie
-} False negatives: {
-wzieli
-scie
-}
-
-Expected: {
 mi nie chodzilo o kwantowanie energii jako takiej<SPLIT>, ale fakt<SPLIT>, ze dlugosc fali promieniowania el<SPLIT>.<SPLIT>-<SPLIT>mag<SPLIT>. ciala stalego zmienia sie w sposob ciagly (<SPLIT>jesli ogladamy je przez spektroskop<SPLIT>, to widzimy "<SPLIT>tecze<SPLIT>"<SPLIT>)<SPLIT>.}
 Predicted: {
 mi nie chodzilo o kwantowanie energii jako takiej<SPLIT>, ale fakt<SPLIT>, ze dlugosc fali promieniowania el.<SPLIT>-<SPLIT>mag<SPLIT>. ciala stalego zmienia sie w sposob ciagly (<SPLIT>jesli ogladamy je przez spektroskop<SPLIT>, to widzimy "<SPLIT>tecze<SPLIT>"<SPLIT>)<SPLIT>.}
@@ -431,17 +772,6 @@ el.
 } False negatives: {
 el
 .
-}
-
-Expected: {
-kazdego roku zalozycielka fundacji - nasza kolezanka z forum.miau.pl - kasia drelich dziekuje tym<SPLIT>, ktorzy pomogli jej przez ostatnich 12 miesiecy<SPLIT>.}
-Predicted: {
-kazdego roku zalozycielka fundacji - nasza kolezanka z forum<SPLIT>.miau.pl - kasia drelich dziekuje tym<SPLIT>, ktorzy pomogli jej przez ostatnich 12 miesiecy<SPLIT>.}
-False positives: {
-forum
-.miau.pl
-} False negatives: {
-forum.miau.pl
 }
 
 Expected: {
@@ -460,17 +790,6 @@ miejsce
 }
 
 Expected: {
-przyniosl<SPLIT>em z piwnicy albumy rodzinne<SPLIT>, usiadl<SPLIT>em z flaszka whisky canadian club i walac prosto w gardlo zlocisty napoj<SPLIT>, patrzyl<SPLIT>em na nasze zdjecia<SPLIT>, zeby odczarowac tamten obraz<SPLIT>.}
-Predicted: {
-przynioslem z piwnicy albumy rodzinne<SPLIT>, usiadl<SPLIT>em z flaszka whisky canadian club i walac prosto w gardlo zlocisty napoj<SPLIT>, patrzyl<SPLIT>em na nasze zdjecia<SPLIT>, zeby odczarowac tamten obraz<SPLIT>.}
-False positives: {
-przynioslem
-} False negatives: {
-przyniosl
-em
-}
-
-Expected: {
 ja jestem pewien - odrzekl<SPLIT>em i pomyslal<SPLIT>em<SPLIT>, ze slowa te brzmia jak zareczyny<SPLIT>.}
 Predicted: {
 ja jestem pewien - odrzeklem i pomyslal<SPLIT>em<SPLIT>, ze slowa te brzmia jak zareczyny<SPLIT>.}
@@ -482,6 +801,17 @@ em
 }
 
 Expected: {
+pamietam<SPLIT>, ze stawali<SPLIT>smy o 3.15 nad ranem<SPLIT>, udajac sie do zakladu samochodow malolitrazowych<SPLIT>.}
+Predicted: {
+pamietam<SPLIT>, ze stawali<SPLIT>smy o 3<SPLIT>.15 nad ranem<SPLIT>, udajac sie do zakladu samochodow malolitrazowych<SPLIT>.}
+False positives: {
+3
+.15
+} False negatives: {
+3.15
+}
+
+Expected: {
 kazde zelazo<SPLIT>, nawet to zawarte w multiwitaminie (<SPLIT>np<SPLIT>.<SPLIT>w kinderbiovitalu<SPLIT>) czesto powoduje sciemnienie zabkow<SPLIT>, ale o ile mi wiadomo<SPLIT>, nie na zawsze<SPLIT>.}
 Predicted: {
 kazde zelazo<SPLIT>, nawet to zawarte w multiwitaminie (<SPLIT>np<SPLIT>.w kinderbiovitalu<SPLIT>) czesto powoduje sciemnienie zabkow<SPLIT>, ale o ile mi wiadomo<SPLIT>, nie na zawsze<SPLIT>.}
@@ -490,28 +820,6 @@ False positives: {
 } False negatives: {
 .
 w
-}
-
-Expected: {
-- pan jako inicjator poprawki mowi tym<SPLIT>, ktorzy mieli kontakty sluzbowe z cenzura<SPLIT>: piszcie<SPLIT>, ze nie wspolpracowali<SPLIT>scie<SPLIT>?}
-Predicted: {
-- pan jako inicjator poprawki mowi tym<SPLIT>, ktorzy mieli kontakty sluzbowe z cenzura<SPLIT>: piszcie<SPLIT>, ze nie wspolpracowaliscie<SPLIT>?}
-False positives: {
-wspolpracowaliscie
-} False negatives: {
-wspolpracowali
-scie
-}
-
-Expected: {
-pamietala tylko ocynkowany<SPLIT>, wmurowany w podloge stol<SPLIT>, na ktorym spoczywal przykryty przescieradlem ksztalt - tak maly<SPLIT>, ze material swobodnie opadal juz w dwoch trzecich dlugosci stolu<SPLIT>.}
-Predicted: {
-pamietala tylko ocynkowany<SPLIT>, wmurowany w podloge stol<SPLIT>, na ktorym spoczywal przykryty przescieradl<SPLIT>em ksztalt - tak maly<SPLIT>, ze material swobodnie opadal juz w dwoch trzecich dlugosci stolu<SPLIT>.}
-False positives: {
-przescieradl
-em
-} False negatives: {
-przescieradlem
 }
 
 Expected: {
@@ -539,36 +847,12 @@ walem
 Expected: {
 a<SPLIT>.<SPLIT>m<SPLIT>.<SPLIT>: ale przez to tworzysz wrazenie<SPLIT>, ze pewna problematyka pojawila sie dopiero wraz z komunizmem<SPLIT>.}
 Predicted: {
-a.m<SPLIT>.<SPLIT>: ale przez to tworzysz wrazenie<SPLIT>, ze pewna problematyka pojawila sie dopiero wraz z komunizmem<SPLIT>.}
+a.<SPLIT>m<SPLIT>.<SPLIT>: ale przez to tworzysz wrazenie<SPLIT>, ze pewna problematyka pojawila sie dopiero wraz z komunizmem<SPLIT>.}
 False positives: {
-a.m
+a.
 } False negatives: {
 a
 .
-m
-}
-
-Expected: {
-wiekszosc 3/5 w obu glosowaniach wynosila 267<SPLIT>.}
-Predicted: {
-wiekszosc 3/<SPLIT>5 w obu glosowaniach wynosila 267<SPLIT>.}
-False positives: {
-3/
-5
-} False negatives: {
-3/5
-}
-
-Expected: {
-przystepujemy do glosowania nad wnioskiem o przyjecie porzadku dziennego<SPLIT>...}
-Predicted: {
-przystepujemy do glosowania nad wnioskiem o przyjecie porzadku dziennego<SPLIT>.<SPLIT>.<SPLIT>.}
-False positives: {
-.
-.
-.
-} False negatives: {
-...
 }
 
 Expected: {
@@ -609,24 +893,13 @@ d***kratycznych
 Expected: {
 jezeli by ktos wiedzial prosze o informacje<SPLIT>: bburski@friko6.onet.pl}
 Predicted: {
-jezeli by ktos wiedzial prosze o informacje<SPLIT>: bburski@friko6<SPLIT>.onet.pl}
+jezeli by ktos wiedzial prosze o informacje<SPLIT>: bburski@friko6<SPLIT>.onet<SPLIT>.pl}
 False positives: {
 bburski@friko6
-.onet.pl
+.onet
+.pl
 } False negatives: {
 bburski@friko6.onet.pl
-}
-
-Expected: {
-niektorzy moi palacy koledzy zjadliwie mi dokuczaja<SPLIT>: "<SPLIT>nie pal<SPLIT>, nie pij i ... a umrzesz zdrowszy<SPLIT>!<SPLIT>"}
-Predicted: {
-niektorzy moi palacy koledzy zjadliwie mi dokuczaja<SPLIT>: "<SPLIT>nie pal<SPLIT>, nie pij i .<SPLIT>.<SPLIT>. a umrzesz zdrowszy<SPLIT>!<SPLIT>"}
-False positives: {
-.
-.
-.
-} False negatives: {
-...
 }
 
 Expected: {
@@ -653,100 +926,56 @@ komorki
 }
 
 Expected: {
-uciekl<SPLIT>em z wiezienia niespelna dwa lata temu<SPLIT>, ale zycie zbiega polega na ciaglej ucieczce<SPLIT>, co dzien<SPLIT>, co noc<SPLIT>.}
+18 lipca prezydent depeszowal do ignacego paderewskiego<SPLIT>, ze w zwiazku z memorialem sikorskiego z 19 czerwca wspolpraca z dotychczasowym prezesem rady ministrow "<SPLIT>stala sie niemozliwa<SPLIT>"<SPLIT>.}
 Predicted: {
-ucieklem z wiezienia niespelna dwa lata temu<SPLIT>, ale zycie zbiega polega na ciaglej ucieczce<SPLIT>, co dzien<SPLIT>, co noc<SPLIT>.}
+18 lipca prezydent depeszowal do ignacego paderewskiego<SPLIT>, ze w zwiazku z memorial<SPLIT>em sikorskiego z 19 czerwca wspolpraca z dotychczasowym prezesem rady ministrow "<SPLIT>stala sie niemozliwa<SPLIT>"<SPLIT>.}
 False positives: {
-ucieklem
-} False negatives: {
-uciekl
+memorial
 em
-}
-
-Expected: {
-jak chuchnela mi w twarz<SPLIT>, to malo sam nie padl<SPLIT>em<SPLIT>.}
-Predicted: {
-jak chuchnela mi w twarz<SPLIT>, to malo sam nie padlem<SPLIT>.}
-False positives: {
-padlem
 } False negatives: {
-padl
-em
+memorialem
 }
 
 Expected: {
-jezeli zastosowano<SPLIT>by ten dodatkowy warunek w odniesieniu do produktow leczniczych<SPLIT>, zostala<SPLIT>by wylaczona mozliwosc uznania za reklame rozpowszechniania informacji przez niezalezna osobe trzecia<SPLIT>.}
+przy samym brzegu czekaja przycumowane lancuchami tratwy (<SPLIT>5 zl<SPLIT>/<SPLIT>godzina<SPLIT>) i lodki (<SPLIT>10 zl<SPLIT>)<SPLIT>.}
 Predicted: {
-jezeli zastosowanoby ten dodatkowy warunek w odniesieniu do produktow leczniczych<SPLIT>, zostala<SPLIT>by wylaczona mozliwosc uznania za reklame rozpowszechniania informacji przez niezalezna osobe trzecia<SPLIT>.}
+przy samym brzegu czekaja przycumowane lancuchami tratwy (<SPLIT>5 zl<SPLIT>/godzina<SPLIT>) i lodki (<SPLIT>10 zl<SPLIT>)<SPLIT>.}
 False positives: {
-zastosowanoby
-} False negatives: {
-zastosowano
-by
-}
-
-Expected: {
-organy te zorganizuja zakrojone na szeroka skale konsultacje<SPLIT>, glownie z uzytkownikami przestrzeni powietrznej<SPLIT>, w celu uzgodnienia propozycji celow krajowych<SPLIT>/<SPLIT>regionalnych zgodnych z celami ogolnosieciowymi<SPLIT>.}
-Predicted: {
-organy te zorganizuja zakrojone na szeroka skale konsultacje<SPLIT>, glownie z uzytkownikami przestrzeni powietrznej<SPLIT>, w celu uzgodnienia propozycji celow krajowych<SPLIT>/regionalnych zgodnych z celami ogolnosieciowymi<SPLIT>.}
-False positives: {
-/regionalnych
+/godzina
 } False negatives: {
 /
-regionalnych
+godzina
 }
 
 Expected: {
-od jak dawna pan wiedzial<SPLIT>, ze zona spotyka sie z quillem<SPLIT>.}
+- smierc<SPLIT>! - i rozgniotl<SPLIT>em mu piescia nos<SPLIT>.}
 Predicted: {
-od jak dawna pan wiedzial<SPLIT>, ze zona spotyka sie z quill<SPLIT>em<SPLIT>.}
+- smierc<SPLIT>! - i rozgniotlem mu piescia nos<SPLIT>.}
 False positives: {
-quill
+rozgniotlem
+} False negatives: {
+rozgniotl
+em
+}
+
+Expected: {
+szlam mogl<SPLIT>by byc skladowany w gospodarstwach i przetwarzany w biogaz<SPLIT>, a odpady z tego pochodzace mogly<SPLIT>by zostac rozprowadzane po ziemi<SPLIT>.}
+Predicted: {
+szla<SPLIT>m mogl<SPLIT>by byc skladowany w gospodarstwach i przetwarzany w biogaz<SPLIT>, a odpady z tego pochodzace mogly<SPLIT>by zostac rozprowadzane po ziemi<SPLIT>.}
+False positives: {
+szla
+m
+} False negatives: {
+szlam
+}
+
+Expected: {
+w koncu<SPLIT>, okolo 512<SPLIT>-<SPLIT>511 r<SPLIT>. p.n.e<SPLIT>.<SPLIT>, macedonski krol amyntas i uznal dominacje achemenidow i uczynil swoje panstwo wasalem persji<SPLIT>.}
+Predicted: {
+w koncu<SPLIT>, okolo 512<SPLIT>-<SPLIT>511 r<SPLIT>. p.n.e<SPLIT>.<SPLIT>, macedonski krol amyntas i uznal dominacje achemenidow i uczynil swoje panstwo wasal<SPLIT>em persji<SPLIT>.}
+False positives: {
+wasal
 em
 } False negatives: {
-quillem
-}
-
-Expected: {
-zmieniajaca dyrektywe rady 66/402/ewg w sprawie obrotu materialem siewnym zboz}
-Predicted: {
-zmieniajaca dyrektywe rady 66/402/ewg w sprawie obrotu material<SPLIT>em siewnym zboz}
-False positives: {
-material
-em
-} False negatives: {
-materialem
-}
-
-Expected: {
-jesli jest niemozliwe okreslenie noael<SPLIT>, okresla sie najnizsza dawke<SPLIT>/<SPLIT>stezenie wywolujaca szkodliwy skutek<SPLIT>, tzn<SPLIT>. okresla sie najnizszy poziom obserwowanego dzialania szkodliwego (<SPLIT>loael<SPLIT>)<SPLIT>.}
-Predicted: {
-jesli jest niemozliwe okreslenie noael<SPLIT>, okresla sie najnizsza dawke<SPLIT>/stezenie wywolujaca szkodliwy skutek<SPLIT>, tzn<SPLIT>. okresla sie najnizszy poziom obserwowanego dzialania szkodliwego (<SPLIT>loael<SPLIT>)<SPLIT>.}
-False positives: {
-/stezenie
-} False negatives: {
-/
-stezenie
-}
-
-Expected: {
-przyjdz do kawiarni conga na alei suzuran o 9:00<SPLIT>.}
-Predicted: {
-przyjdz do kawiarni conga na alei suzuran o 9<SPLIT>:00<SPLIT>.}
-False positives: {
-9
-:00
-} False negatives: {
-9:00
-}
-
-Expected: {
-- to katastrofa dla pacjentow z chronicznym bolem - powiedziala mailis w czwartkowym wywiadzie dla cbc news<SPLIT>.}
-Predicted: {
-- to katastrofa dla pacjentow z chronicznym bolem - powiedziala maili<SPLIT>s w czwartkowym wywiadzie dla cbc news<SPLIT>.}
-False positives: {
-maili
-s
-} False negatives: {
-mailis
+wasalem
 }

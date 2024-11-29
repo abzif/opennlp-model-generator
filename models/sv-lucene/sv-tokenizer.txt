@@ -1,59 +1,26 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9995167525773195
-Training-Sample-Size=10143
-Evaluation-Sample-Size=1127
+Evaluation-Score=0.9997205105340912
+Training-Sample-Size=20277
+Evaluation-Sample-Size=2253
 Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
 Component-Name=TokenizerME
 Language=sv
 Manifest-Version=1.0
-OpenNLP-Version=1.9.4
-Timestamp=1729567881510
+OpenNLP-Version=2.5.0
+Timestamp=1732589194230
 TrainerType=Event
-Training-Eventhash=4979e80536cc61cffb12b567ebfaadf0
+Training-Eventhash=3938124150
 alphaNumericPattern=^[A-Za-z0-9]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
 Expected: {
-sammantradet avbrots kl. 11.25 i avvaktan pa omrostningen<SPLIT>, och aterupptogs kl. 11.30<SPLIT>.}
+Det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk ”<SPLIT>hög plats<SPLIT>” från medelbronsålder<SPLIT>, ca 1600 f.v.t<SPLIT>.}
 Predicted: {
-sammantradet avbrots kl. 11<SPLIT>.25 i avvaktan pa omrostningen<SPLIT>, och aterupptogs kl. 11.30<SPLIT>.}
-False positives: {
-11
-.25
-} False negatives: {
-11.25
-}
-
-Expected: {
-jag traffade gwenzis bror i london en dag medan han arbetade i gray's inn<SPLIT>;}
-Predicted: {
-jag traffade gwenzis bror i london en dag medan han arbetade i gray'<SPLIT>s inn<SPLIT>;}
-False positives: {
-gray'
-s
-} False negatives: {
-gray's
-}
-
-Expected: {
-2010 publicerade stiftelsen en typsatt utgava av "<SPLIT>zettel's traum<SPLIT>"<SPLIT>, vilket tog bort intradeshindret for de som ryggat for den utkastliknande kanslan av den fotografiska offseten<SPLIT>.}
-Predicted: {
-2010 publicerade stiftelsen en typsatt utgava av "<SPLIT>zettel'<SPLIT>s traum<SPLIT>"<SPLIT>, vilket tog bort intradeshindret for de som ryggat for den utkastliknande kanslan av den fotografiska offseten<SPLIT>.}
-False positives: {
-zettel'
-s
-} False negatives: {
-zettel's
-}
-
-Expected: {
-det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk "<SPLIT>hog plats<SPLIT>" fran medelbronsalder<SPLIT>, ca 1600 f.v.t<SPLIT>.}
-Predicted: {
-det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk "<SPLIT>hog plats<SPLIT>" fran medelbronsalder<SPLIT>, ca 1600 f.v.t.}
+Det exakta syftet bakom dessa megaliter diskuteras fortfarande<SPLIT>, men de kan ha utgjort en kanaanitisk ”<SPLIT>hög plats<SPLIT>” från medelbronsålder<SPLIT>, ca 1600 f.v.t.}
 False positives: {
 f.v.t.
 } False negatives: {
@@ -62,23 +29,67 @@ f.v.t
 }
 
 Expected: {
-enligt le figaro kan denna regeringsplan frigora upp till 42 miljoner euro<SPLIT>, varav 15,5 miljoner skulle ga till sakerhet<SPLIT>.}
+Svarsfrekvenserna bestyrker i någon mån Parsons och Bales' antagande<SPLIT>.}
 Predicted: {
-enligt le figaro kan denna regeringsplan frigora upp till 42 miljoner euro<SPLIT>, varav 15<SPLIT>,5 miljoner skulle ga till sakerhet<SPLIT>.}
+Svarsfrekvenserna bestyrker i någon mån Parsons och Bales<SPLIT>' antagande<SPLIT>.}
 False positives: {
-15
-,5
+Bales
+'
 } False negatives: {
-15,5
+Bales'
 }
 
 Expected: {
-svarsfrekvenserna bestyrker i nagon man parsons och bales' antagande<SPLIT>.}
+sedan<SPLIT>, ga runt och titta pa morgonmarknaden (<SPLIT>6:30-10 pa formiddagen<SPLIT>)<SPLIT>: risslickepinnar<SPLIT>, getingkokonger (<SPLIT>pupporna anses vara en delikatess<SPLIT>)<SPLIT>, buffellunga<SPLIT>, betelnotsbark och -<SPLIT>lov<SPLIT>, levande paddor och kattfisk<SPLIT>.}
 Predicted: {
-svarsfrekvenserna bestyrker i nagon man parsons och bales<SPLIT>' antagande<SPLIT>.}
+sedan<SPLIT>, ga runt och titta pa morgonmarknaden (<SPLIT>6:30-10 pa formiddagen<SPLIT>)<SPLIT>: risslickepinnar<SPLIT>, getingkokonger (<SPLIT>pupporna anses vara en delikatess<SPLIT>)<SPLIT>, buffellunga<SPLIT>, betelnotsbark och -lov<SPLIT>, levande paddor och kattfisk<SPLIT>.}
 False positives: {
-bales
-'
+-lov
 } False negatives: {
-bales'
+-
+lov
+}
+
+Expected: {
+ett astronomiskt observatorium fran bronsaldern uppfordes dar runt 1900 f.kr. och hjalpte det narliggande samhalle som bodde dar fram till runt 700 f.kr<SPLIT>.}
+Predicted: {
+ett astronomiskt observatorium fran bronsaldern uppfordes dar runt 1900 f.kr<SPLIT>. och hjalpte det narliggande samhalle som bodde dar fram till runt 700 f.kr<SPLIT>.}
+False positives: {
+f.kr
+.
+} False negatives: {
+f.kr.
+}
+
+Expected: {
+efter att dess uppgang avstannat pa billboard 200 som nr 96 klattrade thought 'ya knew till nr 31 i storbritannien<SPLIT>, men albumet var bara kvar pa listan tva veckor i storbritannien<SPLIT>.}
+Predicted: {
+efter att dess uppgang avstannat pa billboard 200 som nr 96 klattrade thought '<SPLIT>ya knew till nr 31 i storbritannien<SPLIT>, men albumet var bara kvar pa listan tva veckor i storbritannien<SPLIT>.}
+False positives: {
+'
+ya
+} False negatives: {
+'ya
+}
+
+Expected: {
+troligtvis ar den mest valkanda personen fran kopparaldern otzi<SPLIT>, den frusna mumie som levde under 3300 f.kr.}
+Predicted: {
+troligtvis ar den mest valkanda personen fran kopparaldern otzi<SPLIT>, den frusna mumie som levde under 3300 f.kr<SPLIT>.}
+False positives: {
+f.kr
+.
+} False negatives: {
+f.kr.
+}
+
+Expected: {
+om man behover klaga over t.ex. dalig uppvarmning<SPLIT>, storande buller etc. vander man sig till halsovardsnamnden<SPLIT>.}
+Predicted: {
+om man behover klaga over t.ex. dalig uppvarmning<SPLIT>, storande buller etc<SPLIT>. vander man sig till halsovardsnamnden<SPLIT>.}
+False positives: {
+etc
+.
+} False negatives: {
+etc.
 }

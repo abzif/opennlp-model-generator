@@ -1,22 +1,275 @@
 === EVALUATION INFO ===
-Evaluation-Score=0.9988541496153217
-Training-Sample-Size=30768
-Evaluation-Sample-Size=3418
+Evaluation-Score=0.9992890367609816
+Training-Sample-Size=61452
+Evaluation-Sample-Size=6827
 Training-Algorithm=MAXENT_QN
 
 === MODEL PROPERTIES ===
 Component-Name=TokenizerME
 Language=no
 Manifest-Version=1.0
-OpenNLP-Version=1.9.4
-Timestamp=1729483734141
+OpenNLP-Version=2.5.0
+Timestamp=1732515532552
 TrainerType=Event
-Training-Eventhash=299146da05f679dcaa5eaa8e55257356
+Training-Eventhash=3918750423
 alphaNumericPattern=^[A-Za-z0-9]+$
 factory=opennlp.tools.tokenize.TokenizerFactory
 useAlphaNumericOptimization=false
 
 === MISCLASSIFIED DETAILS ===
+Expected: {
+Samtidig skal det den siste måneden ha foregått et intenst politisk arbeid i det skjulte i Washington D.C<SPLIT>.}
+Predicted: {
+Samtidig skal det den siste måneden ha foregått et intenst politisk arbeid i det skjulte i Washington D.C.}
+False positives: {
+D.C.
+} False negatives: {
+D.C
+.
+}
+
+Expected: {
+Slik som vårsko i str. 24<SPLIT>.}
+Predicted: {
+Slik som vårsko i str. 24.}
+False positives: {
+24.
+} False negatives: {
+24
+.
+}
+
+Expected: {
+Det virker som fotball er det siste profesjonelle miljø hvor du ikke kan komme ut av skapet stolt. (<SPLIT>...<SPLIT>)<SPLIT>.}
+Predicted: {
+Det virker som fotball er det siste profesjonelle miljø hvor du ikke kan komme ut av skapet stolt<SPLIT>. (<SPLIT>...<SPLIT>)<SPLIT>.}
+False positives: {
+stolt
+.
+} False negatives: {
+stolt.
+}
+
+Expected: {
+I høst ca. 1000<SPLIT>- 1500 kr. per natt for rommet inkl. frokost<SPLIT>.}
+Predicted: {
+I høst ca. 1000<SPLIT>- 1500 kr<SPLIT>. per natt for rommet inkl. frokost<SPLIT>.}
+False positives: {
+kr
+.
+} False negatives: {
+kr.
+}
+
+Expected: {
+Det gjør at faren for overdose er større enn ved andre stoffer<SPLIT>, sa Liv Flesland ved Bergensklinikkene til BT 10. juni<SPLIT>.}
+Predicted: {
+Det gjør at faren for overdose er større enn ved andre stoffer<SPLIT>, sa Liv Flesland ved Bergensklinikkene til BT 10<SPLIT>. juni<SPLIT>.}
+False positives: {
+10
+.
+} False negatives: {
+10.
+}
+
+Expected: {
+Den sendes til Sverige<SPLIT>, og 25. mars avsløres det<SPLIT>:}
+Predicted: {
+Den sendes til Sverige<SPLIT>, og 25<SPLIT>. mars avsløres det<SPLIT>:}
+False positives: {
+25
+.
+} False negatives: {
+25.
+}
+
+Expected: {
+*<SPLIT>Hold hodet kaldt<SPLIT>, Halvor<SPLIT>, du må få utløp for de vonde opplevelsene dine<SPLIT>*}
+Predicted: {
+*Hold hodet kaldt<SPLIT>, Halvor<SPLIT>, du må få utløp for de vonde opplevelsene dine<SPLIT>*}
+False positives: {
+*Hold
+} False negatives: {
+*
+Hold
+}
+
+Expected: {
+4 og 7<SPLIT>.}
+Predicted: {
+4 og 7.}
+False positives: {
+7.
+} False negatives: {
+7
+.
+}
+
+Expected: {
+Fredag havnet kong Harald og Co. i trøbbel da et spinnakerskjøte røk på båten « Fram XVI » .}
+Predicted: {
+Fredag havnet kong Harald og Co<SPLIT>. i trøbbel da et spinnakerskjøte røk på båten « Fram XVI » .}
+False positives: {
+Co
+.
+} False negatives: {
+Co.
+}
+
+Expected: {
+Helge Krog skrev sitt teaterstykke allerede i 1917<SPLIT>.}
+Predicted: {
+Helge Krog skrev sitt teaterstykke allerede i 1917.}
+False positives: {
+1917.
+} False negatives: {
+1917
+.
+}
+
+Expected: {
+Offisielt kan Norge si nei til å innføre direktivet<SPLIT>, men det har sin pris<SPLIT>, en smak med umiskjennelig eim av Catch 22<SPLIT>.}
+Predicted: {
+Offisielt kan Norge si nei til å innføre direktivet<SPLIT>, men det har sin pris<SPLIT>, en smak med umiskjennelig eim av Catch 22.}
+False positives: {
+22.
+} False negatives: {
+22
+.
+}
+
+Expected: {
+Penguins<SPLIT>' nummer 87 går fram for å ta droppen<SPLIT>.}
+Predicted: {
+Penguins' nummer 87 går fram for å ta droppen<SPLIT>.}
+False positives: {
+Penguins'
+} False negatives: {
+Penguins
+'
+}
+
+Expected: {
+En finsk journalist spør hvordan han tror det blir å møte Senators<SPLIT>' Jarkko Ruutu<SPLIT>.}
+Predicted: {
+En finsk journalist spør hvordan han tror det blir å møte Senators' Jarkko Ruutu<SPLIT>.}
+False positives: {
+Senators'
+} False negatives: {
+Senators
+'
+}
+
+Expected: {
+Kampen er nesten over<SPLIT>, men like før slutt utlikner Senators til 3 - 3<SPLIT>.}
+Predicted: {
+Kampen er nesten over<SPLIT>, men like før slutt utlikner Senators til 3 - 3.}
+False positives: {
+3.
+} False negatives: {
+3
+.
+}
+
+Expected: {
+Ahmad Sear<SPLIT>/<SPLIT>REUTERS<SPLIT>/<SPLIT>SCANPIX}
+Predicted: {
+Ahmad Sear<SPLIT>/<SPLIT>REUTERS<SPLIT>/SCANPIX}
+False positives: {
+/SCANPIX
+} False negatives: {
+/
+SCANPIX
+}
+
+Expected: {
+Det rettslige utgangspunkt er altså det samme for Jan Mayen og Svalbard<SPLIT>, til forskjell fra de antarktiske besittelser som er gjort til biland ved lov 27 februar 1930 nr 3<SPLIT>.}
+Predicted: {
+Det rettslige utgangspunkt er altså det samme for Jan Mayen og Svalbard<SPLIT>, til forskjell fra de antarktiske besittelser som er gjort til biland ved lov 27 februar 1930 nr 3.}
+False positives: {
+3.
+} False negatives: {
+3
+.
+}
+
+Expected: {
+Som bakgrunn for Regjeringens konklusjon i kgl. resolusjon foreligger det naturligvis en bred drøfting av de synspunkter som Tine har gitt uttrykk for<SPLIT>, og for de synspunkter som Synnøve Finden har gitt uttrykk for<SPLIT>.}
+Predicted: {
+Som bakgrunn for Regjeringens konklusjon i kgl<SPLIT>. resolusjon foreligger det naturligvis en bred drøfting av de synspunkter som Tine har gitt uttrykk for<SPLIT>, og for de synspunkter som Synnøve Finden har gitt uttrykk for<SPLIT>.}
+False positives: {
+kgl
+.
+} False negatives: {
+kgl.
+}
+
+Expected: {
+22<SPLIT>/<SPLIT>7 peikar like mykje baketter til fyrste del av det 20. som frametter inn i det 21. hundreåret<SPLIT>.}
+Predicted: {
+22/<SPLIT>7 peikar like mykje baketter til fyrste del av det 20. som frametter inn i det 21. hundreåret<SPLIT>.}
+False positives: {
+22/
+} False negatives: {
+22
+/
+}
+
+Expected: {
+15<SPLIT>. I same bolk skriv dei at namnet på Beethovens 3. symfoni<SPLIT>, Eroica<SPLIT>, er avleidt av «<SPLIT>gresk heroe<SPLIT>» (<SPLIT>s. 11<SPLIT>/<SPLIT>79<SPLIT>)<SPLIT>.}
+Predicted: {
+15. I same bolk skriv dei at namnet på Beethovens 3. symfoni<SPLIT>, Eroica<SPLIT>, er avleidt av «<SPLIT>gresk heroe<SPLIT>» (<SPLIT>s. 11<SPLIT>/<SPLIT>79<SPLIT>)<SPLIT>.}
+False positives: {
+15.
+} False negatives: {
+15
+.
+}
+
+Expected: {
+26<SPLIT>. «<SPLIT>Er Kristin Lavransdatter skriven på nynorsk eller bokmål<SPLIT>?<SPLIT>» spyrr dei<SPLIT>, og svaret skal vera bokmål (<SPLIT>s. 37<SPLIT>/<SPLIT>99<SPLIT>)<SPLIT>.}
+Predicted: {
+26. «<SPLIT>Er Kristin Lavransdatter skriven på nynorsk eller bokmål<SPLIT>?<SPLIT>» spyrr dei<SPLIT>, og svaret skal vera bokmål (<SPLIT>s. 37<SPLIT>/<SPLIT>99<SPLIT>)<SPLIT>.}
+False positives: {
+26.
+} False negatives: {
+26
+.
+}
+
+Expected: {
+29<SPLIT>. Forfattarane skriv at Norsk språkråd vart skipa i 1971 (<SPLIT>s. 60<SPLIT>/<SPLIT>116<SPLIT>)<SPLIT>.}
+Predicted: {
+29. Forfattarane skriv at Norsk språkråd vart skipa i 1971 (<SPLIT>s. 60<SPLIT>/<SPLIT>116<SPLIT>)<SPLIT>.}
+False positives: {
+29.
+} False negatives: {
+29
+.
+}
+
+Expected: {
+9<SPLIT>. Janne Nygård<SPLIT>, Jølster}
+Predicted: {
+9. Janne Nygård<SPLIT>, Jølster}
+False positives: {
+9.
+} False negatives: {
+9
+.
+}
+
+Expected: {
+2<SPLIT>.}
+Predicted: {
+2.}
+False positives: {
+2.
+} False negatives: {
+2
+.
+}
+
 Expected: {
 samtidig skal det den siste maneden ha foregatt et intenst politisk arbeid i det skjulte i washington d.c<SPLIT>.}
 Predicted: {
@@ -29,113 +282,58 @@ d.c
 }
 
 Expected: {
-de skuelystne slippes noye planlagt inn til klenodiet i puljer pa 25<SPLIT>, hvert 45. minutt<SPLIT>, syntes jeg hun sa<SPLIT>.}
+lars elton myhre tok verdenscuppoeng fredag<SPLIT>, men var akkurat for seint ute til a kopiere det samme lordag med en 32.<SPLIT>plass<SPLIT>.}
 Predicted: {
-de skuelystne slippes noye planlagt inn til klenodiet i puljer pa 25<SPLIT>, hvert 45<SPLIT>. minutt<SPLIT>, syntes jeg hun sa<SPLIT>.}
+lars elton myhre tok verdenscuppoeng fredag<SPLIT>, men var akkurat for seint ute til a kopiere det samme lordag med en 32.plass<SPLIT>.}
 False positives: {
-45
-.
+32.plass
 } False negatives: {
-45.
-}
-
-Expected: {
-kjetil jansrud kjorte inn til en meget sterk 19.<SPLIT>plass fra hoyt startnummer<SPLIT>.}
-Predicted: {
-kjetil jansrud kjorte inn til en meget sterk 19.plass fra hoyt startnummer<SPLIT>.}
-False positives: {
-19.plass
-} False negatives: {
-19.
+32.
 plass
 }
 
 Expected: {
-det samme gjelder skilter og annet som er anbragt for a okkupere grunn for 1926<SPLIT>.}
+nyere tekniske kulturminner og steder som historiske hendelser knytter seg til<SPLIT>, kan fredes av riksantikvaren med hjemmel i § 3<SPLIT>.}
 Predicted: {
-det samme gjelder skilter og annet som er anbragt for a okkupere grunn for 1926.}
+nyere tekniske kulturminner og steder som historiske hendelser knytter seg til<SPLIT>, kan fredes av riksantikvaren med hjemmel i § 3.}
 False positives: {
-1926.
+3.
 } False negatives: {
-1926
+3
 .
 }
 
 Expected: {
-- dette er ikke et statskupp<SPLIT>, forsikrer militaertalsmann bakary mariko overfor fjernsynskanalen france 24<SPLIT>.}
+det var i republikkens krisetid caesar bygget opp sin militaere og politiske karriere frem til dodsdagen<SPLIT>, 15. mars 44 f. kr.}
 Predicted: {
-- dette er ikke et statskupp<SPLIT>, forsikrer militaertalsmann bakary mariko overfor fjernsynskanalen france 24.}
+det var i republikkens krisetid caesar bygget opp sin militaere og politiske karriere frem til dodsdagen<SPLIT>, 15. mars 44 f. kr<SPLIT>.}
 False positives: {
-24.
+kr
+.
 } False negatives: {
-24
+kr.
+}
+
+Expected: {
+helge krog skrev sitt teaterstykke allerede i 1917<SPLIT>.}
+Predicted: {
+helge krog skrev sitt teaterstykke allerede i 1917.}
+False positives: {
+1917.
+} False negatives: {
+1917
 .
 }
 
 Expected: {
-hun pleide a royke 25<SPLIT>.}
+offisielt kan norge si nei til a innfore direktivet<SPLIT>, men det har sin pris<SPLIT>, en smak med umiskjennelig eim av catch 22<SPLIT>.}
 Predicted: {
-hun pleide a royke 25.}
+offisielt kan norge si nei til a innfore direktivet<SPLIT>, men det har sin pris<SPLIT>, en smak med umiskjennelig eim av catch 22.}
 False positives: {
-25.
+22.
 } False negatives: {
-25
-.
-}
-
-Expected: {
-ap. far ogsa lederverv i forsvarskomiteen og naeringskomiteen<SPLIT>.}
-Predicted: {
-ap<SPLIT>. far ogsa lederverv i forsvarskomiteen og naeringskomiteen<SPLIT>.}
-False positives: {
-ap
-.
-} False negatives: {
-ap.
-}
-
-Expected: {
-de ma ogsa beholde et rimelig godt forhold til fr.p.<SPLIT>for a bli sittende en viss tid - helst hele stortingsperioden<SPLIT>.}
-Predicted: {
-de ma ogsa beholde et rimelig godt forhold til fr.p.for a bli sittende en viss tid - helst hele stortingsperioden<SPLIT>.}
-False positives: {
-fr.p.for
-} False negatives: {
-fr.p.
-for
-}
-
-Expected: {
-fns hoykommissaer<SPLIT>, for flyktninger unhcr<SPLIT>, har ansvaret for ca.<SPLIT>22 millioner flyktninger verden over<SPLIT>, og gir direkte bidrag til 6,4 millioner av dem<SPLIT>.}
-Predicted: {
-fns hoykommissaer<SPLIT>, for flyktninger unhcr<SPLIT>, har ansvaret for ca.22 millioner flyktninger verden over<SPLIT>, og gir direkte bidrag til 6,4 millioner av dem<SPLIT>.}
-False positives: {
-ca.22
-} False negatives: {
-ca.
 22
-}
-
-Expected: {
-og da hjelper det ikke stort at de eneste som apent<SPLIT>, om enn halvhjertet<SPLIT>, har stottet ham verbalt er en flokk like rike og profilerte personer som ham selv<SPLIT>, jens ulltveit moe<SPLIT>, petter stordalen<SPLIT>, trond lykke m.fl.}
-Predicted: {
-og da hjelper det ikke stort at de eneste som apent<SPLIT>, om enn halvhjertet<SPLIT>, har stottet ham verbalt er en flokk like rike og profilerte personer som ham selv<SPLIT>, jens ulltveit moe<SPLIT>, petter stordalen<SPLIT>, trond lykke m.fl<SPLIT>.}
-False positives: {
-m.fl
 .
-} False negatives: {
-m.fl.
-}
-
-Expected: {
-der har stridspunktet vaert om trond giske bestemmer for mye<SPLIT>, eller om private mesener kunne bidratt mer - senest i ingrid roynesdals kronikk i aftenposten 13. oktober<SPLIT>.}
-Predicted: {
-der har stridspunktet vaert om trond giske bestemmer for mye<SPLIT>, eller om private mesener kunne bidratt mer - senest i ingrid roynesdals kronikk i aftenposten 13<SPLIT>. oktober<SPLIT>.}
-False positives: {
-13
-.
-} False negatives: {
-13.
 }
 
 Expected: {
@@ -150,109 +348,20 @@ p.
 }
 
 Expected: {
-mange barn ser ogsa pa nrk1<SPLIT>,<SPLIT>2 og 3<SPLIT>, og der dubber vi ingenting<SPLIT>.}
+vil statsraden si at 22.<SPLIT>juli har gjort at man har fatt storre forstaelse for behovet de to etatene har<SPLIT>?}
 Predicted: {
-mange barn ser ogsa pa nrk1,2 og 3<SPLIT>, og der dubber vi ingenting<SPLIT>.}
+vil statsraden si at 22.juli har gjort at man har fatt storre forstaelse for behovet de to etatene har<SPLIT>?}
 False positives: {
-nrk1,2
+22.juli
 } False negatives: {
-nrk1
-,
-2
-}
-
-Expected: {
-tyler kennedy far pucken til venstre<SPLIT>, foran senators' mal<SPLIT>, beholder farta og banker til i lengste kryss<SPLIT>.}
-Predicted: {
-tyler kennedy far pucken til venstre<SPLIT>, foran senators<SPLIT>' mal<SPLIT>, beholder farta og banker til i lengste kryss<SPLIT>.}
-False positives: {
-senators
-'
-} False negatives: {
-senators'
-}
-
-Expected: {
-8. hvilke konsekvenser foreslatte endringer i kirkeordningen antas a ha for blant annet oppslutningen om den norske kirke<SPLIT>, for det andelige liv<SPLIT>, for kirkelig undervisning og diakoni<SPLIT>, for var kultur og for verdigrunnlaget i vart folk<SPLIT>.}
-Predicted: {
-8<SPLIT>. hvilke konsekvenser foreslatte endringer i kirkeordningen antas a ha for blant annet oppslutningen om den norske kirke<SPLIT>, for det andelige liv<SPLIT>, for kirkelig undervisning og diakoni<SPLIT>, for var kultur og for verdigrunnlaget i vart folk<SPLIT>.}
-False positives: {
-8
-.
-} False negatives: {
-8.
-}
-
-Expected: {
-i det 71. minutt fikk de hull pa byllen<SPLIT>.}
-Predicted: {
-i det 71<SPLIT>. minutt fikk de hull pa byllen<SPLIT>.}
-False positives: {
-71
-.
-} False negatives: {
-71.
-}
-
-Expected: {
-det skjedde 26.<SPLIT>juli i 1984<SPLIT>.}
-Predicted: {
-det skjedde 26.juli i 1984<SPLIT>.}
-False positives: {
-26.juli
-} False negatives: {
-26.
+22.
 juli
 }
 
 Expected: {
-samarbeidsregjeringens politikk vil bygge pa semerklaeringen av 8. oktober<SPLIT>.}
+- pakistan er en del av trusselbildet man er opptatt av i pst<SPLIT>.}
 Predicted: {
-samarbeidsregjeringens politikk vil bygge pa semerklaeringen av 8<SPLIT>. oktober<SPLIT>.}
-False positives: {
-8
-.
-} False negatives: {
-8.
-}
-
-Expected: {
-jolster gjekk inn til 55. plass<SPLIT>.}
-Predicted: {
-jolster gjekk inn til 55<SPLIT>. plass<SPLIT>.}
-False positives: {
-55
-.
-} False negatives: {
-55.
-}
-
-Expected: {
-- sommarhalvaret er jo 1,5 kilometer greit<SPLIT>, men det er ikkje greit no for<SPLIT>tida<SPLIT>, da meiner eg ein ma bruke litt skjonn og oversja den ekstra avstanden og heller kjore gutane heim for femtilappen<SPLIT>!}
-Predicted: {
-- sommarhalvaret er jo 1,5 kilometer greit<SPLIT>, men det er ikkje greit no fortida<SPLIT>, da meiner eg ein ma bruke litt skjonn og oversja den ekstra avstanden og heller kjore gutane heim for femtilappen<SPLIT>!}
-False positives: {
-fortida
-} False negatives: {
-for
-tida
-}
-
-Expected: {
-ifolgje komiteen for trygging av journalistar<SPLIT>, cpj<SPLIT>, var politkovskaya den 13. journalisten som vart drepen i det som liknar eit tinga drap sidan president putin kom til makta<SPLIT>.}
-Predicted: {
-ifolgje komiteen for trygging av journalistar<SPLIT>, cpj<SPLIT>, var politkovskaya den 13<SPLIT>. journalisten som vart drepen i det som liknar eit tinga drap sidan president putin kom til makta<SPLIT>.}
-False positives: {
-13
-.
-} False negatives: {
-13.
-}
-
-Expected: {
-det er no laga ein handlingsplan som inneber signal om a redusera oljefyringa med 25 pst<SPLIT>.}
-Predicted: {
-det er no laga ein handlingsplan som inneber signal om a redusera oljefyringa med 25 pst.}
+- pakistan er en del av trusselbildet man er opptatt av i pst.}
 False positives: {
 pst.
 } False negatives: {
@@ -261,188 +370,202 @@ pst
 }
 
 Expected: {
-av dei var redaktor johs. nesse i aftenposten den fremste<SPLIT>.}
+varmen er ekstrem<SPLIT>, han far ikke tak i nye sko<SPLIT>, han bruker storrelse 46<SPLIT>.}
 Predicted: {
-av dei var redaktor johs<SPLIT>. nesse i aftenposten den fremste<SPLIT>.}
+varmen er ekstrem<SPLIT>, han far ikke tak i nye sko<SPLIT>, han bruker storrelse 46.}
 False positives: {
-johs
-.
+46.
 } False negatives: {
-johs.
-}
-
-Expected: {
-16<SPLIT>. i iveren etter a finna so mange tydingar til ordet fly som rad hev dei teke med " skjer " (<SPLIT>s. 12<SPLIT>/<SPLIT>80<SPLIT>)<SPLIT>, men da hev dei blanda saman med<SPLIT>(<SPLIT>ei<SPLIT>) flu "<SPLIT>(<SPLIT>flatt<SPLIT>) skjer el. grunne som er under vatn i flod sjo<SPLIT>" (<SPLIT>nynorskordboka<SPLIT>)<SPLIT>.}
-Predicted: {
-16. i iveren etter a finna so mange tydingar til ordet fly som rad hev dei teke med " skjer " (<SPLIT>s. 12<SPLIT>/80<SPLIT>)<SPLIT>, men da hev dei blanda saman med(<SPLIT>ei<SPLIT>) flu "<SPLIT>(<SPLIT>flatt<SPLIT>) skjer el<SPLIT>. grunne som er under vatn i flod sjo<SPLIT>" (<SPLIT>nynorskordboka<SPLIT>)<SPLIT>.}
-False positives: {
-16.
-/80
-med(
-el
-.
-} False negatives: {
-16
-.
-/
-80
-med
-(
-el.
-}
-
-Expected: {
-(<SPLIT>den fyrste utgava av kristin lavransdatter lag fyre i ari 1920 - 23<SPLIT>.<SPLIT>)}
-Predicted: {
-(<SPLIT>den fyrste utgava av kristin lavransdatter lag fyre i ari 1920 - 23.<SPLIT>)}
-False positives: {
-23.
-} False negatives: {
-23
+46
 .
 }
 
 Expected: {
-programmet heitte "<SPLIT>en kul katts kroniker<SPLIT>" og den kule katta heiter olav angell<SPLIT>, han med th.a stiftelse<SPLIT>, stuer og hus og angelltroa (<SPLIT>der alle bur i sildrapevegen<SPLIT>)<SPLIT>.}
+"<SPLIT>it's appropriate to return the favor - at least in a modest way - by showcasing national hockey league action in europe<SPLIT>.<SPLIT>.<SPLIT>"}
 Predicted: {
-programmet heitte "<SPLIT>en kul katts kroniker<SPLIT>" og den kule katta heiter olav angell<SPLIT>, han med th.<SPLIT>a stiftelse<SPLIT>, stuer og hus og angelltroa (<SPLIT>der alle bur i sildrapevegen<SPLIT>)<SPLIT>.}
+"<SPLIT>it's appropriate to return the favor - at least in a modest way - by showcasing national hockey league action in europe<SPLIT>..<SPLIT>"}
 False positives: {
-th.
-a
+..
 } False negatives: {
-th.a
-}
-
-Expected: {
-1<SPLIT>. norvall noringset<SPLIT>, forde}
-Predicted: {
-1. norvall noringset<SPLIT>, forde}
-False positives: {
-1.
-} False negatives: {
-1
+.
 .
 }
 
 Expected: {
-12<SPLIT>. dagny berglie vangsnes<SPLIT>, ardal}
+unggutten smiler mens mikrofoner og diktafoner blir trykket opp i ansiktet<SPLIT>hans<SPLIT>.}
 Predicted: {
-12. dagny berglie vangsnes<SPLIT>, ardal}
+unggutten smiler mens mikrofoner og diktafoner blir trykket opp i ansiktethans<SPLIT>.}
 False positives: {
-12.
+ansiktethans
 } False negatives: {
-12
-.
+ansiktet
+hans
 }
 
 Expected: {
-kontrollen vart meldt inn klokka 18.29<SPLIT>.}
+nar "<SPLIT>pretty woman a/s<SPLIT>" na settes opp som teaterstykke pa ta'i teateret i kobenhavn forstkommende lordag<SPLIT>, blir muligens inntrykket av hvordan det er a vaere prostituert litt annerledes<SPLIT>.}
 Predicted: {
-kontrollen vart meldt inn klokka 18.29.}
+nar "<SPLIT>pretty woman a/<SPLIT>s<SPLIT>" na settes opp som teaterstykke pa ta<SPLIT>'i teateret i kobenhavn forstkommende lordag<SPLIT>, blir muligens inntrykket av hvordan det er a vaere prostituert litt annerledes<SPLIT>.}
 False positives: {
-18.29.
+a/
+s
+ta
+'i
 } False negatives: {
-18.29
-.
+a/s
+ta'i
 }
 
 Expected: {
-1<SPLIT>. forkamp mellom " tuftelag "<SPLIT>:}
+mens de rodgronne frir uhemmet til krf<SPLIT>, beveger venstre seg stadig naermere hoyre og frp.}
 Predicted: {
-1. forkamp mellom " tuftelag "<SPLIT>:}
+mens de rodgronne frir uhemmet til krf<SPLIT>, beveger venstre seg stadig naermere hoyre og frp<SPLIT>.}
 False positives: {
-1.
-} False negatives: {
-1
-.
-}
-
-Expected: {
-foto bent are iversen firda media pb.160<SPLIT>, 6801 forde<SPLIT>.}
-Predicted: {
-foto bent are iversen firda media pb.<SPLIT>160<SPLIT>, 6801 forde<SPLIT>.}
-False positives: {
-pb.
-160
-} False negatives: {
-pb.160
-}
-
-Expected: {
-samhandlingsreforma trer i kraft 1.<SPLIT>januar neste ar<SPLIT>.}
-Predicted: {
-samhandlingsreforma trer i kraft 1.januar neste ar<SPLIT>.}
-False positives: {
-1.januar
-} False negatives: {
-1.
-januar
-}
-
-Expected: {
-det er lov 11. april 1980 nr. 5 om malbruk i offentleg teneste (<SPLIT>mallova<SPLIT>)<SPLIT>, sist endra ved lov 11. mars 1988 nr. 12<SPLIT>, dinest kapittel iii om samisk sprak i lov 12. juni 1987 nr. 56 om sametinget og andre samiske rettsforhold (<SPLIT>samelova<SPLIT>)<SPLIT>, kapittel iii sist endra ved lov 13. desember 2002 nr. 81<SPLIT>, og endeleg lov 18. mai 1990 nr. 11 om stadnamn (<SPLIT>stadnamnlova<SPLIT>)<SPLIT>, sist endra ved lov 17. juni 2005 nr. 90<SPLIT>.}
-Predicted: {
-det er lov 11. april 1980 nr. 5 om malbruk i offentleg teneste (<SPLIT>mallova<SPLIT>)<SPLIT>, sist endra ved lov 11. mars 1988 nr. 12<SPLIT>, dinest kapittel iii om samisk sprak i lov 12. juni 1987 nr. 56 om sametinget og andre samiske rettsforhold (<SPLIT>samelova<SPLIT>)<SPLIT>, kapittel iii sist endra ved lov 13<SPLIT>. desember 2002 nr. 81<SPLIT>, og endeleg lov 18. mai 1990 nr. 11 om stadnamn (<SPLIT>stadnamnlova<SPLIT>)<SPLIT>, sist endra ved lov 17. juni 2005 nr. 90<SPLIT>.}
-False positives: {
-13
+frp
 .
 } False negatives: {
-13.
+frp.
 }
 
 Expected: {
-me har ei anna retning enn me hadde i ara 2001-2005<SPLIT>, og den retninga skal vidareforast<SPLIT>.}
+sammenhengende vegetasjon finnes bare i lavlandsomradene langs kysten og i isfrie dalforer<SPLIT>, og mindre enn 10<SPLIT>% av landarealet har biologisk produksjon av betydning<SPLIT>.}
 Predicted: {
-me har ei anna retning enn me hadde i ara 2001<SPLIT>-<SPLIT>2005<SPLIT>, og den retninga skal vidareforast<SPLIT>.}
+sammenhengende vegetasjon finnes bare i lavlandsomradene langs kysten og i isfrie dalforer<SPLIT>, og mindre enn 10% av landarealet har biologisk produksjon av betydning<SPLIT>.}
 False positives: {
-2001
--
-2005
+10%
 } False negatives: {
-2001-2005
-}
-
-Expected: {
-samferdsleministeren har kunngjort at det kjem planmidlar til oslo-ski i budsjettet i morgon<SPLIT>.}
-Predicted: {
-samferdsleministeren har kunngjort at det kjem planmidlar til oslo<SPLIT>-<SPLIT>ski i budsjettet i morgon<SPLIT>.}
-False positives: {
-oslo
--
-ski
-} False negatives: {
-oslo-ski
-}
-
-Expected: {
-1<SPLIT>.}
-Predicted: {
-1.}
-False positives: {
-1.
-} False negatives: {
-1
-.
-}
-
-Expected: {
-hallgeir h. langeland (<SPLIT>sv<SPLIT>) (<SPLIT>fung. leiar i komiteen<SPLIT>)<SPLIT>:}
-Predicted: {
-hallgeir h. langeland (<SPLIT>sv<SPLIT>) (<SPLIT>fung<SPLIT>. leiar i komiteen<SPLIT>)<SPLIT>:}
-False positives: {
-fung
-.
-} False negatives: {
-fung.
-}
-
-Expected: {
-det fekk ny frist til 10. desember og har altsa no foreslege a lage ein kunstig vasspegel<SPLIT>, men forst etter ha teke ut stein i fem ar til<SPLIT>.}
-Predicted: {
-det fekk ny frist til 10<SPLIT>. desember og har altsa no foreslege a lage ein kunstig vasspegel<SPLIT>, men forst etter ha teke ut stein i fem ar til<SPLIT>.}
-False positives: {
 10
+%
+}
+
+Expected: {
+carl i. hagen (<SPLIT>frp<SPLIT>)<SPLIT>:}
+Predicted: {
+carl i<SPLIT>. hagen (<SPLIT>frp<SPLIT>)<SPLIT>:}
+False positives: {
+i
 .
 } False negatives: {
-10.
+i.
+}
+
+Expected: {
+det kan skje ved at vi i 2010 lovforbyr royking for dei under 16 ar<SPLIT>, i 2011 gjeld det dei under 17 og i 2012 dei under 18<SPLIT>.}
+Predicted: {
+det kan skje ved at vi i 2010 lovforbyr royking for dei under 16 ar<SPLIT>, i 2011 gjeld det dei under 17 og i 2012 dei under 18.}
+False positives: {
+18.
+} False negatives: {
+18
+.
+}
+
+Expected: {
+med carl i. hagen er enda ei statsmakt samla i den same salen - men det er knapt lenger stortingsalen det er nokon vits a samlast i<SPLIT>.}
+Predicted: {
+med carl i<SPLIT>. hagen er enda ei statsmakt samla i den same salen - men det er knapt lenger stortingsalen det er nokon vits a samlast i<SPLIT>.}
+False positives: {
+i
+.
+} False negatives: {
+i.
+}
+
+Expected: {
+i samarbeid med vestnorsk filmsenter er firda vgs. i ferd med a bli det store filmsenteret i fylket<SPLIT>, av tildelte midlar gjekk heile 645.000 kroner til vestnorsk filmsenter og fem regionale filmtiltak pa vestlandet<SPLIT>.}
+Predicted: {
+i samarbeid med vestnorsk filmsenter er firda vgs<SPLIT>. i ferd med a bli det store filmsenteret i fylket<SPLIT>, av tildelte midlar gjekk heile 645.000 kroner til vestnorsk filmsenter og fem regionale filmtiltak pa vestlandet<SPLIT>.}
+False positives: {
+vgs
+.
+} False negatives: {
+vgs.
+}
+
+Expected: {
+skriv "<SPLIT>m. king hubbert<SPLIT>" i sokjefeltet pa google<SPLIT>, og du vert sitjande og lesa i dagevis<SPLIT>.}
+Predicted: {
+skriv "<SPLIT>m<SPLIT>. king hubbert<SPLIT>" i sokjefeltet pa google<SPLIT>, og du vert sitjande og lesa i dagevis<SPLIT>.}
+False positives: {
+m
+.
+} False negatives: {
+m.
+}
+
+Expected: {
+"<SPLIT>'<SPLIT>norsk litteraturs storste jalebukk<SPLIT>' (<SPLIT>ikkje mine ord<SPLIT>!<SPLIT>!<SPLIT>!<SPLIT>)<SPLIT>, ole robert sunde<SPLIT>, er ute pa julemarknaden med sin sjette roman '<SPLIT>jeg er som en apen bok<SPLIT>'<SPLIT>.}
+Predicted: {
+"<SPLIT>'norsk litteraturs storste jalebukk<SPLIT>' (<SPLIT>ikkje mine ord<SPLIT>!<SPLIT>!<SPLIT>!<SPLIT>)<SPLIT>, ole robert sunde<SPLIT>, er ute pa julemarknaden med sin sjette roman '<SPLIT>jeg er som en apen bok<SPLIT>'<SPLIT>.}
+False positives: {
+'norsk
+} False negatives: {
+'
+norsk
+}
+
+Expected: {
+slik ma hans avsluttande " samtale " med m. de f<SPLIT>... fra kommisjonen pa fattoria del chianti i rue archimeede i brussel over ein framifra osso bucco lesast<SPLIT>.}
+Predicted: {
+slik ma hans avsluttande " samtale " med m. de f... fra kommisjonen pa fattoria del chianti i rue archimeede i brussel over ein framifra osso bucco lesast<SPLIT>.}
+False positives: {
+f...
+} False negatives: {
+f
+...
+}
+
+Expected: {
+17<SPLIT>. pa s. 14 vert det spurt koss det kann ha seg at "<SPLIT>konservativ (<SPLIT>politisk<SPLIT>) og konserveringsmiddel (<SPLIT>matlaging<SPLIT>) er same ord<SPLIT>"<SPLIT>.}
+Predicted: {
+17. pa s. 14 vert det spurt koss det kann ha seg at "<SPLIT>konservativ (<SPLIT>politisk<SPLIT>) og konserveringsmiddel (<SPLIT>matlaging<SPLIT>) er same ord<SPLIT>"<SPLIT>.}
+False positives: {
+17.
+} False negatives: {
+17
+.
+}
+
+Expected: {
+i tillegg var jan kokkin<SPLIT>, rolf bjarne sund<SPLIT>, og cathrine c<SPLIT>.}
+Predicted: {
+i tillegg var jan kokkin<SPLIT>, rolf bjarne sund<SPLIT>, og cathrine c.}
+False positives: {
+c.
+} False negatives: {
+c
+.
+}
+
+Expected: {
+11<SPLIT>. isak berle<SPLIT>, bremanger}
+Predicted: {
+11. isak berle<SPLIT>, bremanger}
+False positives: {
+11.
+} False negatives: {
+11
+.
+}
+
+Expected: {
+i morgon kjem carl i. hagen<SPLIT>, og kristin halvorsen kjem onsdag<SPLIT>.}
+Predicted: {
+i morgon kjem carl i<SPLIT>. hagen<SPLIT>, og kristin halvorsen kjem onsdag<SPLIT>.}
+False positives: {
+i
+.
+} False negatives: {
+i.
+}
+
+Expected: {
+dette betyr at det ikkje i seg sjolv bor ha noko a seia for avgrensing av innsynsretten om ei verksemd er organisert som ein del av forvaltninga eller som eit sjolvstendig rettssubjekt<SPLIT>, jf. ot.prp. nr. 102 (<SPLIT>2004<SPLIT>-<SPLIT>2005<SPLIT>) kap. 4.4.2<SPLIT>.}
+Predicted: {
+dette betyr at det ikkje i seg sjolv bor ha noko a seia for avgrensing av innsynsretten om ei verksemd er organisert som ein del av forvaltninga eller som eit sjolvstendig rettssubjekt<SPLIT>, jf. ot.prp<SPLIT>. nr. 102 (<SPLIT>2004<SPLIT>-<SPLIT>2005<SPLIT>) kap. 4.4.2<SPLIT>.}
+False positives: {
+ot.prp
+.
+} False negatives: {
+ot.prp.
 }
