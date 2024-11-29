@@ -1,10 +1,10 @@
-name: test-maven-pre-site
+name: test-maven-site-deploy
 on:
   push:
     branches:
       - main
 jobs:
-  test-maven-pre-site:
+  test-maven-site-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,4 +24,8 @@ jobs:
           key: opennlp-model-cache-${{ github.run_id }}
           restore-keys: opennlp-model-cache-
       - run: mvn clean install
-      - run: mvn -Dmax.exec.minutes=333 pre-site
+      - run: git config --global user.name "abzif"
+      - run: git config --global user.email "abzif@users.noreply.github.com"
+      - run: mvn site-deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
