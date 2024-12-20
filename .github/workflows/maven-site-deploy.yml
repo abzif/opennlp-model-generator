@@ -1,0 +1,30 @@
+name: maven-site-deploy
+on:
+  schedule:
+    - cron: '11 0 27 * *'
+jobs:
+  maven-site-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          server-id: github
+      - uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: maven-repo-${{ hashFiles('**/pom.xml') }}-site-deploy
+          restore-keys: maven-repo-
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/opennlp-model-generator
+          key: opennlp-model-cache-${{ github.run_id }}
+          restore-keys: opennlp-model-cache-
+      - run: mvn clean install
+      - run: git config --global user.name "abzif"
+      - run: git config --global user.email "abzif@users.noreply.github.com"
+      - run: mvn site-deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

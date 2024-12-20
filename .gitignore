@@ -1,0 +1,29 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Netbeans
+nb-configuration.xml
+
+# VS Code
+.vscode/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+dependency-reduced-pom.xml
+
+# virtual machine crash logs
+hs_err_pid*
+
+# cache dir
+cache/
