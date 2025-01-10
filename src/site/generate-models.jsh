@@ -1,26 +1,6 @@
 import java.time.*;
 import java.util.concurrent.*;
 
-List<String> languageCodes = List.of(
-    "cs", // czech
-    "da", // danish
-    "de", // german
-    "el", // greek
-    "en", // english
-    "es", // spanish
-    "fi", // finnish
-    "fr", // french
-    "he", // hebrew
-    "it", // italian
-    "ja", // japanese
-    "ko", // korean
-    "no", // norwegian
-    "pl", // polish
-    "pt", // portugal
-    "ru", // russian
-    "sv", // swedish
-    "uk", // ukrainian
-    "zh"); // chinese
 
 List<String> modelMarkdownLines = new ArrayList<>();
 modelMarkdownLines.add("# Pre-trained models");
@@ -32,7 +12,7 @@ String toolsJar = System.getProperty("tools.jar", "");
 Path workDirectory = Path.of(System.getProperty("work.dir", "."));
 Path siteDirectory = Path.of(System.getProperty("site.dir", "."));
 Integer maxExecMinutes = Integer.parseInt(System.getProperty("max.exec.minutes", "0"));
-
+List<String> languageCodes = List.of(System.getProperty("language.codes", "").split(","));
 
 
 String getResourceDirectoryName(String languageCode, String normalizerType) {

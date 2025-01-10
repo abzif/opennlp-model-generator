@@ -1,9 +1,10 @@
-name: maven-site-deploy
+name: maven-dry-run
 on:
-  schedule:
-    - cron: '11 0 27 * *'
+  push:
+    branches:
+      - main
 jobs:
-  maven-site-deploy:
+  maven-dry-run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,7 +16,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.m2/repository
-          key: maven-repo-${{ hashFiles('**/pom.xml') }}-site-deploy
+          key: maven-repo-${{ hashFiles('**/pom.xml') }}-dry-run
           restore-keys: maven-repo-
       - uses: actions/cache@v4
         with:
@@ -23,7 +24,7 @@ jobs:
           key: opennlp-model-cache-${{ github.run_id }}
           restore-keys: opennlp-model-cache-
       - run: mvn clean install
-      - run: mvn site
+      - run: mvn -Dlanguage.codes=el site
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: target/site
@@ -32,3 +33,4 @@ jobs:
           git-config-email: abzif@users.noreply.github.com
           commit-message: 'Site publish'
           single-commit: true
+          dry-run: true
