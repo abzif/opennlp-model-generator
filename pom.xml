@@ -34,11 +34,13 @@
         <generateReports>false</generateReports>
         <maven.site.deploy.skip>true</maven.site.deploy.skip>
         <max.exec.minutes>0</max.exec.minutes>
+        <language.codes>cs,da,de,el,en,es,fi,fr,he,it,ja,ko,no,pl,pt,ru,sv,uk,zh</language.codes>
     </properties>
 
     <build>
         <plugins>
-            <!-- build-in maven plugins, set explicit version, or they may fail in github workflows -->
+            <!-- build-in maven plugins, set explicit versions -->
+            <!-- 'setup-java' github action configures outdated plugin versions and maven build fails in workflow -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -130,6 +132,7 @@
                     <outputDirectory>${project.build.directory}/jacoco</outputDirectory>
                 </configuration>
             </plugin>
+            <!-- build fat jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -151,6 +154,7 @@
                     <createDependencyReducedPom>false</createDependencyReducedPom>
                 </configuration>
             </plugin>
+            <!-- run model generation -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -165,6 +169,7 @@
                         <argument>-J-Dwork.dir=${user.home}/.cache/opennlp-model-generator</argument>
                         <argument>-J-Dsite.dir=${project.build.directory}/generated-site</argument>
                         <argument>-J-Dmax.exec.minutes=${max.exec.minutes}</argument>
+                        <argument>-J-Dlanguage.codes=${language.codes}</argument>
                         <argument>${project.basedir}/src/site/generate-models.jsh</argument>
                     </arguments>
                 </configuration>
@@ -173,26 +178,6 @@
                         <phase>pre-site</phase>
                         <goals>
                             <goal>exec</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-scm-publish-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <content>${project.build.directory}/site</content>
-                    <siteOutputEncoding>${project.build.sourceEncoding}</siteOutputEncoding>
-                    <serverId>github</serverId>
-                    <scmBranch>gh-pages</scmBranch>
-                    <checkinComment>Site publish</checkinComment>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>site-deploy</phase>
-                        <goals>
-                            <goal>publish-scm</goal>
                         </goals>
                     </execution>
                 </executions>
