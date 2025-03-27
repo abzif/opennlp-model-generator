@@ -1,0 +1,172 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.999228109176238
+Training-Sample-Size=17894
+Evaluation-Sample-Size=1988
+Training-Algorithm=MAXENT_QN
+
+=== MODEL PROPERTIES ===
+Component-Name=TokenizerME
+Language=uk
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742539475415
+TrainerType=Event
+Training-Eventhash=2684370400
+alphaNumericPattern=^[A-Za-z0-9]+$
+factory=opennlp.tools.tokenize.TokenizerFactory
+useAlphaNumericOptimization=false
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+Указом Президента України № 23<SPLIT>/<SPLIT>2017 від 3 лютого 2017 року «<SPLIT>за особисту мужність<SPLIT>, виявлену у захисті державного суверенітету та територіальної цілісності України<SPLIT>, самовіддане виконання військового обов’язку<SPLIT>» нагороджений орденом «<SPLIT>Богдана Хмельницького<SPLIT>» III ступеня (<SPLIT>посмертно<SPLIT>)<SPLIT>.}
+Predicted: {
+Указом Президента України № 23/<SPLIT>2017 від 3 лютого 2017 року «<SPLIT>за особисту мужність<SPLIT>, виявлену у захисті державного суверенітету та територіальної цілісності України<SPLIT>, самовіддане виконання військового обов’язку<SPLIT>» нагороджений орденом «<SPLIT>Богдана Хмельницького<SPLIT>» III ступеня (<SPLIT>посмертно<SPLIT>)<SPLIT>.}
+False positives: {
+23/
+} False negatives: {
+23
+/
+}
+
+Expected: {
+Про скандал у пісочниці<SPLIT>: як Гройсман відібрав в Омеляна паровозики<SPLIT>, а також про Тіну Кароль та двері в Нарнію у шафі поліцейського — у новій серії «<SPLIT>#@)₴?$0 з Майклом Щуром<SPLIT>»}
+Predicted: {
+Про скандал у пісочниці<SPLIT>: як Гройсман відібрав в Омеляна паровозики<SPLIT>, а також про Тіну Кароль та двері в Нарнію у шафі поліцейського — у новій серії «<SPLIT>#<SPLIT>@<SPLIT>)₴?$0 з Майклом Щуром<SPLIT>»}
+False positives: {
+#
+@
+)₴?$0
+} False negatives: {
+#@)₴?$0
+}
+
+Expected: {
+На початку XXI ст<SPLIT>. глибина шахт сягає 3<SPLIT>,<SPLIT>5<SPLIT>-<SPLIT>4<SPLIT>,<SPLIT>5 км<SPLIT>. (<SPLIT>вугільні Ш<SPLIT>. йдуть до відміток 1<SPLIT>,<SPLIT>3<SPLIT>-<SPLIT>1<SPLIT>,<SPLIT>5 км<SPLIT>, рудні до 4<SPLIT>,<SPLIT>5 км<SPLIT>)<SPLIT>.}
+Predicted: {
+На початку XXI ст<SPLIT>. глибина шахт сягає 3<SPLIT>,<SPLIT>5<SPLIT>-<SPLIT>4,<SPLIT>5 км<SPLIT>. (<SPLIT>вугільні Ш<SPLIT>. йдуть до відміток 1<SPLIT>,<SPLIT>3<SPLIT>-<SPLIT>1,<SPLIT>5 км<SPLIT>, рудні до 4<SPLIT>,<SPLIT>5 км<SPLIT>)<SPLIT>.}
+False positives: {
+4,
+1,
+} False negatives: {
+4
+,
+1
+,
+}
+
+Expected: {
+Коли взяти до уваги різницю ВВП на особу за номіналом та ПКС у наших країнах<SPLIT>, яка дає коефіцієнт 4<SPLIT>,<SPLIT>54<SPLIT>, то згадані 31<SPLIT>,<SPLIT>2<SPLIT>% українських представників середнього класу мали 2015 року дохід від €<SPLIT>5<SPLIT>,<SPLIT>9 тис<SPLIT>.<SPLIT>, що майже зіставно з доходом середнього класу у ФРН<SPLIT>.}
+Predicted: {
+Коли взяти до уваги різницю ВВП на особу за номіналом та ПКС у наших країнах<SPLIT>, яка дає коефіцієнт 4<SPLIT>,<SPLIT>54<SPLIT>, то згадані 31<SPLIT>,<SPLIT>2<SPLIT>% українських представників середнього класу мали 2015 року дохід від €<SPLIT>5<SPLIT>,<SPLIT>9 тис.<SPLIT>, що майже зіставно з доходом середнього класу у ФРН<SPLIT>.}
+False positives: {
+тис.
+} False negatives: {
+тис
+.
+}
+
+Expected: {
+Загалом обидва майданчика приноситимуть у міську казну 12<SPLIT>,<SPLIT>5 тис<SPLIT>. грн на місяць і майже 150 тис<SPLIT>. грн на рік<SPLIT>.}
+Predicted: {
+Загалом обидва майданчика приноситимуть у міську казну 12<SPLIT>,5 тис<SPLIT>. грн на місяць і майже 150 тис<SPLIT>. грн на рік<SPLIT>.}
+False positives: {
+,5
+} False negatives: {
+,
+5
+}
+
+Expected: {
+А на фоні видних кісток ребер і грудини<SPLIT>, то тим явно груди виглядають неприродно<SPLIT>(}
+Predicted: {
+А на фоні видних кісток ребер і грудини<SPLIT>, то тим явно груди виглядають неприродно(}
+False positives: {
+неприродно(
+} False negatives: {
+неприродно
+(
+}
+
+Expected: {
+Тому вносити зміни до статті 221.1 чи прим. є помилковим<SPLIT>.}
+Predicted: {
+Тому вносити зміни до статті 221<SPLIT>.<SPLIT>1 чи прим<SPLIT>. є помилковим<SPLIT>.}
+False positives: {
+221
+.
+1
+прим
+.
+} False negatives: {
+221.1
+прим.
+}
+
+Expected: {
+Попередній закон "<SPLIT>Про засади державної<SPLIT>мовної політики<SPLIT>" був ухвалений всупереч з усіма висновками Венеціанської комісії<SPLIT>.}
+Predicted: {
+Попередній закон "<SPLIT>Про засади державноїмовної політики<SPLIT>" був ухвалений всупереч з усіма висновками Венеціанської комісії<SPLIT>.}
+False positives: {
+державноїмовної
+} False negatives: {
+державної
+мовної
+}
+
+Expected: {
+у семи областях вони є на 2<SPLIT>,<SPLIT>9<SPLIT>-<SPLIT>5<SPLIT>,<SPLIT>5<SPLIT>% нижчими<SPLIT>, аніж три роки тому<SPLIT>.}
+Predicted: {
+у семи областях вони є на 2<SPLIT>,<SPLIT>9<SPLIT>-<SPLIT>5,<SPLIT>5<SPLIT>% нижчими<SPLIT>, аніж три роки тому<SPLIT>.}
+False positives: {
+5,
+} False negatives: {
+5
+,
+}
+
+Expected: {
+указом президента україни № 23<SPLIT>/<SPLIT>2017 від 3 лютого 2017 року "<SPLIT>за особисту мужність<SPLIT>, виявлену у захисті державного суверенітету та територіальної цілісності україни<SPLIT>, самовіддане виконання військового обов'язку<SPLIT>" нагороджений орденом "<SPLIT>богдана хмельницького<SPLIT>" iii ступеня (<SPLIT>посмертно<SPLIT>)<SPLIT>.}
+Predicted: {
+указом президента україни № 23/<SPLIT>2017 від 3 лютого 2017 року "<SPLIT>за особисту мужність<SPLIT>, виявлену у захисті державного суверенітету та територіальної цілісності україни<SPLIT>, самовіддане виконання військового обов'язку<SPLIT>" нагороджений орденом "<SPLIT>богдана хмельницького<SPLIT>" iii ступеня (<SPLIT>посмертно<SPLIT>)<SPLIT>.}
+False positives: {
+23/
+} False negatives: {
+23
+/
+}
+
+Expected: {
+якщо хресним<SPLIT>\<SPLIT>ою стала людина яка насправді не була охрещеною і сама являється противником християнства<SPLIT>, то наскільки прикольним є цей випадок<SPLIT>?}
+Predicted: {
+якщо хресним\<SPLIT>ою стала людина яка насправді не була охрещеною і сама являється противником християнства<SPLIT>, то наскільки прикольним є цей випадок<SPLIT>?}
+False positives: {
+хресним\
+} False negatives: {
+хресним
+\
+}
+
+Expected: {
+божества у релігії асатру<SPLIT>/<SPLIT>одіна розглядаються не як автономні<SPLIT>, трансцендентальні істоти<SPLIT>, а<SPLIT>, скоріше<SPLIT>, як зразкові моделі свідомості або архетипи<SPLIT>, які слугують патернами для людського розвитку<SPLIT>"}
+Predicted: {
+божества у релігії асатру<SPLIT>/одіна розглядаються не як автономні<SPLIT>, трансцендентальні істоти<SPLIT>, а<SPLIT>, скоріше<SPLIT>, як зразкові моделі свідомості або архетипи<SPLIT>, які слугують патернами для людського розвитку<SPLIT>"}
+False positives: {
+/одіна
+} False negatives: {
+/
+одіна
+}
+
+Expected: {
+на початку xxi ст<SPLIT>. глибина шахт сягає 3<SPLIT>,<SPLIT>5<SPLIT>-<SPLIT>4<SPLIT>,<SPLIT>5 км<SPLIT>. (<SPLIT>вугільні ш<SPLIT>. йдуть до відміток 1<SPLIT>,<SPLIT>3<SPLIT>-<SPLIT>1<SPLIT>,<SPLIT>5 км<SPLIT>, рудні до 4<SPLIT>,<SPLIT>5 км<SPLIT>)<SPLIT>.}
+Predicted: {
+на початку xxi ст<SPLIT>. глибина шахт сягає 3<SPLIT>,<SPLIT>5<SPLIT>-<SPLIT>4,<SPLIT>5 км<SPLIT>. (<SPLIT>вугільні ш<SPLIT>. йдуть до відміток 1<SPLIT>,<SPLIT>3<SPLIT>-<SPLIT>1,<SPLIT>5 км<SPLIT>, рудні до 4<SPLIT>,<SPLIT>5 км<SPLIT>)<SPLIT>.}
+False positives: {
+4,
+1,
+} False negatives: {
+4
+,
+1
+,
+}

@@ -1,0 +1,62 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.9996531992370383
+Training-Sample-Size=7587
+Evaluation-Sample-Size=842
+Training-Algorithm=MAXENT_QN
+
+=== MODEL PROPERTIES ===
+Component-Name=TokenizerME
+Language=el
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742447696681
+TrainerType=Event
+Training-Eventhash=1640198272
+alphaNumericPattern=^[A-Za-z0-9]+$
+factory=opennlp.tools.tokenize.TokenizerFactory
+useAlphaNumericOptimization=false
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+3. Η εκκένωση των Τουρκικών θυλάκων από την Ειρηνευτική Δύναμη του ΟΗΕ.}
+Predicted: {
+3. Η εκκένωση των Τουρκικών θυλάκων από την Ειρηνευτική Δύναμη του ΟΗΕ<SPLIT>.}
+False positives: {
+ΟΗΕ
+.
+} False negatives: {
+ΟΗΕ.
+}
+
+Expected: {
+« Θ<SPLIT>' αφήσεις κανένα γερό αυγό μπας και τσουγκρίσουμε κι αύριο ; »}
+Predicted: {
+« Θ' αφήσεις κανένα γερό αυγό μπας και τσουγκρίσουμε κι αύριο ; »}
+False positives: {
+Θ'
+} False negatives: {
+Θ
+'
+}
+
+Expected: {
+το 2002 χρηματοδοτήθηκαν 10.029 σχέδια με ποσόν λίγο μεγαλύτερο των 80 εκατ. ευρώ<SPLIT>.}
+Predicted: {
+το 2002 χρηματοδοτήθηκαν 10.029 σχέδια με ποσόν λίγο μεγαλύτερο των 80 εκατ<SPLIT>. ευρώ<SPLIT>.}
+False positives: {
+εκατ
+.
+} False negatives: {
+εκατ.
+}
+
+Expected: {
+οι εξτρεμιστές απήγαγαν τα άτομα κατά τη διάρκεια επίθεσης που πραγματοποίησαν την τετάρτη σε εγκαταστάσεις εξόρυξης φυσικού αερίου<SPLIT>, οι οποίες εν μέρει ανήκουν σ<SPLIT>τη βρετανική εταιρεία bp.}
+Predicted: {
+οι εξτρεμιστές απήγαγαν τα άτομα κατά τη διάρκεια επίθεσης που πραγματοποίησαν την τετάρτη σε εγκαταστάσεις εξόρυξης φυσικού αερίου<SPLIT>, οι οποίες εν μέρει ανήκουν σ<SPLIT>τη βρετανική εταιρεία bp<SPLIT>.}
+False positives: {
+bp
+.
+} False negatives: {
+bp.
+}

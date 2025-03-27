@@ -1,0 +1,151 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.998867497168743
+Training-Sample-Size=8525
+Evaluation-Sample-Size=947
+Training-Algorithm=MAXENT_QN
+
+=== MODEL PROPERTIES ===
+Component-Name=TokenizerME
+Language=da
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742446018890
+TrainerType=Event
+Training-Eventhash=1630542932
+alphaNumericPattern=^[A-Za-z0-9]+$
+factory=opennlp.tools.tokenize.TokenizerFactory
+useAlphaNumericOptimization=false
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+Den danske importør<SPLIT>, Vilh. Nellemann Autoimport<SPLIT>, har besluttet at satse på markedet for jobbiler frem for at sprede sig for meget<SPLIT>.}
+Predicted: {
+Den danske importør<SPLIT>, Vilh<SPLIT>. Nellemann Autoimport<SPLIT>, har besluttet at satse på markedet for jobbiler frem for at sprede sig for meget<SPLIT>.}
+False positives: {
+Vilh
+.
+} False negatives: {
+Vilh.
+}
+
+Expected: {
+Det økonomiske regnestykke er forlængst på plads<SPLIT>: Der skal investeres 1,5 til 2 mia. kr. i en sammenlægning af Carlsberg og Tuborgs to københavnske bryggerier i ét fælles bryggeri<SPLIT>.}
+Predicted: {
+Det økonomiske regnestykke er forlængst på plads<SPLIT>: Der skal investeres 1,5 til 2 mia<SPLIT>. kr. i en sammenlægning af Carlsberg og Tuborgs to københavnske bryggerier i ét fælles bryggeri<SPLIT>.}
+False positives: {
+mia
+.
+} False negatives: {
+mia.
+}
+
+Expected: {
+4<SPLIT>.}
+Predicted: {
+4.}
+False positives: {
+4.
+} False negatives: {
+4
+.
+}
+
+Expected: {
+Fig. 9.9}
+Predicted: {
+Fig<SPLIT>. 9.9}
+False positives: {
+Fig
+.
+} False negatives: {
+Fig.
+}
+
+Expected: {
+Politiet kan ikke forklare den voldsomme stigning i antallet af narkodødsfald<SPLIT>, men nøjes med at fastslå<SPLIT>, at der ingen sammenhæng er mellem dødsfaldene og det<SPLIT>, at alle ofrene i årevis havde været misbrugere af euforiserende stoffer<SPLIT>, skriver Fyens Stiftstidende.(RB)}
+Predicted: {
+Politiet kan ikke forklare den voldsomme stigning i antallet af narkodødsfald<SPLIT>, men nøjes med at fastslå<SPLIT>, at der ingen sammenhæng er mellem dødsfaldene og det<SPLIT>, at alle ofrene i årevis havde været misbrugere af euforiserende stoffer<SPLIT>, skriver Fyens Stiftstidende<SPLIT>.(RB<SPLIT>)}
+False positives: {
+Stiftstidende
+.(RB
+)
+} False negatives: {
+Stiftstidende.(RB)
+}
+
+Expected: {
+Arne Fryman<SPLIT>, Vestersøgade 78<SPLIT>, 1601 København V<SPLIT>.}
+Predicted: {
+Arne Fryman<SPLIT>, Vestersøgade 78<SPLIT>, 1601 København V.}
+False positives: {
+V.
+} False negatives: {
+V
+.
+}
+
+Expected: {
+Et skaktræk som med et slag viftede kreditorer med et tilgodehavende på seks mia. kr. væk<SPLIT>.}
+Predicted: {
+Et skaktræk som med et slag viftede kreditorer med et tilgodehavende på seks mia<SPLIT>. kr. væk<SPLIT>.}
+False positives: {
+mia
+.
+} False negatives: {
+mia.
+}
+
+Expected: {
+de folgende 10 ar er der ydet omkring 800 mio. kr. til enkeltprojekter og forskningsinstitutter<SPLIT>.}
+Predicted: {
+de folgende 10 ar er der ydet omkring 800 mio<SPLIT>. kr. til enkeltprojekter og forskningsinstitutter<SPLIT>.}
+False positives: {
+mio
+.
+} False negatives: {
+mio.
+}
+
+Expected: {
+den anskuelse synes han ogsa at have lagt over bibelen og over den beskrivelse af sig selv<SPLIT>, som han leverer i de to centrale figurer i stykket<SPLIT>, mr. jay og goldberg<SPLIT>.}
+Predicted: {
+den anskuelse synes han ogsa at have lagt over bibelen og over den beskrivelse af sig selv<SPLIT>, som han leverer i de to centrale figurer i stykket<SPLIT>, mr<SPLIT>. jay og goldberg<SPLIT>.}
+False positives: {
+mr
+.
+} False negatives: {
+mr.
+}
+
+Expected: {
+bland 125 g hvedemel<SPLIT>, 1/2 tsk. bagepulver og 50 g lidt grofthakkede noddekerner og pisk melblandingen i aeggemassen<SPLIT>, indtil alt er godt blandet<SPLIT>.}
+Predicted: {
+bland 125 g hvedemel<SPLIT>, 1/2 tsk<SPLIT>. bagepulver og 50 g lidt grofthakkede noddekerner og pisk melblandingen i aeggemassen<SPLIT>, indtil alt er godt blandet<SPLIT>.}
+False positives: {
+tsk
+.
+} False negatives: {
+tsk.
+}
+
+Expected: {
+et skaktraek som med et slag viftede kreditorer med et tilgodehavende pa seks mia. kr. vaek<SPLIT>.}
+Predicted: {
+et skaktraek som med et slag viftede kreditorer med et tilgodehavende pa seks mia<SPLIT>. kr. vaek<SPLIT>.}
+False positives: {
+mia
+.
+} False negatives: {
+mia.
+}
+
+Expected: {
+brug spolerne<SPLIT>, jernloddet og vaegtlodderne (<SPLIT>fig. 11.2<SPLIT>)<SPLIT>.}
+Predicted: {
+brug spolerne<SPLIT>, jernloddet og vaegtlodderne (<SPLIT>fig<SPLIT>. 11.2<SPLIT>)<SPLIT>.}
+False positives: {
+fig
+.
+} False negatives: {
+fig.
+}

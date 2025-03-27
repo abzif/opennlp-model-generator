@@ -1,0 +1,10602 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.994981023658355
+Training-Sample-Size=23176
+Evaluation-Sample-Size=2575
+Training-Algorithm=MAXENT
+
+=== MODEL PROPERTIES ===
+BeamSize=3
+Component-Name=StatisticalLemmatizer
+Language=zh
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742539953340
+TrainerType=Event
+Training-Eventhash=66304365
+factory=opennlp.tools.lemmatizer.LemmatizerFactory
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+老板	NOUN	老板
+明天	NOUN	明天
+要	AUX	要
+见	VERB	见
+他们	PRON	他们
+吗	PART	吗
+？	PUNCT	？
+}
+Predicted: {
+老板	NOUN	老板
+明天	NOUN	明天
+要	AUX	要
+见	VERB	见
+他们	PRON	他
+吗	PART	吗
+？	PUNCT	？
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+他们: 他们 | 他
+}
+
+Expected: {
+这	DET	这
+个	NOUN	个
+月	NOUN	月
+我们	PRON	我们
+卖	VERB	卖
+了	AUX	了
+几	NUM	几
+千	NUM	千
+本	NOUN	本
+书	NOUN	书
+。	PUNCT	。
+}
+Predicted: {
+这	DET	这
+个	NOUN	个
+月	NOUN	月
+我们	PRON	我
+卖	VERB	卖
+了	AUX	了
+几	NUM	几
+千	NUM	千
+本	NOUN	本
+书	NOUN	书
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+我们	PRON	我们
+公司	NOUN	公司
+有	VERB	有
+很	ADV	很
+多	ADJ	多
+外国人	NOUN	外国人
+，	PUNCT	，
+所以	SCONJ	所以
+我们	PRON	我们
+要	AUX	要
+说	VERB	说
+英文	NOUN	英文
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+公司	NOUN	公司
+有	VERB	有
+很	ADV	很
+多	ADJ	多
+外国人	NOUN	外国人
+，	PUNCT	，
+所以	SCONJ	所以
+我们	PRON	我
+要	AUX	要
+说	VERB	说
+英文	NOUN	英文
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+你	PRON	你
+喜欢	VERB	喜欢
+喝	VERB	喝
+奶茶	NOUN	奶茶
+，	PUNCT	，
+我们	PRON	我们
+就	SCONJ	就
+买	VERB	买
+奶茶	NOUN	奶茶
+吧	PART	吧
+。	PUNCT	。
+}
+Predicted: {
+你	PRON	你
+喜欢	VERB	喜欢
+喝	VERB	喝
+奶茶	NOUN	奶茶
+，	PUNCT	，
+我们	PRON	我
+就	SCONJ	就
+买	VERB	买
+奶茶	NOUN	奶茶
+吧	PART	吧
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+菜	NOUN	菜
+太	ADV	太
+多	ADJ	多
+了	PART	了
+，	PUNCT	，
+我们	PRON	我们
+没	ADV	没
+全	ADV	全
+都	ADV	都
+吃	VERB	吃
+完	VERB	完
+。	PUNCT	。
+}
+Predicted: {
+菜	NOUN	菜
+太	ADV	太
+多	ADJ	多
+了	PART	了
+，	PUNCT	，
+我们	PRON	我
+没	ADV	没
+全	ADV	全
+都	ADV	都
+吃	VERB	吃
+完	VERB	完
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+这	DET	这
+个	NOUN	个
+航班	NOUN	航班
+经常	ADV	经常
+晚	VERB	晚
+点	ADV	点
+。	PUNCT	。
+另外	SCONJ	另外
+，	PUNCT	，
+他们	PRON	他们
+的	PART	的
+飞机	NOUN	飞机
+餐	NOUN	餐
+也	SCONJ	也
+很	ADV	很
+难吃	ADJ	难吃
+。	PUNCT	。
+}
+Predicted: {
+这	DET	这
+个	NOUN	个
+航班	NOUN	航班
+经常	ADV	经常
+晚	VERB	晚
+点	ADV	点
+。	PUNCT	。
+另外	SCONJ	另外
+，	PUNCT	，
+他们	PRON	他
+的	PART	的
+飞机	NOUN	飞机
+餐	NOUN	餐
+也	SCONJ	也
+很	ADV	很
+难吃	ADJ	难吃
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+他们: 他们 | 他
+}
+
+Expected: {
+要不	ADV	要不
+我们	PRON	我们
+一起	ADV	一起
+去	VERB	去
+吧	PART	吧
+，	PUNCT	，
+一	NUM	一
+个	NOUN	个
+人	NOUN	人
+去	VERB	去
+没	VERB	没
+意思	NOUN	意思
+。	PUNCT	。
+}
+Predicted: {
+要不	ADV	要不
+我们	PRON	我
+一起	ADV	一起
+去	VERB	去
+吧	PART	吧
+，	PUNCT	，
+一	NUM	一
+个	NOUN	个
+人	NOUN	人
+去	VERB	去
+没	VERB	没
+意思	NOUN	意思
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+在	ADP	在
+我	PRON	我
+家	NOUN	家
+开	VERB	开
+会	NOUN	会
+不	ADV	不
+方便	ADJ	方便
+，	PUNCT	，
+我们	PRON	我们
+另外	ADV	另外
+找	VERB	找
+地方	NOUN	地方
+吧	PART	吧
+。	PUNCT	。
+}
+Predicted: {
+在	ADP	在
+我	PRON	我
+家	NOUN	家
+开	VERB	开
+会	NOUN	会
+不	ADV	不
+方便	ADJ	方便
+，	PUNCT	，
+我们	PRON	我
+另外	ADV	另外
+找	VERB	找
+地方	NOUN	地方
+吧	PART	吧
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+他们	PRON	他们
+没	ADV	没
+有	AUX	有
+提前	ADV	提前
+通知	VERB	通知
+我们	PRON	我们
+，	PUNCT	，
+那么	SCONJ	那么
+这	DET	这
+是	AUX	是
+他们	PRON	他们
+的	PART	的
+责任	NOUN	责任
+。	PUNCT	。
+}
+Predicted: {
+他们	PRON	他们
+没	ADV	没
+有	AUX	有
+提前	ADV	提前
+通知	VERB	通知
+我们	PRON	我
+，	PUNCT	，
+那么	SCONJ	那么
+这	DET	这
+是	AUX	是
+他们	PRON	他
+的	PART	的
+责任	NOUN	责任
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+他们: 他们 | 他
+}
+
+Expected: {
+只有	ADV	只有
+妈妈	NOUN	妈妈
+在	ADP	在
+我们	PRON	我们
+才	ADV	才
+能	AUX	能
+出	VERB	出
+去	VERB	去
+玩	VERB	玩
+。	PUNCT	。
+}
+Predicted: {
+只有	ADV	只有
+妈妈	NOUN	妈妈
+在	ADP	在
+我们	PRON	我
+才	ADV	才
+能	AUX	能
+出	VERB	出
+去	VERB	去
+玩	VERB	玩
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+家人	NOUN	家人
+究竟	ADV	究竟
+是	AUX	是
+家人	NOUN	家人
+，	PUNCT	，
+也许	SCONJ	也许
+你	PRON	你
+不	ADV	不
+喜欢	VERB	喜欢
+他们	PRON	他们
+，	PUNCT	，
+但	SCONJ	但
+你	PRON	你
+还是	ADV	还是
+会	AUX	会
+爱	VERB	爱
+他们	PRON	他们
+。	PUNCT	。
+}
+Predicted: {
+家人	NOUN	家人
+究竟	ADV	究竟
+是	AUX	是
+家人	NOUN	家人
+，	PUNCT	，
+也许	SCONJ	也许
+你	PRON	你
+不	ADV	不
+喜欢	VERB	喜欢
+他们	PRON	他
+，	PUNCT	，
+但	SCONJ	但
+你	PRON	你
+还是	ADV	还是
+会	AUX	会
+爱	VERB	爱
+他们	PRON	他
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+他们: 他们 | 他
+他们: 他们 | 他
+}
+
+Expected: {
+假如	SCONJ	假如
+这	DET	这
+话	NOUN	话
+是	AUX	是
+真	ADJ	真
+的	PART	的
+，	PUNCT	，
+我们	PRON	我们
+也	ADV	也
+要	AUX	要
+考虑	VERB	考虑
+两	NUM	两
+天	NOUN	天
+。	PUNCT	。
+}
+Predicted: {
+假如	SCONJ	假如
+这	DET	这
+话	NOUN	话
+是	AUX	是
+真	ADJ	真
+的	PART	的
+，	PUNCT	，
+我们	PRON	我
+也	ADV	也
+要	AUX	要
+考虑	VERB	考虑
+两	NUM	两
+天	NOUN	天
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+我们	PRON	我
+做	VERB	做
+学校	NOUN	学校
+的	PART	的
+巴士	NOUN	巴士
+去	VERB	去
+那里	PRON	那里
+，	PUNCT	，
+终于	ADV	终于
+到	VERB	到
+了	AUX	了
+向往	VERB	向往
+的	PART	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+做	VERB	做
+学校	NOUN	学校
+的	PART	的
+巴士	NOUN	巴士
+去	VERB	去
+那里	PRON	那里
+，	PUNCT	，
+终于	ADV	终于
+到	VERB	到
+了	AUX	了
+向往	VERB	向往
+的	PART	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+}
+
+Expected: {
+我们	PRON	我
+谈	VERB	谈
+着	AUX	着
+谈	VERB	谈
+着	AUX	着
+，	PUNCT	，
+忽然	ADV	忽然
+发现	VERB	发现
+了	AUX	了
+已	ADV	已
+过	VERB	过
+关门	VERB	关门
+时间	NOUN	时间
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+谈	VERB	谈
+着	AUX	着
+谈	VERB	谈
+着	AUX	着
+，	PUNCT	，
+忽然	ADV	忽然
+发现	VERB	发现
+了	AUX	了
+已	ADV	已
+过	VERB	过
+关门	VERB	关门
+时间	NOUN	时间
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+}
+
+Expected: {
+建設	VERB	建設
+該	DET	該
+中心	NOUN	中心
+的	SCONJ	的
+目的	NOUN	目的
+是	VERB	是
+給	VERB	給
+本州	PROPN	本州
+製藥	NOUN	製藥
+企業	NOUN	企業
+，	PUNCT	，
+GMP	X	GMP
+工廠	NOUN	工廠
+提供	VERB	提供
+合格	VERB	合格
+的	SCONJ	的
+人員	NOUN	人員
+資源	NOUN	資源
+。	PUNCT	。
+}
+Predicted: {
+建設	VERB	建設
+該	DET	該
+中心	NOUN	中心
+的	SCONJ	的
+目的	NOUN	目的
+是	VERB	是
+給	VERB	給
+本州	PROPN	本州
+製藥	NOUN	製藥
+企業	NOUN	企業
+，	PUNCT	，
+GMP	X	gmp
+工廠	NOUN	工廠
+提供	VERB	提供
+合格	VERB	合格
+的	SCONJ	的
+人員	NOUN	人員
+資源	NOUN	資源
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+GMP: GMP | gmp
+}
+
+Expected: {
+法國	PROPN	法國
+地質	NOUN	地質
+學家	NOUN	學家
+Gromaget	X	Gromaget
+（	PUNCT	（
+1934	NUM	1934
+）	PUNCT	）
+在	ADP	在
+研究	VERB	研究
+越南	PROPN	越南
+的	PART	的
+地層	NOUN	地層
+時	ADP	時
+，	PUNCT	，
+首次	NUM	首次
+提出	VERB	提出
+印	PROPN	印
+支	PROPN	支
+運動	NOUN	運動
+的	PART	的
+概念	NOUN	概念
+。	PUNCT	。
+}
+Predicted: {
+法國	PROPN	法國
+地質	NOUN	地質
+學家	NOUN	學家
+Gromaget	X	gromaget
+（	PUNCT	（
+1934	NUM	1934
+）	PUNCT	）
+在	ADP	在
+研究	VERB	研究
+越南	PROPN	越南
+的	PART	的
+地層	NOUN	地層
+時	ADP	時
+，	PUNCT	，
+首次	NUM	首次
+提出	VERB	提出
+印	PROPN	印
+支	PROPN	支
+運動	NOUN	運動
+的	PART	的
+概念	NOUN	概念
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Gromaget: Gromaget | gromaget
+}
+
+Expected: {
+哈德遜	PROPN	哈德遜
+（	PUNCT	（
+Hudson	X	Hudson
+，	PUNCT	，
+Ohio	X	Ohio
+）	PUNCT	）
+是	AUX	是
+美國	PROPN	美國
+俄亥俄	PROPN	俄亥俄
+州	PART	州
+薩米特	PROPN	薩米特
+縣	PART	縣
+的	PART	的
+一	NUM	一
+個	NOUN	個
+城市	NOUN	城市
+。	PUNCT	。
+}
+Predicted: {
+哈德遜	PROPN	哈德遜
+（	PUNCT	（
+Hudson	X	hudson
+，	PUNCT	，
+Ohio	X	ohio
+）	PUNCT	）
+是	AUX	是
+美國	PROPN	美國
+俄亥俄	PROPN	俄亥俄
+州	PART	州
+薩米特	PROPN	薩米特
+縣	PART	縣
+的	PART	的
+一	NUM	一
+個	NOUN	個
+城市	NOUN	城市
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Hudson: Hudson | hudson
+Ohio: Ohio | ohio
+}
+
+Expected: {
+Anggun	X	Anggun
+是	AUX	是
+世界	NOUN	世界
+上	ADP	上
+最	ADV	最
+成功	ADJ	成功
+的	SCONJ	的
+亞	PROPN	亞
+裔	PART	裔
+歌手	NOUN	歌手
+，	PUNCT	，
+在	VERB	在
+法國	PROPN	法國
+、	PUNCT	、
+美國	PROPN	美國
+、	PUNCT	、
+巴西	PROPN	巴西
+、	PUNCT	、
+比利時	PROPN	比利時
+、	PUNCT	、
+義大利	PROPN	義大利
+、	PUNCT	、
+新加坡	PROPN	新加坡
+、	PUNCT	、
+印尼	PROPN	印尼
+、	PUNCT	、
+馬來西亞	PROPN	馬來西亞
+、	PUNCT	、
+芬蘭	PROPN	芬蘭
+、	PUNCT	、
+瑞士	PROPN	瑞士
+、	PUNCT	、
+西班牙	PROPN	西班牙
+、	PUNCT	、
+俄羅斯	PROPN	俄羅斯
+、	PUNCT	、
+德國	PROPN	德國
+、	PUNCT	、
+加拿大	PROPN	加拿大
+、	PUNCT	、
+荷蘭	PROPN	荷蘭
+、	PUNCT	、
+希臘	PROPN	希臘
+、	PUNCT	、
+菲律賓	PROPN	菲律賓
+、	PUNCT	、
+汶萊	PROPN	汶萊
+、	PUNCT	、
+日本	PROPN	日本
+等	NOUN	等
+40多	NUM	40多
+個	NOUN	個
+國家	NOUN	國家
+也	SCONJ	也
+有	VERB	有
+著	AUX	著
+高	PART	高
+知名	ADJ	知名
+度	PART	度
+。	PUNCT	。
+}
+Predicted: {
+Anggun	X	anggun
+是	AUX	是
+世界	NOUN	世界
+上	ADP	上
+最	ADV	最
+成功	ADJ	成功
+的	SCONJ	的
+亞	PROPN	亞
+裔	PART	裔
+歌手	NOUN	歌手
+，	PUNCT	，
+在	VERB	在
+法國	PROPN	法國
+、	PUNCT	、
+美國	PROPN	美國
+、	PUNCT	、
+巴西	PROPN	巴西
+、	PUNCT	、
+比利時	PROPN	比利時
+、	PUNCT	、
+義大利	PROPN	義大利
+、	PUNCT	、
+新加坡	PROPN	新加坡
+、	PUNCT	、
+印尼	PROPN	印尼
+、	PUNCT	、
+馬來西亞	PROPN	馬來西亞
+、	PUNCT	、
+芬蘭	PROPN	芬蘭
+、	PUNCT	、
+瑞士	PROPN	瑞士
+、	PUNCT	、
+西班牙	PROPN	西班牙
+、	PUNCT	、
+俄羅斯	PROPN	俄羅斯
+、	PUNCT	、
+德國	PROPN	德國
+、	PUNCT	、
+加拿大	PROPN	加拿大
+、	PUNCT	、
+荷蘭	PROPN	荷蘭
+、	PUNCT	、
+希臘	PROPN	希臘
+、	PUNCT	、
+菲律賓	PROPN	菲律賓
+、	PUNCT	、
+汶萊	PROPN	汶萊
+、	PUNCT	、
+日本	PROPN	日本
+等	NOUN	等
+40多	NUM	40多
+個	NOUN	個
+國家	NOUN	國家
+也	SCONJ	也
+有	VERB	有
+著	AUX	著
+高	PART	高
+知名	ADJ	知名
+度	PART	度
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Anggun: Anggun | anggun
+}
+
+Expected: {
+她	PRON	她
+其後	NOUN	其後
+更	ADV	更
+與	ADP	與
+Elite	X	Elite
+簽約	VERB	簽約
+。	PUNCT	。
+}
+Predicted: {
+她	PRON	她
+其後	NOUN	其後
+更	ADV	更
+與	ADP	與
+Elite	X	elite
+簽約	VERB	簽約
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Elite: Elite | elite
+}
+
+Expected: {
+宵禁	NOUN	宵禁
+就是	VERB	是
+管理	VERB	管理
+員	PART	員
+下班	VERB	下班
+（	PUNCT	（
+0:00	NUM	0:00
+AM	X	AM
+）	PUNCT	）
+到	CCONJ	到
+次日	NOUN	次日
+上班	VERB	上班
+之前	ADP	之前
+（	PUNCT	（
+9:00	NUM	9:00
+AM	X	AM
+）	PUNCT	）
+禁止	VERB	禁止
+發帖	VERB	發帖
+和	CCONJ	和
+回復	VERB	回復
+，	PUNCT	，
+該	DET	該
+規則	NOUN	規則
+在	ADP	在
+2010	NUM	2010
+上海	PROPN	上海
+世博	NOUN	世博
+會	PART	會
+期間	NOUN	期間
+實行	VERB	實行
+，	PUNCT	，
+導致	VERB	導致
+大量	ADJ	大量
+海外	NOUN	海外
+網友	NOUN	網友
+由於	ADP	由於
+時差	NOUN	時差
+緣故	NOUN	緣故
+無法	VERB	無法
+正常	ADV	正常
+發帖	VERB	發帖
+。	PUNCT	。
+}
+Predicted: {
+宵禁	NOUN	宵禁
+就是	VERB	是
+管理	VERB	管理
+員	PART	員
+下班	VERB	下班
+（	PUNCT	（
+0:00	NUM	0:00
+AM	X	am
+）	PUNCT	）
+到	CCONJ	到
+次日	NOUN	次日
+上班	VERB	上班
+之前	ADP	之前
+（	PUNCT	（
+9:00	NUM	9:00
+AM	X	am
+）	PUNCT	）
+禁止	VERB	禁止
+發帖	VERB	發帖
+和	CCONJ	和
+回復	VERB	回復
+，	PUNCT	，
+該	DET	該
+規則	NOUN	規則
+在	ADP	在
+2010	NUM	2010
+上海	PROPN	上海
+世博	NOUN	世博
+會	PART	會
+期間	NOUN	期間
+實行	VERB	實行
+，	PUNCT	，
+導致	VERB	導致
+大量	ADJ	大量
+海外	NOUN	海外
+網友	NOUN	網友
+由於	ADP	由於
+時差	NOUN	時差
+緣故	NOUN	緣故
+無法	VERB	無法
+正常	ADV	正常
+發帖	VERB	發帖
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+AM: AM | am
+AM: AM | am
+}
+
+Expected: {
+電視	NOUN	電視
+動畫	NOUN	動畫
+版	PART	版
+於	ADP	於
+1976	NUM	1976
+年	NOUN	年
+10	NUM	10
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+至	CCONJ	至
+1978	NUM	1978
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+2	NUM	2
+日	NOUN	日
+期間	NOUN	期間
+，	PUNCT	，
+在	ADP	在
+NET	X	NET
+電視	NOUN	電視
+台	PART	台
+（	PUNCT	（
+在	ADP	在
+1977	NUM	1977
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+改名	VERB	改名
+為	VERB	為
+「	PUNCT	「
+全國	PROPN	全國
+朝日	PROPN	朝日
+放送	VERB	放送
+株式	NOUN	株式
+會社	NOUN	會社
+」	PUNCT	」
+，	PUNCT	，
+即	VERB	即
+今	NOUN	今
+朝日	PROPN	朝日
+電視	NOUN	電視
+台	PART	台
+）	PUNCT	）
+播映	VERB	播映
+，	PUNCT	，
+由	VERB	由
+NET	X	NET
+、	PUNCT	、
+旭	PROPN	旭
+通信	VERB	通信
+社	PART	社
+、	PUNCT	、
+東映	PROPN	東映
+聯合	VERB	聯合
+製作	VERB	製作
+，	PUNCT	，
+全	DET	全
+115	NUM	115
+集	NOUN	集
+。	PUNCT	。
+}
+Predicted: {
+電視	NOUN	電視
+動畫	NOUN	動畫
+版	PART	版
+於	ADP	於
+1976	NUM	1976
+年	NOUN	年
+10	NUM	10
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+至	CCONJ	至
+1978	NUM	1978
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+2	NUM	2
+日	NOUN	日
+期間	NOUN	期間
+，	PUNCT	，
+在	ADP	在
+NET	X	net
+電視	NOUN	電視
+台	PART	台
+（	PUNCT	（
+在	ADP	在
+1977	NUM	1977
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+改名	VERB	改名
+為	VERB	為
+「	PUNCT	「
+全國	PROPN	全國
+朝日	PROPN	朝日
+放送	VERB	放送
+株式	NOUN	株式
+會社	NOUN	會社
+」	PUNCT	」
+，	PUNCT	，
+即	VERB	即
+今	NOUN	今
+朝日	PROPN	朝日
+電視	NOUN	電視
+台	PART	台
+）	PUNCT	）
+播映	VERB	播映
+，	PUNCT	，
+由	VERB	由
+NET	X	net
+、	PUNCT	、
+旭	PROPN	旭
+通信	VERB	通信
+社	PART	社
+、	PUNCT	、
+東映	PROPN	東映
+聯合	VERB	聯合
+製作	VERB	製作
+，	PUNCT	，
+全	DET	全
+115	NUM	115
+集	NOUN	集
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+NET: NET | net
+NET: NET | net
+}
+
+Expected: {
+小	PART	小
+行星	NOUN	行星
+14572	PROPN	14572
+的	PART	的
+軌道	NOUN	軌道
+半	NUM	半
+長軸	NOUN	長軸
+為	AUX	為
+2.2787524	NUM	2.2787524
+UA	X	UA
+，	PUNCT	，
+離心	NOUN	離心
+率	PART	率
+為	AUX	為
+0.106	NUM	0.106
+。	PUNCT	。
+}
+Predicted: {
+小	PART	小
+行星	NOUN	行星
+14572	PROPN	14572
+的	PART	的
+軌道	NOUN	軌道
+半	NUM	半
+長軸	NOUN	長軸
+為	AUX	為
+2.2787524	NUM	2.2787524
+UA	X	ua
+，	PUNCT	，
+離心	NOUN	離心
+率	PART	率
+為	AUX	為
+0.106	NUM	0.106
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+UA: UA | ua
+}
+
+Expected: {
+小	PART	小
+行星	NOUN	行星
+3480	NUM	3480
+（	PUNCT	（
+3480	NUM	3480
+Abante	X	Abante
+）	PUNCT	）
+是	AUX	是
+一	NUM	一
+顆	NOUN	顆
+繞	ADP	繞
+太陽	NOUN	太陽
+運轉	VERB	運轉
+的	SCONJ	的
+小	PART	小
+行星	NOUN	行星
+，	PUNCT	，
+為	AUX	為
+主	PART	主
+小	PART	小
+行星	NOUN	行星
+帶	PART	帶
+小	PART	小
+行星	NOUN	行星
+。	PUNCT	。
+}
+Predicted: {
+小	PART	小
+行星	NOUN	行星
+3480	NUM	3480
+（	PUNCT	（
+3480	NUM	3480
+Abante	X	abante
+）	PUNCT	）
+是	AUX	是
+一	NUM	一
+顆	NOUN	顆
+繞	ADP	繞
+太陽	NOUN	太陽
+運轉	VERB	運轉
+的	SCONJ	的
+小	PART	小
+行星	NOUN	行星
+，	PUNCT	，
+為	AUX	為
+主	PART	主
+小	PART	小
+行星	NOUN	行星
+帶	PART	帶
+小	PART	小
+行星	NOUN	行星
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Abante: Abante | abante
+}
+
+Expected: {
+而	SCONJ	而
+平面	NOUN	平面
+鏡	PART	鏡
+M1	DET	M1
+和	CCONJ	和
+M2	X	M2
+之間	NOUN	之間
+的	PART	的
+距離	NOUN	距離
+相當	VERB	相當
+於	VERB	於
+擴展	NOUN	擴展
+光源	NOUN	光源
+的	PART	的
+線度	NOUN	線度
+，	PUNCT	，
+當	ADP	當
+M1	X	M1
+和	CCONJ	和
+M2	X	M2
+靠	VERB	靠
+得	PART	得
+很近	ADJ	很近
+時	ADP	時
+干涉	NOUN	干涉
+條紋	NOUN	條紋
+的	PART	的
+可	AUX	可
+見	VERB	見
+度	PART	度
+接近	VERB	接近
+於	VERB	於
+1	NUM	1
+，	PUNCT	，
+隨	VERB	隨
+著	AUX	著
+兩	NUM	兩
+者	NOUN	者
+間距	NOUN	間距
+增加	VERB	增加
+可	AUX	可
+見	VERB	見
+度	PART	度
+會	AUX	會
+逐漸	ADV	逐漸
+下降	VERB	下降
+為	VERB	為
+零	NUM	零
+。	PUNCT	。
+}
+Predicted: {
+而	SCONJ	而
+平面	NOUN	平面
+鏡	PART	鏡
+M1	DET	m1
+和	CCONJ	和
+M2	X	m2
+之間	NOUN	之間
+的	PART	的
+距離	NOUN	距離
+相當	VERB	相當
+於	VERB	於
+擴展	NOUN	擴展
+光源	NOUN	光源
+的	PART	的
+線度	NOUN	線度
+，	PUNCT	，
+當	ADP	當
+M1	X	m1
+和	CCONJ	和
+M2	X	m2
+靠	VERB	靠
+得	PART	得
+很近	ADJ	很近
+時	ADP	時
+干涉	NOUN	干涉
+條紋	NOUN	條紋
+的	PART	的
+可	AUX	可
+見	VERB	見
+度	PART	度
+接近	VERB	接近
+於	VERB	於
+1	NUM	1
+，	PUNCT	，
+隨	VERB	隨
+著	AUX	著
+兩	NUM	兩
+者	NOUN	者
+間距	NOUN	間距
+增加	VERB	增加
+可	AUX	可
+見	VERB	見
+度	PART	度
+會	AUX	會
+逐漸	ADV	逐漸
+下降	VERB	下降
+為	VERB	為
+零	NUM	零
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+M1: M1 | m1
+M2: M2 | m2
+M1: M1 | m1
+M2: M2 | m2
+}
+
+Expected: {
+此項	DET	此項
+疾病	NOUN	疾病
+最早	ADV	最早
+是	VERB	是
+由	VERB	由
+美國	PROPN	美國
+神經	NOUN	神經
+外科	NOUN	外科
+醫生	NOUN	醫生
+庫欣	PROPN	庫欣
+（	PUNCT	（
+Harvey	X	Harvey
+Cushing	X	Cushing
+）	PUNCT	）
+於	ADP	於
+1932	NUM	1932
+年	NOUN	年
+首先	ADV	首先
+描述	VERB	描述
+，	PUNCT	，
+他	PRON	他
+同時	NOUN	同時
+也是	AUX	是
+一	NUM	一
+位	NOUN	位
+外科	NOUN	外科
+學	PART	學
+和	CCONJ	和
+內	NOUN	內
+分泌	NOUN	分泌
+學	PART	學
+家	PART	家
+。	PUNCT	。
+}
+Predicted: {
+此項	DET	此項
+疾病	NOUN	疾病
+最早	ADV	最早
+是	VERB	是
+由	VERB	由
+美國	PROPN	美國
+神經	NOUN	神經
+外科	NOUN	外科
+醫生	NOUN	醫生
+庫欣	PROPN	庫欣
+（	PUNCT	（
+Harvey	X	harvey
+Cushing	X	cushing
+）	PUNCT	）
+於	ADP	於
+1932	NUM	1932
+年	NOUN	年
+首先	ADV	首先
+描述	VERB	描述
+，	PUNCT	，
+他	PRON	他
+同時	NOUN	同時
+也是	AUX	是
+一	NUM	一
+位	NOUN	位
+外科	NOUN	外科
+學	PART	學
+和	CCONJ	和
+內	NOUN	內
+分泌	NOUN	分泌
+學	PART	學
+家	PART	家
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Harvey: Harvey | harvey
+Cushing: Cushing | cushing
+}
+
+Expected: {
+有	VERB	有
+一	NUM	一
+輛	NOUN	輛
+290	NUM	290
+型	NOUN	型
+機車	NOUN	機車
+曾	ADV	曾
+被	AUX	被
+轉讓	VERB	轉讓
+給	VERB	給
+軍隊	NOUN	軍隊
+使用	VERB	使用
+，	PUNCT	，
+分配	VERB	分配
+給	VERB	給
+駐紮	VERB	駐紮
+在	ADP	在
+Mechernich	X	Mechernich
+的	SCONJ	的
+空軍	NOUN	空軍
+後勤	NOUN	後勤
+團	PART	團
+。	PUNCT	。
+}
+Predicted: {
+有	VERB	有
+一	NUM	一
+輛	NOUN	輛
+290	NUM	290
+型	NOUN	型
+機車	NOUN	機車
+曾	ADV	曾
+被	AUX	被
+轉讓	VERB	轉讓
+給	VERB	給
+軍隊	NOUN	軍隊
+使用	VERB	使用
+，	PUNCT	，
+分配	VERB	分配
+給	VERB	給
+駐紮	VERB	駐紮
+在	ADP	在
+Mechernich	X	mechernich
+的	SCONJ	的
+空軍	NOUN	空軍
+後勤	NOUN	後勤
+團	PART	團
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Mechernich: Mechernich | mechernich
+}
+
+Expected: {
+我們	PRON	我
+的	PART	的
+銀河	PROPN	銀河
+系	PART	系
+內	NOUN	內
+有	VERB	有
+一些	ADJ	一些
+恆星	NOUN	恆星
+質量	NOUN	質量
+黑洞	NOUN	黑洞
+的	PART	的
+候選	VERB	候選
+者	PART	者
+（	PUNCT	（
+BHCs	X	BHCs
+）	PUNCT	）
+，	PUNCT	，
+它們	PRON	它
+比	ADP	比
+銀河	PROPN	銀河
+中心	NOUN	中心
+區	PART	區
+的	PART	的
+大	PART	大
+質量	NOUN	質量
+黑洞	NOUN	黑洞
+更	ADV	更
+靠近	VERB	靠近
+我們	PRON	我
+。	PUNCT	。
+}
+Predicted: {
+我們	PRON	我
+的	PART	的
+銀河	PROPN	銀河
+系	PART	系
+內	NOUN	內
+有	VERB	有
+一些	ADJ	一些
+恆星	NOUN	恆星
+質量	NOUN	質量
+黑洞	NOUN	黑洞
+的	PART	的
+候選	VERB	候選
+者	PART	者
+（	PUNCT	（
+BHCs	X	bhcs
+）	PUNCT	）
+，	PUNCT	，
+它們	PRON	它
+比	ADP	比
+銀河	PROPN	銀河
+中心	NOUN	中心
+區	PART	區
+的	PART	的
+大	PART	大
+質量	NOUN	質量
+黑洞	NOUN	黑洞
+更	ADV	更
+靠近	VERB	靠近
+我們	PRON	我
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+BHCs: BHCs | bhcs
+}
+
+Expected: {
+邵氏	PROPN	邵氏
+電影	NOUN	電影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+》	PUNCT	》
+，	PUNCT	，
+記述	VERB	記述
+一	NUM	一
+班	NOUN	班
+不滿	VERB	滿
+社會	NOUN	社會
+現狀	NOUN	現狀
+而	SCONJ	而
+急於	VERB	急於
+改變	VERB	改變
+現實	NOUN	現實
+的	SCONJ	的
+青年	NOUN	青年
+，	PUNCT	，
+證明	VERB	證明
+當時	NOUN	當時
+已	ADV	已
+存在	VERB	存在
+「	PUNCT	「
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+」	PUNCT	」
+這	DET	這
+稱呼	NOUN	稱呼
+。	PUNCT	。
+}
+Predicted: {
+邵氏	PROPN	邵氏
+電影	NOUN	電影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+》	PUNCT	》
+，	PUNCT	，
+記述	VERB	記述
+一	NUM	一
+班	NOUN	班
+不滿	VERB	不滿
+社會	NOUN	社會
+現狀	NOUN	現狀
+而	SCONJ	而
+急於	VERB	急於
+改變	VERB	改變
+現實	NOUN	現實
+的	SCONJ	的
+青年	NOUN	青年
+，	PUNCT	，
+證明	VERB	證明
+當時	NOUN	當時
+已	ADV	已
+存在	VERB	存在
+「	PUNCT	「
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+」	PUNCT	」
+這	DET	這
+稱呼	NOUN	稱呼
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不滿: 滿 | 不滿
+}
+
+Expected: {
+雖然	ADP	雖然
+中	NOUN	中
+世紀	NOUN	世紀
+城堡	NOUN	城堡
+已經	ADV	已經
+被	AUX	被
+毀	VERB	毀
+，	PUNCT	，
+但是	SCONJ	但是
+其	PRON	其
+三	NUM	三
+座	NOUN	座
+城門	NOUN	城門
+倖存	VERB	倖存
+了	AUX	了
+下來	VERB	下來
+：	PUNCT	：
+東面	NOUN	東面
+的	PART	的
+伊薩爾	PROPN	伊薩爾
+門	PART	門
+（	PUNCT	（
+Isartor	X	Isartor
+）	PUNCT	）
+、	PUNCT	、
+南面	NOUN	南面
+的	PART	的
+森德靈	PROPN	森德靈
+門	PART	門
+（	PUNCT	（
+Sendlinger	X	Sendlinger
+Tor	X	Tor
+）	PUNCT	）
+和	CCONJ	和
+西面	NOUN	西面
+的	PART	的
+卡爾	PROPN	卡爾
+門	PART	門
+（	PUNCT	（
+Karlstor	X	Karlstor
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+雖然	ADP	雖然
+中	NOUN	中
+世紀	NOUN	世紀
+城堡	NOUN	城堡
+已經	ADV	已經
+被	AUX	被
+毀	VERB	毀
+，	PUNCT	，
+但是	SCONJ	但是
+其	PRON	其
+三	NUM	三
+座	NOUN	座
+城門	NOUN	城門
+倖存	VERB	倖存
+了	AUX	了
+下來	VERB	下來
+：	PUNCT	：
+東面	NOUN	東面
+的	PART	的
+伊薩爾	PROPN	伊薩爾
+門	PART	門
+（	PUNCT	（
+Isartor	X	isartor
+）	PUNCT	）
+、	PUNCT	、
+南面	NOUN	南面
+的	PART	的
+森德靈	PROPN	森德靈
+門	PART	門
+（	PUNCT	（
+Sendlinger	X	sendlinger
+Tor	X	tor
+）	PUNCT	）
+和	CCONJ	和
+西面	NOUN	西面
+的	PART	的
+卡爾	PROPN	卡爾
+門	PART	門
+（	PUNCT	（
+Karlstor	X	karlstor
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Isartor: Isartor | isartor
+Sendlinger: Sendlinger | sendlinger
+Tor: Tor | tor
+Karlstor: Karlstor | karlstor
+}
+
+Expected: {
+截頜鯉	NOUN	截頜鯉
+（	PUNCT	（
+學名	NOUN	學名
+：	PUNCT	：
+Ospatulus	X	Ospatulus
+truncatulus	X	truncatulus
+）	PUNCT	）
+為	AUX	為
+輻鰭	NOUN	輻鰭
+魚	PART	魚
+綱	PART	綱
+鯉形	NOUN	鯉形
+目	PART	目
+鯉科	NOUN	鯉科
+的	PART	的
+一	NUM	一
+個	NOUN	個
+種	NOUN	種
+，	PUNCT	，
+分布	VERB	分布
+於	ADP	於
+亞洲	PROPN	亞洲
+菲律賓	PROPN	菲律賓
+民答那峨	PROPN	民答那峨
+島	PART	島
+拉瑙	PROPN	拉瑙
+湖	PART	湖
+流域	NOUN	流域
+，	PUNCT	，
+為	AUX	為
+特有	VERB	特有
+種	PART	種
+，	PUNCT	，
+體長	NOUN	體長
+可	AUX	可
+達	VERB	達
+13.3	NUM	13.3
+公分	NOUN	公分
+，	PUNCT	，
+棲息	VERB	棲息
+在	ADP	在
+中底層	NOUN	中底層
+水域	NOUN	水域
+。	PUNCT	。
+}
+Predicted: {
+截頜鯉	NOUN	截頜鯉
+（	PUNCT	（
+學名	NOUN	學名
+：	PUNCT	：
+Ospatulus	X	ospatulus
+truncatulus	X	truncatulus
+）	PUNCT	）
+為	AUX	為
+輻鰭	NOUN	輻鰭
+魚	PART	魚
+綱	PART	綱
+鯉形	NOUN	鯉形
+目	PART	目
+鯉科	NOUN	鯉科
+的	PART	的
+一	NUM	一
+個	NOUN	個
+種	NOUN	種
+，	PUNCT	，
+分布	VERB	分布
+於	ADP	於
+亞洲	PROPN	亞洲
+菲律賓	PROPN	菲律賓
+民答那峨	PROPN	民答那峨
+島	PART	島
+拉瑙	PROPN	拉瑙
+湖	PART	湖
+流域	NOUN	流域
+，	PUNCT	，
+為	AUX	為
+特有	VERB	特有
+種	PART	種
+，	PUNCT	，
+體長	NOUN	體長
+可	AUX	可
+達	VERB	達
+13.3	NUM	13.3
+公分	NOUN	公分
+，	PUNCT	，
+棲息	VERB	棲息
+在	ADP	在
+中底層	NOUN	中底層
+水域	NOUN	水域
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ospatulus: Ospatulus | ospatulus
+}
+
+Expected: {
+C	X	C
+語言	NOUN	語言
+的	PART	的
+結構	NOUN	結構
+體	PART	體
+（	PUNCT	（
+彙編	NOUN	彙編
+語言	NOUN	語言
+對應	VERB	對應
+為	VERB	為
+Record	X	Record
+類型	NOUN	類型
+）	PUNCT	）
+按	ADP	按
+順序	NOUN	順序
+分配	VERB	分配
+空間	NOUN	空間
+。	PUNCT	。
+}
+Predicted: {
+C	X	c
+語言	NOUN	語言
+的	PART	的
+結構	NOUN	結構
+體	PART	體
+（	PUNCT	（
+彙編	NOUN	彙編
+語言	NOUN	語言
+對應	VERB	對應
+為	VERB	為
+Record	X	record
+類型	NOUN	類型
+）	PUNCT	）
+按	ADP	按
+順序	NOUN	順序
+分配	VERB	分配
+空間	NOUN	空間
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+C: C | c
+Record: Record | record
+}
+
+Expected: {
+湖名	NOUN	湖名
+「	PUNCT	「
+Pukaki	X	Pukaki
+」	PUNCT	」
+為	AUX	為
+毛利	PROPN	毛利
+語	PART	語
+，	PUNCT	，
+意	NOUN	意
+為	AUX	為
+「	PUNCT	「
+聚集	VERB	聚集
+的	SCONJ	的
+水	NOUN	水
+」	PUNCT	」
+。	PUNCT	。
+}
+Predicted: {
+湖名	NOUN	湖名
+「	PUNCT	「
+Pukaki	X	pukaki
+」	PUNCT	」
+為	AUX	為
+毛利	PROPN	毛利
+語	PART	語
+，	PUNCT	，
+意	NOUN	意
+為	AUX	為
+「	PUNCT	「
+聚集	VERB	聚集
+的	SCONJ	的
+水	NOUN	水
+」	PUNCT	」
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Pukaki: Pukaki | pukaki
+}
+
+Expected: {
+JR	X	JR
+東海	PROPN	東海
+負責	VERB	負責
+營運	VERB	營運
+東海	PROPN	東海
+道	PART	道
+新	PART	新
+幹線	NOUN	幹線
+和	CCONJ	和
+東海	PROPN	東海
+地區	NOUN	地區
+的	PART	的
+12	NUM	12
+條	NOUN	條
+在來	NOUN	在來
+線	PART	線
+路線	NOUN	路線
+。	PUNCT	。
+}
+Predicted: {
+JR	X	jr
+東海	PROPN	東海
+負責	VERB	負責
+營運	VERB	營運
+東海	PROPN	東海
+道	PART	道
+新	PART	新
+幹線	NOUN	幹線
+和	CCONJ	和
+東海	PROPN	東海
+地區	NOUN	地區
+的	PART	的
+12	NUM	12
+條	NOUN	條
+在來	NOUN	在來
+線	PART	線
+路線	NOUN	路線
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+JR: JR | jr
+}
+
+Expected: {
+泰琳達	PROPN	泰琳達
+在	ADP	在
+2006	NUM	2006
+年	NOUN	年
+3	NUM	3
+月	NOUN	月
+16	NUM	16
+日	NOUN	日
+產下	VERB	產下
+一	NUM	一
+名	NOUN	名
+男嬰	NOUN	男嬰
+，	PUNCT	，
+根據	ADP	根據
+他們	PRON	他
+的	PART	的
+官方	NOUN	官方
+聲明	NOUN	聲明
+，	PUNCT	，
+兩	NUM	兩
+人	NOUN	人
+的	PART	的
+兒子	NOUN	兒子
+取名	VERB	取名
+為	VERB	為
+泰勒	PROPN	泰勒
+·	PUNCT	·
+李	PROPN	李
+（	PUNCT	（
+Tyler	X	Tyler
+Lee	X	Lee
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+泰琳達	PROPN	泰琳達
+在	ADP	在
+2006	NUM	2006
+年	NOUN	年
+3	NUM	3
+月	NOUN	月
+16	NUM	16
+日	NOUN	日
+產下	VERB	產下
+一	NUM	一
+名	NOUN	名
+男嬰	NOUN	男嬰
+，	PUNCT	，
+根據	ADP	根據
+他們	PRON	他
+的	PART	的
+官方	NOUN	官方
+聲明	NOUN	聲明
+，	PUNCT	，
+兩	NUM	兩
+人	NOUN	人
+的	PART	的
+兒子	NOUN	兒子
+取名	VERB	取名
+為	VERB	為
+泰勒	PROPN	泰勒
+·	PUNCT	·
+李	PROPN	李
+（	PUNCT	（
+Tyler	X	tyler
+Lee	X	lee
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tyler: Tyler | tyler
+Lee: Lee | lee
+}
+
+Expected: {
+目前	NOUN	目前
+的	PART	的
+教堂	NOUN	教堂
+由	VERB	由
+詹姆斯	PROPN	詹姆斯
+·	PUNCT	·
+吉布斯	PROPN	吉布斯
+（	PUNCT	（
+James	PROPN	James
+Gibbs	PROPN	Gibbs
+）	PUNCT	）
+設計	VERB	設計
+建造	VERB	建造
+，	PUNCT	，
+於	ADP	於
+1723	NUM	1723
+年	NOUN	年
+獻堂	VERB	獻堂
+。	PUNCT	。
+}
+Predicted: {
+目前	NOUN	目前
+的	PART	的
+教堂	NOUN	教堂
+由	VERB	由
+詹姆斯	PROPN	詹姆斯
+·	PUNCT	·
+吉布斯	PROPN	吉布斯
+（	PUNCT	（
+James	PROPN	james
+Gibbs	PROPN	gibbs
+）	PUNCT	）
+設計	VERB	設計
+建造	VERB	建造
+，	PUNCT	，
+於	ADP	於
+1723	NUM	1723
+年	NOUN	年
+獻堂	VERB	獻堂
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+James: James | james
+Gibbs: Gibbs | gibbs
+}
+
+Expected: {
+至	ADP	至
+70	NUM	70
+年代	NOUN	年代
+搖滾	VERB	搖滾
+樂	PART	樂
+進入	VERB	進入
+高峰	NOUN	高峰
+，	PUNCT	，
+不少	ADJ	不少
+樂隊	NOUN	樂隊
+藉	ADP	藉
+迷幻	ADJ	迷幻
+搖滾	NOUN	搖滾
+的	PART	的
+興起	NOUN	興起
+而	SCONJ	而
+成名	VERB	成名
+，	PUNCT	，
+如	VERB	如
+Magma	X	Magma
+、	PUNCT	、
+電話	NOUN	電話
+樂隊	NOUN	樂隊
+}
+Predicted: {
+至	ADP	至
+70	NUM	70
+年代	NOUN	年代
+搖滾	VERB	搖滾
+樂	PART	樂
+進入	VERB	進入
+高峰	NOUN	高峰
+，	PUNCT	，
+不少	ADJ	不少
+樂隊	NOUN	樂隊
+藉	ADP	藉
+迷幻	ADJ	迷幻
+搖滾	NOUN	搖滾
+的	PART	的
+興起	NOUN	興起
+而	SCONJ	而
+成名	VERB	成名
+，	PUNCT	，
+如	VERB	如
+Magma	X	magma
+、	PUNCT	、
+電話	NOUN	電話
+樂隊	NOUN	樂隊
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Magma: Magma | magma
+}
+
+Expected: {
+2008	NUM	2008
+年	NOUN	年
+，	PUNCT	，
+瑪麗特	PROPN	瑪麗特
+·	PUNCT	·
+拉森	PROPN	拉森
+第二	NUM	第二
+張	NOUN	張
+個人	ADJ	個人
+專輯	NOUN	專輯
+The	X	The
+Chase	X	Chase
+發行	VERB	發行
+。	PUNCT	。
+}
+Predicted: {
+2008	NUM	2008
+年	NOUN	年
+，	PUNCT	，
+瑪麗特	PROPN	瑪麗特
+·	PUNCT	·
+拉森	PROPN	拉森
+第二	NUM	第二
+張	NOUN	張
+個人	ADJ	個人
+專輯	NOUN	專輯
+The	X	the
+Chase	X	chase
+發行	VERB	發行
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+The: The | the
+Chase: Chase | chase
+}
+
+Expected: {
+科技	NOUN	科技
+創業	NOUN	創業
+（	PUNCT	（
+英	PROPN	英
+文	PART	文
+：	PUNCT	：
+Technology	X	Technology
+Review	X	Review
+）	PUNCT	）
+是	AUX	是
+由	VERB	由
+麻省	PROPN	麻省
+理工	NOUN	理工
+學院	NOUN	學院
+於	ADP	於
+1899	NUM	1899
+年	NOUN	年
+創刊	VERB	創刊
+的	SCONJ	的
+雜誌	NOUN	雜誌
+。	PUNCT	。
+}
+Predicted: {
+科技	NOUN	科技
+創業	NOUN	創業
+（	PUNCT	（
+英	PROPN	英
+文	PART	文
+：	PUNCT	：
+Technology	X	technology
+Review	X	review
+）	PUNCT	）
+是	AUX	是
+由	VERB	由
+麻省	PROPN	麻省
+理工	NOUN	理工
+學院	NOUN	學院
+於	ADP	於
+1899	NUM	1899
+年	NOUN	年
+創刊	VERB	創刊
+的	SCONJ	的
+雜誌	NOUN	雜誌
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Technology: Technology | technology
+Review: Review | review
+}
+
+Expected: {
+這	DET	這
+兩	NUM	兩
+個	NOUN	個
+人	NOUN	人
+費盡	VERB	費盡
+時間	NOUN	時間
+去	SCONJ	去
+搜羅	VERB	搜羅
+過去	NOUN	過去
+的	PART	的
+那些	DET	那些
+科幻	NOUN	科幻
+小說	NOUN	小說
+，	PUNCT	，
+電視	NOUN	電視
+劇	PART	劇
+，	PUNCT	，
+電影	NOUN	電影
+，	PUNCT	，
+接	VERB	接
+著	AUX	著
+他們	PRON	他
+在	ADP	在
+1998	NUM	1998
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+時	ADP	時
+與	ADP	與
+Fox	X	Fox
+電視	NOUN	電視
+台	PART	台
+談妥	VERB	談妥
+預	ADV	預
+發行	VERB	發行
+這	DET	這
+部	NOUN	部
+劇集	NOUN	劇集
+，	PUNCT	，
+此時	NOUN	此時
+Groening	X	Groening
+和	CCONJ	和
+Cohen	X	Cohen
+已經	ADV	已經
+敲訂	VERB	敲訂
+下	ADP	下
+劇中	NOUN	劇中
+許多	NUM	許多
+角色	NOUN	角色
+和	CCONJ	和
+故事	NOUN	故事
+主線	NOUN	主線
+。	PUNCT	。
+}
+Predicted: {
+這	DET	這
+兩	NUM	兩
+個	NOUN	個
+人	NOUN	人
+費盡	VERB	費盡
+時間	NOUN	時間
+去	SCONJ	去
+搜羅	VERB	搜羅
+過去	NOUN	過去
+的	PART	的
+那些	DET	那些
+科幻	NOUN	科幻
+小說	NOUN	小說
+，	PUNCT	，
+電視	NOUN	電視
+劇	PART	劇
+，	PUNCT	，
+電影	NOUN	電影
+，	PUNCT	，
+接	VERB	接
+著	AUX	著
+他們	PRON	他
+在	ADP	在
+1998	NUM	1998
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+時	ADP	時
+與	ADP	與
+Fox	X	fox
+電視	NOUN	電視
+台	PART	台
+談妥	VERB	談妥
+預	ADV	預
+發行	VERB	發行
+這	DET	這
+部	NOUN	部
+劇集	NOUN	劇集
+，	PUNCT	，
+此時	NOUN	此時
+Groening	X	groening
+和	CCONJ	和
+Cohen	X	cohen
+已經	ADV	已經
+敲訂	VERB	敲訂
+下	ADP	下
+劇中	NOUN	劇中
+許多	NUM	許多
+角色	NOUN	角色
+和	CCONJ	和
+故事	NOUN	故事
+主線	NOUN	主線
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Fox: Fox | fox
+Groening: Groening | groening
+Cohen: Cohen | cohen
+}
+
+Expected: {
+其中	NOUN	其中
+一	NUM	一
+項	NOUN	項
+為	VERB	為
+乘客	NOUN	乘客
+以	ADP	以
+同	DET	同
+一	NUM	一
+張	NOUN	張
+八	NUM	八
+達	VERB	達
+通	PART	通
+卡	PART	卡
+先後	ADV	先後
+繳付	VERB	繳付
+本線	NOUN	本線
+及	CCONJ	及
+85A	X	85A
+線	PART	線
+的	PART	的
+車資	NOUN	車資
+，	PUNCT	，
+次程	NOUN	次程
+可	AUX	可
+獲得	VERB	獲得
+優惠	NOUN	優惠
+。	PUNCT	。
+}
+Predicted: {
+其中	NOUN	其中
+一	NUM	一
+項	NOUN	項
+為	VERB	為
+乘客	NOUN	乘客
+以	ADP	以
+同	DET	同
+一	NUM	一
+張	NOUN	張
+八	NUM	八
+達	VERB	達
+通	PART	通
+卡	PART	卡
+先後	ADV	先後
+繳付	VERB	繳付
+本線	NOUN	本線
+及	CCONJ	及
+85A	X	85a
+線	PART	線
+的	PART	的
+車資	NOUN	車資
+，	PUNCT	，
+次程	NOUN	次程
+可	AUX	可
+獲得	VERB	獲得
+優惠	NOUN	優惠
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+85A: 85A | 85a
+}
+
+Expected: {
+在	ADP	在
+2004	NUM	2004
+年	NOUN	年
+，	PUNCT	，
+Daisuke	X	Daisuke
+Suzuki	X	Suzuki
+等	NOUN	等
+人	NOUN	人
+在	ADP	在
+重新	ADV	重新
+描述	VERB	描述
+日本龍	NOUN	日本龍
+時	ADP	時
+，	PUNCT	，
+發現	VERB	發現
+日本龍	NOUN	日本龍
+與	CCONJ	與
+斯氏亞冠龍	NOUN	斯氏亞冠龍
+之間	ADP	之間
+很	ADV	很
+親密	ADJ	親密
+，	PUNCT	，
+顯示	VERB	顯示
+亞冠龍	NOUN	亞冠龍
+可能	AUX	可能
+是	AUX	是
+並系	NOUN	並系
+群	PART	群
+的	PART	的
+。	PUNCT	。
+}
+Predicted: {
+在	ADP	在
+2004	NUM	2004
+年	NOUN	年
+，	PUNCT	，
+Daisuke	X	daisuke
+Suzuki	X	suzuki
+等	NOUN	等
+人	NOUN	人
+在	ADP	在
+重新	ADV	重新
+描述	VERB	描述
+日本龍	NOUN	日本龍
+時	ADP	時
+，	PUNCT	，
+發現	VERB	發現
+日本龍	NOUN	日本龍
+與	CCONJ	與
+斯氏亞冠龍	NOUN	斯氏亞冠龍
+之間	ADP	之間
+很	ADV	很
+親密	ADJ	親密
+，	PUNCT	，
+顯示	VERB	顯示
+亞冠龍	NOUN	亞冠龍
+可能	AUX	可能
+是	AUX	是
+並系	NOUN	並系
+群	PART	群
+的	PART	的
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Daisuke: Daisuke | daisuke
+Suzuki: Suzuki | suzuki
+}
+
+Expected: {
+所有	DET	所有
+Linux	X	Linux
+發行	VERB	發行
+版	PART	版
+都	SCONJ	都
+預先	ADV	預先
+設定	VERB	設定
+獨特	ADJ	獨特
+的	SCONJ	的
+鍵盤	NOUN	鍵盤
+佈局	NOUN	佈局
+。	PUNCT	。
+}
+Predicted: {
+所有	DET	所有
+Linux	X	linux
+發行	VERB	發行
+版	PART	版
+都	SCONJ	都
+預先	ADV	預先
+設定	VERB	設定
+獨特	ADJ	獨特
+的	SCONJ	的
+鍵盤	NOUN	鍵盤
+佈局	NOUN	佈局
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Linux: Linux | linux
+}
+
+Expected: {
+在	ADP	在
+1570	NUM	1570
+年	NOUN	年
+結束	VERB	結束
+，	PUNCT	，
+他	PRON	他
+被	AUX	被
+告知	VERB	告知
+他	PRON	他
+的	PART	的
+父親	NOUN	父親
+生病	VERB	生病
+，	PUNCT	，
+所以	SCONJ	所以
+他	PRON	他
+回到	VERB	回到
+Knudstrup	X	Knudstrup
+，	PUNCT	，
+他	PRON	他
+的	PART	的
+父親	NOUN	父親
+死	VERB	死
+於	ADP	於
+1571	NUM	1571
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+9	NUM	9
+日	NOUN	日
+。	PUNCT	。
+}
+Predicted: {
+在	ADP	在
+1570	NUM	1570
+年	NOUN	年
+結束	VERB	結束
+，	PUNCT	，
+他	PRON	他
+被	AUX	被
+告知	VERB	告知
+他	PRON	他
+的	PART	的
+父親	NOUN	父親
+生病	VERB	生病
+，	PUNCT	，
+所以	SCONJ	所以
+他	PRON	他
+回到	VERB	回到
+Knudstrup	X	knudstrup
+，	PUNCT	，
+他	PRON	他
+的	PART	的
+父親	NOUN	父親
+死	VERB	死
+於	ADP	於
+1571	NUM	1571
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+9	NUM	9
+日	NOUN	日
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Knudstrup: Knudstrup | knudstrup
+}
+
+Expected: {
+紅木	PROPN	紅木
+城	PART	城
+也是	AUX	是
+著名	ADJ	著名
+電腦	NOUN	電腦
+與	CCONJ	與
+電視	NOUN	電視
+遊樂	VERB	遊樂
+器	PART	器
+遊戲	NOUN	遊戲
+軟體	NOUN	軟體
+設計	NOUN	設計
+公司	NOUN	公司
+-	PUNCT	-
+藝電	PROPN	藝電
+（	PUNCT	（
+Electronic	X	Electronic
+Arts	X	Arts
+）	PUNCT	）
+公司	NOUN	公司
+的	PART	的
+全球	NOUN	全球
+總部	NOUN	總部
+所	SCONJ	所
+在	VERB	在
+地	PART	地
+。	PUNCT	。
+}
+Predicted: {
+紅木	PROPN	紅木
+城	PART	城
+也是	AUX	是
+著名	ADJ	著名
+電腦	NOUN	電腦
+與	CCONJ	與
+電視	NOUN	電視
+遊樂	VERB	遊樂
+器	PART	器
+遊戲	NOUN	遊戲
+軟體	NOUN	軟體
+設計	NOUN	設計
+公司	NOUN	公司
+-	PUNCT	-
+藝電	PROPN	藝電
+（	PUNCT	（
+Electronic	X	electronic
+Arts	X	arts
+）	PUNCT	）
+公司	NOUN	公司
+的	PART	的
+全球	NOUN	全球
+總部	NOUN	總部
+所	SCONJ	所
+在	VERB	在
+地	PART	地
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Electronic: Electronic | electronic
+Arts: Arts | arts
+}
+
+Expected: {
+奈米	NOUN	奈米
+技術	NOUN	技術
+可	AUX	可
+製造	VERB	製造
+出	VERB	出
+粒子	NOUN	粒子
+小	ADJ	小
+於	VERB	於
+人類	NOUN	人類
+血管	NOUN	血管
+大小	NOUN	大小
+的	SCONJ	的
+物體	NOUN	物體
+，	PUNCT	，
+美國	PROPN	美國
+國家	NOUN	國家
+標準	NOUN	標準
+與	CCONJ	與
+科技	NOUN	科技
+協會	NOUN	協會
+（	PUNCT	（
+NIST	X	NIST
+）	PUNCT	）
+指出	VERB	指出
+已	ADV	已
+研究	VERB	研究
+出	VERB	出
+一	NUM	一
+種	NOUN	種
+生產	VERB	生產
+一致	ADJ	一致
+的	SCONJ	的
+，	PUNCT	，
+且	SCONJ	且
+能夠	AUX	能夠
+自行	ADV	自行
+組合	VERB	組合
+的	SCONJ	的
+奈米	NOUN	奈米
+細胞	NOUN	細胞
+（	PUNCT	（
+Nanocells	X	Nanocells
+）	PUNCT	）
+的	SCONJ	的
+方法	NOUN	方法
+，	PUNCT	，
+以	SCONJ	以
+應用	VERB	應用
+在	ADP	在
+封裝	VERB	封裝
+壓縮	VERB	壓縮
+藥物	NOUN	藥物
+的	SCONJ	的
+治療	NOUN	治療
+工作	NOUN	工作
+上	ADP	上
+，	PUNCT	，
+目前	NOUN	目前
+該	DET	該
+技術	NOUN	技術
+已	ADV	已
+提出	VERB	提出
+專利	NOUN	專利
+申請	NOUN	申請
+。	PUNCT	。
+}
+Predicted: {
+奈米	NOUN	奈米
+技術	NOUN	技術
+可	AUX	可
+製造	VERB	製造
+出	VERB	出
+粒子	NOUN	粒子
+小	ADJ	小
+於	VERB	於
+人類	NOUN	人類
+血管	NOUN	血管
+大小	NOUN	大小
+的	SCONJ	的
+物體	NOUN	物體
+，	PUNCT	，
+美國	PROPN	美國
+國家	NOUN	國家
+標準	NOUN	標準
+與	CCONJ	與
+科技	NOUN	科技
+協會	NOUN	協會
+（	PUNCT	（
+NIST	X	nist
+）	PUNCT	）
+指出	VERB	指出
+已	ADV	已
+研究	VERB	研究
+出	VERB	出
+一	NUM	一
+種	NOUN	種
+生產	VERB	生產
+一致	ADJ	一致
+的	SCONJ	的
+，	PUNCT	，
+且	SCONJ	且
+能夠	AUX	能夠
+自行	ADV	自行
+組合	VERB	組合
+的	SCONJ	的
+奈米	NOUN	奈米
+細胞	NOUN	細胞
+（	PUNCT	（
+Nanocells	X	nanocells
+）	PUNCT	）
+的	SCONJ	的
+方法	NOUN	方法
+，	PUNCT	，
+以	SCONJ	以
+應用	VERB	應用
+在	ADP	在
+封裝	VERB	封裝
+壓縮	VERB	壓縮
+藥物	NOUN	藥物
+的	SCONJ	的
+治療	NOUN	治療
+工作	NOUN	工作
+上	ADP	上
+，	PUNCT	，
+目前	NOUN	目前
+該	DET	該
+技術	NOUN	技術
+已	ADV	已
+提出	VERB	提出
+專利	NOUN	專利
+申請	NOUN	申請
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+NIST: NIST | nist
+Nanocells: Nanocells | nanocells
+}
+
+Expected: {
+維基	PROPN	維基
+百科	NOUN	百科
+早期	NOUN	早期
+仍然	ADV	仍然
+只	ADV	只
+使用	VERB	使用
+一	NUM	一
+台	NOUN	台
+伺服	VERB	伺服
+器	PART	器
+來	SCONJ	來
+支撐	VERB	支撐
+軟體	NOUN	軟體
+架構	NOUN	架構
+，	PUNCT	，
+2004	NUM	2004
+年	NOUN	年
+後	ADP	後
+將	ADP	將
+伺服	VERB	伺服
+器	PART	器
+改	VERB	改
+使用	VERB	使用
+分佈	VERB	分佈
+式	PART	式
+的	PART	的
+多	NUM	多
+層次	NOUN	層次
+架構	NOUN	架構
+（	PUNCT	（
+Multitier	X	Multitier
+architecture	X	architecture
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+維基	PROPN	維基
+百科	NOUN	百科
+早期	NOUN	早期
+仍然	ADV	仍然
+只	ADV	只
+使用	VERB	使用
+一	NUM	一
+台	NOUN	台
+伺服	VERB	伺服
+器	PART	器
+來	SCONJ	來
+支撐	VERB	支撐
+軟體	NOUN	軟體
+架構	NOUN	架構
+，	PUNCT	，
+2004	NUM	2004
+年	NOUN	年
+後	ADP	後
+將	ADP	將
+伺服	VERB	伺服
+器	PART	器
+改	VERB	改
+使用	VERB	使用
+分佈	VERB	分佈
+式	PART	式
+的	PART	的
+多	NUM	多
+層次	NOUN	層次
+架構	NOUN	架構
+（	PUNCT	（
+Multitier	X	multitier
+architecture	X	architecture
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Multitier: Multitier | multitier
+}
+
+Expected: {
+費雪	PROPN	費雪
+除	VERB	除
+了	AUX	了
+在	ADP	在
+其中	NOUN	其中
+擔任	VERB	擔任
+一	NUM	一
+名	NOUN	名
+統計	VERB	統計
+員	PART	員
+之外	ADP	之外
+，	PUNCT	，
+所長	NOUN	所長
+約翰	PROPN	約翰
+·	PUNCT	·
+羅素	NOUN	羅素
+（	PUNCT	（
+John	X	John
+Russell	X	Russell
+）	PUNCT	）
+也	SCONJ	也
+讓	VERB	讓
+他	PRON	他
+設立	VERB	設立
+了	AUX	了
+一	NUM	一
+個	NOUN	個
+統計	NOUN	統計
+實驗	NOUN	實驗
+室	PART	室
+。	PUNCT	。
+}
+Predicted: {
+費雪	PROPN	費雪
+除	VERB	除
+了	AUX	了
+在	ADP	在
+其中	NOUN	其中
+擔任	VERB	擔任
+一	NUM	一
+名	NOUN	名
+統計	VERB	統計
+員	PART	員
+之外	ADP	之外
+，	PUNCT	，
+所長	NOUN	所長
+約翰	PROPN	約翰
+·	PUNCT	·
+羅素	NOUN	羅素
+（	PUNCT	（
+John	X	john
+Russell	X	russell
+）	PUNCT	）
+也	SCONJ	也
+讓	VERB	讓
+他	PRON	他
+設立	VERB	設立
+了	AUX	了
+一	NUM	一
+個	NOUN	個
+統計	NOUN	統計
+實驗	NOUN	實驗
+室	PART	室
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+John: John | john
+Russell: Russell | russell
+}
+
+Expected: {
+羞恥	NOUN	羞恥
+（	PUNCT	（
+Shame	X	Shame
+）	PUNCT	）
+，	PUNCT	，
+為	AUX	為
+一	NUM	一
+種	NOUN	種
+情感	NOUN	情感
+、	PUNCT	、
+情緒	NOUN	情緒
+、	PUNCT	、
+認知	NOUN	認知
+、	PUNCT	、
+狀態	NOUN	狀態
+或	CCONJ	或
+條件	NOUN	條件
+。	PUNCT	。
+}
+Predicted: {
+羞恥	NOUN	羞恥
+（	PUNCT	（
+Shame	X	shame
+）	PUNCT	）
+，	PUNCT	，
+為	AUX	為
+一	NUM	一
+種	NOUN	種
+情感	NOUN	情感
+、	PUNCT	、
+情緒	NOUN	情緒
+、	PUNCT	、
+認知	NOUN	認知
+、	PUNCT	、
+狀態	NOUN	狀態
+或	CCONJ	或
+條件	NOUN	條件
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Shame: Shame | shame
+}
+
+Expected: {
+2006	NUM	2006
+年	NOUN	年
+1	NUM	1
+月	NOUN	月
+，	PUNCT	，
+卡拉維拿	PROPN	卡拉維拿
+轉赴	VERB	轉赴
+荷蘭	PROPN	荷蘭
+發展	VERB	發展
+，	PUNCT	，
+加盟	VERB	加盟
+Omniworld	X	Omniworld
+。	PUNCT	。
+}
+Predicted: {
+2006	NUM	2006
+年	NOUN	年
+1	NUM	1
+月	NOUN	月
+，	PUNCT	，
+卡拉維拿	PROPN	卡拉維拿
+轉赴	VERB	轉赴
+荷蘭	PROPN	荷蘭
+發展	VERB	發展
+，	PUNCT	，
+加盟	VERB	加盟
+Omniworld	X	omniworld
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Omniworld: Omniworld | omniworld
+}
+
+Expected: {
+在此	VERB	在此
+之後	ADP	之後
+她	PRON	她
+開始	VERB	開始
+和	ADP	和
+另外	DET	另外
+一	NUM	一
+位	NOUN	位
+希臘	PROPN	希臘
+船業	NOUN	船業
+繼承	VERB	繼承
+人	PART	人
+Stavros	X	Stavros
+Niarchos	X	Niarchos
+III	X	III
+約會	VERB	約會
+，	PUNCT	，
+但是	SCONJ	但是
+到	VERB	到
+了	AUX	了
+2006	NUM	2006
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+芭黎絲	PROPN	芭黎絲
+的	PART	的
+發言	VERB	發言
+人	PART	人
+Elliot	X	Elliot
+Mintz	X	Mintz
+告訴	VERB	告訴
+媒體	NOUN	媒體
+他們	PRON	他
+兩	NUM	兩
+人	NOUN	人
+已經	ADV	已經
+分手	VERB	分手
+的	SCONJ	的
+消息	NOUN	消息
+。	PUNCT	。
+}
+Predicted: {
+在此	VERB	在此
+之後	ADP	之後
+她	PRON	她
+開始	VERB	開始
+和	ADP	和
+另外	DET	另外
+一	NUM	一
+位	NOUN	位
+希臘	PROPN	希臘
+船業	NOUN	船業
+繼承	VERB	繼承
+人	PART	人
+Stavros	X	stavros
+Niarchos	X	niarchos
+III	X	iii
+約會	VERB	約會
+，	PUNCT	，
+但是	SCONJ	但是
+到	VERB	到
+了	AUX	了
+2006	NUM	2006
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+芭黎絲	PROPN	芭黎絲
+的	PART	的
+發言	VERB	發言
+人	PART	人
+Elliot	X	elliot
+Mintz	X	mintz
+告訴	VERB	告訴
+媒體	NOUN	媒體
+他們	PRON	他
+兩	NUM	兩
+人	NOUN	人
+已經	ADV	已經
+分手	VERB	分手
+的	SCONJ	的
+消息	NOUN	消息
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Stavros: Stavros | stavros
+Niarchos: Niarchos | niarchos
+III: III | iii
+Elliot: Elliot | elliot
+Mintz: Mintz | mintz
+}
+
+Expected: {
+法格拿	PROPN	法格拿
+現	NOUN	現
+效力	VERB	效力
+K	X	K
+聯賽	NOUN	聯賽
+球隊	NOUN	球隊
+釜山	PROPN	釜山
+IPark	X	IPark
+。	PUNCT	。
+}
+Predicted: {
+法格拿	PROPN	法格拿
+現	NOUN	現
+效力	VERB	效力
+K	X	k
+聯賽	NOUN	聯賽
+球隊	NOUN	球隊
+釜山	PROPN	釜山
+IPark	X	ipark
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+K: K | k
+IPark: IPark | ipark
+}
+
+Expected: {
+她	PRON	她
+的	PART	的
+WTA	X	WTA
+生涯	NOUN	生涯
+最高	ADJ	最高
+單	NUM	單
+打	VERB	打
+排名	NOUN	排名
+為	AUX	為
+第28	NUM	第28
+（	PUNCT	（
+2012	NUM	2012
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+27	NUM	27
+日	NOUN	日
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+她	PRON	她
+的	PART	的
+WTA	X	wta
+生涯	NOUN	生涯
+最高	ADJ	最高
+單	NUM	單
+打	VERB	打
+排名	NOUN	排名
+為	AUX	為
+第28	NUM	第28
+（	PUNCT	（
+2012	NUM	2012
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+27	NUM	27
+日	NOUN	日
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+WTA: WTA | wta
+}
+
+Expected: {
+1620	NUM	1620
+年	NOUN	年
+，	PUNCT	，
+他們	PRON	他
+乘	VERB	乘
+「	PUNCT	「
+五	NUM	五
+月	NOUN	月
+花	PART	花
+號	PART	號
+」	PUNCT	」
+（	PUNCT	（
+Mayflower	X	Mayflower
+）	PUNCT	）
+出發	VERB	出發
+赴	VERB	赴
+新	PART	新
+大陸	NOUN	大陸
+（	PUNCT	（
+New	X	New
+World	X	World
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+1620	NUM	1620
+年	NOUN	年
+，	PUNCT	，
+他們	PRON	他
+乘	VERB	乘
+「	PUNCT	「
+五	NUM	五
+月	NOUN	月
+花	PART	花
+號	PART	號
+」	PUNCT	」
+（	PUNCT	（
+Mayflower	X	mayflower
+）	PUNCT	）
+出發	VERB	出發
+赴	VERB	赴
+新	PART	新
+大陸	NOUN	大陸
+（	PUNCT	（
+New	X	new
+World	X	world
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Mayflower: Mayflower | mayflower
+New: New | new
+World: World | world
+}
+
+Expected: {
+18	NUM	18
+世紀	NOUN	世紀
+末	ADP	末
+薩卡拉瓦	PROPN	薩卡拉瓦
+王國	NOUN	王國
+衰落	VERB	衰落
+，	PUNCT	，
+擴展	VERB	擴展
+中	ADP	中
+的	SCONJ	的
+梅里納	PROPN	梅里納
+（	PUNCT	（
+Merina	X	Merina
+）	PUNCT	）
+王國	NOUN	王國
+成	VERB	成
+為	VERB	為
+該	DET	該
+地區	NOUN	地區
+名義	NOUN	名義
+上	ADP	上
+的	PART	的
+霸主	NOUN	霸主
+。	PUNCT	。
+}
+Predicted: {
+18	NUM	18
+世紀	NOUN	世紀
+末	ADP	末
+薩卡拉瓦	PROPN	薩卡拉瓦
+王國	NOUN	王國
+衰落	VERB	衰落
+，	PUNCT	，
+擴展	VERB	擴展
+中	ADP	中
+的	SCONJ	的
+梅里納	PROPN	梅里納
+（	PUNCT	（
+Merina	X	merina
+）	PUNCT	）
+王國	NOUN	王國
+成	VERB	成
+為	VERB	為
+該	DET	該
+地區	NOUN	地區
+名義	NOUN	名義
+上	ADP	上
+的	PART	的
+霸主	NOUN	霸主
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Merina: Merina | merina
+}
+
+Expected: {
+經過	ADP	經過
+幾	NUM	幾
+次	NOUN	次
+談判	NOUN	談判
+，	PUNCT	，
+雙	NUM	雙
+方	NOUN	方
+同意	VERB	同意
+合併	VERB	合併
+，	PUNCT	，
+新	PART	新
+公司	NOUN	公司
+由	VERB	由
+Caen	X	Caen
+家族	NOUN	家族
+經營	VERB	經營
+。	PUNCT	。
+}
+Predicted: {
+經過	ADP	經過
+幾	NUM	幾
+次	NOUN	次
+談判	NOUN	談判
+，	PUNCT	，
+雙	NUM	雙
+方	NOUN	方
+同意	VERB	同意
+合併	VERB	合併
+，	PUNCT	，
+新	PART	新
+公司	NOUN	公司
+由	VERB	由
+Caen	X	caen
+家族	NOUN	家族
+經營	VERB	經營
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Caen: Caen | caen
+}
+
+Expected: {
+因	ADP	因
+此	PRON	此
+在	VERB	在
+繼續	VERB	繼續
+往	VERB	往
+教堂	NOUN	教堂
+的	SCONJ	的
+路上	NOUN	路上
+，	PUNCT	，
+Ingeri	X	Ingeri
+尖酸	ADV	尖酸
+嘲諷	VERB	嘲諷
+Karin	X	Karin
+，	PUNCT	，
+Karin	X	Karin
+打	VERB	打
+了	AUX	了
+她	PRON	她
+一	NUM	一
+記	NOUN	記
+耳光	NOUN	耳光
+。	PUNCT	。
+}
+Predicted: {
+因	ADP	因
+此	PRON	此
+在	VERB	在
+繼續	VERB	繼續
+往	VERB	往
+教堂	NOUN	教堂
+的	SCONJ	的
+路上	NOUN	路上
+，	PUNCT	，
+Ingeri	X	ingeri
+尖酸	ADV	尖酸
+嘲諷	VERB	嘲諷
+Karin	X	karin
+，	PUNCT	，
+Karin	X	karin
+打	VERB	打
+了	AUX	了
+她	PRON	她
+一	NUM	一
+記	NOUN	記
+耳光	NOUN	耳光
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ingeri: Ingeri | ingeri
+Karin: Karin | karin
+Karin: Karin | karin
+}
+
+Expected: {
+而	SCONJ	而
+經過	VERB	經過
+2007	NUM	2007
+年	NOUN	年
+12	NUM	12
+月	NOUN	月
+一	NUM	一
+次	NOUN	次
+作品	NOUN	作品
+的	PART	的
+版權	NOUN	版權
+問題	NOUN	問題
+後	ADP	後
+，	PUNCT	，
+CRYPTON	X	CRYPTON
+更	ADV	更
+想	AUX	想
+以	ADP	以
+此	PRON	此
+提供	VERB	提供
+給	ADP	給
+用戶	NOUN	用戶
+一	NUM	一
+個	NOUN	個
+版權	NOUN	版權
+限制	NOUN	限制
+更	ADV	更
+適合	VERB	適合
+網上	NOUN	網上
+創作	VERB	創作
+的	SCONJ	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Predicted: {
+而	SCONJ	而
+經過	VERB	經過
+2007	NUM	2007
+年	NOUN	年
+12	NUM	12
+月	NOUN	月
+一	NUM	一
+次	NOUN	次
+作品	NOUN	作品
+的	PART	的
+版權	NOUN	版權
+問題	NOUN	問題
+後	ADP	後
+，	PUNCT	，
+CRYPTON	X	crypton
+更	ADV	更
+想	AUX	想
+以	ADP	以
+此	PRON	此
+提供	VERB	提供
+給	ADP	給
+用戶	NOUN	用戶
+一	NUM	一
+個	NOUN	個
+版權	NOUN	版權
+限制	NOUN	限制
+更	ADV	更
+適合	VERB	適合
+網上	NOUN	網上
+創作	VERB	創作
+的	SCONJ	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+CRYPTON: CRYPTON | crypton
+}
+
+Expected: {
+貝納斯科	PROPN	貝納斯科
+（	PUNCT	（
+義大利	PROPN	義大利
+語	PART	語
+：	PUNCT	：
+Beinasco	X	Beinasco
+）	PUNCT	）
+，	PUNCT	，
+是	AUX	是
+義大利	PROPN	義大利
+皮埃蒙特	PROPN	皮埃蒙特
+大區	NOUN	大區
+都靈	PROPN	都靈
+省	PART	省
+的	PART	的
+一	NUM	一
+個	NOUN	個
+市鎮	NOUN	市鎮
+。	PUNCT	。
+}
+Predicted: {
+貝納斯科	PROPN	貝納斯科
+（	PUNCT	（
+義大利	PROPN	義大利
+語	PART	語
+：	PUNCT	：
+Beinasco	X	beinasco
+）	PUNCT	）
+，	PUNCT	，
+是	AUX	是
+義大利	PROPN	義大利
+皮埃蒙特	PROPN	皮埃蒙特
+大區	NOUN	大區
+都靈	PROPN	都靈
+省	PART	省
+的	PART	的
+一	NUM	一
+個	NOUN	個
+市鎮	NOUN	市鎮
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Beinasco: Beinasco | beinasco
+}
+
+Expected: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+許多	NUM	許多
+建議	NOUN	建議
+，	PUNCT	，
+另	DET	另
+一些	NUM	一些
+建議	NOUN	建議
+則	SCONJ	則
+被	AUX	被
+否決	VERB	否決
+或	CCONJ	或
+認為	VERB	為
+時機	NOUN	時機
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+，	PUNCT	，
+實際	NOUN	實際
+上	ADP	上
+全部	DET	全部
+建議	NOUN	建議
+最後	NOUN	最後
+仍是	ADV	仍是
+沒有	VERB	有
+落實	VERB	落實
+。	PUNCT	。
+}
+Predicted: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+許多	NUM	許多
+建議	NOUN	建議
+，	PUNCT	，
+另	DET	另
+一些	NUM	一些
+建議	NOUN	建議
+則	SCONJ	則
+被	AUX	被
+否決	VERB	否決
+或	CCONJ	或
+認為	VERB	為
+時機	NOUN	時機
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+，	PUNCT	，
+實際	NOUN	實際
+上	ADP	上
+全部	DET	全部
+建議	NOUN	建議
+最後	NOUN	最後
+仍是	ADV	是
+沒有	VERB	有
+落實	VERB	落實
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+仍是: 仍是 | 是
+}
+
+Expected: {
+另外	ADV	另外
+、	PUNCT	、
+在	ADP	在
+本作	NOUN	本作
+中	ADP	中
+都	SCONJ	都
+通稱	VERB	通稱
+為	VERB	為
+愛娜	PROPN	愛娜
+、	PUNCT	、
+愛娜茲薇	PROPN	愛娜茲薇
+的	SCONJ	的
+名字	NOUN	名字
+由來	NOUN	由來
+則是	SCONJ	則是
+來	VERB	來
+自	VERB	自
+於	VERB	於
+情報	NOUN	情報
+誌	PART	誌
+的	PART	的
+『	PUNCT	『
+超重	ADJ	超重
+神	PART	神
+Gravion	X	Gravion
+Gravion	X	Gravion
+設定	VERB	設定
+書	PART	書
+』	PUNCT	』
+的	PART	的
+設定	NOUN	設定
+資料	NOUN	資料
+。	PUNCT	。
+}
+Predicted: {
+另外	ADV	另外
+、	PUNCT	、
+在	ADP	在
+本作	NOUN	本作
+中	ADP	中
+都	SCONJ	都
+通稱	VERB	通稱
+為	VERB	為
+愛娜	PROPN	愛娜
+、	PUNCT	、
+愛娜茲薇	PROPN	愛娜茲薇
+的	SCONJ	的
+名字	NOUN	名字
+由來	NOUN	由來
+則是	SCONJ	則是
+來	VERB	來
+自	VERB	自
+於	VERB	於
+情報	NOUN	情報
+誌	PART	誌
+的	PART	的
+『	PUNCT	『
+超重	ADJ	超重
+神	PART	神
+Gravion	X	gravion
+Gravion	X	gravion
+設定	VERB	設定
+書	PART	書
+』	PUNCT	』
+的	PART	的
+設定	NOUN	設定
+資料	NOUN	資料
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Gravion: Gravion | gravion
+Gravion: Gravion | gravion
+}
+
+Expected: {
+AEG	DET	AEG
+的	PART	的
+模型	NOUN	模型
+範圍	NOUN	範圍
+從	ADP	從
+簡單	ADJ	簡單
+的	SCONJ	的
+手槍	NOUN	手槍
+、	PUNCT	、
+衝鋒	VERB	衝鋒
+槍	PART	槍
+、	PUNCT	、
+步槍	NOUN	步槍
+、	PUNCT	、
+突擊	NOUN	突擊
+步槍	NOUN	步槍
+一直	ADV	一直
+覆蓋	VERB	覆蓋
+到	VERB	到
+輕	PART	輕
+/	SYM	/
+重	PART	重
+機槍	NOUN	機槍
+。	PUNCT	。
+}
+Predicted: {
+AEG	DET	aeg
+的	PART	的
+模型	NOUN	模型
+範圍	NOUN	範圍
+從	ADP	從
+簡單	ADJ	簡單
+的	SCONJ	的
+手槍	NOUN	手槍
+、	PUNCT	、
+衝鋒	VERB	衝鋒
+槍	PART	槍
+、	PUNCT	、
+步槍	NOUN	步槍
+、	PUNCT	、
+突擊	NOUN	突擊
+步槍	NOUN	步槍
+一直	ADV	一直
+覆蓋	VERB	覆蓋
+到	VERB	到
+輕	PART	輕
+/	SYM	/
+重	PART	重
+機槍	NOUN	機槍
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+AEG: AEG | aeg
+}
+
+Expected: {
+返樸歸真	VERB	返樸歸真
+（	PUNCT	（
+英	PROPN	英
+語	PART	語
+：	PUNCT	：
+Return	X	Return
+to	X	to
+Innocence	X	Innocence
+）	PUNCT	）
+是	AUX	是
+1994	NUM	1994
+年	NOUN	年
+由	VERB	由
+德國	PROPN	德國
+音樂	NOUN	音樂
+團體	NOUN	團體
+英格瑪	PROPN	英格瑪
+創作	VERB	創作
+的	SCONJ	的
+單	NUM	單
+曲	NOUN	曲
+。	PUNCT	。
+}
+Predicted: {
+返樸歸真	VERB	返樸歸真
+（	PUNCT	（
+英	PROPN	英
+語	PART	語
+：	PUNCT	：
+Return	X	return
+to	X	to
+Innocence	X	innocence
+）	PUNCT	）
+是	AUX	是
+1994	NUM	1994
+年	NOUN	年
+由	VERB	由
+德國	PROPN	德國
+音樂	NOUN	音樂
+團體	NOUN	團體
+英格瑪	PROPN	英格瑪
+創作	VERB	創作
+的	SCONJ	的
+單	NUM	單
+曲	NOUN	曲
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Return: Return | return
+Innocence: Innocence | innocence
+}
+
+Expected: {
+與	ADP	與
+此	PRON	此
+同時	NOUN	同時
+，	PUNCT	，
+由	VERB	由
+台北	PROPN	台北
+研發	VERB	研發
+部	PART	部
+研發	VERB	研發
+的	SCONJ	的
+本	DET	本
+系列	NOUN	系列
+作品	NOUN	作品
+唯一	ADJ	唯一
+一	NUM	一
+部	NOUN	部
+網路	NOUN	網路
+遊戲	NOUN	遊戲
+《	PUNCT	《
+仙劍	NOUN	仙劍
+Online	X	Online
+》	PUNCT	》
+也	SCONJ	也
+先後	ADV	先後
+在	VERB	在
+兩	NUM	兩
+岸	NOUN	岸
+三	NUM	三
+地	NOUN	地
+以及	CCONJ	以及
+新馬	PROPN	新馬
+等	NOUN	等
+地	NOUN	地
+推出	VERB	推出
+。	PUNCT	。
+}
+Predicted: {
+與	ADP	與
+此	PRON	此
+同時	NOUN	同時
+，	PUNCT	，
+由	VERB	由
+台北	PROPN	台北
+研發	VERB	研發
+部	PART	部
+研發	VERB	研發
+的	SCONJ	的
+本	DET	本
+系列	NOUN	系列
+作品	NOUN	作品
+唯一	ADJ	唯一
+一	NUM	一
+部	NOUN	部
+網路	NOUN	網路
+遊戲	NOUN	遊戲
+《	PUNCT	《
+仙劍	NOUN	仙劍
+Online	X	online
+》	PUNCT	》
+也	SCONJ	也
+先後	ADV	先後
+在	VERB	在
+兩	NUM	兩
+岸	NOUN	岸
+三	NUM	三
+地	NOUN	地
+以及	CCONJ	以及
+新馬	PROPN	新馬
+等	NOUN	等
+地	NOUN	地
+推出	VERB	推出
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Online: Online | online
+}
+
+Expected: {
+伍德	PROPN	伍德
+郡	PART	郡
+（	PUNCT	（
+Wood	X	Wood
+County	X	County
+，	PUNCT	，
+Texas	X	Texas
+）	PUNCT	）
+是	AUX	是
+美國	PROPN	美國
+德克薩斯	PROPN	德克薩斯
+州	PART	州
+東北	NOUN	東北
+部	PART	部
+的	PART	的
+一	NUM	一
+個	NOUN	個
+郡	NOUN	郡
+。	PUNCT	。
+}
+Predicted: {
+伍德	PROPN	伍德
+郡	PART	郡
+（	PUNCT	（
+Wood	X	wood
+County	X	county
+，	PUNCT	，
+Texas	X	texas
+）	PUNCT	）
+是	AUX	是
+美國	PROPN	美國
+德克薩斯	PROPN	德克薩斯
+州	PART	州
+東北	NOUN	東北
+部	PART	部
+的	PART	的
+一	NUM	一
+個	NOUN	個
+郡	NOUN	郡
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Wood: Wood | wood
+County: County | county
+Texas: Texas | texas
+}
+
+Expected: {
+第一	NUM	第一
+位	NOUN	位
+得獎	VERB	得獎
+的	SCONJ	的
+優秀	ADJ	優秀
+畢業	VERB	畢業
+生	PART	生
+是	AUX	是
+Dorian	X	Dorian
+Recordon	X	Recordon
+。	PUNCT	。
+}
+Predicted: {
+第一	NUM	第一
+位	NOUN	位
+得獎	VERB	得獎
+的	SCONJ	的
+優秀	ADJ	優秀
+畢業	VERB	畢業
+生	PART	生
+是	AUX	是
+Dorian	X	dorian
+Recordon	X	recordon
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Dorian: Dorian | dorian
+Recordon: Recordon | recordon
+}
+
+Expected: {
+儘管	ADP	儘管
+波特威瑟	PROPN	波特威瑟
+和	CCONJ	和
+戴維斯	PROPN	戴維斯
+希望	VERB	希望
+重現	VERB	重現
+原著	NOUN	原著
+的	PART	的
+精神	NOUN	精神
+和	CCONJ	和
+語調	NOUN	語調
+，	PUNCT	，
+他們	PRON	他
+想	AUX	想
+製作	VERB	製作
+一	NUM	一
+部	NOUN	部
+「	PUNCT	「
+關於	ADP	關於
+真實	ADJ	真實
+人物	NOUN	人物
+的	PART	的
+新鮮	ADJ	新鮮
+生動	ADJ	生動
+的	SCONJ	的
+故事	NOUN	故事
+」	PUNCT	」
+，	PUNCT	，
+而	SCONJ	而
+不是	AUX	是
+「	PUNCT	「
+周日	NOUN	周日
+下午	NOUN	下午
+茶	PART	茶
+間隙	NOUN	間隙
+播放	VERB	播放
+的	SCONJ	的
+老套	ADJ	老套
+BBC	X	BBC
+劇情	NOUN	劇情
+片	PART	片
+」	PUNCT	」
+。	PUNCT	。
+}
+Predicted: {
+儘管	ADP	儘管
+波特威瑟	PROPN	波特威瑟
+和	CCONJ	和
+戴維斯	PROPN	戴維斯
+希望	VERB	希望
+重現	VERB	重現
+原著	NOUN	原著
+的	PART	的
+精神	NOUN	精神
+和	CCONJ	和
+語調	NOUN	語調
+，	PUNCT	，
+他們	PRON	他
+想	AUX	想
+製作	VERB	製作
+一	NUM	一
+部	NOUN	部
+「	PUNCT	「
+關於	ADP	關於
+真實	ADJ	真實
+人物	NOUN	人物
+的	PART	的
+新鮮	ADJ	新鮮
+生動	ADJ	生動
+的	SCONJ	的
+故事	NOUN	故事
+」	PUNCT	」
+，	PUNCT	，
+而	SCONJ	而
+不是	AUX	是
+「	PUNCT	「
+周日	NOUN	周日
+下午	NOUN	下午
+茶	PART	茶
+間隙	NOUN	間隙
+播放	VERB	播放
+的	SCONJ	的
+老套	ADJ	老套
+BBC	X	bbc
+劇情	NOUN	劇情
+片	PART	片
+」	PUNCT	」
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+BBC: BBC | bbc
+}
+
+Expected: {
+在	VERB	在
+日本	PROPN	日本
+有些	VERB	有些
+置物	VERB	置物
+櫃	PART	櫃
+除	VERB	除
+了	AUX	了
+現金	NOUN	現金
+，	PUNCT	，
+也	SCONJ	也
+接受	VERB	接受
+使用	VERB	使用
+Suica	X	Suica
+或	CCONJ	或
+PASMO	X	PASMO
+卡	PART	卡
+，	PUNCT	，
+取物	VERB	取物
+時	ADP	時
+使用	VERB	使用
+同	DET	同
+一	NUM	一
+卡片	NOUN	卡片
+即	SCONJ	即
+可	AUX	可
+開啟	VERB	開啟
+，	PUNCT	，
+不需	AUX	需
+輸入	VERB	輸入
+密碼	NOUN	密碼
+。	PUNCT	。
+}
+Predicted: {
+在	VERB	在
+日本	PROPN	日本
+有些	VERB	有些
+置物	VERB	置物
+櫃	PART	櫃
+除	VERB	除
+了	AUX	了
+現金	NOUN	現金
+，	PUNCT	，
+也	SCONJ	也
+接受	VERB	接受
+使用	VERB	使用
+Suica	X	suica
+或	CCONJ	或
+PASMO	X	pasmo
+卡	PART	卡
+，	PUNCT	，
+取物	VERB	取物
+時	ADP	時
+使用	VERB	使用
+同	DET	同
+一	NUM	一
+卡片	NOUN	卡片
+即	SCONJ	即
+可	AUX	可
+開啟	VERB	開啟
+，	PUNCT	，
+不需	AUX	需
+輸入	VERB	輸入
+密碼	NOUN	密碼
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Suica: Suica | suica
+PASMO: PASMO | pasmo
+}
+
+Expected: {
+本	DET	本
+節目	NOUN	節目
+由	VERB	由
+Nikon	X	Nikon
+數碼	NOUN	數碼
+相機	NOUN	相機
+特約	VERB	特約
+贊助	VERB	贊助
+，	PUNCT	，
+故稱	VERB	故稱
+《	PUNCT	《
+Nikon	X	Nikon
+數碼	NOUN	數碼
+相機	NOUN	相機
+特約	VERB	特約
+：	PUNCT	：
+冰天	NOUN	冰天
+動地	NOUN	動地
+》	PUNCT	》
+。	PUNCT	。
+}
+Predicted: {
+本	DET	本
+節目	NOUN	節目
+由	VERB	由
+Nikon	X	nikon
+數碼	NOUN	數碼
+相機	NOUN	相機
+特約	VERB	特約
+贊助	VERB	贊助
+，	PUNCT	，
+故稱	VERB	故稱
+《	PUNCT	《
+Nikon	X	nikon
+數碼	NOUN	數碼
+相機	NOUN	相機
+特約	VERB	特約
+：	PUNCT	：
+冰天	NOUN	冰天
+動地	NOUN	動地
+》	PUNCT	》
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Nikon: Nikon | nikon
+Nikon: Nikon | nikon
+}
+
+Expected: {
+凱瑟琳	PROPN	凱瑟琳
+·	PUNCT	·
+蒂澤德	PROPN	蒂澤德
+女	NOUN	女
+爵士	NOUN	爵士
+，	PUNCT	，
+ONZ	X	ONZ
+，	PUNCT	，
+GCMG	X	GCMG
+，	PUNCT	，
+GCVO	X	GCVO
+，	PUNCT	，
+DBE	X	DBE
+，	PUNCT	，
+QSO	X	QSO
+（	PUNCT	（
+Dame	X	Dame
+Catherine	X	Catherine
+Tizard	X	Tizard
+）	PUNCT	）
+（	PUNCT	（
+neé	X	neé
+Catherine	X	Catherine
+Anne	X	Anne
+MacLean	X	MacLean
+）	PUNCT	）
+紐西蘭	PROPN	紐西蘭
+總督	NOUN	總督
+，	PUNCT	，
+她	PRON	她
+是	AUX	是
+紐西蘭	PROPN	紐西蘭
+歷史	NOUN	歷史
+上	ADP	上
+首位	NUM	首位
+女性	NOUN	女性
+總督	NOUN	總督
+，	PUNCT	，
+也是	AUX	是
+第一	NUM	第一
+位	NOUN	位
+女性	NOUN	女性
+奧克蘭	PROPN	奧克蘭
+市長	NOUN	市長
+。	PUNCT	。
+}
+Predicted: {
+凱瑟琳	PROPN	凱瑟琳
+·	PUNCT	·
+蒂澤德	PROPN	蒂澤德
+女	NOUN	女
+爵士	NOUN	爵士
+，	PUNCT	，
+ONZ	X	onz
+，	PUNCT	，
+GCMG	X	gcmg
+，	PUNCT	，
+GCVO	X	gcvo
+，	PUNCT	，
+DBE	X	dbe
+，	PUNCT	，
+QSO	X	qso
+（	PUNCT	（
+Dame	X	dame
+Catherine	X	catherine
+Tizard	X	tizard
+）	PUNCT	）
+（	PUNCT	（
+neé	X	neé
+Catherine	X	catherine
+Anne	X	anne
+MacLean	X	maclean
+）	PUNCT	）
+紐西蘭	PROPN	紐西蘭
+總督	NOUN	總督
+，	PUNCT	，
+她	PRON	她
+是	AUX	是
+紐西蘭	PROPN	紐西蘭
+歷史	NOUN	歷史
+上	ADP	上
+首位	NUM	首位
+女性	NOUN	女性
+總督	NOUN	總督
+，	PUNCT	，
+也是	AUX	是
+第一	NUM	第一
+位	NOUN	位
+女性	NOUN	女性
+奧克蘭	PROPN	奧克蘭
+市長	NOUN	市長
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+ONZ: ONZ | onz
+GCMG: GCMG | gcmg
+GCVO: GCVO | gcvo
+DBE: DBE | dbe
+QSO: QSO | qso
+Dame: Dame | dame
+Catherine: Catherine | catherine
+Tizard: Tizard | tizard
+Catherine: Catherine | catherine
+Anne: Anne | anne
+MacLean: MacLean | maclean
+}
+
+Expected: {
+這	PRON	這
+是	AUX	是
+繼	ADP	繼
+去年	NOUN	去年
+KBS	X	KBS
+演藝	NOUN	演藝
+大獎	NOUN	大獎
+之後	ADP	之後
+的	PART	的
+又	ADV	又
+一	NUM	一
+肯定	NOUN	肯定
+。	PUNCT	。
+}
+Predicted: {
+這	PRON	這
+是	AUX	是
+繼	ADP	繼
+去年	NOUN	去年
+KBS	X	kbs
+演藝	NOUN	演藝
+大獎	NOUN	大獎
+之後	ADP	之後
+的	PART	的
+又	ADV	又
+一	NUM	一
+肯定	NOUN	肯定
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+KBS: KBS | kbs
+}
+
+Expected: {
+2007	NUM	2007
+年	NOUN	年
+，	PUNCT	，
+紐維爾	PROPN	紐維爾
+公開	ADV	公開
+表達	VERB	表達
+了	AUX	了
+他	PRON	他
+為	ADP	為
+遊戲	NOUN	遊戲
+平台	NOUN	平台
+開發	VERB	開發
+遊戲	NOUN	遊戲
+的	SCONJ	的
+不滿	NOUN	不滿
+，	PUNCT	，
+特別	ADV	特別
+是	VERB	是
+在	ADP	在
+PlayStation	X	PlayStation
+3	NUM	3
+遊戲	NOUN	遊戲
+的	PART	的
+開發	NOUN	開發
+上	ADP	上
+。	PUNCT	。
+}
+Predicted: {
+2007	NUM	2007
+年	NOUN	年
+，	PUNCT	，
+紐維爾	PROPN	紐維爾
+公開	ADV	公開
+表達	VERB	表達
+了	AUX	了
+他	PRON	他
+為	ADP	為
+遊戲	NOUN	遊戲
+平台	NOUN	平台
+開發	VERB	開發
+遊戲	NOUN	遊戲
+的	SCONJ	的
+不滿	NOUN	不滿
+，	PUNCT	，
+特別	ADV	特別
+是	VERB	是
+在	ADP	在
+PlayStation	X	playstation
+3	NUM	3
+遊戲	NOUN	遊戲
+的	PART	的
+開發	NOUN	開發
+上	ADP	上
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+PlayStation: PlayStation | playstation
+}
+
+Expected: {
+建设	VERB	建设
+该	DET	该
+中心	NOUN	中心
+的	SCONJ	的
+目的	NOUN	目的
+是	VERB	是
+给	VERB	给
+本州	PROPN	本州
+制药	NOUN	制药
+企业	NOUN	企业
+，	PUNCT	，
+GMP	X	GMP
+工厂	NOUN	工厂
+提供	VERB	提供
+合格	VERB	合格
+的	SCONJ	的
+人员	NOUN	人员
+资源	NOUN	资源
+。	PUNCT	。
+}
+Predicted: {
+建设	VERB	建设
+该	DET	该
+中心	NOUN	中心
+的	SCONJ	的
+目的	NOUN	目的
+是	VERB	是
+给	VERB	给
+本州	PROPN	本州
+制药	NOUN	制药
+企业	NOUN	企业
+，	PUNCT	，
+GMP	X	gmp
+工厂	NOUN	工厂
+提供	VERB	提供
+合格	VERB	合格
+的	SCONJ	的
+人员	NOUN	人员
+资源	NOUN	资源
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+GMP: GMP | gmp
+}
+
+Expected: {
+法国	PROPN	法国
+地质	NOUN	地质
+学家	NOUN	学家
+Gromaget	X	Gromaget
+（	PUNCT	（
+1934	NUM	1934
+）	PUNCT	）
+在	ADP	在
+研究	VERB	研究
+越南	PROPN	越南
+的	PART	的
+地层	NOUN	地层
+时	ADP	时
+，	PUNCT	，
+首次	NUM	首次
+提出	VERB	提出
+印	PROPN	印
+支	PROPN	支
+运动	NOUN	运动
+的	PART	的
+概念	NOUN	概念
+。	PUNCT	。
+}
+Predicted: {
+法国	PROPN	法国
+地质	NOUN	地质
+学家	NOUN	学家
+Gromaget	X	gromaget
+（	PUNCT	（
+1934	NUM	1934
+）	PUNCT	）
+在	ADP	在
+研究	VERB	研究
+越南	PROPN	越南
+的	PART	的
+地层	NOUN	地层
+时	ADP	时
+，	PUNCT	，
+首次	NUM	首次
+提出	VERB	提出
+印	PROPN	印
+支	PROPN	支
+运动	NOUN	运动
+的	PART	的
+概念	NOUN	概念
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Gromaget: Gromaget | gromaget
+}
+
+Expected: {
+哈德逊	PROPN	哈德逊
+（	PUNCT	（
+Hudson	X	Hudson
+，	PUNCT	，
+Ohio	X	Ohio
+）	PUNCT	）
+是	AUX	是
+美国	PROPN	美国
+俄亥俄	PROPN	俄亥俄
+州	PART	州
+萨米特	PROPN	萨米特
+县	PART	县
+的	PART	的
+一	NUM	一
+个	NOUN	个
+城市	NOUN	城市
+。	PUNCT	。
+}
+Predicted: {
+哈德逊	PROPN	哈德逊
+（	PUNCT	（
+Hudson	X	hudson
+，	PUNCT	，
+Ohio	X	ohio
+）	PUNCT	）
+是	AUX	是
+美国	PROPN	美国
+俄亥俄	PROPN	俄亥俄
+州	PART	州
+萨米特	PROPN	萨米特
+县	PART	县
+的	PART	的
+一	NUM	一
+个	NOUN	个
+城市	NOUN	城市
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Hudson: Hudson | hudson
+Ohio: Ohio | ohio
+}
+
+Expected: {
+Anggun	X	Anggun
+是	AUX	是
+世界	NOUN	世界
+上	ADP	上
+最	ADV	最
+成功	ADJ	成功
+的	SCONJ	的
+亚	PROPN	亚
+裔	PART	裔
+歌手	NOUN	歌手
+，	PUNCT	，
+在	VERB	在
+法国	PROPN	法国
+、	PUNCT	、
+美国	PROPN	美国
+、	PUNCT	、
+巴西	PROPN	巴西
+、	PUNCT	、
+比利时	PROPN	比利时
+、	PUNCT	、
+意大利	PROPN	意大利
+、	PUNCT	、
+新加坡	PROPN	新加坡
+、	PUNCT	、
+印尼	PROPN	印尼
+、	PUNCT	、
+马来西亚	PROPN	马来西亚
+、	PUNCT	、
+芬兰	PROPN	芬兰
+、	PUNCT	、
+瑞士	PROPN	瑞士
+、	PUNCT	、
+西班牙	PROPN	西班牙
+、	PUNCT	、
+俄罗斯	PROPN	俄罗斯
+、	PUNCT	、
+德国	PROPN	德国
+、	PUNCT	、
+加拿大	PROPN	加拿大
+、	PUNCT	、
+荷兰	PROPN	荷兰
+、	PUNCT	、
+希腊	PROPN	希腊
+、	PUNCT	、
+菲律宾	PROPN	菲律宾
+、	PUNCT	、
+汶莱	PROPN	汶莱
+、	PUNCT	、
+日本	PROPN	日本
+等	NOUN	等
+40多	NUM	40多
+个	NOUN	个
+国家	NOUN	国家
+也	SCONJ	也
+有	VERB	有
+着	AUX	着
+高	PART	高
+知名	ADJ	知名
+度	PART	度
+。	PUNCT	。
+}
+Predicted: {
+Anggun	X	anggun
+是	AUX	是
+世界	NOUN	世界
+上	ADP	上
+最	ADV	最
+成功	ADJ	成功
+的	SCONJ	的
+亚	PROPN	亚
+裔	PART	裔
+歌手	NOUN	歌手
+，	PUNCT	，
+在	VERB	在
+法国	PROPN	法国
+、	PUNCT	、
+美国	PROPN	美国
+、	PUNCT	、
+巴西	PROPN	巴西
+、	PUNCT	、
+比利时	PROPN	比利时
+、	PUNCT	、
+意大利	PROPN	意大利
+、	PUNCT	、
+新加坡	PROPN	新加坡
+、	PUNCT	、
+印尼	PROPN	印尼
+、	PUNCT	、
+马来西亚	PROPN	马来西亚
+、	PUNCT	、
+芬兰	PROPN	芬兰
+、	PUNCT	、
+瑞士	PROPN	瑞士
+、	PUNCT	、
+西班牙	PROPN	西班牙
+、	PUNCT	、
+俄罗斯	PROPN	俄罗斯
+、	PUNCT	、
+德国	PROPN	德国
+、	PUNCT	、
+加拿大	PROPN	加拿大
+、	PUNCT	、
+荷兰	PROPN	荷兰
+、	PUNCT	、
+希腊	PROPN	希腊
+、	PUNCT	、
+菲律宾	PROPN	菲律宾
+、	PUNCT	、
+汶莱	PROPN	汶莱
+、	PUNCT	、
+日本	PROPN	日本
+等	NOUN	等
+40多	NUM	40多
+个	NOUN	个
+国家	NOUN	国家
+也	SCONJ	也
+有	VERB	有
+着	AUX	着
+高	PART	高
+知名	ADJ	知名
+度	PART	度
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Anggun: Anggun | anggun
+}
+
+Expected: {
+她	PRON	她
+其后	NOUN	其后
+更	ADV	更
+与	ADP	与
+Elite	X	Elite
+签约	VERB	签约
+。	PUNCT	。
+}
+Predicted: {
+她	PRON	她
+其后	NOUN	其后
+更	ADV	更
+与	ADP	与
+Elite	X	elite
+签约	VERB	签约
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Elite: Elite | elite
+}
+
+Expected: {
+宵禁	NOUN	宵禁
+就是	VERB	是
+管理	VERB	管理
+员	PART	员
+下班	VERB	下班
+（	PUNCT	（
+0:00	NUM	0:00
+AM	X	AM
+）	PUNCT	）
+到	CCONJ	到
+次日	NOUN	次日
+上班	VERB	上班
+之前	ADP	之前
+（	PUNCT	（
+9:00	NUM	9:00
+AM	X	AM
+）	PUNCT	）
+禁止	VERB	禁止
+发帖	VERB	发帖
+和	CCONJ	和
+回复	VERB	回复
+，	PUNCT	，
+该	DET	该
+规则	NOUN	规则
+在	ADP	在
+2010	NUM	2010
+上海	PROPN	上海
+世博	NOUN	世博
+会	PART	会
+期间	NOUN	期间
+实行	VERB	实行
+，	PUNCT	，
+导致	VERB	导致
+大量	ADJ	大量
+海外	NOUN	海外
+网友	NOUN	网友
+由于	ADP	由于
+时差	NOUN	时差
+缘故	NOUN	缘故
+无法	VERB	无法
+正常	ADV	正常
+发帖	VERB	发帖
+。	PUNCT	。
+}
+Predicted: {
+宵禁	NOUN	宵禁
+就是	VERB	是
+管理	VERB	管理
+员	PART	员
+下班	VERB	下班
+（	PUNCT	（
+0:00	NUM	0:00
+AM	X	am
+）	PUNCT	）
+到	CCONJ	到
+次日	NOUN	次日
+上班	VERB	上班
+之前	ADP	之前
+（	PUNCT	（
+9:00	NUM	9:00
+AM	X	am
+）	PUNCT	）
+禁止	VERB	禁止
+发帖	VERB	发帖
+和	CCONJ	和
+回复	VERB	回复
+，	PUNCT	，
+该	DET	该
+规则	NOUN	规则
+在	ADP	在
+2010	NUM	2010
+上海	PROPN	上海
+世博	NOUN	世博
+会	PART	会
+期间	NOUN	期间
+实行	VERB	实行
+，	PUNCT	，
+导致	VERB	导致
+大量	ADJ	大量
+海外	NOUN	海外
+网友	NOUN	网友
+由于	ADP	由于
+时差	NOUN	时差
+缘故	NOUN	缘故
+无法	VERB	无法
+正常	ADV	正常
+发帖	VERB	发帖
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+AM: AM | am
+AM: AM | am
+}
+
+Expected: {
+电视	NOUN	电视
+动画	NOUN	动画
+版	PART	版
+于	ADP	于
+1976	NUM	1976
+年	NOUN	年
+10	NUM	10
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+至	CCONJ	至
+1978	NUM	1978
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+2	NUM	2
+日	NOUN	日
+期间	NOUN	期间
+，	PUNCT	，
+在	ADP	在
+NET	X	NET
+电视	NOUN	电视
+台	PART	台
+（	PUNCT	（
+在	ADP	在
+1977	NUM	1977
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+改名	VERB	改名
+为	VERB	为
+“	PUNCT	“
+全国	PROPN	全国
+朝日	PROPN	朝日
+放送	VERB	放送
+株式	NOUN	株式
+会社	NOUN	会社
+”	PUNCT	”
+，	PUNCT	，
+即	VERB	即
+今	NOUN	今
+朝日	PROPN	朝日
+电视	NOUN	电视
+台	PART	台
+）	PUNCT	）
+播映	VERB	播映
+，	PUNCT	，
+由	VERB	由
+NET	X	NET
+、	PUNCT	、
+旭	PROPN	旭
+通信	VERB	通信
+社	PART	社
+、	PUNCT	、
+东映	PROPN	东映
+联合	VERB	联合
+制作	VERB	制作
+，	PUNCT	，
+全	DET	全
+115	NUM	115
+集	NOUN	集
+。	PUNCT	。
+}
+Predicted: {
+电视	NOUN	电视
+动画	NOUN	动画
+版	PART	版
+于	ADP	于
+1976	NUM	1976
+年	NOUN	年
+10	NUM	10
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+至	CCONJ	至
+1978	NUM	1978
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+2	NUM	2
+日	NOUN	日
+期间	NOUN	期间
+，	PUNCT	，
+在	ADP	在
+NET	X	net
+电视	NOUN	电视
+台	PART	台
+（	PUNCT	（
+在	ADP	在
+1977	NUM	1977
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+1	NUM	1
+日	NOUN	日
+改名	VERB	改名
+为	VERB	为
+“	PUNCT	“
+全国	PROPN	全国
+朝日	PROPN	朝日
+放送	VERB	放送
+株式	NOUN	株式
+会社	NOUN	会社
+”	PUNCT	”
+，	PUNCT	，
+即	VERB	即
+今	NOUN	今
+朝日	PROPN	朝日
+电视	NOUN	电视
+台	PART	台
+）	PUNCT	）
+播映	VERB	播映
+，	PUNCT	，
+由	VERB	由
+NET	X	net
+、	PUNCT	、
+旭	PROPN	旭
+通信	VERB	通信
+社	PART	社
+、	PUNCT	、
+东映	PROPN	东映
+联合	VERB	联合
+制作	VERB	制作
+，	PUNCT	，
+全	DET	全
+115	NUM	115
+集	NOUN	集
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+NET: NET | net
+NET: NET | net
+}
+
+Expected: {
+小	PART	小
+行星	NOUN	行星
+14572	PROPN	14572
+的	PART	的
+轨道	NOUN	轨道
+半	NUM	半
+长轴	NOUN	长轴
+为	AUX	为
+2.2787524	NUM	2.2787524
+UA	X	UA
+，	PUNCT	，
+离心	NOUN	离心
+率	PART	率
+为	AUX	为
+0.106	NUM	0.106
+。	PUNCT	。
+}
+Predicted: {
+小	PART	小
+行星	NOUN	行星
+14572	PROPN	14572
+的	PART	的
+轨道	NOUN	轨道
+半	NUM	半
+长轴	NOUN	长轴
+为	AUX	为
+2.2787524	NUM	2.2787524
+UA	X	ua
+，	PUNCT	，
+离心	NOUN	离心
+率	PART	率
+为	AUX	为
+0.106	NUM	0.106
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+UA: UA | ua
+}
+
+Expected: {
+小	PART	小
+行星	NOUN	行星
+3480	NUM	3480
+（	PUNCT	（
+3480	NUM	3480
+Abante	X	Abante
+）	PUNCT	）
+是	AUX	是
+一	NUM	一
+颗	NOUN	颗
+绕	ADP	绕
+太阳	NOUN	太阳
+运转	VERB	运转
+的	SCONJ	的
+小	PART	小
+行星	NOUN	行星
+，	PUNCT	，
+为	AUX	为
+主	PART	主
+小	PART	小
+行星	NOUN	行星
+带	PART	带
+小	PART	小
+行星	NOUN	行星
+。	PUNCT	。
+}
+Predicted: {
+小	PART	小
+行星	NOUN	行星
+3480	NUM	3480
+（	PUNCT	（
+3480	NUM	3480
+Abante	X	abante
+）	PUNCT	）
+是	AUX	是
+一	NUM	一
+颗	NOUN	颗
+绕	ADP	绕
+太阳	NOUN	太阳
+运转	VERB	运转
+的	SCONJ	的
+小	PART	小
+行星	NOUN	行星
+，	PUNCT	，
+为	AUX	为
+主	PART	主
+小	PART	小
+行星	NOUN	行星
+带	PART	带
+小	PART	小
+行星	NOUN	行星
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Abante: Abante | abante
+}
+
+Expected: {
+而	SCONJ	而
+平面	NOUN	平面
+镜	PART	镜
+M1	DET	M1
+和	CCONJ	和
+M2	X	M2
+之间	NOUN	之间
+的	PART	的
+距离	NOUN	距离
+相当	VERB	相当
+于	VERB	于
+扩展	NOUN	扩展
+光源	NOUN	光源
+的	PART	的
+线度	NOUN	线度
+，	PUNCT	，
+当	ADP	当
+M1	X	M1
+和	CCONJ	和
+M2	X	M2
+靠	VERB	靠
+得	PART	得
+很近	ADJ	很近
+时	ADP	时
+干涉	NOUN	干涉
+条纹	NOUN	条纹
+的	PART	的
+可	AUX	可
+见	VERB	见
+度	PART	度
+接近	VERB	接近
+于	VERB	于
+1	NUM	1
+，	PUNCT	，
+随	VERB	随
+着	AUX	着
+两	NUM	两
+者	NOUN	者
+间距	NOUN	间距
+增加	VERB	增加
+可	AUX	可
+见	VERB	见
+度	PART	度
+会	AUX	会
+逐渐	ADV	逐渐
+下降	VERB	下降
+为	VERB	为
+零	NUM	零
+。	PUNCT	。
+}
+Predicted: {
+而	SCONJ	而
+平面	NOUN	平面
+镜	PART	镜
+M1	DET	m1
+和	CCONJ	和
+M2	X	m2
+之间	NOUN	之间
+的	PART	的
+距离	NOUN	距离
+相当	VERB	相当
+于	VERB	于
+扩展	NOUN	扩展
+光源	NOUN	光源
+的	PART	的
+线度	NOUN	线度
+，	PUNCT	，
+当	ADP	当
+M1	X	m1
+和	CCONJ	和
+M2	X	m2
+靠	VERB	靠
+得	PART	得
+很近	ADJ	很近
+时	ADP	时
+干涉	NOUN	干涉
+条纹	NOUN	条纹
+的	PART	的
+可	AUX	可
+见	VERB	见
+度	PART	度
+接近	VERB	接近
+于	VERB	于
+1	NUM	1
+，	PUNCT	，
+随	VERB	随
+着	AUX	着
+两	NUM	两
+者	NOUN	者
+间距	NOUN	间距
+增加	VERB	增加
+可	AUX	可
+见	VERB	见
+度	PART	度
+会	AUX	会
+逐渐	ADV	逐渐
+下降	VERB	下降
+为	VERB	为
+零	NUM	零
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+M1: M1 | m1
+M2: M2 | m2
+M1: M1 | m1
+M2: M2 | m2
+}
+
+Expected: {
+此项	DET	此项
+疾病	NOUN	疾病
+最早	ADV	最早
+是	VERB	是
+由	VERB	由
+美国	PROPN	美国
+神经	NOUN	神经
+外科	NOUN	外科
+医生	NOUN	医生
+库欣	PROPN	库欣
+（	PUNCT	（
+Harvey	X	Harvey
+Cushing	X	Cushing
+）	PUNCT	）
+于	ADP	于
+1932	NUM	1932
+年	NOUN	年
+首先	ADV	首先
+描述	VERB	描述
+，	PUNCT	，
+他	PRON	他
+同时	NOUN	同时
+也是	AUX	是
+一	NUM	一
+位	NOUN	位
+外科	NOUN	外科
+学	PART	学
+和	CCONJ	和
+内	NOUN	内
+分泌	NOUN	分泌
+学	PART	学
+家	PART	家
+。	PUNCT	。
+}
+Predicted: {
+此项	DET	此项
+疾病	NOUN	疾病
+最早	ADV	最早
+是	VERB	是
+由	VERB	由
+美国	PROPN	美国
+神经	NOUN	神经
+外科	NOUN	外科
+医生	NOUN	医生
+库欣	PROPN	库欣
+（	PUNCT	（
+Harvey	X	harvey
+Cushing	X	cushing
+）	PUNCT	）
+于	ADP	于
+1932	NUM	1932
+年	NOUN	年
+首先	ADV	首先
+描述	VERB	描述
+，	PUNCT	，
+他	PRON	他
+同时	NOUN	同时
+也是	AUX	是
+一	NUM	一
+位	NOUN	位
+外科	NOUN	外科
+学	PART	学
+和	CCONJ	和
+内	NOUN	内
+分泌	NOUN	分泌
+学	PART	学
+家	PART	家
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Harvey: Harvey | harvey
+Cushing: Cushing | cushing
+}
+
+Expected: {
+有	VERB	有
+一	NUM	一
+辆	NOUN	辆
+290	NUM	290
+型	NOUN	型
+机车	NOUN	机车
+曾	ADV	曾
+被	AUX	被
+转让	VERB	转让
+给	VERB	给
+军队	NOUN	军队
+使用	VERB	使用
+，	PUNCT	，
+分配	VERB	分配
+给	VERB	给
+驻扎	VERB	驻扎
+在	ADP	在
+Mechernich	X	Mechernich
+的	SCONJ	的
+空军	NOUN	空军
+后勤	NOUN	后勤
+团	PART	团
+。	PUNCT	。
+}
+Predicted: {
+有	VERB	有
+一	NUM	一
+辆	NOUN	辆
+290	NUM	290
+型	NOUN	型
+机车	NOUN	机车
+曾	ADV	曾
+被	AUX	被
+转让	VERB	转让
+给	VERB	给
+军队	NOUN	军队
+使用	VERB	使用
+，	PUNCT	，
+分配	VERB	分配
+给	VERB	给
+驻扎	VERB	驻扎
+在	ADP	在
+Mechernich	X	mechernich
+的	SCONJ	的
+空军	NOUN	空军
+后勤	NOUN	后勤
+团	PART	团
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Mechernich: Mechernich | mechernich
+}
+
+Expected: {
+我们	PRON	我
+的	PART	的
+银河	PROPN	银河
+系	PART	系
+内	NOUN	内
+有	VERB	有
+一些	ADJ	一些
+恒星	NOUN	恒星
+质量	NOUN	质量
+黑洞	NOUN	黑洞
+的	PART	的
+候选	VERB	候选
+者	PART	者
+（	PUNCT	（
+BHCs	X	BHCs
+）	PUNCT	）
+，	PUNCT	，
+它们	PRON	它
+比	ADP	比
+银河	PROPN	银河
+中心	NOUN	中心
+区	PART	区
+的	PART	的
+大	PART	大
+质量	NOUN	质量
+黑洞	NOUN	黑洞
+更	ADV	更
+靠近	VERB	靠近
+我们	PRON	我
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+的	PART	的
+银河	PROPN	银河
+系	PART	系
+内	NOUN	内
+有	VERB	有
+一些	ADJ	一些
+恒星	NOUN	恒星
+质量	NOUN	质量
+黑洞	NOUN	黑洞
+的	PART	的
+候选	VERB	候选
+者	PART	者
+（	PUNCT	（
+BHCs	X	bhcs
+）	PUNCT	）
+，	PUNCT	，
+它们	PRON	它
+比	ADP	比
+银河	PROPN	银河
+中心	NOUN	中心
+区	PART	区
+的	PART	的
+大	PART	大
+质量	NOUN	质量
+黑洞	NOUN	黑洞
+更	ADV	更
+靠近	VERB	靠近
+我们	PRON	我
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+BHCs: BHCs | bhcs
+}
+
+Expected: {
+邵氏	PROPN	邵氏
+电影	NOUN	电影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+愤怒	ADJ	愤怒
+青年	NOUN	青年
+》	PUNCT	》
+，	PUNCT	，
+记述	VERB	记述
+一	NUM	一
+班	NOUN	班
+不满	VERB	满
+社会	NOUN	社会
+现状	NOUN	现状
+而	SCONJ	而
+急于	VERB	急于
+改变	VERB	改变
+现实	NOUN	现实
+的	SCONJ	的
+青年	NOUN	青年
+，	PUNCT	，
+证明	VERB	证明
+当时	NOUN	当时
+已	ADV	已
+存在	VERB	存在
+“	PUNCT	“
+愤怒	ADJ	愤怒
+青年	NOUN	青年
+”	PUNCT	”
+这	DET	这
+称呼	NOUN	称呼
+。	PUNCT	。
+}
+Predicted: {
+邵氏	PROPN	邵氏
+电影	NOUN	电影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+愤怒	ADJ	愤怒
+青年	NOUN	青年
+》	PUNCT	》
+，	PUNCT	，
+记述	VERB	记述
+一	NUM	一
+班	NOUN	班
+不满	VERB	不满
+社会	NOUN	社会
+现状	NOUN	现状
+而	SCONJ	而
+急于	VERB	急于
+改变	VERB	改变
+现实	NOUN	现实
+的	SCONJ	的
+青年	NOUN	青年
+，	PUNCT	，
+证明	VERB	证明
+当时	NOUN	当时
+已	ADV	已
+存在	VERB	存在
+“	PUNCT	“
+愤怒	ADJ	愤怒
+青年	NOUN	青年
+”	PUNCT	”
+这	DET	这
+称呼	NOUN	称呼
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不满: 满 | 不满
+}
+
+Expected: {
+虽然	ADP	虽然
+中	NOUN	中
+世纪	NOUN	世纪
+城堡	NOUN	城堡
+已经	ADV	已经
+被	AUX	被
+毁	VERB	毁
+，	PUNCT	，
+但是	SCONJ	但是
+其	PRON	其
+三	NUM	三
+座	NOUN	座
+城门	NOUN	城门
+幸存	VERB	幸存
+了	AUX	了
+下来	VERB	下来
+：	PUNCT	：
+东面	NOUN	东面
+的	PART	的
+伊萨尔	PROPN	伊萨尔
+门	PART	门
+（	PUNCT	（
+Isartor	X	Isartor
+）	PUNCT	）
+、	PUNCT	、
+南面	NOUN	南面
+的	PART	的
+森德灵	PROPN	森德灵
+门	PART	门
+（	PUNCT	（
+Sendlinger	X	Sendlinger
+Tor	X	Tor
+）	PUNCT	）
+和	CCONJ	和
+西面	NOUN	西面
+的	PART	的
+卡尔	PROPN	卡尔
+门	PART	门
+（	PUNCT	（
+Karlstor	X	Karlstor
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+虽然	ADP	虽然
+中	NOUN	中
+世纪	NOUN	世纪
+城堡	NOUN	城堡
+已经	ADV	已经
+被	AUX	被
+毁	VERB	毁
+，	PUNCT	，
+但是	SCONJ	但是
+其	PRON	其
+三	NUM	三
+座	NOUN	座
+城门	NOUN	城门
+幸存	VERB	幸存
+了	AUX	了
+下来	VERB	下来
+：	PUNCT	：
+东面	NOUN	东面
+的	PART	的
+伊萨尔	PROPN	伊萨尔
+门	PART	门
+（	PUNCT	（
+Isartor	X	isartor
+）	PUNCT	）
+、	PUNCT	、
+南面	NOUN	南面
+的	PART	的
+森德灵	PROPN	森德灵
+门	PART	门
+（	PUNCT	（
+Sendlinger	X	sendlinger
+Tor	X	tor
+）	PUNCT	）
+和	CCONJ	和
+西面	NOUN	西面
+的	PART	的
+卡尔	PROPN	卡尔
+门	PART	门
+（	PUNCT	（
+Karlstor	X	karlstor
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Isartor: Isartor | isartor
+Sendlinger: Sendlinger | sendlinger
+Tor: Tor | tor
+Karlstor: Karlstor | karlstor
+}
+
+Expected: {
+截颌鲤	NOUN	截颌鲤
+（	PUNCT	（
+学名	NOUN	学名
+：	PUNCT	：
+Ospatulus	X	Ospatulus
+truncatulus	X	truncatulus
+）	PUNCT	）
+为	AUX	为
+辐鳍	NOUN	辐鳍
+鱼	PART	鱼
+纲	PART	纲
+鲤形	NOUN	鲤形
+目	PART	目
+鲤科	NOUN	鲤科
+的	PART	的
+一	NUM	一
+个	NOUN	个
+种	NOUN	种
+，	PUNCT	，
+分布	VERB	分布
+于	ADP	于
+亚洲	PROPN	亚洲
+菲律宾	PROPN	菲律宾
+民答那峨	PROPN	民答那峨
+岛	PART	岛
+拉瑙	PROPN	拉瑙
+湖	PART	湖
+流域	NOUN	流域
+，	PUNCT	，
+为	AUX	为
+特有	VERB	特有
+种	PART	种
+，	PUNCT	，
+体长	NOUN	体长
+可	AUX	可
+达	VERB	达
+13.3	NUM	13.3
+公分	NOUN	公分
+，	PUNCT	，
+栖息	VERB	栖息
+在	ADP	在
+中底层	NOUN	中底层
+水域	NOUN	水域
+。	PUNCT	。
+}
+Predicted: {
+截颌鲤	NOUN	截颌鲤
+（	PUNCT	（
+学名	NOUN	学名
+：	PUNCT	：
+Ospatulus	X	ospatulus
+truncatulus	X	truncatulus
+）	PUNCT	）
+为	AUX	为
+辐鳍	NOUN	辐鳍
+鱼	PART	鱼
+纲	PART	纲
+鲤形	NOUN	鲤形
+目	PART	目
+鲤科	NOUN	鲤科
+的	PART	的
+一	NUM	一
+个	NOUN	个
+种	NOUN	种
+，	PUNCT	，
+分布	VERB	分布
+于	ADP	于
+亚洲	PROPN	亚洲
+菲律宾	PROPN	菲律宾
+民答那峨	PROPN	民答那峨
+岛	PART	岛
+拉瑙	PROPN	拉瑙
+湖	PART	湖
+流域	NOUN	流域
+，	PUNCT	，
+为	AUX	为
+特有	VERB	特有
+种	PART	种
+，	PUNCT	，
+体长	NOUN	体长
+可	AUX	可
+达	VERB	达
+13.3	NUM	13.3
+公分	NOUN	公分
+，	PUNCT	，
+栖息	VERB	栖息
+在	ADP	在
+中底层	NOUN	中底层
+水域	NOUN	水域
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ospatulus: Ospatulus | ospatulus
+}
+
+Expected: {
+C	X	C
+语言	NOUN	语言
+的	PART	的
+结构	NOUN	结构
+体	PART	体
+（	PUNCT	（
+汇编	NOUN	汇编
+语言	NOUN	语言
+对应	VERB	对应
+为	VERB	为
+Record	X	Record
+类型	NOUN	类型
+）	PUNCT	）
+按	ADP	按
+顺序	NOUN	顺序
+分配	VERB	分配
+空间	NOUN	空间
+。	PUNCT	。
+}
+Predicted: {
+C	X	c
+语言	NOUN	语言
+的	PART	的
+结构	NOUN	结构
+体	PART	体
+（	PUNCT	（
+汇编	NOUN	汇编
+语言	NOUN	语言
+对应	VERB	对应
+为	VERB	为
+Record	X	record
+类型	NOUN	类型
+）	PUNCT	）
+按	ADP	按
+顺序	NOUN	顺序
+分配	VERB	分配
+空间	NOUN	空间
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+C: C | c
+Record: Record | record
+}
+
+Expected: {
+湖名	NOUN	湖名
+“	PUNCT	“
+Pukaki	X	Pukaki
+”	PUNCT	”
+为	AUX	为
+毛利	PROPN	毛利
+语	PART	语
+，	PUNCT	，
+意	NOUN	意
+为	AUX	为
+“	PUNCT	“
+聚集	VERB	聚集
+的	SCONJ	的
+水	NOUN	水
+”	PUNCT	”
+。	PUNCT	。
+}
+Predicted: {
+湖名	NOUN	湖名
+“	PUNCT	“
+Pukaki	X	pukaki
+”	PUNCT	”
+为	AUX	为
+毛利	PROPN	毛利
+语	PART	语
+，	PUNCT	，
+意	NOUN	意
+为	AUX	为
+“	PUNCT	“
+聚集	VERB	聚集
+的	SCONJ	的
+水	NOUN	水
+”	PUNCT	”
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Pukaki: Pukaki | pukaki
+}
+
+Expected: {
+JR	X	JR
+东海	PROPN	东海
+负责	VERB	负责
+营运	VERB	营运
+东海	PROPN	东海
+道	PART	道
+新	PART	新
+干线	NOUN	干线
+和	CCONJ	和
+东海	PROPN	东海
+地区	NOUN	地区
+的	PART	的
+12	NUM	12
+条	NOUN	条
+在来	NOUN	在来
+线	PART	线
+路线	NOUN	路线
+。	PUNCT	。
+}
+Predicted: {
+JR	X	jr
+东海	PROPN	东海
+负责	VERB	负责
+营运	VERB	营运
+东海	PROPN	东海
+道	PART	道
+新	PART	新
+干线	NOUN	干线
+和	CCONJ	和
+东海	PROPN	东海
+地区	NOUN	地区
+的	PART	的
+12	NUM	12
+条	NOUN	条
+在来	NOUN	在来
+线	PART	线
+路线	NOUN	路线
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+JR: JR | jr
+}
+
+Expected: {
+泰琳达	PROPN	泰琳达
+在	ADP	在
+2006	NUM	2006
+年	NOUN	年
+3	NUM	3
+月	NOUN	月
+16	NUM	16
+日	NOUN	日
+产下	VERB	产下
+一	NUM	一
+名	NOUN	名
+男婴	NOUN	男婴
+，	PUNCT	，
+根据	ADP	根据
+他们	PRON	他
+的	PART	的
+官方	NOUN	官方
+声明	NOUN	声明
+，	PUNCT	，
+两	NUM	两
+人	NOUN	人
+的	PART	的
+儿子	NOUN	儿子
+取名	VERB	取名
+为	VERB	为
+泰勒	PROPN	泰勒
+·	PUNCT	·
+李	PROPN	李
+（	PUNCT	（
+Tyler	X	Tyler
+Lee	X	Lee
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+泰琳达	PROPN	泰琳达
+在	ADP	在
+2006	NUM	2006
+年	NOUN	年
+3	NUM	3
+月	NOUN	月
+16	NUM	16
+日	NOUN	日
+产下	VERB	产下
+一	NUM	一
+名	NOUN	名
+男婴	NOUN	男婴
+，	PUNCT	，
+根据	ADP	根据
+他们	PRON	他
+的	PART	的
+官方	NOUN	官方
+声明	NOUN	声明
+，	PUNCT	，
+两	NUM	两
+人	NOUN	人
+的	PART	的
+儿子	NOUN	儿子
+取名	VERB	取名
+为	VERB	为
+泰勒	PROPN	泰勒
+·	PUNCT	·
+李	PROPN	李
+（	PUNCT	（
+Tyler	X	tyler
+Lee	X	lee
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tyler: Tyler | tyler
+Lee: Lee | lee
+}
+
+Expected: {
+目前	NOUN	目前
+的	PART	的
+教堂	NOUN	教堂
+由	VERB	由
+詹姆斯	PROPN	詹姆斯
+·	PUNCT	·
+吉布斯	PROPN	吉布斯
+（	PUNCT	（
+James	PROPN	James
+Gibbs	PROPN	Gibbs
+）	PUNCT	）
+设计	VERB	设计
+建造	VERB	建造
+，	PUNCT	，
+于	ADP	于
+1723	NUM	1723
+年	NOUN	年
+献堂	VERB	献堂
+。	PUNCT	。
+}
+Predicted: {
+目前	NOUN	目前
+的	PART	的
+教堂	NOUN	教堂
+由	VERB	由
+詹姆斯	PROPN	詹姆斯
+·	PUNCT	·
+吉布斯	PROPN	吉布斯
+（	PUNCT	（
+James	PROPN	james
+Gibbs	PROPN	gibbs
+）	PUNCT	）
+设计	VERB	设计
+建造	VERB	建造
+，	PUNCT	，
+于	ADP	于
+1723	NUM	1723
+年	NOUN	年
+献堂	VERB	献堂
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+James: James | james
+Gibbs: Gibbs | gibbs
+}
+
+Expected: {
+至	ADP	至
+70	NUM	70
+年代	NOUN	年代
+摇滚	VERB	摇滚
+乐	PART	乐
+进入	VERB	进入
+高峰	NOUN	高峰
+，	PUNCT	，
+不少	ADJ	不少
+乐队	NOUN	乐队
+藉	ADP	藉
+迷幻	ADJ	迷幻
+摇滚	NOUN	摇滚
+的	PART	的
+兴起	NOUN	兴起
+而	SCONJ	而
+成名	VERB	成名
+，	PUNCT	，
+如	VERB	如
+Magma	X	Magma
+、	PUNCT	、
+电话	NOUN	电话
+乐队	NOUN	乐队
+}
+Predicted: {
+至	ADP	至
+70	NUM	70
+年代	NOUN	年代
+摇滚	VERB	摇滚
+乐	PART	乐
+进入	VERB	进入
+高峰	NOUN	高峰
+，	PUNCT	，
+不少	ADJ	不少
+乐队	NOUN	乐队
+藉	ADP	藉
+迷幻	ADJ	迷幻
+摇滚	NOUN	摇滚
+的	PART	的
+兴起	NOUN	兴起
+而	SCONJ	而
+成名	VERB	成名
+，	PUNCT	，
+如	VERB	如
+Magma	X	magma
+、	PUNCT	、
+电话	NOUN	电话
+乐队	NOUN	乐队
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Magma: Magma | magma
+}
+
+Expected: {
+2008	NUM	2008
+年	NOUN	年
+，	PUNCT	，
+玛丽特	PROPN	玛丽特
+·	PUNCT	·
+拉森	PROPN	拉森
+第二	NUM	第二
+张	NOUN	张
+个人	ADJ	个人
+专辑	NOUN	专辑
+The	X	The
+Chase	X	Chase
+发行	VERB	发行
+。	PUNCT	。
+}
+Predicted: {
+2008	NUM	2008
+年	NOUN	年
+，	PUNCT	，
+玛丽特	PROPN	玛丽特
+·	PUNCT	·
+拉森	PROPN	拉森
+第二	NUM	第二
+张	NOUN	张
+个人	ADJ	个人
+专辑	NOUN	专辑
+The	X	the
+Chase	X	chase
+发行	VERB	发行
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+The: The | the
+Chase: Chase | chase
+}
+
+Expected: {
+科技	NOUN	科技
+创业	NOUN	创业
+（	PUNCT	（
+英	PROPN	英
+文	PART	文
+：	PUNCT	：
+Technology	X	Technology
+Review	X	Review
+）	PUNCT	）
+是	AUX	是
+由	VERB	由
+麻省	PROPN	麻省
+理工	NOUN	理工
+学院	NOUN	学院
+于	ADP	于
+1899	NUM	1899
+年	NOUN	年
+创刊	VERB	创刊
+的	SCONJ	的
+杂志	NOUN	杂志
+。	PUNCT	。
+}
+Predicted: {
+科技	NOUN	科技
+创业	NOUN	创业
+（	PUNCT	（
+英	PROPN	英
+文	PART	文
+：	PUNCT	：
+Technology	X	technology
+Review	X	review
+）	PUNCT	）
+是	AUX	是
+由	VERB	由
+麻省	PROPN	麻省
+理工	NOUN	理工
+学院	NOUN	学院
+于	ADP	于
+1899	NUM	1899
+年	NOUN	年
+创刊	VERB	创刊
+的	SCONJ	的
+杂志	NOUN	杂志
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Technology: Technology | technology
+Review: Review | review
+}
+
+Expected: {
+这	DET	这
+两	NUM	两
+个	NOUN	个
+人	NOUN	人
+费尽	VERB	费尽
+时间	NOUN	时间
+去	SCONJ	去
+搜罗	VERB	搜罗
+过去	NOUN	过去
+的	PART	的
+那些	DET	那些
+科幻	NOUN	科幻
+小说	NOUN	小说
+，	PUNCT	，
+电视	NOUN	电视
+剧	PART	剧
+，	PUNCT	，
+电影	NOUN	电影
+，	PUNCT	，
+接	VERB	接
+着	AUX	着
+他们	PRON	他
+在	ADP	在
+1998	NUM	1998
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+时	ADP	时
+与	ADP	与
+Fox	X	Fox
+电视	NOUN	电视
+台	PART	台
+谈妥	VERB	谈妥
+预	ADV	预
+发行	VERB	发行
+这	DET	这
+部	NOUN	部
+剧集	NOUN	剧集
+，	PUNCT	，
+此时	NOUN	此时
+Groening	X	Groening
+和	CCONJ	和
+Cohen	X	Cohen
+已经	ADV	已经
+敲订	VERB	敲订
+下	ADP	下
+剧中	NOUN	剧中
+许多	NUM	许多
+角色	NOUN	角色
+和	CCONJ	和
+故事	NOUN	故事
+主线	NOUN	主线
+。	PUNCT	。
+}
+Predicted: {
+这	DET	这
+两	NUM	两
+个	NOUN	个
+人	NOUN	人
+费尽	VERB	费尽
+时间	NOUN	时间
+去	SCONJ	去
+搜罗	VERB	搜罗
+过去	NOUN	过去
+的	PART	的
+那些	DET	那些
+科幻	NOUN	科幻
+小说	NOUN	小说
+，	PUNCT	，
+电视	NOUN	电视
+剧	PART	剧
+，	PUNCT	，
+电影	NOUN	电影
+，	PUNCT	，
+接	VERB	接
+着	AUX	着
+他们	PRON	他
+在	ADP	在
+1998	NUM	1998
+年	NOUN	年
+4	NUM	4
+月	NOUN	月
+时	ADP	时
+与	ADP	与
+Fox	X	fox
+电视	NOUN	电视
+台	PART	台
+谈妥	VERB	谈妥
+预	ADV	预
+发行	VERB	发行
+这	DET	这
+部	NOUN	部
+剧集	NOUN	剧集
+，	PUNCT	，
+此时	NOUN	此时
+Groening	X	groening
+和	CCONJ	和
+Cohen	X	cohen
+已经	ADV	已经
+敲订	VERB	敲订
+下	ADP	下
+剧中	NOUN	剧中
+许多	NUM	许多
+角色	NOUN	角色
+和	CCONJ	和
+故事	NOUN	故事
+主线	NOUN	主线
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Fox: Fox | fox
+Groening: Groening | groening
+Cohen: Cohen | cohen
+}
+
+Expected: {
+其中	NOUN	其中
+一	NUM	一
+项	NOUN	项
+为	VERB	为
+乘客	NOUN	乘客
+以	ADP	以
+同	DET	同
+一	NUM	一
+张	NOUN	张
+八	NUM	八
+达	VERB	达
+通	PART	通
+卡	PART	卡
+先后	ADV	先后
+缴付	VERB	缴付
+本线	NOUN	本线
+及	CCONJ	及
+85A	X	85A
+线	PART	线
+的	PART	的
+车资	NOUN	车资
+，	PUNCT	，
+次程	NOUN	次程
+可	AUX	可
+获得	VERB	获得
+优惠	NOUN	优惠
+。	PUNCT	。
+}
+Predicted: {
+其中	NOUN	其中
+一	NUM	一
+项	NOUN	项
+为	VERB	为
+乘客	NOUN	乘客
+以	ADP	以
+同	DET	同
+一	NUM	一
+张	NOUN	张
+八	NUM	八
+达	VERB	达
+通	PART	通
+卡	PART	卡
+先后	ADV	先后
+缴付	VERB	缴付
+本线	NOUN	本线
+及	CCONJ	及
+85A	X	85a
+线	PART	线
+的	PART	的
+车资	NOUN	车资
+，	PUNCT	，
+次程	NOUN	次程
+可	AUX	可
+获得	VERB	获得
+优惠	NOUN	优惠
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+85A: 85A | 85a
+}
+
+Expected: {
+在	ADP	在
+2004	NUM	2004
+年	NOUN	年
+，	PUNCT	，
+Daisuke	X	Daisuke
+Suzuki	X	Suzuki
+等	NOUN	等
+人	NOUN	人
+在	ADP	在
+重新	ADV	重新
+描述	VERB	描述
+日本龙	NOUN	日本龙
+时	ADP	时
+，	PUNCT	，
+发现	VERB	发现
+日本龙	NOUN	日本龙
+与	CCONJ	与
+斯氏亚冠龙	NOUN	斯氏亚冠龙
+之间	ADP	之间
+很	ADV	很
+亲密	ADJ	亲密
+，	PUNCT	，
+显示	VERB	显示
+亚冠龙	NOUN	亚冠龙
+可能	AUX	可能
+是	AUX	是
+并系	NOUN	并系
+群	PART	群
+的	PART	的
+。	PUNCT	。
+}
+Predicted: {
+在	ADP	在
+2004	NUM	2004
+年	NOUN	年
+，	PUNCT	，
+Daisuke	X	daisuke
+Suzuki	X	suzuki
+等	NOUN	等
+人	NOUN	人
+在	ADP	在
+重新	ADV	重新
+描述	VERB	描述
+日本龙	NOUN	日本龙
+时	ADP	时
+，	PUNCT	，
+发现	VERB	发现
+日本龙	NOUN	日本龙
+与	CCONJ	与
+斯氏亚冠龙	NOUN	斯氏亚冠龙
+之间	ADP	之间
+很	ADV	很
+亲密	ADJ	亲密
+，	PUNCT	，
+显示	VERB	显示
+亚冠龙	NOUN	亚冠龙
+可能	AUX	可能
+是	AUX	是
+并系	NOUN	并系
+群	PART	群
+的	PART	的
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Daisuke: Daisuke | daisuke
+Suzuki: Suzuki | suzuki
+}
+
+Expected: {
+所有	DET	所有
+Linux	X	Linux
+发行	VERB	发行
+版	PART	版
+都	SCONJ	都
+预先	ADV	预先
+设定	VERB	设定
+独特	ADJ	独特
+的	SCONJ	的
+键盘	NOUN	键盘
+布局	NOUN	布局
+。	PUNCT	。
+}
+Predicted: {
+所有	DET	所有
+Linux	X	linux
+发行	VERB	发行
+版	PART	版
+都	SCONJ	都
+预先	ADV	预先
+设定	VERB	设定
+独特	ADJ	独特
+的	SCONJ	的
+键盘	NOUN	键盘
+布局	NOUN	布局
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Linux: Linux | linux
+}
+
+Expected: {
+在	ADP	在
+1570	NUM	1570
+年	NOUN	年
+结束	VERB	结束
+，	PUNCT	，
+他	PRON	他
+被	AUX	被
+告知	VERB	告知
+他	PRON	他
+的	PART	的
+父亲	NOUN	父亲
+生病	VERB	生病
+，	PUNCT	，
+所以	SCONJ	所以
+他	PRON	他
+回到	VERB	回到
+Knudstrup	X	Knudstrup
+，	PUNCT	，
+他	PRON	他
+的	PART	的
+父亲	NOUN	父亲
+死	VERB	死
+于	ADP	于
+1571	NUM	1571
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+9	NUM	9
+日	NOUN	日
+。	PUNCT	。
+}
+Predicted: {
+在	ADP	在
+1570	NUM	1570
+年	NOUN	年
+结束	VERB	结束
+，	PUNCT	，
+他	PRON	他
+被	AUX	被
+告知	VERB	告知
+他	PRON	他
+的	PART	的
+父亲	NOUN	父亲
+生病	VERB	生病
+，	PUNCT	，
+所以	SCONJ	所以
+他	PRON	他
+回到	VERB	回到
+Knudstrup	X	knudstrup
+，	PUNCT	，
+他	PRON	他
+的	PART	的
+父亲	NOUN	父亲
+死	VERB	死
+于	ADP	于
+1571	NUM	1571
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+9	NUM	9
+日	NOUN	日
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Knudstrup: Knudstrup | knudstrup
+}
+
+Expected: {
+红木	PROPN	红木
+城	PART	城
+也是	AUX	是
+著名	ADJ	著名
+电脑	NOUN	电脑
+与	CCONJ	与
+电视	NOUN	电视
+游乐	VERB	游乐
+器	PART	器
+游戏	NOUN	游戏
+软体	NOUN	软体
+设计	NOUN	设计
+公司	NOUN	公司
+-	PUNCT	-
+艺电	PROPN	艺电
+（	PUNCT	（
+Electronic	X	Electronic
+Arts	X	Arts
+）	PUNCT	）
+公司	NOUN	公司
+的	PART	的
+全球	NOUN	全球
+总部	NOUN	总部
+所	SCONJ	所
+在	VERB	在
+地	PART	地
+。	PUNCT	。
+}
+Predicted: {
+红木	PROPN	红木
+城	PART	城
+也是	AUX	是
+著名	ADJ	著名
+电脑	NOUN	电脑
+与	CCONJ	与
+电视	NOUN	电视
+游乐	VERB	游乐
+器	PART	器
+游戏	NOUN	游戏
+软体	NOUN	软体
+设计	NOUN	设计
+公司	NOUN	公司
+-	PUNCT	-
+艺电	PROPN	艺电
+（	PUNCT	（
+Electronic	X	electronic
+Arts	X	arts
+）	PUNCT	）
+公司	NOUN	公司
+的	PART	的
+全球	NOUN	全球
+总部	NOUN	总部
+所	SCONJ	所
+在	VERB	在
+地	PART	地
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Electronic: Electronic | electronic
+Arts: Arts | arts
+}
+
+Expected: {
+奈米	NOUN	奈米
+技术	NOUN	技术
+可	AUX	可
+制造	VERB	制造
+出	VERB	出
+粒子	NOUN	粒子
+小	ADJ	小
+于	VERB	于
+人类	NOUN	人类
+血管	NOUN	血管
+大小	NOUN	大小
+的	SCONJ	的
+物体	NOUN	物体
+，	PUNCT	，
+美国	PROPN	美国
+国家	NOUN	国家
+标准	NOUN	标准
+与	CCONJ	与
+科技	NOUN	科技
+协会	NOUN	协会
+（	PUNCT	（
+NIST	X	NIST
+）	PUNCT	）
+指出	VERB	指出
+已	ADV	已
+研究	VERB	研究
+出	VERB	出
+一	NUM	一
+种	NOUN	种
+生产	VERB	生产
+一致	ADJ	一致
+的	SCONJ	的
+，	PUNCT	，
+且	SCONJ	且
+能够	AUX	能够
+自行	ADV	自行
+组合	VERB	组合
+的	SCONJ	的
+奈米	NOUN	奈米
+细胞	NOUN	细胞
+（	PUNCT	（
+Nanocells	X	Nanocells
+）	PUNCT	）
+的	SCONJ	的
+方法	NOUN	方法
+，	PUNCT	，
+以	SCONJ	以
+应用	VERB	应用
+在	ADP	在
+封装	VERB	封装
+压缩	VERB	压缩
+药物	NOUN	药物
+的	SCONJ	的
+治疗	NOUN	治疗
+工作	NOUN	工作
+上	ADP	上
+，	PUNCT	，
+目前	NOUN	目前
+该	DET	该
+技术	NOUN	技术
+已	ADV	已
+提出	VERB	提出
+专利	NOUN	专利
+申请	NOUN	申请
+。	PUNCT	。
+}
+Predicted: {
+奈米	NOUN	奈米
+技术	NOUN	技术
+可	AUX	可
+制造	VERB	制造
+出	VERB	出
+粒子	NOUN	粒子
+小	ADJ	小
+于	VERB	于
+人类	NOUN	人类
+血管	NOUN	血管
+大小	NOUN	大小
+的	SCONJ	的
+物体	NOUN	物体
+，	PUNCT	，
+美国	PROPN	美国
+国家	NOUN	国家
+标准	NOUN	标准
+与	CCONJ	与
+科技	NOUN	科技
+协会	NOUN	协会
+（	PUNCT	（
+NIST	X	nist
+）	PUNCT	）
+指出	VERB	指出
+已	ADV	已
+研究	VERB	研究
+出	VERB	出
+一	NUM	一
+种	NOUN	种
+生产	VERB	生产
+一致	ADJ	一致
+的	SCONJ	的
+，	PUNCT	，
+且	SCONJ	且
+能够	AUX	能够
+自行	ADV	自行
+组合	VERB	组合
+的	SCONJ	的
+奈米	NOUN	奈米
+细胞	NOUN	细胞
+（	PUNCT	（
+Nanocells	X	nanocells
+）	PUNCT	）
+的	SCONJ	的
+方法	NOUN	方法
+，	PUNCT	，
+以	SCONJ	以
+应用	VERB	应用
+在	ADP	在
+封装	VERB	封装
+压缩	VERB	压缩
+药物	NOUN	药物
+的	SCONJ	的
+治疗	NOUN	治疗
+工作	NOUN	工作
+上	ADP	上
+，	PUNCT	，
+目前	NOUN	目前
+该	DET	该
+技术	NOUN	技术
+已	ADV	已
+提出	VERB	提出
+专利	NOUN	专利
+申请	NOUN	申请
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+NIST: NIST | nist
+Nanocells: Nanocells | nanocells
+}
+
+Expected: {
+维基	PROPN	维基
+百科	NOUN	百科
+早期	NOUN	早期
+仍然	ADV	仍然
+只	ADV	只
+使用	VERB	使用
+一	NUM	一
+台	NOUN	台
+伺服	VERB	伺服
+器	PART	器
+来	SCONJ	来
+支撑	VERB	支撑
+软体	NOUN	软体
+架构	NOUN	架构
+，	PUNCT	，
+2004	NUM	2004
+年	NOUN	年
+后	ADP	后
+将	ADP	将
+伺服	VERB	伺服
+器	PART	器
+改	VERB	改
+使用	VERB	使用
+分布	VERB	分布
+式	PART	式
+的	PART	的
+多	NUM	多
+层次	NOUN	层次
+架构	NOUN	架构
+（	PUNCT	（
+Multitier	X	Multitier
+architecture	X	architecture
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+维基	PROPN	维基
+百科	NOUN	百科
+早期	NOUN	早期
+仍然	ADV	仍然
+只	ADV	只
+使用	VERB	使用
+一	NUM	一
+台	NOUN	台
+伺服	VERB	伺服
+器	PART	器
+来	SCONJ	来
+支撑	VERB	支撑
+软体	NOUN	软体
+架构	NOUN	架构
+，	PUNCT	，
+2004	NUM	2004
+年	NOUN	年
+后	ADP	后
+将	ADP	将
+伺服	VERB	伺服
+器	PART	器
+改	VERB	改
+使用	VERB	使用
+分布	VERB	分布
+式	PART	式
+的	PART	的
+多	NUM	多
+层次	NOUN	层次
+架构	NOUN	架构
+（	PUNCT	（
+Multitier	X	multitier
+architecture	X	architecture
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Multitier: Multitier | multitier
+}
+
+Expected: {
+费雪	PROPN	费雪
+除	VERB	除
+了	AUX	了
+在	ADP	在
+其中	NOUN	其中
+担任	VERB	担任
+一	NUM	一
+名	NOUN	名
+统计	VERB	统计
+员	PART	员
+之外	ADP	之外
+，	PUNCT	，
+所长	NOUN	所长
+约翰	PROPN	约翰
+·	PUNCT	·
+罗素	NOUN	罗素
+（	PUNCT	（
+John	X	John
+Russell	X	Russell
+）	PUNCT	）
+也	SCONJ	也
+让	VERB	让
+他	PRON	他
+设立	VERB	设立
+了	AUX	了
+一	NUM	一
+个	NOUN	个
+统计	NOUN	统计
+实验	NOUN	实验
+室	PART	室
+。	PUNCT	。
+}
+Predicted: {
+费雪	PROPN	费雪
+除	VERB	除
+了	AUX	了
+在	ADP	在
+其中	NOUN	其中
+担任	VERB	担任
+一	NUM	一
+名	NOUN	名
+统计	VERB	统计
+员	PART	员
+之外	ADP	之外
+，	PUNCT	，
+所长	NOUN	所长
+约翰	PROPN	约翰
+·	PUNCT	·
+罗素	NOUN	罗素
+（	PUNCT	（
+John	X	john
+Russell	X	russell
+）	PUNCT	）
+也	SCONJ	也
+让	VERB	让
+他	PRON	他
+设立	VERB	设立
+了	AUX	了
+一	NUM	一
+个	NOUN	个
+统计	NOUN	统计
+实验	NOUN	实验
+室	PART	室
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+John: John | john
+Russell: Russell | russell
+}
+
+Expected: {
+羞耻	NOUN	羞耻
+（	PUNCT	（
+Shame	X	Shame
+）	PUNCT	）
+，	PUNCT	，
+为	AUX	为
+一	NUM	一
+种	NOUN	种
+情感	NOUN	情感
+、	PUNCT	、
+情绪	NOUN	情绪
+、	PUNCT	、
+认知	NOUN	认知
+、	PUNCT	、
+状态	NOUN	状态
+或	CCONJ	或
+条件	NOUN	条件
+。	PUNCT	。
+}
+Predicted: {
+羞耻	NOUN	羞耻
+（	PUNCT	（
+Shame	X	shame
+）	PUNCT	）
+，	PUNCT	，
+为	AUX	为
+一	NUM	一
+种	NOUN	种
+情感	NOUN	情感
+、	PUNCT	、
+情绪	NOUN	情绪
+、	PUNCT	、
+认知	NOUN	认知
+、	PUNCT	、
+状态	NOUN	状态
+或	CCONJ	或
+条件	NOUN	条件
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Shame: Shame | shame
+}
+
+Expected: {
+2006	NUM	2006
+年	NOUN	年
+1	NUM	1
+月	NOUN	月
+，	PUNCT	，
+卡拉维拿	PROPN	卡拉维拿
+转赴	VERB	转赴
+荷兰	PROPN	荷兰
+发展	VERB	发展
+，	PUNCT	，
+加盟	VERB	加盟
+Omniworld	X	Omniworld
+。	PUNCT	。
+}
+Predicted: {
+2006	NUM	2006
+年	NOUN	年
+1	NUM	1
+月	NOUN	月
+，	PUNCT	，
+卡拉维拿	PROPN	卡拉维拿
+转赴	VERB	转赴
+荷兰	PROPN	荷兰
+发展	VERB	发展
+，	PUNCT	，
+加盟	VERB	加盟
+Omniworld	X	omniworld
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Omniworld: Omniworld | omniworld
+}
+
+Expected: {
+在此	VERB	在此
+之后	ADP	之后
+她	PRON	她
+开始	VERB	开始
+和	ADP	和
+另外	DET	另外
+一	NUM	一
+位	NOUN	位
+希腊	PROPN	希腊
+船业	NOUN	船业
+继承	VERB	继承
+人	PART	人
+Stavros	X	Stavros
+Niarchos	X	Niarchos
+III	X	III
+约会	VERB	约会
+，	PUNCT	，
+但是	SCONJ	但是
+到	VERB	到
+了	AUX	了
+2006	NUM	2006
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+芭黎丝	PROPN	芭黎丝
+的	PART	的
+发言	VERB	发言
+人	PART	人
+Elliot	X	Elliot
+Mintz	X	Mintz
+告诉	VERB	告诉
+媒体	NOUN	媒体
+他们	PRON	他
+两	NUM	两
+人	NOUN	人
+已经	ADV	已经
+分手	VERB	分手
+的	SCONJ	的
+消息	NOUN	消息
+。	PUNCT	。
+}
+Predicted: {
+在此	VERB	在此
+之后	ADP	之后
+她	PRON	她
+开始	VERB	开始
+和	ADP	和
+另外	DET	另外
+一	NUM	一
+位	NOUN	位
+希腊	PROPN	希腊
+船业	NOUN	船业
+继承	VERB	继承
+人	PART	人
+Stavros	X	stavros
+Niarchos	X	niarchos
+III	X	iii
+约会	VERB	约会
+，	PUNCT	，
+但是	SCONJ	但是
+到	VERB	到
+了	AUX	了
+2006	NUM	2006
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+芭黎丝	PROPN	芭黎丝
+的	PART	的
+发言	VERB	发言
+人	PART	人
+Elliot	X	elliot
+Mintz	X	mintz
+告诉	VERB	告诉
+媒体	NOUN	媒体
+他们	PRON	他
+两	NUM	两
+人	NOUN	人
+已经	ADV	已经
+分手	VERB	分手
+的	SCONJ	的
+消息	NOUN	消息
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Stavros: Stavros | stavros
+Niarchos: Niarchos | niarchos
+III: III | iii
+Elliot: Elliot | elliot
+Mintz: Mintz | mintz
+}
+
+Expected: {
+法格拿	PROPN	法格拿
+现	NOUN	现
+效力	VERB	效力
+K	X	K
+联赛	NOUN	联赛
+球队	NOUN	球队
+釜山	PROPN	釜山
+IPark	X	IPark
+。	PUNCT	。
+}
+Predicted: {
+法格拿	PROPN	法格拿
+现	NOUN	现
+效力	VERB	效力
+K	X	k
+联赛	NOUN	联赛
+球队	NOUN	球队
+釜山	PROPN	釜山
+IPark	X	ipark
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+K: K | k
+IPark: IPark | ipark
+}
+
+Expected: {
+她	PRON	她
+的	PART	的
+WTA	X	WTA
+生涯	NOUN	生涯
+最高	ADJ	最高
+单	NUM	单
+打	VERB	打
+排名	NOUN	排名
+为	AUX	为
+第28	NUM	第28
+（	PUNCT	（
+2012	NUM	2012
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+27	NUM	27
+日	NOUN	日
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+她	PRON	她
+的	PART	的
+WTA	X	wta
+生涯	NOUN	生涯
+最高	ADJ	最高
+单	NUM	单
+打	VERB	打
+排名	NOUN	排名
+为	AUX	为
+第28	NUM	第28
+（	PUNCT	（
+2012	NUM	2012
+年	NOUN	年
+2	NUM	2
+月	NOUN	月
+27	NUM	27
+日	NOUN	日
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+WTA: WTA | wta
+}
+
+Expected: {
+1620	NUM	1620
+年	NOUN	年
+，	PUNCT	，
+他们	PRON	他
+乘	VERB	乘
+“	PUNCT	“
+五	NUM	五
+月	NOUN	月
+花	PART	花
+号	PART	号
+”	PUNCT	”
+（	PUNCT	（
+Mayflower	X	Mayflower
+）	PUNCT	）
+出发	VERB	出发
+赴	VERB	赴
+新	PART	新
+大陆	NOUN	大陆
+（	PUNCT	（
+New	X	New
+World	X	World
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+1620	NUM	1620
+年	NOUN	年
+，	PUNCT	，
+他们	PRON	他
+乘	VERB	乘
+“	PUNCT	“
+五	NUM	五
+月	NOUN	月
+花	PART	花
+号	PART	号
+”	PUNCT	”
+（	PUNCT	（
+Mayflower	X	mayflower
+）	PUNCT	）
+出发	VERB	出发
+赴	VERB	赴
+新	PART	新
+大陆	NOUN	大陆
+（	PUNCT	（
+New	X	new
+World	X	world
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Mayflower: Mayflower | mayflower
+New: New | new
+World: World | world
+}
+
+Expected: {
+18	NUM	18
+世纪	NOUN	世纪
+末	ADP	末
+萨卡拉瓦	PROPN	萨卡拉瓦
+王国	NOUN	王国
+衰落	VERB	衰落
+，	PUNCT	，
+扩展	VERB	扩展
+中	ADP	中
+的	SCONJ	的
+梅里纳	PROPN	梅里纳
+（	PUNCT	（
+Merina	X	Merina
+）	PUNCT	）
+王国	NOUN	王国
+成	VERB	成
+为	VERB	为
+该	DET	该
+地区	NOUN	地区
+名义	NOUN	名义
+上	ADP	上
+的	PART	的
+霸主	NOUN	霸主
+。	PUNCT	。
+}
+Predicted: {
+18	NUM	18
+世纪	NOUN	世纪
+末	ADP	末
+萨卡拉瓦	PROPN	萨卡拉瓦
+王国	NOUN	王国
+衰落	VERB	衰落
+，	PUNCT	，
+扩展	VERB	扩展
+中	ADP	中
+的	SCONJ	的
+梅里纳	PROPN	梅里纳
+（	PUNCT	（
+Merina	X	merina
+）	PUNCT	）
+王国	NOUN	王国
+成	VERB	成
+为	VERB	为
+该	DET	该
+地区	NOUN	地区
+名义	NOUN	名义
+上	ADP	上
+的	PART	的
+霸主	NOUN	霸主
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Merina: Merina | merina
+}
+
+Expected: {
+经过	ADP	经过
+几	NUM	几
+次	NOUN	次
+谈判	NOUN	谈判
+，	PUNCT	，
+双	NUM	双
+方	NOUN	方
+同意	VERB	同意
+合并	VERB	合并
+，	PUNCT	，
+新	PART	新
+公司	NOUN	公司
+由	VERB	由
+Caen	X	Caen
+家族	NOUN	家族
+经营	VERB	经营
+。	PUNCT	。
+}
+Predicted: {
+经过	ADP	经过
+几	NUM	几
+次	NOUN	次
+谈判	NOUN	谈判
+，	PUNCT	，
+双	NUM	双
+方	NOUN	方
+同意	VERB	同意
+合并	VERB	合并
+，	PUNCT	，
+新	PART	新
+公司	NOUN	公司
+由	VERB	由
+Caen	X	caen
+家族	NOUN	家族
+经营	VERB	经营
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Caen: Caen | caen
+}
+
+Expected: {
+因	ADP	因
+此	PRON	此
+在	VERB	在
+继续	VERB	继续
+往	VERB	往
+教堂	NOUN	教堂
+的	SCONJ	的
+路上	NOUN	路上
+，	PUNCT	，
+Ingeri	X	Ingeri
+尖酸	ADV	尖酸
+嘲讽	VERB	嘲讽
+Karin	X	Karin
+，	PUNCT	，
+Karin	X	Karin
+打	VERB	打
+了	AUX	了
+她	PRON	她
+一	NUM	一
+记	NOUN	记
+耳光	NOUN	耳光
+。	PUNCT	。
+}
+Predicted: {
+因	ADP	因
+此	PRON	此
+在	VERB	在
+继续	VERB	继续
+往	VERB	往
+教堂	NOUN	教堂
+的	SCONJ	的
+路上	NOUN	路上
+，	PUNCT	，
+Ingeri	X	ingeri
+尖酸	ADV	尖酸
+嘲讽	VERB	嘲讽
+Karin	X	karin
+，	PUNCT	，
+Karin	X	karin
+打	VERB	打
+了	AUX	了
+她	PRON	她
+一	NUM	一
+记	NOUN	记
+耳光	NOUN	耳光
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ingeri: Ingeri | ingeri
+Karin: Karin | karin
+Karin: Karin | karin
+}
+
+Expected: {
+而	SCONJ	而
+经过	VERB	经过
+2007	NUM	2007
+年	NOUN	年
+12	NUM	12
+月	NOUN	月
+一	NUM	一
+次	NOUN	次
+作品	NOUN	作品
+的	PART	的
+版权	NOUN	版权
+问题	NOUN	问题
+后	ADP	后
+，	PUNCT	，
+CRYPTON	X	CRYPTON
+更	ADV	更
+想	AUX	想
+以	ADP	以
+此	PRON	此
+提供	VERB	提供
+给	ADP	给
+用户	NOUN	用户
+一	NUM	一
+个	NOUN	个
+版权	NOUN	版权
+限制	NOUN	限制
+更	ADV	更
+适合	VERB	适合
+网上	NOUN	网上
+创作	VERB	创作
+的	SCONJ	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Predicted: {
+而	SCONJ	而
+经过	VERB	经过
+2007	NUM	2007
+年	NOUN	年
+12	NUM	12
+月	NOUN	月
+一	NUM	一
+次	NOUN	次
+作品	NOUN	作品
+的	PART	的
+版权	NOUN	版权
+问题	NOUN	问题
+后	ADP	后
+，	PUNCT	，
+CRYPTON	X	crypton
+更	ADV	更
+想	AUX	想
+以	ADP	以
+此	PRON	此
+提供	VERB	提供
+给	ADP	给
+用户	NOUN	用户
+一	NUM	一
+个	NOUN	个
+版权	NOUN	版权
+限制	NOUN	限制
+更	ADV	更
+适合	VERB	适合
+网上	NOUN	网上
+创作	VERB	创作
+的	SCONJ	的
+地方	NOUN	地方
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+CRYPTON: CRYPTON | crypton
+}
+
+Expected: {
+贝纳斯科	PROPN	贝纳斯科
+（	PUNCT	（
+意大利	PROPN	意大利
+语	PART	语
+：	PUNCT	：
+Beinasco	X	Beinasco
+）	PUNCT	）
+，	PUNCT	，
+是	AUX	是
+意大利	PROPN	意大利
+皮埃蒙特	PROPN	皮埃蒙特
+大区	NOUN	大区
+都灵	PROPN	都灵
+省	PART	省
+的	PART	的
+一	NUM	一
+个	NOUN	个
+市镇	NOUN	市镇
+。	PUNCT	。
+}
+Predicted: {
+贝纳斯科	PROPN	贝纳斯科
+（	PUNCT	（
+意大利	PROPN	意大利
+语	PART	语
+：	PUNCT	：
+Beinasco	X	beinasco
+）	PUNCT	）
+，	PUNCT	，
+是	AUX	是
+意大利	PROPN	意大利
+皮埃蒙特	PROPN	皮埃蒙特
+大区	NOUN	大区
+都灵	PROPN	都灵
+省	PART	省
+的	PART	的
+一	NUM	一
+个	NOUN	个
+市镇	NOUN	市镇
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Beinasco: Beinasco | beinasco
+}
+
+Expected: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+许多	NUM	许多
+建议	NOUN	建议
+，	PUNCT	，
+另	DET	另
+一些	NUM	一些
+建议	NOUN	建议
+则	SCONJ	则
+被	AUX	被
+否决	VERB	否决
+或	CCONJ	或
+认为	VERB	为
+时机	NOUN	时机
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+，	PUNCT	，
+实际	NOUN	实际
+上	ADP	上
+全部	DET	全部
+建议	NOUN	建议
+最后	NOUN	最后
+仍是	ADV	仍是
+没有	VERB	有
+落实	VERB	落实
+。	PUNCT	。
+}
+Predicted: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+许多	NUM	许多
+建议	NOUN	建议
+，	PUNCT	，
+另	DET	另
+一些	NUM	一些
+建议	NOUN	建议
+则	SCONJ	则
+被	AUX	被
+否决	VERB	否决
+或	CCONJ	或
+认为	VERB	为
+时机	NOUN	时机
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+，	PUNCT	，
+实际	NOUN	实际
+上	ADP	上
+全部	DET	全部
+建议	NOUN	建议
+最后	NOUN	最后
+仍是	ADV	是
+没有	VERB	有
+落实	VERB	落实
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+仍是: 仍是 | 是
+}
+
+Expected: {
+另外	ADV	另外
+、	PUNCT	、
+在	ADP	在
+本作	NOUN	本作
+中	ADP	中
+都	SCONJ	都
+通称	VERB	通称
+为	VERB	为
+爱娜	PROPN	爱娜
+、	PUNCT	、
+爱娜兹薇	PROPN	爱娜兹薇
+的	SCONJ	的
+名字	NOUN	名字
+由来	NOUN	由来
+则是	SCONJ	则是
+来	VERB	来
+自	VERB	自
+于	VERB	于
+情报	NOUN	情报
+志	PART	志
+的	PART	的
+『	PUNCT	『
+超重	ADJ	超重
+神	PART	神
+Gravion	X	Gravion
+Gravion	X	Gravion
+设定	VERB	设定
+书	PART	书
+』	PUNCT	』
+的	PART	的
+设定	NOUN	设定
+资料	NOUN	资料
+。	PUNCT	。
+}
+Predicted: {
+另外	ADV	另外
+、	PUNCT	、
+在	ADP	在
+本作	NOUN	本作
+中	ADP	中
+都	SCONJ	都
+通称	VERB	通称
+为	VERB	为
+爱娜	PROPN	爱娜
+、	PUNCT	、
+爱娜兹薇	PROPN	爱娜兹薇
+的	SCONJ	的
+名字	NOUN	名字
+由来	NOUN	由来
+则是	SCONJ	则是
+来	VERB	来
+自	VERB	自
+于	VERB	于
+情报	NOUN	情报
+志	PART	志
+的	PART	的
+『	PUNCT	『
+超重	ADJ	超重
+神	PART	神
+Gravion	X	gravion
+Gravion	X	gravion
+设定	VERB	设定
+书	PART	书
+』	PUNCT	』
+的	PART	的
+设定	NOUN	设定
+资料	NOUN	资料
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Gravion: Gravion | gravion
+Gravion: Gravion | gravion
+}
+
+Expected: {
+AEG	DET	AEG
+的	PART	的
+模型	NOUN	模型
+范围	NOUN	范围
+从	ADP	从
+简单	ADJ	简单
+的	SCONJ	的
+手枪	NOUN	手枪
+、	PUNCT	、
+冲锋	VERB	冲锋
+枪	PART	枪
+、	PUNCT	、
+步枪	NOUN	步枪
+、	PUNCT	、
+突击	NOUN	突击
+步枪	NOUN	步枪
+一直	ADV	一直
+覆盖	VERB	覆盖
+到	VERB	到
+轻	PART	轻
+/	PUNCT	/
+重	PART	重
+机枪	NOUN	机枪
+。	PUNCT	。
+}
+Predicted: {
+AEG	DET	aeg
+的	PART	的
+模型	NOUN	模型
+范围	NOUN	范围
+从	ADP	从
+简单	ADJ	简单
+的	SCONJ	的
+手枪	NOUN	手枪
+、	PUNCT	、
+冲锋	VERB	冲锋
+枪	PART	枪
+、	PUNCT	、
+步枪	NOUN	步枪
+、	PUNCT	、
+突击	NOUN	突击
+步枪	NOUN	步枪
+一直	ADV	一直
+覆盖	VERB	覆盖
+到	VERB	到
+轻	PART	轻
+/	PUNCT	/
+重	PART	重
+机枪	NOUN	机枪
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+AEG: AEG | aeg
+}
+
+Expected: {
+返朴归真	VERB	返朴归真
+（	PUNCT	（
+英	PROPN	英
+语	PART	语
+：	PUNCT	：
+Return	X	Return
+to	X	to
+Innocence	X	Innocence
+）	PUNCT	）
+是	AUX	是
+1994	NUM	1994
+年	NOUN	年
+由	VERB	由
+德国	PROPN	德国
+音乐	NOUN	音乐
+团体	NOUN	团体
+英格玛	PROPN	英格玛
+创作	VERB	创作
+的	SCONJ	的
+单	NUM	单
+曲	NOUN	曲
+。	PUNCT	。
+}
+Predicted: {
+返朴归真	VERB	返朴归真
+（	PUNCT	（
+英	PROPN	英
+语	PART	语
+：	PUNCT	：
+Return	X	return
+to	X	to
+Innocence	X	innocence
+）	PUNCT	）
+是	AUX	是
+1994	NUM	1994
+年	NOUN	年
+由	VERB	由
+德国	PROPN	德国
+音乐	NOUN	音乐
+团体	NOUN	团体
+英格玛	PROPN	英格玛
+创作	VERB	创作
+的	SCONJ	的
+单	NUM	单
+曲	NOUN	曲
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Return: Return | return
+Innocence: Innocence | innocence
+}
+
+Expected: {
+与	ADP	与
+此	PRON	此
+同时	NOUN	同时
+，	PUNCT	，
+由	VERB	由
+台北	PROPN	台北
+研发	VERB	研发
+部	PART	部
+研发	VERB	研发
+的	SCONJ	的
+本	DET	本
+系列	NOUN	系列
+作品	NOUN	作品
+唯一	ADJ	唯一
+一	NUM	一
+部	NOUN	部
+网路	NOUN	网路
+游戏	NOUN	游戏
+《	PUNCT	《
+仙剑	NOUN	仙剑
+Online	X	Online
+》	PUNCT	》
+也	SCONJ	也
+先后	ADV	先后
+在	VERB	在
+两	NUM	两
+岸	NOUN	岸
+三	NUM	三
+地	NOUN	地
+以及	CCONJ	以及
+新马	PROPN	新马
+等	NOUN	等
+地	NOUN	地
+推出	VERB	推出
+。	PUNCT	。
+}
+Predicted: {
+与	ADP	与
+此	PRON	此
+同时	NOUN	同时
+，	PUNCT	，
+由	VERB	由
+台北	PROPN	台北
+研发	VERB	研发
+部	PART	部
+研发	VERB	研发
+的	SCONJ	的
+本	DET	本
+系列	NOUN	系列
+作品	NOUN	作品
+唯一	ADJ	唯一
+一	NUM	一
+部	NOUN	部
+网路	NOUN	网路
+游戏	NOUN	游戏
+《	PUNCT	《
+仙剑	NOUN	仙剑
+Online	X	online
+》	PUNCT	》
+也	SCONJ	也
+先后	ADV	先后
+在	VERB	在
+两	NUM	两
+岸	NOUN	岸
+三	NUM	三
+地	NOUN	地
+以及	CCONJ	以及
+新马	PROPN	新马
+等	NOUN	等
+地	NOUN	地
+推出	VERB	推出
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Online: Online | online
+}
+
+Expected: {
+伍德	PROPN	伍德
+郡	PART	郡
+（	PUNCT	（
+Wood	X	Wood
+County	X	County
+，	PUNCT	，
+Texas	X	Texas
+）	PUNCT	）
+是	AUX	是
+美国	PROPN	美国
+德克萨斯	PROPN	德克萨斯
+州	PART	州
+东北	NOUN	东北
+部	PART	部
+的	PART	的
+一	NUM	一
+个	NOUN	个
+郡	NOUN	郡
+。	PUNCT	。
+}
+Predicted: {
+伍德	PROPN	伍德
+郡	PART	郡
+（	PUNCT	（
+Wood	X	wood
+County	X	county
+，	PUNCT	，
+Texas	X	texas
+）	PUNCT	）
+是	AUX	是
+美国	PROPN	美国
+德克萨斯	PROPN	德克萨斯
+州	PART	州
+东北	NOUN	东北
+部	PART	部
+的	PART	的
+一	NUM	一
+个	NOUN	个
+郡	NOUN	郡
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Wood: Wood | wood
+County: County | county
+Texas: Texas | texas
+}
+
+Expected: {
+第一	NUM	第一
+位	NOUN	位
+得奖	VERB	得奖
+的	SCONJ	的
+优秀	ADJ	优秀
+毕业	VERB	毕业
+生	PART	生
+是	AUX	是
+Dorian	X	Dorian
+Recordon	X	Recordon
+。	PUNCT	。
+}
+Predicted: {
+第一	NUM	第一
+位	NOUN	位
+得奖	VERB	得奖
+的	SCONJ	的
+优秀	ADJ	优秀
+毕业	VERB	毕业
+生	PART	生
+是	AUX	是
+Dorian	X	dorian
+Recordon	X	recordon
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Dorian: Dorian | dorian
+Recordon: Recordon | recordon
+}
+
+Expected: {
+尽管	ADP	尽管
+波特威瑟	PROPN	波特威瑟
+和	CCONJ	和
+戴维斯	PROPN	戴维斯
+希望	VERB	希望
+重现	VERB	重现
+原著	NOUN	原著
+的	PART	的
+精神	NOUN	精神
+和	CCONJ	和
+语调	NOUN	语调
+，	PUNCT	，
+他们	PRON	他
+想	AUX	想
+制作	VERB	制作
+一	NUM	一
+部	NOUN	部
+“	PUNCT	“
+关于	ADP	关于
+真实	ADJ	真实
+人物	NOUN	人物
+的	PART	的
+新鲜	ADJ	新鲜
+生动	ADJ	生动
+的	SCONJ	的
+故事	NOUN	故事
+”	PUNCT	”
+，	PUNCT	，
+而	SCONJ	而
+不是	AUX	是
+“	PUNCT	“
+周日	NOUN	周日
+下午	NOUN	下午
+茶	PART	茶
+间隙	NOUN	间隙
+播放	VERB	播放
+的	SCONJ	的
+老套	ADJ	老套
+BBC	X	BBC
+剧情	NOUN	剧情
+片	PART	片
+”	PUNCT	”
+。	PUNCT	。
+}
+Predicted: {
+尽管	ADP	尽管
+波特威瑟	PROPN	波特威瑟
+和	CCONJ	和
+戴维斯	PROPN	戴维斯
+希望	VERB	希望
+重现	VERB	重现
+原著	NOUN	原著
+的	PART	的
+精神	NOUN	精神
+和	CCONJ	和
+语调	NOUN	语调
+，	PUNCT	，
+他们	PRON	他
+想	AUX	想
+制作	VERB	制作
+一	NUM	一
+部	NOUN	部
+“	PUNCT	“
+关于	ADP	关于
+真实	ADJ	真实
+人物	NOUN	人物
+的	PART	的
+新鲜	ADJ	新鲜
+生动	ADJ	生动
+的	SCONJ	的
+故事	NOUN	故事
+”	PUNCT	”
+，	PUNCT	，
+而	SCONJ	而
+不是	AUX	是
+“	PUNCT	“
+周日	NOUN	周日
+下午	NOUN	下午
+茶	PART	茶
+间隙	NOUN	间隙
+播放	VERB	播放
+的	SCONJ	的
+老套	ADJ	老套
+BBC	X	bbc
+剧情	NOUN	剧情
+片	PART	片
+”	PUNCT	”
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+BBC: BBC | bbc
+}
+
+Expected: {
+在	VERB	在
+日本	PROPN	日本
+有些	VERB	有些
+置物	VERB	置物
+柜	PART	柜
+除	VERB	除
+了	AUX	了
+现金	NOUN	现金
+，	PUNCT	，
+也	SCONJ	也
+接受	VERB	接受
+使用	VERB	使用
+Suica	X	Suica
+或	CCONJ	或
+PASMO	X	PASMO
+卡	PART	卡
+，	PUNCT	，
+取物	VERB	取物
+时	ADP	时
+使用	VERB	使用
+同	DET	同
+一	NUM	一
+卡片	NOUN	卡片
+即	SCONJ	即
+可	AUX	可
+开启	VERB	开启
+，	PUNCT	，
+不需	AUX	需
+输入	VERB	输入
+密码	NOUN	密码
+。	PUNCT	。
+}
+Predicted: {
+在	VERB	在
+日本	PROPN	日本
+有些	VERB	有些
+置物	VERB	置物
+柜	PART	柜
+除	VERB	除
+了	AUX	了
+现金	NOUN	现金
+，	PUNCT	，
+也	SCONJ	也
+接受	VERB	接受
+使用	VERB	使用
+Suica	X	suica
+或	CCONJ	或
+PASMO	X	pasmo
+卡	PART	卡
+，	PUNCT	，
+取物	VERB	取物
+时	ADP	时
+使用	VERB	使用
+同	DET	同
+一	NUM	一
+卡片	NOUN	卡片
+即	SCONJ	即
+可	AUX	可
+开启	VERB	开启
+，	PUNCT	，
+不需	AUX	需
+输入	VERB	输入
+密码	NOUN	密码
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Suica: Suica | suica
+PASMO: PASMO | pasmo
+}
+
+Expected: {
+本	DET	本
+节目	NOUN	节目
+由	VERB	由
+Nikon	X	Nikon
+数码	NOUN	数码
+相机	NOUN	相机
+特约	VERB	特约
+赞助	VERB	赞助
+，	PUNCT	，
+故称	VERB	故称
+《	PUNCT	《
+Nikon	X	Nikon
+数码	NOUN	数码
+相机	NOUN	相机
+特约	VERB	特约
+：	PUNCT	：
+冰天	NOUN	冰天
+动地	NOUN	动地
+》	PUNCT	》
+。	PUNCT	。
+}
+Predicted: {
+本	DET	本
+节目	NOUN	节目
+由	VERB	由
+Nikon	X	nikon
+数码	NOUN	数码
+相机	NOUN	相机
+特约	VERB	特约
+赞助	VERB	赞助
+，	PUNCT	，
+故称	VERB	故称
+《	PUNCT	《
+Nikon	X	nikon
+数码	NOUN	数码
+相机	NOUN	相机
+特约	VERB	特约
+：	PUNCT	：
+冰天	NOUN	冰天
+动地	NOUN	动地
+》	PUNCT	》
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Nikon: Nikon | nikon
+Nikon: Nikon | nikon
+}
+
+Expected: {
+凯瑟琳	PROPN	凯瑟琳
+·	PUNCT	·
+蒂泽德	PROPN	蒂泽德
+女	NOUN	女
+爵士	NOUN	爵士
+，	PUNCT	，
+ONZ	X	ONZ
+，	PUNCT	，
+GCMG	X	GCMG
+，	PUNCT	，
+GCVO	X	GCVO
+，	PUNCT	，
+DBE	X	DBE
+，	PUNCT	，
+QSO	X	QSO
+（	PUNCT	（
+Dame	X	Dame
+Catherine	X	Catherine
+Tizard	X	Tizard
+）	PUNCT	）
+（	PUNCT	（
+neé	X	neé
+Catherine	X	Catherine
+Anne	X	Anne
+MacLean	X	MacLean
+）	PUNCT	）
+纽西兰	PROPN	纽西兰
+总督	NOUN	总督
+，	PUNCT	，
+她	PRON	她
+是	AUX	是
+纽西兰	PROPN	纽西兰
+历史	NOUN	历史
+上	ADP	上
+首位	NUM	首位
+女性	NOUN	女性
+总督	NOUN	总督
+，	PUNCT	，
+也是	AUX	是
+第一	NUM	第一
+位	NOUN	位
+女性	NOUN	女性
+奥克兰	PROPN	奥克兰
+市长	NOUN	市长
+。	PUNCT	。
+}
+Predicted: {
+凯瑟琳	PROPN	凯瑟琳
+·	PUNCT	·
+蒂泽德	PROPN	蒂泽德
+女	NOUN	女
+爵士	NOUN	爵士
+，	PUNCT	，
+ONZ	X	onz
+，	PUNCT	，
+GCMG	X	gcmg
+，	PUNCT	，
+GCVO	X	gcvo
+，	PUNCT	，
+DBE	X	dbe
+，	PUNCT	，
+QSO	X	qso
+（	PUNCT	（
+Dame	X	dame
+Catherine	X	catherine
+Tizard	X	tizard
+）	PUNCT	）
+（	PUNCT	（
+neé	X	neé
+Catherine	X	catherine
+Anne	X	anne
+MacLean	X	maclean
+）	PUNCT	）
+纽西兰	PROPN	纽西兰
+总督	NOUN	总督
+，	PUNCT	，
+她	PRON	她
+是	AUX	是
+纽西兰	PROPN	纽西兰
+历史	NOUN	历史
+上	ADP	上
+首位	NUM	首位
+女性	NOUN	女性
+总督	NOUN	总督
+，	PUNCT	，
+也是	AUX	是
+第一	NUM	第一
+位	NOUN	位
+女性	NOUN	女性
+奥克兰	PROPN	奥克兰
+市长	NOUN	市长
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+ONZ: ONZ | onz
+GCMG: GCMG | gcmg
+GCVO: GCVO | gcvo
+DBE: DBE | dbe
+QSO: QSO | qso
+Dame: Dame | dame
+Catherine: Catherine | catherine
+Tizard: Tizard | tizard
+Catherine: Catherine | catherine
+Anne: Anne | anne
+MacLean: MacLean | maclean
+}
+
+Expected: {
+这	PRON	这
+是	AUX	是
+继	ADP	继
+去年	NOUN	去年
+KBS	X	KBS
+演艺	NOUN	演艺
+大奖	NOUN	大奖
+之后	ADP	之后
+的	PART	的
+又	ADV	又
+一	NUM	一
+肯定	NOUN	肯定
+。	PUNCT	。
+}
+Predicted: {
+这	PRON	这
+是	AUX	是
+继	ADP	继
+去年	NOUN	去年
+KBS	X	kbs
+演艺	NOUN	演艺
+大奖	NOUN	大奖
+之后	ADP	之后
+的	PART	的
+又	ADV	又
+一	NUM	一
+肯定	NOUN	肯定
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+KBS: KBS | kbs
+}
+
+Expected: {
+2007	NUM	2007
+年	NOUN	年
+，	PUNCT	，
+纽维尔	PROPN	纽维尔
+公开	ADV	公开
+表达	VERB	表达
+了	AUX	了
+他	PRON	他
+为	ADP	为
+游戏	NOUN	游戏
+平台	NOUN	平台
+开发	VERB	开发
+游戏	NOUN	游戏
+的	SCONJ	的
+不满	NOUN	不满
+，	PUNCT	，
+特别	ADV	特别
+是	VERB	是
+在	ADP	在
+PlayStation	X	PlayStation
+3	NUM	3
+游戏	NOUN	游戏
+的	PART	的
+开发	NOUN	开发
+上	ADP	上
+。	PUNCT	。
+}
+Predicted: {
+2007	NUM	2007
+年	NOUN	年
+，	PUNCT	，
+纽维尔	PROPN	纽维尔
+公开	ADV	公开
+表达	VERB	表达
+了	AUX	了
+他	PRON	他
+为	ADP	为
+游戏	NOUN	游戏
+平台	NOUN	平台
+开发	VERB	开发
+游戏	NOUN	游戏
+的	SCONJ	的
+不满	NOUN	不满
+，	PUNCT	，
+特别	ADV	特别
+是	VERB	是
+在	ADP	在
+PlayStation	X	playstation
+3	NUM	3
+游戏	NOUN	游戏
+的	PART	的
+开发	NOUN	开发
+上	ADP	上
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+PlayStation: PlayStation | playstation
+}
+
+Expected: {
+餘下	VERB	餘下
+的	PART	的
+都	ADV	都
+沒用	VERB	用
+！	PUNCT	！
+}
+Predicted: {
+餘下	VERB	餘下
+的	PART	的
+都	ADV	都
+沒用	VERB	沒用
+！	PUNCT	！
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+沒用: 用 | 沒用
+}
+
+Expected: {
+卡啦ＯＫ	NOUN	卡啦ＯＫ
+嗎	PART	嗎
+？	PUNCT	？
+}
+Predicted: {
+卡啦ＯＫ	NOUN	卡啦ｏｋ
+嗎	PART	嗎
+？	PUNCT	？
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+卡啦ＯＫ: 卡啦ＯＫ | 卡啦ｏｋ
+}
+
+Expected: {
+一	ADV	一
+行	VERB	行
+出去	VERB	出去
+就	ADV	就
+係	AUX	係
+泳池	NOUN	泳池
+，	PUNCT	，
+再	ADV	再
+行	VERB	行
+出	VERB	出
+Ｄ	ADV	Ｄ
+就	ADV	就
+係	AUX	係
+沙灘	NOUN	沙灘
+！	PUNCT	！
+}
+Predicted: {
+一	ADV	一
+行	VERB	行
+出去	VERB	出去
+就	ADV	就
+係	AUX	係
+泳池	NOUN	泳池
+，	PUNCT	，
+再	ADV	再
+行	VERB	行
+出	VERB	出
+Ｄ	ADV	ｄ
+就	ADV	就
+係	AUX	係
+沙灘	NOUN	沙灘
+！	PUNCT	！
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ｄ: Ｄ | ｄ
+}
+
+Expected: {
+我們	PRON	我
+最	ADV	最
+主要	ADV	主要
+想	AUX	想
+看	VERB	看
+的	PART	的
+是	AUX	是
+那	DET	那
+份	NOUN	份
+「	PUNCT	「
+放棄	VERB	放棄
+國籍	NOUN	國籍
+」	PUNCT	」
+聲明	NOUN	聲明
+（	PUNCT	（
+Declaration_of_Renunciation_of_British_Citizenship	NOUN	Declaration_of_Renunciation_of_British_Citizenship
+）	PUNCT	）
+。	PUNCT	。
+}
+Predicted: {
+我們	PRON	我
+最	ADV	最
+主要	ADV	主要
+想	AUX	想
+看	VERB	看
+的	PART	的
+是	AUX	是
+那	DET	那
+份	NOUN	份
+「	PUNCT	「
+放棄	VERB	放棄
+國籍	NOUN	國籍
+」	PUNCT	」
+聲明	NOUN	聲明
+（	PUNCT	（
+Declaration_of_Renunciation_of_British_Citizenship	NOUN	declaration_of_renunciation_of_british_citizenship
+）	PUNCT	）
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Declaration_of_Renunciation_of_British_Citizenship: Declaration_of_Renunciation_of_British_Citizenship | declaration_of_renunciation_of_british_citizenship
+}
+
+Expected: {
+縱觀	VERB	縱觀
+歷史	NOUN	歷史
+，	PUNCT	，
+國際	NOUN	國際
+頭髮	NOUN	頭髮
+市場	NOUN	市場
+上	ADP	上
+一直	ADV	一直
+有	VERB	有
+著	AUX	著
+政治	NOUN	政治
+層面	NOUN	層面
+的	PART	的
+意義	NOUN	意義
+，	PUNCT	，
+Tarlo	X	Tarlo
+說	VERB	說
+。	PUNCT	。
+}
+Predicted: {
+縱觀	VERB	縱觀
+歷史	NOUN	歷史
+，	PUNCT	，
+國際	NOUN	國際
+頭髮	NOUN	頭髮
+市場	NOUN	市場
+上	ADP	上
+一直	ADV	一直
+有	VERB	有
+著	AUX	著
+政治	NOUN	政治
+層面	NOUN	層面
+的	PART	的
+意義	NOUN	意義
+，	PUNCT	，
+Tarlo	X	tarlo
+說	VERB	說
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tarlo: Tarlo | tarlo
+}
+
+Expected: {
+他	PRON	他
+還	ADV	還
+希望	VERB	希望
+給予	VERB	給予
+負責	VERB	負責
+管理	VERB	管理
+省內	NOUN	省內
+代理人	VERB	代理人
+的	PART	的
+安大略省	PROPN	安大略省
+的	PART	的
+房地產	NOUN	房地產
+理事會	NOUN	理事會
+（	PUNCT	（
+RECO	X	RECO
+）	PUNCT	）
+具有	VERB	具有
+更大	ADJ	更大
+的	PART	的
+執法	NOUN	執法
+和	CCONJ	和
+調查	NOUN	調查
+權力	NOUN	權力
+。	PUNCT	。
+}
+Predicted: {
+他	PRON	他
+還	ADV	還
+希望	VERB	希望
+給予	VERB	給予
+負責	VERB	負責
+管理	VERB	管理
+省內	NOUN	省內
+代理人	VERB	代理人
+的	PART	的
+安大略省	PROPN	安大略省
+的	PART	的
+房地產	NOUN	房地產
+理事會	NOUN	理事會
+（	PUNCT	（
+RECO	X	reco
+）	PUNCT	）
+具有	VERB	具有
+更大	ADJ	更大
+的	PART	的
+執法	NOUN	執法
+和	CCONJ	和
+調查	NOUN	調查
+權力	NOUN	權力
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+RECO: RECO | reco
+}
+
+Expected: {
+SaskTel	X	SaskTel
+的	PART	的
+無限	ADJ	無限
+數據	NOUN	數據
+用戶	NOUN	用戶
+Lindsay	X	Lindsay
+Gay	X	Gay
+上	DET	上
+個	NOUN	個
+月	NOUN	月
+報導	VERB	報導
+說	VERB	說
+，	PUNCT	，
+它	PRON	它
+棒極	ADJ	棒極
+了	PART	了
+。	PUNCT	。
+}
+Predicted: {
+SaskTel	X	sasktel
+的	PART	的
+無限	ADJ	無限
+數據	NOUN	數據
+用戶	NOUN	用戶
+Lindsay	X	lindsay
+Gay	X	gay
+上	DET	上
+個	NOUN	個
+月	NOUN	月
+報導	VERB	報導
+說	VERB	說
+，	PUNCT	，
+它	PRON	它
+棒極	ADJ	棒極
+了	PART	了
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+SaskTel: SaskTel | sasktel
+Lindsay: Lindsay | lindsay
+Gay: Gay | gay
+}
+
+Expected: {
+當	ADP	當
+德克薩斯州	PROPN	德克薩斯州
+Plano	X	Plano
+的	PART	的
+準媽媽	NOUN	準媽媽
+Margaret	X	Margaret
+Boemer	X	Boemer
+被	AUX	被
+告知	VERB	告知
+，	PUNCT	，
+她	PRON	她
+的	PART	的
+未	ADV	未
+出生	VERB	出生
+的	PART	的
+孩子	NOUN	孩子
+具有	VERB	具有
+一	NUM	一
+種	NOUN	種
+罕見	ADJ	罕見
+的	PART	的
+情況	NOUN	情況
+，	PUNCT	，
+需要	VERB	需要
+手術	NOUN	手術
+才	ADV	才
+能	AUX	能
+存活	VERB	存活
+下來	VERB	下來
+時	ADP	時
+，	PUNCT	，
+原本	ADV	原本
+例行	VERB	例行
+的	PART	的
+超聲波	NOUN	超聲波
+檢測	NOUN	檢測
+變	VERB	變
+得	PART	得
+複雜	ADJ	複雜
+起來	VERB	起來
+。	PUNCT	。
+}
+Predicted: {
+當	ADP	當
+德克薩斯州	PROPN	德克薩斯州
+Plano	X	plano
+的	PART	的
+準媽媽	NOUN	準媽媽
+Margaret	X	margaret
+Boemer	X	boemer
+被	AUX	被
+告知	VERB	告知
+，	PUNCT	，
+她	PRON	她
+的	PART	的
+未	ADV	未
+出生	VERB	出生
+的	PART	的
+孩子	NOUN	孩子
+具有	VERB	具有
+一	NUM	一
+種	NOUN	種
+罕見	ADJ	罕見
+的	PART	的
+情況	NOUN	情況
+，	PUNCT	，
+需要	VERB	需要
+手術	NOUN	手術
+才	ADV	才
+能	AUX	能
+存活	VERB	存活
+下來	VERB	下來
+時	ADP	時
+，	PUNCT	，
+原本	ADV	原本
+例行	VERB	例行
+的	PART	的
+超聲波	NOUN	超聲波
+檢測	NOUN	檢測
+變	VERB	變
+得	PART	得
+複雜	ADJ	複雜
+起來	VERB	起來
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Plano: Plano | plano
+Margaret: Margaret | margaret
+Boemer: Boemer | boemer
+}
+
+Expected: {
+這些	DET	這些
+CRTC	X	CRTC
+聽證會	VERB	聽證會
+的	PART	的
+目的	NOUN	目的
+是	VERB	是
+處理	VERB	處理
+來	VERB	來
+自	VERB	自
+行業	NOUN	行業
+利益	NOUN	利益
+相關者	ADJ	相關者
+和	CCONJ	和
+公眾	NOUN	公眾
+的	PART	的
+反饋	VERB	反饋
+。	PUNCT	。
+}
+Predicted: {
+這些	DET	這些
+CRTC	X	crtc
+聽證會	VERB	聽證會
+的	PART	的
+目的	NOUN	目的
+是	VERB	是
+處理	VERB	處理
+來	VERB	來
+自	VERB	自
+行業	NOUN	行業
+利益	NOUN	利益
+相關者	ADJ	相關者
+和	CCONJ	和
+公眾	NOUN	公眾
+的	PART	的
+反饋	VERB	反饋
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+CRTC: CRTC | crtc
+}
+
+Expected: {
+“	PUNCT	“
+在	ADP	在
+華盛頓	PROPN	華盛頓
+和	CCONJ	和
+林肯	PROPN	林肯
+執政	VERB	執政
+期間	NOUN	期間
+，	PUNCT	，
+我	PRON	我
+根本	NOUN	根本
+不	ADV	不
+知道	VERB	知道
+G.D.P	X	G.D.P
+增長	NOUN	增長
+是	AUX	是
+什麼	PRON	什麼
+，	PUNCT	，
+但是	ADV	但是
+在	ADP	在
+這些	DET	這些
+方面	NOUN	方面
+的	PART	的
+體制	NOUN	體制
+發展	NOUN	發展
+產生	VERB	產生
+了	AUX	了
+大	ADJ	大
+而	ADV	而
+持久	ADJ	持久
+的	PART	的
+影響	NOUN	影響
+。	PUNCT	。
+”	PUNCT	”
+}
+Predicted: {
+“	PUNCT	“
+在	ADP	在
+華盛頓	PROPN	華盛頓
+和	CCONJ	和
+林肯	PROPN	林肯
+執政	VERB	執政
+期間	NOUN	期間
+，	PUNCT	，
+我	PRON	我
+根本	NOUN	根本
+不	ADV	不
+知道	VERB	知道
+G.D.P	X	g.d.p
+增長	NOUN	增長
+是	AUX	是
+什麼	PRON	什麼
+，	PUNCT	，
+但是	ADV	但是
+在	ADP	在
+這些	DET	這些
+方面	NOUN	方面
+的	PART	的
+體制	NOUN	體制
+發展	NOUN	發展
+產生	VERB	產生
+了	AUX	了
+大	ADJ	大
+而	ADV	而
+持久	ADJ	持久
+的	PART	的
+影響	NOUN	影響
+。	PUNCT	。
+”	PUNCT	”
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+G.D.P: G.D.P | g.d.p
+}
+
+Expected: {
+如果	ADP	如果
+Nectar卡	X	Nectar卡
+的	PART	的
+持卡人	VERB	持卡人
+有意	VERB	有意
+在	ADP	在
+兩	NUM	兩
+到	CCONJ	到
+三	NUM	三
+年	NOUN	年
+內	ADP	內
+貸款	VERB	貸款
+15，001	NUM	15，001
+到	CCONJ	到
+19，999	NUM	19，999
+英	PROPN	英
+鎊	NOUN	鎊
+，	PUNCT	，
+那	ADV	那
+這	DET	這
+3%	NUM	3%
+的	PART	的
+利率	NOUN	利率
+也	ADV	也
+同樣	ADV	同樣
+適用	ADJ	適用
+於	VERB	於
+他們	PRON	他
+。	PUNCT	。
+}
+Predicted: {
+如果	ADP	如果
+Nectar卡	X	nectar卡
+的	PART	的
+持卡人	VERB	持卡人
+有意	VERB	有意
+在	ADP	在
+兩	NUM	兩
+到	CCONJ	到
+三	NUM	三
+年	NOUN	年
+內	ADP	內
+貸款	VERB	貸款
+15，001	NUM	15，001
+到	CCONJ	到
+19，999	NUM	19，999
+英	PROPN	英
+鎊	NOUN	鎊
+，	PUNCT	，
+那	ADV	那
+這	DET	這
+3%	NUM	3%
+的	PART	的
+利率	NOUN	利率
+也	ADV	也
+同樣	ADV	同樣
+適用	ADJ	適用
+於	VERB	於
+他們	PRON	他
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Nectar卡: Nectar卡 | nectar卡
+}
+
+Expected: {
+那	PRON	那
+一定	ADV	一定
+是	AUX	是
+安迪	PROPN	安迪
+（	PUNCT	（
+Andy	X	Andy
+）	PUNCT	）
+四	NUM	四
+月	NOUN	月
+在	VERB	在
+蒙特卡羅	PROPN	蒙特卡羅
+（	PUNCT	（
+Monte	X	Monte
+Carlo	X	Carlo
+）	PUNCT	）
+與	ADP	與
+伯諾瓦	PROPN	伯諾瓦
+·	PUNCT	·
+帕爾雷	PROPN	帕爾雷
+（	PUNCT	（
+Benoît	X	Benoît
+Paire	X	Paire
+）	PUNCT	）
+對打	VERB	對打
+時	ADP	時
+的	PART	的
+情景	NOUN	情景
+。	PUNCT	。
+}
+Predicted: {
+那	PRON	那
+一定	ADV	一定
+是	AUX	是
+安迪	PROPN	安迪
+（	PUNCT	（
+Andy	X	andy
+）	PUNCT	）
+四	NUM	四
+月	NOUN	月
+在	VERB	在
+蒙特卡羅	PROPN	蒙特卡羅
+（	PUNCT	（
+Monte	X	monte
+Carlo	X	carlo
+）	PUNCT	）
+與	ADP	與
+伯諾瓦	PROPN	伯諾瓦
+·	PUNCT	·
+帕爾雷	PROPN	帕爾雷
+（	PUNCT	（
+Benoît	X	benoît
+Paire	X	paire
+）	PUNCT	）
+對打	VERB	對打
+時	ADP	時
+的	PART	的
+情景	NOUN	情景
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Andy: Andy | andy
+Monte: Monte | monte
+Carlo: Carlo | carlo
+Benoît: Benoît | benoît
+Paire: Paire | paire
+}
+
+Expected: {
+正	ADV	正
+如	VERB	如
+電影	NOUN	電影
+所	ADV	所
+展示	VERB	展示
+的	PART	的
+那樣	PRON	那樣
+，	PUNCT	，
+深愛	PROPN	深愛
+夫婦	NOUN	夫婦
+——	PUNCT	——
+特別	ADV	特別
+是	VERB	是
+理查德	PROPN	理查德
+（	PUNCT	（
+Richard	X	Richard
+）	PUNCT	）
+——	PUNCT	——
+是	AUX	是
+歷史	NOUN	歷史
+上	ADP	上
+很	ADV	很
+勉強	ADJ	勉強
+的	PART	的
+參與者	VERB	參與者
+。	PUNCT	。
+}
+Predicted: {
+正	ADV	正
+如	VERB	如
+電影	NOUN	電影
+所	ADV	所
+展示	VERB	展示
+的	PART	的
+那樣	PRON	那樣
+，	PUNCT	，
+深愛	PROPN	深愛
+夫婦	NOUN	夫婦
+——	PUNCT	——
+特別	ADV	特別
+是	VERB	是
+理查德	PROPN	理查德
+（	PUNCT	（
+Richard	X	richard
+）	PUNCT	）
+——	PUNCT	——
+是	AUX	是
+歷史	NOUN	歷史
+上	ADP	上
+很	ADV	很
+勉強	ADJ	勉強
+的	PART	的
+參與者	VERB	參與者
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Richard: Richard | richard
+}
+
+Expected: {
+也	ADV	也
+有	VERB	有
+源	VERB	源
+於	VERB	於
+芬蘭語	PROPN	芬蘭語
+並	ADV	並
+獨立	VERB	獨立
+演化	VERB	演化
+的	PART	的
+語言	NOUN	語言
+，	PUNCT	，
+如	VERB	如
+瑞典	PROPN	瑞典
+的	PART	的
+托爾訥	PROPN	托爾訥
+河谷	NOUN	河谷
+芬蘭語	PROPN	芬蘭語
+(	PUNCT	(
+Meänkieli	X	Meänkieli
+)	PUNCT	)
+以及	CCONJ	以及
+挪威	PROPN	挪威
+的	PART	的
+克溫斯語	PROPN	克溫斯語
+(	PUNCT	(
+Kven	X	Kven
+)	PUNCT	)
+。	PUNCT	。
+}
+Predicted: {
+也	ADV	也
+有	VERB	有
+源	VERB	源
+於	VERB	於
+芬蘭語	PROPN	芬蘭語
+並	ADV	並
+獨立	VERB	獨立
+演化	VERB	演化
+的	PART	的
+語言	NOUN	語言
+，	PUNCT	，
+如	VERB	如
+瑞典	PROPN	瑞典
+的	PART	的
+托爾訥	PROPN	托爾訥
+河谷	NOUN	河谷
+芬蘭語	PROPN	芬蘭語
+(	PUNCT	(
+Meänkieli	X	meänkieli
+)	PUNCT	)
+以及	CCONJ	以及
+挪威	PROPN	挪威
+的	PART	的
+克溫斯語	PROPN	克溫斯語
+(	PUNCT	(
+Kven	X	kven
+)	PUNCT	)
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Meänkieli: Meänkieli | meänkieli
+Kven: Kven | kven
+}
+
+Expected: {
+克里斯托弗	PROPN	克里斯托弗
+·	PUNCT	·
+哥倫佈	PROPN	哥倫佈
+於	ADP	於
+1492	NUM	1492
+年	NOUN	年
+發現	VERB	發現
+了	AUX	了
+美洲	PROPN	美洲
+之後	ADP	之後
+，	PUNCT	，
+是	VERB	是
+用	VERB	用
+西班牙詞	PROPN	西班牙詞
+Antillas	X	Antillas
+來	ADV	來
+命名	VERB	命名
+這	DET	這
+片	NOUN	片
+土地	NOUN	土地
+的	PART	的
+；	PUNCT	；
+因	ADP	因
+此	PRON	此
+在	ADP	在
+各種	DET	各種
+歐洲	PROPN	歐洲
+語言	NOUN	語言
+中	ADP	中
+，	PUNCT	，
+“	PUNCT	“
+Sea	X	Sea
+of	X	of
+the	X	the
+Antilles	X	Antilles
+”	PUNCT	”
+成	VERB	成
+為	VERB	為
+了	AUX	了
+它們	PRON	它
+共通	VERB	共通
+的	PART	的
+“	PUNCT	“
+加勒比海	PROPN	加勒比海
+”	PUNCT	”
+代名詞	VERB	代名詞
+。	PUNCT	。
+}
+Predicted: {
+克里斯托弗	PROPN	克里斯托弗
+·	PUNCT	·
+哥倫佈	PROPN	哥倫佈
+於	ADP	於
+1492	NUM	1492
+年	NOUN	年
+發現	VERB	發現
+了	AUX	了
+美洲	PROPN	美洲
+之後	ADP	之後
+，	PUNCT	，
+是	VERB	是
+用	VERB	用
+西班牙詞	PROPN	西班牙詞
+Antillas	X	antillas
+來	ADV	來
+命名	VERB	命名
+這	DET	這
+片	NOUN	片
+土地	NOUN	土地
+的	PART	的
+；	PUNCT	；
+因	ADP	因
+此	PRON	此
+在	ADP	在
+各種	DET	各種
+歐洲	PROPN	歐洲
+語言	NOUN	語言
+中	ADP	中
+，	PUNCT	，
+“	PUNCT	“
+Sea	X	sea
+of	X	of
+the	X	the
+Antilles	X	antilles
+”	PUNCT	”
+成	VERB	成
+為	VERB	為
+了	AUX	了
+它們	PRON	它
+共通	VERB	共通
+的	PART	的
+“	PUNCT	“
+加勒比海	PROPN	加勒比海
+”	PUNCT	”
+代名詞	VERB	代名詞
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Antillas: Antillas | antillas
+Sea: Sea | sea
+Antilles: Antilles | antilles
+}
+
+Expected: {
+庫恩	PROPN	庫恩
+（	PUNCT	（
+Kühn	X	Kühn
+）	PUNCT	）
+只好	ADV	只好
+搖搖頭	VERB	搖搖頭
+。	PUNCT	。
+}
+Predicted: {
+庫恩	PROPN	庫恩
+（	PUNCT	（
+Kühn	X	kühn
+）	PUNCT	）
+只好	ADV	只好
+搖搖頭	VERB	搖搖頭
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Kühn: Kühn | kühn
+}
+
+Expected: {
+展覽	NOUN	展覽
+中	ADP	中
+，	PUNCT	，
+老盧卡斯	PROPN	老盧卡斯
+·	PUNCT	·
+克拉納赫	PROPN	克拉納赫
+（	PUNCT	（
+Lucas	X	Lucas
+Cranach	X	Cranach
+the	X	the
+Elder	X	Elder
+）	PUNCT	）
+畫	VERB	畫
+的	PART	的
+兩	NUM	兩
+幅	NOUN	幅
+畫	NOUN	畫
+特別	ADV	特別
+引人注目	VERB	引人注目
+。	PUNCT	。
+}
+Predicted: {
+展覽	NOUN	展覽
+中	ADP	中
+，	PUNCT	，
+老盧卡斯	PROPN	老盧卡斯
+·	PUNCT	·
+克拉納赫	PROPN	克拉納赫
+（	PUNCT	（
+Lucas	X	lucas
+Cranach	X	cranach
+the	X	the
+Elder	X	elder
+）	PUNCT	）
+畫	VERB	畫
+的	PART	的
+兩	NUM	兩
+幅	NOUN	幅
+畫	NOUN	畫
+特別	ADV	特別
+引人注目	VERB	引人注目
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Lucas: Lucas | lucas
+Cranach: Cranach | cranach
+Elder: Elder | elder
+}
+
+Expected: {
+Joseph	X	Joseph
+Brant	X	Brant
+帶領	VERB	帶領
+的	PART	的
+來	VERB	來
+自	ADP	自
+加拿大	PROPN	加拿大
+的	PART	的
+印第安人	PROPN	印第安人
+到達	VERB	到達
+了	PART	了
+；	PUNCT	；
+殖民者	VERB	殖民者
+徵收	VERB	徵收
+了	AUX	了
+越來越	ADV	越來越
+多	ADJ	多
+的	PART	的
+屬	VERB	屬
+於	VERB	於
+他們	PRON	他
+的	PART	的
+土地	NOUN	土地
+，	PUNCT	，
+所以	ADV	所以
+他們	PRON	他
+趕來	VERB	趕來
+支持	VERB	支持
+英國人	PROPN	英國人
+。	PUNCT	。
+}
+Predicted: {
+Joseph	X	joseph
+Brant	X	brant
+帶領	VERB	帶領
+的	PART	的
+來	VERB	來
+自	ADP	自
+加拿大	PROPN	加拿大
+的	PART	的
+印第安人	PROPN	印第安人
+到達	VERB	到達
+了	PART	了
+；	PUNCT	；
+殖民者	VERB	殖民者
+徵收	VERB	徵收
+了	AUX	了
+越來越	ADV	越來越
+多	ADJ	多
+的	PART	的
+屬	VERB	屬
+於	VERB	於
+他們	PRON	他
+的	PART	的
+土地	NOUN	土地
+，	PUNCT	，
+所以	ADV	所以
+他們	PRON	他
+趕來	VERB	趕來
+支持	VERB	支持
+英國人	PROPN	英國人
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Joseph: Joseph | joseph
+Brant: Brant | brant
+}
+
+Expected: {
+那	DET	那
+時	NOUN	時
+已經	ADV	已經
+結束	VERB	結束
+了	AUX	了
+自己	PRON	自己
+的	PART	的
+政期	NOUN	政期
+的	PART	的
+Curio	X	Curio
+親自	ADV	親自
+將	ADP	將
+龐培	PROPN	龐培
+的	PART	的
+行動	NOUN	行動
+告訴	VERB	告訴
+了	AUX	了
+凱撒	PROPN	凱撒
+。	PUNCT	。
+}
+Predicted: {
+那	DET	那
+時	NOUN	時
+已經	ADV	已經
+結束	VERB	結束
+了	AUX	了
+自己	PRON	自己
+的	PART	的
+政期	NOUN	政期
+的	PART	的
+Curio	X	curio
+親自	ADV	親自
+將	ADP	將
+龐培	PROPN	龐培
+的	PART	的
+行動	NOUN	行動
+告訴	VERB	告訴
+了	AUX	了
+凱撒	PROPN	凱撒
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+Curio: Curio | curio
+}
+
+Expected: {
+你	PRON	你
+知道	VERB	知道
+我们	PRON	我们
+现在	NOUN	现在
+多	ADV	多
+胖	ADJ	胖
+吗	PART	吗
+?	PUNCT	?
+}
+Predicted: {
+你	PRON	你
+知道	VERB	知道
+我们	PRON	我
+现在	NOUN	现在
+多	ADV	多
+胖	ADJ	胖
+吗	PART	吗
+?	PUNCT	?
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+现在	NOUN	现在
+我们	PRON	我们
+在	ADP	在
+ktv	PROPN	ktv
+唱	VERB	唱
+歌	NOUN	歌
+。	PUNCT	。
+}
+Predicted: {
+现在	NOUN	现在
+我们	PRON	我
+在	ADP	在
+ktv	PROPN	ktv
+唱	VERB	唱
+歌	NOUN	歌
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+今天	NOUN	今天
+我们	PRON	我们
+很	ADV	很
+忙	ADJ	忙
+,	PUNCT	,
+因为	SCONJ	因为
+有	VERB	有
+很	ADV	很
+多	ADJ	多
+工作	NOUN	工作
+。	PUNCT	。
+}
+Predicted: {
+今天	NOUN	今天
+我们	PRON	我
+很	ADV	很
+忙	ADJ	忙
+,	PUNCT	,
+因为	SCONJ	因为
+有	VERB	有
+很	ADV	很
+多	ADJ	多
+工作	NOUN	工作
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+因为	SCONJ	因为
+太	ADV	太
+忙	ADJ	忙
+,	PUNCT	,
+所以	SCONJ	所以
+我们	PRON	我们
+没	ADV	没
+有	VERB	有
+时间	NOUN	时间
+吃	VERB	吃
+中饭	NOUN	中饭
+。	PUNCT	。
+}
+Predicted: {
+因为	SCONJ	因为
+太	ADV	太
+忙	ADJ	忙
+,	PUNCT	,
+所以	SCONJ	所以
+我们	PRON	我
+没	ADV	没
+有	VERB	有
+时间	NOUN	时间
+吃	VERB	吃
+中饭	NOUN	中饭
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+不	ADV	不
+要	AUX	要
+太	ADV	太
+高兴	ADJ	高兴
+,	PUNCT	,
+我们	PRON	我们
+还	SCONJ	还
+有	VERB	有
+更	ADV	更
+多	ADJ	多
+的	PART	的
+工作	NOUN	工作
+要	AUX	要
+做	VERB	做
+。	PUNCT	。
+}
+Predicted: {
+不	ADV	不
+要	AUX	要
+太	ADV	太
+高兴	ADJ	高兴
+,	PUNCT	,
+我们	PRON	我
+还	SCONJ	还
+有	VERB	有
+更	ADV	更
+多	ADJ	多
+的	PART	的
+工作	NOUN	工作
+要	AUX	要
+做	VERB	做
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+那	DET	那
+个	NOUN	个
+地方	NOUN	地方
+不	ADV	不
+好	ADJ	好
+找	VERB	找
+,	PUNCT	,
+我们	PRON	我们
+最好	ADV	最好
+查	VERB	查
+一下	ADV	一下
+百度	PROPN	百度
+地图	NOUN	地图
+。	PUNCT	。
+}
+Predicted: {
+那	DET	那
+个	NOUN	个
+地方	NOUN	地方
+不	ADV	不
+好	ADJ	好
+找	VERB	找
+,	PUNCT	,
+我们	PRON	我
+最好	ADV	最好
+查	VERB	查
+一下	ADV	一下
+百度	PROPN	百度
+地图	NOUN	地图
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+几	NUM	几
+年	NOUN	年
+来	VERB	来
+,	PUNCT	,
+我们	PRON	我们
+公司	NOUN	公司
+的	PART	的
+收入	NOUN	收入
+一直	ADV	一直
+在	ADV	在
+增加	VERB	增加
+。	PUNCT	。
+}
+Predicted: {
+几	NUM	几
+年	NOUN	年
+来	VERB	来
+,	PUNCT	,
+我们	PRON	我
+公司	NOUN	公司
+的	PART	的
+收入	NOUN	收入
+一直	ADV	一直
+在	ADV	在
+增加	VERB	增加
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+那	DET	那
+天	NOUN	天
+突然	ADV	突然
+下	VERB	下
+雨	NOUN	雨
+了	PART	了
+,	PUNCT	,
+我们	PRON	我们
+只好	ADV	只好
+取消	VERB	取消
+。	PUNCT	。
+}
+Predicted: {
+那	DET	那
+天	NOUN	天
+突然	ADV	突然
+下	VERB	下
+雨	NOUN	雨
+了	PART	了
+,	PUNCT	,
+我们	PRON	我
+只好	ADV	只好
+取消	VERB	取消
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我们 | 我
+}
+
+Expected: {
+我们	PRON	我
+一	SCONJ	一
+进	VERB	进
+游乐园	NOUN	游乐园
+的	PART	的
+大门	NOUN	大门
+,	PUNCT	,
+就	ADV	就
+开始	VERB	开始
+下	VERB	下
+雨	NOUN	雨
+了	PART	了
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+一	SCONJ	一
+进	VERB	进
+游乐园	NOUN	游乐园
+的	PART	的
+大门	NOUN	大门
+,	PUNCT	,
+就	ADV	就
+开始	VERB	开始
+下	VERB	下
+雨	NOUN	雨
+了	PART	了
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+}
+
+Expected: {
+我们	PRON	我
+谈	VERB	谈
+着	AUX	着
+谈	VERB	谈
+着	AUX	着
+,	PUNCT	,
+忽然	ADV	忽然
+发现	VERB	发现
+了	AUX	了
+已	ADV	已
+过	VERB	过
+关门	VERB	关门
+时间	NOUN	时间
+。	PUNCT	。
+}
+Predicted: {
+我们	PRON	我们
+谈	VERB	谈
+着	AUX	着
+谈	VERB	谈
+着	AUX	着
+,	PUNCT	,
+忽然	ADV	忽然
+发现	VERB	发现
+了	AUX	了
+已	ADV	已
+过	VERB	过
+关门	VERB	关门
+时间	NOUN	时间
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+}
+
+Expected: {
+我们	PRON	我
+要	AUX	要
+去	VERB	去
+目的地	NOUN	目的地
+!	PUNCT	!
+}
+Predicted: {
+我们	PRON	我们
+要	AUX	要
+去	VERB	去
+目的地	NOUN	目的地
+!	PUNCT	!
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+我们: 我 | 我们
+}
+
+Expected: {
+但是	ADV	但是
+在	ADP	在
+生活	NOUN	生活
+中	ADP	中
+我们	PRON	我
+会	AUX	会
+遇	VERB	遇
+到	VERB	到
+一些	DET	一些
+事情	NOUN	事情
+回	VERB	会
+永远	ADV	永远
+存在	VERB	存在
+我们	PRON	我
+的	PART	的
+脑海	NOUN	脑海
+里	ADP	里
+,	PUNCT	,
+也	ADV	也
+会	AUX	会
+永远	ADV	永远
+印象	VERB	影响
+我们	PRON	我
+,	PUNCT	,
+这些	DET	这些
+事情	NOUN	事情
+会	AUX	会
+让	VERB	让
+我们	PRON	我
+变成	VERB	变成
+今天	NOUN	今天
+的	PART	的
+。	PUNCT	。
+我们	PRON	我
+。	PUNCT	。
+}
+Predicted: {
+但是	ADV	但是
+在	ADP	在
+生活	NOUN	生活
+中	ADP	中
+我们	PRON	我
+会	AUX	会
+遇	VERB	遇
+到	VERB	到
+一些	DET	一些
+事情	NOUN	事情
+回	VERB	回
+永远	ADV	永远
+存在	VERB	存在
+我们	PRON	我
+的	PART	的
+脑海	NOUN	脑海
+里	ADP	里
+,	PUNCT	,
+也	ADV	也
+会	AUX	会
+永远	ADV	永远
+印象	VERB	影响
+我们	PRON	我
+,	PUNCT	,
+这些	DET	这些
+事情	NOUN	事情
+会	AUX	会
+让	VERB	让
+我们	PRON	我
+变成	VERB	变成
+今天	NOUN	今天
+的	PART	的
+。	PUNCT	。
+我们	PRON	我
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+回: 会 | 回
+}
+
+Expected: {
+由於	ADP	由於
+包浩斯	PROPN	包浩斯
+學校	NOUN	學校
+對於	ADP	對於
+現代	NOUN	現代
+建築	NOUN	建築
+學	PART	學
+的	PART	的
+深遠	ADJ	深遠
+影響	NOUN	影響
+,	PUNCT	,
+今日	NOUN	今日
+的	PART	的
+包浩斯	PROPN	包浩斯
+早	ADV	早
+已	ADV	已
+不單	ADP	不單
+是	VERB	是
+指	VERB	指
+學校	NOUN	學校
+,	PUNCT	,
+而是	AUX	是
+其	PRON	其
+倡導	VERB	倡導
+的	SCONJ	的
+建築	NOUN	建築
+流派	NOUN	流派
+或	CCONJ	或
+風格	NOUN	風格
+的	PART	的
+統稱	NOUN	統稱
+,	PUNCT	,
+注重	VERB	注重
+建築	NOUN	建築
+造型	NOUN	造型
+與	CCONJ	與
+實用	ADJ	實用
+機能	NOUN	機能
+合而為一	VERB	為
+。	PUNCT	。
+}
+Predicted: {
+由於	ADP	由於
+包浩斯	PROPN	包浩斯
+學校	NOUN	學校
+對於	ADP	對於
+現代	NOUN	現代
+建築	NOUN	建築
+學	PART	學
+的	PART	的
+深遠	ADJ	深遠
+影響	NOUN	影響
+,	PUNCT	,
+今日	NOUN	今日
+的	PART	的
+包浩斯	PROPN	包浩斯
+早	ADV	早
+已	ADV	已
+不單	ADP	不單
+是	VERB	是
+指	VERB	指
+學校	NOUN	學校
+,	PUNCT	,
+而是	AUX	是
+其	PRON	其
+倡導	VERB	倡導
+的	SCONJ	的
+建築	NOUN	建築
+流派	NOUN	流派
+或	CCONJ	或
+風格	NOUN	風格
+的	PART	的
+統稱	NOUN	統稱
+,	PUNCT	,
+注重	VERB	注重
+建築	NOUN	建築
+造型	NOUN	造型
+與	CCONJ	與
+實用	ADJ	實用
+機能	NOUN	機能
+合而為一	VERB	合而為一
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+合而為一: 為 | 合而為一
+}
+
+Expected: {
+李	PROPN	李
+妍采	PROPN	妍采
+從	ADP	從
+小	ADJ	小
+跟	ADP	跟
+母親	NOUN	母親
+相依為命	VERB	為
+,	PUNCT	,
+多	NUM	多
+年	NOUN	年
+來	ADP	來
+努力	ADV	努力
+存錢	VERB	存錢
+,	PUNCT	,
+願望	NOUN	願望
+是	VERB	是
+找	VERB	找
+個	NOUN	個
+好	PART	好
+男人	NOUN	男人
+結婚	VERB	結婚
+,	PUNCT	,
+然後	ADV	然後
+買	VERB	買
+房子	NOUN	房子
+給	VERB	給
+母親	NOUN	母親
+。	PUNCT	。
+}
+Predicted: {
+李	PROPN	李
+妍采	PROPN	妍采
+從	ADP	從
+小	ADJ	小
+跟	ADP	跟
+母親	NOUN	母親
+相依為命	VERB	相依為命
+,	PUNCT	,
+多	NUM	多
+年	NOUN	年
+來	ADP	來
+努力	ADV	努力
+存錢	VERB	存錢
+,	PUNCT	,
+願望	NOUN	願望
+是	VERB	是
+找	VERB	找
+個	NOUN	個
+好	PART	好
+男人	NOUN	男人
+結婚	VERB	結婚
+,	PUNCT	,
+然後	ADV	然後
+買	VERB	買
+房子	NOUN	房子
+給	VERB	給
+母親	NOUN	母親
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+相依為命: 為 | 相依為命
+}
+
+Expected: {
+2006	NUM	2006
+年	NOUN	年
+剩下	VERB	剩下
+的	SCONJ	的
+時光	NOUN	時光
+,	PUNCT	,
+樂團	NOUN	樂團
+都	SCONJ	都
+用	VERB	用
+來	SCONJ	來
+編寫	VERB	編寫
+與	CCONJ	與
+錄製	VERB	錄製
+樂團	NOUN	樂團
+的	PART	的
+第三	NUM	第三
+張	NOUN	張
+專輯	NOUN	專輯
+閒言閒語	NOUN	閒言閒語
+就是	SCONJ	就是
+不道	VERB	道
+自己	PRON	自己
+,	PUNCT	,
+該	DET	該
+專輯	NOUN	專輯
+並	SCONJ	並
+在	ADP	在
+2007	NUM	2007
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+發行	VERB	發行
+。	PUNCT	。
+}
+Predicted: {
+2006	NUM	2006
+年	NOUN	年
+剩下	VERB	剩下
+的	SCONJ	的
+時光	NOUN	時光
+,	PUNCT	,
+樂團	NOUN	樂團
+都	SCONJ	都
+用	VERB	用
+來	SCONJ	來
+編寫	VERB	編寫
+與	CCONJ	與
+錄製	VERB	錄製
+樂團	NOUN	樂團
+的	PART	的
+第三	NUM	第三
+張	NOUN	張
+專輯	NOUN	專輯
+閒言閒語	NOUN	閒言閒語
+就是	SCONJ	是
+不道	VERB	道
+自己	PRON	自己
+,	PUNCT	,
+該	DET	該
+專輯	NOUN	專輯
+並	SCONJ	並
+在	ADP	在
+2007	NUM	2007
+年	NOUN	年
+5	NUM	5
+月	NOUN	月
+發行	VERB	發行
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+就是: 就是 | 是
+}
+
+Expected: {
+後來	NOUN	後來
+由於	ADP	由於
+香港	PROPN	香港
+的	PART	的
+製造	VERB	製造
+業	PART	業
+式微	VERB	式微
+,	PUNCT	,
+寶光	PROPN	寶光
+生意	NOUN	生意
+轉差	VERB	轉差
+,	PUNCT	,
+球隊	NOUN	球隊
+不	ADV	不
+再	ADV	再
+得到	VERB	得到
+贊助	NOUN	贊助
+,	PUNCT	,
+加上	VERB	加上
+黃	PROPN	黃
+創保	PROPN	創保
+不滿	VERB	滿
+香港	PROPN	香港
+足球	NOUN	足球
+總會	NOUN	總會
+的	PART	的
+行政	NOUN	行政
+,	PUNCT	,
+於	ADP	於
+1984	NUM	1984
+年	NOUN	年
+宣布	VERB	宣布
+退出	VERB	退出
+聯賽	NOUN	聯賽
+,	PUNCT	,
+並且	SCONJ	並且
+解散	VERB	解散
+球隊	NOUN	球隊
+。	PUNCT	。
+}
+Predicted: {
+後來	NOUN	後來
+由於	ADP	由於
+香港	PROPN	香港
+的	PART	的
+製造	VERB	製造
+業	PART	業
+式微	VERB	式微
+,	PUNCT	,
+寶光	PROPN	寶光
+生意	NOUN	生意
+轉差	VERB	轉差
+,	PUNCT	,
+球隊	NOUN	球隊
+不	ADV	不
+再	ADV	再
+得到	VERB	得到
+贊助	NOUN	贊助
+,	PUNCT	,
+加上	VERB	加上
+黃	PROPN	黃
+創保	PROPN	創保
+不滿	VERB	不滿
+香港	PROPN	香港
+足球	NOUN	足球
+總會	NOUN	總會
+的	PART	的
+行政	NOUN	行政
+,	PUNCT	,
+於	ADP	於
+1984	NUM	1984
+年	NOUN	年
+宣布	VERB	宣布
+退出	VERB	退出
+聯賽	NOUN	聯賽
+,	PUNCT	,
+並且	SCONJ	並且
+解散	VERB	解散
+球隊	NOUN	球隊
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不滿: 滿 | 不滿
+}
+
+Expected: {
+邵氏	PROPN	邵氏
+電影	NOUN	電影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+》	PUNCT	》
+,	PUNCT	,
+記述	VERB	記述
+一	NUM	一
+班	NOUN	班
+不滿	VERB	滿
+社會	NOUN	社會
+現狀	NOUN	現狀
+而	SCONJ	而
+急於	VERB	急於
+改變	VERB	改變
+現實	NOUN	現實
+的	SCONJ	的
+青年	NOUN	青年
+,	PUNCT	,
+證明	VERB	證明
+當時	NOUN	當時
+已	ADV	已
+存在	VERB	存在
+「	PUNCT	「
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+」	PUNCT	」
+這	DET	這
+稱呼	NOUN	稱呼
+。	PUNCT	。
+}
+Predicted: {
+邵氏	PROPN	邵氏
+電影	NOUN	電影
+公司	NOUN	公司
+在	ADP	在
+1973	NUM	1973
+年	NOUN	年
+出品	VERB	出品
+的	SCONJ	的
+影片	NOUN	影片
+《	PUNCT	《
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+》	PUNCT	》
+,	PUNCT	,
+記述	VERB	記述
+一	NUM	一
+班	NOUN	班
+不滿	VERB	不滿
+社會	NOUN	社會
+現狀	NOUN	現狀
+而	SCONJ	而
+急於	VERB	急於
+改變	VERB	改變
+現實	NOUN	現實
+的	SCONJ	的
+青年	NOUN	青年
+,	PUNCT	,
+證明	VERB	證明
+當時	NOUN	當時
+已	ADV	已
+存在	VERB	存在
+「	PUNCT	「
+憤怒	ADJ	憤怒
+青年	NOUN	青年
+」	PUNCT	」
+這	DET	這
+稱呼	NOUN	稱呼
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不滿: 滿 | 不滿
+}
+
+Expected: {
+最高	ADJ	最高
+的	SCONJ	的
+色度	NOUN	色度
+一般	ADV	一般
+由	ADP	由
+單	NUM	單
+波長	NOUN	波長
+的	PART	的
+強	PART	強
+光	NOUN	光
+(	PUNCT	(
+例如	VERB	例如
+激光	NOUN	激光
+)	PUNCT	)
+達到	VERB	達到
+,	PUNCT	,
+在	ADP	在
+波長	NOUN	波長
+分布	VERB	分布
+不變	ADJ	不變
+的	SCONJ	的
+情況	NOUN	情況
+下	ADP	下
+,	PUNCT	,
+光	NOUN	光
+強度	NOUN	強度
+越弱	ADJ	越弱
+則	SCONJ	則
+色度	NOUN	色度
+越低	ADJ	越低
+。	PUNCT	。
+}
+Predicted: {
+最高	ADJ	最高
+的	SCONJ	的
+色度	NOUN	色度
+一般	ADV	一般
+由	ADP	由
+單	NUM	單
+波長	NOUN	波長
+的	PART	的
+強	PART	強
+光	NOUN	光
+(	PUNCT	(
+例如	VERB	例如
+激光	NOUN	激光
+)	PUNCT	)
+達到	VERB	達到
+,	PUNCT	,
+在	ADP	在
+波長	NOUN	波長
+分布	VERB	分布
+不變	ADJ	變
+的	SCONJ	的
+情況	NOUN	情況
+下	ADP	下
+,	PUNCT	,
+光	NOUN	光
+強度	NOUN	強度
+越弱	ADJ	越弱
+則	SCONJ	則
+色度	NOUN	色度
+越低	ADJ	越低
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不變: 不變 | 變
+}
+
+Expected: {
+三門	PROPN	三門
+峽	PART	峽
+虢國	NOUN	虢國
+墓地	NOUN	墓地
+出土	VERB	出土
+有	VERB	有
+銅臿	NOUN	銅臿
+、	PUNCT	、
+銅錛	NOUN	銅錛
+、	PUNCT	、
+銅斧	NOUN	銅斧
+和	CCONJ	和
+銅削	NOUN	銅削
+等	NOUN	等
+,	PUNCT	,
+特別	ADV	特別
+是	VERB	是
+m2009	X	m2009
+號	PART	號
+虢	PROPN	虢
+仲	PROPN	仲
+墓	PART	墓
+出土	VERB	出土
+的	SCONJ	的
+銅柄	NOUN	銅柄
+鐵削	NOUN	鐵削
+和	CCONJ	和
+銅銎	NOUN	銅銎
+鐵錛	NOUN	鐵錛
+,	PUNCT	,
+都是	SCONJ	都是
+由	VERB	由
+隕鐵	NOUN	隕鐵
+製成	VERB	製成
+。	PUNCT	。
+}
+Predicted: {
+三門	PROPN	三門
+峽	PART	峽
+虢國	NOUN	虢國
+墓地	NOUN	墓地
+出土	VERB	出土
+有	VERB	有
+銅臿	NOUN	銅臿
+、	PUNCT	、
+銅錛	NOUN	銅錛
+、	PUNCT	、
+銅斧	NOUN	銅斧
+和	CCONJ	和
+銅削	NOUN	銅削
+等	NOUN	等
+,	PUNCT	,
+特別	ADV	特別
+是	VERB	是
+m2009	X	m2009
+號	PART	號
+虢	PROPN	虢
+仲	PROPN	仲
+墓	PART	墓
+出土	VERB	出土
+的	SCONJ	的
+銅柄	NOUN	銅柄
+鐵削	NOUN	鐵削
+和	CCONJ	和
+銅銎	NOUN	銅銎
+鐵錛	NOUN	鐵錛
+,	PUNCT	,
+都是	SCONJ	是
+由	VERB	由
+隕鐵	NOUN	隕鐵
+製成	VERB	製成
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+都是: 都是 | 是
+}
+
+Expected: {
+不過	SCONJ	不過
+車票	PROPN	車票
+價格	PROPN	價格
+即使	ADP	即使
+按照	VERB	按照
+烏克蘭	PROPN	烏克蘭
+標準	NOUN	標準
+也是	SCONJ	也是
+非常	ADV	非常
+便宜	ADJ	便宜
+,	PUNCT	,
+例如	ADV	例如
+從	ADP	從
+利維夫	PROPN	利維夫
+到	VERB	到
+匈牙利	PROPN	匈牙利
+、	PUNCT	、
+斯洛伐克	PROPN	斯洛伐克
+邊境	NOUN	邊境
+有	VERB	有
+數百	NUM	數百
+千米	NOUN	千米
+的	PART	的
+距離	NOUN	距離
+,	PUNCT	,
+但	SCONJ	但
+票價	NOUN	票價
+只有	VERB	只有
+幾	NUM	幾
+歐	PROPN	歐
+元	NOUN	元
+。	PUNCT	。
+}
+Predicted: {
+不過	SCONJ	不過
+車票	PROPN	車票
+價格	PROPN	價格
+即使	ADP	即使
+按照	VERB	按照
+烏克蘭	PROPN	烏克蘭
+標準	NOUN	標準
+也是	SCONJ	是
+非常	ADV	非常
+便宜	ADJ	便宜
+,	PUNCT	,
+例如	ADV	例如
+從	ADP	從
+利維夫	PROPN	利維夫
+到	VERB	到
+匈牙利	PROPN	匈牙利
+、	PUNCT	、
+斯洛伐克	PROPN	斯洛伐克
+邊境	NOUN	邊境
+有	VERB	有
+數百	NUM	數百
+千米	NOUN	千米
+的	PART	的
+距離	NOUN	距離
+,	PUNCT	,
+但	SCONJ	但
+票價	NOUN	票價
+只有	VERB	只有
+幾	NUM	幾
+歐	PROPN	歐
+元	NOUN	元
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+也是: 也是 | 是
+}
+
+Expected: {
+此外	NOUN	此外
+,	PUNCT	,
+君主	NOUN	君主
+要	AUX	要
+做到	VERB	做到
+珍惜	VERB	珍惜
+人才	NOUN	人才
+,	PUNCT	,
+任人为贤	VERB	为
+,	PUNCT	,
+激励	VERB	激励
+人们	NOUN	人
+在	ADP	在
+各行	NOUN	各行
+各业	NOUN	各业
+做好	VERB	做好
+本职	NOUN	本职
+工作	NOUN	工作
+。	PUNCT	。
+}
+Predicted: {
+此外	NOUN	此外
+,	PUNCT	,
+君主	NOUN	君主
+要	AUX	要
+做到	VERB	做到
+珍惜	VERB	珍惜
+人才	NOUN	人才
+,	PUNCT	,
+任人为贤	VERB	任人为贤
+,	PUNCT	,
+激励	VERB	激励
+人们	NOUN	人
+在	ADP	在
+各行	NOUN	各行
+各业	NOUN	各业
+做好	VERB	做好
+本职	NOUN	本职
+工作	NOUN	工作
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+任人为贤: 为 | 任人为贤
+}
+
+Expected: {
+有	VERB	有
+人	NOUN	人
+认为	VERB	为
+退化	NOUN	退化
+三	NUM	三
+角	NOUN	角
+形	PART	形
+并	ADV	并
+不能	AUX	能
+算	VERB	算
+是	AUX	是
+三	NUM	三
+角	NOUN	角
+形	PART	形
+,	PUNCT	,
+这	PRON	这
+是	VERB	是
+由于	ADP	由于
+它	PRON	它
+介乎	VERB	介乎
+于	VERB	于
+三	NUM	三
+角	NOUN	角
+不等	VERB	等
+式	PART	式
+之间	ADP	之间
+,	PUNCT	,
+在	ADP	在
+一些	ADJ	一些
+资料	NOUN	资料
+中	ADP	中
+已	ADV	已
+否定	VERB	否定
+了	AUX	了
+其中	NOUN	其中
+一	NUM	一
+条	NOUN	条
+边	NOUN	边
+等	VERB	等
+于	VERB	于
+其余	DET	其余
+两	NUM	两
+条	NOUN	条
+边	NOUN	边
+之	PART	之
+和	NOUN	和
+的	SCONJ	的
+情况	NOUN	情况
+。	PUNCT	。
+}
+Predicted: {
+有	VERB	有
+人	NOUN	人
+认为	VERB	为
+退化	NOUN	退化
+三	NUM	三
+角	NOUN	角
+形	PART	形
+并	ADV	并
+不能	AUX	能
+算	VERB	算
+是	AUX	是
+三	NUM	三
+角	NOUN	角
+形	PART	形
+,	PUNCT	,
+这	PRON	这
+是	VERB	是
+由于	ADP	由于
+它	PRON	它
+介乎	VERB	介乎
+于	VERB	于
+三	NUM	三
+角	NOUN	角
+不等	VERB	不等
+式	PART	式
+之间	ADP	之间
+,	PUNCT	,
+在	ADP	在
+一些	ADJ	一些
+资料	NOUN	资料
+中	ADP	中
+已	ADV	已
+否定	VERB	否定
+了	AUX	了
+其中	NOUN	其中
+一	NUM	一
+条	NOUN	条
+边	NOUN	边
+等	VERB	等
+于	VERB	于
+其余	DET	其余
+两	NUM	两
+条	NOUN	条
+边	NOUN	边
+之	PART	之
+和	NOUN	和
+的	SCONJ	的
+情况	NOUN	情况
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+不等: 等 | 不等
+}
+
+Expected: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+许多	NUM	许多
+建议	NOUN	建议
+,	PUNCT	,
+另	DET	另
+一些	NUM	一些
+建议	NOUN	建议
+则	SCONJ	则
+被	AUX	被
+否决	VERB	否决
+或	CCONJ	或
+认为	VERB	为
+时机	NOUN	时机
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+,	PUNCT	,
+实际	NOUN	实际
+上	ADP	上
+全部	DET	全部
+建议	NOUN	建议
+最后	NOUN	最后
+仍是	ADV	仍是
+没有	VERB	有
+落实	VERB	落实
+。	PUNCT	。
+}
+Predicted: {
+洪	PROPN	洪
+秀全	PROPN	秀全
+同意	VERB	同意
+了	AUX	了
+许多	NUM	许多
+建议	NOUN	建议
+,	PUNCT	,
+另	DET	另
+一些	NUM	一些
+建议	NOUN	建议
+则	SCONJ	则
+被	AUX	被
+否决	VERB	否决
+或	CCONJ	或
+认为	VERB	为
+时机	NOUN	时机
+未	ADV	未
+成熟	VERB	成熟
+而	SCONJ	而
+不宜	ADV	不宜
+推行	VERB	推行
+,	PUNCT	,
+实际	NOUN	实际
+上	ADP	上
+全部	DET	全部
+建议	NOUN	建议
+最后	NOUN	最后
+仍是	ADV	是
+没有	VERB	有
+落实	VERB	落实
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+仍是: 仍是 | 是
+}
+
+Expected: {
+大	ADV	大
+多数	ADJ	多数
+时候	NOUN	时候
+,	PUNCT	,
+这	PRON	这
+意味	VERB	意味
+着	AUX	着
+某种	DET	某种
+功能	NOUN	功能
+出现	VERB	出现
+故障	NOUN	故障
+,	PUNCT	,
+例如	VERB	例如
+前面	NOUN	前面
+的	PART	的
+白化	NOUN	白化
+病	PART	病
+通常	ADV	通常
+就是	SCONJ	就是
+因	ADP	因
+此	PRON	此
+无法	VERB	无法
+正常	ADV	正常
+产生	VERB	产生
+黑	NOUN	黑
+色素	NOUN	色素
+。	PUNCT	。
+}
+Predicted: {
+大	ADV	大
+多数	ADJ	多数
+时候	NOUN	时候
+,	PUNCT	,
+这	PRON	这
+意味	VERB	意味
+着	AUX	着
+某种	DET	某种
+功能	NOUN	功能
+出现	VERB	出现
+故障	NOUN	故障
+,	PUNCT	,
+例如	VERB	例如
+前面	NOUN	前面
+的	PART	的
+白化	NOUN	白化
+病	PART	病
+通常	ADV	通常
+就是	SCONJ	是
+因	ADP	因
+此	PRON	此
+无法	VERB	无法
+正常	ADV	正常
+产生	VERB	产生
+黑	NOUN	黑
+色素	NOUN	色素
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+就是: 就是 | 是
+}
+
+Expected: {
+他们	PRON	他
+捣毁	VERB	捣毁
+选票	NOUN	选票
+柜	PART	柜
+,	PUNCT	,
+收集	VERB	收集
+并	SCONJ	并
+揭露	VERB	揭露
+贿选	NOUN	贿选
+情况	NOUN	情况
+,	PUNCT	,
+还	SCONJ	还
+向	ADP	向
+北京	PROPN	北京
+政府	NOUN	政府
+控诉	VERB	控诉
+倪	PROPN	倪
+道烺	PROPN	道烺
+、	PUNCT	、
+马	PROPN	马
+联甲	PROPN	联甲
+贿选	NOUN	贿选
+罪状	NOUN	罪状
+。	PUNCT	。
+}
+Predicted: {
+他们	PRON	他们
+捣毁	VERB	捣毁
+选票	NOUN	选票
+柜	PART	柜
+,	PUNCT	,
+收集	VERB	收集
+并	SCONJ	并
+揭露	VERB	揭露
+贿选	NOUN	贿选
+情况	NOUN	情况
+,	PUNCT	,
+还	SCONJ	还
+向	ADP	向
+北京	PROPN	北京
+政府	NOUN	政府
+控诉	VERB	控诉
+倪	PROPN	倪
+道烺	PROPN	道烺
+、	PUNCT	、
+马	PROPN	马
+联甲	PROPN	联甲
+贿选	NOUN	贿选
+罪状	NOUN	罪状
+。	PUNCT	。
+}
+Errors: {
+Tok: Ref | Pred
+---------------
+他们: 他 | 他们
+}

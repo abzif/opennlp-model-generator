@@ -1,0 +1,2733 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.9978684555552874
+Training-Sample-Size=72432
+Evaluation-Sample-Size=8048
+Training-Algorithm=MAXENT_QN
+
+=== MODEL PROPERTIES ===
+Component-Name=TokenizerME
+Language=it
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742454854475
+TrainerType=Event
+Training-Eventhash=803626739
+alphaNumericPattern=^[0-9a-zàèéìîíòóùüA-ZÀÈÉÌÎÍÒÓÙÜ]+$
+factory=opennlp.tools.tokenize.TokenizerFactory
+useAlphaNumericOptimization=false
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+Il termine decorre dal giorno in cui si è cessato di esercitar<SPLIT>la<SPLIT>;}
+Predicted: {
+Il termine decorre dal giorno in cui si è cessato di esercitarla<SPLIT>;}
+False positives: {
+esercitarla
+} False negatives: {
+esercitar
+la
+}
+
+Expected: {
+L'<SPLIT>occasione propizia glie<SPLIT>l'<SPLIT>ha offerta Alija Izetbegovic<SPLIT>, presidente musulmano di Bosnia<SPLIT>, il quale<SPLIT>, pure<SPLIT>, non si è mai fidato di quell'<SPLIT>ex comunista<SPLIT>, ex generale di Tito<SPLIT>, pseudo storico e ultra nazionalista che governa<SPLIT>, eletto a furor di popolo<SPLIT>, la Croazia<SPLIT>.}
+Predicted: {
+L'<SPLIT>occasione propizia gliel'<SPLIT>ha offerta Alija Izetbegovic<SPLIT>, presidente musulmano di Bosnia<SPLIT>, il quale<SPLIT>, pure<SPLIT>, non si è mai fidato di quell'<SPLIT>ex comunista<SPLIT>, ex generale di Tito<SPLIT>, pseudo storico e ultra nazionalista che governa<SPLIT>, eletto a furor di popolo<SPLIT>, la Croazia<SPLIT>.}
+False positives: {
+gliel'
+} False negatives: {
+glie
+l'
+}
+
+Expected: {
+E chissà a quante perifrasi si sarebbe fatto ricorso ...<SPLIT>.}
+Predicted: {
+E chissà a quante perifrasi si sarebbe fatto ricorso ....}
+False positives: {
+....
+} False negatives: {
+...
+.
+}
+
+Expected: {
+state tranquilli<SPLIT>, quest'<SPLIT>anno sorveglierò io le designazioni<SPLIT>, ho messo lì apposta Paparesta<SPLIT>, se vi fanno qualche torto rivolgetevi a me<SPLIT>.}
+Predicted: {
+state tranquilli<SPLIT>, quest'<SPLIT>anno sorveglierò io le designazioni<SPLIT>, ho messo lì apposta Paparesta<SPLIT>, se vi fanno qualche torto rivolgete<SPLIT>vi a me<SPLIT>.}
+False positives: {
+rivolgete
+vi
+} False negatives: {
+rivolgetevi
+}
+
+Expected: {
+Didoni si aspettava una gara in progressione di velocità e così è stato<SPLIT>, con passaggi di 20'01''<SPLIT>a<SPLIT>i 5 km<SPLIT>, 40'31''<SPLIT>a<SPLIT>i 10 km e quindi il primo salto di velocità fino al 15 chilometro transitato nel tempo di 1.00'16''<SPLIT>.}
+Predicted: {
+Didoni si aspettava una gara in progressione di velocità e così è stato<SPLIT>, con passaggi di 20'01''<SPLIT>ai 5 km<SPLIT>, 40'31''<SPLIT>ai 10 km e quindi il primo salto di velocità fino al 15 chilometro transitato nel tempo di 1.00'16''<SPLIT>.}
+False positives: {
+ai
+ai
+} False negatives: {
+a
+i
+a
+i
+}
+
+Expected: {
+"<SPLIT>In agosto verranno delle persone a trovar<SPLIT>ci<SPLIT>, se Marco vuole venire pago io le spese<SPLIT>, pensa<SPLIT>ci<SPLIT>!}
+Predicted: {
+"<SPLIT>In agosto verranno delle persone a trovar<SPLIT>ci<SPLIT>, se Marco vuole venire pago io le spese<SPLIT>, pensaci<SPLIT>!}
+False positives: {
+pensaci
+} False negatives: {
+pensa
+ci
+}
+
+Expected: {
+alle prime esposizioni solari "<SPLIT>Raffermissant Tissulaire pour le buste<SPLIT>" di Orlane che consente di esporre il seno al sole favorendo<SPLIT>ne il rassodamento e protezione<SPLIT>.}
+Predicted: {
+alle prime esposizioni solari "<SPLIT>Raffermissant Tissulaire pour le buste<SPLIT>" di Orlane che consente di esporre il seno al sole favorendone il rassodamento e protezione<SPLIT>.}
+False positives: {
+favorendone
+} False negatives: {
+favorendo
+ne
+}
+
+Expected: {
+Basta domandar<SPLIT>glie<SPLIT>li<SPLIT>.}
+Predicted: {
+Basta domandar<SPLIT>glieli<SPLIT>.}
+False positives: {
+glieli
+} False negatives: {
+glie
+li
+}
+
+Expected: {
+- fornire formazione<SPLIT>/<SPLIT>informazioni al personale di nuova assunzione ed estendere la formazione anche a<SPLIT>i settori che hanno meno fruito del programma Pericle (<SPLIT>agenti finanziari<SPLIT>, pubblici ministeri e personale tecnico<SPLIT>)<SPLIT>;}
+Predicted: {
+- fornire formazione<SPLIT>/informazioni al personale di nuova assunzione ed estendere la formazione anche a<SPLIT>i settori che hanno meno fruito del programma Pericle (<SPLIT>agenti finanziari<SPLIT>, pubblici ministeri e personale tecnico<SPLIT>)<SPLIT>;}
+False positives: {
+/informazioni
+} False negatives: {
+/
+informazioni
+}
+
+Expected: {
+Ciò avverrà nel rispetto dei criteri enunciati nella direttiva sulle norme fondamentali di sicurezza (<SPLIT>direttiva 96<SPLIT>/<SPLIT>29<SPLIT>/<SPLIT>Euratom<SPLIT>)<SPLIT>.}
+Predicted: {
+Ciò avverrà nel rispetto dei criteri enunciati nella direttiva sulle norme fondamentali di sicurezza (<SPLIT>direttiva 96<SPLIT>/<SPLIT>29/<SPLIT>Euratom<SPLIT>)<SPLIT>.}
+False positives: {
+29/
+} False negatives: {
+29
+/
+}
+
+Expected: {
+Ed ecco<SPLIT>lo l'<SPLIT>esercito<SPLIT>.}
+Predicted: {
+Ed eccolo l'<SPLIT>esercito<SPLIT>.}
+False positives: {
+eccolo
+} False negatives: {
+ecco
+lo
+}
+
+Expected: {
+Il 18 febbraio 1969 infatti<SPLIT>, il rettore dell'<SPLIT>Università degli Studi di Roma Pietro A. D'Avack e l'<SPLIT>amministratore della NASA Thomas Paine firmarono il memorandum d'<SPLIT>intesa che stabiliva le condizioni in base alle quali sarebbero stati forniti i finanziamenti a titolo di rimborso delle spese di lancio e attività associate di satelliti NASA dal Poligono di lancio San Marco<SPLIT>.}
+Predicted: {
+Il 18 febbraio 1969 infatti<SPLIT>, il rettore dell'<SPLIT>Università degli Studi di Roma Pietro A<SPLIT>. D'<SPLIT>Avack e l'<SPLIT>amministratore della NASA Thomas Paine firmarono il memorandum d'<SPLIT>intesa che stabiliva le condizioni in base alle quali sarebbero stati forniti i finanziamenti a titolo di rimborso delle spese di lancio e attività associate di satelliti NASA dal Poligono di lancio San Marco<SPLIT>.}
+False positives: {
+A
+.
+D'
+Avack
+} False negatives: {
+A.
+D'Avack
+}
+
+Expected: {
+Ieri proprio la D'<SPLIT>Addario ha chiesto di costituir<SPLIT>si parte civile<SPLIT>, pretendendo un risarcimento di 300mila euro<SPLIT>.}
+Predicted: {
+Ieri proprio la D'<SPLIT>Addario ha chiesto di costituir<SPLIT>si parte civile<SPLIT>, pretendendo un risarcimento di 300<SPLIT>mila euro<SPLIT>.}
+False positives: {
+300
+mila
+} False negatives: {
+300mila
+}
+
+Expected: {
+Stando alle indagini all'<SPLIT>interno degli uffici dell'<SPLIT>Alma group si sarebbe tenuto infatti un incontro tra Paolo Martino<SPLIT>, ritenuto da<SPLIT>gli investigatori un influente boss della ndrangheta<SPLIT>, e Aldo Mascaro<SPLIT>, prestanome di Giuseppe Romeo<SPLIT>, punto di riferimento delle famiglie di Africo in Lombardia<SPLIT>, a sua volta amministratore unico della ditta Al. Ma Autotrasporti<SPLIT>.}
+Predicted: {
+Stando alle indagini all'<SPLIT>interno degli uffici dell'<SPLIT>Alma group si sarebbe tenuto infatti un incontro tra Paolo Martino<SPLIT>, ritenuto da<SPLIT>gli investigatori un influente boss della ndrangheta<SPLIT>, e Aldo Mascaro<SPLIT>, prestanome di Giuseppe Romeo<SPLIT>, punto di riferimento delle famiglie di Africo in Lombardia<SPLIT>, a sua volta amministratore unico della ditta Al<SPLIT>. Ma Autotrasporti<SPLIT>.}
+False positives: {
+Al
+.
+} False negatives: {
+Al.
+}
+
+Expected: {
+Signora presidente<SPLIT>, sarebbe opportuno che inviasse una lettera alla presidente del Sri Lanka per esprimere le condoglianze del parlamento per questa e le altre morti violente verificate<SPLIT>si in Sri Lanka e per invitar<SPLIT>la a fare quanto in suo potere al fine di giungere a una riconciliazione pacifica in questa situazione assai difficile<SPLIT>.}
+Predicted: {
+Signora presidente<SPLIT>, sarebbe opportuno che inviasse una lettera alla presidente del Sri Lanka per esprimere le condoglianze del parlamento per questa e le altre morti violente verificatesi in Sri Lanka e per invitar<SPLIT>la a fare quanto in suo potere al fine di giungere a una riconciliazione pacifica in questa situazione assai difficile<SPLIT>.}
+False positives: {
+verificatesi
+} False negatives: {
+verificate
+si
+}
+
+Expected: {
+Oppure surgeliamo<SPLIT>li<SPLIT>, se abbiamo un frigorifero con un buon surgelatore<SPLIT>.}
+Predicted: {
+Oppure surgeliamoli<SPLIT>, se abbiamo un frigorifero con un buon surgelatore<SPLIT>.}
+False positives: {
+surgeliamoli
+} False negatives: {
+surgeliamo
+li
+}
+
+Expected: {
+Nei campi di concentramento<SPLIT>, gli ebrei erano prigionieri<SPLIT>, lavoravano molto<SPLIT>, avevano poco cibo e soffrivano il freddo.Molti ebrei morivano di fame e di freddo<SPLIT>.}
+Predicted: {
+Nei campi di concentramento<SPLIT>, gli ebrei erano prigionieri<SPLIT>, lavoravano molto<SPLIT>, avevano poco cibo e soffrivano il freddo<SPLIT>.Molti ebrei morivano di fame e di freddo<SPLIT>.}
+False positives: {
+freddo
+.Molti
+} False negatives: {
+freddo.Molti
+}
+
+Expected: {
+Svolte<SPLIT>si nell' ultimo fine settimana le nuove elezioni per il parlamento , si può trarre a consuntivo la conclusione che l' atteggiamento più diffuso tra i cittadini facenti parte dei paesi aderenti all' Unione Europea è l' euroscetticismo .}
+Predicted: {
+Svoltesi nell' ultimo fine settimana le nuove elezioni per il parlamento , si può trarre a consuntivo la conclusione che l' atteggiamento più diffuso tra i cittadini facenti parte dei paesi aderenti all' Unione Europea è l' euroscetticismo .}
+False positives: {
+Svoltesi
+} False negatives: {
+Svolte
+si
+}
+
+Expected: {
+Ma è soprattutto grazie alla televisione che il centro ha potuto assimilare a sé l' intero potere , acquisendo<SPLIT>ne il monopolio .}
+Predicted: {
+Ma è soprattutto grazie alla televisione che il centro ha potuto assimilare a sé l' intero potere , acquisendone il monopolio .}
+False positives: {
+acquisendone
+} False negatives: {
+acquisendo
+ne
+}
+
+Expected: {
+È proprio grazie all' associazione della tecnica alla scienza teorica che secondo A. Koyrè si riesce a capire con esattezza l' universo , allontanando<SPLIT>si da quello che egli chiama " margine di imprecisione " ( " Dal mondo del pressappoco all' universo della precisione " 1967 ) , caratteristica tipica della matematica se applicata alla natura .}
+Predicted: {
+È proprio grazie all' associazione della tecnica alla scienza teorica che secondo A<SPLIT>. Koyrè si riesce a capire con esattezza l' universo , allontanando<SPLIT>si da quello che egli chiama " margine di imprecisione " ( " Dal mondo del pressappoco all' universo della precisione " 1967 ) , caratteristica tipica della matematica se applicata alla natura .}
+False positives: {
+A
+.
+} False negatives: {
+A.
+}
+
+Expected: {
+Ciò non è difficile dedur<SPLIT>lo , se si tiene conto del forte pessimismo di cui è pervasa la sua vita e dunque la sua concezione della realtà :}
+Predicted: {
+Ciò non è difficile dedurlo , se si tiene conto del forte pessimismo di cui è pervasa la sua vita e dunque la sua concezione della realtà :}
+False positives: {
+dedurlo
+} False negatives: {
+dedur
+lo
+}
+
+Expected: {
+E perché tu di me novella porti<SPLIT>, sappi ch'<SPLIT>i' son Bertram da<SPLIT>l Bornio<SPLIT>, quelli che diedi al re giovane i ma' conforti<SPLIT>.}
+Predicted: {
+E perché tu di me novella porti<SPLIT>, sappi ch'<SPLIT>i' son Bertram dal Bornio<SPLIT>, quelli che diedi al re giovane i ma' conforti<SPLIT>.}
+False positives: {
+dal
+} False negatives: {
+da
+l
+}
+
+Expected: {
+Onde l'<SPLIT>altro lebbroso<SPLIT>, che m'<SPLIT>intese<SPLIT>, rispuose al detto mio<SPLIT>: «<SPLIT>Tra' me<SPLIT>ne Stricca che seppe far le temperate spese<SPLIT>, e Niccolò che la costuma ricca del garofano prima discoverse ne l'<SPLIT>orto dove tal seme s'<SPLIT>appicca<SPLIT>; e tra' ne la brigata in che disperse Caccia d'<SPLIT>Ascian la vigna e la gran fonda<SPLIT>, e l'<SPLIT>Abbagliato suo senno proferse<SPLIT>.}
+Predicted: {
+Onde l'<SPLIT>altro lebbroso<SPLIT>, che m'<SPLIT>intese<SPLIT>, rispuose al detto mio<SPLIT>: «<SPLIT>Tra' mene Stricca che seppe far le temperate spese<SPLIT>, e Niccolò che la costuma ricca del garofano prima discoverse ne l'<SPLIT>orto dove tal seme s'<SPLIT>appicca<SPLIT>; e tra' ne la brigata in che disperse Caccia d'<SPLIT>Ascian la vigna e la gran fonda<SPLIT>, e l'<SPLIT>Abbagliato suo senno proferse<SPLIT>.}
+False positives: {
+mene
+} False negatives: {
+me
+ne
+}
+
+Expected: {
+E poi che i due rabbiosi fuor passati sovra cu' io avea l'<SPLIT>occhio tenuto<SPLIT>, rivolsi<SPLIT>lo a guardar li altri mal nati<SPLIT>.}
+Predicted: {
+E poi che i due rabbiosi fuor passati sovra cu' io avea l'<SPLIT>occhio tenuto<SPLIT>, rivolsilo a guardar li altri mal nati<SPLIT>.}
+False positives: {
+rivolsilo
+} False negatives: {
+rivolsi
+lo
+}
+
+Expected: {
+Sì come di vapor gelati fiocca in giuso l' aere nostro<SPLIT>, quando 'l corno de la capra del ciel col sol si tocca<SPLIT>, in sù vid' io così l' etera addorno farsi e fioccar di vapor triunfanti che fatto avien con noi quivi soggiorno<SPLIT>.}
+Predicted: {
+Sì come di vapor gelati fiocca in giuso l' aere nostro<SPLIT>, quando 'l corno de la capra del ciel col sol si tocca<SPLIT>, in sù vid' io così l' etera addorno far<SPLIT>si e fioccar di vapor triunfanti che fatto avien con noi quivi soggiorno<SPLIT>.}
+False positives: {
+far
+si
+} False negatives: {
+farsi
+}
+
+Expected: {
+L' altro ternaro<SPLIT>, che così germoglia in questa primavera sempiterna che notturno Ariete non dispoglia<SPLIT>, perpetualemente<SPLIT>' Osanna<SPLIT>' sberna con tre melode<SPLIT>, che suonano in tree ordini di letizia onde s' interna<SPLIT>.}
+Predicted: {
+L' altro ternaro<SPLIT>, che così germoglia in questa primavera sempiterna che notturno Ariete non dispoglia<SPLIT>, perpetualemente<SPLIT>' Osanna' sberna con tre melode<SPLIT>, che suonano in tree ordini di letizia onde s' interna<SPLIT>.}
+False positives: {
+Osanna'
+} False negatives: {
+Osanna
+'
+}
+
+Expected: {
+Quali a veder de' fioretti del melo che del suo pome li angeli fa ghiotti e perpetue nozze fa nel cielo<SPLIT>, Pietro e Giovanni e Iacopo condotti e vinti<SPLIT>, ritornaro a la parola da la qual furon maggior sonni rotti<SPLIT>, e videro scemata loro scuola così di Moisè come d' Elia<SPLIT>, e al maestro suo cangiata stola<SPLIT>; tal torna' io<SPLIT>, e vidi quella pia sovra me starsi che conducitrice fu de' miei passi lungo 'l fiume pria<SPLIT>.}
+Predicted: {
+Quali a veder de' fioretti del melo che del suo pome li angeli fa ghiotti e perpetue nozze fa nel cielo<SPLIT>, Pietro e Giovanni e Iacopo condotti e vinti<SPLIT>, ritornaro a la parola da la qual furon maggior sonni rotti<SPLIT>, e videro scemata loro scuola così di Moisè come d' Elia<SPLIT>, e al maestro suo cangiata stola<SPLIT>; tal torna' io<SPLIT>, e vidi quella pia sovra me star<SPLIT>si che conducitrice fu de' miei passi lungo 'l fiume pria<SPLIT>.}
+False positives: {
+star
+si
+} False negatives: {
+starsi
+}
+
+Expected: {
+Io vidi sopra lei tanta allegrezza piover<SPLIT>, portata ne le menti sante create a trasvolar per quella altezza<SPLIT>, che quantunque io avea visto davante<SPLIT>, di tanta ammirazion non mi sospese<SPLIT>, né mi mostrò di Dio tanto sembiante<SPLIT>; e quello amor che primo lì discese<SPLIT>, cantando<SPLIT>' Ave<SPLIT>, Maria<SPLIT>, gratia plena<SPLIT>'<SPLIT>, dinanzi a lei le sue ali distese<SPLIT>.}
+Predicted: {
+Io vidi sopra lei tanta allegrezza piover<SPLIT>, portata ne le menti sante create a trasvolar per quella altezza<SPLIT>, che quantunque io avea visto davante<SPLIT>, di tanta ammirazion non mi sospese<SPLIT>, né mi mostrò di Dio tanto sembiante<SPLIT>; e quello amor che primo lì discese<SPLIT>, cantando<SPLIT>' Ave<SPLIT>, Maria<SPLIT>, gratia plena'<SPLIT>, dinanzi a lei le sue ali distese<SPLIT>.}
+False positives: {
+plena'
+} False negatives: {
+plena
+'
+}
+
+Expected: {
+O luce etterna che sola in te sidi<SPLIT>, sola t' intendi<SPLIT>, e da te intelletta e intendente te ami e arridi<SPLIT>!}
+Predicted: {
+O luce etterna che sola in te sidi<SPLIT>, sola t' intendi<SPLIT>, e da te intelletta e intendente te a<SPLIT>mi e arridi<SPLIT>!}
+False positives: {
+a
+mi
+} False negatives: {
+ami
+}
+
+Expected: {
+Trasseci l'<SPLIT>ombra del primo parente<SPLIT>, d'<SPLIT>Abèl suo figlio e quella di Noè<SPLIT>, di Moisè legista e ubidente<SPLIT>; Abraàm patriarca e Davìd re<SPLIT>, Israèl con lo padre e co' suoi nati e con Rachele<SPLIT>, per cui tanto fé<SPLIT>, e altri molti<SPLIT>, e fece<SPLIT>li beati<SPLIT>.}
+Predicted: {
+Trasse<SPLIT>ci l'<SPLIT>ombra del primo parente<SPLIT>, d'<SPLIT>Abèl suo figlio e quella di Noè<SPLIT>, di Moisè legista e ubidente<SPLIT>; Abraàm patriarca e Davìd re<SPLIT>, Israèl con lo padre e co' suoi nati e con Rachele<SPLIT>, per cui tanto fé<SPLIT>, e altri molti<SPLIT>, e fece<SPLIT>li beati<SPLIT>.}
+False positives: {
+Trasse
+ci
+} False negatives: {
+Trasseci
+}
+
+Expected: {
+Però che ciascun meco si convene nel nome che sonò la voce sola<SPLIT>, fanno<SPLIT>mi onore<SPLIT>, e di ciò fanno bene<SPLIT>»<SPLIT>.}
+Predicted: {
+Però che ciascun meco si convene nel nome che sonò la voce sola<SPLIT>, fannomi onore<SPLIT>, e di ciò fanno bene<SPLIT>»<SPLIT>.}
+False positives: {
+fannomi
+} False negatives: {
+fanno
+mi
+}
+
+Expected: {
+Allor porsi la mano un poco avante e colsi un ramicel da un gran pruno<SPLIT>; e 'l tronco suo gridò<SPLIT>: «<SPLIT>Perché mi schiante<SPLIT>?<SPLIT>»<SPLIT>.}
+Predicted: {
+Allor por<SPLIT>si la mano un poco avante e colsi un ramicel da un gran pruno<SPLIT>; e 'l tronco suo gridò<SPLIT>: «<SPLIT>Perché mi schiante<SPLIT>?<SPLIT>»<SPLIT>.}
+False positives: {
+por
+si
+} False negatives: {
+porsi
+}
+
+Expected: {
+Ed elli a noi<SPLIT>: «<SPLIT>O anime che giunte siete a veder lo strazio disonesto c'<SPLIT>ha le mie fronde sì da me disgiunte<SPLIT>, raccogliete<SPLIT>le al piè del tristo cesto<SPLIT>.}
+Predicted: {
+Ed elli a noi<SPLIT>: «<SPLIT>O anime che giunte siete a veder lo strazio disonesto c'<SPLIT>ha le mie fronde sì da me disgiunte<SPLIT>, raccoglietele al piè del tristo cesto<SPLIT>.}
+False positives: {
+raccoglietele
+} False negatives: {
+raccogliete
+le
+}
+
+Expected: {
+Ed elli a me<SPLIT>: «<SPLIT>Mal volentier lo dico<SPLIT>; ma sforza<SPLIT>mi la tua chiara favella<SPLIT>, che mi fa sovvenir del mondo antico<SPLIT>.}
+Predicted: {
+Ed elli a me<SPLIT>: «<SPLIT>Mal volentier lo dico<SPLIT>; ma sforzami la tua chiara favella<SPLIT>, che mi fa sovvenir del mondo antico<SPLIT>.}
+False positives: {
+sforzami
+} False negatives: {
+sforza
+mi
+}
+
+Expected: {
+Ma più è 'l tempo già che i piè mi cossi e ch'<SPLIT>i' son stato così sottosopra<SPLIT>, ch'<SPLIT>el non starà piantato co<SPLIT>i piè rossi<SPLIT>: ché dopo lui verrà di più laida opra<SPLIT>, di ver' ponente<SPLIT>, un pastor sanza legge<SPLIT>, tal che convien che lui e me ricuopra<SPLIT>.}
+Predicted: {
+Ma più è 'l tempo già che i piè mi cossi e ch'<SPLIT>i' son stato così sottosopra<SPLIT>, ch'<SPLIT>el non starà piantato coi piè rossi<SPLIT>: ché dopo lui verrà di più laida opra<SPLIT>, di ver' ponente<SPLIT>, un pastor sanza legge<SPLIT>, tal che convien che lui e me ricuopra<SPLIT>.}
+False positives: {
+coi
+} False negatives: {
+co
+i
+}
+
+Expected: {
+Ond'<SPLIT>ei<SPLIT>, ch'<SPLIT>avea lacciuoli a gran divizia<SPLIT>, rispuose<SPLIT>: «<SPLIT>Malizioso son io troppo<SPLIT>, quand'<SPLIT>io procuro a<SPLIT>' mia maggior trestizia<SPLIT>»<SPLIT>.}
+Predicted: {
+Ond'<SPLIT>ei<SPLIT>, ch'<SPLIT>avea lacciuoli a gran divizia<SPLIT>, rispuose<SPLIT>: «<SPLIT>Malizioso son io troppo<SPLIT>, quand'<SPLIT>io procuro a' mia maggior trestizia<SPLIT>»<SPLIT>.}
+False positives: {
+a'
+} False negatives: {
+a
+'
+}
+
+Expected: {
+Venimmo poi in su<SPLIT>l lito diserto<SPLIT>, che mai non vide navicar sue acque omo<SPLIT>, che di tornar sia poscia esperto<SPLIT>.}
+Predicted: {
+Venimmo poi in sul lito diserto<SPLIT>, che mai non vide navicar sue acque omo<SPLIT>, che di tornar sia poscia esperto<SPLIT>.}
+False positives: {
+sul
+} False negatives: {
+su
+l
+}
+
+Expected: {
+E come a messagger che porta ulivo tragge la gente per udir novelle<SPLIT>, e di calcar nessun si mostra schivo<SPLIT>, così al viso mio s' affisar quelle anime fortunate tutte quante<SPLIT>, quasi obliando d' ire a farsi belle<SPLIT>.}
+Predicted: {
+E come a messagger che porta ulivo tragge la gente per udir novelle<SPLIT>, e di calcar nessun si mostra schivo<SPLIT>, così al viso mio s' affisar quelle anime fortunate tutte quante<SPLIT>, quasi obliando d' ire a far<SPLIT>si belle<SPLIT>.}
+False positives: {
+far
+si
+} False negatives: {
+farsi
+}
+
+Expected: {
+Io mi volsi dallato con paura d' essere abbandonato<SPLIT>, quand' io vidi solo dinanzi a me la terra oscura<SPLIT>; e 'l mio conforto<SPLIT>: «<SPLIT>Perché pur diffidi<SPLIT>?<SPLIT>»<SPLIT>, a dir mi cominciò tutto rivolto<SPLIT>; «<SPLIT>non credi tu me te<SPLIT>co e ch' io ti guidi<SPLIT>?}
+Predicted: {
+Io mi volsi dallato con paura d' essere abbandonato<SPLIT>, quand' io vidi solo dinanzi a me la terra oscura<SPLIT>; e 'l mio conforto<SPLIT>: «<SPLIT>Perché pur diffidi<SPLIT>?<SPLIT>»<SPLIT>, a dir mi cominciò tutto rivolto<SPLIT>; «<SPLIT>non credi tu me teco e ch' io ti guidi<SPLIT>?}
+False positives: {
+teco
+} False negatives: {
+te
+co
+}
+
+Expected: {
+Io mi volsi ver lui e guarda<SPLIT>il fiso<SPLIT>: biondo era e bello e di gentile aspetto<SPLIT>, ma l' un de' cigli un colpo avea diviso<SPLIT>.}
+Predicted: {
+Io mi volsi ver lui e guardail fiso<SPLIT>: biondo era e bello e di gentile aspetto<SPLIT>, ma l' un de' cigli un colpo avea diviso<SPLIT>.}
+False positives: {
+guardail
+} False negatives: {
+guarda
+il
+}
+
+Expected: {
+E 'l mio maestro<SPLIT>: «<SPLIT>Voi potete andarne e ritrarre a color che vi mandaro che 'l corpo di costui è vera carne<SPLIT>.}
+Predicted: {
+E 'l mio maestro<SPLIT>: «<SPLIT>Voi potete andar<SPLIT>ne e ritrarre a color che vi mandaro che 'l corpo di costui è vera carne<SPLIT>.}
+False positives: {
+andar
+ne
+} False negatives: {
+andarne
+}
+
+Expected: {
+Quindi fu' io<SPLIT>; ma li profondi fóri ond' uscì 'l sangue in su<SPLIT>l quale io sedea<SPLIT>, fatti mi fuoro in grembo a li Antenori<SPLIT>, là dov' io più sicuro esser credea<SPLIT>: quel da Esti il fé far<SPLIT>, che m' avea in ira assai più là che dritto non volea<SPLIT>.}
+Predicted: {
+Quindi fu' io<SPLIT>; ma li profondi fóri ond' uscì 'l sangue in sul quale io sedea<SPLIT>, fatti mi fuoro in grembo a li Antenori<SPLIT>, là dov' io più sicuro esser credea<SPLIT>: quel da Esti il fé far<SPLIT>, che m' avea in ira assai più là che dritto non volea<SPLIT>.}
+False positives: {
+sul
+} False negatives: {
+su
+l
+}
+
+Expected: {
+Vidi conte Orso e l' anima divisa dal corpo suo per astio e per inveggia<SPLIT>, com' e' dicea<SPLIT>, non per colpa commisa<SPLIT>; Pier da la Broccia dico<SPLIT>; e qui proveggia<SPLIT>, mentr' è di<SPLIT>qua<SPLIT>, la donna di Brabante<SPLIT>, sì che però non sia di peggior greggia<SPLIT>.}
+Predicted: {
+Vidi conte Orso e l' anima divisa dal corpo suo per astio e per inveggia<SPLIT>, com' e' dicea<SPLIT>, non per colpa commisa<SPLIT>; Pier da la Broccia dico<SPLIT>; e qui proveggia<SPLIT>, mentr' è diqua<SPLIT>, la donna di Brabante<SPLIT>, sì che però non sia di peggior greggia<SPLIT>.}
+False positives: {
+diqua
+} False negatives: {
+di
+qua
+}
+
+Expected: {
+«<SPLIT>Salve<SPLIT>, Regina<SPLIT>» in su<SPLIT>l verde e 'n su ' fiori quindi seder cantando anime vidi<SPLIT>, che per la valle non parean di<SPLIT>fuori<SPLIT>.}
+Predicted: {
+«<SPLIT>Salve<SPLIT>, Regina<SPLIT>» in sul verde e 'n su ' fiori quindi seder cantando anime vidi<SPLIT>, che per la valle non parean difuori<SPLIT>.}
+False positives: {
+sul
+difuori
+} False negatives: {
+su
+l
+di
+fuori
+}
+
+Expected: {
+«<SPLIT>Qui si conviene usare un poco d' arte<SPLIT>»<SPLIT>, cominciò 'l duca mio<SPLIT>, «<SPLIT>in accostarsi or quinci<SPLIT>, or quindi al lato che si parte<SPLIT>»<SPLIT>.}
+Predicted: {
+«<SPLIT>Qui si conviene usare un poco d' arte<SPLIT>»<SPLIT>, cominciò 'l duca mio<SPLIT>, «<SPLIT>in accostar<SPLIT>si or quinci<SPLIT>, or quindi al lato che si parte<SPLIT>»<SPLIT>.}
+False positives: {
+accostar
+si
+} False negatives: {
+accostarsi
+}
+
+Expected: {
+Similemente al fummo de li 'ncensi che v' era imaginato<SPLIT>, li occhi e 'l naso e al sì e al no discordi fen<SPLIT>si<SPLIT>.}
+Predicted: {
+Similemente al fummo de li 'ncensi che v' era imaginato<SPLIT>, li occhi e 'l naso e al sì e al no discordi fensi<SPLIT>.}
+False positives: {
+fensi
+} False negatives: {
+fen
+si
+}
+
+Expected: {
+Com' a l' annunzio di dogliosi danni si turba il viso di colui ch' ascolta<SPLIT>, da qual che parte il periglio l' assanni<SPLIT>, così vid' io l' altr' anima<SPLIT>, che volta stava a udir<SPLIT>, turbarsi e farsi trista<SPLIT>, poi ch' ebbe la parola a sé raccolta<SPLIT>.}
+Predicted: {
+Com' a l' annunzio di dogliosi danni si turba il viso di colui ch' ascolta<SPLIT>, da qual che parte il periglio l' assanni<SPLIT>, così vid' io l' altr' anima<SPLIT>, che volta stava a udir<SPLIT>, turbar<SPLIT>si e far<SPLIT>si trista<SPLIT>, poi ch' ebbe la parola a sé raccolta<SPLIT>.}
+False positives: {
+turbar
+si
+far
+si
+} False negatives: {
+turbarsi
+farsi
+}
+
+Expected: {
+Quando in Bologna un Fabbro si ralligna<SPLIT>? quando in Faenza un Bernardin<SPLIT>di<SPLIT>Fosco<SPLIT>, verga gentil di picciola gramigna<SPLIT>?}
+Predicted: {
+Quando in Bologna un Fabbro si ralligna<SPLIT>? quando in Faenza un BernardindiFosco<SPLIT>, verga gentil di picciola gramigna<SPLIT>?}
+False positives: {
+BernardindiFosco
+} False negatives: {
+Bernardin
+di
+Fosco
+}
+
+Expected: {
+E lui vedea chinarsi<SPLIT>, per la morte che l' aggravava già<SPLIT>, inver' la terra<SPLIT>, ma de li occhi facea sempre al ciel porte<SPLIT>, orando a l' alto Sire<SPLIT>, in tanta guerra<SPLIT>, che perdonasse a' suoi persecutori<SPLIT>, con quello aspetto che pietà diserra<SPLIT>.}
+Predicted: {
+E lui vedea chinar<SPLIT>si<SPLIT>, per la morte che l' aggravava già<SPLIT>, inver' la terra<SPLIT>, ma de li occhi facea sempre al ciel porte<SPLIT>, orando a l' alto Sire<SPLIT>, in tanta guerra<SPLIT>, che perdonasse a' suoi persecutori<SPLIT>, con quello aspetto che pietà diserra<SPLIT>.}
+False positives: {
+chinar
+si
+} False negatives: {
+chinarsi
+}
+
+Expected: {
+Poi quando fuor da noi tanto divise quell' ombre<SPLIT>, che veder più non potier<SPLIT>si<SPLIT>, novo pensiero dentro a me si mise<SPLIT>, del qual più altri nacquero e diversi<SPLIT>; e tanto d' uno in altro vaneggiai<SPLIT>, che li occhi per vaghezza ricopersi<SPLIT>, e 'l pensamento in sogno trasmutai<SPLIT>.}
+Predicted: {
+Poi quando fuor da noi tanto divise quell' ombre<SPLIT>, che veder più non potiersi<SPLIT>, novo pensiero dentro a me si mise<SPLIT>, del qual più altri nacquero e diversi<SPLIT>; e tanto d' uno in altro vaneggiai<SPLIT>, che li occhi per vaghezza ricopersi<SPLIT>, e 'l pensamento in sogno trasmutai<SPLIT>.}
+False positives: {
+potiersi
+} False negatives: {
+potier
+si
+}
+
+Expected: {
+Vidi che lì non s' acquetava il core<SPLIT>, né più salir potie<SPLIT>si in quella vita<SPLIT>; per che di questa in me s' accese amore<SPLIT>.}
+Predicted: {
+Vidi che lì non s' acquetava il core<SPLIT>, né più salir potiesi in quella vita<SPLIT>; per che di questa in me s' accese amore<SPLIT>.}
+False positives: {
+potiesi
+} False negatives: {
+potie
+si
+}
+
+Expected: {
+La sete natural che mai non sazia se non con l' acqua onde la femminetta samaritana domandò la grazia<SPLIT>, mi travagliava<SPLIT>, e pungea<SPLIT>mi la fretta per la 'mpacciata via dietro al mio duca<SPLIT>, e condolea<SPLIT>mi a la giusta vendetta<SPLIT>.}
+Predicted: {
+La sete natural che mai non sazia se non con l' acqua onde la femminetta samaritana domandò la grazia<SPLIT>, mi travagliava<SPLIT>, e pungeami la fretta per la 'mpacciata via dietro al mio duca<SPLIT>, e condoleami a la giusta vendetta<SPLIT>.}
+False positives: {
+pungeami
+condoleami
+} False negatives: {
+pungea
+mi
+condolea
+mi
+}
+
+Expected: {
+Ora chi fosti<SPLIT>, piaccia<SPLIT>ti ch' io sappia<SPLIT>, e perché tanti secoli giaciuto qui se'<SPLIT>, ne le parole tue mi cappia<SPLIT>»<SPLIT>.}
+Predicted: {
+Ora chi fosti<SPLIT>, piacciati ch' io sappia<SPLIT>, e perché tanti secoli giaciuto qui se'<SPLIT>, ne le parole tue mi cappia<SPLIT>»<SPLIT>.}
+False positives: {
+piacciati
+} False negatives: {
+piaccia
+ti
+}
+
+Expected: {
+Già era 'l mondo tutto quanto pregno de la vera credenza<SPLIT>, seminata per li messaggi de l' etterno regno<SPLIT>; e la parola tua sopra toccata si consonava a ' nuovi predicanti<SPLIT>; ond' io a visitarli presi usata<SPLIT>.}
+Predicted: {
+Già era 'l mondo tutto quanto pregno de la vera credenza<SPLIT>, seminata per li messaggi de l' etterno regno<SPLIT>; e la parola tua sopra toccata si consonava a ' nuovi predicanti<SPLIT>; ond' io a visitar<SPLIT>li presi usata<SPLIT>.}
+False positives: {
+visitar
+li
+} False negatives: {
+visitarli
+}
+
+Expected: {
+Io ti credea trovar là giù di<SPLIT>sotto<SPLIT>, dove tempo per tempo si ristora<SPLIT>»<SPLIT>.}
+Predicted: {
+Io ti credea trovar là giù disotto<SPLIT>, dove tempo per tempo si ristora<SPLIT>»<SPLIT>.}
+False positives: {
+disotto
+} False negatives: {
+di
+sotto
+}
+
+Expected: {
+Sanza restarsi<SPLIT>, per sé stessa cade mirabilmente a l' una de le rive<SPLIT>; quivi conosce prima le sue strade<SPLIT>.}
+Predicted: {
+Sanza restar<SPLIT>si<SPLIT>, per sé stessa cade mirabilmente a l' una de le rive<SPLIT>; quivi conosce prima le sue strade<SPLIT>.}
+False positives: {
+restar
+si
+} False negatives: {
+restarsi
+}
+
+Expected: {
+Lì veggio d' ogne parte farsi presta ciascun' ombra e basciarsi una con una sanza restar<SPLIT>, contente a brieve festa<SPLIT>; così per entro loro schiera bruna s' ammusa l' una con l' altra formica<SPLIT>, forse a spiar lor via e lor fortuna<SPLIT>.}
+Predicted: {
+Lì veggio d' ogne parte far<SPLIT>si presta ciascun' ombra e basciar<SPLIT>si una con una sanza restar<SPLIT>, contente a brieve festa<SPLIT>; così per entro loro schiera bruna s' ammusa l' una con l' altra formica<SPLIT>, forse a spiar lor via e lor fortuna<SPLIT>.}
+False positives: {
+far
+si
+basciar
+si
+} False negatives: {
+farsi
+basciarsi
+}
+
+Expected: {
+Da questa instanza può deliberarti esperienza<SPLIT>, se già mai la provi<SPLIT>, ch' esser suol fonte ai rivi di vostr' arti<SPLIT>.}
+Predicted: {
+Da questa instanza può deliberarti esperienza<SPLIT>, se già mai la provi<SPLIT>, ch' esser suol fonte a<SPLIT>i rivi di vostr' arti<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+Lo moto e la virtù d' i santi giri<SPLIT>, come dal fabbro l' arte del martello<SPLIT>, da' beati motor convien che spiri<SPLIT>; e 'l ciel cui tanti lumi fanno bello<SPLIT>, de la mente profonda che lui volve prende l' image e fassene suggello<SPLIT>.}
+Predicted: {
+Lo moto e la virtù d' i santi giri<SPLIT>, come dal fabbro l' arte del martello<SPLIT>, da' beati motor convien che spiri<SPLIT>; e 'l ciel cui tanti lumi fanno bello<SPLIT>, de la mente profonda che lui volve prende l' image e fasse<SPLIT>ne suggello<SPLIT>.}
+False positives: {
+fasse
+ne
+} False negatives: {
+fassene
+}
+
+Expected: {
+Poscia che li occhi miei si fuoro offerti a la mia donna reverenti<SPLIT>, ed essa fatti li avea di sé contenti e certi<SPLIT>, rivolsersi a la luce che promessa tanto s' avea<SPLIT>, e «<SPLIT>Deh<SPLIT>, chi siete<SPLIT>?<SPLIT>» fue la voce mia di grande affetto impressa<SPLIT>.}
+Predicted: {
+Poscia che li occhi miei si fuoro offerti a la mia donna reverenti<SPLIT>, ed essa fatti li avea di sé contenti e certi<SPLIT>, rivolser<SPLIT>si a la luce che promessa tanto s' avea<SPLIT>, e «<SPLIT>Deh<SPLIT>, chi siete<SPLIT>?<SPLIT>» fue la voce mia di grande affetto impressa<SPLIT>.}
+False positives: {
+rivolser
+si
+} False negatives: {
+rivolsersi
+}
+
+Expected: {
+Da poi che Carlo tuo<SPLIT>, bella Clemenza<SPLIT>, m' ebbe chiarito<SPLIT>, mi narrò li 'nganni che ricever dovea la sua semenza<SPLIT>; ma disse<SPLIT>: «<SPLIT>Taci e lascia muover li anni<SPLIT>»<SPLIT>; sì ch' io non posso dir se non che pianto giusto verrà di retro ai vostri danni<SPLIT>.}
+Predicted: {
+Da poi che Carlo tuo<SPLIT>, bella Clemenza<SPLIT>, m' ebbe chiarito<SPLIT>, mi narrò li 'nganni che ricever dovea la sua semenza<SPLIT>; ma disse<SPLIT>: «<SPLIT>Taci e lascia muover li anni<SPLIT>»<SPLIT>; sì ch' io non posso dir se non che pianto giusto verrà di retro a<SPLIT>i vostri danni<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+Poi che le sponsalizie fuor compiute al sacro fonte intra lui e la Fede<SPLIT>, u' si dotar di mutua salute<SPLIT>, la donna che per lui l' assenso diede<SPLIT>, vide nel sonno il mirabile frutto ch' uscir dovea di lui e de le rede<SPLIT>; e perché fosse qual era in costrutto<SPLIT>, quinci si mosse spirito a nomarlo del possessivo di cui era tutto<SPLIT>.}
+Predicted: {
+Poi che le sponsalizie fuor compiute al sacro fonte intra lui e la Fede<SPLIT>, u' si dotar di mutua salute<SPLIT>, la donna che per lui l' assenso diede<SPLIT>, vide nel sonno il mirabile frutto ch' uscir dovea di lui e de le rede<SPLIT>; e perché fosse qual era in costrutto<SPLIT>, quinci si mosse spirito a nomar<SPLIT>lo del possessivo di cui era tutto<SPLIT>.}
+False positives: {
+nomar
+lo
+} False negatives: {
+nomarlo
+}
+
+Expected: {
+Compié 'l cantare e 'l volger sua misura<SPLIT>; e attesersi a noi quei santi lumi<SPLIT>, felicitando sé di cura in cura<SPLIT>.}
+Predicted: {
+Compié 'l cantare e 'l volger sua misura<SPLIT>; e atteser<SPLIT>si a noi quei santi lumi<SPLIT>, felicitando sé di cura in cura<SPLIT>.}
+False positives: {
+atteser
+si
+} False negatives: {
+attesersi
+}
+
+Expected: {
+Non creda donna Berta e ser Martino<SPLIT>, per vedere un furare<SPLIT>, altro offerere<SPLIT>, vederli dentro al consiglio divino<SPLIT>; ché quel può surgere<SPLIT>, e quel può cadere<SPLIT>»<SPLIT>.}
+Predicted: {
+Non creda donna Berta e ser Martino<SPLIT>, per vedere un furare<SPLIT>, altro offerere<SPLIT>, veder<SPLIT>li dentro al consiglio divino<SPLIT>; ché quel può surgere<SPLIT>, e quel può cadere<SPLIT>»<SPLIT>.}
+False positives: {
+veder
+li
+} False negatives: {
+vederli
+}
+
+Expected: {
+Se mai continga che 'l poema sacro al quale ha posto mano e cielo e terra<SPLIT>, sì che m' ha fatto per molti anni macro<SPLIT>, vinca la crudeltà che fuor mi serra del bello ovile ov' io dormi' agnello<SPLIT>, nimico ai lupi che li danno guerra<SPLIT>; con altra voce omai<SPLIT>, con altro vello ritornerò poeta<SPLIT>, e in su<SPLIT>l fonte del mio battesmo prenderò 'l cappello<SPLIT>; però che ne la fede<SPLIT>, che fa conte l' anime a Dio<SPLIT>, quivi intra' io<SPLIT>, e poi Pietro per lei sì mi girò la fronte<SPLIT>.}
+Predicted: {
+Se mai continga che 'l poema sacro al quale ha posto mano e cielo e terra<SPLIT>, sì che m' ha fatto per molti anni macro<SPLIT>, vinca la crudeltà che fuor mi serra del bello ovile ov' io dormi' agnello<SPLIT>, nimico a<SPLIT>i lupi che li danno guerra<SPLIT>; con altra voce omai<SPLIT>, con altro vello ritornerò poeta<SPLIT>, e in sul fonte del mio battesmo prenderò 'l cappello<SPLIT>; però che ne la fede<SPLIT>, che fa conte l' anime a Dio<SPLIT>, quivi intra' io<SPLIT>, e poi Pietro per lei sì mi girò la fronte<SPLIT>.}
+False positives: {
+a
+i
+sul
+} False negatives: {
+ai
+su
+l
+}
+
+Expected: {
+Recitò come coprotagonista con Audrey Hepburn in Sabrina (<SPLIT>1954<SPLIT>)<SPLIT>, dove interpreta il ruolo di uno spensierato playboy e fratello minore di Humphrey Bogart<SPLIT>.}
+Predicted: {
+Recitò come coprotagonista con Audrey Hepburn in Sabrina (<SPLIT>1954<SPLIT>)<SPLIT>, dove interpreta il ruolo di uno spensierato playboy e fratello minore di Humphrey Bogart.}
+False positives: {
+Bogart.
+} False negatives: {
+Bogart
+.
+}
+
+Expected: {
+Dopo la morte della Regina Elisabetta nel 1603<SPLIT>, la compagnia ottenne una licenza reale dal nuovo re<SPLIT>, Giacomo I e cambiò il suo nome in The King's Men<SPLIT>.}
+Predicted: {
+Dopo la morte della Regina Elisabetta nel 1603<SPLIT>, la compagnia ottenne una licenza reale dal nuovo re<SPLIT>, Giacomo I e cambiò il suo nome in The King<SPLIT>'s Men<SPLIT>.}
+False positives: {
+King
+'s
+} False negatives: {
+King's
+}
+
+Expected: {
+Shakespeare è stato commemorato in molte statue e memoriali in giro per il mondo<SPLIT>, inclusi i monumenti funerari della cattedrale di Southwark e il Poet's Corner di Westminster Abbey<SPLIT>.}
+Predicted: {
+Shakespeare è stato commemorato in molte statue e memoriali in giro per il mondo<SPLIT>, inclusi i monumenti funerari della cattedrale di Southwark e il Poet<SPLIT>'s Corner di Westminster Abbey<SPLIT>.}
+False positives: {
+Poet
+'s
+} False negatives: {
+Poet's
+}
+
+Expected: {
+Nel 1603<SPLIT>, avendo cambiato nome da Lord Chamberlain's Men a King's Men<SPLIT>, la compagnia instaurò un rapporto speciale con Re Giacomo I<SPLIT>.}
+Predicted: {
+Nel 1603<SPLIT>, avendo cambiato nome da Lord Chamberlain<SPLIT>'s Men a King<SPLIT>'s Men<SPLIT>, la compagnia instaurò un rapporto speciale con Re Giacomo I<SPLIT>.}
+False positives: {
+Chamberlain
+'s
+King
+'s
+} False negatives: {
+Chamberlain's
+King's
+}
+
+Expected: {
+L'<SPLIT>affidamento dovrebbe essere totalmente diverso dall'<SPLIT>adozione<SPLIT>, e non perché sia una misura di serie B<SPLIT>.}
+Predicted: {
+L'<SPLIT>affidamento dovrebbe essere totalmente diverso dall'<SPLIT>adozione<SPLIT>, e non perché sia una misura di serie B.}
+False positives: {
+B.
+} False negatives: {
+B
+.
+}
+
+Expected: {
+Basta #Grillo Il<SPLIT>4<SPLIT>è morta una ragazza che aveva capito che la sua laurea era inutile<SPLIT>. Lucia s’<SPLIT>è gettata dal balcone della sua casa a Catanzaro}
+Predicted: {
+Basta #Grillo Il4<SPLIT>è morta una ragazza che aveva capito che la sua laurea era inutile<SPLIT>. Lucia s’<SPLIT>è gettata dal balcone della sua casa a Catanzaro}
+False positives: {
+Il4
+} False negatives: {
+Il
+4
+}
+
+Expected: {
+(( ginevralove1d )) carina l'<SPLIT>icon<SPLIT>. Cibo<SPLIT>: fragole<SPLIT>.}
+Predicted: {
+(<SPLIT>( ginevralove1d )) carina l'<SPLIT>icon<SPLIT>. Cibo<SPLIT>: fragole<SPLIT>.}
+False positives: {
+(
+(
+} False negatives: {
+((
+}
+
+Expected: {
+Il Jailbreak untethered di iOS 5.1 è più vicino<SPLIT>: La notizia è di questa mattina<SPLIT>: probabilmente si è fatto un pas... http://t.co/byGnBBTi}
+Predicted: {
+Il Jailbreak untethered di iOS 5.<SPLIT>1 è più vicino<SPLIT>: La notizia è di questa mattina<SPLIT>: probabilmente si è fatto un pas... http://t.co/byGnBBTi}
+False positives: {
+5.
+1
+} False negatives: {
+5.1
+}
+
+Expected: {
+Il governo #Monti non ci piace affatto<SPLIT>, ma è giusto festeggiare le #dimissioni del peggior #presidente dal 1943<SPLIT>. Ora<SPLIT>, avanti<SPLIT>, siamo il #99%<SPLIT>!}
+Predicted: {
+Il governo #Monti non ci piace affatto<SPLIT>, ma è giusto festeggiare le #dimissioni del peggior #presidente dal 1943<SPLIT>. Ora<SPLIT>, avanti<SPLIT>, siamo il #99<SPLIT>%<SPLIT>!}
+False positives: {
+#99
+%
+} False negatives: {
+#99%
+}
+
+Expected: {
+#governo @user Licenzia 5000 precari LSU #LPU #Calabria dopo 20 di lavoro<SPLIT>nero}
+Predicted: {
+#governo @user Licenzia 5000 precari LSU #LPU #Calabria dopo 20 di lavoronero}
+False positives: {
+lavoronero
+} False negatives: {
+lavoro
+nero
+}
+
+Expected: {
+Maroni pensa che i downgrading sono colpa del governo monti<SPLIT>. #svegliatelo}
+Predicted: {
+Maroni pensa che i downgrading sono colpa del governo monti<SPLIT>. #svegliate<SPLIT>lo}
+False positives: {
+#svegliate
+lo
+} False negatives: {
+#svegliatelo
+}
+
+Expected: {
+#calcio Juventus<SPLIT>, Barzagli alla Rai<SPLIT>: « Non so analizzare questo 2 - 4 » http://t.co/7Wq8qMg5vY #news #calciomercato #news #calciomercato}
+Predicted: {
+#calcio Juventus<SPLIT>, Barza<SPLIT>gli alla Rai<SPLIT>: « Non so analizzare questo 2 - 4 » http://t.co/7Wq8qMg5vY #news #calciomercato #news #calciomercato}
+False positives: {
+Barza
+gli
+} False negatives: {
+Barzagli
+}
+
+Expected: {
+@user1 @user2 a Mattino5 il vicedirettore di Chi parla della copertina con Barbara e la Fede<SPLIT>non ha proferito parola<SPLIT>.}
+Predicted: {
+@user1 @user2 a Mattino5 il vicedirettore di Chi parla della copertina con Barbara e la Fedenon ha proferito parola<SPLIT>.}
+False positives: {
+Fedenon
+} False negatives: {
+Fede
+non
+}
+
+Expected: {
+su facebook scrivono le stesse cose di twitter ... SI MA QUELLE DI 5 MESI FA ... caro facebook aggiorna<SPLIT>ti ..}
+Predicted: {
+su facebook scrivono le stesse cose di twitter ... SI MA QUELLE DI 5 MESI FA ... caro facebook aggiornati ..}
+False positives: {
+aggiornati
+} False negatives: {
+aggiorna
+ti
+}
+
+Expected: {
+- #Grillo attacca anche #Vendola “ Spara supercazzole in tv " ... Concordo .. Una politica impastata con la prosa .. #comecazzoparlobene ..}
+Predicted: {
+- #Grillo attacca anche #Vendola “ Spara supercazzole in tv " ... Concordo .. Una politica impastata con la prosa .. #comecazzopar<SPLIT>lobene ..}
+False positives: {
+#comecazzopar
+lobene
+} False negatives: {
+#comecazzoparlobene
+}
+
+Expected: {
+D'Alema<SPLIT>: Per la prima volta pagano anche i ricchi<SPLIT>: ROMA – '' Il professor Monti si e' trovato ad operare in una ... http://t.co/7sSc1W0b}
+Predicted: {
+D'<SPLIT>Alema<SPLIT>: Per la prima volta pagano anche i ricchi<SPLIT>: ROMA – '' Il professor Monti si e' trovato ad operare in una ... http://t.co/7sSc1W0b}
+False positives: {
+D'
+Alema
+} False negatives: {
+D'Alema
+}
+
+Expected: {
+TAGLI A<SPLIT>I POLITICI<SPLIT>? MA DOVE<SPLIT>? GOVERNO MONTI<SPLIT>, SPARA<SPLIT>TI<SPLIT>!}
+Predicted: {
+TAGLI AI POLITICI<SPLIT>? MA DOVE<SPLIT>? GOVERNO MONTI<SPLIT>, SPARATI<SPLIT>!}
+False positives: {
+AI
+SPARATI
+} False negatives: {
+A
+I
+SPARA
+TI
+}
+
+Expected: {
+Mario Monti torna in treno a Roma<SPLIT>: Articoli correlati<SPLIT>Torino<SPLIT>, ultrà bruciano il campo rom terrore per uno stupro ... http://t.co/iJZjKeMD}
+Predicted: {
+Mario Monti torna in treno a Roma<SPLIT>: Articoli correlatiTorino<SPLIT>, ultrà bruciano il campo rom terrore per uno stupro ... http://t.co/iJZjKeMD}
+False positives: {
+correlatiTorino
+} False negatives: {
+correlati
+Torino
+}
+
+Expected: {
+Ragazza cn le converse tt paillettate ROSA<SPLIT>, ha chiamato Olivia Newton John da<SPLIT>gli anni '<SPLIT>80<SPLIT>. Ha detto ke rivuole indietro le sue scarpe<SPLIT>, grazie<SPLIT>.}
+Predicted: {
+Ragazza cn le converse tt paillettate ROSA<SPLIT>, ha chiamato Olivia Newton John da<SPLIT>gli anni '80<SPLIT>. Ha detto ke rivuole indietro le sue scarpe<SPLIT>, grazie<SPLIT>.}
+False positives: {
+'80
+} False negatives: {
+'
+80
+}
+
+Expected: {
+Senza troppi giri di parole<SPLIT>. Mario Monti<SPLIT>: « I politici mi fanno molta pena<SPLIT>, anche se durante il mio lavoro sto... http://t.co/Ar8sw6uK}
+Predicted: {
+Senza troppi giri di parole<SPLIT>. Mario Monti<SPLIT>: « I politici mi fanno molta pena<SPLIT>, anche se durante il mio lavoro sto<SPLIT>... http://t.co/Ar8sw6uK}
+False positives: {
+sto
+...
+} False negatives: {
+sto...
+}
+
+Expected: {
+#D'Alema<SPLIT>: “ Ho fatto sacrificio e ho ascoltato #Grillo su Internet<SPLIT>: è un incrocio tra il primo #Bossi e il Gabibbo<SPLIT>. ”<SPLIT>: http://t.co/IQBxkY1w}
+Predicted: {
+#D'<SPLIT>Alema<SPLIT>: “ Ho fatto sacrificio e ho ascoltato #Grillo su Internet<SPLIT>: è un incrocio tra il primo #Bossi e il Gabibbo<SPLIT>. ”<SPLIT>: http://t.co/IQBxkY1w}
+False positives: {
+#D'
+Alema
+} False negatives: {
+#D'Alema
+}
+
+Expected: {
+Governo Monti<SPLIT>, se il cambio di passo arriva anche sul Web Tg24 Sky.it<SPLIT>. Guarda<SPLIT>lo su<SPLIT>: http://t.co/fVVUBQGD}
+Predicted: {
+Governo Monti<SPLIT>, se il cambio di passo arriva anche sul Web Tg24 Sky.it<SPLIT>. Guardalo su<SPLIT>: http://t.co/fVVUBQGD}
+False positives: {
+Guardalo
+} False negatives: {
+Guarda
+lo
+}
+
+Expected: {
+#serviziopubblico l'<SPLIT>antipolitica e il populismo di #Grillo sono figli della cattiva politica dei partiti<SPLIT>, non meravigliamo<SPLIT>ci<SPLIT>!!!!!}
+Predicted: {
+#serviziopubblico l'<SPLIT>antipolitica e il populismo di #Grillo sono figli della cattiva politica dei partiti<SPLIT>, non meravigliamoci<SPLIT>!!!!!}
+False positives: {
+meravigliamoci
+} False negatives: {
+meravigliamo
+ci
+}
+
+Expected: {
+@user :: nemmeno un governo Monti ' di scopo '<SPLIT>?<SPLIT>: legge elett<SPLIT>. + rientro in UE + elez. primavera<SPLIT>?}
+Predicted: {
+@user :: nemmeno un governo Monti ' di scopo '<SPLIT>?<SPLIT>: legge elett<SPLIT>. + rientro in UE + elez<SPLIT>. primavera<SPLIT>?}
+False positives: {
+elez
+.
+} False negatives: {
+elez.
+}
+
+Expected: {
+Mi sa che l'<SPLIT>entusiasmo di Rep. & Co. per il Governo Monti stia già scendendo ...}
+Predicted: {
+Mi sa che l'<SPLIT>entusiasmo di Rep. & Co<SPLIT>. per il Governo Monti stia già scendendo ...}
+False positives: {
+Co
+.
+} False negatives: {
+Co.
+}
+
+Expected: {
+RT @user<SPLIT>: la timeline di mattina è stupenda<SPLIT>: niente litigi<SPLIT>, niente tweets idioti e persone che sclerano perchè<SPLIT>, come te<SPLIT>, non voglio a…}
+Predicted: {
+RT @user<SPLIT>: la timeline di mattina è stupenda<SPLIT>: niente litigi<SPLIT>, niente tweets idioti e persone che sclerano perchè<SPLIT>, come te<SPLIT>, non voglio a<SPLIT>…}
+False positives: {
+a
+…
+} False negatives: {
+a…
+}
+
+Expected: {
+Mario Monti<SPLIT>, ti prego ... Ti prego ... Non inseriamo nuovamente Frattini a<SPLIT>gli Esteri<SPLIT>. Ti prego ... Fal<SPLIT>lo per l'<SPLIT>Italia ...}
+Predicted: {
+Mario Monti<SPLIT>, ti prego ... Ti prego ... Non inseriamo nuovamente Frattini a<SPLIT>gli Esteri<SPLIT>. Ti prego ... Fallo per l'<SPLIT>Italia ...}
+False positives: {
+Fallo
+} False negatives: {
+Fal
+lo
+}
+
+Expected: {
+D'Alema sdoganerà pure il vaffanculismo di Grillo<SPLIT>? Dopo aver definito la #Lega una costola della sinistra dirà che #Grillo è il culo del #Pd}
+Predicted: {
+D'<SPLIT>Alema sdoganerà pure il vaffanculismo di Grillo<SPLIT>? Dopo aver definito la #Lega una costola della sinistra dirà che #Grillo è il culo del #Pd}
+False positives: {
+D'
+Alema
+} False negatives: {
+D'Alema
+}
+
+Expected: {
+Mi ha tolto tutto<SPLIT>, telefono e ipod<SPLIT>. Mortacci sua<SPLIT>.}
+Predicted: {
+Mi ha tolto tutto<SPLIT>, telefono e ipod. Mortacci sua<SPLIT>.}
+False positives: {
+ipod.
+} False negatives: {
+ipod
+.
+}
+
+Expected: {
+https://t.co/0b5baYLH non riesco a veder<SPLIT>vi tutti<SPLIT>. scrivete<SPLIT>mi se ho saltato qualcuno<SPLIT>. cwc}
+Predicted: {
+https://t.co/0b5baYLH non riesco a veder<SPLIT>vi tutti<SPLIT>. scrivetemi se ho saltato qualcuno<SPLIT>. cwc}
+False positives: {
+scrivetemi
+} False negatives: {
+scrivete
+mi
+}
+
+Expected: {
+L' editoria non profit sopravvivrà<SPLIT>? Domanda di fine anno a Mario Monti httpv://www.youtube.com/watch?v=7mbCGeuUEJk ... http://t.co/zu4ClMkv}
+Predicted: {
+L' editoria non profit sopravvivrà<SPLIT>? Domanda di fine anno a Mario Monti httpv://www.youtube.com/watch<SPLIT>?v=7mbCGeuUEJk ... http://t.co/zu4ClMkv}
+False positives: {
+httpv://www.youtube.com/watch
+?v=7mbCGeuUEJk
+} False negatives: {
+httpv://www.youtube.com/watch?v=7mbCGeuUEJk
+}
+
+Expected: {
+D'Alema<SPLIT>: il governo Monti è una nostra vittoria<SPLIT>, ci lavoravamo da un anno<SPLIT>. Con politici come lui nun c'<SPLIT>è bisogno del centrodestra<SPLIT>.}
+Predicted: {
+D'<SPLIT>Alema<SPLIT>: il governo Monti è una nostra vittoria<SPLIT>, ci lavoravamo da un anno<SPLIT>. Con politici come lui nun c'<SPLIT>è bisogno del centrodestra<SPLIT>.}
+False positives: {
+D'
+Alema
+} False negatives: {
+D'Alema
+}
+
+Expected: {
+@user nessun berluscones nel governo monti nessuna condizipone deve essere ammessa da parte di chi ha rovinato l<SPLIT>. italia}
+Predicted: {
+@user nessun berluscones nel governo monti nessuna condizipone deve essere ammessa da parte di chi ha rovinato l. italia}
+False positives: {
+l.
+} False negatives: {
+l
+.
+}
+
+Expected: {
+@user1 Tolto @user2 mi sa che #Grillo ha ragione sul giornalismo in Tv<SPLIT>. Anche Lerner per quanto bravo sia ... Figura<SPLIT>ti il resto}
+Predicted: {
+@user1 Tolto @user2 mi sa che #Grillo ha ragione sul giornalismo in Tv<SPLIT>. Anche Lerner per quanto bravo sia ... Figurati il resto}
+False positives: {
+Figurati
+} False negatives: {
+Figura
+ti
+}
+
+Expected: {
+Por<SPLIT>si a distanza<SPLIT>, quel tanto che basta per mettere bene a fuoco e osservare che le cose non sono esattamente come credevi che fossero<SPLIT>.}
+Predicted: {
+Porsi a distanza<SPLIT>, quel tanto che basta per mettere bene a fuoco e osservare che le cose non sono esattamente come credevi che fossero<SPLIT>.}
+False positives: {
+Porsi
+} False negatives: {
+Por
+si
+}
+
+Expected: {
+Crollano soffitti nei licei a Padova<SPLIT>, Roma e Napoli<SPLIT>: tragedia sfiorata<SPLIT>. Cerca<SPLIT>si #labuonascuola (<SPLIT>Leggi<SPLIT>: http://t.co/uovbjwpGDE<SPLIT>)<SPLIT>. @user}
+Predicted: {
+Crollano soffitti nei licei a Padova<SPLIT>, Roma e Napoli<SPLIT>: tragedia sfiorata<SPLIT>. Cercasi #labuonascuola (<SPLIT>Leggi<SPLIT>: http://t.co/uovbjwpGDE<SPLIT>)<SPLIT>. @user}
+False positives: {
+Cercasi
+} False negatives: {
+Cerca
+si
+}
+
+Expected: {
+“<SPLIT>@user<SPLIT>: #labuonascuola la scuola buona<SPLIT>? AHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAH MEGLIO L'<SPLIT>ARENA DEGLI HUNGER GAMES<SPLIT>.<SPLIT>”}
+Predicted: {
+“<SPLIT>@user<SPLIT>: #labuonascuola la scuola buona<SPLIT>? AHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAH MEGLIO L'<SPLIT>ARENA DEGLI HUNGER GAMES.<SPLIT>”}
+False positives: {
+GAMES.
+} False negatives: {
+GAMES
+.
+}
+
+Expected: {
+Vaticano<SPLIT>, un monsignore e una donna in manette<SPLIT>. Non si erano accorda<SPLIT>ti su<SPLIT>i ruoli<SPLIT>. [<SPLIT>acid rain<SPLIT>]}
+Predicted: {
+Vaticano<SPLIT>, un monsignore e una donna in manette<SPLIT>. Non si erano accordati su<SPLIT>i ruoli<SPLIT>. [<SPLIT>acid rain<SPLIT>]}
+False positives: {
+accordati
+} False negatives: {
+accorda
+ti
+}
+
+Expected: {
+Se @user assume 150<SPLIT>mila precari ne #labuonascuola in italia restauriamo la monarchia #altroche80euri}
+Predicted: {
+Se @user assume 150mila precari ne #labuonascuola in italia restauriamo la monarchia #altroche80euri}
+False positives: {
+150mila
+} False negatives: {
+150
+mila
+}
+
+Expected: {
+- Fatti i compiti per le vacanze<SPLIT>? - No<SPLIT>. - Cominciamo bene<SPLIT>! - Prof<SPLIT>, stia sereno<SPLIT>! Mi giudichi nel 2017<SPLIT>. #labuonascuola}
+Predicted: {
+- Fat<SPLIT>ti i compiti per le vacanze<SPLIT>? - No<SPLIT>. - Cominciamo bene<SPLIT>! - Prof<SPLIT>, stia sereno<SPLIT>! Mi giudichi nel 2017<SPLIT>. #labuonascuola}
+False positives: {
+Fat
+ti
+} False negatives: {
+Fatti
+}
+
+Expected: {
+E' un Governo strano<SPLIT>: le cose si fanno Come scusi<SPLIT>? Dice<SPLIT>si governo #Monti #chetempochefa}
+Predicted: {
+E' un Governo strano<SPLIT>: le cose si fanno Come scusi<SPLIT>? Dicesi governo #Monti #chetempochefa}
+False positives: {
+Dicesi
+} False negatives: {
+Dice
+si
+}
+
+Expected: {
+@user caro Presidente le dispiace illuminar<SPLIT>ci sull'<SPLIT>uscita delle graduatorie docenti al csa di firenze<SPLIT># la buona scuola dove è<SPLIT>?<SPLIT>#}
+Predicted: {
+@user caro Presidente le dispiace illuminar<SPLIT>ci sull'<SPLIT>uscita delle graduatorie docenti al csa di firenze<SPLIT># la buona scuola dove è<SPLIT>?#}
+False positives: {
+?#
+} False negatives: {
+?
+#
+}
+
+Expected: {
+http://t.co/W9CPW1uJBy avanti vecchi , senior , persone cn<SPLIT>0 servizio e #tieffini con servizio fuori bella riforma #labuonascuola @user}
+Predicted: {
+http://t.co/W9CPW1uJBy avanti vecchi , senior , persone cn0 servizio e #tieffini con servizio fuori bella riforma #labuonascuola @user}
+False positives: {
+cn0
+} False negatives: {
+cn
+0
+}
+
+Expected: {
+E ricordatevi vi di quello che diceva Winston Churchill<SPLIT>: "<SPLIT>non c'<SPLIT>è per nessuna comunità investimento migliore del metter latte dentro a<SPLIT>i bambini<SPLIT>"<SPLIT>.}
+Predicted: {
+E ricordate<SPLIT>vi vi di quello che diceva Winston Churchill<SPLIT>: "<SPLIT>non c'<SPLIT>è per nessuna comunità investimento migliore del metter latte dentro a<SPLIT>i bambini<SPLIT>"<SPLIT>.}
+False positives: {
+ricordate
+vi
+} False negatives: {
+ricordatevi
+}
+
+Expected: {
+Perché alleggerire e correggere la legge<SPLIT>, mantenendo<SPLIT>ne in piedi l'<SPLIT>impalcatura fondamentale<SPLIT>, significa aiutare il settore a rinascere<SPLIT>.}
+Predicted: {
+Perché alleggerire e correggere la legge<SPLIT>, mantenendone in piedi l'<SPLIT>impalcatura fondamentale<SPLIT>, significa aiutare il settore a rinascere<SPLIT>.}
+False positives: {
+mantenendone
+} False negatives: {
+mantenendo
+ne
+}
+
+Expected: {
+Probabilmente varcherò il limite senza accorger<SPLIT>me<SPLIT>ne neppure<SPLIT>, e continuerò ad andare avanti<SPLIT>, ignaro<SPLIT>.}
+Predicted: {
+Probabilmente varcherò il limite senza accorger<SPLIT>mene neppure<SPLIT>, e continuerò ad andare avanti<SPLIT>, ignaro<SPLIT>.}
+False positives: {
+mene
+} False negatives: {
+me
+ne
+}
+
+Expected: {
+A distanza di due trecento metri dal molo<SPLIT>, nell'<SPLIT>aperto mare<SPLIT>, il sinistro pesce andava su e giù<SPLIT>, lentamente<SPLIT>, ogni tanto sollevando il muso dall'<SPLIT>acqua e volgendo<SPLIT>lo a terra<SPLIT>, quasi con ansia guardasse se Stefano Roi finalmente veniva<SPLIT>.}
+Predicted: {
+A distanza di due trecento metri dal molo<SPLIT>, nell'<SPLIT>aperto mare<SPLIT>, il sinistro pesce andava su e giù<SPLIT>, lentamente<SPLIT>, ogni tanto sollevando il muso dall'<SPLIT>acqua e volgendolo a terra<SPLIT>, quasi con ansia guardasse se Stefano Roi finalmente veniva<SPLIT>.}
+False positives: {
+volgendolo
+} False negatives: {
+volgendo
+lo
+}
+
+Expected: {
+Gai Mattiolo a Cinecittà apre domani l'<SPLIT>haute couture con una collezione dedicata a<SPLIT>i cent anni del cinema ambientata in un set stile antica Roma e punta su quattro mannequine d'<SPLIT>eccezione<SPLIT>, tra cui Shana<SPLIT>, meglio ricordata per la pubblicità dove dice<SPLIT>: "<SPLIT>togliete<SPLIT>mi tutto ma non il mio Breil<SPLIT>" e tre volti noti<SPLIT>: Domiziana Giordano<SPLIT>, Dalila Di Lazzaro e Milly Carlucci<SPLIT>.}
+Predicted: {
+Gai Mattiolo a Cinecittà apre domani l'<SPLIT>haute couture con una collezione dedicata a<SPLIT>i cent anni del cinema ambientata in un set stile antica Roma e punta su quattro mannequine d'<SPLIT>eccezione<SPLIT>, tra cui Shana<SPLIT>, meglio ricordata per la pubblicità dove dice<SPLIT>: "<SPLIT>toglietemi tutto ma non il mio Breil<SPLIT>" e tre volti noti<SPLIT>: Domiziana Giordano<SPLIT>, Dalila Di Lazzaro e Milly Carlucci<SPLIT>.}
+False positives: {
+toglietemi
+} False negatives: {
+togliete
+mi
+}
+
+Expected: {
+Ma ho pensato il fine giustifica i mezzi<SPLIT>..}
+Predicted: {
+Ma ho pensato il fine giustifica i mezzi<SPLIT>.<SPLIT>.}
+False positives: {
+.
+.
+} False negatives: {
+..
+}
+
+Expected: {
+Lui era un ragazzo buono e ardito<SPLIT>: si è alzato<SPLIT>, e li è seguito<SPLIT>; quando se li ruscito<SPLIT>, ha detto<SPLIT>: « Lascia<SPLIT>gle<SPLIT>la »}
+Predicted: {
+Lui era un ragazzo buono e ardito<SPLIT>: si è alzato<SPLIT>, e li è seguito<SPLIT>; quando se li ruscito<SPLIT>, ha detto<SPLIT>: « Lasciaglela »}
+False positives: {
+Lasciaglela
+} False negatives: {
+Lascia
+gle
+la
+}
+
+Expected: {
+Mi alzai e battai questo tizio arrabbiato<SPLIT>.}
+Predicted: {
+Mi alza<SPLIT>i e battai questo tizio arrabbiato<SPLIT>.}
+False positives: {
+alza
+i
+} False negatives: {
+alzai
+}
+
+Expected: {
+il termine decorre dal giorno in cui si e cessato di esercitar<SPLIT>la<SPLIT>;}
+Predicted: {
+il termine decorre dal giorno in cui si e cessato di esercitarla<SPLIT>;}
+False positives: {
+esercitarla
+} False negatives: {
+esercitar
+la
+}
+
+Expected: {
+che vuol dire "<SPLIT>la melandri e preparata sull'<SPLIT>argomento<SPLIT>" ...<SPLIT>.}
+Predicted: {
+che vuol dire "<SPLIT>la melandri e preparata sull'<SPLIT>argomento<SPLIT>" ....}
+False positives: {
+....
+} False negatives: {
+...
+.
+}
+
+Expected: {
+ti sei sbagliato<SPLIT>, riconosci<SPLIT>lo<SPLIT>"<SPLIT>.}
+Predicted: {
+ti sei sbagliato<SPLIT>, riconoscilo<SPLIT>"<SPLIT>.}
+False positives: {
+riconoscilo
+} False negatives: {
+riconosci
+lo
+}
+
+Expected: {
+il suo corpo<SPLIT>, assieme a quello dell'<SPLIT>amico carmelo perla<SPLIT>, 21<SPLIT>, di fiumefreddo<SPLIT>, e stato recuperato ieri<SPLIT>, dopo ore e ore di ricerche<SPLIT>:}
+Predicted: {
+il suo corpo<SPLIT>, assieme a quello dell'<SPLIT>amico carme<SPLIT>lo perla<SPLIT>, 21<SPLIT>, di fiumefreddo<SPLIT>, e stato recuperato ieri<SPLIT>, dopo ore e ore di ricerche<SPLIT>:}
+False positives: {
+carme
+lo
+} False negatives: {
+carmelo
+}
+
+Expected: {
+non dimentichiamo che si tratta di persone che<SPLIT>, prima di ravveder<SPLIT>si<SPLIT>, avevano una fedina penale piuttosto pesante<SPLIT>.}
+Predicted: {
+non dimentichiamo che si tratta di persone che<SPLIT>, prima di ravvedersi<SPLIT>, avevano una fedina penale piuttosto pesante<SPLIT>.}
+False positives: {
+ravvedersi
+} False negatives: {
+ravveder
+si
+}
+
+Expected: {
+quando una grande generazione se ne va<SPLIT>, quasi mai ce n'<SPLIT>e un'<SPLIT>altra pronta a rilevar<SPLIT>la<SPLIT>, all'<SPLIT>altezza del compito<SPLIT>.}
+Predicted: {
+quando una grande generazione se ne va<SPLIT>, quasi mai ce n'<SPLIT>e un'<SPLIT>altra pronta a rilevarla<SPLIT>, all'<SPLIT>altezza del compito<SPLIT>.}
+False positives: {
+rilevarla
+} False negatives: {
+rilevar
+la
+}
+
+Expected: {
+non s'<SPLIT>e perso per strada michele didoni<SPLIT>, e si che marcia da quando aveva tre anni e mezzo<SPLIT>, perche il fratello - che oggi vive ad albacete<SPLIT>, in spagna - lo prendeva per mano e lo portava con se<SPLIT>, perche imitasse quel gioco a dondolo<SPLIT>.}
+Predicted: {
+non s'<SPLIT>e perso per strada michele didoni<SPLIT>, e si che marcia da quando aveva tre anni e mezzo<SPLIT>, perche il fratello - che oggi vive ad albacete<SPLIT>, in spagna - lo prendeva per mano e lo portava con se<SPLIT>, perche imitasse quel gioco a dondo<SPLIT>lo<SPLIT>.}
+False positives: {
+dondo
+lo
+} False negatives: {
+dondolo
+}
+
+Expected: {
+io ho preferito star<SPLIT>me<SPLIT>ne a casa perche temevo di far<SPLIT>le perdere la concentrazione<SPLIT>"<SPLIT>.}
+Predicted: {
+io ho preferito star<SPLIT>mene a casa perche temevo di far<SPLIT>le perdere la concentrazione<SPLIT>"<SPLIT>.}
+False positives: {
+mene
+} False negatives: {
+me
+ne
+}
+
+Expected: {
+e in questo senso<SPLIT>, la rivolta degli arbitri supera i confini di una semplice rivendicazione di categoria per il cambiamento di un paio di componenti la commissione di serie a e b<SPLIT>.}
+Predicted: {
+e in questo senso<SPLIT>, la rivolta degli arbitri supera i confini di una semplice rivendicazione di categoria per il cambiamento di un paio di componenti la commissione di serie a e b.}
+False positives: {
+b.
+} False negatives: {
+b
+.
+}
+
+Expected: {
+oggi<SPLIT>, il sottofondo di terracotta puo ancora essere richiesto di tipo artigianale<SPLIT>, spesso 1,5 o 2 cm. ma<SPLIT>, per alleggerire la produzione e consentire la posa con semplice colla<SPLIT>, buona parte della produzione vietrese si avvale di piastrelle stampate a macchina e piu sottili (<SPLIT>e con prezzi inferiori<SPLIT>)<SPLIT>.}
+Predicted: {
+oggi<SPLIT>, il sottofondo di terracotta puo ancora essere richiesto di tipo artigianale<SPLIT>, spesso 1,5 o 2 cm<SPLIT>. ma<SPLIT>, per alleggerire la produzione e consentire la posa con semplice colla<SPLIT>, buona parte della produzione vietrese si avvale di piastrelle stampate a macchina e piu sottili (<SPLIT>e con prezzi inferiori<SPLIT>)<SPLIT>.}
+False positives: {
+cm
+.
+} False negatives: {
+cm.
+}
+
+Expected: {
+due libri per sapern<SPLIT>ne di piu<SPLIT>.}
+Predicted: {
+due libri per sapernne di piu<SPLIT>.}
+False positives: {
+sapernne
+} False negatives: {
+sapern
+ne
+}
+
+Expected: {
+idrata<SPLIT>la cosi<SPLIT>.}
+Predicted: {
+idratala cosi<SPLIT>.}
+False positives: {
+idratala
+} False negatives: {
+idrata
+la
+}
+
+Expected: {
+focalizza<SPLIT>li e<SPLIT>, se puoi punta decisa alla loro eliminazione<SPLIT>.}
+Predicted: {
+focalizzali e<SPLIT>, se puoi punta decisa alla loro eliminazione<SPLIT>.}
+False positives: {
+focalizzali
+} False negatives: {
+focalizza
+li
+}
+
+Expected: {
+ti senti grassa e non ami il tuo corpo<SPLIT>?}
+Predicted: {
+ti senti grassa e non a<SPLIT>mi il tuo corpo<SPLIT>?}
+False positives: {
+a
+mi
+} False negatives: {
+ami
+}
+
+Expected: {
+e poi<SPLIT>, negli ultimi tempi del governo di unidad popular<SPLIT>, la crescente ostilita del partito comunista ...<SPLIT>.}
+Predicted: {
+e poi<SPLIT>, negli ultimi tempi del governo di unidad popular<SPLIT>, la crescente ostilita del partito comunista ....}
+False positives: {
+....
+} False negatives: {
+...
+.
+}
+
+Expected: {
+per le cause indicate dall'<SPLIT>articolo precedente l'<SPLIT>autorita amministrativa<SPLIT>, nei limiti e con le forme stabiliti da leggi speciali<SPLIT>, puo sottoporre a particolari vincoli od obblighi [<SPLIT>cost. 44<SPLIT>] di carattere temporaneo le aziende commerciali e agricole<SPLIT>.}
+Predicted: {
+per le cause indicate dall'<SPLIT>articolo precedente l'<SPLIT>autorita amministrativa<SPLIT>, nei limiti e con le forme stabiliti da leggi speciali<SPLIT>, puo sottoporre a particolari vincoli od obblighi [<SPLIT>cost<SPLIT>. 44<SPLIT>] di carattere temporaneo le aziende commerciali e agricole<SPLIT>.}
+False positives: {
+cost
+.
+} False negatives: {
+cost.
+}
+
+Expected: {
+comunicato del governo francese concernente la direttiva 94<SPLIT>/<SPLIT>22<SPLIT>/<SPLIT>ce del parlamento europeo e del consiglio<SPLIT>, del 30 maggio 1994<SPLIT>, relativa alle condizioni di rilascio e di esercizio delle autorizzazioni alla prospezione<SPLIT>, ricerca e coltivazione di idrocarburi<SPLIT>.}
+Predicted: {
+comunicato del governo francese concernente la direttiva 94<SPLIT>/22<SPLIT>/<SPLIT>ce del parlamento europeo e del consiglio<SPLIT>, del 30 maggio 1994<SPLIT>, relativa alle condizioni di rilascio e di esercizio delle autorizzazioni alla prospezione<SPLIT>, ricerca e coltivazione di idrocarburi<SPLIT>.}
+False positives: {
+/22
+} False negatives: {
+/
+22
+}
+
+Expected: {
+e nell'<SPLIT>italia meridionale<SPLIT>, dove erano fiorite numerose colonie albanesi<SPLIT>, nel 1903 fu fondato un '<SPLIT>comitato albanese<SPLIT>' la cui presidenza fu affidata al generale ricciotti garibaldi sulla base del programma '<SPLIT>l'<SPLIT>albania a<SPLIT>gli albanesi<SPLIT>'<SPLIT>.}
+Predicted: {
+e nell'<SPLIT>italia meridionale<SPLIT>, dove erano fiorite numerose colonie albanesi<SPLIT>, nel 1903 fu fondato un '<SPLIT>comitato albanese<SPLIT>' la cui presidenza fu affidata al generale ricciotti garibaldi sulla base del programma 'l'<SPLIT>albania a<SPLIT>gli albanesi<SPLIT>'<SPLIT>.}
+False positives: {
+'l'
+} False negatives: {
+'
+l'
+}
+
+Expected: {
+e' questa l'<SPLIT>opinione del capogruppo socialista alla camera<SPLIT>, nicola capria<SPLIT>, che giudica le due iniziative "<SPLIT>oggettivamente destabilizzanti<SPLIT>" perche "<SPLIT>difficilmente possono non avere come bersaglio il governo visto che tendono a corroder<SPLIT>ne la maggioranza<SPLIT>"<SPLIT>, e aggiunge che e un vizio tipico delle correnti democristiane trasferire i contrasti interni di partito sul terreno delle istituzioni<SPLIT>.}
+Predicted: {
+e' questa l'<SPLIT>opinione del capogruppo socialista alla camera<SPLIT>, nicola capria<SPLIT>, che giudica le due iniziative "<SPLIT>oggettivamente destabilizzanti<SPLIT>" perche "<SPLIT>difficilmente possono non avere come bersaglio il governo visto che tendono a corroderne la maggioranza<SPLIT>"<SPLIT>, e aggiunge che e un vizio tipico delle correnti democristiane trasferire i contrasti interni di partito sul terreno delle istituzioni<SPLIT>.}
+False positives: {
+corroderne
+} False negatives: {
+corroder
+ne
+}
+
+Expected: {
+dopo il decorso dei tre anni in cui venne distribuito il finanziamento della legge n. 388<SPLIT>, il cnr suddivise la somma di 30 miliardi di lire iscritta nel proprio bilancio per l'<SPLIT>anno 1978 assegnando<SPLIT>ne 1,5 miliardi al progetto san marco<SPLIT>.}
+Predicted: {
+dopo il decorso dei tre anni in cui venne distribuito il finanziamento della legge n. 388<SPLIT>, il cnr suddivise la somma di 30 miliardi di lire iscritta nel proprio bilancio per l'<SPLIT>anno 1978 assegnandone 1,5 miliardi al progetto san marco<SPLIT>.}
+False positives: {
+assegnandone
+} False negatives: {
+assegnando
+ne
+}
+
+Expected: {
+la carriera politica di bo e stata interrotta lo scorso anno dallo scandalo in cui la moglie<SPLIT>, gu kailai<SPLIT>, e stata accusata di aver avvelenato l'<SPLIT>uomo d'<SPLIT>affari britannico e amico di famiglia<SPLIT>, neil heywood<SPLIT>.}
+Predicted: {
+la carriera politica di bo e stata interrotta lo scorso anno dallo scandalo in cui la moglie<SPLIT>, gu kailai<SPLIT>, e stata accusata di aver avvelenato l'<SPLIT>uomo d'<SPLIT>affari britannico e amico di famiglia<SPLIT>, neil heywood.}
+False positives: {
+heywood.
+} False negatives: {
+heywood
+.
+}
+
+Expected: {
+l'<SPLIT>opera e protetta dal diritto d'<SPLIT>autore e<SPLIT>/<SPLIT>o dalle altre leggi applicabili<SPLIT>.}
+Predicted: {
+l'<SPLIT>opera e protetta dal diritto d'<SPLIT>autore e/o dalle altre leggi applicabili<SPLIT>.}
+False positives: {
+e/o
+} False negatives: {
+e
+/
+o
+}
+
+Expected: {
+la presente licenza si intendera risolta di diritto e i diritti con essa concessi cesseranno automaticamente<SPLIT>, senza necessita di alcuna comunicazione in tal senso da parte del licenziante<SPLIT>, in caso di qualsivoglia inadempimento dei termini della presente licenza da parte tua<SPLIT>, ed in particolare delle disposizioni di cui a<SPLIT>i punti 4. a<SPLIT>, 4. b e 4. c<SPLIT>, essendo la presente licenza condizionata risolutivamente al verificar<SPLIT>si di tali inadempimenti<SPLIT>.}
+Predicted: {
+la presente licenza si intendera risolta di diritto e i diritti con essa concessi cesseranno automaticamente<SPLIT>, senza necessita di alcuna comunicazione in tal senso da parte del licenziante<SPLIT>, in caso di qualsivoglia inadempimento dei termini della presente licenza da parte tua<SPLIT>, ed in particolare delle disposizioni di cui a<SPLIT>i punti 4<SPLIT>. a<SPLIT>, 4<SPLIT>. b e 4<SPLIT>. c<SPLIT>, essendo la presente licenza condizionata risolutivamente al verificar<SPLIT>si di tali inadempimenti<SPLIT>.}
+False positives: {
+4
+.
+4
+.
+4
+.
+} False negatives: {
+4.
+4.
+4.
+}
+
+Expected: {
+fat<SPLIT>ti seguire<SPLIT>.}
+Predicted: {
+fatti seguire<SPLIT>.}
+False positives: {
+fatti
+} False negatives: {
+fat
+ti
+}
+
+Expected: {
+l' italia in questa operazione e in pole position con l' agenzia spaziale italiana ( asi ) e puo vantare nel suo equipaggio l' esperienza fresca e diretta sul campo di samantha cristoforetti , una dei protagonisti della missione futura .}
+Predicted: {
+l' italia in questa operazione e in pole position con l' agenzia spaziale italiana ( a<SPLIT>si ) e puo vantare nel suo equipaggio l' esperienza fresca e diretta sul campo di samantha cristoforetti , una dei protagonisti della missione futura .}
+False positives: {
+a
+si
+} False negatives: {
+asi
+}
+
+Expected: {
+non e passato poi tanto tempo da quelle lunghe serate di primavera , passate in compagnia fino a tarda notte in piazza e dalle mattine seguenti , quando tutti noi ripassavamo dalla stessa piazza , magari senza accorger<SPLIT>ce<SPLIT>ne che era la stessa , per andare a scuola .}
+Predicted: {
+non e passato poi tanto tempo da quelle lunghe serate di primavera , passate in compagnia fino a tarda notte in piazza e dalle mattine seguenti , quando tutti noi ripassavamo dalla stessa piazza , magari senza accorger<SPLIT>cene che era la stessa , per andare a scuola .}
+False positives: {
+cene
+} False negatives: {
+ce
+ne
+}
+
+Expected: {
+cio non e difficile dedur<SPLIT>lo , se si tiene conto del forte pessimismo di cui e pervasa la sua vita e dunque la sua concezione della realta :}
+Predicted: {
+cio non e difficile dedurlo , se si tiene conto del forte pessimismo di cui e pervasa la sua vita e dunque la sua concezione della realta :}
+False positives: {
+dedurlo
+} False negatives: {
+dedur
+lo
+}
+
+Expected: {
+non e fantin che si subito rua col volto verso il latte<SPLIT>, se si svegli molto tardato da l' usanza sua<SPLIT>, come fec' io<SPLIT>, per far migliori spegli ancor de li occhi<SPLIT>, chinandomi a l' onda che si deriva perche vi s' immegli<SPLIT>; e si come di lei bevve la gronda de le palpebre mie<SPLIT>, cosi mi parve di sua lunghezza divenuta tonda<SPLIT>.}
+Predicted: {
+non e fantin che si subito rua col volto verso il latte<SPLIT>, se si svegli molto tardato da l' usanza sua<SPLIT>, come fec' io<SPLIT>, per far migliori spegli ancor de li occhi<SPLIT>, chinando<SPLIT>mi a l' onda che si deriva perche vi s' immegli<SPLIT>; e si come di lei bevve la gronda de le palpebre mie<SPLIT>, cosi mi parve di sua lunghezza divenuta tonda<SPLIT>.}
+False positives: {
+chinando
+mi
+} False negatives: {
+chinandomi
+}
+
+Expected: {
+tant' eran li occhi miei fissi e attenti a disbramarsi la decenne sete<SPLIT>, che li altri sensi m' eran tutti spenti<SPLIT>.}
+Predicted: {
+tant' eran li occhi miei fissi e attenti a disbramar<SPLIT>si la decenne sete<SPLIT>, che li altri sensi m' eran tutti spenti<SPLIT>.}
+False positives: {
+disbramar
+si
+} False negatives: {
+disbramarsi
+}
+
+Expected: {
+poi parve a me che la terra s' aprisse tr' ambo le ruote<SPLIT>, e vidi uscirne un drago che per lo carro su la coda fisse<SPLIT>; e come vespa che ritragge l' ago<SPLIT>, a se traendo la coda maligna<SPLIT>, trasse del fondo<SPLIT>, e gissen vago vago<SPLIT>.}
+Predicted: {
+poi parve a me che la terra s' aprisse tr' ambo le ruote<SPLIT>, e vidi uscir<SPLIT>ne un drago che per lo carro su la coda fisse<SPLIT>; e come vespa che ritragge l' ago<SPLIT>, a se traendo la coda maligna<SPLIT>, trasse del fondo<SPLIT>, e gissen vago vago<SPLIT>.}
+False positives: {
+uscir
+ne
+} False negatives: {
+uscirne
+}
+
+Expected: {
+si com' io fui<SPLIT>, com' io dovea<SPLIT>, seco<SPLIT>, dissemi<SPLIT>: "<SPLIT>frate<SPLIT>, perche non t' attenti a domandarmi omai venendo meco<SPLIT>?<SPLIT>"<SPLIT>.}
+Predicted: {
+si com' io fui<SPLIT>, com' io dovea<SPLIT>, seco<SPLIT>, dissemi<SPLIT>: "<SPLIT>frate<SPLIT>, perche non t' attenti a domandar<SPLIT>mi omai venendo meco<SPLIT>?<SPLIT>"<SPLIT>.}
+False positives: {
+domandar
+mi
+} False negatives: {
+domandarmi
+}
+
+Expected: {
+andovvi poi lo vas d'<SPLIT>elezione<SPLIT>, per recarne conforto a quella fede ch'<SPLIT>e principio a la via di salvazione<SPLIT>.}
+Predicted: {
+andovvi poi lo vas d'<SPLIT>elezione<SPLIT>, per recar<SPLIT>ne conforto a quella fede ch'<SPLIT>e principio a la via di salvazione<SPLIT>.}
+False positives: {
+recar
+ne
+} False negatives: {
+recarne
+}
+
+Expected: {
+e quella a me<SPLIT>: "<SPLIT>nessun maggior dolore che ricordarsi del tempo felice ne la miseria<SPLIT>; e cio sa 'l tuo dottore<SPLIT>.}
+Predicted: {
+e quella a me<SPLIT>: "<SPLIT>nessun maggior dolore che ricordar<SPLIT>si del tempo felice ne la miseria<SPLIT>; e cio sa 'l tuo dottore<SPLIT>.}
+False positives: {
+ricordar
+si
+} False negatives: {
+ricordarsi
+}
+
+Expected: {
+disse<SPLIT>mi<SPLIT>: "<SPLIT>qui con piu di mille giaccio<SPLIT>: qua dentro e 'l secondo federico e 'l cardinale<SPLIT>; e de li altri mi taccio<SPLIT>"<SPLIT>.}
+Predicted: {
+dissemi<SPLIT>: "<SPLIT>qui con piu di mille giaccio<SPLIT>: qua dentro e 'l secondo federico e 'l cardinale<SPLIT>; e de li altri mi taccio<SPLIT>"<SPLIT>.}
+False positives: {
+dissemi
+} False negatives: {
+disse
+mi
+}
+
+Expected: {
+"<SPLIT>s'<SPLIT>elli avesse potuto creder prima<SPLIT>"<SPLIT>, rispuose 'l savio mio<SPLIT>, "<SPLIT>anima lesa<SPLIT>, cio c'<SPLIT>ha veduto pur con la mia rima<SPLIT>, non averebbe in te la man distesa<SPLIT>; ma la cosa incredibile mi fece indurlo ad ovra ch'<SPLIT>a me stesso pesa<SPLIT>.}
+Predicted: {
+"<SPLIT>s'<SPLIT>elli avesse potuto creder prima<SPLIT>"<SPLIT>, rispuose 'l savio mio<SPLIT>, "<SPLIT>anima lesa<SPLIT>, cio c'<SPLIT>ha veduto pur con la mia rima<SPLIT>, non averebbe in te la man distesa<SPLIT>; ma la cosa incredibile mi fece indur<SPLIT>lo ad ovra ch'<SPLIT>a me stesso pesa<SPLIT>.}
+False positives: {
+indur
+lo
+} False negatives: {
+indurlo
+}
+
+Expected: {
+percio ricomincio<SPLIT>: "<SPLIT>se l'<SPLIT>om ti faccia liberamente cio che 'l tuo dir priega<SPLIT>, spirito incarcerato<SPLIT>, ancor ti piaccia di dirne come l'<SPLIT>anima si lega in questi nocchi<SPLIT>; e dinne<SPLIT>, se tu puoi<SPLIT>, s'<SPLIT>alcuna mai di tai membra si spiega<SPLIT>"<SPLIT>.}
+Predicted: {
+percio ricomincio<SPLIT>: "<SPLIT>se l'<SPLIT>om ti faccia liberamente cio che 'l tuo dir priega<SPLIT>, spirito incarcerato<SPLIT>, ancor ti piaccia di dir<SPLIT>ne come l'<SPLIT>anima si lega in questi nocchi<SPLIT>; e dinne<SPLIT>, se tu puoi<SPLIT>, s'<SPLIT>alcuna mai di tai membra si spiega<SPLIT>"<SPLIT>.}
+False positives: {
+dir
+ne
+} False negatives: {
+dirne
+}
+
+Expected: {
+poi che la carita del natio loco mi strinse<SPLIT>, raunai le fronde sparte e rende' le a colui<SPLIT>, ch'<SPLIT>era gia fioco<SPLIT>.}
+Predicted: {
+poi che la carita del natio loco mi strinse<SPLIT>, raunai le fronde sparte e rende<SPLIT>' le a colui<SPLIT>, ch'<SPLIT>era gia fioco<SPLIT>.}
+False positives: {
+rende
+'
+} False negatives: {
+rende'
+}
+
+Expected: {
+qual suole il fiammeggiar de le cose unte muoversi pur su per la strema buccia<SPLIT>, tal era li dai calcagni a le punte<SPLIT>.}
+Predicted: {
+qual suole il fiammeggiar de le cose unte muover<SPLIT>si pur su per la strema buccia<SPLIT>, tal era li da<SPLIT>i calcagni a le punte<SPLIT>.}
+False positives: {
+muover
+si
+da
+i
+} False negatives: {
+muoversi
+dai
+}
+
+Expected: {
+se' tu si tosto di quell'<SPLIT>aver sazio per lo qual non temesti torre a 'nganno la bella donna<SPLIT>, e poi di farne strazio<SPLIT>?<SPLIT>"<SPLIT>.}
+Predicted: {
+se' tu si tosto di quell'<SPLIT>aver sazio per lo qual non temesti torre a 'nganno la bella donna<SPLIT>, e poi di far<SPLIT>ne strazio<SPLIT>?<SPLIT>"<SPLIT>.}
+False positives: {
+far
+ne
+} False negatives: {
+farne
+}
+
+Expected: {
+volt'<SPLIT>era in su la favola d'<SPLIT>isopo lo mio pensier per la presente rissa<SPLIT>, dov'<SPLIT>el parlo de la rana e del topo<SPLIT>' ; che piu non si pareggia mo<SPLIT>' e '<SPLIT>issa che l'<SPLIT>un con l'<SPLIT>altro fa<SPLIT>, se ben s'<SPLIT>accoppia principio e fine con la mente fissa<SPLIT>.}
+Predicted: {
+volt'<SPLIT>era in su la favola d'<SPLIT>isopo lo mio pensier per la presente rissa<SPLIT>, dov'<SPLIT>el parlo de la rana e del topo' ; che piu non si pareggia mo' e '<SPLIT>issa che l'<SPLIT>un con l'<SPLIT>altro fa<SPLIT>, se ben s'<SPLIT>accoppia principio e fine con la mente fissa<SPLIT>.}
+False positives: {
+topo'
+mo'
+} False negatives: {
+topo
+'
+mo
+'
+}
+
+Expected: {
+non corse mai si tosto acqua per doccia a volger ruota di molin terragno<SPLIT>, quand'<SPLIT>ella piu verso le pale approccia<SPLIT>, come 'l maestro mio per quel vivagno<SPLIT>, portandosene me sovra 'l suo petto<SPLIT>, come suo figlio<SPLIT>, non come compagno<SPLIT>.}
+Predicted: {
+non corse mai si tosto acqua per doccia a volger ruota di molin terragno<SPLIT>, quand'<SPLIT>ella piu verso le pale approccia<SPLIT>, come 'l maestro mio per quel vivagno<SPLIT>, portando<SPLIT>se<SPLIT>ne me sovra 'l suo petto<SPLIT>, come suo figlio<SPLIT>, non come compagno<SPLIT>.}
+False positives: {
+portando
+se
+ne
+} False negatives: {
+portandosene
+}
+
+Expected: {
+le braccia aperse<SPLIT>, dopo alcun consiglio eletto seco riguardando prima ben la ruina<SPLIT>, e diede<SPLIT>mi di piglio<SPLIT>.}
+Predicted: {
+le braccia aperse<SPLIT>, dopo alcun consiglio eletto seco riguardando prima ben la ruina<SPLIT>, e diedemi di piglio<SPLIT>.}
+False positives: {
+diedemi
+} False negatives: {
+diede
+mi
+}
+
+Expected: {
+un altro<SPLIT>, che forata avea la gola e tronco 'l naso infin sotto le ciglia<SPLIT>, e non avea mai ch'<SPLIT>una orecchia sola<SPLIT>, ristato a riguardar per maraviglia con li altri<SPLIT>, innanzi a li altri apri la canna<SPLIT>, ch'<SPLIT>era di fuor d'<SPLIT>ogni parte vermiglia<SPLIT>, e disse<SPLIT>: "<SPLIT>o tu cui colpa non condanna e cu' io vidi in su terra latina<SPLIT>, se troppa simiglianza non m'<SPLIT>inganna<SPLIT>, rimembri<SPLIT>ti di pier da medicina<SPLIT>, se mai torni a veder lo dolce piano che da vercelli a marcabo dichina<SPLIT>.}
+Predicted: {
+un altro<SPLIT>, che forata avea la gola e tronco 'l naso infin sotto le ciglia<SPLIT>, e non avea mai ch'<SPLIT>una orecchia sola<SPLIT>, ristato a riguardar per maraviglia con li altri<SPLIT>, innanzi a li altri apri la canna<SPLIT>, ch'<SPLIT>era di fuor d'<SPLIT>ogni parte vermiglia<SPLIT>, e disse<SPLIT>: "<SPLIT>o tu cui colpa non condanna e cu' io vidi in su terra latina<SPLIT>, se troppa simiglianza non m'<SPLIT>inganna<SPLIT>, rimembriti di pier da medicina<SPLIT>, se mai torni a veder lo dolce piano che da vercelli a marcabo dichina<SPLIT>.}
+False positives: {
+rimembriti
+} False negatives: {
+rimembri
+ti
+}
+
+Expected: {
+come le pecorelle escon del chiuso a una<SPLIT>, a due<SPLIT>, a tre<SPLIT>, e l' altre stanno timidette atterrando l' occhio e 'l muso<SPLIT>; e cio che fa la prima<SPLIT>, e l' altre fanno<SPLIT>, addossandosi a lei<SPLIT>, s' ella s' arresta<SPLIT>, semplici e quete<SPLIT>, e lo 'mperche non sanno<SPLIT>; si vid' io muovere a venir la testa di quella mandra fortunata allotta<SPLIT>, pudica in faccia e ne l' andare onesta<SPLIT>.}
+Predicted: {
+come le pecorelle escon del chiuso a una<SPLIT>, a due<SPLIT>, a tre<SPLIT>, e l' altre stanno timidette atterrando l' occhio e 'l muso<SPLIT>; e cio che fa la prima<SPLIT>, e l' altre fanno<SPLIT>, addossando<SPLIT>si a lei<SPLIT>, s' ella s' arresta<SPLIT>, semplici e quete<SPLIT>, e lo 'mperche non sanno<SPLIT>; si vid' io muovere a venir la testa di quella mandra fortunata allotta<SPLIT>, pudica in faccia e ne l' andare onesta<SPLIT>.}
+False positives: {
+addossando
+si
+} False negatives: {
+addossandosi
+}
+
+Expected: {
+vassi in sanleo e discende<SPLIT>si in noli<SPLIT>, monta<SPLIT>si su in bismantova e 'n cacume con esso i pie<SPLIT>; ma qui convien ch' om voli<SPLIT>; dico con l' ale snelle e con le piume del gran disio<SPLIT>, di retro a quel condotto che speranza mi dava e facea lume<SPLIT>.}
+Predicted: {
+vassi in sanleo e discendesi in noli<SPLIT>, montasi su in bismantova e 'n cacume con esso i pie<SPLIT>; ma qui convien ch' om voli<SPLIT>; dico con l' ale snelle e con le piume del gran disio<SPLIT>, di retro a quel condotto che speranza mi dava e facea lume<SPLIT>.}
+False positives: {
+discendesi
+montasi
+} False negatives: {
+discende
+si
+monta
+si
+}
+
+Expected: {
+era gia l' ora che volge il disio ai navicanti e 'ntenerisce il core lo di c' han detto ai dolci amici addio<SPLIT>; e che lo novo peregrin d' amore punge<SPLIT>, se ode squilla di lontano che paia il giorno pianger che si more<SPLIT>; quand' io incominciai a render vano l' udire e a mirare una de l' alme surta<SPLIT>, che l' ascoltar chiedea con mano<SPLIT>.}
+Predicted: {
+era gia l' ora che volge il disio a<SPLIT>i navicanti e 'ntenerisce il core lo di c' han detto a<SPLIT>i dolci amici addio<SPLIT>; e che lo novo peregrin d' amore punge<SPLIT>, se ode squilla di lontano che paia il giorno pianger che si more<SPLIT>; quand' io incominciai a render vano l' udire e a mirare una de l' alme surta<SPLIT>, che l' ascoltar chiedea con mano<SPLIT>.}
+False positives: {
+a
+i
+a
+i
+} False negatives: {
+ai
+ai
+}
+
+Expected: {
+e sordello anco<SPLIT>: "<SPLIT>or avvalliamo omai tra le grandi ombre<SPLIT>, e parleremo ad esse<SPLIT>; grazioso fia lor vedervi assai<SPLIT>"<SPLIT>.}
+Predicted: {
+e sordello anco<SPLIT>: "<SPLIT>or avvalliamo omai tra le grandi ombre<SPLIT>, e parleremo ad esse<SPLIT>; grazioso fia lor veder<SPLIT>vi assai<SPLIT>"<SPLIT>.}
+False positives: {
+veder
+vi
+} False negatives: {
+vedervi
+}
+
+Expected: {
+ne l' ora che comincia i tristi lai la rondinella presso a la mattina<SPLIT>, forse a memoria de' suo' primi guai<SPLIT>, e che la mente nostra<SPLIT>, peregrina piu da la carne e men da' pensier presa<SPLIT>, a le sue vision quasi e divina<SPLIT>, in sogno mi parea veder sospesa un' aguglia nel ciel con penne d' oro<SPLIT>, con l' ali aperte e a calare intesa<SPLIT>; ed esser mi parea la dove fuoro abbandonati i suoi da ganimede<SPLIT>, quando fu ratto al sommo consistoro<SPLIT>.}
+Predicted: {
+ne l' ora che comincia i tristi la<SPLIT>i la rondinella presso a la mattina<SPLIT>, forse a memoria de' suo' primi guai<SPLIT>, e che la mente nostra<SPLIT>, peregrina piu da la carne e men da' pensier presa<SPLIT>, a le sue vision quasi e divina<SPLIT>, in sogno mi parea veder sospesa un' aguglia nel ciel con penne d' oro<SPLIT>, con l' ali aperte e a calare intesa<SPLIT>; ed esser mi parea la dove fuoro abbandonati i suoi da ganimede<SPLIT>, quando fu ratto al sommo consistoro<SPLIT>.}
+False positives: {
+la
+i
+} False negatives: {
+lai
+}
+
+Expected: {
+ma ficca li occhi per l' aere ben fiso<SPLIT>, e vedrai gente innanzi a noi sedersi<SPLIT>, e ciascun e lungo la grotta assiso<SPLIT>"<SPLIT>.}
+Predicted: {
+ma ficca li occhi per l' aere ben fiso<SPLIT>, e vedrai gente innanzi a noi seder<SPLIT>si<SPLIT>, e ciascun e lungo la grotta assiso<SPLIT>"<SPLIT>.}
+False positives: {
+seder
+si
+} False negatives: {
+sedersi
+}
+
+Expected: {
+vassi caggendo<SPLIT>; e quant' ella piu 'ngrossa<SPLIT>, tanto piu trova di can farsi lupi la maladetta e sventurata fossa<SPLIT>.}
+Predicted: {
+vassi caggendo<SPLIT>; e quant' ella piu 'ngrossa<SPLIT>, tanto piu trova di can far<SPLIT>si lupi la maladetta e sventurata fossa<SPLIT>.}
+False positives: {
+far
+si
+} False negatives: {
+farsi
+}
+
+Expected: {
+e i raggi ne ferien per mezzo 'l naso<SPLIT>, perche per noi girato era si 'l monte<SPLIT>, che gia dritti andavamo inver' l' occaso<SPLIT>, quand' io senti' a me gravar la fronte a lo splendore assai piu che di prima<SPLIT>, e stupor m' eran le cose non conte<SPLIT>; ond' io levai le mani inver' la cima de le mie ciglia<SPLIT>, e feci<SPLIT>mi 'l solecchio<SPLIT>, che del soverchio visibile lima<SPLIT>.}
+Predicted: {
+e i raggi ne ferien per mezzo 'l naso<SPLIT>, perche per noi girato era si 'l monte<SPLIT>, che gia dritti andavamo inver' l' occaso<SPLIT>, quand' io senti' a me gravar la fronte a lo splendore assai piu che di prima<SPLIT>, e stupor m' eran le cose non conte<SPLIT>; ond' io levai le mani inver' la cima de le mie ciglia<SPLIT>, e fecimi 'l solecchio<SPLIT>, che del soverchio visibile lima<SPLIT>.}
+False positives: {
+fecimi
+} False negatives: {
+feci
+mi
+}
+
+Expected: {
+o imaginativa che ne rube talvolta si di<SPLIT>fuor<SPLIT>, ch' om non s' accorge perche dintorno suonin mille tube<SPLIT>, chi move te<SPLIT>, se 'l senso non ti porge<SPLIT>?}
+Predicted: {
+o imaginativa che ne rube talvolta si difuor<SPLIT>, ch' om non s' accorge perche dintorno suonin mille tube<SPLIT>, chi move te<SPLIT>, se 'l senso non ti porge<SPLIT>?}
+False positives: {
+difuor
+} False negatives: {
+di
+fuor
+}
+
+Expected: {
+poi , come 'l foco move<SPLIT>si in altura per la sua forma ch' e nata a salire la dove piu in sua matera dura<SPLIT>, cosi l' animo preso entra in disire<SPLIT>, ch' e moto spiritale<SPLIT>, e mai non posa fin che la cosa amata il fa gioire<SPLIT>.}
+Predicted: {
+poi , come 'l foco movesi in altura per la sua forma ch' e nata a salire la dove piu in sua matera dura<SPLIT>, cosi l' animo preso entra in disire<SPLIT>, ch' e moto spiritale<SPLIT>, e mai non posa fin che la cosa amata il fa gioire<SPLIT>.}
+False positives: {
+movesi
+} False negatives: {
+move
+si
+}
+
+Expected: {
+poi ch' io potei di me fare a mio senno<SPLIT>, trassi<SPLIT>mi sovra quella creatura le cui parole pria notar mi fenno<SPLIT>, dicendo<SPLIT>: "<SPLIT>spirto in cui pianger matura quel sanza 'l quale a dio tornar non possi<SPLIT>, sosta un poco per me tua maggior cura<SPLIT>.}
+Predicted: {
+poi ch' io potei di me fare a mio senno<SPLIT>, trassimi sovra quella creatura le cui parole pria notar mi fenno<SPLIT>, dicendo<SPLIT>: "<SPLIT>spirto in cui pianger matura quel sanza 'l quale a dio tornar non possi<SPLIT>, sosta un poco per me tua maggior cura<SPLIT>.}
+False positives: {
+trassimi
+} False negatives: {
+trassi
+mi
+}
+
+Expected: {
+come avarizia spense a ciascun bene lo nostro amore<SPLIT>, onde operar perde<SPLIT>si<SPLIT>, cosi giustizia qui stretti ne tene<SPLIT>, ne' piedi e ne le man legati e presi<SPLIT>; e quanto fia piacer del giusto sire<SPLIT>, tanto staremo immobili e distesi<SPLIT>"<SPLIT>.}
+Predicted: {
+come avarizia spense a ciascun bene lo nostro amore<SPLIT>, onde operar perdesi<SPLIT>, cosi giustizia qui stretti ne tene<SPLIT>, ne' piedi e ne le man legati e presi<SPLIT>; e quanto fia piacer del giusto sire<SPLIT>, tanto staremo immobili e distesi<SPLIT>"<SPLIT>.}
+False positives: {
+perdesi
+} False negatives: {
+perde
+si
+}
+
+Expected: {
+trema<SPLIT>ci quando alcuna anima monda sentesi<SPLIT>, si che surga o che si mova per salir su<SPLIT>; e tal grido seconda<SPLIT>.}
+Predicted: {
+tremaci quando alcuna anima monda sentesi<SPLIT>, si che surga o che si mova per salir su<SPLIT>; e tal grido seconda<SPLIT>.}
+False positives: {
+tremaci
+} False negatives: {
+trema
+ci
+}
+
+Expected: {
+ma se le tue parole or ver giuraro<SPLIT>, dimmi che e cagion per che dimostri nel dire e nel guardar d' avermi caro<SPLIT>"<SPLIT>.}
+Predicted: {
+ma se le tue parole or ver giuraro<SPLIT>, dimmi che e cagion per che dimostri nel dire e nel guardar d' aver<SPLIT>mi caro<SPLIT>"<SPLIT>.}
+False positives: {
+aver
+mi
+} False negatives: {
+avermi
+}
+
+Expected: {
+ieu sui arnaut<SPLIT>, que plor e vau cantan<SPLIT>; consiros vei la passada folor<SPLIT>, e vei jausen lo joi qu' esper<SPLIT>, denan<SPLIT>.}
+Predicted: {
+ieu su<SPLIT>i arnaut<SPLIT>, que plor e vau cantan<SPLIT>; consiros vei la passada folor<SPLIT>, e vei jausen lo joi qu' esper<SPLIT>, denan<SPLIT>.}
+False positives: {
+su
+i
+} False negatives: {
+sui
+}
+
+Expected: {
+fatto avea di la mane e di qua sera tal foce<SPLIT>, e quasi tutto era la bianco quello emisperio<SPLIT>, e l' altra parte nera<SPLIT>, quando beatrice in su<SPLIT>l sinistro fianco vidi rivolta e riguardar nel sole<SPLIT>: aguglia si non li s' affisse unquanco<SPLIT>.}
+Predicted: {
+fatto avea di la mane e di qua sera tal foce<SPLIT>, e quasi tutto era la bianco quello emisperio<SPLIT>, e l' altra parte nera<SPLIT>, quando beatrice in sul sinistro fianco vidi rivolta e riguardar nel sole<SPLIT>: aguglia si non li s' affisse unquanco<SPLIT>.}
+False positives: {
+sul
+} False negatives: {
+su
+l
+}
+
+Expected: {
+ond' ella<SPLIT>, che vedea me si com' io<SPLIT>, a quietarmi l' animo commosso<SPLIT>, pria ch' io a dimandar<SPLIT>, la bocca aprio e comincio<SPLIT>: "<SPLIT>tu stesso ti fai grosso col falso imaginar<SPLIT>, si che non vedi cio che vedresti se l' avessi scosso<SPLIT>.}
+Predicted: {
+ond' ella<SPLIT>, che vedea me si com' io<SPLIT>, a quietar<SPLIT>mi l' animo commosso<SPLIT>, pria ch' io a dimandar<SPLIT>, la bocca aprio e comincio<SPLIT>: "<SPLIT>tu stesso ti fai grosso col falso imaginar<SPLIT>, si che non vedi cio che vedresti se l' avessi scosso<SPLIT>.}
+False positives: {
+quietar
+mi
+} False negatives: {
+quietarmi
+}
+
+Expected: {
+or<SPLIT>, come ai colpi de li caldi rai de la neve riman nudo il suggetto e dal colore e dal freddo primai<SPLIT>, cosi rimaso te ne l' intelletto voglio informar di luce si vivace<SPLIT>, che ti tremolera nel suo aspetto<SPLIT>.}
+Predicted: {
+or<SPLIT>, come a<SPLIT>i colpi de li caldi rai de la neve riman nudo il suggetto e dal colore e dal freddo primai<SPLIT>, cosi rimaso te ne l' intelletto voglio informar di luce si vivace<SPLIT>, che ti tremolera nel suo aspetto<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+dal mondo<SPLIT>, per seguirla<SPLIT>, giovinetta fuggi' mi<SPLIT>, e nel suo abito mi chiusi e promisi la via de la sua setta<SPLIT>.}
+Predicted: {
+dal mondo<SPLIT>, per seguir<SPLIT>la<SPLIT>, giovinetta fuggi' mi<SPLIT>, e nel suo abito mi chiusi e promisi la via de la sua setta<SPLIT>.}
+False positives: {
+seguir
+la
+} False negatives: {
+seguirla
+}
+
+Expected: {
+io vo' saper se l' uom puo sodisfarvi ai voti manchi si con altri beni<SPLIT>, ch' a la vostra statera non sien parvi<SPLIT>"<SPLIT>.}
+Predicted: {
+io vo' saper se l' uom puo sodisfar<SPLIT>vi a<SPLIT>i voti manchi si con altri beni<SPLIT>, ch' a la vostra statera non sien parvi<SPLIT>"<SPLIT>.}
+False positives: {
+sodisfar
+vi
+a
+i
+} False negatives: {
+sodisfarvi
+ai
+}
+
+Expected: {
+io dubitava e dicea '<SPLIT>dille<SPLIT>, dille<SPLIT>!<SPLIT>' fra me<SPLIT>, '<SPLIT>dille<SPLIT>' dicea<SPLIT>, '<SPLIT>a la mia donna che mi diseta con le dolci stille<SPLIT>.<SPLIT>'}
+Predicted: {
+io dubitava e dicea '<SPLIT>dille<SPLIT>, dille<SPLIT>!' fra me<SPLIT>, '<SPLIT>dille' dicea<SPLIT>, '<SPLIT>a la mia donna che mi diseta con le dolci stille<SPLIT>.'}
+False positives: {
+!'
+dille'
+.'
+} False negatives: {
+!
+'
+dille
+'
+.
+'
+}
+
+Expected: {
+cio che non more e cio che puo morire non e se non splendor di quella idea che partorisce<SPLIT>, amando<SPLIT>, il nostro sire<SPLIT>; che quella viva luce che si mea dal suo lucente<SPLIT>, che non si disuna da lui ne da l' amor ch' a lor s' intrea<SPLIT>, per sua bontate il suo raggiare aduna<SPLIT>, quasi specchiato<SPLIT>, in nove sussistenze<SPLIT>, etternalmente rimanendosi una<SPLIT>.}
+Predicted: {
+cio che non more e cio che puo morire non e se non splendor di quella idea che partorisce<SPLIT>, amando<SPLIT>, il nostro sire<SPLIT>; che quella viva luce che si mea dal suo lucente<SPLIT>, che non si disuna da lui ne da l' amor ch' a lor s' intrea<SPLIT>, per sua bontate il suo raggiare aduna<SPLIT>, quasi specchiato<SPLIT>, in nove sussistenze<SPLIT>, etternalmente rimanendo<SPLIT>si una<SPLIT>.}
+False positives: {
+rimanendo
+si
+} False negatives: {
+rimanendosi
+}
+
+Expected: {
+onde<SPLIT>, se cio ch' io dissi e questo note<SPLIT>, regal prudenza e quel vedere impari in che lo stral di mia intenzion percuote<SPLIT>; e se al " surse<SPLIT>" drizzi li occhi chiari<SPLIT>, vedrai aver solamente respetto ai regi<SPLIT>, che son molti<SPLIT>, e ' buon son rari<SPLIT>.}
+Predicted: {
+onde<SPLIT>, se cio ch' io dissi e questo note<SPLIT>, regal prudenza e quel vedere impari in che lo stral di mia intenzion percuote<SPLIT>; e se al " surse<SPLIT>" drizzi li occhi chiari<SPLIT>, vedrai aver solamente respetto a<SPLIT>i regi<SPLIT>, che son molti<SPLIT>, e ' buon son rari<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+come s' avviva a lo spirar d' i venti carbone in fiamma<SPLIT>, cosi vid' io quella luce risplendere a' miei blandimenti<SPLIT>; e come a li occhi miei si fe piu bella<SPLIT>, cosi con voce piu dolce e soave<SPLIT>, ma non con questa moderna favella<SPLIT>, dissemi<SPLIT>: "<SPLIT>da quel di che fu detto<SPLIT>" ave<SPLIT>" al parto in che mia madre<SPLIT>, ch' e or santa<SPLIT>, s' allevio di me ond' era grave<SPLIT>, al suo leon cinquecento cinquanta e trenta fiate venne questo foco a rinfiammarsi sotto la sua pianta<SPLIT>.}
+Predicted: {
+come s' avviva a lo spirar d' i venti carbone in fiamma<SPLIT>, cosi vid' io quella luce risplendere a' miei blandimenti<SPLIT>; e come a li occhi miei si fe piu bella<SPLIT>, cosi con voce piu dolce e soave<SPLIT>, ma non con questa moderna favella<SPLIT>, dissemi<SPLIT>: "<SPLIT>da quel di che fu detto<SPLIT>" ave<SPLIT>" al parto in che mia madre<SPLIT>, ch' e or santa<SPLIT>, s' allevio di me ond' era grave<SPLIT>, al suo leon cinquecento cinquanta e trenta fiate venne questo foco a rinfiammar<SPLIT>si sotto la sua pianta<SPLIT>.}
+False positives: {
+rinfiammar
+si
+} False negatives: {
+rinfiammarsi
+}
+
+Expected: {
+"<SPLIT>o cara piota mia che si t' insusi<SPLIT>, che<SPLIT>, come veggion le terrene menti non capere in triangol due ottusi<SPLIT>, cosi vedi le cose contingenti anzi che sieno in se<SPLIT>, mirando il punto a cui tutti li tempi son presenti<SPLIT>; mentre ch' io era a virgilio congiunto su per lo monte che l' anime cura e discendendo nel mondo defunto<SPLIT>, dette mi fuor di mia vita futura parole gravi<SPLIT>, avvegna ch' io mi senta ben tetragono ai colpi di ventura<SPLIT>; per che la voglia mia saria contenta d' intender qual fortuna mi s' appressa<SPLIT>: che saetta previsa vien piu lenta<SPLIT>"<SPLIT>.}
+Predicted: {
+"<SPLIT>o cara piota mia che si t' insusi<SPLIT>, che<SPLIT>, come veggion le terrene menti non capere in triangol due ottusi<SPLIT>, cosi vedi le cose contingenti anzi che sieno in se<SPLIT>, mirando il punto a cui tutti li tempi son presenti<SPLIT>; mentre ch' io era a virgilio congiunto su per lo monte che l' anime cura e discendendo nel mondo defunto<SPLIT>, dette mi fuor di mia vita futura parole gravi<SPLIT>, avvegna ch' io mi senta ben tetragono a<SPLIT>i colpi di ventura<SPLIT>; per che la voglia mia saria contenta d' intender qual fortuna mi s' appressa<SPLIT>: che saetta previsa vien piu lenta<SPLIT>"<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+l' altra beatitudo<SPLIT>, che contenta pareva prima d' ingigliarsi a l' emme<SPLIT>, con poco moto seguito la 'mprenta<SPLIT>.}
+Predicted: {
+l' altra beatitudo<SPLIT>, che contenta pareva prima d' ingigliar<SPLIT>si a l' emme<SPLIT>, con poco moto seguito la 'mprenta<SPLIT>.}
+False positives: {
+ingigliar
+si
+} False negatives: {
+ingigliarsi
+}
+
+Expected: {
+la mente<SPLIT>, che qui luce<SPLIT>, in terra fumma<SPLIT>; onde riguarda come puo la giu<SPLIT>e quel che non pote perche 'l ciel l' assumma<SPLIT>"<SPLIT>.}
+Predicted: {
+la mente<SPLIT>, che qui luce<SPLIT>, in terra fumma<SPLIT>; onde riguarda come puo la giue quel che non pote perche 'l ciel l' assumma<SPLIT>"<SPLIT>.}
+False positives: {
+giue
+} False negatives: {
+giu
+e
+}
+
+Expected: {
+s' elli ama bene e bene spera e crede<SPLIT>, non t' e occulto<SPLIT>, perche 'l viso hai quivi dov' ogne cosa dipinta si vede<SPLIT>; ma perche questo regno ha fatto civi per la verace fede<SPLIT>, a gloriarla<SPLIT>, di lei parlare e ben ch' a lui arrivi<SPLIT>"<SPLIT>.}
+Predicted: {
+s' elli ama bene e bene spera e crede<SPLIT>, non t' e occulto<SPLIT>, perche 'l viso hai quivi dov' ogne cosa dipinta si vede<SPLIT>; ma perche questo regno ha fatto civi per la verace fede<SPLIT>, a gloriar<SPLIT>la<SPLIT>, di lei parlare e ben ch' a lui arrivi<SPLIT>"<SPLIT>.}
+False positives: {
+gloriar
+la
+} False negatives: {
+gloriarla
+}
+
+Expected: {
+ridendo allora beatrice disse<SPLIT>: "<SPLIT>inclita vita per cui la larghezza de la nostra basilica si scrisse<SPLIT>, fa risonar la spene in questa altezza<SPLIT>: tu sai<SPLIT>, che tante fiate la figuri<SPLIT>, quante iesu ai tre fe piu carezza<SPLIT>"<SPLIT>.}
+Predicted: {
+ridendo allora beatrice disse<SPLIT>: "<SPLIT>inclita vita per cui la larghezza de la nostra basilica si scrisse<SPLIT>, fa risonar la spene in questa altezza<SPLIT>: tu sai<SPLIT>, che tante fiate la figuri<SPLIT>, quante iesu a<SPLIT>i tre fe piu carezza<SPLIT>"<SPLIT>.}
+False positives: {
+a
+i
+} False negatives: {
+ai
+}
+
+Expected: {
+la donna mia cosi<SPLIT>; ne pero piu<SPLIT>e mosser la vista sua di stare attenta poscia che prima le parole sue<SPLIT>.}
+Predicted: {
+la donna mia cosi<SPLIT>; ne pero piue mosser la vista sua di stare attenta poscia che prima le parole sue<SPLIT>.}
+False positives: {
+piue
+} False negatives: {
+piu
+e
+}
+
+Expected: {
+una revisione delle nazioni unite su<SPLIT>i piani nazionali atti a diminuire la presenza di carbonio afferma che i livelli necessari a mantenere l'<SPLIT>aumento della temperatura globale sotto i 2<SPLIT>° non sono abbastanza<SPLIT>.}
+Predicted: {
+una revisione delle nazioni unite su<SPLIT>i piani nazionali atti a diminuire la presenza di carbonio afferma che i livelli necessari a mantenere l'<SPLIT>aumento della temperatura globale sotto i 2° non sono abbastanza<SPLIT>.}
+False positives: {
+2°
+} False negatives: {
+2
+°
+}
+
+Expected: {
+@user dai ci dormo un poco sopra<SPLIT>. mediterraneo per passione<SPLIT>, ma se qualcosaltro ci travolgesse staremmo bene}
+Predicted: {
+@user da<SPLIT>i ci dormo un poco sopra<SPLIT>. mediterraneo per passione<SPLIT>, ma se qualcosaltro ci travolgesse staremmo bene}
+False positives: {
+da
+i
+} False negatives: {
+dai
+}
+
+Expected: {
+ma che bravo gianni cuperlo<SPLIT>, a mo' di " professoressino " vuole dare le #lezioni a matteo renzi<SPLIT>, dimenticando<SPLIT>si<SPLIT>,... http://t.co/ysftoejcrj}
+Predicted: {
+ma che bravo gianni cuper<SPLIT>lo<SPLIT>, a mo' di " professoressino " vuole dare le #lezioni a matteo renzi<SPLIT>, dimenticandosi<SPLIT>,... http://t.co/ysftoejcrj}
+False positives: {
+cuper
+lo
+dimenticandosi
+} False negatives: {
+cuperlo
+dimenticando
+si
+}
+
+Expected: {
+stai bene quando basta niente x far<SPLIT>ti sorridere<SPLIT>! quando uno " scema " e una felicita immensa<SPLIT>!}
+Predicted: {
+stai bene quando basta niente x farti sorridere<SPLIT>! quando uno " scema " e una felicita immensa<SPLIT>!}
+False positives: {
+farti
+} False negatives: {
+far
+ti
+}
+
+Expected: {
+@user cioe i gol che fingono non ci siano<SPLIT>? o li chiamano fuorigioco<SPLIT>? dai .. ladri erano e ladri restano ... e poi dicono a<SPLIT>gli altri<SPLIT>! mba}
+Predicted: {
+@user cioe i gol che fingono non ci siano<SPLIT>? o li chiamano fuorigioco<SPLIT>? da<SPLIT>i .. ladri erano e ladri restano ... e poi dicono a<SPLIT>gli altri<SPLIT>! mba}
+False positives: {
+da
+i
+} False negatives: {
+dai
+}
+
+Expected: {
+io farei pagare la manovra solo a quelle/i che hanno esultato per la nascita del governo monti<SPLIT>! ' ccivostra<SPLIT>!}
+Predicted: {
+io farei pagare la manovra solo a quelle/<SPLIT>i che hanno esultato per la nascita del governo monti<SPLIT>! ' ccivostra<SPLIT>!}
+False positives: {
+quelle/
+i
+} False negatives: {
+quelle/i
+}
+
+Expected: {
+buona domenica a tutti !!! 3.605 fan aiutate<SPLIT>mi a vincereeee !! per adesso solo 140 voti ... please =) prima un click ... http://t.co/9bg4vnwe}
+Predicted: {
+buona domenica a tutti !!! 3.605 fan aiutatemi a vincereeee !! per adesso solo 140 voti ... please =) prima un click ... http://t.co/9bg4vnwe}
+False positives: {
+aiutatemi
+} False negatives: {
+aiutate
+mi
+}
+
+Expected: {
+(( ginevralove1d )) carina l'<SPLIT>icon<SPLIT>. cibo<SPLIT>: fragole<SPLIT>.}
+Predicted: {
+(<SPLIT>( ginevralove1d )) carina l'<SPLIT>icon<SPLIT>. cibo<SPLIT>: fragole<SPLIT>.}
+False positives: {
+(
+(
+} False negatives: {
+((
+}
+
+Expected: {
+il jailbreak untethered di ios 5.1 e piu vicino<SPLIT>: la notizia e di questa mattina<SPLIT>: probabilmente si e fatto un pas... http://t.co/bygnbbti}
+Predicted: {
+il jailbreak untethered di ios 5.<SPLIT>1 e piu vicino<SPLIT>: la notizia e di questa mattina<SPLIT>: probabilmente si e fatto un pas... http://t.co/bygnbbti}
+False positives: {
+5.
+1
+} False negatives: {
+5.1
+}
+
+Expected: {
+la norma su<SPLIT>i 1000 euro contanti se la poteva anche risparmiare<SPLIT>. ma chi c* c'<SPLIT>e li ha oggi 1000<SPLIT>euro contanti<SPLIT>? #manovra #governo #monti}
+Predicted: {
+la norma su<SPLIT>i 1000 euro contanti se la poteva anche risparmiare<SPLIT>. ma chi c* c'<SPLIT>e li ha oggi 1000euro contanti<SPLIT>? #manovra #governo #monti}
+False positives: {
+1000euro
+} False negatives: {
+1000
+euro
+}
+
+Expected: {
+poi ti svegli per far pipi<SPLIT>, torno a letto e non riesci a riaddormentar<SPLIT>ti pur avendo sonno}
+Predicted: {
+poi ti svegli per far pipi<SPLIT>, torno a letto e non riesci a riaddormentarti pur avendo sonno}
+False positives: {
+riaddormentarti
+} False negatives: {
+riaddormentar
+ti
+}
+
+Expected: {
+rocco siffredi e arrivato secondo a<SPLIT>gli oscar del porno x esser<SPLIT>si fatto piu donne di tutti ma mario monti e arrivato 1mo x esser<SPLIT>si in.. tutti}
+Predicted: {
+rocco siffredi e arrivato secondo a<SPLIT>gli oscar del porno x esser<SPLIT>si fatto piu donne di tutti ma mario monti e arrivato 1mo x esser<SPLIT>si in.<SPLIT>. tutti}
+False positives: {
+in.
+.
+} False negatives: {
+in..
+}
+
+Expected: {
+d'alema #grillo a civitavecchia in definitiva e un mix tra il primo bossi e il gabibbo<SPLIT>. quello che ha governato l'<SPLIT>italia negli ultimi 15 anni}
+Predicted: {
+d'<SPLIT>alema #grillo a civitavecchia in definitiva e un mix tra il primo bossi e il gabibbo<SPLIT>. quello che ha governato l'<SPLIT>italia negli ultimi 15 anni}
+False positives: {
+d'
+alema
+} False negatives: {
+d'alema
+}
+
+Expected: {
+lettera di mario #monti a #berlusconi il 30/10/'11<SPLIT>. #fullmonti http://t.co/f0y2utux}
+Predicted: {
+lettera di mario #monti a #berlusconi il 30/10<SPLIT>/<SPLIT>'11<SPLIT>. #fullmonti http://t.co/f0y2utux}
+False positives: {
+30/10
+/
+'11
+} False negatives: {
+30/10/'11
+}
+
+Expected: {
+cari<SPLIT>, fan del governo #monti<SPLIT>, adesso spiegati<SPLIT>ci la differenza con quello col tre davanti<SPLIT>. io proprio non la vedo<SPLIT>. ah<SPLIT>, le pensioni<SPLIT>! #manovra}
+Predicted: {
+cari<SPLIT>, fan del governo #monti<SPLIT>, adesso spiegatici la differenza con quello col tre davanti<SPLIT>. io proprio non la vedo<SPLIT>. ah<SPLIT>, le pensioni<SPLIT>! #manovra}
+False positives: {
+spiegatici
+} False negatives: {
+spiegati
+ci
+}
+
+Expected: {
+senza troppi giri di parole<SPLIT>. mario monti<SPLIT>: " i politici mi fanno molta pena<SPLIT>, anche se durante il mio lavoro sto... http://t.co/ar8sw6uk}
+Predicted: {
+senza troppi giri di parole<SPLIT>. mario monti<SPLIT>: " i politici mi fanno molta pena<SPLIT>, anche se durante il mio lavoro sto<SPLIT>... http://t.co/ar8sw6uk}
+False positives: {
+sto
+...
+} False negatives: {
+sto...
+}
+
+Expected: {
+[ vero ] " @user<SPLIT>: grande professor #monti<SPLIT>, nell'<SPLIT>aula del senato<SPLIT>: se dovete fare una scelta<SPLIT>: ascoltate<SPLIT>, non applaudite ""}
+Predicted: {
+[ vero ] " @user<SPLIT>: grande professor #monti<SPLIT>, nell'<SPLIT>aula del senato<SPLIT>: se dovete fare una scelta<SPLIT>: ascoltate<SPLIT>, non applaudite "<SPLIT>"}
+False positives: {
+"
+"
+} False negatives: {
+""
+}
+
+Expected: {
+@user ma davvero x bersani e napolitano #grillo e il male assoluto<SPLIT>? dopo aver tollerato 20<SPLIT>anni la #lega razzista e secessionista<SPLIT>?}
+Predicted: {
+@user ma davvero x bersani e napolitano #grillo e il male assoluto<SPLIT>? dopo aver tollerato 20anni la #lega razzista e secessionista<SPLIT>?}
+False positives: {
+20anni
+} False negatives: {
+20
+anni
+}
+
+Expected: {
+alessandra mussolini<SPLIT>: " il governo monti tragedia dell'<SPLIT>italia<SPLIT>, sfiduciamo<SPLIT>lo "<SPLIT>: #alessandro mussolini #mario monti ... http://t.co/ml0qxkzn}
+Predicted: {
+alessandra mussolini<SPLIT>: " il governo monti tragedia dell'<SPLIT>italia<SPLIT>, sfiduciamolo "<SPLIT>: #alessandro mussolini #mario monti ... http://t.co/ml0qxkzn}
+False positives: {
+sfiduciamolo
+} False negatives: {
+sfiduciamo
+lo
+}
+
+Expected: {
+questo e' uno scandalo<SPLIT>! il nuovo governo monti sta per approvare una nuova tassa su tutti quelli il cui cognome non inizia per m<SPLIT>!}
+Predicted: {
+questo e' uno scandalo<SPLIT>! il nuovo governo monti sta per approvare una nuova tassa su tutti quelli il cui cognome non inizia per m!}
+False positives: {
+m!
+} False negatives: {
+m
+!
+}
+
+Expected: {
+campania<SPLIT>, amendola (<SPLIT>pd<SPLIT>)<SPLIT>: governo monti primo ad aiutare il sud il velino/agv agenzia giornalisti http://t.co/nvgcj7r9}
+Predicted: {
+campania<SPLIT>, amendo<SPLIT>la (<SPLIT>pd<SPLIT>)<SPLIT>: governo monti primo ad aiutare il sud il velino<SPLIT>/<SPLIT>agv agenzia giornalisti http://t.co/nvgcj7r9}
+False positives: {
+amendo
+la
+velino
+/
+agv
+} False negatives: {
+amendola
+velino/agv
+}
+
+Expected: {
+mario monti i sacrifici fal<SPLIT>li tu e l'<SPLIT>amici tua e chi te sostiene<SPLIT>! noi li famo gia da ' na vita ...}
+Predicted: {
+mario monti i sacrifici falli tu e l'<SPLIT>amici tua e chi te sostiene<SPLIT>! noi li famo gia da ' na vita ...}
+False positives: {
+falli
+} False negatives: {
+fal
+li
+}
+
+Expected: {
+" potevo star<SPLIT>me<SPLIT>ne nella mia villa a guardare l'<SPLIT>italia andare allo sfracello<SPLIT>, non ho preso rimborsi elettorali io " #grillo #serviziopubblico}
+Predicted: {
+" potevo star<SPLIT>mene nella mia villa a guardare l'<SPLIT>italia andare allo sfracello<SPLIT>, non ho preso rimborsi elettorali io " #grillo #serviziopubblico}
+False positives: {
+mene
+} False negatives: {
+me
+ne
+}
+
+Expected: {
+il paese aspetta con ansia le (<SPLIT>urgenti<SPLIT>) misure del governo monti il velino/agv agenzia giornalis http://t.co/8sbxbne6}
+Predicted: {
+il paese aspetta con ansia le (<SPLIT>urgenti<SPLIT>) misure del governo monti il velino<SPLIT>/<SPLIT>agv agenzia giornalis http://t.co/8sbxbne6}
+False positives: {
+velino
+/
+agv
+} False negatives: {
+velino/agv
+}
+
+Expected: {
+@user<SPLIT>: l'<SPLIT>unica per uscir<SPLIT>ne<SPLIT>: mario monti commissario alla lega calcio<SPLIT>. bravo paolo}
+Predicted: {
+@user<SPLIT>: l'<SPLIT>unica per uscirne<SPLIT>: mario monti commissario alla lega calcio<SPLIT>. bravo paolo}
+False positives: {
+uscirne
+} False negatives: {
+uscir
+ne
+}
+
+Expected: {
+@user sms niall " fal<SPLIT>le una foto<SPLIT>! ahaha magari sbava anche<SPLIT>. lol ah okay<SPLIT>, tranquilla<SPLIT>. (: magari a cena<SPLIT>? invito anche gli altri (c)}
+Predicted: {
+@user sms niall " falle una foto<SPLIT>! ahaha magari sbava anche<SPLIT>. lol ah okay<SPLIT>, tranquilla<SPLIT>. (: magari a cena<SPLIT>? invito anche gli altri (c)}
+False positives: {
+falle
+} False negatives: {
+fal
+le
+}
+
+Expected: {
+prima di tutto<SPLIT>, sapere<SPLIT>; poi vota<SPLIT>lo pure<SPLIT>, anche la lega votava #bossi http://t.co/as0ptxapdietro il #grillo parlante - chi e casaleggio<SPLIT>,}
+Predicted: {
+prima di tutto<SPLIT>, sapere<SPLIT>; poi votalo pure<SPLIT>, anche la lega votava #bossi http://t.co/as0ptxapdietro il #grillo parlante - chi e casaleggio<SPLIT>,}
+False positives: {
+votalo
+} False negatives: {
+vota
+lo
+}
+
+Expected: {
+va bene tagliare i costi della politica ecc ..., ma soluzioni per la crisi economica<SPLIT>? lavoro<SPLIT>? diritti civili<SPLIT>? salute<SPLIT>? #grillo #politica}
+Predicted: {
+va bene tagliare i costi della politica ecc ...<SPLIT>, ma soluzioni per la crisi economica<SPLIT>? lavoro<SPLIT>? diritti civili<SPLIT>? salute<SPLIT>? #grillo #politica}
+False positives: {
+...
+,
+} False negatives: {
+...,
+}
+
+Expected: {
+d'alema che invoca il governo #monti e il classico esempio di un politicante infame che attende un posticino in questo nuovo governo<SPLIT>.}
+Predicted: {
+d'<SPLIT>alema che invoca il governo #monti e il classico esempio di un politicante infame che attende un posticino in questo nuovo governo<SPLIT>.}
+False positives: {
+d'
+alema
+} False negatives: {
+d'alema
+}
+
+Expected: {
+se volete scoprire un evasore fiscale chiedete<SPLIT>gli cosa pensa di mario monti}
+Predicted: {
+se volete scoprire un evasore fiscale chiedetegli cosa pensa di mario monti}
+False positives: {
+chiedetegli
+} False negatives: {
+chiedete
+gli
+}
+
+Expected: {
+elementare<SPLIT>, monti<SPLIT>!<SPLIT>: diciamo<SPLIT>ce<SPLIT>la tutta<SPLIT>: la manovra del professor monti e un' enorme rastrellamento di liquidita<SPLIT>. o... http://t.co/q2vhcvsy}
+Predicted: {
+elementare<SPLIT>, monti<SPLIT>!<SPLIT>: diciamo<SPLIT>cela tutta<SPLIT>: la manovra del professor monti e un' enorme rastrellamento di liquidita<SPLIT>. o... http://t.co/q2vhcvsy}
+False positives: {
+cela
+} False negatives: {
+ce
+la
+}
+
+Expected: {
+buon lavoro governo monti #montihope porta<SPLIT>ci al sicuro}
+Predicted: {
+buon lavoro governo monti #montihope portaci al sicuro}
+False positives: {
+portaci
+} False negatives: {
+porta
+ci
+}
+
+Expected: {
+mi sveglio la mattina e mi ritrovo "<SPLIT>#labuonascuola<SPLIT>" in tendenza<SPLIT>. ao<SPLIT>, uscite da questo paese<SPLIT>, non<SPLIT>. parlate<SPLIT>mi<SPLIT>. di<SPLIT>. scuola<SPLIT>. ritenete<SPLIT>mi morti c:}
+Predicted: {
+mi sveglio la mattina e mi ritrovo "<SPLIT>#labuonascuola<SPLIT>" in tendenza<SPLIT>. ao<SPLIT>, uscite da questo paese<SPLIT>, non<SPLIT>. parlatemi<SPLIT>. di<SPLIT>. scuola<SPLIT>. ritenetemi morti c:}
+False positives: {
+parlatemi
+ritenetemi
+} False negatives: {
+parlate
+mi
+ritenete
+mi
+}
+
+Expected: {
+rocco siffredi e arrivato secondo a<SPLIT>gli oscar del porno x esser<SPLIT>si fatto piu donne di tutti ma mario monti e arrivato 1mo x esser<SPLIT>si in.. tutti}
+Predicted: {
+rocco siffredi e arrivato secondo a<SPLIT>gli oscar del porno x esser<SPLIT>si fatto piu donne di tutti ma mario monti e arrivato 1mo x esser<SPLIT>si in.<SPLIT>. tutti}
+False positives: {
+in.
+.
+} False negatives: {
+in..
+}
+
+Expected: {
+@user1 @user2 @user3 mario monti .... gruppo bildenberg ..... e ho detto tutto ... secondovoi stiamo male<SPLIT>? nooo}
+Predicted: {
+@user1 @user2 @user3 mario monti .... gruppo bildenberg ..... e ho detto tutto ... secondo<SPLIT>voi stiamo male<SPLIT>? nooo}
+False positives: {
+secondo
+voi
+} False negatives: {
+secondovoi
+}
+
+Expected: {
+"<SPLIT>@user<SPLIT>: inizia il<SPLIT>percorso per cambiare la<SPLIT>scuola insieme a tutti http://t.co/phy2c5ysii<SPLIT>"}
+Predicted: {
+"<SPLIT>@user<SPLIT>: inizia ilpercorso per cambiare lascuola insieme a tutti http://t.co/phy2c5ysii<SPLIT>"}
+False positives: {
+ilpercorso
+lascuola
+} False negatives: {
+il
+percorso
+la
+scuola
+}
+
+Expected: {
+@user1 @user2 @user3 ma siamo sicuri che il ministro abbia letto "<SPLIT>la buona scuola<SPLIT>"<SPLIT>?<SPLIT>che non abbia fatto i compiti a casa<SPLIT>?}
+Predicted: {
+@user1 @user2 @user3 ma siamo sicuri che il ministro abbia letto "<SPLIT>la buona scuola<SPLIT>"<SPLIT>?che non abbia fatto i compiti a casa<SPLIT>?}
+False positives: {
+?che
+} False negatives: {
+?
+che
+}
+
+Expected: {
+alfano<SPLIT>: "<SPLIT>non posso rivelare il piano b su<SPLIT>i migranti<SPLIT>"<SPLIT>. anche perche non glie<SPLIT>l'<SPLIT>hanno detto<SPLIT>. [<SPLIT>@user1<SPLIT>, @user2<SPLIT>]}
+Predicted: {
+alfano<SPLIT>: "<SPLIT>non posso rivelare il piano b su<SPLIT>i migranti<SPLIT>"<SPLIT>. anche perche non gliel'<SPLIT>hanno detto<SPLIT>. [<SPLIT>@user1<SPLIT>, @user2<SPLIT>]}
+False positives: {
+gliel'
+} False negatives: {
+glie
+l'
+}
+
+Expected: {
+06<SPLIT>.<SPLIT>10<SPLIT>.<SPLIT>14 - arriva la "<SPLIT>buona scuola<SPLIT>"<SPLIT>. si salvi chi puo<SPLIT>!<SPLIT>: comunicato il sindacato e un'<SPLIT>altra cosa - flc (<SPLIT>...<SPLIT>) http://t.co/gbkufwrj5s}
+Predicted: {
+06.10.<SPLIT>14 - arriva la "<SPLIT>buona scuola<SPLIT>"<SPLIT>. si salvi chi puo<SPLIT>!<SPLIT>: comunicato il sindacato e un'<SPLIT>altra cosa - flc (<SPLIT>...<SPLIT>) http://t.co/gbkufwrj5s}
+False positives: {
+06.10.
+} False negatives: {
+06
+.
+10
+.
+}
+
+Expected: {
+la verifica sperimentale della teoria venne raggiunta una prima volta con le esperienze sulle " correnti deboli neutre "<SPLIT>ottenute al cern di ginevra e al fermilab di batavia (<SPLIT>illinois<SPLIT>) nel 1973 e confermata con abbondanza di prove nel 1983 con l'<SPLIT>esperienza di carlo rubbia all'<SPLIT>anello protone antiprotone del cern che permise di rilevare direttamente i mediatori della forza elettrodebole<SPLIT>, i bosoni w<SPLIT>, w e z<SPLIT>.}
+Predicted: {
+la verifica sperimentale della teoria venne raggiunta una prima volta con le esperienze sulle " correnti deboli neutre "<SPLIT>ottenute al cern di ginevra e al fermilab di batavia (<SPLIT>illinois<SPLIT>) nel 1973 e confermata con abbondanza di prove nel 1983 con l'<SPLIT>esperienza di carlo rubbia all'<SPLIT>anello protone antiprotone del cern che permise di rilevare direttamente i mediatori della forza elettrodebole<SPLIT>, i bosoni w<SPLIT>, w e z.}
+False positives: {
+z.
+} False negatives: {
+z
+.
+}
+
+Expected: {
+sono considerati disponibili a<SPLIT>i fini dei trasferimenti<SPLIT>, nella misura stabilita dalle successive disposizioni<SPLIT>, i posti della dotazione organica attualmente privi di titolare o che si rendano tali a decorrere dall'<SPLIT>inizio dell'<SPLIT>anno scolastico<SPLIT>, per effetto di collocamenti a riposo disposti o da disporre d'<SPLIT>ufficio o su domanda presentata entro la stessa data di pubblicazione dell'<SPLIT>ordinanza o per qualunque altro motivo decadenza<SPLIT>, ecc verificato<SPLIT>si entro la stessa data<SPLIT>.}
+Predicted: {
+sono considerati disponibili a<SPLIT>i fini dei trasferimenti<SPLIT>, nella misura stabilita dalle successive disposizioni<SPLIT>, i posti della dotazione organica attualmente privi di titolare o che si rendano tali a decorrere dall'<SPLIT>inizio dell'<SPLIT>anno scolastico<SPLIT>, per effetto di collocamenti a riposo disposti o da disporre d'<SPLIT>ufficio o su domanda presentata entro la stessa data di pubblicazione dell'<SPLIT>ordinanza o per qualunque altro motivo decadenza<SPLIT>, ecc verificatosi entro la stessa data<SPLIT>.}
+False positives: {
+verificatosi
+} False negatives: {
+verificato
+si
+}
+
+Expected: {
+del carattere delle scuole e delle classi di cui al precedente comma deve far<SPLIT>si precisa menzione nel prospetto di cui all'<SPLIT>art. 54<SPLIT>, indicando<SPLIT>ne per ogni tipo il titolo specifico occorrente per avere diritto al trasferimento<SPLIT>.}
+Predicted: {
+del carattere delle scuole e delle classi di cui al precedente comma deve far<SPLIT>si precisa menzione nel prospetto di cui all'<SPLIT>art. 54<SPLIT>, indicandone per ogni tipo il titolo specifico occorrente per avere diritto al trasferimento<SPLIT>.}
+False positives: {
+indicandone
+} False negatives: {
+indicando
+ne
+}
+
+Expected: {
+domani<SPLIT>, nel circuito delle terme di caracalla<SPLIT>, trenta vetture omologate asi saranno ammesse ad una gara di regolarita abbinata alla lotteria ideata dalla m v team in collaborazione con la fondazione italiana per il volontariato<SPLIT>.}
+Predicted: {
+domani<SPLIT>, nel circuito delle terme di caracalla<SPLIT>, trenta vetture omologate a<SPLIT>si saranno ammesse ad una gara di regolarita abbinata alla lotteria ideata dalla m v team in collaborazione con la fondazione italiana per il volontariato<SPLIT>.}
+False positives: {
+a
+si
+} False negatives: {
+asi
+}
+
+Expected: {
+spiace constatare che<SPLIT>, mentre da un lato alessandro merli richiama l'<SPLIT><<SPLIT>avventurar<SPLIT>si<SPLIT>> di rudi dornbusch <<SPLIT>sul terreno della politica lamentando la mancanza di esperienza della nuova leadership in italia e l'<SPLIT>apertura a destra del governo<SPLIT>> dall'<SPLIT>altra evidenti ragioni di spazio hanno <<SPLIT>tagliato<SPLIT>> proprio la parte del contributo in cui il professor dornbusch esplicita le sue opinioni al riguardo<SPLIT>.}
+Predicted: {
+spiace constatare che<SPLIT>, mentre da un lato alessandro merli richiama l'<SPLIT><<SPLIT>avventurarsi<SPLIT>> di rudi dornbusch <<SPLIT>sul terreno della politica lamentando la mancanza di esperienza della nuova leadership in italia e l'<SPLIT>apertura a destra del governo<SPLIT>> dall'<SPLIT>altra evidenti ragioni di spazio hanno <<SPLIT>tagliato<SPLIT>> proprio la parte del contributo in cui il professor dornbusch esplicita le sue opinioni al riguardo<SPLIT>.}
+False positives: {
+avventurarsi
+} False negatives: {
+avventurar
+si
+}
+
+Expected: {
+perche alleggerire e correggere la legge<SPLIT>, mantenendo<SPLIT>ne in piedi l'<SPLIT>impalcatura fondamentale<SPLIT>, significa aiutare il settore a rinascere<SPLIT>.}
+Predicted: {
+perche alleggerire e correggere la legge<SPLIT>, mantenendone in piedi l'<SPLIT>impalcatura fondamentale<SPLIT>, significa aiutare il settore a rinascere<SPLIT>.}
+False positives: {
+mantenendone
+} False negatives: {
+mantenendo
+ne
+}
+
+Expected: {
+allora provai una terza volta<SPLIT>.}
+Predicted: {
+allora prova<SPLIT>i una terza volta<SPLIT>.}
+False positives: {
+prova
+i
+} False negatives: {
+provai
+}
+
+Expected: {
+poi mi affrettai in un magazzino di abiti fatti per comprare un altro vestito<SPLIT>, di stoffa simile<SPLIT>; avrei lasciato questo alle cure della cameriera<SPLIT>; il "<SPLIT>mio<SPLIT>"<SPLIT>, quello che avrebbe fatto di me<SPLIT>, nel giro di pochi giorni<SPLIT>, uno degli uomini piu potenti del mondo<SPLIT>, l'<SPLIT>avrei nascosto in un posto sicuro<SPLIT>.}
+Predicted: {
+poi mi affretta<SPLIT>i in un magazzino di abiti fatti per comprare un altro vestito<SPLIT>, di stoffa simile<SPLIT>; avrei lasciato questo alle cure della cameriera<SPLIT>; il "<SPLIT>mio<SPLIT>"<SPLIT>, quello che avrebbe fatto di me<SPLIT>, nel giro di pochi giorni<SPLIT>, uno degli uomini piu potenti del mondo<SPLIT>, l'<SPLIT>avrei nascosto in un posto sicuro<SPLIT>.}
+False positives: {
+affretta
+i
+} False negatives: {
+affrettai
+}
+
+Expected: {
+perche hai deciso di andar<SPLIT>te<SPLIT>ne a meta del film<SPLIT>?}
+Predicted: {
+perche hai deciso di andar<SPLIT>tene a meta del film<SPLIT>?}
+False positives: {
+tene
+} False negatives: {
+te
+ne
+}
+
+Expected: {
+l'<SPLIT>intendente di finanza provvede a<SPLIT>i rimborsi dovuti dallo stato con ordinativi di pagamento su ordine di accreditamento<SPLIT>, informando<SPLIT>ne il ricevitore provinciale<SPLIT>.}
+Predicted: {
+l'<SPLIT>intendente di finanza provvede a<SPLIT>i rimborsi dovuti dallo stato con ordinativi di pagamento su ordine di accreditamento<SPLIT>, informandone il ricevitore provinciale<SPLIT>.}
+False positives: {
+informandone
+} False negatives: {
+informando
+ne
+}
+
+Expected: {
+il figlio di leopoldo<SPLIT>, infine<SPLIT>, sara vicepresidente della fin p<SPLIT>.}
+Predicted: {
+il figlio di leopoldo<SPLIT>, infine<SPLIT>, sara vicepresidente della fin p.}
+False positives: {
+p.
+} False negatives: {
+p
+.
+}
+
+Expected: {
+ieri al parco<SPLIT>...<SPLIT>stavo sedendo e leggendo il giornale di mattina<SPLIT>.}
+Predicted: {
+ieri al parco<SPLIT>...stavo sedendo e leggendo il giornale di mattina<SPLIT>.}
+False positives: {
+...stavo
+} False negatives: {
+...
+stavo
+}

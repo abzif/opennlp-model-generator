@@ -1,0 +1,1616 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.877327491785323
+Training-Sample-Size=854
+Evaluation-Sample-Size=94
+Training-Algorithm=MAXENT_QN
+
+=== MODEL PROPERTIES ===
+Component-Name=SentenceDetectorME
+Language=da
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742446007887
+TrainerType=Event
+Training-Eventhash=4065758813
+eosCharacters=.?!
+factory=opennlp.tools.sentdetect.SentenceDetectorFactory
+useTokenEnd=true
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+Mærk kuverten "DUPLO legetøj"
+Med saftige lunser kød blev vagthundene passiviseret, så de formentlig to gerningsmænd uhindret kunne gå rundt, bryde skuffer og skabe op og flygte med store værdier.
+Selv har jeg gået til utallige sportsgrene, faktisk alt på undtagelse af fodbold.
+Deres kroppe ligger i hvert fald langt fra 80'ernes bøfdrenge Sylvester "Rambo" Stallone og Arnold Schwarzenegger.
+Det er ikke blevet regnet som et rigtigt arbejde, "siger dagplejemor Lene Petersen.
+Og på den måde producere mere tømmer.
+Søgsmål til prøvelse af afgørelser efter loven eller de regler, der fastsættes i medfør af loven, skal være anlagt inden 6 måneder efter, at afgørelsen eller beslutningen er meddelt.
+Med smukke Ungarn så godt som gennemoplevet, og Prag som næste stop, kan man være helt sikker på at møde nogle rigtige sigøjnere. Selvsagt også på nattoget fra Budapest til Prag, hvor man jo sparer en "dyr" hotelovernatning fordi man rejser om natten.
+TV 2 sendte 26/8 et portræt af Den jyske Operas chef, Francesco Cristofoli.
+OBs Johnny Hansen starter inde som forstopper, mens Lars Elstrup, Luton, og debutanten Bjarne Goldbæk, Kaiserslautern, begynder kampen på midtbanen.
+}
+Predicted: {
+Mærk kuverten "DUPLO legetøj" Med saftige lunser kød blev vagthundene passiviseret, så de formentlig to gerningsmænd uhindret kunne gå rundt, bryde skuffer og skabe op og flygte med store værdier.
+Selv har jeg gået til utallige sportsgrene, faktisk alt på undtagelse af fodbold.
+Deres kroppe ligger i hvert fald langt fra 80'ernes bøfdrenge Sylvester "Rambo" Stallone og Arnold Schwarzenegger.
+Det er ikke blevet regnet som et rigtigt arbejde, "siger dagplejemor Lene Petersen.
+Og på den måde producere mere tømmer.
+Søgsmål til prøvelse af afgørelser efter loven eller de regler, der fastsættes i medfør af loven, skal være anlagt inden 6 måneder efter, at afgørelsen eller beslutningen er meddelt.
+Med smukke Ungarn så godt som gennemoplevet, og Prag som næste stop, kan man være helt sikker på at møde nogle rigtige sigøjnere.
+Selvsagt også på nattoget fra Budapest til Prag, hvor man jo sparer en "dyr" hotelovernatning fordi man rejser om natten.
+TV 2 sendte 26/8 et portræt af Den jyske Operas chef, Francesco Cristofoli.
+OBs Johnny Hansen starter inde som forstopper, mens Lars Elstrup, Luton, og debutanten Bjarne Goldbæk, Kaiserslautern, begynder kampen på midtbanen.
+}
+False positives: {
+Mærk kuverten "DUPLO legetøj" Med saftige lunser kød blev vagthundene passiviseret, så de formentlig to gerningsmænd uhindret kunne gå rundt, bryde skuffer og skabe op og flygte med store værdier.
+Med smukke Ungarn så godt som gennemoplevet, og Prag som næste stop, kan man være helt sikker på at møde nogle rigtige sigøjnere.
+Selvsagt også på nattoget fra Budapest til Prag, hvor man jo sparer en "dyr" hotelovernatning fordi man rejser om natten.
+} False negatives: {
+Mærk kuverten "DUPLO legetøj"
+Med saftige lunser kød blev vagthundene passiviseret, så de formentlig to gerningsmænd uhindret kunne gå rundt, bryde skuffer og skabe op og flygte med store værdier.
+Med smukke Ungarn så godt som gennemoplevet, og Prag som næste stop, kan man være helt sikker på at møde nogle rigtige sigøjnere. Selvsagt også på nattoget fra Budapest til Prag, hvor man jo sparer en "dyr" hotelovernatning fordi man rejser om natten.
+}
+
+Expected: {
+Bl.a. den ret så dristige film "9 1/2 uge".
+Dolly og de andre piger sidder grinende og hvisker sammen på terrassen, mens jeg lydløst som en huskat klemmer mig ind igennem døren og forsvinder.
+Støvlerne bankes af.
+Uden at ane hvorfor, er hun i livsfare.
+Her formanden for Mellemfolkeligt Samvirke, Knud Vilby:
+Alle tegninger til skabeloner til køl, ror samt beslag og udstyr følger med.
+Ikke kun hverdagsbiler
+DET NYTTER
+Citat slut!
+Hvor er du grov.
+}
+Predicted: {
+Bl.a. den ret så dristige film "9 1/2 uge".
+Dolly og de andre piger sidder grinende og hvisker sammen på terrassen, mens jeg lydløst som en huskat klemmer mig ind igennem døren og forsvinder.
+Støvlerne bankes af.
+Uden at ane hvorfor, er hun i livsfare.
+Her formanden for Mellemfolkeligt Samvirke, Knud Vilby: Alle tegninger til skabeloner til køl, ror samt beslag og udstyr følger med.
+Ikke kun hverdagsbiler DET NYTTER Citat slut!
+Hvor er du grov.
+}
+False positives: {
+Her formanden for Mellemfolkeligt Samvirke, Knud Vilby: Alle tegninger til skabeloner til køl, ror samt beslag og udstyr følger med.
+Ikke kun hverdagsbiler DET NYTTER Citat slut!
+} False negatives: {
+Her formanden for Mellemfolkeligt Samvirke, Knud Vilby:
+Alle tegninger til skabeloner til køl, ror samt beslag og udstyr følger med.
+Ikke kun hverdagsbiler
+DET NYTTER
+Citat slut!
+}
+
+Expected: {
+Den 8. november gik plejefaderen - ifølge tiltalen - amok.
+H.'s forklaring i grundlovsforhøret:
+"Anders var helt anderledes af sind end min egen søn.
+Det irriterede mig, at drengen tudede så meget, så jeg ville vippe ham én.
+Jeg må have slået hårdere, end jeg troede, og været uheldig.
+Han begyndte at rulle med øjnene, og hans nakke blev slap."
+Han blev nervøs, da barnet begyndte at trække vejret hæst og ringede efter en ambulance:
+"Jeg ringede også til hans far og fortalte, at den var gruelig gal - drengen havde fået krampe."
+"Situationen er, at min nuværende kontrakt udløber til nytår.
+Hvis jeg siger ja til at forlænge, forventer jeg, at Brøndbys ledelse vil "forgylde" mig på en måde, der i hvert fald delvis vil kunne konkurrere med de penge, som jeg ellers skulle have skrabet sammen i udlandet."
+}
+Predicted: {
+Den 8. november gik plejefaderen - ifølge tiltalen - amok.
+H.'s forklaring i grundlovsforhøret: "Anders var helt anderledes af sind end min egen søn.
+Det irriterede mig, at drengen tudede så meget, så jeg ville vippe ham én.
+Jeg må have slået hårdere, end jeg troede, og været uheldig.
+Han begyndte at rulle med øjnene, og hans nakke blev slap."
+Han blev nervøs, da barnet begyndte at trække vejret hæst og ringede efter en ambulance: "Jeg ringede også til hans far og fortalte, at den var gruelig gal - drengen havde fået krampe."
+"Situationen er, at min nuværende kontrakt udløber til nytår.
+Hvis jeg siger ja til at forlænge, forventer jeg, at Brøndbys ledelse vil "forgylde" mig på en måde, der i hvert fald delvis vil kunne konkurrere med de penge, som jeg ellers skulle have skrabet sammen i udlandet."
+}
+False positives: {
+H.'s forklaring i grundlovsforhøret: "Anders var helt anderledes af sind end min egen søn.
+Han blev nervøs, da barnet begyndte at trække vejret hæst og ringede efter en ambulance: "Jeg ringede også til hans far og fortalte, at den var gruelig gal - drengen havde fået krampe."
+} False negatives: {
+H.'s forklaring i grundlovsforhøret:
+"Anders var helt anderledes af sind end min egen søn.
+Han blev nervøs, da barnet begyndte at trække vejret hæst og ringede efter en ambulance:
+"Jeg ringede også til hans far og fortalte, at den var gruelig gal - drengen havde fået krampe."
+}
+
+Expected: {
+DET BITRE STYRT
+Det fik rytterne til at stramme den over evne i det sidste sving ca. 700 meter fra mål.
+Her gled Rolf Sørensens baghjul, så han styrtede og rev både Moreno Argentin og Cassani med.
+Gennem generationer er det blevet banket ind i hovederne på os, at noget er kunst, seriøs musik og kultur - noget andet ikke.
+Det havde unægtelig været mere hensigtsmæssigt, om vi havde lært, at kulturen har mange facetter, strækkende sig fra forsamlingshusene til de store scener.
+Om vi havde lært at værdsætte os selv og hinanden, som mennesker, der både har brug for bøger, blade, klassisk musik, pop, "Orientering" og "De ringer, vi spiller".
+For ingen af os er intellektuelle dyr hele døgnet rundt.
+Vi har alle sammen brug for også at slappe af og lege, hvis vi skal vedblive at være hele mennesker.
+Alligevel skal der kæmpes med næb og kløer, for at få meningsdannerne til at tage "det lette" alvorligt og behandle det som en fuldgyldig del af vort programudbud.
+Det er for dårligt.
+}
+Predicted: {
+DET BITRE STYRT Det fik rytterne til at stramme den over evne i det sidste sving ca. 700 meter fra mål.
+Her gled Rolf Sørensens baghjul, så han styrtede og rev både Moreno Argentin og Cassani med.
+Gennem generationer er det blevet banket ind i hovederne på os, at noget er kunst, seriøs musik og kultur - noget andet ikke.
+Det havde unægtelig været mere hensigtsmæssigt, om vi havde lært, at kulturen har mange facetter, strækkende sig fra forsamlingshusene til de store scener.
+Om vi havde lært at værdsætte os selv og hinanden, som mennesker, der både har brug for bøger, blade, klassisk musik, pop, "Orientering" og "De ringer, vi spiller".
+For ingen af os er intellektuelle dyr hele døgnet rundt.
+Vi har alle sammen brug for også at slappe af og lege, hvis vi skal vedblive at være hele mennesker.
+Alligevel skal der kæmpes med næb og kløer, for at få meningsdannerne til at tage "det lette" alvorligt og behandle det som en fuldgyldig del af vort programudbud.
+Det er for dårligt.
+}
+False positives: {
+DET BITRE STYRT Det fik rytterne til at stramme den over evne i det sidste sving ca. 700 meter fra mål.
+} False negatives: {
+DET BITRE STYRT
+Det fik rytterne til at stramme den over evne i det sidste sving ca. 700 meter fra mål.
+}
+
+Expected: {
+Det er det, fordi Rushdie åbenbart læser Orwell gennem den britiske venstreorienterede tradition.
+Oprindelig havde hans bekendte Steen Olsen, der arbejder i et kontorvarefirma i København, bestilt programmet for prisen på 100 programmørtimer.
+Så langt ned i brønden faldt Morten: 25 m..
+Og Lotte løber ikke med sladder, er jeg sikker på."
+- Du ska' snakke med 2. kontor!
+"Nej, sikke nogle hormonbøffer."
+Ikke desto mindre havde general Augusto Pinochet for få år siden store planer for øen.
+Arbejdsgang
+Både fotografen og jeg glædede os meget.
+Der er også nogle, som har truet med at flytte, ja én beboer er flyttet af samme grund."
+}
+Predicted: {
+Det er det, fordi Rushdie åbenbart læser Orwell gennem den britiske venstreorienterede tradition.
+Oprindelig havde hans bekendte Steen Olsen, der arbejder i et kontorvarefirma i København, bestilt programmet for prisen på 100 programmørtimer.
+Så langt ned i brønden faldt Morten: 25 m..
+Og Lotte løber ikke med sladder, er jeg sikker på."
+- Du ska' snakke med 2. kontor!
+"Nej, sikke nogle hormonbøffer."
+Ikke desto mindre havde general Augusto Pinochet for få år siden store planer for øen.
+Arbejdsgang Både fotografen og jeg glædede os meget.
+Der er også nogle, som har truet med at flytte, ja én beboer er flyttet af samme grund."
+}
+False positives: {
+Arbejdsgang Både fotografen og jeg glædede os meget.
+} False negatives: {
+Arbejdsgang
+Både fotografen og jeg glædede os meget.
+}
+
+Expected: {
+"Ih, hvor jeg glæder mig til et lille glas," lød det fra Lykke.
+Men måske får man aldrig hel klarlagt, hvad der virkelig lå bag hendes forbrydelse.
+"Vi ønsker noget mere alment kvalitetsstof inden for de områder, vi selv har vanskeligt ved at dække," siger han og peger blandt andet på udenrigsstof og livsstilsstof - om f.eks. hus, have, både og biler.
+Formål
+Denne gang i følgeskab med Jørn Middelhede, ligeledes fra Kolding.
+Bilmarkedet er i dag købers marked, så De kan roligt betinge Dem en dag eller to til at "sove på" tilbuddet.
+Denne globale bevidsthed har siden haft en betydelig indflydelse på næsten alt, hvad Kim Fupz har rørt ved.
+Hunde og atombrændsel
+Lærer og censor kan have det ligesådan, og derfor skal du først og fremmest øve dig i at undgå at lave dumme fejl, når du sidder ved det grønne bord.
+Med hensyn til beregningen af boligydelsen tages der udgangspunkt i det såkaldte grænsebeløb.
+}
+Predicted: {
+"Ih, hvor jeg glæder mig til et lille glas," lød det fra Lykke.
+Men måske får man aldrig hel klarlagt, hvad der virkelig lå bag hendes forbrydelse.
+"Vi ønsker noget mere alment kvalitetsstof inden for de områder, vi selv har vanskeligt ved at dække," siger han og peger blandt andet på udenrigsstof og livsstilsstof - om f.eks. hus, have, både og biler.
+Formål Denne gang i følgeskab med Jørn Middelhede, ligeledes fra Kolding.
+Bilmarkedet er i dag købers marked, så De kan roligt betinge Dem en dag eller to til at "sove på" tilbuddet.
+Denne globale bevidsthed har siden haft en betydelig indflydelse på næsten alt, hvad Kim Fupz har rørt ved.
+Hunde og atombrændsel Lærer og censor kan have det ligesådan, og derfor skal du først og fremmest øve dig i at undgå at lave dumme fejl, når du sidder ved det grønne bord.
+Med hensyn til beregningen af boligydelsen tages der udgangspunkt i det såkaldte grænsebeløb.
+}
+False positives: {
+Formål Denne gang i følgeskab med Jørn Middelhede, ligeledes fra Kolding.
+Hunde og atombrændsel Lærer og censor kan have det ligesådan, og derfor skal du først og fremmest øve dig i at undgå at lave dumme fejl, når du sidder ved det grønne bord.
+} False negatives: {
+Formål
+Denne gang i følgeskab med Jørn Middelhede, ligeledes fra Kolding.
+Hunde og atombrændsel
+Lærer og censor kan have det ligesådan, og derfor skal du først og fremmest øve dig i at undgå at lave dumme fejl, når du sidder ved det grønne bord.
+}
+
+Expected: {
+Igen og igen huggede og skar den unge mand i sin kæreste.
+Styrkeforholdet må være det afgørende, siger de begge.
+DEN SKYLDIGE
+BMS forsøger nu at få en tvangsakkord stablet på benene, men flere personer spænder i øjeblikket ben for den plan.
+"Verden kan udstøde et suk af lettelse.
+Han blev synligt oplivet.
+Duerne ved, hvordan der dufter hjemme, og hvis vinden bærer spor af duften mod duen, kan den bruge det til at vælge flyveretning.
+Han elsker stadig sin tidligere kone".
+Det andet er: "Nu fem dage efter sagens afslutning får jeg min vidnegodtgørelse.
+Pludselig boller de ude i køkkenet
+}
+Predicted: {
+Igen og igen huggede og skar den unge mand i sin kæreste.
+Styrkeforholdet må være det afgørende, siger de begge.
+DEN SKYLDIGE BMS forsøger nu at få en tvangsakkord stablet på benene, men flere personer spænder i øjeblikket ben for den plan.
+"Verden kan udstøde et suk af lettelse.
+Han blev synligt oplivet.
+Duerne ved, hvordan der dufter hjemme, og hvis vinden bærer spor af duften mod duen, kan den bruge det til at vælge flyveretning.
+Han elsker stadig sin tidligere kone".
+Det andet er: "Nu fem dage efter sagens afslutning får jeg min vidnegodtgørelse.
+Pludselig boller de ude i køkkenet
+}
+False positives: {
+DEN SKYLDIGE BMS forsøger nu at få en tvangsakkord stablet på benene, men flere personer spænder i øjeblikket ben for den plan.
+} False negatives: {
+DEN SKYLDIGE
+BMS forsøger nu at få en tvangsakkord stablet på benene, men flere personer spænder i øjeblikket ben for den plan.
+}
+
+Expected: {
+"Dronning i 20 år" markerede, som titlen antyder, Dronningens jubilæum.
+De har desuden unddraget skattevæsenet 3,5 millioner kroner.
+2. kontor:
+For på det tidspunkt havde jeg store problemer med at få mine penge.
+Tillid søges.
+60 studerende blev begravet under en sammenstyrtet medicinsk fakultetsbygning i byens centrum.
+To mænd i verden
+Samtidig skal gulvet være behageligt at stå og gå på også i længere perioder.
+Boligministeriet:
+De kan ikke komme hjem igen, for der er ikke folk til at passe dem, og plejehjemmene er fyldt.
+}
+Predicted: {
+"Dronning i 20 år" markerede, som titlen antyder, Dronningens jubilæum.
+De har desuden unddraget skattevæsenet 3,5 millioner kroner.
+2. kontor: For på det tidspunkt havde jeg store problemer med at få mine penge.
+Tillid søges.
+60 studerende blev begravet under en sammenstyrtet medicinsk fakultetsbygning i byens centrum.
+To mænd i verden Samtidig skal gulvet være behageligt at stå og gå på også i længere perioder.
+Boligministeriet: De kan ikke komme hjem igen, for der er ikke folk til at passe dem, og plejehjemmene er fyldt.
+}
+False positives: {
+2. kontor: For på det tidspunkt havde jeg store problemer med at få mine penge.
+To mænd i verden Samtidig skal gulvet være behageligt at stå og gå på også i længere perioder.
+Boligministeriet: De kan ikke komme hjem igen, for der er ikke folk til at passe dem, og plejehjemmene er fyldt.
+} False negatives: {
+2. kontor:
+For på det tidspunkt havde jeg store problemer med at få mine penge.
+To mænd i verden
+Samtidig skal gulvet være behageligt at stå og gå på også i længere perioder.
+Boligministeriet:
+De kan ikke komme hjem igen, for der er ikke folk til at passe dem, og plejehjemmene er fyldt.
+}
+
+Expected: {
+Også anklagemyndigheden har reserveret en ankemyndighed.
+"Jeg føler mig yderst uretfærdigt behandlet, og den nye ordning vil få den konsekvens, at danske illustratorer fremover vil være langt mindre villige til at arbejde med udenlandske værker."
+På Nørrebro Bibliotek i Guldbergsgade forsøger man nu at nedbringe ventetiden på reserverede bøger ved at fremskynde arbejdet med at skaffe dem frem på flere led.
+For det gjorde det, og det gør det.
+Stk. 2
+Dørklokken kimede, og det var børnenes mor, der åbnede døren til den snedækkede have og de snepudrede træer foran huset.
+Blandt rariteterne fra kuppet hos politichefen var specielt et par antikke lysestager, der alene var vurderet til 50.000 kr..
+Danskerne var blandt de første udenlandske forretningsfolk i Kina, men nu er vi blandt de sidste, der lukker op igen, "siger Oliver Jensen, FLS i Peking.
+De fleste kender mærket, der bærer på teksten: Hold Danmark rent.
+Man indsprøjter VIP i penis kort tid før samlejet, og herefter opstår der en erektion med en varighed, der afhænger af den indsprøjtede mængde VIP.
+}
+Predicted: {
+Også anklagemyndigheden har reserveret en ankemyndighed.
+"Jeg føler mig yderst uretfærdigt behandlet, og den nye ordning vil få den konsekvens, at danske illustratorer fremover vil være langt mindre villige til at arbejde med udenlandske værker."
+På Nørrebro Bibliotek i Guldbergsgade forsøger man nu at nedbringe ventetiden på reserverede bøger ved at fremskynde arbejdet med at skaffe dem frem på flere led.
+For det gjorde det, og det gør det.
+Stk. 2 Dørklokken kimede, og det var børnenes mor, der åbnede døren til den snedækkede have og de snepudrede træer foran huset.
+Blandt rariteterne fra kuppet hos politichefen var specielt et par antikke lysestager, der alene var vurderet til 50.000 kr..
+Danskerne var blandt de første udenlandske forretningsfolk i Kina, men nu er vi blandt de sidste, der lukker op igen, "siger Oliver Jensen, FLS i Peking.
+De fleste kender mærket, der bærer på teksten: Hold Danmark rent.
+Man indsprøjter VIP i penis kort tid før samlejet, og herefter opstår der en erektion med en varighed, der afhænger af den indsprøjtede mængde VIP.
+}
+False positives: {
+Stk. 2 Dørklokken kimede, og det var børnenes mor, der åbnede døren til den snedækkede have og de snepudrede træer foran huset.
+} False negatives: {
+Stk. 2
+Dørklokken kimede, og det var børnenes mor, der åbnede døren til den snedækkede have og de snepudrede træer foran huset.
+}
+
+Expected: {
+Der er altså god grund til, at vi skal gøre meget i Danmark for at forbedre miljøet.
+Men han styrede de andre drenge, og de fulgte ham ", siger Margie Weger.
+"De har noget i ærmerne og flere kraftreserver end vi har, men jeg er lykkelig for, at jeg kunne tage sæt fra verdens nr. 1," faldt Allan Bentsen ind i samtalen.
+"Efter næsten 30 år på det private arbejdsmarked var det hårdt, da jeg i april blev afskediget som overassistent fra Novenco på grund af nedskæringer.
+"Hvis der er tale om en dansk bog med lidt fremmedsprog i, så kan den godt få del i bibliotekspengene, men deciderede lærebøger i fremmedsprog kan ikke komme i betragtning," siger bibliotekskonsulent Anna Johansen, Statens Bibliotekstjeneste.
+- Som sagt er det ikke nødvendigt, at du er her i dag.
+For det andet: Mennesker oplever verden forskelligt.
+Hæren er parat til at svare med våben på enhver aggression mod Jugoslavien, siger general Zivota Panic.
+Devil's Marbles i Australien er et landskab af store stenkugler skabt gennem halvanden milliard år
+Ofte bar skolelæreren en mappe med et ekstra sæt tøj, så han kunne skifte, hvis han mødte et offer og fik blod på sine klæder.
+}
+Predicted: {
+Der er altså god grund til, at vi skal gøre meget i Danmark for at forbedre miljøet.
+Men han styrede de andre drenge, og de fulgte ham ", siger Margie Weger.
+"De har noget i ærmerne og flere kraftreserver end vi har, men jeg er lykkelig for, at jeg kunne tage sæt fra verdens nr.
+1," faldt Allan Bentsen ind i samtalen.
+"Efter næsten 30 år på det private arbejdsmarked var det hårdt, da jeg i april blev afskediget som overassistent fra Novenco på grund af nedskæringer.
+"Hvis der er tale om en dansk bog med lidt fremmedsprog i, så kan den godt få del i bibliotekspengene, men deciderede lærebøger i fremmedsprog kan ikke komme i betragtning," siger bibliotekskonsulent Anna Johansen, Statens Bibliotekstjeneste.
+- Som sagt er det ikke nødvendigt, at du er her i dag.
+For det andet: Mennesker oplever verden forskelligt.
+Hæren er parat til at svare med våben på enhver aggression mod Jugoslavien, siger general Zivota Panic.
+Devil's Marbles i Australien er et landskab af store stenkugler skabt gennem halvanden milliard år Ofte bar skolelæreren en mappe med et ekstra sæt tøj, så han kunne skifte, hvis han mødte et offer og fik blod på sine klæder.
+}
+False positives: {
+"De har noget i ærmerne og flere kraftreserver end vi har, men jeg er lykkelig for, at jeg kunne tage sæt fra verdens nr.
+1," faldt Allan Bentsen ind i samtalen.
+Devil's Marbles i Australien er et landskab af store stenkugler skabt gennem halvanden milliard år Ofte bar skolelæreren en mappe med et ekstra sæt tøj, så han kunne skifte, hvis han mødte et offer og fik blod på sine klæder.
+} False negatives: {
+"De har noget i ærmerne og flere kraftreserver end vi har, men jeg er lykkelig for, at jeg kunne tage sæt fra verdens nr. 1," faldt Allan Bentsen ind i samtalen.
+Devil's Marbles i Australien er et landskab af store stenkugler skabt gennem halvanden milliard år
+Ofte bar skolelæreren en mappe med et ekstra sæt tøj, så han kunne skifte, hvis han mødte et offer og fik blod på sine klæder.
+}
+
+Expected: {
+Retfærdighed er lig samme udfald
+Han så nu direkte på Lars.
+Nielsen kan ikke andet end nikke.
+De kan imidlertid hurtigt blive, hvad de endnu ikke er.
+Regenten deltager i et hav af af arrangementer.
+Det er to pænt klædte irakiske kurdere, som næsten taler flydende svensk.
+"Men vi besluttede at lade prisfaldet komme vores forhandlere til gode," siger underdirektør Jan E. Nilsson til Ritzau.
+Og jeg nyder hver dag at følge, hvilke herlige reaktioner det har sat i gang ude i den store verden i form af eftertænksomhed og overvejelse.
+Lidt snitsår i panden og den højre arm.
+NYE AKTIER
+}
+Predicted: {
+Retfærdighed er lig samme udfald Han så nu direkte på Lars.
+Nielsen kan ikke andet end nikke.
+De kan imidlertid hurtigt blive, hvad de endnu ikke er.
+Regenten deltager i et hav af af arrangementer.
+Det er to pænt klædte irakiske kurdere, som næsten taler flydende svensk.
+"Men vi besluttede at lade prisfaldet komme vores forhandlere til gode," siger underdirektør Jan E. Nilsson til Ritzau.
+Og jeg nyder hver dag at følge, hvilke herlige reaktioner det har sat i gang ude i den store verden i form af eftertænksomhed og overvejelse.
+Lidt snitsår i panden og den højre arm.
+NYE AKTIER
+}
+False positives: {
+Retfærdighed er lig samme udfald Han så nu direkte på Lars.
+} False negatives: {
+Retfærdighed er lig samme udfald
+Han så nu direkte på Lars.
+}
+
+Expected: {
+I Korovabad, hvor tre soldater var blevet stenet og tævet ihjel, var 60 armenske huse blevet brændt ned af rasende aserbajdsjanske grupper.
+"Vi har store forventninger til reformerne, omend vi er forberedt på, at de kan komme til at køre lidt i" ryk".
+Søg i den forbindelse rådgivning hos kriminalpræventionerne.
+- Men kæreste, hvorfor kommer du alene til mig? spurgte han, og blev stående på passende afstand.
+Overalt i Europa vakte opstanden begejstring blandt arbejderne og forfærdelse blandt myndighederne.
+Da Andrew Morton fik sin "Diana - Her True Story" på gaden tre måneder senere, fik tonen pludselig en anden lyd.
+Prioritering, afledt af fransk, og betyder fortrinsret, er, efter hvad erfaringen viser, et ukendt eller sjældent benyttet ord i Københavns bystyre.
+Stk. 5
+Saucen: Damp porreringene i grønsagsbouillon, tag dem op, kog bouillonen ind, tilsæt eddike og sennep, piskes op med smør, tilsæt hakket persille.
+Og kærlighedsbarnet, Christian, blev deres eneste barn.
+}
+Predicted: {
+I Korovabad, hvor tre soldater var blevet stenet og tævet ihjel, var 60 armenske huse blevet brændt ned af rasende aserbajdsjanske grupper.
+"Vi har store forventninger til reformerne, omend vi er forberedt på, at de kan komme til at køre lidt i" ryk".
+Søg i den forbindelse rådgivning hos kriminalpræventionerne.
+- Men kæreste, hvorfor kommer du alene til mig? spurgte han, og blev stående på passende afstand.
+Overalt i Europa vakte opstanden begejstring blandt arbejderne og forfærdelse blandt myndighederne.
+Da Andrew Morton fik sin "Diana - Her True Story" på gaden tre måneder senere, fik tonen pludselig en anden lyd.
+Prioritering, afledt af fransk, og betyder fortrinsret, er, efter hvad erfaringen viser, et ukendt eller sjældent benyttet ord i Københavns bystyre.
+Stk. 5 Saucen: Damp porreringene i grønsagsbouillon, tag dem op, kog bouillonen ind, tilsæt eddike og sennep, piskes op med smør, tilsæt hakket persille.
+Og kærlighedsbarnet, Christian, blev deres eneste barn.
+}
+False positives: {
+Stk. 5 Saucen: Damp porreringene i grønsagsbouillon, tag dem op, kog bouillonen ind, tilsæt eddike og sennep, piskes op med smør, tilsæt hakket persille.
+} False negatives: {
+Stk. 5
+Saucen: Damp porreringene i grønsagsbouillon, tag dem op, kog bouillonen ind, tilsæt eddike og sennep, piskes op med smør, tilsæt hakket persille.
+}
+
+Expected: {
+Op til et dusin store lastvognstog kører Europa tyndt.
+Operationerne
+HULEMALERIER
+Man kan åbenbart forvente alt fra den såkaldt fredsbevarende styrke i landet.
+Forude venter uger med en madplan, der består af pemmican på hundrede forskellige måder.
+Vi vurderer vores egen indsats ud fra nogle idealforestillinger, som vi ikke føler, vi kan leve op til.
+Grækerne vil ikke anerkende navnet Makedonien, som efter græsk opfattelse er betegnelsen på et område i det nordlige Grækenland.
+Et selskab hvor de røde/hvide farver også har været særdelse fremherskende.
+Det hele startede med at min veninde og jeg skulle til fest hos Søren, en af min venindes studiekammerater.
+Der var altid noget at rive i."
+}
+Predicted: {
+Op til et dusin store lastvognstog kører Europa tyndt.
+Operationerne HULEMALERIER Man kan åbenbart forvente alt fra den såkaldt fredsbevarende styrke i landet.
+Forude venter uger med en madplan, der består af pemmican på hundrede forskellige måder.
+Vi vurderer vores egen indsats ud fra nogle idealforestillinger, som vi ikke føler, vi kan leve op til.
+Grækerne vil ikke anerkende navnet Makedonien, som efter græsk opfattelse er betegnelsen på et område i det nordlige Grækenland.
+Et selskab hvor de røde/hvide farver også har været særdelse fremherskende.
+Det hele startede med at min veninde og jeg skulle til fest hos Søren, en af min venindes studiekammerater.
+Der var altid noget at rive i."
+}
+False positives: {
+Operationerne HULEMALERIER Man kan åbenbart forvente alt fra den såkaldt fredsbevarende styrke i landet.
+} False negatives: {
+Operationerne
+HULEMALERIER
+Man kan åbenbart forvente alt fra den såkaldt fredsbevarende styrke i landet.
+}
+
+Expected: {
+Du skal også altid passe på, du ikke får sår.
+Sælges alle billetter, bliver der knap 25.000 kr. til Røde Kors.
+Box 64
+Solen skinner."
+Svenskerne var helt utrolige.
+(2. udgave)
+Nægter Serbien at rette sig efter advarslen, går de foreliggende planer ud på at åbne en korridor over land til Sarajevo og andre områder, som er under belejring af fjendtlige styrker.
+Han valgte at blive i USA og fik direktørposter i først Carlsberg Agency Inc., senere Royal System Inc., senest Bing & Grøndahl Inc., hvis datterselskab han begyndte og opbyggede, og Royal Copenhagen Inc..
+Fremskridt igen.
+Den vagthavende tjenestemand i det lokale redningskorps sagde til det svenske nyhedsbureau, at der ville blive overført ekstra materiel til øen fra Stockholm.
+}
+Predicted: {
+Du skal også altid passe på, du ikke får sår.
+Sælges alle billetter, bliver der knap 25.000 kr. til Røde Kors.
+Box 64 Solen skinner."
+Svenskerne var helt utrolige.
+(2.
+udgave) Nægter Serbien at rette sig efter advarslen, går de foreliggende planer ud på at åbne en korridor over land til Sarajevo og andre områder, som er under belejring af fjendtlige styrker.
+Han valgte at blive i USA og fik direktørposter i først Carlsberg Agency Inc., senere Royal System Inc., senest Bing & Grøndahl Inc., hvis datterselskab han begyndte og opbyggede, og Royal Copenhagen Inc..
+Fremskridt igen.
+Den vagthavende tjenestemand i det lokale redningskorps sagde til det svenske nyhedsbureau, at der ville blive overført ekstra materiel til øen fra Stockholm.
+}
+False positives: {
+Box 64 Solen skinner."
+(2.
+udgave) Nægter Serbien at rette sig efter advarslen, går de foreliggende planer ud på at åbne en korridor over land til Sarajevo og andre områder, som er under belejring af fjendtlige styrker.
+} False negatives: {
+Box 64
+Solen skinner."
+(2. udgave)
+Nægter Serbien at rette sig efter advarslen, går de foreliggende planer ud på at åbne en korridor over land til Sarajevo og andre områder, som er under belejring af fjendtlige styrker.
+}
+
+Expected: {
+Hvad havde de, som nu savnes?
+Han har været med til at give branchen et løft
+Billetprisen er 150 kr. pr. person.
+Allerede nu har Birlik 500.000 medlemmer.
+Det er dybt ydmygende, "mente Kaj Poulsen.
+I mange kulturer betragtes søskendeforholdet som vigtigere end parforholdet.
+"Frem for alt den sorg, det er ikke altid at blive forstået i sit fødeland," sagde præsten med adresse til, at Marlene Dietrich af mange tyskere fejlagtigt blev opfattet som en landsforræder.
+Og det var ikke kun dem på banen:
+Men det er unægtelig en særdeles dårlig trøst for de ti pct., der skal betale, og der er også en klar indrømmelse af, at loven er ret betydningsløs i økonomisk henseende.
+Hvis stenen pludselig begynder at vokse, må man straks søge læge.
+}
+Predicted: {
+Hvad havde de, som nu savnes?
+Han har været med til at give branchen et løft Billetprisen er 150 kr. pr. person.
+Allerede nu har Birlik 500.000 medlemmer.
+Det er dybt ydmygende, "mente Kaj Poulsen.
+I mange kulturer betragtes søskendeforholdet som vigtigere end parforholdet.
+"Frem for alt den sorg, det er ikke altid at blive forstået i sit fødeland," sagde præsten med adresse til, at Marlene Dietrich af mange tyskere fejlagtigt blev opfattet som en landsforræder.
+Og det var ikke kun dem på banen: Men det er unægtelig en særdeles dårlig trøst for de ti pct., der skal betale, og der er også en klar indrømmelse af, at loven er ret betydningsløs i økonomisk henseende.
+Hvis stenen pludselig begynder at vokse, må man straks søge læge.
+}
+False positives: {
+Han har været med til at give branchen et løft Billetprisen er 150 kr. pr. person.
+Og det var ikke kun dem på banen: Men det er unægtelig en særdeles dårlig trøst for de ti pct., der skal betale, og der er også en klar indrømmelse af, at loven er ret betydningsløs i økonomisk henseende.
+} False negatives: {
+Han har været med til at give branchen et løft
+Billetprisen er 150 kr. pr. person.
+Og det var ikke kun dem på banen:
+Men det er unægtelig en særdeles dårlig trøst for de ti pct., der skal betale, og der er også en klar indrømmelse af, at loven er ret betydningsløs i økonomisk henseende.
+}
+
+Expected: {
+"Det kan godt være nogen, der har glemt én alle de andre dage.
+Nu er det jo ikke Justitsministeriets embedsmænd, der finder på dette (skønt de for tiden i anden forbindelse ikke synes at have svært ved at finde på søforklaringer).
+Udtryk jeg i øvrigt også har hørt nord for grænsen.
+"Sikke noget at genere en mand, der skaffer de unge i arbejde!" vrissede en ældre dame og slog med en stok på fotostaten.
+Desværre har vi danskere rekord i at vælge forkert.
+Smukke, bemalede kvinder i stramme kjoler cirkulerer langs rækken af jakkesætmænd.
+Skråt overfor demonstranterne, indenfor i burgerkæden Wimpys behageligt varme lokaler, drikker to jævnaldrende mænd kaffe, mens de udfylder tipskuponer.
+Hun var målløs.
+En bil bygget af franske studerende kunne ruinere benzinselskaberne, hvis den blev sat i masseproduktion.
+- Fint, så kan du tage med mig til fest.
+}
+Predicted: {
+"Det kan godt være nogen, der har glemt én alle de andre dage.
+Nu er det jo ikke Justitsministeriets embedsmænd, der finder på dette (skønt de for tiden i anden forbindelse ikke synes at have svært ved at finde på søforklaringer).
+Udtryk jeg i øvrigt også har hørt nord for grænsen.
+"Sikke noget at genere en mand, der skaffer de unge i arbejde!"
+vrissede en ældre dame og slog med en stok på fotostaten.
+Desværre har vi danskere rekord i at vælge forkert.
+Smukke, bemalede kvinder i stramme kjoler cirkulerer langs rækken af jakkesætmænd.
+Skråt overfor demonstranterne, indenfor i burgerkæden Wimpys behageligt varme lokaler, drikker to jævnaldrende mænd kaffe, mens de udfylder tipskuponer.
+Hun var målløs.
+En bil bygget af franske studerende kunne ruinere benzinselskaberne, hvis den blev sat i masseproduktion.
+- Fint, så kan du tage med mig til fest.
+}
+False positives: {
+"Sikke noget at genere en mand, der skaffer de unge i arbejde!"
+vrissede en ældre dame og slog med en stok på fotostaten.
+} False negatives: {
+"Sikke noget at genere en mand, der skaffer de unge i arbejde!" vrissede en ældre dame og slog med en stok på fotostaten.
+}
+
+Expected: {
+Eller en rød havørred til 59 kr. pr. kg for den hele, 20 kr. mere for den udskårne.
+Vi var endda lige ved at få Agfa farvefilm, og så havde vi været de første som drejede en dansk spillefilm i farver!
+Det tyske landshold spillede uden kvalitet i alle kampe undtagen kampen mod Sverige.
+Robert har været trofast, når det gjaldt grafikken.
+For med omhyggeligt tilrettelagt præcision kom Socialdemokratiet den samme dag - tirsdag - med deres alternative "finanslovforslag".
+Og det håber vi så på, for vi vil jo så gerne have et, helst to børn.
+Ikke alle, men de fleste af forsøgspersonerne havde fået meget lettere ved at læsetræne, fordi bogstavbilledet blev roligere.
+Dér ude ka' de ikke røre dig.
+Bland 125 g hvedemel, 1/2 tsk. bagepulver og 50 g lidt grofthakkede nøddekerner og pisk melblandingen i æggemassen, indtil alt er godt blandet.
+Det er hans første arbejde i sølv.
+}
+Predicted: {
+Eller en rød havørred til 59 kr. pr. kg for den hele, 20 kr. mere for den udskårne.
+Vi var endda lige ved at få Agfa farvefilm, og så havde vi været de første som drejede en dansk spillefilm i farver!
+Det tyske landshold spillede uden kvalitet i alle kampe undtagen kampen mod Sverige.
+Robert har været trofast, når det gjaldt grafikken.
+For med omhyggeligt tilrettelagt præcision kom Socialdemokratiet den samme dag - tirsdag - med deres alternative "finanslovforslag".
+Og det håber vi så på, for vi vil jo så gerne have et, helst to børn.
+Ikke alle, men de fleste af forsøgspersonerne havde fået meget lettere ved at læsetræne, fordi bogstavbilledet blev roligere.
+Dér ude ka' de ikke røre dig.
+Bland 125 g hvedemel, 1/2 tsk.
+bagepulver og 50 g lidt grofthakkede nøddekerner og pisk melblandingen i æggemassen, indtil alt er godt blandet.
+Det er hans første arbejde i sølv.
+}
+False positives: {
+Bland 125 g hvedemel, 1/2 tsk.
+bagepulver og 50 g lidt grofthakkede nøddekerner og pisk melblandingen i æggemassen, indtil alt er godt blandet.
+} False negatives: {
+Bland 125 g hvedemel, 1/2 tsk. bagepulver og 50 g lidt grofthakkede nøddekerner og pisk melblandingen i æggemassen, indtil alt er godt blandet.
+}
+
+Expected: {
+"I er en stamme præget af en usædvanlig folkelig og kulturel enhed.
+Instr.: Michael Curtiz.
+En dag ligger der en buket med 11 langstilkede roser uden for hoveddøren med følgende kryptiske og makabre besked: Mylady.
+Lynhurtigt kom han ud af sengen og op på første sal, hvor familiens fire drenge i alderen syv til 17 år lå og sov.
+Faktisk har han i år været gift i 26 år med sin ungdoms kærlighed, Karin Müller, fra den østrigske landsby Altaussee.
+Med én røv kan man ikke sidde på to heste.
+UGENS OVERRASKELSE
+"Er du sur?" spørger han pludselig.
+Under arbejdet er jeg i korte øjeblikke urørlig.
+Som prøvekøb har undertegnede to beskærersakse fra to lavprisvarehuse.
+}
+Predicted: {
+"I er en stamme præget af en usædvanlig folkelig og kulturel enhed.
+Instr.:
+Michael Curtiz.
+En dag ligger der en buket med 11 langstilkede roser uden for hoveddøren med følgende kryptiske og makabre besked: Mylady.
+Lynhurtigt kom han ud af sengen og op på første sal, hvor familiens fire drenge i alderen syv til 17 år lå og sov.
+Faktisk har han i år været gift i 26 år med sin ungdoms kærlighed, Karin Müller, fra den østrigske landsby Altaussee.
+Med én røv kan man ikke sidde på to heste.
+UGENS OVERRASKELSE "Er du sur?"
+spørger han pludselig.
+Under arbejdet er jeg i korte øjeblikke urørlig.
+Som prøvekøb har undertegnede to beskærersakse fra to lavprisvarehuse.
+}
+False positives: {
+Instr.:
+Michael Curtiz.
+UGENS OVERRASKELSE "Er du sur?"
+spørger han pludselig.
+} False negatives: {
+Instr.: Michael Curtiz.
+UGENS OVERRASKELSE
+"Er du sur?" spørger han pludselig.
+}
+
+Expected: {
+Efter afgiftsnedsættelsen til oktober er prisen typisk 2,25 i Danmark og 1,25 i Tyskland.
+Kombineret med passende motion bliver der tale om et rimeligt vægttab, som giver mulighed for at vægten kan holdes, når idealvægten er nået.
+Således har biblioteket indledt et tæt samarbejde med Wiuff's Boghandel på Jagtvej.
+Villa, fly og biler
+Jeg tænker på for eksempel Henning Dons, John Winther og Mikael Kold."
+Hæld blandingen i panden og rør rundt.
+"Man kan ikke længere sige, det er enkeltstående tilfælde, og det har været svært at placere ansvaret i de enkelte tilfælde.
+En af de dygtigste fugle er brevduen.
+Næsten samtidig med regeringens fremsættelse af sit lovforslag kom CD med et beslutningsforslag om mulighed for anonym rådgivning for børn og forældre, som man kan ty til, når der er problemer - uden at det fører til "optagelse af rapport", som umiddelbart gør én til en sag i systemet.
+Der skete altid noget, og så var de sammen igen, men ikke denne gang.
+}
+Predicted: {
+Efter afgiftsnedsættelsen til oktober er prisen typisk 2,25 i Danmark og 1,25 i Tyskland.
+Kombineret med passende motion bliver der tale om et rimeligt vægttab, som giver mulighed for at vægten kan holdes, når idealvægten er nået.
+Således har biblioteket indledt et tæt samarbejde med Wiuff's Boghandel på Jagtvej.
+Villa, fly og biler Jeg tænker på for eksempel Henning Dons, John Winther og Mikael Kold."
+Hæld blandingen i panden og rør rundt.
+"Man kan ikke længere sige, det er enkeltstående tilfælde, og det har været svært at placere ansvaret i de enkelte tilfælde.
+En af de dygtigste fugle er brevduen.
+Næsten samtidig med regeringens fremsættelse af sit lovforslag kom CD med et beslutningsforslag om mulighed for anonym rådgivning for børn og forældre, som man kan ty til, når der er problemer - uden at det fører til "optagelse af rapport", som umiddelbart gør én til en sag i systemet.
+Der skete altid noget, og så var de sammen igen, men ikke denne gang.
+}
+False positives: {
+Villa, fly og biler Jeg tænker på for eksempel Henning Dons, John Winther og Mikael Kold."
+} False negatives: {
+Villa, fly og biler
+Jeg tænker på for eksempel Henning Dons, John Winther og Mikael Kold."
+}
+
+Expected: {
+Umiddelbart var det vel dette tekniske raffinement af et hit, mange havde set frem til som aftenens uforglemmelige kulmination.
+Brug spolerne, jernloddet og vægtlodderne (fig. 11.2).
+På flamsk, på tysk, på engelsk, på italiensk, på svensk.
+Fire døde inden et år efter operationen, men de øvrige havde det alle meget bedre end før, fortæller første reservelæge Jan Aldershvile fra den medicinske hjerteafdeling på Rigshospitalet.
+Apparatur
+- Henne på jernbanebroen, du ved.
+Andre gange har den så travlt med at fortælle, at man bliver vildt forvirret.
+R.I.D repræsenterer alle større danske rejsebureauer, deriblandt Larsen Rejser:
+Hvis du bare skal skrive et par autografer, er det fint, men at blive jagtet ned ad gaden af dem er bare ikke sagen.
+PISTOLMAND TOG SELV
+}
+Predicted: {
+Umiddelbart var det vel dette tekniske raffinement af et hit, mange havde set frem til som aftenens uforglemmelige kulmination.
+Brug spolerne, jernloddet og vægtlodderne (fig.
+11.2).
+På flamsk, på tysk, på engelsk, på italiensk, på svensk.
+Fire døde inden et år efter operationen, men de øvrige havde det alle meget bedre end før, fortæller første reservelæge Jan Aldershvile fra den medicinske hjerteafdeling på Rigshospitalet.
+Apparatur - Henne på jernbanebroen, du ved.
+Andre gange har den så travlt med at fortælle, at man bliver vildt forvirret.
+R.I.D repræsenterer alle større danske rejsebureauer, deriblandt Larsen Rejser: Hvis du bare skal skrive et par autografer, er det fint, men at blive jagtet ned ad gaden af dem er bare ikke sagen.
+PISTOLMAND TOG SELV
+}
+False positives: {
+Brug spolerne, jernloddet og vægtlodderne (fig.
+11.2).
+Apparatur - Henne på jernbanebroen, du ved.
+R.I.D repræsenterer alle større danske rejsebureauer, deriblandt Larsen Rejser: Hvis du bare skal skrive et par autografer, er det fint, men at blive jagtet ned ad gaden af dem er bare ikke sagen.
+} False negatives: {
+Brug spolerne, jernloddet og vægtlodderne (fig. 11.2).
+Apparatur
+- Henne på jernbanebroen, du ved.
+R.I.D repræsenterer alle større danske rejsebureauer, deriblandt Larsen Rejser:
+Hvis du bare skal skrive et par autografer, er det fint, men at blive jagtet ned ad gaden af dem er bare ikke sagen.
+}
+
+Expected: {
+Måske er jeg slet ikke allergisk mere?
+Hun boede i den anden ende af landsbyden.
+Hun var på de seks døgn rundt i fem lejre, og hvert sted snakkede hun med ledere og gik ind i arbejdet med at dele de sparsomme madrationer ud, made børnene og være med til at rydde op og få både de syge børn og voksne i lejrene vasket og givet medicin.
+Det er vel ikke engang udelukket, at den på ny dukker op.
+Ugens bedste idé
+Linderöd, Sverige
+Hun samler badekåben tættere om sig.
+Så følte Lise en hånd på sin arm.
+De to mindste støvede børn kommer ud af en rødtjørn og klapper Pjuske.
+Han advarede imidlertid også om, at der ikke bliver en ny chance for det russiske demokrati.
+}
+Predicted: {
+Måske er jeg slet ikke allergisk mere?
+Hun boede i den anden ende af landsbyden.
+Hun var på de seks døgn rundt i fem lejre, og hvert sted snakkede hun med ledere og gik ind i arbejdet med at dele de sparsomme madrationer ud, made børnene og være med til at rydde op og få både de syge børn og voksne i lejrene vasket og givet medicin.
+Det er vel ikke engang udelukket, at den på ny dukker op.
+Ugens bedste idé Linderöd, Sverige Hun samler badekåben tættere om sig.
+Så følte Lise en hånd på sin arm.
+De to mindste støvede børn kommer ud af en rødtjørn og klapper Pjuske.
+Han advarede imidlertid også om, at der ikke bliver en ny chance for det russiske demokrati.
+}
+False positives: {
+Ugens bedste idé Linderöd, Sverige Hun samler badekåben tættere om sig.
+} False negatives: {
+Ugens bedste idé
+Linderöd, Sverige
+Hun samler badekåben tættere om sig.
+}
+
+Expected: {
+Der er sket Noget, hedder en roman af Joseph Heller.
+Det er mest praktisk.
+Hun indrømmer, at hun var meget rystet over og totalt uforberedt på den kontrast, der findes i det hungerhærgede land.
+Ikke mindst John Winther.
+Pludselig skete der imidlertid en overraskende udvikling.
+Det var det år, hans første LP, "With A Little Help From My Friends", udkom.
+Han spyttede arrigt ordene ud.
+Tilholderlåsen
+Enhver, der har forsøgt at gennemføre en samtale i lastrummet på sådan en tyksak af et fly, kender betingelserne.
+Der findes to typer kølervæske på markedet.
+}
+Predicted: {
+Der er sket Noget, hedder en roman af Joseph Heller.
+Det er mest praktisk.
+Hun indrømmer, at hun var meget rystet over og totalt uforberedt på den kontrast, der findes i det hungerhærgede land.
+Ikke mindst John Winther.
+Pludselig skete der imidlertid en overraskende udvikling.
+Det var det år, hans første LP, "With A Little Help From My Friends", udkom.
+Han spyttede arrigt ordene ud.
+Tilholderlåsen Enhver, der har forsøgt at gennemføre en samtale i lastrummet på sådan en tyksak af et fly, kender betingelserne.
+Der findes to typer kølervæske på markedet.
+}
+False positives: {
+Tilholderlåsen Enhver, der har forsøgt at gennemføre en samtale i lastrummet på sådan en tyksak af et fly, kender betingelserne.
+} False negatives: {
+Tilholderlåsen
+Enhver, der har forsøgt at gennemføre en samtale i lastrummet på sådan en tyksak af et fly, kender betingelserne.
+}
+
+Expected: {
+Fordi de er overvægtige.
+Boligydelsen beregnes med udgangspunkt i huslejens størrelse, husstandens indkomst, lejlighedens størrelse og husstandens størrelse og sammensætning.
+Jeg er ansat i Jægersborg Skovdistrikt, og jeg har gået på skovskole.
+Hende ville jeg gerne smøre ind i sæbe, men jeg får øje på de to store dørmænd og ved, at de vil score hver en mønt, jeg har.
+Med henblik herpå vil WEU udforme en fælles europæisk forsvarspolitik og fremme dennes konkrete gennemførelse i kraft af en yderligere udvikling af sin operationelle rolle".
+1.435.585, Niels fra Videbæk
+"Hvis udviklingen fortsætter, kan jeg godt forestille mig, at jeg ender med at blive en af dem, der kæmper for naturen.
+I Slavonski Brod, en kroatisk by på grænsen til Bosnien, blev otte børn og to kvinder dræbt, da en bombe fra et jugoslavisk fly ødelagde deres beskyttelsesrum, siger lokale forsvarsmyndigheder.
+I juridiske kredse finder man det ejendommeligt, at to dommere i samme uge afgør sammenlignelige sager så forskelligt.
+Mod Danmark bliver det formentlig Torben Piechnik fra Liverpool og mig, der skal slås.
+}
+Predicted: {
+Fordi de er overvægtige.
+Boligydelsen beregnes med udgangspunkt i huslejens størrelse, husstandens indkomst, lejlighedens størrelse og husstandens størrelse og sammensætning.
+Jeg er ansat i Jægersborg Skovdistrikt, og jeg har gået på skovskole.
+Hende ville jeg gerne smøre ind i sæbe, men jeg får øje på de to store dørmænd og ved, at de vil score hver en mønt, jeg har.
+Med henblik herpå vil WEU udforme en fælles europæisk forsvarspolitik og fremme dennes konkrete gennemførelse i kraft af en yderligere udvikling af sin operationelle rolle".
+1.435.585,
+Niels fra Videbæk "Hvis udviklingen fortsætter, kan jeg godt forestille mig, at jeg ender med at blive en af dem, der kæmper for naturen.
+I Slavonski Brod, en kroatisk by på grænsen til Bosnien, blev otte børn og to kvinder dræbt, da en bombe fra et jugoslavisk fly ødelagde deres beskyttelsesrum, siger lokale forsvarsmyndigheder.
+I juridiske kredse finder man det ejendommeligt, at to dommere i samme uge afgør sammenlignelige sager så forskelligt.
+Mod Danmark bliver det formentlig Torben Piechnik fra Liverpool og mig, der skal slås.
+}
+False positives: {
+1.435.585,
+Niels fra Videbæk "Hvis udviklingen fortsætter, kan jeg godt forestille mig, at jeg ender med at blive en af dem, der kæmper for naturen.
+} False negatives: {
+1.435.585, Niels fra Videbæk
+"Hvis udviklingen fortsætter, kan jeg godt forestille mig, at jeg ender med at blive en af dem, der kæmper for naturen.
+}
+
+Expected: {
+Det kan også ske i Schleimanns tilfælde, men ikke nødvendigvis.
+Passe sammen
+Selv om der focuseres på det meget nære forhold til VW, er det en spansk bil, og den skal nu bevise, at den kan leve op til det, den lover.
+Dette gælder flere andre gader i det efterhånden forfaldne, nedslidte og snavsede København.
+I det øjeblik forstår jeg, at smerten, som er min krops angst for Døden, er stærkere end alt, stærkere end nogen længsel, end nogen beslutning.
+Vi forstår hinanden godt, og jeg nyder at heade ham fri til scoring.
+Hun serverer også hos bakkerestauratør BENT AXEL HASEBART, og de seneste år har hun skrevet tre bøger.
+Et emne har forfatterne dog besluttet at udelukke - AIDS: - Vi er trætte af, at dødsangst og seksualitet skal hænge så tæt sammen.
+Et endeligt ja til forliget kræver mindst 50 pct. af stemmerne.
+Det er absolut noget at være stolt over, "siger formanden for Dansk Pilotforening, Eigil Kragh.
+}
+Predicted: {
+Det kan også ske i Schleimanns tilfælde, men ikke nødvendigvis.
+Passe sammen Selv om der focuseres på det meget nære forhold til VW, er det en spansk bil, og den skal nu bevise, at den kan leve op til det, den lover.
+Dette gælder flere andre gader i det efterhånden forfaldne, nedslidte og snavsede København.
+I det øjeblik forstår jeg, at smerten, som er min krops angst for Døden, er stærkere end alt, stærkere end nogen længsel, end nogen beslutning.
+Vi forstår hinanden godt, og jeg nyder at heade ham fri til scoring.
+Hun serverer også hos bakkerestauratør BENT AXEL HASEBART, og de seneste år har hun skrevet tre bøger.
+Et emne har forfatterne dog besluttet at udelukke - AIDS: - Vi er trætte af, at dødsangst og seksualitet skal hænge så tæt sammen.
+Et endeligt ja til forliget kræver mindst 50 pct. af stemmerne.
+Det er absolut noget at være stolt over, "siger formanden for Dansk Pilotforening, Eigil Kragh.
+}
+False positives: {
+Passe sammen Selv om der focuseres på det meget nære forhold til VW, er det en spansk bil, og den skal nu bevise, at den kan leve op til det, den lover.
+} False negatives: {
+Passe sammen
+Selv om der focuseres på det meget nære forhold til VW, er det en spansk bil, og den skal nu bevise, at den kan leve op til det, den lover.
+}
+
+Expected: {
+vi undersogte jo muligheden for at fa det pa lordag, men det var der ingen mulighed for.
+de far ojenkontakt med en nogenlunde paen og nobel fyr, og efter en tid gar de over og byder ham en drink.
+rudbjerg vil samarbejde med nakskov
+storkokkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om kokkenernes indretning og udrustning og til personalets uddannelse.
+det er hojsaeson for svampe i slutningen af september og i oktober, og undervejs pa skovturen moder vi mange andre, som med blikket faestnet til den velduftende skovbund soger efter nogle af de attraktive danske spisesvampe.
+det siger sig selv, at teba's areal ikke vil blive udvidet af den grund.
+de to storbanker tilhorer i parentes bemaerket brondbys overste sponsorluftlag: unibank som eurosponsor og den danske bank som medlem i den sakaldte "exclusive club".
+- nu skal jeg vise vej.
+hvis han i stedet havde sagt, at "de andre er lige sa slemme", kunne man maske have troet ham.
+men nanna bakker opfordringen op og det skal naevnes, at hun var en af hovedkraefterne bag den succesrige musical, som 10. klasses elever opforte som alternativ til undervisningen i efteraret 1985.
+}
+Predicted: {
+vi undersogte jo muligheden for at fa det pa lordag, men det var der ingen mulighed for.
+de far ojenkontakt med en nogenlunde paen og nobel fyr, og efter en tid gar de over og byder ham en drink.
+rudbjerg vil samarbejde med nakskov storkokkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om kokkenernes indretning og udrustning og til personalets uddannelse.
+det er hojsaeson for svampe i slutningen af september og i oktober, og undervejs pa skovturen moder vi mange andre, som med blikket faestnet til den velduftende skovbund soger efter nogle af de attraktive danske spisesvampe.
+det siger sig selv, at teba's areal ikke vil blive udvidet af den grund.
+de to storbanker tilhorer i parentes bemaerket brondbys overste sponsorluftlag: unibank som eurosponsor og den danske bank som medlem i den sakaldte "exclusive club".
+- nu skal jeg vise vej.
+hvis han i stedet havde sagt, at "de andre er lige sa slemme", kunne man maske have troet ham.
+men nanna bakker opfordringen op og det skal naevnes, at hun var en af hovedkraefterne bag den succesrige musical, som 10. klasses elever opforte som alternativ til undervisningen i efteraret 1985.
+}
+False positives: {
+rudbjerg vil samarbejde med nakskov storkokkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om kokkenernes indretning og udrustning og til personalets uddannelse.
+} False negatives: {
+rudbjerg vil samarbejde med nakskov
+storkokkenerne er underkastet levnedsmiddelkontrollens tilsyn, og der er krav om kokkenernes indretning og udrustning og til personalets uddannelse.
+}
+
+Expected: {
+derfor er det med forundring, man laeser, at sverige frit kan transportere radioaktivt atombraendsel gennem danmark fra tyskland.
+"jeg rabte pa bornene, og da jeg naede op, var den aeldste allerede vagen, og jeg fik alle bornene med ned i stuen i god behold," siger ib oustrup til b.t..
+"da jeg skulle prove at fa min forste filmrolle (moving violations), modte jeg op i en meget stram kjole.
+rom blev ikke bygget pa en dag.
+jeg nikkede, som om der ikke var den ting, jeg ikke var inde i og beherskede.
+han blev kun forsinket et par dage.
+de snakker allesammen swahili med hinanden, og jeg gar ud fra, at de har vaeret pa sprogkursus.
+men er den nu ogsa det?
+jeg ved ikke, om jeg er ved at kede mig, eller om jeg bare er doven.
+som leder af sygehusets portorgruppe har ingen kunnet anfaegte overportorens ret til saette sig selv pa fast vagt i kapellet.
+}
+Predicted: {
+derfor er det med forundring, man laeser, at sverige frit kan transportere radioaktivt atombraendsel gennem danmark fra tyskland.
+"jeg rabte pa bornene, og da jeg naede op, var den aeldste allerede vagen, og jeg fik alle bornene med ned i stuen i god behold," siger ib oustrup til b.t.. "da jeg skulle prove at fa min forste filmrolle (moving violations), modte jeg op i en meget stram kjole.
+rom blev ikke bygget pa en dag.
+jeg nikkede, som om der ikke var den ting, jeg ikke var inde i og beherskede.
+han blev kun forsinket et par dage.
+de snakker allesammen swahili med hinanden, og jeg gar ud fra, at de har vaeret pa sprogkursus.
+men er den nu ogsa det?
+jeg ved ikke, om jeg er ved at kede mig, eller om jeg bare er doven.
+som leder af sygehusets portorgruppe har ingen kunnet anfaegte overportorens ret til saette sig selv pa fast vagt i kapellet.
+}
+False positives: {
+"jeg rabte pa bornene, og da jeg naede op, var den aeldste allerede vagen, og jeg fik alle bornene med ned i stuen i god behold," siger ib oustrup til b.t.. "da jeg skulle prove at fa min forste filmrolle (moving violations), modte jeg op i en meget stram kjole.
+} False negatives: {
+"jeg rabte pa bornene, og da jeg naede op, var den aeldste allerede vagen, og jeg fik alle bornene med ned i stuen i god behold," siger ib oustrup til b.t..
+"da jeg skulle prove at fa min forste filmrolle (moving violations), modte jeg op i en meget stram kjole.
+}
+
+Expected: {
+i osteuropa er mennesker holdt uvidende pa en for os ukendt ydmygende made.
+personlige breve stjalet
+vi la nogne ved siden af hinanden og snakkede og drak te og portvin.
+vinden var lojet noget af, og ilden havde stabiliseret sig.
+han kan vente stotte fra sf, hvor ebba strange siger: "vi vil ikke modsaette os en uvildig undersogelse og kan sikkert overtales til at stotte et sadant krav, men jeg tager ikke selv et initiativ."
+geologi
+i gennemsnit ryger der 10 par sko over disken om dagen.
+blyindholdet i 98 oktan blyholdig benzin har hidtil hos de fleste selskaber - inklusive statoil - vaeret pa 0,15 gram pr. liter.
+fra de tidligste drengear har han vaeret godt til at strikke og haft anlaeg for at sy og brodere, og efter at have strikket et hav af sokker, trojer, huer og vanter begyndte han for nogle ar siden at lave nisser.
+pa den anden side kan det give indtryk af overblik og sikkerhed, hvis du starter med kort at skitsere hovedpunkterne i det, du agter at sige.
+}
+Predicted: {
+i osteuropa er mennesker holdt uvidende pa en for os ukendt ydmygende made.
+personlige breve stjalet vi la nogne ved siden af hinanden og snakkede og drak te og portvin.
+vinden var lojet noget af, og ilden havde stabiliseret sig.
+han kan vente stotte fra sf, hvor ebba strange siger: "vi vil ikke modsaette os en uvildig undersogelse og kan sikkert overtales til at stotte et sadant krav, men jeg tager ikke selv et initiativ."
+geologi i gennemsnit ryger der 10 par sko over disken om dagen.
+blyindholdet i 98 oktan blyholdig benzin har hidtil hos de fleste selskaber - inklusive statoil - vaeret pa 0,15 gram pr. liter.
+fra de tidligste drengear har han vaeret godt til at strikke og haft anlaeg for at sy og brodere, og efter at have strikket et hav af sokker, trojer, huer og vanter begyndte han for nogle ar siden at lave nisser.
+pa den anden side kan det give indtryk af overblik og sikkerhed, hvis du starter med kort at skitsere hovedpunkterne i det, du agter at sige.
+}
+False positives: {
+personlige breve stjalet vi la nogne ved siden af hinanden og snakkede og drak te og portvin.
+geologi i gennemsnit ryger der 10 par sko over disken om dagen.
+} False negatives: {
+personlige breve stjalet
+vi la nogne ved siden af hinanden og snakkede og drak te og portvin.
+geologi
+i gennemsnit ryger der 10 par sko over disken om dagen.
+}
+
+Expected: {
+det gor han og skriver i avisen om den patriotiske nodvendighed af faedrelandets forsvar.
+ridning og svomning - under kontrol af fysioterapeuter - viser sig i mange tilfaelde ogsa at have en god virkning pa scleroseramte.
+nu er den daekket til af kommunen med flere hundrede kilo sand
+unibanks bestyrelsesformand hugo schroder udtrykker det saledes over for b.t.: "i de seneste fem meddelelser til offentligheden er vi hver gang kommet ud med tal, som efterfolgende har vist sig at vaere for optimistiske.
+det samme er det grimme sar pa overarmen og skrammerne over det meste af kroppen.
+et kraftigt slag eller spark kan vaere sa smertefuldt, at man besvimer.
+den har ingen forbindelse med arsagen til flystyrtet.
+nogle af dem laekker, og der er enkelte steder flydt en klistret masse ud pa jorden.
+sa kan vi ogsa bedre fa fortalt noget mere om den efterhanden.
+og hans musiksmag er de gode, gamle som elvis og tom jones.
+}
+Predicted: {
+det gor han og skriver i avisen om den patriotiske nodvendighed af faedrelandets forsvar.
+ridning og svomning - under kontrol af fysioterapeuter - viser sig i mange tilfaelde ogsa at have en god virkning pa scleroseramte.
+nu er den daekket til af kommunen med flere hundrede kilo sand unibanks bestyrelsesformand hugo schroder udtrykker det saledes over for b.t.: "i de seneste fem meddelelser til offentligheden er vi hver gang kommet ud med tal, som efterfolgende har vist sig at vaere for optimistiske.
+det samme er det grimme sar pa overarmen og skrammerne over det meste af kroppen.
+et kraftigt slag eller spark kan vaere sa smertefuldt, at man besvimer.
+den har ingen forbindelse med arsagen til flystyrtet.
+nogle af dem laekker, og der er enkelte steder flydt en klistret masse ud pa jorden.
+sa kan vi ogsa bedre fa fortalt noget mere om den efterhanden.
+og hans musiksmag er de gode, gamle som elvis og tom jones.
+}
+False positives: {
+nu er den daekket til af kommunen med flere hundrede kilo sand unibanks bestyrelsesformand hugo schroder udtrykker det saledes over for b.t.: "i de seneste fem meddelelser til offentligheden er vi hver gang kommet ud med tal, som efterfolgende har vist sig at vaere for optimistiske.
+} False negatives: {
+nu er den daekket til af kommunen med flere hundrede kilo sand
+unibanks bestyrelsesformand hugo schroder udtrykker det saledes over for b.t.: "i de seneste fem meddelelser til offentligheden er vi hver gang kommet ud med tal, som efterfolgende har vist sig at vaere for optimistiske.
+}
+
+Expected: {
+600 far ikke lov
+de fleste ma lukke, mener eksperterne.
+tidligere havde de store brugser 20.000 forskellige varer pa hylderne.
+for at spare skaeres antallet ned til 8.000.
+det finansierer en del af prisnedsaettelserne.
+resten skal komme fra et forventet mersalg.
+hans uffe christensen
+finansmininister henning dyremose gor nu en heldig gennemforelse af finansloven for 1991 til murbraekker for, at der kan opnas resultater pa de andre, spraengfarlige politiske omrader - uddannelse, arbejdsmarked og skat.
+"jeg satser pa at bruge forhandlingerne om finansloven som murbraekker for resultater pa de andre omrader.
+henning dyremose mener ikke, at en nedsaettelse af moms og afgifter kan vaere med til at sikre et mere afdaempet overenskomstresultat.
+}
+Predicted: {
+600 far ikke lov de fleste ma lukke, mener eksperterne.
+tidligere havde de store brugser 20.000 forskellige varer pa hylderne.
+for at spare skaeres antallet ned til 8.000.
+det finansierer en del af prisnedsaettelserne.
+resten skal komme fra et forventet mersalg.
+hans uffe christensen finansmininister henning dyremose gor nu en heldig gennemforelse af finansloven for 1991 til murbraekker for, at der kan opnas resultater pa de andre, spraengfarlige politiske omrader - uddannelse, arbejdsmarked og skat.
+"jeg satser pa at bruge forhandlingerne om finansloven som murbraekker for resultater pa de andre omrader.
+henning dyremose mener ikke, at en nedsaettelse af moms og afgifter kan vaere med til at sikre et mere afdaempet overenskomstresultat.
+}
+False positives: {
+600 far ikke lov de fleste ma lukke, mener eksperterne.
+hans uffe christensen finansmininister henning dyremose gor nu en heldig gennemforelse af finansloven for 1991 til murbraekker for, at der kan opnas resultater pa de andre, spraengfarlige politiske omrader - uddannelse, arbejdsmarked og skat.
+} False negatives: {
+600 far ikke lov
+de fleste ma lukke, mener eksperterne.
+hans uffe christensen
+finansmininister henning dyremose gor nu en heldig gennemforelse af finansloven for 1991 til murbraekker for, at der kan opnas resultater pa de andre, spraengfarlige politiske omrader - uddannelse, arbejdsmarked og skat.
+}
+
+Expected: {
+"nar boligministeren ikke vil, sa ma jeg gore det," siger kirsten jacobsen med henvisning til, at boligminister svend erik hovmand (v) har afvist at foretage sig noget, for kammeradvokaten har vurderet sagen.
+kirsten jacobsen vil i anmeldelsen bede politidirektoren undersoge, om landsforeningen ungbo har begaet mandatsvig, underslaeb og bedrageri i forbindelse med statens milliontilskud til ungbos virksomhed.
+nye afsloringer
+siden ungbo for tre uger siden gik konkurs med et underskud pa 44,1 mill. kroner, er der naeppe gaet en dag uden nye belastende afsloringer af ungbos made at drive almennyttig udlejningsvirksomhed pa er dukket op.
+en stor del af ungbos 1.600 ungdomsboliger og 2.200 hybler er truet af tvangsauktion.
+150 ansatte pa hovedkontoret risikerer en fyreseddel, og mange lejere, flere kommuner, fagbevaegelsen, en bank og staten har alle penge til gode.
+i gar haevdede de to tiltalte, at computermanden blot ringede for at fortaelle, at han skulle i lag med nogle damer.
+det var hvad, der mentes med "kunder".
+klokken 17.05 samme dag ringede han igen: "jeg regnede med, at du tog en telefonboks.
+det er en dum telefon, "sagde" mercedesmanden".
+}
+Predicted: {
+"nar boligministeren ikke vil, sa ma jeg gore det," siger kirsten jacobsen med henvisning til, at boligminister svend erik hovmand (v) har afvist at foretage sig noget, for kammeradvokaten har vurderet sagen.
+kirsten jacobsen vil i anmeldelsen bede politidirektoren undersoge, om landsforeningen ungbo har begaet mandatsvig, underslaeb og bedrageri i forbindelse med statens milliontilskud til ungbos virksomhed.
+nye afsloringer siden ungbo for tre uger siden gik konkurs med et underskud pa 44,1 mill. kroner, er der naeppe gaet en dag uden nye belastende afsloringer af ungbos made at drive almennyttig udlejningsvirksomhed pa er dukket op.
+en stor del af ungbos 1.600 ungdomsboliger og 2.200 hybler er truet af tvangsauktion.
+150 ansatte pa hovedkontoret risikerer en fyreseddel, og mange lejere, flere kommuner, fagbevaegelsen, en bank og staten har alle penge til gode.
+i gar haevdede de to tiltalte, at computermanden blot ringede for at fortaelle, at han skulle i lag med nogle damer.
+det var hvad, der mentes med "kunder".
+klokken 17.05 samme dag ringede han igen: "jeg regnede med, at du tog en telefonboks.
+det er en dum telefon, "sagde" mercedesmanden".
+}
+False positives: {
+nye afsloringer siden ungbo for tre uger siden gik konkurs med et underskud pa 44,1 mill. kroner, er der naeppe gaet en dag uden nye belastende afsloringer af ungbos made at drive almennyttig udlejningsvirksomhed pa er dukket op.
+} False negatives: {
+nye afsloringer
+siden ungbo for tre uger siden gik konkurs med et underskud pa 44,1 mill. kroner, er der naeppe gaet en dag uden nye belastende afsloringer af ungbos made at drive almennyttig udlejningsvirksomhed pa er dukket op.
+}
+
+Expected: {
+gongehovdingen stred sig i aftes igennem sjette af de tretten afsnit pa danmarks radios tv.
+der ligger fire skodder plus en hel camel.
+genbrug
+og for den, som pa sin ungdoms naive overbevisning om menneskeandens fundamentale godhed grundede en forhabning om et menneskerettighedernes retfaerdige samfund, og som nu ser det "virkeliggjort" i stedse mere kompromitterede skikkelser.
+det er kraefter, som gar ind for lovliggorelse af christiania, og som indser, at fristaden ikke kan bygge sin fremtid og sin okonomi pa hashhandel.
+du ma da snart vaere traet.
+begge domme er anket til landsretten af henholdsvis den danske forening og af direktor jens sejersen, der var sagsogt i begge sager.
+det gav et pludseligt ryk i den gamles krop, og handen hagede sig fast som en orneklo.
+gunnar trak den overste skuffe ud og lagde brevet pa bordet.
+hun var slet ikke sadan, som hun foregav at vaere.
+}
+Predicted: {
+gongehovdingen stred sig i aftes igennem sjette af de tretten afsnit pa danmarks radios tv.
+der ligger fire skodder plus en hel camel.
+genbrug og for den, som pa sin ungdoms naive overbevisning om menneskeandens fundamentale godhed grundede en forhabning om et menneskerettighedernes retfaerdige samfund, og som nu ser det "virkeliggjort" i stedse mere kompromitterede skikkelser.
+det er kraefter, som gar ind for lovliggorelse af christiania, og som indser, at fristaden ikke kan bygge sin fremtid og sin okonomi pa hashhandel.
+du ma da snart vaere traet.
+begge domme er anket til landsretten af henholdsvis den danske forening og af direktor jens sejersen, der var sagsogt i begge sager.
+det gav et pludseligt ryk i den gamles krop, og handen hagede sig fast som en orneklo.
+gunnar trak den overste skuffe ud og lagde brevet pa bordet.
+hun var slet ikke sadan, som hun foregav at vaere.
+}
+False positives: {
+genbrug og for den, som pa sin ungdoms naive overbevisning om menneskeandens fundamentale godhed grundede en forhabning om et menneskerettighedernes retfaerdige samfund, og som nu ser det "virkeliggjort" i stedse mere kompromitterede skikkelser.
+} False negatives: {
+genbrug
+og for den, som pa sin ungdoms naive overbevisning om menneskeandens fundamentale godhed grundede en forhabning om et menneskerettighedernes retfaerdige samfund, og som nu ser det "virkeliggjort" i stedse mere kompromitterede skikkelser.
+}
+
+Expected: {
+induktion af magnetfelter:
+i sjaeldne tilfaelde kunne disse alger udskille et giftstof, som giver hudirritationer og darlig mave.
+men ikke desto mindre vrimler aviserne med forlydender om, at landsholdets anforer skulle vaere pa vej til en af istanbuls tre topklubber, besiktas, fenerbache eller galatasaray.
+og dem var der ikke mange tilbage af i det danske kollektiv, der i perioder matte slippe grebet, sa tyskerne fik sat gang i deres opslidende omend forudsigelige tempospil.
+det vurderer ledelsen i accumulator invest og henviser til en bekraeftelse fra advokat ebbe mogensen af 17. september, hvori det bekraeftes, at anmodningen er trukket tilbage.
+slet ikke, nar det er en medarbejder pa mellemlederplan.
+det medforte, at joe cocker fik flere tilbud om at levere sange til film.
+der kraeves meget hoje karakterer for at blive optaget pa de fleste hojere uddannelser, og en lav studentereksamenskarakter er for sa vidt meget lidt vaerd.
+unix' rolle er i serveren.
+vi har efterhanden fattet, at hvidlog er sundt.
+}
+Predicted: {
+induktion af magnetfelter: i sjaeldne tilfaelde kunne disse alger udskille et giftstof, som giver hudirritationer og darlig mave.
+men ikke desto mindre vrimler aviserne med forlydender om, at landsholdets anforer skulle vaere pa vej til en af istanbuls tre topklubber, besiktas, fenerbache eller galatasaray.
+og dem var der ikke mange tilbage af i det danske kollektiv, der i perioder matte slippe grebet, sa tyskerne fik sat gang i deres opslidende omend forudsigelige tempospil.
+det vurderer ledelsen i accumulator invest og henviser til en bekraeftelse fra advokat ebbe mogensen af 17. september, hvori det bekraeftes, at anmodningen er trukket tilbage.
+slet ikke, nar det er en medarbejder pa mellemlederplan.
+det medforte, at joe cocker fik flere tilbud om at levere sange til film.
+der kraeves meget hoje karakterer for at blive optaget pa de fleste hojere uddannelser, og en lav studentereksamenskarakter er for sa vidt meget lidt vaerd.
+unix' rolle er i serveren.
+vi har efterhanden fattet, at hvidlog er sundt.
+}
+False positives: {
+induktion af magnetfelter: i sjaeldne tilfaelde kunne disse alger udskille et giftstof, som giver hudirritationer og darlig mave.
+} False negatives: {
+induktion af magnetfelter:
+i sjaeldne tilfaelde kunne disse alger udskille et giftstof, som giver hudirritationer og darlig mave.
+}
+
+Expected: {
+og michael jackson er det ypperste bevis.
+han er son af tidligere industriminister erling jensen, poet, popsanger og forfatter.
+i deres stand lavede ungdomsklubben i stedet et hyggehjorne med sofaer og spil, blandt andet det braetspil om aids, som ungdomsklubben vandt en konkurrence med i foraret.
+hun var anderledes, end jeg troede.
+lad os fa ham
+"det er en mystisk sag, hvor de sma nale er stukket ind i pigens hals, handled, pa kroppen og i knaeet," oplyser kriminalinspektor jorgen juul, roskilde.
+se pa nyhedsoplaeserne i fjernsynet.
+"vi har bevidst fortalt alt, hvad vi har set, til pressen.
+"vor hund, en labrador, blev fodret godt.
+den armenske kilde benaegtede forlydender i moskva og paris om, at mange armeniere var blevet draebt.
+}
+Predicted: {
+og michael jackson er det ypperste bevis.
+han er son af tidligere industriminister erling jensen, poet, popsanger og forfatter.
+i deres stand lavede ungdomsklubben i stedet et hyggehjorne med sofaer og spil, blandt andet det braetspil om aids, som ungdomsklubben vandt en konkurrence med i foraret.
+hun var anderledes, end jeg troede.
+lad os fa ham "det er en mystisk sag, hvor de sma nale er stukket ind i pigens hals, handled, pa kroppen og i knaeet," oplyser kriminalinspektor jorgen juul, roskilde.
+se pa nyhedsoplaeserne i fjernsynet.
+"vi har bevidst fortalt alt, hvad vi har set, til pressen.
+"vor hund, en labrador, blev fodret godt.
+den armenske kilde benaegtede forlydender i moskva og paris om, at mange armeniere var blevet draebt.
+}
+False positives: {
+lad os fa ham "det er en mystisk sag, hvor de sma nale er stukket ind i pigens hals, handled, pa kroppen og i knaeet," oplyser kriminalinspektor jorgen juul, roskilde.
+} False negatives: {
+lad os fa ham
+"det er en mystisk sag, hvor de sma nale er stukket ind i pigens hals, handled, pa kroppen og i knaeet," oplyser kriminalinspektor jorgen juul, roskilde.
+}
+
+Expected: {
+unge skuespillere kan sagtens illudere gamle maend, sa vi naesten tror pa forvandlingen.
+- sa starter jeg for mig selv.
+hun stod stadig ved sit vindue, da de taendte lyset i deres stue.
+nu ler han nede i halsen, og endelig taler han.
+kultivatoren, der kun er til brug i kokkenhaven om foraret, losner man jorden med, og den river tillige ukrudt op med rodder.
+men palermos indbyggere er ikke imponerede.
+pistolmanden tvang sit gidsel ud af bilen, hvor han fik ordre til at lase varevognens skydedor op.
+pikant problem
+den ligger lige ved den stenede strand og bestar af en fem meter dyb hule, hvor der er udgravet nogle hylder, som ifolge hummerfiskeren skulle vaere robinsons eget vaerk.
+katie sad stadig pa skodet af ham med den ene hand pa bordkanten og den anden om hans skulder.
+}
+Predicted: {
+unge skuespillere kan sagtens illudere gamle maend, sa vi naesten tror pa forvandlingen.
+- sa starter jeg for mig selv.
+hun stod stadig ved sit vindue, da de taendte lyset i deres stue.
+nu ler han nede i halsen, og endelig taler han.
+kultivatoren, der kun er til brug i kokkenhaven om foraret, losner man jorden med, og den river tillige ukrudt op med rodder.
+men palermos indbyggere er ikke imponerede.
+pistolmanden tvang sit gidsel ud af bilen, hvor han fik ordre til at lase varevognens skydedor op.
+pikant problem den ligger lige ved den stenede strand og bestar af en fem meter dyb hule, hvor der er udgravet nogle hylder, som ifolge hummerfiskeren skulle vaere robinsons eget vaerk.
+katie sad stadig pa skodet af ham med den ene hand pa bordkanten og den anden om hans skulder.
+}
+False positives: {
+pikant problem den ligger lige ved den stenede strand og bestar af en fem meter dyb hule, hvor der er udgravet nogle hylder, som ifolge hummerfiskeren skulle vaere robinsons eget vaerk.
+} False negatives: {
+pikant problem
+den ligger lige ved den stenede strand og bestar af en fem meter dyb hule, hvor der er udgravet nogle hylder, som ifolge hummerfiskeren skulle vaere robinsons eget vaerk.
+}
+
+Expected: {
+"godt klaret liv," rabte julie efter hende.
+den chokerede chauffor naede lige at se pistolmanden forsvinde gennem et hul i hegnet og lobe ind pa det ode, gronne omrade.
+man kan slet ikke forestille sig at vi har faet vores muskler uden tilsaetning men ved hard traening.
+samtidig med sin uddannelse til civilingenior naede hun at studere bade sociologi og filosofi samt at skrive speciale om alternative byplaner.
+det skal du nok finde ud af hen ad vejen.
+- der ma have vaeret en anden mand, konstaterede loulou sagligt.
+efter gitte laursens bil fulgte en hel kortege af gamle citroen'er.
+alle partier har sat fingeraftryk pa aftalerne, alle partier har givet indrommelser.
+det koger og du er lykkelig, og det naeste ojeblik...
+giv os vaben! "siger dr. richter.
+}
+Predicted: {
+"godt klaret liv," rabte julie efter hende.
+den chokerede chauffor naede lige at se pistolmanden forsvinde gennem et hul i hegnet og lobe ind pa det ode, gronne omrade.
+man kan slet ikke forestille sig at vi har faet vores muskler uden tilsaetning men ved hard traening.
+samtidig med sin uddannelse til civilingenior naede hun at studere bade sociologi og filosofi samt at skrive speciale om alternative byplaner.
+det skal du nok finde ud af hen ad vejen.
+- der ma have vaeret en anden mand, konstaterede loulou sagligt.
+efter gitte laursens bil fulgte en hel kortege af gamle citroen'er.
+alle partier har sat fingeraftryk pa aftalerne, alle partier har givet indrommelser.
+det koger og du er lykkelig, og det naeste ojeblik... giv os vaben!
+"siger dr. richter.
+}
+False positives: {
+det koger og du er lykkelig, og det naeste ojeblik... giv os vaben!
+"siger dr. richter.
+} False negatives: {
+det koger og du er lykkelig, og det naeste ojeblik...
+giv os vaben! "siger dr. richter.
+}
+
+Expected: {
+dansk skib
+men inden det lykkedes, var han sa langt ude, at han nogle morgener vagnede og intet ku' huske fra nattens strabadser.
+boligydelsen er skattefri.
+og her spiller vedtaegterne en afgorende rolle, siger trangeled, der anbefaler, at man under alle omstaendigheder allierer sig med en fagmand, nar man skal etablere et bofaellesskab.
+den ulykkelige engel.
+han har vaeret formand for erhvervsflyvningens sammenslutning, medlem af bestyrelsen for dansk elektronisk komite, af bestyrelsen for skolen for luftfartsuddannelserne, af radet for storre flysikkerhed og medlem af repraesentantskabet for danmarks flyvemuseum.
+det er betaenkeligt, for handkobsmedicin er nu engang ikke ufarligt, "siger niels agdal, idet han henviser til, at dodsfald som folge af salicylsyreforgiftninger steg fra 5 i 1980 til 23 i 1989.
+resultater
+her kan vi fa noget at spise, men vi ma betale for at komme ind.
+and some day we shall have our revenge.
+}
+Predicted: {
+dansk skib men inden det lykkedes, var han sa langt ude, at han nogle morgener vagnede og intet ku' huske fra nattens strabadser.
+boligydelsen er skattefri.
+og her spiller vedtaegterne en afgorende rolle, siger trangeled, der anbefaler, at man under alle omstaendigheder allierer sig med en fagmand, nar man skal etablere et bofaellesskab.
+den ulykkelige engel.
+han har vaeret formand for erhvervsflyvningens sammenslutning, medlem af bestyrelsen for dansk elektronisk komite, af bestyrelsen for skolen for luftfartsuddannelserne, af radet for storre flysikkerhed og medlem af repraesentantskabet for danmarks flyvemuseum.
+det er betaenkeligt, for handkobsmedicin er nu engang ikke ufarligt, "siger niels agdal, idet han henviser til, at dodsfald som folge af salicylsyreforgiftninger steg fra 5 i 1980 til 23 i 1989.
+resultater her kan vi fa noget at spise, men vi ma betale for at komme ind.
+and some day we shall have our revenge.
+}
+False positives: {
+dansk skib men inden det lykkedes, var han sa langt ude, at han nogle morgener vagnede og intet ku' huske fra nattens strabadser.
+resultater her kan vi fa noget at spise, men vi ma betale for at komme ind.
+} False negatives: {
+dansk skib
+men inden det lykkedes, var han sa langt ude, at han nogle morgener vagnede og intet ku' huske fra nattens strabadser.
+resultater
+her kan vi fa noget at spise, men vi ma betale for at komme ind.
+}
+
+Expected: {
+og michael christiansen horte heller aldrig noget til nedprioriteringen af tamilsagerne, mens han selv var i justitsministeriet, selv om frederik schydt ved flere lejligheder klagede over for fa ressourcer.
+beretningerne om, hvordan bornene blev mishandlet, er harrejsende.
+jeg smider traet de mange lag skitoj og ved med sikkerhed, at hotellets sauna og swimmingpool er mit naeste mal.
+det er lyden, der er vaerst - lyden af de trampende fodder, der bare bliver hojere og hojere..."
+- jeg er heller ikke charmerende - jeg er naermest kedelig.
+i andre lande gar det mere ud over religion og handicappede.
+vind billetter
+- er du da blevet helt forrykt?
+de syv ar udgor i dette undtagelsestilfaelde en hel generation.
+inge daugaards advokat, holger lindholt: "denne afgorelse er simpelthen en sejr for alle danmarks mormodre.
+}
+Predicted: {
+og michael christiansen horte heller aldrig noget til nedprioriteringen af tamilsagerne, mens han selv var i justitsministeriet, selv om frederik schydt ved flere lejligheder klagede over for fa ressourcer.
+beretningerne om, hvordan bornene blev mishandlet, er harrejsende.
+jeg smider traet de mange lag skitoj og ved med sikkerhed, at hotellets sauna og swimmingpool er mit naeste mal.
+det er lyden, der er vaerst - lyden af de trampende fodder, der bare bliver hojere og hojere..."
+- jeg er heller ikke charmerende - jeg er naermest kedelig.
+i andre lande gar det mere ud over religion og handicappede.
+vind billetter - er du da blevet helt forrykt?
+de syv ar udgor i dette undtagelsestilfaelde en hel generation.
+inge daugaards advokat, holger lindholt: "denne afgorelse er simpelthen en sejr for alle danmarks mormodre.
+}
+False positives: {
+vind billetter - er du da blevet helt forrykt?
+} False negatives: {
+vind billetter
+- er du da blevet helt forrykt?
+}
+
+Expected: {
+det blev ikke til noget i sengen, men det betod ikke noget.
+de samfundsmaessige besparelser, der helt naturligt folger i kolvandet pa disse terapeutiske fremskridt, er ikke umiddelbart synlige i det store regnskab.
+pisk 1 dl piskeflode og vend den i.
+dognet rundt slas flygtningene desperat efter en ting: overlevelse.
+"hold op og hold ud..!" provekores i forste omgang pa bornholm, hvor de skonsvis 3.000 storrygerne fra pa mandag kan ringe til gratisnummeret 80 30 31 30 og fa hjaelp af et hold frivillige eksrygere.
+lammekod er grundlaget for mange tyrkiske hovedretter, men man kan ogsa fa fjerkrae, oksekod og fisk.
+haven er godt kendt i omradet for sin meget flotte anlaeggelse, og netop nu star paskeliljerne i fuld flor.
+hvem de er, vil han ikke ud med, men der er tilsyneladende tale om folk, der hverver lejesoldater for en amerikansk organisation.
+hun kommer hen og retter min pude.
+hun matte lade munter, som hun havde vaeret hele dagen, selv om det faldt hende aldrig sa svaert.
+}
+Predicted: {
+det blev ikke til noget i sengen, men det betod ikke noget.
+de samfundsmaessige besparelser, der helt naturligt folger i kolvandet pa disse terapeutiske fremskridt, er ikke umiddelbart synlige i det store regnskab.
+pisk 1 dl piskeflode og vend den i. dognet rundt slas flygtningene desperat efter en ting: overlevelse.
+"hold op og hold ud..!" provekores i forste omgang pa bornholm, hvor de skonsvis 3.000 storrygerne fra pa mandag kan ringe til gratisnummeret 80 30 31 30 og fa hjaelp af et hold frivillige eksrygere.
+lammekod er grundlaget for mange tyrkiske hovedretter, men man kan ogsa fa fjerkrae, oksekod og fisk.
+haven er godt kendt i omradet for sin meget flotte anlaeggelse, og netop nu star paskeliljerne i fuld flor.
+hvem de er, vil han ikke ud med, men der er tilsyneladende tale om folk, der hverver lejesoldater for en amerikansk organisation.
+hun kommer hen og retter min pude.
+hun matte lade munter, som hun havde vaeret hele dagen, selv om det faldt hende aldrig sa svaert.
+}
+False positives: {
+pisk 1 dl piskeflode og vend den i. dognet rundt slas flygtningene desperat efter en ting: overlevelse.
+} False negatives: {
+pisk 1 dl piskeflode og vend den i.
+dognet rundt slas flygtningene desperat efter en ting: overlevelse.
+}
+
+Expected: {
+men hvordan kan man pavirke et ostlands lukkede system?
+siden anden verdenskrig har alle vindere af amerikanske praesidentvalg sejret i deres hjemstater, og det samme gaelder alle tabere bortset fra adlai stevenson og george mcgovern.
+overst pa aviskiosken i passagen star en roligan med klaphat.
+det gjorde han ikke, men han skabte kaempe opmaerksomhed om det at komme ud at rejse.
+og jeg ma indromme: dette var det chok, jeg ikke var forberedt pa.
+han trak telefonen til sig og drejede nummeret.
+det okonomiske regnestykke er forlaengst pa plads: der skal investeres 1,5 til 2 mia. kr. i en sammenlaegning af carlsberg og tuborgs to kobenhavnske bryggerier i et faelles bryggeri.
+med jordfarver har fortidsmennesker fastholdt jagtens svaere kunst til aere for guderne og som hjaelp for unge jaegere
+fornyet blokade
+omkring 20 soldater og civile er blevet draebt under bombardementet, sagde tanjug, men tallene er endnu ikke blevet bekraeftet.
+}
+Predicted: {
+men hvordan kan man pavirke et ostlands lukkede system?
+siden anden verdenskrig har alle vindere af amerikanske praesidentvalg sejret i deres hjemstater, og det samme gaelder alle tabere bortset fra adlai stevenson og george mcgovern.
+overst pa aviskiosken i passagen star en roligan med klaphat.
+det gjorde han ikke, men han skabte kaempe opmaerksomhed om det at komme ud at rejse.
+og jeg ma indromme: dette var det chok, jeg ikke var forberedt pa.
+han trak telefonen til sig og drejede nummeret.
+det okonomiske regnestykke er forlaengst pa plads: der skal investeres 1,5 til 2 mia. kr. i en sammenlaegning af carlsberg og tuborgs to kobenhavnske bryggerier i et faelles bryggeri.
+med jordfarver har fortidsmennesker fastholdt jagtens svaere kunst til aere for guderne og som hjaelp for unge jaegere fornyet blokade omkring 20 soldater og civile er blevet draebt under bombardementet, sagde tanjug, men tallene er endnu ikke blevet bekraeftet.
+}
+False positives: {
+med jordfarver har fortidsmennesker fastholdt jagtens svaere kunst til aere for guderne og som hjaelp for unge jaegere fornyet blokade omkring 20 soldater og civile er blevet draebt under bombardementet, sagde tanjug, men tallene er endnu ikke blevet bekraeftet.
+} False negatives: {
+med jordfarver har fortidsmennesker fastholdt jagtens svaere kunst til aere for guderne og som hjaelp for unge jaegere
+fornyet blokade
+omkring 20 soldater og civile er blevet draebt under bombardementet, sagde tanjug, men tallene er endnu ikke blevet bekraeftet.
+}
+
+Expected: {
+man er nu langsomt ved at indse, at der skal andre boller pa suppen for at lokke folk tilbage i biffen.
+men i vesten?
+milliontab
+en historie, som fortaeller om den fattigdom, der ogsa i dag er manges virkelighed.
+meget af den medicin, der blev introduceret i 1980'erne, har givet mulighed for at behandle sygdomme, som ikke for har kunnet behandles med medicin.
+en dreng, der hedder orla... og en lille pige, der hedder anni?
+han har arbejdet som maskinarbejder pa en fabrik, indtil han for to ar siden startede et pizzaria i nyhavn sammen med sin bror.
+hele hans familie med undtagelse af hans mor blev udslettet i auschwitz.
+eller i klubhuset pa riisvangen stadion i arhus.
+bland dem i en skal.
+}
+Predicted: {
+man er nu langsomt ved at indse, at der skal andre boller pa suppen for at lokke folk tilbage i biffen.
+men i vesten?
+milliontab en historie, som fortaeller om den fattigdom, der ogsa i dag er manges virkelighed.
+meget af den medicin, der blev introduceret i 1980'erne, har givet mulighed for at behandle sygdomme, som ikke for har kunnet behandles med medicin.
+en dreng, der hedder orla...
+og en lille pige, der hedder anni?
+han har arbejdet som maskinarbejder pa en fabrik, indtil han for to ar siden startede et pizzaria i nyhavn sammen med sin bror.
+hele hans familie med undtagelse af hans mor blev udslettet i auschwitz.
+eller i klubhuset pa riisvangen stadion i arhus.
+bland dem i en skal.
+}
+False positives: {
+milliontab en historie, som fortaeller om den fattigdom, der ogsa i dag er manges virkelighed.
+en dreng, der hedder orla...
+og en lille pige, der hedder anni?
+} False negatives: {
+milliontab
+en historie, som fortaeller om den fattigdom, der ogsa i dag er manges virkelighed.
+en dreng, der hedder orla... og en lille pige, der hedder anni?
+}
+
+Expected: {
+debut er det langtfra, men til gengaeld en genkomst efter lang tids fravaer, nar radioteatret kan praesentere dorrit willumsens ud af billedet 17 ar efter, at hun sidst har skrevet til radioens teater.
+som sa mange andre har han boet i taastrupgard siden han kom hertil.
+"tak, nu ved jeg selv, hvad jeg skal have," sagde pistolmanden og tog en plomberet postsaek og en vaerdipakke ud af bilen.
+han reagerer over to ting: de tiltaltes opforsel i retten, og rettens accept af denne opforsel, og sa den kendsgerning, at i enhver pause var vidner, tilhorere og tiltalte i een stor blanding i rettens ventevaerelse.
+peter christoffersen vil ikke afvise, at det igen kommer til forhandling pa en anden front, nemlig mellem baltica og hafnia om den store aktiepost, som hafnia har i baltica.
+alle andre steder pa jordkloden en dejlig dag.
+simon stod ikke ved gangbroen, han havde opgivet at vente.
+sa falder ledigheden og skatteindtaegterne stiger.
+folketingskandidat for cd i storstroms amt
+fra terrassen kan jeg se ud pa parkeringspladsen, hvor der ikke sker et klap.
+}
+Predicted: {
+debut er det langtfra, men til gengaeld en genkomst efter lang tids fravaer, nar radioteatret kan praesentere dorrit willumsens ud af billedet 17 ar efter, at hun sidst har skrevet til radioens teater.
+som sa mange andre har han boet i taastrupgard siden han kom hertil.
+"tak, nu ved jeg selv, hvad jeg skal have," sagde pistolmanden og tog en plomberet postsaek og en vaerdipakke ud af bilen.
+han reagerer over to ting: de tiltaltes opforsel i retten, og rettens accept af denne opforsel, og sa den kendsgerning, at i enhver pause var vidner, tilhorere og tiltalte i een stor blanding i rettens ventevaerelse.
+peter christoffersen vil ikke afvise, at det igen kommer til forhandling pa en anden front, nemlig mellem baltica og hafnia om den store aktiepost, som hafnia har i baltica.
+alle andre steder pa jordkloden en dejlig dag.
+simon stod ikke ved gangbroen, han havde opgivet at vente.
+sa falder ledigheden og skatteindtaegterne stiger.
+folketingskandidat for cd i storstroms amt fra terrassen kan jeg se ud pa parkeringspladsen, hvor der ikke sker et klap.
+}
+False positives: {
+folketingskandidat for cd i storstroms amt fra terrassen kan jeg se ud pa parkeringspladsen, hvor der ikke sker et klap.
+} False negatives: {
+folketingskandidat for cd i storstroms amt
+fra terrassen kan jeg se ud pa parkeringspladsen, hvor der ikke sker et klap.
+}
+
+Expected: {
+"karlsvognen".
+at tove er flittig, er en kendt sag.
+jeg tager ud til sonja igen lige over middag, og jeg spiser sammen med hende pa sygehuset.
+robert jacobsen ejer evnen til denne livgivende vekslen, hvilket man kan overbevise sig om pa den udstillingen, som vennen ivan edeling afholder pa sit galleri.
+men han evner ikke at afbryde den sovnige og forbitrede kvinde.
+foto: jan knudsen.
+hvor der ikke er modepligt, vil der som regel vaere opgaver og lignende, der muliggor en studieaktivitetskontrol, og deleksaminer er der jo i alle uddannelser.
+gad vide, om naturgasselskaberne kan acceptere denne losning - isaer nar man tager den seneste eksplosionsskade i betragtning?
+grusom proces
+men jeg er ikke blevet syg af det - ikke denne gang.
+}
+Predicted: {
+"karlsvognen".
+at tove er flittig, er en kendt sag.
+jeg tager ud til sonja igen lige over middag, og jeg spiser sammen med hende pa sygehuset.
+robert jacobsen ejer evnen til denne livgivende vekslen, hvilket man kan overbevise sig om pa den udstillingen, som vennen ivan edeling afholder pa sit galleri.
+men han evner ikke at afbryde den sovnige og forbitrede kvinde.
+foto: jan knudsen.
+hvor der ikke er modepligt, vil der som regel vaere opgaver og lignende, der muliggor en studieaktivitetskontrol, og deleksaminer er der jo i alle uddannelser.
+gad vide, om naturgasselskaberne kan acceptere denne losning - isaer nar man tager den seneste eksplosionsskade i betragtning?
+grusom proces men jeg er ikke blevet syg af det - ikke denne gang.
+}
+False positives: {
+grusom proces men jeg er ikke blevet syg af det - ikke denne gang.
+} False negatives: {
+grusom proces
+men jeg er ikke blevet syg af det - ikke denne gang.
+}
+
+Expected: {
+model for model fremvises fra den belaessede reol.
+alle ved, hvor svaert det kan vaere at fa af, men hvis du kober en dase motorrens pa en tankstation og sprayer pa oliepletten inden vask, bliver bukserne fine igen.
+beslutningen om ophor eller forsaettelse vil i hoj grad afhaenge af de fremherskende forskningspolitiske holdninger i den fremtid, som det er sa svaert at spa om.
+"jeg besogte ham sa sent som i sidste uge, hvor han havde det ganske rimeligt.
+hendes hjerte brister, da han siger, han vil vaek fra det jodiske familiesammenhold, men hun puffer ham selv ud af doren og vinker efter ham.
+jamen... javel... jamen, jeg er der lige med det straks...
+i birlik erkender man, at isaer de muslimske stromninger i landet er staerke, og derfor onsker partiet at samarbejde med det islamiske "genfodselsparti" og ad den vej at na ud til den bredere del af befolkningen.
+"hvis man fra velmenende danskeres side fortsaetter med at give bornene indtryk af, at indvandrere og flygtninge ikke kan klare sig i det danske samfund, vil det have en selvforstaerkende effekt," konkluderer rapporten.
+(rb)
+man skal saledes ikke vente, at poul erik bastrup pa provinsbankforeningens arsmode den 17. september vil understotte sparekasseforeningens budskaber.
+}
+Predicted: {
+model for model fremvises fra den belaessede reol.
+alle ved, hvor svaert det kan vaere at fa af, men hvis du kober en dase motorrens pa en tankstation og sprayer pa oliepletten inden vask, bliver bukserne fine igen.
+beslutningen om ophor eller forsaettelse vil i hoj grad afhaenge af de fremherskende forskningspolitiske holdninger i den fremtid, som det er sa svaert at spa om.
+"jeg besogte ham sa sent som i sidste uge, hvor han havde det ganske rimeligt.
+hendes hjerte brister, da han siger, han vil vaek fra det jodiske familiesammenhold, men hun puffer ham selv ud af doren og vinker efter ham.
+jamen... javel... jamen, jeg er der lige med det straks...
+i birlik erkender man, at isaer de muslimske stromninger i landet er staerke, og derfor onsker partiet at samarbejde med det islamiske "genfodselsparti" og ad den vej at na ud til den bredere del af befolkningen.
+"hvis man fra velmenende danskeres side fortsaetter med at give bornene indtryk af, at indvandrere og flygtninge ikke kan klare sig i det danske samfund, vil det have en selvforstaerkende effekt," konkluderer rapporten.
+(rb) man skal saledes ikke vente, at poul erik bastrup pa provinsbankforeningens arsmode den 17. september vil understotte sparekasseforeningens budskaber.
+}
+False positives: {
+(rb) man skal saledes ikke vente, at poul erik bastrup pa provinsbankforeningens arsmode den 17. september vil understotte sparekasseforeningens budskaber.
+} False negatives: {
+(rb)
+man skal saledes ikke vente, at poul erik bastrup pa provinsbankforeningens arsmode den 17. september vil understotte sparekasseforeningens budskaber.
+}
+
+Expected: {
+otto petersen var med til at oprette dansk faldskaerms union.
+men konferencens titel sluttede med ordene "- og deres virkninger pa miljoet", og deri bestar netop dilemmaet.
+hvert manuskript sendes til mindst en forsker, der selv er aktiv og anerkendt pa det pagaeldende forskningsomrade.
+det er trods alt her, de skal laere at omgas hinanden og tage hensyn til de forskellige forudsaetninger.
+danskerne er som andre folkefaerd produkt af den undervisning, de har modtaget - foruden tidens toneangivende stromninger.
+holdningen til kundskabstilegnelse har forrykket sig, nogle vil rent ud erkende, at den er blevet meget mere afslappet end tidligere.
+"vi er ikke bitre, men sagen har afbrudt 10 ar af mit liv.
+her kommer regnestykket:
+praestationer: topfart: 196 km/t..
+jeg har ingen grund til at tro, at institutionerne ikke tager denne opgave alvorligt.
+}
+Predicted: {
+otto petersen var med til at oprette dansk faldskaerms union.
+men konferencens titel sluttede med ordene "- og deres virkninger pa miljoet", og deri bestar netop dilemmaet.
+hvert manuskript sendes til mindst en forsker, der selv er aktiv og anerkendt pa det pagaeldende forskningsomrade.
+det er trods alt her, de skal laere at omgas hinanden og tage hensyn til de forskellige forudsaetninger.
+danskerne er som andre folkefaerd produkt af den undervisning, de har modtaget - foruden tidens toneangivende stromninger.
+holdningen til kundskabstilegnelse har forrykket sig, nogle vil rent ud erkende, at den er blevet meget mere afslappet end tidligere.
+"vi er ikke bitre, men sagen har afbrudt 10 ar af mit liv.
+her kommer regnestykket: praestationer: topfart: 196 km/t..
+jeg har ingen grund til at tro, at institutionerne ikke tager denne opgave alvorligt.
+}
+False positives: {
+her kommer regnestykket: praestationer: topfart: 196 km/t..
+} False negatives: {
+her kommer regnestykket:
+praestationer: topfart: 196 km/t..
+}
+
+Expected: {
+men i virkeligheden misbruger hun efter min mening sin uddannelse som psykolog til bare at malke folk for penge.
+han lober rundt og rundt med dollys bh flagrende som en fane efter sig.
+men det far de tilbedende damer ikke at vide - medmindre en ond journalist sladrer...
+odense: det gik helt grassat for ob i det fynske lokalopgor.
+som gast i marinehjemmevaernet var jens christian poulsen med tilnavnet "kesse" om bord pa hjemmevaernskutter hvm71 scorpius pa ovelse pa herthas flak nogle somil ost for skagen, da han i kutterens styrhus pludselig horte, at der blev rabt "mand over bord".
+jeg ved, hvad jeg vil - har faet fremtiden pa plads.
+- med ild? sporger sonja.
+som et forsog pa en slags forsoning mellem de to aegtefaeller tager de pa en chartertur til tyskland.
+nu nedsaetter parterne et faelles udvalg, hvor hver part stiller med tre mand - en af dem skal vaere en jurist.
+michael: "ja, for jeg forstar stadig ikke, hvordan i himlens navn de kunne stemme os ned pa en tredjesidste plads.
+}
+Predicted: {
+men i virkeligheden misbruger hun efter min mening sin uddannelse som psykolog til bare at malke folk for penge.
+han lober rundt og rundt med dollys bh flagrende som en fane efter sig.
+men det far de tilbedende damer ikke at vide - medmindre en ond journalist sladrer... odense: det gik helt grassat for ob i det fynske lokalopgor.
+som gast i marinehjemmevaernet var jens christian poulsen med tilnavnet "kesse" om bord pa hjemmevaernskutter hvm71 scorpius pa ovelse pa herthas flak nogle somil ost for skagen, da han i kutterens styrhus pludselig horte, at der blev rabt "mand over bord".
+jeg ved, hvad jeg vil - har faet fremtiden pa plads.
+- med ild? sporger sonja.
+som et forsog pa en slags forsoning mellem de to aegtefaeller tager de pa en chartertur til tyskland.
+nu nedsaetter parterne et faelles udvalg, hvor hver part stiller med tre mand - en af dem skal vaere en jurist.
+michael: "ja, for jeg forstar stadig ikke, hvordan i himlens navn de kunne stemme os ned pa en tredjesidste plads.
+}
+False positives: {
+men det far de tilbedende damer ikke at vide - medmindre en ond journalist sladrer... odense: det gik helt grassat for ob i det fynske lokalopgor.
+} False negatives: {
+men det far de tilbedende damer ikke at vide - medmindre en ond journalist sladrer...
+odense: det gik helt grassat for ob i det fynske lokalopgor.
+}
+
+Expected: {
+vejle amt har besluttet at sende et beredskabssygehus fra braedstrup til zagreb i kroatien, mens et tilsvarende beredskabssygehus fra give skal til polen.
+man ved, at der gar mellem en halv og to millioner ar mellem vendingerne.
+sommer i det ny europa.
+ud at kobe ind.
+skrald og post
+travnik, hvor flere tusinde flygtninge har sogt ly, blev i lobet af onsdagen udsat for intensiv artilleribeskydning, oplyste radioen.
+i den tostribede og veltilskarne bog om varulve giver forfatteren nicolas barbano rimelige forklaringer pa, at myten kunne opsta.
+og det sa faktisk ud, som om vi tog ministeren pa sengen.
+- selvfolgelig var jeg spaendt og nervos for at fa en kaempegaeld.
+pressen er begyndt at laegge maerke til ham.
+}
+Predicted: {
+vejle amt har besluttet at sende et beredskabssygehus fra braedstrup til zagreb i kroatien, mens et tilsvarende beredskabssygehus fra give skal til polen.
+man ved, at der gar mellem en halv og to millioner ar mellem vendingerne.
+sommer i det ny europa.
+ud at kobe ind.
+skrald og post travnik, hvor flere tusinde flygtninge har sogt ly, blev i lobet af onsdagen udsat for intensiv artilleribeskydning, oplyste radioen.
+i den tostribede og veltilskarne bog om varulve giver forfatteren nicolas barbano rimelige forklaringer pa, at myten kunne opsta.
+og det sa faktisk ud, som om vi tog ministeren pa sengen.
+- selvfolgelig var jeg spaendt og nervos for at fa en kaempegaeld.
+pressen er begyndt at laegge maerke til ham.
+}
+False positives: {
+skrald og post travnik, hvor flere tusinde flygtninge har sogt ly, blev i lobet af onsdagen udsat for intensiv artilleribeskydning, oplyste radioen.
+} False negatives: {
+skrald og post
+travnik, hvor flere tusinde flygtninge har sogt ly, blev i lobet af onsdagen udsat for intensiv artilleribeskydning, oplyste radioen.
+}
+
+Expected: {
+her kores kvalitetspraegede underholdningsfilm.
+men tanken om mad og vin tvang kvalmen op i hendes mund, som en advarsel.
+dan turell, aerkekobenhavner, har skrevet "jysk til rejsebrug", en lille bog, thor bryggerierne udgiver hvert ar, sa danskere fra de ovrige dele af landet kan bega sig i det jyske uden at dumme sig for meget.
+de osteuropaeiske lande vil formentlig tage imod vores forurenende industrier med kyshand for at skaffe arbejdspladser.
+igennem arene var han formand for stenstrup og lunde andelskasse, bestyrelsesmedlem i haglskadeforsikringsselskabet for fyns stift, jordfordelingskommissione, ravnholtkassen, svendborg og omegns andels electricitetsforsyning, fyns landmandsbank, dansk froavlerkompagni, markfrokontoret og dansk planteforaedling.
+100.000 handtryk
+ingen mennesker kan vil lide raketter, heller ikke centrumdemokraterne og andre borgerligt orienterede i danmark.
+bevidstheden skal accelereres
+"i henhold til bistandslovens 56 kan alle faktisk fa tilskud til selv at ansaette en hjemmehjaelp.
+og konditor lars hjorth har ikke et ojeblik fortrudt, at han sprang til og ansatte "nr. 46," der i nogle maneder havde mattet ga den traelse gang til bistandskontoret efter at vaere vendt hjem fra et ophold pa idraetshojskole.
+}
+Predicted: {
+her kores kvalitetspraegede underholdningsfilm.
+men tanken om mad og vin tvang kvalmen op i hendes mund, som en advarsel.
+dan turell, aerkekobenhavner, har skrevet "jysk til rejsebrug", en lille bog, thor bryggerierne udgiver hvert ar, sa danskere fra de ovrige dele af landet kan bega sig i det jyske uden at dumme sig for meget.
+de osteuropaeiske lande vil formentlig tage imod vores forurenende industrier med kyshand for at skaffe arbejdspladser.
+igennem arene var han formand for stenstrup og lunde andelskasse, bestyrelsesmedlem i haglskadeforsikringsselskabet for fyns stift, jordfordelingskommissione, ravnholtkassen, svendborg og omegns andels electricitetsforsyning, fyns landmandsbank, dansk froavlerkompagni, markfrokontoret og dansk planteforaedling.
+100.000 handtryk ingen mennesker kan vil lide raketter, heller ikke centrumdemokraterne og andre borgerligt orienterede i danmark.
+bevidstheden skal accelereres "i henhold til bistandslovens 56 kan alle faktisk fa tilskud til selv at ansaette en hjemmehjaelp.
+og konditor lars hjorth har ikke et ojeblik fortrudt, at han sprang til og ansatte "nr.
+46," der i nogle maneder havde mattet ga den traelse gang til bistandskontoret efter at vaere vendt hjem fra et ophold pa idraetshojskole.
+}
+False positives: {
+100.000 handtryk ingen mennesker kan vil lide raketter, heller ikke centrumdemokraterne og andre borgerligt orienterede i danmark.
+bevidstheden skal accelereres "i henhold til bistandslovens 56 kan alle faktisk fa tilskud til selv at ansaette en hjemmehjaelp.
+og konditor lars hjorth har ikke et ojeblik fortrudt, at han sprang til og ansatte "nr.
+46," der i nogle maneder havde mattet ga den traelse gang til bistandskontoret efter at vaere vendt hjem fra et ophold pa idraetshojskole.
+} False negatives: {
+100.000 handtryk
+ingen mennesker kan vil lide raketter, heller ikke centrumdemokraterne og andre borgerligt orienterede i danmark.
+bevidstheden skal accelereres
+"i henhold til bistandslovens 56 kan alle faktisk fa tilskud til selv at ansaette en hjemmehjaelp.
+og konditor lars hjorth har ikke et ojeblik fortrudt, at han sprang til og ansatte "nr. 46," der i nogle maneder havde mattet ga den traelse gang til bistandskontoret efter at vaere vendt hjem fra et ophold pa idraetshojskole.
+}
+
+Expected: {
+"nej, det vil jeg ikke sige.
+operrarer har vivaldi ogsa skrevet mange af og i 1927 udkommer der 4 nye operarer
+milde himmel!
+den er alt for svaer i dag, og der star alt for mange tomme bygninger."
+han ville helst ud.
+henrik andersen, der de forste dage havde problemer med at sove, er dodtraet.
+de vil slas for og mod racisme, og de vil kaempe mod hinanden.
+lordag
+den store danske encyklopaedi til nu knap 15.000 kr. kommer til at indeholde ca. 200.000 opslagsord fordelt pa 12.000 sider - heraf ca. 20 procent illustrationer.
+kender 8000 stjerner
+}
+Predicted: {
+"nej, det vil jeg ikke sige.
+operrarer har vivaldi ogsa skrevet mange af og i 1927 udkommer der 4 nye operarer milde himmel!
+den er alt for svaer i dag, og der star alt for mange tomme bygninger."
+han ville helst ud.
+henrik andersen, der de forste dage havde problemer med at sove, er dodtraet.
+de vil slas for og mod racisme, og de vil kaempe mod hinanden.
+lordag den store danske encyklopaedi til nu knap 15.000 kr. kommer til at indeholde ca. 200.000 opslagsord fordelt pa 12.000 sider - heraf ca. 20 procent illustrationer.
+kender 8000 stjerner
+}
+False positives: {
+operrarer har vivaldi ogsa skrevet mange af og i 1927 udkommer der 4 nye operarer milde himmel!
+lordag den store danske encyklopaedi til nu knap 15.000 kr. kommer til at indeholde ca. 200.000 opslagsord fordelt pa 12.000 sider - heraf ca. 20 procent illustrationer.
+} False negatives: {
+operrarer har vivaldi ogsa skrevet mange af og i 1927 udkommer der 4 nye operarer
+milde himmel!
+lordag
+den store danske encyklopaedi til nu knap 15.000 kr. kommer til at indeholde ca. 200.000 opslagsord fordelt pa 12.000 sider - heraf ca. 20 procent illustrationer.
+}
+
+Expected: {
+det kan bl.a. ske ved at analysere sine kostvaner og ved hjaelp af en kalorietabel finde frem til de naeringsmidler, der er rigest pa kalorier, og derefter undga dem.
+"jeg gik ud for at kigge og sa lige akkurat skyggen af en mand i vandet.
+levestandarden
+noget andet, der undrer mig som ung dansker, er, at regeringen har godkendt unionstraktaten for den overhovedet forela pa dansk.
+den kriseramte storklub slipper ganske vist for flere interbank, men brondby ma alligevel laegge ryg til endnu mere bank...!
+administrerende direktor peter christoffersen siger, at der hverken er forhandlinger eller sonderinger mellem baltica og skandia i ojeblikket.
+"nar man begynder at kunne det, er det bare vildt morsomt.
+vaeggene er typisk prydet med coca colareklamer og spejle.
+jorn lund, chefredaktor for den store danske encyklopaedi, kommenterer: "med vort leksikon henvender vi os savel til den hojt uddannede akademiker som til den brede befolkning.
+ogsa pa kobenhavns fondbors har unibank brug for tillid.
+}
+Predicted: {
+det kan bl.a. ske ved at analysere sine kostvaner og ved hjaelp af en kalorietabel finde frem til de naeringsmidler, der er rigest pa kalorier, og derefter undga dem.
+"jeg gik ud for at kigge og sa lige akkurat skyggen af en mand i vandet.
+levestandarden noget andet, der undrer mig som ung dansker, er, at regeringen har godkendt unionstraktaten for den overhovedet forela pa dansk.
+den kriseramte storklub slipper ganske vist for flere interbank, men brondby ma alligevel laegge ryg til endnu mere bank...! administrerende direktor peter christoffersen siger, at der hverken er forhandlinger eller sonderinger mellem baltica og skandia i ojeblikket.
+"nar man begynder at kunne det, er det bare vildt morsomt.
+vaeggene er typisk prydet med coca colareklamer og spejle.
+jorn lund, chefredaktor for den store danske encyklopaedi, kommenterer: "med vort leksikon henvender vi os savel til den hojt uddannede akademiker som til den brede befolkning.
+ogsa pa kobenhavns fondbors har unibank brug for tillid.
+}
+False positives: {
+levestandarden noget andet, der undrer mig som ung dansker, er, at regeringen har godkendt unionstraktaten for den overhovedet forela pa dansk.
+den kriseramte storklub slipper ganske vist for flere interbank, men brondby ma alligevel laegge ryg til endnu mere bank...! administrerende direktor peter christoffersen siger, at der hverken er forhandlinger eller sonderinger mellem baltica og skandia i ojeblikket.
+} False negatives: {
+levestandarden
+noget andet, der undrer mig som ung dansker, er, at regeringen har godkendt unionstraktaten for den overhovedet forela pa dansk.
+den kriseramte storklub slipper ganske vist for flere interbank, men brondby ma alligevel laegge ryg til endnu mere bank...!
+administrerende direktor peter christoffersen siger, at der hverken er forhandlinger eller sonderinger mellem baltica og skandia i ojeblikket.
+}
+
+Expected: {
+"sadan laeser jeg bistandsloven, og den fortolkning har jeg taenkt mig at udbrede her i silkeborg.
+tiden i udlandet tiltalte mig.
+selv de 700 udstationerede politibetjente deltager livligt i folkefesterne og sender opmuntrende tilrab til de kaempende motionister, der trods smerte og udmattelse og forhindringer i form af plasticbaegre opretholder en hel utrolig disciplin med den storste hensyntagen til andre lobere.
+h.l. hansen besad mange tillidsposter.
+de tekniske chefer i bade danmark og sverige forstar heller ikke, hvor rygtet kommer fra:
+den nye series tre forste episoder bliver bragt i januar af en af usas mest populaere kabelkanaler, home box office.
+med andre ord opforte dette lille bitte folk sig som de seje vikinger, vi jo rettelig er.
+ikke en lyd hortes fra de andre.
+sa langt nar romanen ikke, skont det er den happy ending, den laegger op til - noget af det fineste i den lange historie er skildringen af, hvordan denne gensidige forelskelse tovende baner sig vej.
+stk. 3.
+}
+Predicted: {
+"sadan laeser jeg bistandsloven, og den fortolkning har jeg taenkt mig at udbrede her i silkeborg.
+tiden i udlandet tiltalte mig.
+selv de 700 udstationerede politibetjente deltager livligt i folkefesterne og sender opmuntrende tilrab til de kaempende motionister, der trods smerte og udmattelse og forhindringer i form af plasticbaegre opretholder en hel utrolig disciplin med den storste hensyntagen til andre lobere.
+h.l. hansen besad mange tillidsposter.
+de tekniske chefer i bade danmark og sverige forstar heller ikke, hvor rygtet kommer fra: den nye series tre forste episoder bliver bragt i januar af en af usas mest populaere kabelkanaler, home box office.
+med andre ord opforte dette lille bitte folk sig som de seje vikinger, vi jo rettelig er.
+ikke en lyd hortes fra de andre.
+sa langt nar romanen ikke, skont det er den happy ending, den laegger op til - noget af det fineste i den lange historie er skildringen af, hvordan denne gensidige forelskelse tovende baner sig vej.
+stk.
+3.
+}
+False positives: {
+de tekniske chefer i bade danmark og sverige forstar heller ikke, hvor rygtet kommer fra: den nye series tre forste episoder bliver bragt i januar af en af usas mest populaere kabelkanaler, home box office.
+stk.
+3.
+} False negatives: {
+de tekniske chefer i bade danmark og sverige forstar heller ikke, hvor rygtet kommer fra:
+den nye series tre forste episoder bliver bragt i januar af en af usas mest populaere kabelkanaler, home box office.
+stk. 3.
+}
+
+Expected: {
+og med en sagte latter trak han hende taet, taet ind til sig.
+ror 125 g lunt, smeltet smor i.
+han smiler stadig sit brede smil, han ma stadig ud og bruge sine haender, og i et 66 ar gammelt liv, hvor glaederne er flere end bekymringerne, er det to dagligdags og samfundsskabte ting, der irriterer.
+hvis pulsarerne er forkalkede, kan blodet ikke fore tilstraekkelig ilt og naering ud til muskler og hud.
+selv far birlik illegalt trykt sin ugeavis i moskva og sverdlovsk og derefter smuglet ind i landet.
+ved vm i mexico scorede han to mal, det ene i bronzekampen mod belgien.
+pasta er endnu kun en lille del af tholstrup cheeses forretningsgrundlag.
+at hendes mor la pa intensivafdelingen med et hjertetilfaelde, fordi hun havde haft et ophidset skaenderi med en fiskehandler.
+tilbage har der vel vaeret mellem 3.000 og 5.000 kr. netto til overportoren selv, "siger sygehusdirektor karl gaub til b.t..
+bestyrelsesformanden for tv 2, professor jorn henrik petersen, afviser ikke, at den ny chef kan tiltraede, for schleimanns kontrakt udlober til oktober.
+}
+Predicted: {
+og med en sagte latter trak han hende taet, taet ind til sig.
+ror 125 g lunt, smeltet smor i.
+han smiler stadig sit brede smil, han ma stadig ud og bruge sine haender, og i et 66 ar gammelt liv, hvor glaederne er flere end bekymringerne, er det to dagligdags og samfundsskabte ting, der irriterer.
+hvis pulsarerne er forkalkede, kan blodet ikke fore tilstraekkelig ilt og naering ud til muskler og hud.
+selv far birlik illegalt trykt sin ugeavis i moskva og sverdlovsk og derefter smuglet ind i landet.
+ved vm i mexico scorede han to mal, det ene i bronzekampen mod belgien.
+pasta er endnu kun en lille del af tholstrup cheeses forretningsgrundlag.
+at hendes mor la pa intensivafdelingen med et hjertetilfaelde, fordi hun havde haft et ophidset skaenderi med en fiskehandler.
+tilbage har der vel vaeret mellem 3.000 og 5.000 kr. netto til overportoren selv, "siger sygehusdirektor karl gaub til b.t.. bestyrelsesformanden for tv 2, professor jorn henrik petersen, afviser ikke, at den ny chef kan tiltraede, for schleimanns kontrakt udlober til oktober.
+}
+False positives: {
+tilbage har der vel vaeret mellem 3.000 og 5.000 kr. netto til overportoren selv, "siger sygehusdirektor karl gaub til b.t.. bestyrelsesformanden for tv 2, professor jorn henrik petersen, afviser ikke, at den ny chef kan tiltraede, for schleimanns kontrakt udlober til oktober.
+} False negatives: {
+tilbage har der vel vaeret mellem 3.000 og 5.000 kr. netto til overportoren selv, "siger sygehusdirektor karl gaub til b.t..
+bestyrelsesformanden for tv 2, professor jorn henrik petersen, afviser ikke, at den ny chef kan tiltraede, for schleimanns kontrakt udlober til oktober.
+}

@@ -1,0 +1,3988 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.9624027922356255
+Training-Sample-Size=8525
+Evaluation-Sample-Size=947
+Training-Algorithm=PERCEPTRON
+
+=== MODEL PROPERTIES ===
+BeamSize=3
+Component-Name=POSTaggerME
+Language=da
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742446045279
+TrainerType=Event
+Training-Eventhash=3443218733
+factory=opennlp.tools.postag.POSTaggerFactory
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+At_PART være_AUX en_DET hvid_ADJ er_AUX slemt_ADJ -_PUNCT PI_PROPN for_ADP politically_X incorrect_X -_PUNCT men_CCONJ at_PART være_AUX hvid_ADJ mand_NOUN er_AUX nok_ADV noget_PRON af_ADP det_DET værste_ADJ ,_PUNCT man_PRON kan_AUX være_VERB ._PUNCT}
+Predicted: {
+At_PART være_AUX en_DET hvid_NOUN er_AUX slemt_ADJ -_PUNCT PI_NOUN for_ADP politically_PROPN incorrect_PROPN -_PUNCT men_ADP at_PART være_AUX hvid_ADJ mand_NOUN er_AUX nok_ADJ noget_PRON af_ADP det_DET værste_ADJ ,_PUNCT man_PRON kan_AUX være_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hvid: ADJ | NOUN
+PI: PROPN | NOUN
+politically: X | PROPN
+incorrect: X | PROPN
+men: CCONJ | ADP
+nok: ADV | ADJ
+}
+
+Expected: {
+Dengang_ADV var_AUX de_PRON ikke_ADV ligefrem_ADV venner_NOUN ,_PUNCT men_CCONJ det_PRON kom_VERB efterhånden_ADV ,_PUNCT som_PRON det_PRON gik_VERB op_ADV for_ADP dem_PRON ,_PUNCT at_SCONJ de_PRON havde_VERB flere_ADJ interesser_NOUN til_ADP fælles_ADJ ,_PUNCT og_CCONJ i_ADP dag_NOUN er_AUX de_PRON bedste_ADJ venner_NOUN ._PUNCT}
+Predicted: {
+Dengang_ADV var_AUX de_PRON ikke_ADV ligefrem_ADV venner_NOUN ,_PUNCT men_CCONJ det_PRON kom_VERB efterhånden_ADV ,_PUNCT som_ADP det_PRON gik_VERB op_ADV for_ADP dem_PRON ,_PUNCT at_SCONJ de_PRON havde_VERB flere_ADJ interesser_NOUN til_ADP fælles_ADJ ,_PUNCT og_CCONJ i_ADP dag_NOUN er_AUX de_DET bedste_ADJ venner_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: PRON | ADP
+de: PRON | DET
+}
+
+Expected: {
+Men_CCONJ Nanna_PROPN bakker_VERB opfordringen_NOUN op_ADV og_CCONJ det_PRON skal_AUX nævnes_VERB ,_PUNCT at_SCONJ hun_PRON var_AUX en_PRON af_ADP hovedkræfterne_NOUN bag_ADP den_DET succesrige_ADJ musical_NOUN ,_PUNCT som_PRON 10._ADJ klasses_NOUN elever_NOUN opførte_VERB som_ADP alternativ_NOUN til_ADP undervisningen_NOUN i_ADP efteråret_NOUN 1985_NUM ._PUNCT}
+Predicted: {
+Men_CCONJ Nanna_PROPN bakker_VERB opfordringen_NOUN op_ADV og_CCONJ det_PRON skal_AUX nævnes_VERB ,_PUNCT at_SCONJ hun_PRON var_AUX en_PRON af_ADP hovedkræfterne_NOUN bag_ADP den_DET succesrige_ADJ musical_NOUN ,_PUNCT som_PRON 10._ADP klasses_PROPN elever_PROPN opførte_VERB som_ADP alternativ_NOUN til_ADP undervisningen_NOUN i_ADP efteråret_NOUN 1985_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+10.: ADJ | ADP
+klasses: NOUN | PROPN
+elever: NOUN | PROPN
+}
+
+Expected: {
+Men_CCONJ i_ADP de_DET sidste_ADJ to_NUM år_NOUN er_AUX alting_PRON gået_VERB skævt_ADV ._PUNCT}
+Predicted: {
+Men_CCONJ i_ADP de_DET sidste_ADJ to_NUM år_NOUN er_AUX alting_ADV gået_VERB skævt_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+alting: PRON | ADV
+skævt: ADV | NOUN
+}
+
+Expected: {
+Chaufføren_NOUN er_AUX helt_ADV alene_ADV ,_PUNCT han_PRON løber_VERB rundt_ADV i_ADP bussen_NOUN som_ADP en_DET forvirret_VERB bille_NOUN i_ADP en_DET tændstikæske_NOUN ._PUNCT}
+Predicted: {
+Chaufføren_PROPN er_AUX helt_ADV alene_ADV ,_PUNCT han_PRON løber_VERB rundt_ADV i_ADP bussen_NOUN som_ADP en_DET forvirret_VERB bille_NOUN i_ADP en_DET tændstikæske_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Chaufføren: NOUN | PROPN
+}
+
+Expected: {
+Lars_PROPN mumlede_VERB noget_PRON om_ADP ,_PUNCT at_SCONJ klokken_NOUN var_AUX mange_ADJ ._PUNCT}
+Predicted: {
+Lars_PROPN mumlede_VERB noget_PRON om_ADP ,_PUNCT at_SCONJ klokken_NOUN var_VERB mange_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+}
+
+Expected: {
+"_PUNCT Og_CCONJ så_ADV har_VERB vi_PRON ikke_ADV andre_DET købere_NOUN "_PUNCT ,_PUNCT siger_VERB Peter_PROPN Christoffersen_PROPN ,_PUNCT der_PRON dog_ADV tilføjer_VERB ,_PUNCT at_SCONJ de_PRON ikke_ADV har_AUX været_AUX ude_ADV og_CCONJ "_PUNCT scanne_VERB "_PUNCT markedet_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT Og_CCONJ så_ADV har_AUX vi_PRON ikke_ADV andre_DET købere_NOUN "_PUNCT ,_PUNCT siger_VERB Peter_PROPN Christoffersen_PROPN ,_PUNCT der_PRON dog_ADV tilføjer_NOUN ,_PUNCT at_SCONJ de_PRON ikke_ADV har_AUX været_AUX ude_ADV og_CCONJ "_PUNCT scanne_PROPN "_PUNCT markedet_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+tilføjer: VERB | NOUN
+scanne: VERB | PROPN
+markedet: NOUN | PROPN
+}
+
+Expected: {
+I_ADP går_NOUN blev_AUX Kosan_PROPN Teknova_PROPN solgt_VERB fra_ADV ,_PUNCT og_CCONJ tilbage_ADV i_ADP Kosan_PROPN Holding_PROPN er_AUX kun_ADV Crisplant_PROPN ._PUNCT}
+Predicted: {
+I_ADP går_NOUN blev_AUX Kosan_PROPN Teknova_PROPN solgt_VERB fra_ADP ,_PUNCT og_CCONJ tilbage_ADV i_ADP Kosan_PROPN Holding_PROPN er_AUX kun_ADV Crisplant_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+fra: ADV | ADP
+Crisplant: PROPN | ADJ
+}
+
+Expected: {
+DE_PRON havde_AUX udviklet_VERB en_DET ny_ADJ teori_NOUN i_ADP Propagandaministeriet_NOUN ,_PUNCT der_PRON gik_VERB ud_ADV på_ADP ,_PUNCT at_SCONJ det_DET bedste_ADJ tidspunkt_NOUN for_ADP store_ADJ meddelelser_NOUN var_VERB ved_ADP slutningen_NOUN af_ADP arbejdsdagen_NOUN ._PUNCT}
+Predicted: {
+DE_PROPN havde_AUX udviklet_VERB en_DET ny_ADJ teori_NOUN i_ADP Propagandaministeriet_NOUN ,_PUNCT der_PRON gik_VERB ud_ADV på_ADP ,_PUNCT at_SCONJ det_DET bedste_ADJ tidspunkt_NOUN for_ADP store_ADJ meddelelser_NOUN var_AUX ved_ADP slutningen_NOUN af_ADP arbejdsdagen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+DE: PRON | PROPN
+var: VERB | AUX
+}
+
+Expected: {
+At_SCONJ mange_ADJ rygere_NOUN er_AUX lede_ADJ og_CCONJ kede_ADJ af_ADP tobakken_NOUN ,_PUNCT det_PRON er_VERB der_PRON ingen_DET tvivl_NOUN om_ADP ,_PUNCT siger_VERB Poul_PROPN Ebbe_PROPN Nielsen_PROPN :_PUNCT}
+Predicted: {
+At_PART mange_ADJ rygere_NOUN er_AUX lede_VERB og_CCONJ kede_VERB af_ADP tobakken_NOUN ,_PUNCT det_PRON er_VERB der_PRON ingen_DET tvivl_NOUN om_ADP ,_PUNCT siger_VERB Poul_PROPN Ebbe_PROPN Nielsen_PROPN :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+At: SCONJ | PART
+lede: ADJ | VERB
+kede: ADJ | VERB
+}
+
+Expected: {
+Jeg_PRON kunne_AUX se_VERB ,_PUNCT at_SCONJ den_DET overbordfaldne_ADJ havde_AUX været_VERB under_ADP vand_NOUN og_CCONJ var_VERB på_ADP vej_NOUN op_ADV igen_ADV ._PUNCT}
+Predicted: {
+Jeg_PRON kunne_AUX se_VERB ,_PUNCT at_SCONJ den_DET overbordfaldne_ADJ havde_AUX været_AUX under_ADP vand_NOUN og_CCONJ var_AUX på_ADP vej_NOUN op_ADV igen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+været: VERB | AUX
+var: VERB | AUX
+}
+
+Expected: {
+Jeg_PRON ved_VERB ikke_ADV ,_PUNCT om_SCONJ jeg_PRON er_VERB ved_ADP at_PART kede_VERB mig_PRON ,_PUNCT eller_CCONJ om_SCONJ jeg_PRON bare_ADV er_AUX doven_ADJ ._PUNCT}
+Predicted: {
+Jeg_PRON ved_VERB ikke_ADV ,_PUNCT om_SCONJ jeg_PRON er_AUX ved_ADP at_PART kede_VERB mig_PRON ,_PUNCT eller_CCONJ om_SCONJ jeg_PRON bare_ADV er_AUX doven_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Jeg_PRON røg_VERB en_DET cigaret_NOUN i_ADP snevejret_NOUN uden_ADV for_ADP forretningen_NOUN for_ADP at_PART give_VERB hende_PRON tid_NOUN til_ADP at_PART køle_VERB af_ADV ._PUNCT}
+Predicted: {
+Jeg_PRON røg_VERB en_DET cigaret_NOUN i_ADP snevejret_NOUN uden_ADV for_ADP forretningen_NOUN for_ADP at_PART give_VERB hende_PRON tid_NOUN til_ADP at_PART køle_VERB af_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+af: ADV | ADP
+}
+
+Expected: {
+"_PUNCT Ingen_PRON i_ADP gruppen_NOUN var_VERB i_ADP tvivl_NOUN om_ADP ,_PUNCT at_SCONJ der_PRON var_VERB et_DET retskrav_NOUN på_ADP familiesammenføringer_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT Ingen_PRON i_ADP gruppen_NOUN var_AUX i_ADP tvivl_NOUN om_ADP ,_PUNCT at_SCONJ der_PRON var_VERB et_DET retskrav_NOUN på_ADP familiesammenføringer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+"_PUNCT Kan_AUX du_PRON huske_VERB dengang_SCONJ min_DET sæd_NOUN plettede_VERB vore_DET lagner_NOUN ;_PUNCT store_ADJ ,_PUNCT hvidgule_ADJ pletter_NOUN på_ADP det_DET mønstrede_ADJ dynevår_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT Kan_AUX du_PRON huske_VERB dengang_SCONJ min_DET sæd_NOUN plettede_VERB vore_DET lagner_NOUN ;_PUNCT store_ADJ ,_PUNCT hvidgule_ADJ pletter_NOUN på_ADP det_DET mønstrede_VERB dynevår_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mønstrede: ADJ | VERB
+}
+
+Expected: {
+GEOLOGI_NOUN}
+Predicted: {
+GEOLOGI_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+GEOLOGI: NOUN | PROPN
+}
+
+Expected: {
+Det_PRON lignede_VERB mere_ADV et_DET hændeligt_ADJ sammenstød_NOUN end_ADP en_DET bevidst_ADJ handling_NOUN ,_PUNCT den_DET såkaldte_ADJ nødbremse_NOUN ,_PUNCT da_SCONJ OBeren_NOUN stoppede_VERB Lars_PROPN Larsen_PROPN lige_ADV uden_ADV for_ADP feltet_NOUN ._PUNCT}
+Predicted: {
+Det_DET lignede_VERB mere_ADV et_DET hændeligt_ADJ sammenstød_NOUN end_ADP en_DET bevidst_ADJ handling_NOUN ,_PUNCT den_DET såkaldte_ADJ nødbremse_NOUN ,_PUNCT da_SCONJ OBeren_NOUN stoppede_VERB Lars_PROPN Larsen_PROPN lige_ADV uden_ADV for_ADP feltet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+}
+
+Expected: {
+"_PUNCT Der_PRON flyttes_VERB fra_ADP Lyngby_PROPN Stadion_NOUN for_ADP at_PART give_VERB spillerne_NOUN ,_PUNCT pressen_NOUN og_CCONJ tilskuerne_NOUN optimale_ADJ forhold_NOUN "_PUNCT oplyser_VERB Claus_PROPN Nielsen_PROPN ._PUNCT}
+Predicted: {
+"_PUNCT Der_PRON flyttes_VERB fra_ADP Lyngby_PROPN Stadion_PROPN for_ADP at_PART give_VERB spillerne_NOUN ,_PUNCT pressen_NOUN og_CCONJ tilskuerne_NOUN optimale_ADJ forhold_NOUN "_PUNCT oplyser_VERB Claus_PROPN Nielsen_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Stadion: NOUN | PROPN
+}
+
+Expected: {
+Er_AUX det_DET sportslige_ADJ tilbud_NOUN ikke_ADV godt_ADJ nok_ADV ,_PUNCT ja_INTJ så_ADV bliver_VERB sportens_NOUN meget_ADV troløse_ADJ tilskuere_NOUN væk_ADV ._PUNCT}
+Predicted: {
+Er_AUX det_DET sportslige_ADJ tilbud_NOUN ikke_ADV godt_ADJ nok_ADV ,_PUNCT ja_INTJ så_ADV bliver_AUX sportens_VERB meget_ADV troløse_ADJ tilskuere_NOUN væk_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bliver: VERB | AUX
+sportens: NOUN | VERB
+}
+
+Expected: {
+Enkelte_ADJ maskiner_NOUN gik_VERB så_ADV lavt_ADV ,_PUNCT at_SCONJ de_PRON fik_VERB jernkæderne_NOUN i_ADP bommene_NOUN til_ADP at_PART dirre_VERB ,_PUNCT store_ADJ skygger_NOUN tordnede_VERB hen_ADV over_ADP hovederne_NOUN på_ADP os_PRON ,_PUNCT man_PRON måtte_AUX håbe_VERB ,_PUNCT at_SCONJ de_PRON fandt_VERB op_ADV i_ADP deres_DET formation_NOUN igen_ADV ._PUNCT}
+Predicted: {
+Enkelte_ADJ maskiner_NOUN gik_VERB så_ADV lavt_ADV ,_PUNCT at_SCONJ de_PRON fik_VERB jernkæderne_NOUN i_ADP bommene_NOUN til_ADP at_PART dirre_VERB ,_PUNCT store_ADJ skygger_NOUN tordnede_VERB hen_ADV over_ADP hovederne_NOUN på_ADP os_PRON ,_PUNCT man_PRON måtte_AUX håbe_NOUN ,_PUNCT at_SCONJ de_PRON fandt_VERB op_ADV i_ADP deres_DET formation_NOUN igen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+håbe: VERB | NOUN
+}
+
+Expected: {
+Hele_ADJ tiden_NOUN får_VERB de_DET cirka_ADV 15_NUM fremmødte_ADJ piger_NOUN -_PUNCT og_CCONJ Deres_PRON udsendte_VERB -_PUNCT at_PART vide_VERB ,_PUNCT at_SCONJ vi_PRON kan_AUX finde_VERB det_PRON demonstrerede_VERB afbilledet_ADV "_PUNCT på_ADP side_NOUN ..._PUNCT i_ADP jeres_DET katalog_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+Hele_ADJ tiden_NOUN får_VERB de_DET cirka_ADV 15_NUM fremmødte_ADJ piger_NOUN -_PUNCT og_CCONJ Deres_PRON udsendte_VERB -_PUNCT at_PART vide_VERB ,_PUNCT at_SCONJ vi_PRON kan_AUX finde_VERB det_DET demonstrerede_VERB afbilledet_NOUN "_PUNCT på_ADP side_NOUN ..._PUNCT i_ADP jeres_DET katalog_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+afbilledet: ADV | NOUN
+}
+
+Expected: {
+Bliver_VERB det_PRON tilfældet_NOUN kåres_VERB årets_NOUN danmarksmester_NOUN den_DET 23._ADJ juni_NOUN ._PUNCT}
+Predicted: {
+Bliver_VERB det_DET tilfældet_NOUN kåres_VERB årets_NOUN danmarksmester_NOUN den_DET 23._ADJ juni_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+En_DET rystet_VERB journalist_NOUN fra_ADP avisen_NOUN Respublica_PROPN i_ADP Litauen_PROPN fortalte_VERB ,_PUNCT at_SCONJ sovjetiske_ADJ soldater_NOUN efter_ADP massakren_NOUN havde_AUX forsøgt_VERB at_PART klæde_VERB civile_ADJ dødsofre_NOUN i_ADP militært_ADJ tøj_NOUN for_ADP at_PART få_VERB dem_PRON til_ADP at_PART se_VERB ud_ADV som_ADP dræbte_VERB soldater_NOUN ._PUNCT}
+Predicted: {
+En_DET rystet_VERB journalist_NOUN fra_ADP avisen_NOUN Respublica_PROPN i_ADP Litauen_PROPN fortalte_VERB ,_PUNCT at_SCONJ sovjetiske_ADJ soldater_NOUN efter_ADP massakren_NOUN havde_AUX forsøgt_VERB at_PART klæde_VERB civile_ADJ dødsofre_NOUN i_ADP militært_ADJ tøj_NOUN for_ADP at_PART få_VERB dem_PRON til_ADV at_PART se_VERB ud_ADV som_ADP dræbte_VERB soldater_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+til: ADP | ADV
+}
+
+Expected: {
+HELVEDE_NOUN ER_AUX LØS_ADJ}
+Predicted: {
+HELVEDE_NOUN ER_AUX LØS_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+LØS: ADJ | PROPN
+}
+
+Expected: {
+Tøjet_NOUN ,_PUNCT der_PRON også_ADV nok_ADV skal_AUX kunne_AUX gøre_VERB en_PRON og_CCONJ anden_PRON vild_ADJ i_ADP varmen_NOUN ,_PUNCT hvis_SCONJ den_PRON kommer_VERB ,_PUNCT er_VERB fra_ADP samme_ADJ butik_NOUN ,_PUNCT hvor_ADV lak_NOUN pandebånd_NOUN i_ADP mange_ADJ farver_NOUN koster_VERB 49_NUM kr._NOUN ._PUNCT}
+Predicted: {
+Tøjet_PROPN ,_PUNCT der_PRON også_ADV nok_ADV skal_AUX kunne_AUX gøre_VERB en_DET og_CCONJ anden_PRON vild_ADJ i_ADP varmen_NOUN ,_PUNCT hvis_SCONJ den_PRON kommer_VERB ,_PUNCT er_VERB fra_ADP samme_ADJ butik_NOUN ,_PUNCT hvor_ADV lak_NOUN pandebånd_NOUN i_ADP mange_ADJ farver_NOUN koster_VERB 49_NUM kr._NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tøjet: NOUN | PROPN
+en: PRON | DET
+}
+
+Expected: {
+Det_PRON fremkalder_VERB smil_NOUN ._PUNCT}
+Predicted: {
+Det_DET fremkalder_VERB smil_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+}
+
+Expected: {
+Vi_PRON har_VERB derfor_ADV få_ADJ stærke_ADJ følelser_NOUN specielt_ADV forbundet_VERB med_ADP at_PART holde_VERB liv_NOUN i_ADP den_DET nuværende_ADJ regering_NOUN ,_PUNCT "_PUNCT siger_VERB Fremskridtspartiets_NOUN gruppeformand_NOUN ,_PUNCT Aage_PROPN Brusgaard_PROPN ._PUNCT}
+Predicted: {
+Vi_PRON har_AUX derfor_ADV få_ADJ stærke_ADJ følelser_NOUN specielt_ADV forbundet_VERB med_ADP at_PART holde_VERB liv_NOUN i_ADP den_DET nuværende_ADJ regering_NOUN ,_PUNCT "_PUNCT siger_VERB Fremskridtspartiets_NOUN gruppeformand_NOUN ,_PUNCT Aage_PROPN Brusgaard_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Alcala_PROPN havde_VERB punktering_NOUN efter_ADP fem_NUM kilometer_NOUN ,_PUNCT og_CCONJ Greg_PROPN Lemond_PROPN punkterede_VERB efter_ADP kun_ADV 10_NUM meters_NOUN kørsel_NOUN ._PUNCT}
+Predicted: {
+Alcala_PROPN havde_VERB punktering_NOUN efter_ADP fem_NUM kilometer_NOUN ,_PUNCT og_CCONJ Greg_PROPN Lemond_PROPN punkterede_X efter_ADP kun_ADV 10_NUM meters_NOUN kørsel_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+punkterede: VERB | X
+}
+
+Expected: {
+Den_DET ene_ADJ maskine_NOUN brød_VERB sammen_ADV ,_PUNCT hvorefter_ADV Urd_PROPN vendte_VERB om_ADV og_CCONJ humpede_VERB til_ADP Århus_PROPN ,_PUNCT fordi_SCONJ DSB_PROPN her_ADV har_VERB reservedele_NOUN ._PUNCT}
+Predicted: {
+Den_DET ene_ADJ maskine_NOUN brød_VERB sammen_ADV ,_PUNCT hvorefter_ADV Urd_PROPN vendte_VERB om_ADV og_CCONJ humpede_VERB til_ADP Århus_PROPN ,_PUNCT fordi_SCONJ DSB_PROPN her_ADV har_AUX reservedele_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Jeg_PRON er_AUX 42_NUM år_NOUN ,_PUNCT arbejdsløs_ADJ på_ADP 2._ADJ år_NOUN og_CCONJ kontoruddannet_ADJ ._PUNCT}
+Predicted: {
+Jeg_PRON er_AUX 42_NUM år_NOUN ,_PUNCT arbejdsløs_ADJ på_ADP 2._ADJ år_NOUN og_CCONJ kontoruddannet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kontoruddannet: ADJ | NOUN
+}
+
+Expected: {
+Der_PRON er_VERB også_ADV nogle_PRON ,_PUNCT som_PRON har_AUX truet_VERB med_ADP at_PART flytte_VERB ,_PUNCT ja_INTJ én_DET beboer_NOUN er_AUX flyttet_VERB af_ADP samme_ADJ grund_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+Der_PRON er_AUX også_ADV nogle_PRON ,_PUNCT som_PRON har_AUX truet_VERB med_ADP at_PART flytte_VERB ,_PUNCT ja_INTJ én_DET beboer_NOUN er_AUX flyttet_VERB af_ADP samme_ADJ grund_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Den_DET danske_ADJ importør_NOUN ,_PUNCT Vilh._PROPN Nellemann_PROPN Autoimport_NOUN ,_PUNCT har_AUX besluttet_VERB at_PART satse_VERB på_ADP markedet_NOUN for_ADP jobbiler_NOUN frem_ADV for_ADP at_PART sprede_VERB sig_PRON for_ADV meget_ADV ._PUNCT}
+Predicted: {
+Den_DET danske_ADJ importør_NOUN ,_PUNCT Vilh._PROPN Nellemann_PROPN Autoimport_PROPN ,_PUNCT har_AUX besluttet_VERB at_PART satse_VERB på_ADP markedet_NOUN for_ADP jobbiler_NOUN frem_ADV for_ADP at_PART sprede_VERB sig_PRON for_ADV meget_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Autoimport: NOUN | PROPN
+}
+
+Expected: {
+Modstanden_NOUN i_ADP vandet_NOUN øger_VERB virkningen_NOUN af_ADP deres_DET bevægelser_NOUN ._PUNCT}
+Predicted: {
+Modstanden_NOUN i_ADP vandet_NOUN øger_NOUN virkningen_NOUN af_ADP deres_DET bevægelser_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+øger: VERB | NOUN
+}
+
+Expected: {
+Kun_ADV Frigodan_PROPN ,_PUNCT producent_NOUN af_ADP dybfrosne_ADJ grøntsager_NOUN ,_PUNCT trak_VERB sektorens_NOUN regnskabsresultat_NOUN i_ADP den_DET forkerte_ADJ retning_NOUN som_ADP følge_NOUN af_ADP sidste_ADJ års_NOUN fejlslagne_ADJ ærtehøst_NOUN i_ADP Danmark_PROPN ._PUNCT}
+Predicted: {
+Kun_PROPN Frigodan_PROPN ,_PUNCT producent_NOUN af_ADP dybfrosne_ADJ grøntsager_NOUN ,_PUNCT trak_VERB sektorens_NOUN regnskabsresultat_NOUN i_ADP den_DET forkerte_ADJ retning_NOUN som_ADP følge_NOUN af_ADP sidste_ADJ års_NOUN fejlslagne_ADJ ærtehøst_NOUN i_ADP Danmark_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Kun: ADV | PROPN
+}
+
+Expected: {
+Her_ADV er_AUX det_PRON tre_NUM gøglere_NOUN fra_ADP Die_PROPN Onkels_PROPN ,_PUNCT som_PRON jo_ADV kommer_VERB fra_ADP en_DET helt_ADV anden_DET verden_NOUN end_ADP dansens_NOUN med_ADP et_DET umiddelbart_ADJ ,_PUNCT mere_ADV naturligt_ADJ ,_PUNCT fysisk_ADJ og_CCONJ meget_ADV kraftfuldt_ADJ udtryk_NOUN ,_PUNCT som_PRON danserne_NOUN savner_VERB ,_PUNCT "_PUNCT siger_VERB hun_PRON ._PUNCT}
+Predicted: {
+Her_ADV er_AUX det_DET tre_NUM gøglere_NOUN fra_ADP Die_PROPN Onkels_PROPN ,_PUNCT som_PRON jo_ADV kommer_VERB fra_ADP en_DET helt_ADV anden_DET verden_NOUN end_ADP dansens_NOUN med_ADP et_DET umiddelbart_ADJ ,_PUNCT mere_ADV naturligt_ADJ ,_PUNCT fysisk_ADJ og_CCONJ meget_ADV kraftfuldt_ADJ udtryk_NOUN ,_PUNCT som_PRON danserne_NOUN savner_VERB ,_PUNCT "_PUNCT siger_VERB hun_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+"_PUNCT Den_PRON går_VERB lige_ADV præcis_ADV der_ADV ,_PUNCT hvor_ADV politiske_ADJ dispositioner_NOUN træffes_VERB af_ADP private_ADJ årsager_NOUN ,_PUNCT "_PUNCT mener_VERB Tage_PROPN Kaarsted_PROPN ._PUNCT}
+Predicted: {
+"_PUNCT Den_DET går_VERB lige_ADV præcis_ADV der_PRON ,_PUNCT hvor_ADV politiske_ADJ dispositioner_NOUN træffes_VERB af_ADP private_ADJ årsager_NOUN ,_PUNCT "_PUNCT mener_VERB Tage_PROPN Kaarsted_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Den: PRON | DET
+der: ADV | PRON
+}
+
+Expected: {
+Det_PRON var_VERB der_PRON vel_ADV nok_ADV ._PUNCT}
+Predicted: {
+Det_PRON var_AUX der_PRON vel_ADV nok_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+Slet_ADV ikke_ADV ,_PUNCT når_SCONJ det_PRON er_AUX en_DET medarbejder_NOUN på_ADP mellemlederplan_NOUN ._PUNCT}
+Predicted: {
+Slet_VERB ikke_ADV ,_PUNCT når_SCONJ det_PRON er_AUX en_DET medarbejder_NOUN på_ADP mellemlederplan_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Slet: ADV | VERB
+}
+
+Expected: {
+I_ADP dette_DET forfinede_VERB system_NOUN er_AUX det_PRON helt_ADV afgørende_ADJ ,_PUNCT at_SCONJ en_DET referee_NOUN er_AUX anonym_ADJ ,_PUNCT så_SCONJ en_DET kollega_NOUN kan_AUX "_PUNCT slagte_VERB "_PUNCT et_DET manuskript_NOUN uden_ADP at_PART frygte_VERB eftervirkningerne_NOUN ._PUNCT}
+Predicted: {
+I_ADP dette_DET forfinede_VERB system_NOUN er_AUX det_DET helt_ADV afgørende_ADJ ,_PUNCT at_SCONJ en_DET referee_NOUN er_AUX anonym_ADJ ,_PUNCT så_SCONJ en_DET kollega_NOUN kan_AUX "_PUNCT slagte_VERB "_PUNCT et_DET manuskript_NOUN uden_ADP at_PART frygte_VERB eftervirkningerne_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+-_PUNCT Få_VERB den_PRON UD_ADV AF_ADP MIN_DET KANO_NOUN !_PUNCT siger_VERB han_PRON ._PUNCT}
+Predicted: {
+-_PUNCT Få_VERB den_PRON UD_ADV AF_ADP MIN_PROPN KANO_PROPN !_PUNCT siger_VERB han_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+MIN: DET | PROPN
+KANO: NOUN | PROPN
+}
+
+Expected: {
+Og_CCONJ der_PRON var_VERB flere_ADJ drivhuse_NOUN ,_PUNCT og_CCONJ bag_ADP ham_PRON var_VERB der_PRON en_DET bygning_NOUN han_PRON kun_ADV havde_AUX set_VERB den_DET mindste_ADJ del_NOUN af_ADP ._PUNCT}
+Predicted: {
+Og_CCONJ der_PRON var_AUX flere_ADJ drivhuse_NOUN ,_PUNCT og_CCONJ bag_ADP ham_PRON var_VERB der_PRON en_DET bygning_NOUN han_PRON kun_ADV havde_AUX set_VERB den_DET mindste_ADJ del_NOUN af_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+Det_PRON kræver_VERB dog_ADV ,_PUNCT at_SCONJ hun_PRON laver_VERB en_DET specifik_ADJ træning_NOUN af_ADP lårmusklerne_NOUN med_ADP strækøvelser_NOUN over_ADP en_DET pølle_NOUN ,_PUNCT "_PUNCT siger_VERB ortopædkirurgen_NOUN ._PUNCT}
+Predicted: {
+Det_DET kræver_VERB dog_NOUN ,_PUNCT at_SCONJ hun_PRON laver_VERB en_DET specifik_ADJ træning_NOUN af_ADP lårmusklerne_NOUN med_ADP strækøvelser_NOUN over_ADP en_DET pølle_NOUN ,_PUNCT "_PUNCT siger_VERB ortopædkirurgen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+dog: ADV | NOUN
+}
+
+Expected: {
+Intens_ADJ skydning_NOUN ovre_ADV fra_ADP den_DET bosniske_ADJ side_NOUN af_ADP floden_NOUN fortæller_VERB sammen_ADV med_ADP ligene_NOUN ,_PUNCT der_PRON flyder_VERB ned_ADV ad_ADP Una_PROPN ,_PUNCT om_ADP hårde_ADJ kampe_NOUN ,_PUNCT men_CCONJ sikker_ADJ viden_NOUN er_AUX en_DET mangelvare_NOUN hernede_ADV ._PUNCT}
+Predicted: {
+Intens_PROPN skydning_NOUN ovre_ADV fra_ADP den_DET bosniske_ADJ side_NOUN af_ADP floden_NOUN fortæller_VERB sammen_ADV med_ADP ligene_NOUN ,_PUNCT der_PRON flyder_VERB ned_ADV ad_ADP Una_PROPN ,_PUNCT om_ADP hårde_ADJ kampe_NOUN ,_PUNCT men_CCONJ sikker_ADJ viden_NOUN er_AUX en_DET mangelvare_NOUN hernede_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Intens: ADJ | PROPN
+}
+
+Expected: {
+Intet_PRON er_AUX farligere_ADJ for_ADP moral_NOUN og_CCONJ retssans_NOUN end_ADP uafbrudt_ADV at_PART tvinges_VERB eller_CCONJ lokkes_VERB til_ADP at_PART identificere_VERB sin_DET private_ADJ sag_NOUN med_ADP Den_DET Store_ADJ Sag_NOUN og_CCONJ udlægge_VERB dennes_DET triumfer_NOUN som_ADP sin_DET private_ADJ fortjeneste_NOUN ,_PUNCT men_CCONJ kriminalisere_VERB alle_ADJ angreb_NOUN på_ADP sig_PRON selv_PRON som_ADP helligbrøde_NOUN ,_PUNCT fordi_SCONJ de_PRON også_ADV ramte_VERB Sagen_NOUN ._PUNCT}
+Predicted: {
+Intet_ADV er_AUX farligere_ADJ for_ADP moral_NOUN og_CCONJ retssans_NOUN end_ADP uafbrudt_ADV at_PART tvinges_VERB eller_CCONJ lokkes_VERB til_ADP at_PART identificere_VERB sin_DET private_ADJ sag_NOUN med_ADP Den_DET Store_ADJ Sag_NOUN og_CCONJ udlægge_NOUN dennes_DET triumfer_NOUN som_ADP sin_DET private_ADJ fortjeneste_NOUN ,_PUNCT men_CCONJ kriminalisere_VERB alle_ADJ angreb_NOUN på_ADP sig_PRON selv_PRON som_ADP helligbrøde_NOUN ,_PUNCT fordi_SCONJ de_PRON også_ADV ramte_VERB Sagen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Intet: PRON | ADV
+udlægge: VERB | NOUN
+}
+
+Expected: {
+LAD_VERB OS_PRON FÅ_VERB HAM_PRON}
+Predicted: {
+LAD_VERB OS_PRON FÅ_VERB HAM_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+HAM: PRON | PROPN
+}
+
+Expected: {
+Hun_PRON har_VERB en_DET sjælsstyrke_NOUN og_CCONJ en_DET varme_NOUN ,_PUNCT man_PRON kun_ADV sjældent_ADV møder_VERB ._PUNCT}
+Predicted: {
+Hun_PRON har_AUX en_DET sjælsstyrke_NOUN og_CCONJ en_DET varme_NOUN ,_PUNCT man_PRON kun_ADV sjældent_ADV møder_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Flotte_ADJ præmier_NOUN}
+Predicted: {
+Flotte_PROPN præmier_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+Flotte: ADJ | PROPN
+præmier: NOUN | PROPN
+}
+
+Expected: {
+Han_PRON kiggede_VERB på_ADP Elias_PROPN ,_PUNCT der_PRON havde_AUX stillet_VERB sine_DET tomme_ADJ øldåser_NOUN op_ADV til_ADP det_DET daglige_ADJ bilvæddeløb_NOUN på_ADP det_DET ru_ADJ betongulv_NOUN ,_PUNCT på_ADP mor_NOUN ,_PUNCT der_PRON med_ADP spredte_VERB ben_NOUN ,_PUNCT den_DET ene_ADJ hånd_NOUN på_ADP toppen_NOUN af_ADP maven_NOUN og_CCONJ den_PRON anden_PRON slapt_ADV hængende_VERB ud_ADV over_ADP armlænet_NOUN ,_PUNCT langsomt_ADV rystede_VERB på_ADP hovedet_NOUN ._PUNCT}
+Predicted: {
+Han_PRON kiggede_VERB på_ADP Elias_PROPN ,_PUNCT der_PRON havde_AUX stillet_VERB sine_DET tomme_ADJ øldåser_NOUN op_ADV til_ADP det_DET daglige_ADJ bilvæddeløb_NOUN på_ADP det_DET ru_ADJ betongulv_NOUN ,_PUNCT på_ADP mor_NOUN ,_PUNCT der_PRON med_ADP spredte_VERB ben_NOUN ,_PUNCT den_DET ene_ADJ hånd_NOUN på_ADP toppen_NOUN af_ADP maven_NOUN og_CCONJ den_DET anden_DET slapt_NOUN hængende_VERB ud_ADV over_ADP armlænet_NOUN ,_PUNCT langsomt_ADV rystede_VERB på_ADP hovedet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+den: PRON | DET
+anden: PRON | DET
+slapt: ADV | NOUN
+}
+
+Expected: {
+Her_ADV har_VERB han_PRON mulighed_NOUN for_ADP at_PART arbejde_VERB videre_ADV med_ADP de_DET internationale_ADJ tanker_NOUN ,_PUNCT som_PRON altid_ADV har_AUX optaget_ADJ ham_PRON ._PUNCT}
+Predicted: {
+Her_ADV har_AUX han_PRON mulighed_NOUN for_ADP at_PART arbejde_VERB videre_ADV med_ADP de_DET internationale_ADJ tanker_NOUN ,_PUNCT som_PRON altid_ADV har_AUX optaget_ADJ ham_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+De_PRON kan_AUX ikke_ADV komme_VERB hjem_ADV igen_ADV ,_PUNCT for_CCONJ der_PRON er_VERB ikke_ADV folk_NOUN til_ADP at_PART passe_VERB dem_PRON ,_PUNCT og_CCONJ plejehjemmene_NOUN er_VERB fyldt_VERB ._PUNCT}
+Predicted: {
+De_PRON kan_AUX ikke_ADV komme_VERB hjem_ADV igen_ADV ,_PUNCT for_CCONJ der_PRON er_AUX ikke_ADV folk_NOUN til_ADP at_PART passe_VERB dem_PRON ,_PUNCT og_CCONJ plejehjemmene_NOUN er_AUX fyldt_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+er: VERB | AUX
+}
+
+Expected: {
+Sagde_VERB Mellemfolkeligt_ADJ Samvirkes_NOUN formand_NOUN ,_PUNCT Knud_PROPN Vilby_PROPN ,_PUNCT til_ADP Allan_PROPN Høxbroe_PROPN ._PUNCT}
+Predicted: {
+Sagde_PROPN Mellemfolkeligt_PROPN Samvirkes_PROPN formand_NOUN ,_PUNCT Knud_PROPN Vilby_PROPN ,_PUNCT til_ADP Allan_PROPN Høxbroe_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Sagde: VERB | PROPN
+Mellemfolkeligt: ADJ | PROPN
+Samvirkes: NOUN | PROPN
+}
+
+Expected: {
+EKSPERT_NOUN PÅ_ADP OMRÅDET_NOUN}
+Predicted: {
+EKSPERT_ADJ PÅ_NOUN OMRÅDET_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+EKSPERT: NOUN | ADJ
+PÅ: ADP | NOUN
+OMRÅDET: NOUN | PROPN
+}
+
+Expected: {
+Endnu_ADV har_VERB Lars_PROPN Højer_PROPN ikke_ADV alderen_NOUN til_ADP at_PART komme_VERB på_ADP museum_NOUN ,_PUNCT så_SCONJ den_PRON dér_ADV med_ADP at_SCONJ "_PUNCT nede_ADV i_ADP gården_NOUN "_PUNCT hører_VERB en_DET fjern_ADJ fortid_NOUN til_ADP ,_PUNCT holder_VERB ikke_ADV ,_PUNCT når_SCONJ man_PRON er_AUX født_VERB og_CCONJ opvokset_ADJ på_ADP Nørrebro_PROPN og_CCONJ her_ADV i_ADP 1992_NUM end_ADP ikke_ADV er_AUX fyldt_VERB 22_NUM år_NOUN ._PUNCT}
+Predicted: {
+Endnu_ADV har_AUX Lars_PROPN Højer_PROPN ikke_ADV alderen_NOUN til_ADP at_PART komme_VERB på_ADP museum_NOUN ,_PUNCT så_SCONJ den_PRON dér_ADV med_ADP at_PART "_PUNCT nede_ADV i_ADP gården_NOUN "_PUNCT hører_VERB en_DET fjern_ADJ fortid_NOUN til_ADP ,_PUNCT holder_VERB ikke_ADV ,_PUNCT når_SCONJ man_PRON er_AUX født_VERB og_CCONJ opvokset_ADJ på_ADP Nørrebro_PROPN og_CCONJ her_ADV i_ADP 1992_NUM end_ADP ikke_ADV er_AUX fyldt_VERB 22_NUM år_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+at: SCONJ | PART
+}
+
+Expected: {
+"_PUNCT Godt_ADV klaret_VERB Liv_PROPN ,_PUNCT "_PUNCT råbte_VERB Julie_PROPN efter_ADP hende_PRON ._PUNCT}
+Predicted: {
+"_PUNCT Godt_INTJ klaret_VERB Liv_PROPN ,_PUNCT "_PUNCT råbte_VERB Julie_PROPN efter_ADP hende_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Godt: ADV | INTJ
+}
+
+Expected: {
+Den_DET anden_DET kommode_NOUN er_AUX ikke_ADV helt_ADV så_ADV hårdt_ADV restaureret_VERB ,_PUNCT den_PRON er_VERB også_ADV i_ADP nøddetræ_NOUN ,_PUNCT ligeknækket_ADJ ,_PUNCT og_CCONJ står_VERB til_ADP 60.000_NUM kr._NOUN ._PUNCT}
+Predicted: {
+Den_PRON anden_PRON kommode_NOUN er_AUX ikke_ADV helt_ADV så_ADV hårdt_ADV restaureret_VERB ,_PUNCT den_PRON er_AUX også_ADV i_ADP nøddetræ_NOUN ,_PUNCT ligeknækket_ADJ ,_PUNCT og_CCONJ står_VERB til_ADP 60.000_NUM kr._NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Den: DET | PRON
+anden: DET | PRON
+er: VERB | AUX
+}
+
+Expected: {
+Ofte_ADV bar_VERB skolelæreren_NOUN en_DET mappe_NOUN med_ADP et_DET ekstra_ADJ sæt_NOUN tøj_NOUN ,_PUNCT så_SCONJ han_PRON kunne_AUX skifte_VERB ,_PUNCT hvis_SCONJ han_PRON mødte_VERB et_DET offer_NOUN og_CCONJ fik_VERB blod_NOUN på_ADP sine_DET klæder_NOUN ._PUNCT}
+Predicted: {
+Ofte_PROPN bar_VERB skolelæreren_NOUN en_DET mappe_NOUN med_ADP et_DET ekstra_ADJ sæt_NOUN tøj_NOUN ,_PUNCT så_SCONJ han_PRON kunne_AUX skifte_VERB ,_PUNCT hvis_SCONJ han_PRON mødte_VERB et_DET offer_NOUN og_CCONJ fik_VERB blod_NOUN på_ADP sine_DET klæder_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ofte: ADV | PROPN
+}
+
+Expected: {
+Politi_NOUN kørte_VERB rundt_ADV med_ADP højttalere_NOUN på_ADP biltaget_NOUN for_ADP at_PART opfordre_VERB borgerne_NOUN til_ADP at_PART holde_VERB sig_PRON bag_ADP lukkede_VERB vinduer_NOUN ,_PUNCT da_SCONJ Faaborg_PROPN Værft_NOUN i_ADP går_NOUN var_AUX udsat_VERB for_ADP en_DET voldsom_ADJ brand_NOUN ._PUNCT}
+Predicted: {
+Politi_NOUN kørte_VERB rundt_ADV med_ADP højttalere_NOUN på_ADP biltaget_NOUN for_ADP at_PART opfordre_VERB borgerne_NOUN til_ADP at_PART holde_VERB sig_PRON bag_ADP lukkede_VERB vinduer_NOUN ,_PUNCT da_SCONJ Faaborg_PROPN Værft_PROPN i_ADP går_NOUN var_AUX udsat_VERB for_ADP en_DET voldsom_ADJ brand_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Værft: NOUN | PROPN
+}
+
+Expected: {
+Faktisk_ADV ,_PUNCT når_SCONJ jeg_PRON allermindst_ADV tror_VERB ,_PUNCT at_SCONJ noget_PRON kan_AUX lade_VERB sig_PRON gøre_VERB ._PUNCT}
+Predicted: {
+Faktisk_ADJ ,_PUNCT når_SCONJ jeg_PRON allermindst_ADV tror_VERB ,_PUNCT at_SCONJ noget_PRON kan_AUX lade_VERB sig_PRON gøre_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Faktisk: ADV | ADJ
+}
+
+Expected: {
+Og_CCONJ familien_NOUN havde_VERB megen_ADJ glæde_NOUN af_ADP H.L._PROPN Hansen_PROPN ,_PUNCT som_PRON drev_VERB gården_NOUN ved_ADP siden_NOUN af_ADP jobbet_NOUN som_ADP administrerende_VERB direktør_NOUN ._PUNCT}
+Predicted: {
+Og_CCONJ familien_NOUN havde_AUX megen_ADJ glæde_NOUN af_ADP H.L._PROPN Hansen_PROPN ,_PUNCT som_ADP drev_PROPN gården_PROPN ved_ADP siden_NOUN af_ADP jobbet_NOUN som_ADP administrerende_VERB direktør_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: VERB | AUX
+som: PRON | ADP
+drev: VERB | PROPN
+gården: NOUN | PROPN
+}
+
+Expected: {
+Siden_SCONJ hendes_DET far_NOUN druknede_VERB på_ADP fjorden_NOUN en_DET vinterdag_NOUN ,_PUNCT var_AUX alt_ADJ gået_VERB skævt_ADV for_ADP Bodil_PROPN ._PUNCT}
+Predicted: {
+Siden_SCONJ hendes_DET far_NOUN druknede_VERB på_ADP fjorden_NOUN en_DET vinterdag_NOUN ,_PUNCT var_AUX alt_ADJ gået_VERB skævt_ADJ for_ADP Bodil_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+skævt: ADV | ADJ
+}
+
+Expected: {
+And_PROPN some_X day_X we_X shall_X have_X our_X revenge_X ._PUNCT}
+Predicted: {
+And_NOUN some_X day_PROPN we_PROPN shall_PROPN have_AUX our_PROPN revenge_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+And: PROPN | NOUN
+day: X | PROPN
+we: X | PROPN
+shall: X | PROPN
+have: X | AUX
+our: X | PROPN
+revenge: X | NOUN
+}
+
+Expected: {
+"_PUNCT Det_PRON er_AUX for_ADV sent_ADV at_PART græde_VERB over_ADP spildt_VERB mælk_NOUN ,_PUNCT "_PUNCT sagde_VERB Dubcek_PROPN med_ADP henvisning_NOUN til_ADP de_DET dramatiske_ADJ begivenheder_NOUN i_ADP 1968_NUM ._PUNCT}
+Predicted: {
+"_PUNCT Det_PRON er_AUX for_ADV sent_ADV at_PART græde_VERB over_ADP spildt_ADJ mælk_NOUN ,_PUNCT "_PUNCT sagde_VERB Dubcek_PROPN med_ADP henvisning_NOUN til_ADP de_DET dramatiske_ADJ begivenheder_NOUN i_ADP 1968_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+spildt: VERB | ADJ
+}
+
+Expected: {
+De_DET eventuelle_ADJ andre_DET ,_PUNCT vel_ADV at_PART mærke_VERB ._PUNCT}
+Predicted: {
+De_DET eventuelle_ADJ andre_PRON ,_PUNCT vel_ADV at_PART mærke_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+andre: DET | PRON
+}
+
+Expected: {
+Inger_PROPN :_PUNCT "_PUNCT Det_PRON er_AUX også_ADV ren_ADJ og_CCONJ skær_ADJ misundelse_NOUN fra_ADP sportsjournalisters_NOUN side_NOUN ,_PUNCT når_SCONJ de_PRON aldrig_ADV omtaler_VERB mesterskaber_NOUN i_ADP bodybuilding_NOUN ._PUNCT}
+Predicted: {
+Inger_PROPN :_PUNCT "_PUNCT Det_PRON er_AUX også_ADV ren_ADJ og_CCONJ skær_ADJ misundelse_NOUN fra_ADP sportsjournalisters_PROPN side_NOUN ,_PUNCT når_SCONJ de_PRON aldrig_ADV omtaler_VERB mesterskaber_NOUN i_ADP bodybuilding_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sportsjournalisters: NOUN | PROPN
+}
+
+Expected: {
+Såfremt_SCONJ virksomheden_NOUN ikke_ADV selv_PRON er_VERB i_ADP stand_NOUN til_ADP at_PART udføre_VERB de_DET krævede_VERB målinger_NOUN ,_PUNCT må_AUX den_PRON for_ADP egen_ADJ regning_NOUN søge_VERB bistand_NOUN hos_ADP private_ADJ eller_CCONJ offentlige_ADJ laboratorier_NOUN ._PUNCT}
+Predicted: {
+Såfremt_ADJ virksomheden_NOUN ikke_ADV selv_PRON er_AUX i_ADP stand_NOUN til_ADP at_PART udføre_VERB de_DET krævede_ADJ målinger_NOUN ,_PUNCT må_AUX den_PRON for_ADP egen_ADJ regning_NOUN søge_VERB bistand_NOUN hos_ADP private_ADJ eller_CCONJ offentlige_ADJ laboratorier_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Såfremt: SCONJ | ADJ
+er: VERB | AUX
+krævede: VERB | ADJ
+}
+
+Expected: {
+Jeg_PRON savner_VERB et_DET svar_NOUN på_ADP ,_PUNCT hvad_PRON det_PRON er_VERB ,_PUNCT Jens_PROPN Jørgensen_PROPN mener_VERB ,_PUNCT der_PRON bliver_AUX bedømt_VERB ensartet_ADV på_ADP landsplan_NOUN ._PUNCT}
+Predicted: {
+Jeg_PRON savner_VERB et_DET svar_NOUN på_ADP ,_PUNCT hvad_PRON det_PRON er_AUX ,_PUNCT Jens_PROPN Jørgensen_PROPN mener_VERB ,_PUNCT der_PRON bliver_VERB bedømt_VERB ensartet_ADV på_ADP landsplan_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+bliver: AUX | VERB
+}
+
+Expected: {
+Her_ADV møder_VERB han_PRON i_ADP semifinalen_NOUN polakken_NOUN Leszek_PROPN Olszewski_PROPN ,_PUNCT der_ADV er_AUX national_ADJ mester_NOUN og_CCONJ har_AUX vundet_VERB 123_NUM af_ADP 136_NUM kampe_NOUN ._PUNCT}
+Predicted: {
+Her_ADV møder_VERB han_PRON i_ADP semifinalen_NOUN polakken_NOUN Leszek_PROPN Olszewski_PROPN ,_PUNCT der_PRON er_AUX national_ADJ mester_NOUN og_CCONJ har_AUX vundet_VERB 123_NUM af_ADP 136_NUM kampe_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+Selve_ADJ operationen_NOUN foregår_VERB ved_ADP ,_PUNCT at_SCONJ man_PRON via_ADP en_DET såkaldt_ADJ artroskopi_NOUN kigger_VERB ind_ADV i_ADP Dronningens_NOUN knæ_NOUN for_ADP at_PART få_VERB et_DET overblik_NOUN over_ADP ,_PUNCT hvor_ADV stor_ADJ læsionen_NOUN er_VERB ._PUNCT}
+Predicted: {
+Selve_ADJ operationen_NOUN foregår_VERB ved_ADP ,_PUNCT at_SCONJ man_PRON via_ADP en_DET såkaldt_ADV artroskopi_NOUN kigger_VERB ind_ADV i_ADP Dronningens_NOUN knæ_NOUN for_ADP at_PART få_VERB et_DET overblik_NOUN over_ADP ,_PUNCT hvor_ADV stor_ADJ læsionen_NOUN er_AUX ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+såkaldt: ADJ | ADV
+er: VERB | AUX
+}
+
+Expected: {
+Han_PRON tør_AUX ikke_ADV bevæge_VERB hovedet_NOUN af_ADP frygt_NOUN for_ADP at_SCONJ den_PRON skal_AUX løsne_VERB sig_PRON ._PUNCT}
+Predicted: {
+Han_PRON tør_AUX ikke_ADV bevæge_ADJ hovedet_NOUN af_ADP frygt_NOUN for_ADP at_SCONJ den_PRON skal_AUX løsne_VERB sig_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bevæge: VERB | ADJ
+}
+
+Expected: {
+Og_CCONJ så_ADV var_VERB der_PRON altså_ADV løftet_NOUN om_ADP ,_PUNCT at_SCONJ de_PRON kunne_AUX komme_VERB gratis_ADV til_ADP fodboldlandskamp_NOUN resten_NOUN af_ADP deres_DET dage_NOUN ._PUNCT}
+Predicted: {
+Og_CCONJ så_ADV var_VERB der_PRON altså_ADV løftet_VERB om_ADP ,_PUNCT at_SCONJ de_PRON kunne_AUX komme_VERB gratis_ADV til_ADP fodboldlandskamp_NOUN resten_NOUN af_ADP deres_DET dage_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+løftet: NOUN | VERB
+}
+
+Expected: {
+Hvem_PRON de_PRON er_VERB ,_PUNCT vil_VERB han_PRON ikke_ADV ud_ADV med_ADP ,_PUNCT men_CCONJ der_PRON er_VERB tilsyneladende_ADV tale_NOUN om_ADP folk_NOUN ,_PUNCT der_PRON hverver_VERB lejesoldater_NOUN for_ADP en_DET amerikansk_ADJ organisation_NOUN ._PUNCT}
+Predicted: {
+Hvem_PRON de_PRON er_AUX ,_PUNCT vil_AUX han_PRON ikke_ADV ud_ADV med_ADP ,_PUNCT men_CCONJ der_PRON er_AUX tilsyneladende_ADV tale_ADJ om_ADP folk_NOUN ,_PUNCT der_PRON hverver_VERB lejesoldater_NOUN for_ADP en_DET amerikansk_ADJ organisation_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+vil: VERB | AUX
+er: VERB | AUX
+tale: NOUN | ADJ
+}
+
+Expected: {
+Har_VERB du_PRON nogle_DET gode_ADJ idéer_NOUN til_ADP ,_PUNCT hvor_ADV man_PRON kan_AUX elske_VERB ?_PUNCT}
+Predicted: {
+Har_AUX du_PRON nogle_DET gode_ADJ idéer_NOUN til_ADP ,_PUNCT hvor_ADV man_PRON kan_AUX elske_VERB ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Har: VERB | AUX
+}
+
+Expected: {
+Jeg_PRON regner_VERB selv_PRON med_ADP at_PART læse_VERB til_ADP ingeniør_NOUN -_PUNCT eller_CCONJ måske_ADV kemi_NOUN -_PUNCT og_CCONJ tage_VERB en_DET del_NOUN af_ADP uddannelsen_NOUN i_ADP et_DET andet_DET europæisk_ADJ land_NOUN ._PUNCT}
+Predicted: {
+Jeg_PRON regner_VERB selv_PRON med_ADP at_PART læse_VERB til_ADP ingeniør_PROPN -_PUNCT eller_CCONJ måske_ADV kemi_NOUN -_PUNCT og_CCONJ tage_VERB en_DET del_NOUN af_ADP uddannelsen_NOUN i_ADP et_DET andet_DET europæisk_ADJ land_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ingeniør: NOUN | PROPN
+}
+
+Expected: {
+Da_SCONJ leverancerne_NOUN af_ADP mælk_NOUN og_CCONJ grise_NOUN til_ADP mejerier_NOUN og_CCONJ slagterier_NOUN sker_VERB løbende_ADV året_NOUN rundt_ADV ,_PUNCT opstår_VERB der_PRON særlige_ADJ problemer_NOUN i_ADP sommerperioden_NOUN ,_PUNCT når_SCONJ medarbejderne_NOUN på_ADP forædlingsvirksomhederne_NOUN i_ADP stort_ADJ omfang_NOUN ønsker_VERB at_PART afvikle_VERB ferie_NOUN på_ADP samme_ADJ tid_NOUN ._PUNCT}
+Predicted: {
+Da_PROPN leverancerne_NOUN af_ADP mælk_NOUN og_CCONJ grise_NOUN til_ADP mejerier_NOUN og_CCONJ slagterier_NOUN sker_VERB løbende_VERB året_NOUN rundt_ADV ,_PUNCT opstår_VERB der_PRON særlige_ADJ problemer_NOUN i_ADP sommerperioden_NOUN ,_PUNCT når_SCONJ medarbejderne_NOUN på_ADP forædlingsvirksomhederne_NOUN i_ADP stort_ADJ omfang_NOUN ønsker_VERB at_PART afvikle_VERB ferie_NOUN på_ADP samme_ADJ tid_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Da: SCONJ | PROPN
+løbende: ADV | VERB
+}
+
+Expected: {
+Udfordringen_NOUN er_VERB ellers_ADV ikke_ADV til_ADP at_PART tage_VERB fejl_ADJ af_ADP ._PUNCT}
+Predicted: {
+Udfordringen_NOUN er_AUX ellers_ADV ikke_ADV til_ADP at_PART tage_VERB fejl_ADJ af_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Hvis_SCONJ nogen_PRON antyder_VERB ,_PUNCT at_SCONJ det_PRON ser_VERB idiotisk_ADJ ud_ADV ,_PUNCT synes_VERB de_PRON blot_ADV at_PART dreje_VERB fødderne_NOUN endnu_ADV længere_ADV indad_ADV ,_PUNCT indtil_SCONJ det_PRON formentlig_ADV gør_VERB ondt_ADV ._PUNCT}
+Predicted: {
+Hvis_SCONJ nogen_PRON antyder_VERB ,_PUNCT at_SCONJ det_PRON ser_VERB idiotisk_ADJ ud_ADV ,_PUNCT synes_VERB de_PRON blot_ADV at_PART dreje_VERB fødderne_NOUN endnu_ADV længere_ADV indad_ADV ,_PUNCT indtil_SCONJ det_DET formentlig_ADV gør_VERB ondt_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+Lone_PROPN Scherfig_PROPN ,_PUNCT der_PRON deltog_VERB i_ADP projekt_NOUN "_PUNCT Æterdrama_NOUN "_PUNCT i_ADP foråret_NOUN ,_PUNCT har_AUX instrueret_VERB hans_DET komedie_NOUN Hvor_ADV er_AUX det_PRON dog_ADV synd_ADJ for_ADP Dora_PROPN ._PUNCT}
+Predicted: {
+Lone_PROPN Scherfig_PROPN ,_PUNCT der_PRON deltog_VERB i_ADP projekt_NOUN "_PUNCT Æterdrama_PROPN "_PUNCT i_ADP foråret_NOUN ,_PUNCT har_AUX instrueret_VERB hans_DET komedie_NOUN Hvor_ADV er_AUX det_PRON dog_ADV synd_ADJ for_ADP Dora_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Æterdrama: NOUN | PROPN
+}
+
+Expected: {
+Som_ADP eksempel_NOUN anføres_VERB ,_PUNCT at_SCONJ hvis_SCONJ en_DET person_NOUN tjener_VERB 300.000_NUM kr._NOUN ,_PUNCT kan_AUX vedkommende_NOUN få_VERB uddannelsesstøtte_NOUN i_ADP én_DET måned_NOUN ._PUNCT}
+Predicted: {
+Som_ADP eksempel_NOUN anføres_VERB ,_PUNCT at_SCONJ hvis_SCONJ en_DET person_NOUN tjener_VERB 300.000_NUM kr._NOUN ,_PUNCT kan_AUX vedkommende_VERB få_ADJ uddannelsesstøtte_NOUN i_ADP én_DET måned_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vedkommende: NOUN | VERB
+få: VERB | ADJ
+}
+
+Expected: {
+Det_DET økonomiske_ADJ regnestykke_NOUN er_VERB forlængst_ADV på_ADP plads_NOUN :_PUNCT Der_PRON skal_AUX investeres_VERB 1,5_NUM til_ADP 2_NUM mia._NOUN kr._NOUN i_ADP en_DET sammenlægning_NOUN af_ADP Carlsberg_PROPN og_CCONJ Tuborgs_PROPN to_NUM københavnske_ADJ bryggerier_NOUN i_ADP ét_DET fælles_ADJ bryggeri_NOUN ._PUNCT}
+Predicted: {
+Det_DET økonomiske_ADJ regnestykke_NOUN er_AUX forlængst_ADV på_ADP plads_NOUN :_PUNCT Der_PRON skal_AUX investeres_VERB 1,5_NUM til_ADP 2_NUM mia._NOUN kr._NOUN i_ADP en_DET sammenlægning_NOUN af_ADP Carlsberg_PROPN og_CCONJ Tuborgs_PROPN to_NUM københavnske_ADJ bryggerier_NOUN i_ADP ét_DET fælles_ADJ bryggeri_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Vinder_VERB samfundet_NOUN kun_ADV lidt_ADJ ved_ADP denne_DET lov_NOUN ,_PUNCT taber_VERB de_DET gamle_ADJ og_CCONJ handicappede_ADJ så_ADV meget_ADV mere_ADJ ._PUNCT}
+Predicted: {
+Vinder_VERB samfundet_NOUN kun_ADV lidt_ADV ved_ADP denne_DET lov_NOUN ,_PUNCT taber_VERB de_DET gamle_ADJ og_CCONJ handicappede_ADJ så_ADV meget_ADV mere_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+lidt: ADJ | ADV
+}
+
+Expected: {
+"_PUNCT Misbruget_NOUN kom_VERB snigende_VERB ,_PUNCT for_CCONJ man_PRON bliver_VERB ikke_ADV alkoholiker_NOUN fra_ADP den_DET ene_ADJ dag_NOUN til_ADP den_PRON anden_PRON ._PUNCT}
+Predicted: {
+"_PUNCT Misbruget_DET kom_VERB snigende_VERB ,_PUNCT for_CCONJ man_PRON bliver_VERB ikke_ADV alkoholiker_NOUN fra_ADP den_DET ene_ADJ dag_NOUN til_ADP den_PRON anden_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Misbruget: NOUN | DET
+}
+
+Expected: {
+Kære_ADJ inderligt_ADV forvirrede_VERB}
+Predicted: {
+Kære_PROPN inderligt_ADV forvirrede_VERB}
+Errors: {
+Tok: Ref | Pred
+---------------
+Kære: ADJ | PROPN
+}
+
+Expected: {
+Ifølge_ADP en_DET gammel_ADJ aftale_NOUN indgået_VERB mellem_ADP Nordjyllands_PROPN Amt_NOUN og_CCONJ Bedemændenes_NOUN Landsforenings_NOUN nordjyske_ADJ kreds_NOUN har_AUX portørerne_NOUN nemlig_ADV haft_VERB lov_NOUN til_ADP at_PART afkræve_VERB bedemændene_NOUN et_DET beløb_NOUN på_ADP 70_NUM kr._NOUN pr._ADP lig_NOUN ,_PUNCT som_PRON de_PRON hjalp_VERB med_ADP at_PART løfte_VERB op_ADV i_ADP kisten_NOUN ._PUNCT}
+Predicted: {
+Ifølge_ADP en_DET gammel_ADJ aftale_NOUN indgået_VERB mellem_ADP Nordjyllands_PROPN Amt_PROPN og_CCONJ Bedemændenes_PROPN Landsforenings_PROPN nordjyske_PROPN kreds_NOUN har_AUX portørerne_NOUN nemlig_ADV haft_VERB lov_NOUN til_ADP at_PART afkræve_VERB bedemændene_NOUN et_DET beløb_NOUN på_ADP 70_NUM kr._NOUN pr._ADP lig_NOUN ,_PUNCT som_PRON de_PRON hjalp_VERB med_ADP at_PART løfte_VERB op_ADV i_ADP kisten_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Amt: NOUN | PROPN
+Bedemændenes: NOUN | PROPN
+Landsforenings: NOUN | PROPN
+nordjyske: ADJ | PROPN
+}
+
+Expected: {
+Skal_AUX vi_PRON ikke_ADV for_ADP en_DET stund_NOUN lade_VERB Woody_PROPN Allens_PROPN hærgede_ADJ privatliv_NOUN være_VERB i_ADP fred_NOUN og_CCONJ i_ADP stedet_NOUN beskæftige_VERB os_PRON en_DET smule_NOUN med_ADP hans_DET film_NOUN "_PUNCT Skygger_NOUN og_CCONJ tåge_NOUN "_PUNCT ,_PUNCT der_PRON på_ADP næste_ADJ fredag_NOUN får_VERB premiere_NOUN i_ADP Dagmar_PROPN Teatret_NOUN i_ADP København_PROPN og_CCONJ Biografen_NOUN i_ADP Århus_PROPN ?_PUNCT}
+Predicted: {
+Skal_AUX vi_PRON ikke_ADV for_ADP en_DET stund_NOUN lade_VERB Woody_PROPN Allens_PROPN hærgede_PROPN privatliv_NOUN være_VERB i_ADP fred_NOUN og_CCONJ i_ADP stedet_NOUN beskæftige_VERB os_PRON en_DET smule_NOUN med_ADP hans_DET film_NOUN "_PUNCT Skygger_PROPN og_CCONJ tåge_PROPN "_PUNCT ,_PUNCT der_PRON på_ADP næste_ADJ fredag_NOUN får_VERB premiere_NOUN i_ADP Dagmar_PROPN Teatret_NOUN i_ADP København_PROPN og_CCONJ Biografen_PROPN i_ADP Århus_PROPN ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hærgede: ADJ | PROPN
+Skygger: NOUN | PROPN
+tåge: NOUN | PROPN
+Biografen: NOUN | PROPN
+}
+
+Expected: {
+Fielfraz_PROPN er_AUX skæv_ADJ i_ADP sin_DET rockmusikalske_ADJ skridtgang_NOUN ,_PUNCT såvel_ADV som_ADP i_ADP sin_DET trodsige_ADJ ,_PUNCT drengede_ADJ attitude_NOUN ._PUNCT}
+Predicted: {
+Fielfraz_PROPN er_AUX skæv_ADJ i_ADP sin_DET rockmusikalske_ADJ skridtgang_NOUN ,_PUNCT såvel_ADV som_PRON i_ADP sin_DET trodsige_ADJ ,_PUNCT drengede_ADJ attitude_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | PRON
+}
+
+Expected: {
+De_DET næste_ADJ gange_NOUN havde_AUX hun_PRON set_VERB på_ADP ham_PRON ._PUNCT}
+Predicted: {
+De_DET næste_ADJ gange_NOUN havde_VERB hun_PRON set_VERB på_ADP ham_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+}
+
+Expected: {
+-_PUNCT Ingen_DET armeniere_NOUN blev_AUX dræbt_VERB i_ADP Kirovabad_PROPN ._PUNCT}
+Predicted: {
+-_PUNCT Ingen_DET armeniere_NOUN blev_VERB dræbt_VERB i_ADP Kirovabad_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+blev: AUX | VERB
+}
+
+Expected: {
+Der_PRON er_VERB tre_NUM ting_NOUN ,_PUNCT der_PRON synes_VERB at_PART kunne_AUX dække_VERB motivet_NOUN ._PUNCT}
+Predicted: {
+Der_PRON er_AUX tre_NUM ting_NOUN ,_PUNCT der_PRON synes_VERB at_PART kunne_AUX dække_VERB motivet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Dispositionerne_NOUN omkring_ADP placering_NOUN af_ADP træningslejren_NOUN i_ADP Paris_PROPN ,_PUNCT valget_NOUN af_ADP middelmådige_ADJ sparringspartnere_NOUN op_ADV til_ADP den_DET første_ADJ kamp_NOUN mod_ADP AC_PROPN Torino_PROPN og_CCONJ en_DET farceagtige_ADJ benyttelse_NOUN -_PUNCT eller_CCONJ mangel_NOUN på_ADP samme_ADJ -_PUNCT af_ADP lejesvenden_NOUN Ole_PROPN Kjær_PROPN ,_PUNCT har_AUX unægtelig_ADV båret_VERB mere_ADJ præg_NOUN af_ADP amatørisme_NOUN og_CCONJ discountløsninger_NOUN ,_PUNCT end_ADP af_ADP målrettet_ADJ ,_PUNCT sportslig_ADJ professionalisme_NOUN ._PUNCT}
+Predicted: {
+Dispositionerne_NOUN omkring_ADP placering_NOUN af_ADP træningslejren_NOUN i_ADP Paris_PROPN ,_PUNCT valget_NOUN af_ADP middelmådige_ADJ sparringspartnere_NOUN op_ADV til_ADP den_DET første_ADJ kamp_NOUN mod_ADP AC_PROPN Torino_PROPN og_CCONJ en_DET farceagtige_ADJ benyttelse_NOUN -_PUNCT eller_CCONJ mangel_NOUN på_ADP samme_ADJ -_PUNCT af_ADP lejesvenden_NOUN Ole_PROPN Kjær_PROPN ,_PUNCT har_AUX unægtelig_ADV båret_VERB mere_ADV præg_NOUN af_ADP amatørisme_NOUN og_CCONJ discountløsninger_NOUN ,_PUNCT end_ADP af_ADP målrettet_NOUN ,_PUNCT sportslig_ADJ professionalisme_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mere: ADJ | ADV
+målrettet: ADJ | NOUN
+}
+
+Expected: {
+Og_CCONJ så_ADV kan_AUX vi_PRON trods_ADP alt_ADJ beholde_VERB det_DET system_NOUN ,_PUNCT som_PRON gør_VERB ,_PUNCT at_SCONJ der_PRON ikke_ADV er_VERB tiggere_NOUN og_CCONJ hjemløse_ADJ på_ADP gaderne_NOUN i_ADP det_DET omfang_NOUN man_PRON ser_VERB i_ADP storbyerne_NOUN andre_DET steder_NOUN i_ADP EF_PROPN og_CCONJ Europa_PROPN i_ADP det_DET hele_NOUN taget_VERB ._PUNCT}
+Predicted: {
+Og_CCONJ så_ADV kan_AUX vi_PRON trods_ADP alt_ADJ beholde_VERB det_DET system_NOUN ,_PUNCT som_PRON gør_VERB ,_PUNCT at_SCONJ der_PRON ikke_ADV er_AUX tiggere_NOUN og_CCONJ hjemløse_ADJ på_ADP gaderne_NOUN i_ADP det_DET omfang_NOUN man_PRON ser_VERB i_ADP storbyerne_NOUN andre_DET steder_NOUN i_ADP EF_PROPN og_CCONJ Europa_PROPN i_ADP det_DET hele_NOUN taget_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Det_PRON lød_VERB bare_ADV ikke_ADV som_ADP Chic_PROPN ._PUNCT}
+Predicted: {
+Det_DET lød_VERB bare_ADV ikke_ADV som_ADP Chic_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+}
+
+Expected: {
+Nej_INTJ ,_PUNCT nej_INTJ ,_PUNCT det_PRON måtte_VERB statsfjernsynet_NOUN længere_ADV ud_ADV på_ADP landet_NOUN med_ADP ._PUNCT}
+Predicted: {
+Nej_INTJ ,_PUNCT nej_INTJ ,_PUNCT det_PRON måtte_AUX statsfjernsynet_NOUN længere_ADV ud_ADV på_ADP landet_NOUN med_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+måtte: VERB | AUX
+}
+
+Expected: {
+Stemmningen_X er_AUX helt_ADV tydelig_ADV}
+Predicted: {
+Stemmningen_NOUN er_AUX helt_ADV tydelig_ADV}
+Errors: {
+Tok: Ref | Pred
+---------------
+Stemmningen: X | NOUN
+}
+
+Expected: {
+Skuespilleren_NOUN og_CCONJ regissøren_NOUN Maximillian_PROPN Schell_PROPN ,_PUNCT der_PRON spillede_VERB sammen_ADV med_ADP hende_PRON i_ADP filmen_NOUN "_PUNCT Dommen_NOUN i_ADP Nürnberg_PROPN "_PUNCT ,_PUNCT sagde_VERB ,_PUNCT da_SCONJ kisten_NOUN langsomt_ADV blev_AUX sænket_VERB i_ADP jorden_NOUN ,_PUNCT "_PUNCT Kære_ADJ Marlene_PROPN -_PUNCT velkommen_ADJ hjem_ADV ._PUNCT Jeg_PRON tror_VERB ,_PUNCT du_PRON ville_AUX have_AUX elsket_VERB de_DET mange_ADJ bifald_NOUN "_PUNCT ,_PUNCT med_ADP adresse_NOUN til_ADP de_DET godt_ADV tusinde_NOUN mennesker_NOUN ,_PUNCT der_PRON uden_ADV for_ADP kirkegården_NOUN havde_AUX klappet_VERB taktfast_ADV ,_PUNCT da_SCONJ cadillac'en_NOUN med_ADP hendes_DET kiste_NOUN ombord_ADV defilerede_VERB forbi_ADV ._PUNCT}
+Predicted: {
+Skuespilleren_NOUN og_CCONJ regissøren_NOUN Maximillian_PROPN Schell_PROPN ,_PUNCT der_PRON spillede_VERB sammen_ADV med_ADP hende_PRON i_ADP filmen_NOUN "_PUNCT Dommen_PROPN i_ADP Nürnberg_PROPN "_PUNCT ,_PUNCT sagde_VERB ,_PUNCT da_SCONJ kisten_NOUN langsomt_ADV blev_AUX sænket_VERB i_ADP jorden_NOUN ,_PUNCT "_PUNCT Kære_PROPN Marlene_PROPN -_PUNCT velkommen_ADJ hjem_ADV ._PUNCT Jeg_PRON tror_VERB ,_PUNCT du_PRON ville_AUX have_AUX elsket_VERB de_DET mange_ADJ bifald_NOUN "_PUNCT ,_PUNCT med_ADP adresse_NOUN til_ADP de_DET godt_ADV tusinde_NOUN mennesker_NOUN ,_PUNCT der_PRON uden_ADV for_ADP kirkegården_NOUN havde_AUX klappet_VERB taktfast_ADV ,_PUNCT da_SCONJ cadillac'en_NOUN med_ADP hendes_DET kiste_NOUN ombord_ADV defilerede_VERB forbi_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Dommen: NOUN | PROPN
+Kære: ADJ | PROPN
+}
+
+Expected: {
+PARADIS_NOUN}
+Predicted: {
+PARADIS_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+PARADIS: NOUN | PROPN
+}
+
+Expected: {
+Nordmanden_NOUN går_VERB bare_ADV ind_ADV og_CCONJ spiller_VERB ,_PUNCT mens_SCONJ danskeren_NOUN spørger_VERB :_PUNCT Skal_AUX vi_PRON ikke_ADV lige_ADV holde_VERB en_DET pause_NOUN ,_PUNCT så_SCONJ vi_PRON kan_AUX snakke_VERB om_ADP det_PRON først_ADV !_PUNCT}
+Predicted: {
+Nordmanden_PROPN går_VERB bare_ADV ind_ADV og_CCONJ spiller_VERB ,_PUNCT mens_SCONJ danskeren_NOUN spørger_VERB :_PUNCT Skal_AUX vi_PRON ikke_ADV lige_ADV holde_VERB en_DET pause_NOUN ,_PUNCT så_SCONJ vi_PRON kan_AUX snakke_VERB om_ADP det_PRON først_ADV !_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Nordmanden: NOUN | PROPN
+}
+
+Expected: {
+Måske_ADV hænger_VERB det_PRON sammen_ADV med_ADP ,_PUNCT at_SCONJ vi_PRON har_VERB det_PRON koldere_ADV ,_PUNCT sidder_VERB mere_ADV ind_X og_CCONJ bliver_VERB deprimerede_ADJ om_ADP vinteren_NOUN ._PUNCT}
+Predicted: {
+Måske_ADV hænger_VERB det_PRON sammen_ADV med_ADP ,_PUNCT at_SCONJ vi_PRON har_AUX det_PRON koldere_ADV ,_PUNCT sidder_VERB mere_ADV ind_X og_CCONJ bliver_VERB deprimerede_ADJ om_ADP vinteren_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Her_ADV står_VERB et_DET helt_ADJ sambaorkester_NOUN og_CCONJ spiller_VERB ._PUNCT}
+Predicted: {
+Her_ADV står_VERB et_DET helt_ADV sambaorkester_NOUN og_CCONJ spiller_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+helt: ADJ | ADV
+}
+
+Expected: {
+Halver_VERB auberginer_NOUN og_CCONJ skær_VERB halvdelene_NOUN igennem_ADV på_ADP langs_ADV og_CCONJ i_ADP stykker_NOUN på_ADP tværs_ADV ._PUNCT}
+Predicted: {
+Halver_PROPN auberginer_NOUN og_CCONJ skær_VERB halvdelene_NOUN igennem_ADV på_ADP langs_ADV og_CCONJ i_ADP stykker_NOUN på_ADP tværs_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Halver: VERB | PROPN
+}
+
+Expected: {
+Selvfølgelig_ADV er_AUX det_PRON Lars_PROPN Olsens_PROPN plads_NOUN ,_PUNCT men_CCONJ det_PRON er_AUX godt_ADJ at_PART have_VERB noget_PRON at_PART kæmpe_VERB for_ADP ._PUNCT}
+Predicted: {
+Selvfølgelig_ADV er_AUX det_PRON Lars_PROPN Olsens_PROPN plads_NOUN ,_PUNCT men_CCONJ det_PRON er_AUX godt_ADJ at_PART have_VERB noget_PRON at_PART kæmpe_VERB for_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: ADP | ADV
+}
+
+Expected: {
+Det_PRON vrimler_VERB med_ADP statistik_NOUN også_ADV fra_ADP andre_DET lande_NOUN om_ADP skiftende_VERB hastighedsbegrænsninger_NOUN og_CCONJ ulykkestal_NOUN ,_PUNCT men_CCONJ noget_DET klart_ADJ svar_NOUN gives_VERB ikke_ADV ._PUNCT}
+Predicted: {
+Det_DET vrimler_VERB med_ADP statistik_NOUN også_ADV fra_ADP andre_DET lande_NOUN om_ADP skiftende_VERB hastighedsbegrænsninger_NOUN og_CCONJ ulykkestal_NOUN ,_PUNCT men_CCONJ noget_DET klart_ADJ svar_NOUN gives_VERB ikke_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+}
+
+Expected: {
+Til_ADP diabetikere_NOUN er_AUX det_PRON også_ADV ideelt_ADJ ,_PUNCT da_SCONJ dette_PRON i_ADP modsætning_NOUN til_ADP størstedelen_NOUN af_ADP hostemedicin_NOUN er_VERB helt_ADV uden_ADP sukker_NOUN ._PUNCT}
+Predicted: {
+Til_ADP diabetikere_NOUN er_AUX det_PRON også_ADV ideelt_ADJ ,_PUNCT da_SCONJ dette_PRON i_ADP modsætning_NOUN til_ADP størstedelen_NOUN af_ADP hostemedicin_NOUN er_AUX helt_ADV uden_ADP sukker_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Milliontab_NOUN}
+Predicted: {
+Milliontab_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+Milliontab: NOUN | PROPN
+}
+
+Expected: {
+Den_DET ene_ADJ ,_PUNCT i_ADP nøddetræ_NOUN med_ADP svungne_VERB sider_NOUN og_CCONJ front_NOUN ,_PUNCT er_AUX vurderet_VERB til_ADP 35.000_NUM kr._NOUN ,_PUNCT blandt_ADP andet_PRON fordi_SCONJ underdelen_NOUN er_VERB af_ADP nyere_ADJ dato_NOUN ._PUNCT}
+Predicted: {
+Den_DET ene_ADJ ,_PUNCT i_ADP nøddetræ_NOUN med_ADP svungne_ADJ sider_NOUN og_CCONJ front_NOUN ,_PUNCT er_AUX vurderet_VERB til_ADP 35.000_NUM kr._NOUN ,_PUNCT blandt_ADP andet_PRON fordi_SCONJ underdelen_NOUN er_VERB af_ADP nyere_ADJ dato_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+svungne: VERB | ADJ
+}
+
+Expected: {
+Monoetylenglycol_NOUN er_AUX normalt_ADV grønt_ADJ eller_CCONJ blåt_ADJ ,_PUNCT og_CCONJ giver_VERB ved_ADP en_DET 50_NUM %_SYM blanding_NOUN med_ADP vand_NOUN en_DET frostsikring_NOUN på_ADP ca._ADV minus_ADV 40_NUM grader_NOUN ._PUNCT}
+Predicted: {
+Monoetylenglycol_PROPN er_AUX normalt_ADV grønt_ADJ eller_CCONJ blåt_ADJ ,_PUNCT og_CCONJ giver_VERB ved_ADP en_DET 50_NUM %_SYM blanding_NOUN med_ADP vand_NOUN en_DET frostsikring_NOUN på_ADP ca._ADV minus_ADV 40_NUM grader_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Monoetylenglycol: NOUN | PROPN
+}
+
+Expected: {
+HVA'_PRON MED_ADP AVISERNE_NOUN ?_PUNCT}
+Predicted: {
+HVA'_PROPN MED_PROPN AVISERNE_PROPN ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+HVA': PRON | PROPN
+MED: ADP | PROPN
+AVISERNE: NOUN | PROPN
+}
+
+Expected: {
+Nu_ADV havde_AUX hun_PRON lige_ADV måttet_AUX hærde_VERB sig_PRON for_ADP at_PART kunne_AUX tage_VERB en_DET afvisning_NOUN uden_ADP at_PART lade_VERB sig_PRON knuse_VERB ._PUNCT}
+Predicted: {
+Nu_ADV havde_VERB hun_PRON lige_ADV måttet_AUX hærde_VERB sig_PRON for_ADP at_PART kunne_AUX tage_VERB en_DET afvisning_NOUN uden_ADP at_PART lade_VERB sig_PRON knuse_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+}
+
+Expected: {
+NÆPPE_ADV FLERTAL_NOUN}
+Predicted: {
+NÆPPE_ADJ FLERTAL_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+NÆPPE: ADV | ADJ
+}
+
+Expected: {
+"_PUNCT Tak_NOUN ,_PUNCT nu_ADV ved_VERB jeg_PRON selv_PRON ,_PUNCT hvad_PRON jeg_PRON skal_AUX have_VERB ,_PUNCT "_PUNCT sagde_VERB pistolmanden_NOUN og_CCONJ tog_VERB en_DET plomberet_VERB postsæk_NOUN og_CCONJ en_DET værdipakke_NOUN ud_ADV af_ADP bilen_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT Tak_PROPN ,_PUNCT nu_ADV ved_VERB jeg_PRON selv_PRON ,_PUNCT hvad_PRON jeg_PRON skal_AUX have_VERB ,_PUNCT "_PUNCT sagde_VERB pistolmanden_NOUN og_CCONJ tog_VERB en_DET plomberet_VERB postsæk_NOUN og_CCONJ en_DET værdipakke_NOUN ud_ADV af_ADP bilen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tak: NOUN | PROPN
+}
+
+Expected: {
+Førstehjælperne_NOUN tager_VERB sig_PRON af_ADP at_PART punkterede_X vabler_NOUN ,_PUNCT plejer_VERB brandsår_NOUN og_CCONJ får_VERB dæmpet_VERB galoperende_VERB muskler_NOUN til_ADP ro_NOUN ._PUNCT}
+Predicted: {
+Førstehjælperne_NOUN tager_VERB sig_PRON af_ADP at_PART punkterede_X vabler_NOUN ,_PUNCT plejer_VERB brandsår_NOUN og_CCONJ får_VERB dæmpet_DET galoperende_VERB muskler_NOUN til_ADP ro_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+dæmpet: VERB | DET
+}
+
+Expected: {
+Sørg_VERB ikke_ADV over_ADP ,_PUNCT at_SCONJ roserne_NOUN har_VERB torne_NOUN ,_PUNCT men_CCONJ glæd_VERB dig_PRON over_ADP ,_PUNCT at_SCONJ tornene_NOUN har_VERB roser_NOUN ._PUNCT}
+Predicted: {
+Sørg_VERB ikke_ADV over_ADP ,_PUNCT at_SCONJ roserne_NOUN har_AUX torne_NOUN ,_PUNCT men_CCONJ glæd_VERB dig_PRON over_ADP ,_PUNCT at_SCONJ tornene_NOUN har_AUX roser_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+har: VERB | AUX
+}
+
+Expected: {
+Jens_PROPN Chr._PROPN Birch_PROPN ,_PUNCT kommunaldirektør_NOUN ,_PUNCT forlader_VERB 1._ADJ oktober_NOUN Rødovre_PROPN kommune_NOUN for_ADP at_PART blive_VERB administrerende_VERB direktør_NOUN for_ADP forsikringsselskabet_NOUN Forenede_VERB Gruppeliv_NOUN ._PUNCT}
+Predicted: {
+Jens_PROPN Chr._PROPN Birch_PROPN ,_PUNCT kommunaldirektør_NOUN ,_PUNCT forlader_VERB 1._ADJ oktober_NOUN Rødovre_PROPN kommune_NOUN for_ADP at_PART blive_AUX administrerende_VERB direktør_NOUN for_ADP forsikringsselskabet_NOUN Forenede_VERB Gruppeliv_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+blive: VERB | AUX
+}
+
+Expected: {
+Aktien_NOUN blev_AUX i_ADP aftes_NOUN noteret_VERB på_ADP sit_DET næstlaveste_ADJ niveau_NOUN ,_PUNCT nemlig_ADV på_ADP kurs_NOUN 156_NUM ._PUNCT}
+Predicted: {
+Aktien_PROPN blev_AUX i_ADP aftes_NOUN noteret_VERB på_ADP sit_DET næstlaveste_ADJ niveau_NOUN ,_PUNCT nemlig_ADV på_ADP kurs_NOUN 156_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Aktien: NOUN | PROPN
+}
+
+Expected: {
+Væksten_NOUN i_ADP verdenshandelen_NOUN faldt_VERB i_ADP 1991_NUM ._PUNCT}
+Predicted: {
+Væksten_PROPN i_ADP verdenshandelen_NOUN faldt_VERB i_ADP 1991_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Væksten: NOUN | PROPN
+}
+
+Expected: {
+Morgenmaden_NOUN er_AUX fantastisk_ADJ ._PUNCT}
+Predicted: {
+Morgenmaden_PROPN er_AUX fantastisk_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Morgenmaden: NOUN | PROPN
+}
+
+Expected: {
+Det_PRON ender_VERB nok_ADV med_ADP ,_PUNCT at_SCONJ jeg_PRON går_VERB imod_ADP hele_ADJ molevitten_NOUN ._PUNCT}
+Predicted: {
+Det_DET ender_VERB nok_ADV med_ADP ,_PUNCT at_SCONJ jeg_PRON går_VERB imod_ADP hele_ADJ molevitten_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+}
+
+Expected: {
+Siden_ADV har_AUX den_PRON blandt_ADP andet_PRON været_AUX sommerrestaurant_NOUN ._PUNCT}
+Predicted: {
+Siden_PROPN har_AUX den_PRON blandt_ADP andet_PRON været_AUX sommerrestaurant_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Siden: ADV | PROPN
+}
+
+Expected: {
+Politiet_NOUN kan_AUX ikke_ADV forklare_VERB den_DET voldsomme_ADJ stigning_NOUN i_ADP antallet_NOUN af_ADP narkodødsfald_NOUN ,_PUNCT men_CCONJ nøjes_VERB med_ADP at_PART fastslå_VERB ,_PUNCT at_SCONJ der_PRON ingen_DET sammenhæng_NOUN er_VERB mellem_ADP dødsfaldene_NOUN og_CCONJ det_PRON ,_PUNCT at_SCONJ alle_ADJ ofrene_NOUN i_ADP årevis_ADV havde_AUX været_AUX misbrugere_NOUN af_ADP euforiserende_ADJ stoffer_NOUN ,_PUNCT skriver_VERB Fyens_PROPN Stiftstidende.(RB)_X}
+Predicted: {
+Politiet_NOUN kan_AUX ikke_ADV forklare_VERB den_DET voldsomme_ADJ stigning_NOUN i_ADP antallet_NOUN af_ADP narkodødsfald_NOUN ,_PUNCT men_CCONJ nøjes_VERB med_ADP at_PART fastslå_VERB ,_PUNCT at_SCONJ der_PRON ingen_DET sammenhæng_NOUN er_AUX mellem_ADP dødsfaldene_NOUN og_CCONJ det_PRON ,_PUNCT at_SCONJ alle_ADJ ofrene_NOUN i_ADP årevis_ADV havde_AUX været_AUX misbrugere_NOUN af_ADP euforiserende_ADJ stoffer_NOUN ,_PUNCT skriver_VERB Fyens_PROPN Stiftstidende.(RB)_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+Stiftstidende.(RB): X | PROPN
+}
+
+Expected: {
+Men_CCONJ jeg_PRON kan_VERB godt_ADV lidt_ADV at_PART arbejde_VERB ved_ADP drejebænk_NOUN og_CCONJ fræser_NOUN ,_PUNCT hvor_ADV det_PRON gælder_VERB om_ADP at_PART være_AUX nøjagtig_ADJ ,_PUNCT så_SCONJ produktet_NOUN bliver_VERB perfekt_ADJ ,_PUNCT "_PUNCT siger_VERB hun_PRON ._PUNCT}
+Predicted: {
+Men_CCONJ jeg_PRON kan_AUX godt_ADV lidt_ADV at_PART arbejde_VERB ved_ADP drejebænk_NOUN og_CCONJ fræser_NOUN ,_PUNCT hvor_ADV det_PRON gælder_VERB om_ADP at_PART være_AUX nøjagtig_ADJ ,_PUNCT så_SCONJ produktet_NOUN bliver_VERB perfekt_ADJ ,_PUNCT "_PUNCT siger_VERB hun_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kan: VERB | AUX
+}
+
+Expected: {
+Og_CCONJ her_ADV er_VERB det_PRON ligesom_SCONJ med_ADP udregningen_NOUN af_ADP husleje_NOUN ,_PUNCT vi_PRON tager_VERB det_DET hele_ADJ med_ADV ._PUNCT}
+Predicted: {
+Og_CCONJ her_ADV er_AUX det_PRON ligesom_SCONJ med_ADP udregningen_NOUN af_ADP husleje_NOUN ,_PUNCT vi_PRON tager_VERB det_DET hele_ADJ med_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Dette_PRON giver_VERB mindelser_NOUN om_ADP den_DET træghed_NOUN over_ADV for_ADP nydannelser_NOUN på_ADP miljøområdet_NOUN ,_PUNCT der_PRON i_ADP mange_ADJ år_NOUN prægede_VERB den_DET borgerlige_ADJ side_NOUN i_ADP folketingssalen_NOUN ,_PUNCT som_PRON først_ADV på_ADP et_DET sent_ADJ tidspunkt_NOUN måtte_AUX erkende_VERB ,_PUNCT at_SCONJ vanetænkningen_NOUN måtte_AUX erstattes_VERB af_ADP noget_DET nyt_ADJ ._PUNCT}
+Predicted: {
+Dette_PRON giver_VERB mindelser_NOUN om_ADP den_DET træghed_NOUN over_ADV for_ADP nydannelser_NOUN på_ADP miljøområdet_NOUN ,_PUNCT der_PRON i_ADP mange_ADJ år_NOUN prægede_VERB den_DET borgerlige_ADJ side_NOUN i_ADP folketingssalen_NOUN ,_PUNCT som_PRON først_ADV på_ADP et_DET sent_ADV tidspunkt_NOUN måtte_AUX erkende_VERB ,_PUNCT at_SCONJ vanetænkningen_NOUN måtte_AUX erstattes_VERB af_ADP noget_DET nyt_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sent: ADJ | ADV
+}
+
+Expected: {
+Men_CCONJ det_PRON var_VERB nu_ADV for_ADP at_PART lave_VERB en_DET aftale_NOUN med_ADP en_DET veninde_NOUN om_ADP ,_PUNCT at_SCONJ de_PRON skulle_VERB på_ADP diskotek_NOUN ._PUNCT}
+Predicted: {
+Men_CCONJ det_PRON var_AUX nu_ADV for_ADP at_PART lave_VERB en_DET aftale_NOUN med_ADP en_DET veninde_NOUN om_ADP ,_PUNCT at_SCONJ de_PRON skulle_VERB på_ADP diskotek_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+Alle_ADJ ved_VERB ,_PUNCT hvor_ADV svært_ADJ det_PRON kan_AUX være_VERB at_PART få_VERB af_ADV ,_PUNCT men_CCONJ hvis_SCONJ du_PRON køber_VERB en_DET dåse_NOUN Motorrens_NOUN på_ADP en_DET tankstation_NOUN og_CCONJ sprayer_VERB på_ADP oliepletten_NOUN inden_ADP vask_NOUN ,_PUNCT bliver_VERB bukserne_NOUN fine_ADJ igen_ADV ._PUNCT}
+Predicted: {
+Alle_ADJ ved_VERB ,_PUNCT hvor_ADV svært_ADJ det_PRON kan_AUX være_VERB at_PART få_VERB af_ADP ,_PUNCT men_CCONJ hvis_SCONJ du_PRON køber_VERB en_DET dåse_DET Motorrens_NOUN på_ADP en_DET tankstation_NOUN og_CCONJ sprayer_VERB på_ADP oliepletten_NOUN inden_ADP vask_NOUN ,_PUNCT bliver_VERB bukserne_NOUN fine_ADJ igen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+af: ADV | ADP
+dåse: NOUN | DET
+}
+
+Expected: {
+I_ADP 1970'erne_NOUN ansås_VERB naturvidenskaben_NOUN for_ADP at_PART være_AUX en_PRON af_ADP det_DET bestående_VERB samfunds_NOUN støtter_NOUN -_PUNCT kernefysik_NOUN førte_VERB til_ADP kernekraft_NOUN og_CCONJ atomvåben_NOUN ,_PUNCT molekylærbiologi_NOUN til_ADP genmanipulation_NOUN ,_PUNCT sociobiologi_NOUN til_ADP kønsdiskriminering_NOUN og_CCONJ racisme_NOUN ,_PUNCT osv._ADV ._PUNCT}
+Predicted: {
+I_ADP 1970'erne_NOUN ansås_NOUN naturvidenskaben_PROPN for_ADP at_PART være_AUX en_PRON af_ADP det_DET bestående_VERB samfunds_NOUN støtter_NOUN -_PUNCT kernefysik_NOUN førte_VERB til_ADP kernekraft_NOUN og_CCONJ atomvåben_NOUN ,_PUNCT molekylærbiologi_NOUN til_ADP genmanipulation_NOUN ,_PUNCT sociobiologi_NOUN til_ADP kønsdiskriminering_NOUN og_CCONJ racisme_NOUN ,_PUNCT osv._ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ansås: VERB | NOUN
+naturvidenskaben: NOUN | PROPN
+}
+
+Expected: {
+Men_CCONJ selv_ADV om_ADP Michael_PROPN Christiansen_PROPN sidenhen_ADV ved_ADP flere_ADJ lejligheder_NOUN talte_VERB med_ADP sine_DET tidligere_ADJ kolleger_NOUN bl.a._ADV direktøren_NOUN for_ADP Direktoratet_NOUN for_ADP Udlændinge_NOUN ,_PUNCT Frederik_PROPN Schydt_PROPN ,_PUNCT om_ADP Tamilsagen_NOUN ,_PUNCT gav_VERB de_PRON aldrig_ADV så_ADV detaljeret_ADJ udtryk_NOUN for_ADP deres_DET bekymring_NOUN ,_PUNCT forklarede_VERB departementschefen_NOUN ._PUNCT}
+Predicted: {
+Men_CCONJ selv_ADV om_ADP Michael_PROPN Christiansen_PROPN sidenhen_ADV ved_ADP flere_ADJ lejligheder_NOUN talte_VERB med_ADP sine_DET tidligere_ADJ kolleger_NOUN bl.a._ADV direktøren_NOUN for_ADP Direktoratet_NOUN for_ADP Udlændinge_PROPN ,_PUNCT Frederik_PROPN Schydt_PROPN ,_PUNCT om_ADP Tamilsagen_PROPN ,_PUNCT gav_VERB de_PRON aldrig_ADV så_ADV detaljeret_DET udtryk_NOUN for_ADP deres_DET bekymring_NOUN ,_PUNCT forklarede_VERB departementschefen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Udlændinge: NOUN | PROPN
+Tamilsagen: NOUN | PROPN
+detaljeret: ADJ | DET
+}
+
+Expected: {
+Og_CCONJ det_PRON behøver_VERB de_PRON heller_ADV ikke_ADV ._PUNCT}
+Predicted: {
+Og_CCONJ det_DET behøver_VERB de_PRON heller_ADV ikke_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+Og_CCONJ så_ADV satser_VERB vi_PRON på_ADP ,_PUNCT at_SCONJ befolkningen_NOUN allerede_ADV er_VERB godt_ADV og_CCONJ grundigt_ADV vaccineret_VERB mod_ADP både_ADV Uffe_PROPN Ellemann_PROPN og_CCONJ Jacques_PROPN Delors_PROPN ._PUNCT}
+Predicted: {
+Og_CCONJ så_ADV satser_VERB vi_PRON på_ADP ,_PUNCT at_SCONJ befolkningen_NOUN allerede_ADV er_AUX godt_ADV og_CCONJ grundigt_ADV vaccineret_VERB mod_ADP både_ADV Uffe_PROPN Ellemann_PROPN og_CCONJ Jacques_PROPN Delors_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Otto_PROPN Petersen_PROPN var_AUX med_ADV til_ADP at_PART oprette_VERB Dansk_ADJ Faldskærms_NOUN Union_NOUN ._PUNCT}
+Predicted: {
+Otto_PROPN Petersen_PROPN var_AUX med_ADV til_ADP at_PART oprette_VERB Dansk_ADJ Faldskærms_NOUN Union_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Union: NOUN | PROPN
+}
+
+Expected: {
+Det_PRON er_AUX dagen_NOUN derpå_ADV ,_PUNCT og_CCONJ en_DET Stockhausen_PROPN i_ADP åbenlyst_ADJ pragthumør_NOUN over_ADP forløbet_NOUN af_ADP gårsdagens_NOUN premiere_NOUN -_PUNCT og_CCONJ åbenbart_ADV godt_ADV selv_PRON klar_ADJ over_ADP ,_PUNCT at_SCONJ han_PRON også_ADV visuelt_ADV lever_VERB op_ADV til_ADP sit_DET ry_NOUN som_ADP ørnen_NOUN i_ADP den_DET europæiske_ADJ kompositionsmusiks_NOUN andegår_ADV -_PUNCT har_AUX skruet_VERB den_DET helt_ADV store_ADJ charme_NOUN på_ADV over_ADV for_ADP det_DET hold_NOUN tilrejsende_ADJ danske_ADJ musikstuderende_NOUN ,_PUNCT der_PRON har_AUX fulgt_VERB den_DET foregående_ADJ uges_NOUN prøver_NOUN på_ADP "_PUNCT Dienstag_PROPN "_PUNCT ._PUNCT}
+Predicted: {
+Det_PRON er_AUX dagen_NOUN derpå_ADV ,_PUNCT og_CCONJ en_DET Stockhausen_PROPN i_ADP åbenlyst_ADV pragthumør_NOUN over_ADP forløbet_NOUN af_ADP gårsdagens_NOUN premiere_NOUN -_PUNCT og_CCONJ åbenbart_ADV godt_ADV selv_PRON klar_ADJ over_ADP ,_PUNCT at_SCONJ han_PRON også_ADV visuelt_ADV lever_VERB op_ADV til_ADP sit_DET ry_NOUN som_ADP ørnen_NOUN i_ADP den_DET europæiske_ADJ kompositionsmusiks_NOUN andegår_NOUN -_PUNCT har_AUX skruet_VERB den_DET helt_ADV store_ADJ charme_NOUN på_ADP over_ADV for_ADP det_DET hold_NOUN tilrejsende_ADJ danske_ADJ musikstuderende_NOUN ,_PUNCT der_PRON har_AUX fulgt_VERB den_DET foregående_ADJ uges_NOUN prøver_VERB på_ADP "_PUNCT Dienstag_PROPN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+åbenlyst: ADJ | ADV
+andegår: ADV | NOUN
+på: ADV | ADP
+prøver: NOUN | VERB
+}
+
+Expected: {
+Hun_PRON havde_AUX mærket_VERB et_DET lille_ADJ liv_NOUN sparke_VERB i_ADP maven_NOUN og_CCONJ kunne_VERB ikke_ADV andet_PRON ._PUNCT}
+Predicted: {
+Hun_PRON havde_VERB mærket_VERB et_DET lille_ADJ liv_NOUN sparke_VERB i_ADP maven_NOUN og_CCONJ kunne_AUX ikke_ADV andet_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+kunne: VERB | AUX
+}
+
+Expected: {
+Og_CCONJ dansk_ADJ industri_NOUN er_VERB i_ADP forreste_ADJ række_NOUN i_ADP den_DET teknologiske_ADJ udvikling_NOUN ._PUNCT}
+Predicted: {
+Og_CCONJ dansk_ADJ industri_NOUN er_AUX i_ADP forreste_ADJ række_NOUN i_ADP den_DET teknologiske_ADJ udvikling_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Magnetfelter_NOUN :_PUNCT}
+Predicted: {
+Magnetfelter_PROPN :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Magnetfelter: NOUN | PROPN
+}
+
+Expected: {
+DE_PROPN BEERS_PROPN CENTENARY_PROPN åbnede_VERB den_PRON 8.september_X kontor_NOUN i_ADP Moskva_PROPN ._PUNCT}
+Predicted: {
+DE_DET BEERS_X CENTENARY_NOUN åbnede_VERB den_DET 8.september_X kontor_NOUN i_ADP Moskva_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+DE: PROPN | DET
+BEERS: PROPN | X
+CENTENARY: PROPN | NOUN
+den: PRON | DET
+}
+
+Expected: {
+For_CCONJ selv_ADV om_ADP det_PRON er_AUX mit_DET problem_NOUN ,_PUNCT og_CCONJ Bentes_PROPN er_AUX en_DET anden_DET variant_NOUN ,_PUNCT og_CCONJ Ingers_PROPN en_DET tredje_ADJ ,_PUNCT er_VERB det_PRON som_ADV om_ADP der_PRON må_AUX være_VERB en_DET fællesnævner_NOUN et_DET sted_NOUN ._PUNCT}
+Predicted: {
+For_CCONJ selv_ADV om_ADP det_PRON er_AUX mit_DET problem_NOUN ,_PUNCT og_CCONJ Bentes_PROPN er_AUX en_DET anden_DET variant_NOUN ,_PUNCT og_CCONJ Ingers_PROPN en_DET tredje_ADJ ,_PUNCT er_AUX det_PRON som_ADV om_ADP der_PRON må_AUX være_VERB en_DET fællesnævner_NOUN et_DET sted_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Som_ADP prøvekøb_NOUN har_VERB undertegnede_VERB to_NUM beskærersakse_NOUN fra_ADP to_NUM lavprisvarehuse_NOUN ._PUNCT}
+Predicted: {
+Som_ADP prøvekøb_NOUN har_AUX undertegnede_VERB to_NUM beskærersakse_NOUN fra_ADP to_NUM lavprisvarehuse_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Den_DET overlevende_VERB polske_ADJ matros_NOUN ,_PUNCT Krzysztof_PROPN Samsel_PROPN ,_PUNCT 30_NUM ,_PUNCT som_PRON med_ADP helikopter_NOUN blev_AUX fløjet_VERB til_ADP den_DET norske_ADJ by_NOUN Farsund_PROPN ,_PUNCT fortalte_VERB i_ADP en_DET søforklaring_NOUN i_ADP går_NOUN ,_PUNCT at_SCONJ han_PRON kun_ADV havde_AUX reddet_VERB livet_NOUN på_ADP grund_NOUN af_ADP en_DET luftboble_NOUN ,_PUNCT der_PRON havde_AUX presset_VERB ham_PRON væk_ADV fra_ADP det_DET synkende_VERB skib_NOUN ._PUNCT}
+Predicted: {
+Den_DET overlevende_VERB polske_ADJ matros_NOUN ,_PUNCT Krzysztof_PROPN Samsel_PROPN ,_PUNCT 30_NUM ,_PUNCT som_PRON med_ADP helikopter_NOUN blev_AUX fløjet_VERB til_ADP den_DET norske_ADJ by_NOUN Farsund_PROPN ,_PUNCT fortalte_VERB i_ADP en_DET søforklaring_NOUN i_ADP går_NOUN ,_PUNCT at_SCONJ han_PRON kun_ADV havde_AUX reddet_VERB livet_NOUN på_ADP grund_NOUN af_ADP en_DET luftboble_NOUN ,_PUNCT der_PRON havde_VERB presset_NOUN ham_PRON væk_ADV fra_ADP det_DET synkende_VERB skib_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+presset: VERB | NOUN
+}
+
+Expected: {
+Fx_ADV sæsonsvingninger_NOUN i_ADP visse_ADJ erhverv_NOUN og_CCONJ vejrligsproblemer_NOUN ,_PUNCT der_PRON involverer_VERB sikkerhedsbestemmelser_NOUN for_ADP de_PRON ansatte_VERB ._PUNCT}
+Predicted: {
+Fx_PROPN sæsonsvingninger_NOUN i_ADP visse_ADJ erhverv_NOUN og_CCONJ vejrligsproblemer_NOUN ,_PUNCT der_PRON involverer_VERB sikkerhedsbestemmelser_NOUN for_ADP de_PRON ansatte_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Fx: ADV | PROPN
+}
+
+Expected: {
+Siden_SCONJ der_PRON ikke_ADV længere_ADV er_VERB en_DET udlænding_NOUN i_ADP miles_NOUN omkreds_NOUN ,_PUNCT er_AUX politi_NOUN og_CCONJ presse_NOUN blevet_VERB hovedmålet_NOUN for_ADP aggression_NOUN og_CCONJ vold_NOUN ,_PUNCT og_CCONJ beboerne_NOUN raser_VERB igen_ADV ._PUNCT}
+Predicted: {
+Siden_SCONJ der_PRON ikke_ADV længere_ADV er_AUX en_DET udlænding_NOUN i_ADP miles_NOUN omkreds_NOUN ,_PUNCT er_AUX politi_NOUN og_CCONJ presse_NOUN blevet_VERB hovedmålet_NOUN for_ADP aggression_NOUN og_CCONJ vold_NOUN ,_PUNCT og_CCONJ beboerne_NOUN raser_VERB igen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Michael_PROPN :_PUNCT "_PUNCT Ja_INTJ ,_PUNCT for_CCONJ jeg_PRON forstår_VERB stadig_ADV ikke_ADV ,_PUNCT hvordan_ADV i_ADP himlens_NOUN navn_NOUN de_PRON kunne_AUX stemme_VERB os_PRON ned_ADV på_ADP en_DET tredjesidste_ADJ plads_NOUN ._PUNCT}
+Predicted: {
+Michael_PROPN :_PUNCT "_PUNCT Ja_INTJ ,_PUNCT for_SCONJ jeg_PRON forstår_VERB stadig_ADV ikke_ADV ,_PUNCT hvordan_ADV i_ADP himlens_NOUN navn_X de_PRON kunne_AUX stemme_VERB os_PRON ned_ADV på_ADP en_DET tredjesidste_ADJ plads_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: CCONJ | SCONJ
+navn: NOUN | X
+}
+
+Expected: {
+Vi_PRON har_AUX hele_ADJ tiden_NOUN sigtet_VERB på_ADP at_PART få_VERB en_DET lokal_ADJ løsning_NOUN ,_PUNCT og_CCONJ den_PRON har_AUX vi_PRON også_ADV fået_VERB ,_PUNCT "_PUNCT siger_VERB han_PRON ._PUNCT}
+Predicted: {
+Vi_PRON har_VERB hele_ADJ tiden_NOUN sigtet_VERB på_ADP at_PART få_VERB en_DET lokal_ADJ løsning_NOUN ,_PUNCT og_CCONJ den_PRON har_AUX vi_PRON også_ADV fået_VERB ,_PUNCT "_PUNCT siger_VERB han_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: AUX | VERB
+}
+
+Expected: {
+Jo_INTJ ,_PUNCT nu_ADV kommer_VERB der_PRON en_DET pige_NOUN ,_PUNCT der_ADV helt_ADV sikkert_ADV ikke_ADV er_AUX nordmand_NOUN ._PUNCT}
+Predicted: {
+Jo_INTJ ,_PUNCT nu_ADV kommer_VERB der_PRON en_DET pige_NOUN ,_PUNCT der_PRON helt_ADV sikkert_ADV ikke_ADV er_AUX nordmand_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+Så_ADV en_DET samlet_VERB blok_NOUN vil_AUX vi_PRON aldrig_ADV blive_VERB ._PUNCT}
+Predicted: {
+Så_ADV en_DET samlet_NOUN blok_NOUN vil_AUX vi_PRON aldrig_ADV blive_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+samlet: VERB | NOUN
+}
+
+Expected: {
+Der_PRON kan_AUX være_VERB tale_NOUN om_ADP brok_NOUN eller_CCONJ vandsvulst_NOUN ._PUNCT}
+Predicted: {
+Der_PRON kan_AUX være_AUX tale_NOUN om_ADP brok_NOUN eller_CCONJ vandsvulst_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+være: VERB | AUX
+}
+
+Expected: {
+Et_DET skaktræk_NOUN som_ADP med_ADP et_DET slag_NOUN viftede_VERB kreditorer_NOUN med_ADP et_DET tilgodehavende_NOUN på_ADP seks_NUM mia._NOUN kr._NOUN væk_ADV ._PUNCT}
+Predicted: {
+Et_DET skaktræk_NOUN som_PRON med_ADP et_DET slag_NOUN viftede_VERB kreditorer_NOUN med_ADP et_DET tilgodehavende_ADJ på_ADP seks_NUM mia._NOUN kr._NOUN væk_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | PRON
+tilgodehavende: NOUN | ADJ
+}
+
+Expected: {
+Men_CCONJ der_PRON kan_AUX osse_ADV være_VERB tale_NOUN om_ADP en_DET ondartet_ADJ svulst_NOUN ,_PUNCT der_PRON skal_AUX fjernes_VERB ved_ADP operation_NOUN ._PUNCT}
+Predicted: {
+Men_CCONJ der_PRON kan_AUX osse_NOUN være_AUX tale_NOUN om_ADP en_DET ondartet_ADJ svulst_NOUN ,_PUNCT der_PRON skal_AUX fjernes_VERB ved_ADP operation_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+osse: ADV | NOUN
+være: VERB | AUX
+}
+
+Expected: {
+Smag_VERB til_ADV med_ADP salt_NOUN og_CCONJ peber_NOUN ._PUNCT}
+Predicted: {
+Smag_NOUN til_ADV med_ADP salt_NOUN og_CCONJ peber_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Smag: VERB | NOUN
+}
+
+Expected: {
+De_PRON kan_AUX ses_VERB i_ADP Fotografisk_ADJ Galleri_NOUN på_ADP Nikolaj_PROPN Plads_PROPN i_ADP København_PROPN ._PUNCT}
+Predicted: {
+De_PRON kan_AUX ses_VERB i_ADP Fotografisk_NOUN Galleri_NOUN på_ADP Nikolaj_PROPN Plads_PROPN i_ADP København_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Fotografisk: ADJ | NOUN
+}
+
+Expected: {
+Isafold_PROPN satte_VERB efter_ADP sammenstøddet_ADV øjelikkelig_ADV en_DET gummibåd_NOUN med_ADP påhængsmotor_ADV i_ADP vandet_NOUN ._PUNCT}
+Predicted: {
+Isafold_PROPN satte_VERB efter_ADP sammenstøddet_ADV øjelikkelig_ADJ en_DET gummibåd_NOUN med_ADP påhængsmotor_NOUN i_ADP vandet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+øjelikkelig: ADV | ADJ
+påhængsmotor: ADV | NOUN
+}
+
+Expected: {
+Palle_PROPN Simonsen_PROPN siger_VERB ,_PUNCT at_SCONJ der_PRON foreløbig_ADV er_VERB bestyrelsesbeslutning_NOUN om_ADP at_PART købe_VERB udenlandske_ADJ aktier_NOUN og_CCONJ obligationer_NOUN for_ADP op_ADV til_ADP 1,5_NUM procent_NOUN af_ADP formuen_NOUN ._PUNCT}
+Predicted: {
+Palle_PROPN Simonsen_PROPN siger_VERB ,_PUNCT at_SCONJ der_PRON foreløbig_ADV er_AUX bestyrelsesbeslutning_NOUN om_ADP at_PART købe_VERB udenlandske_ADJ aktier_NOUN og_CCONJ obligationer_NOUN for_ADP op_ADV til_ADP 1,5_NUM procent_NOUN af_ADP formuen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Vi_PRON kan_AUX fornemme_VERB på_ADP tendenserne_NOUN i_ADP udlandet_NOUN ,_PUNCT at_SCONJ der_PRON er_VERB fremtid_NOUN i_ADP pasta_NOUN ,_PUNCT siger_VERB Lars_PROPN Bred_PROPN ,_PUNCT der_PRON i_ADP går_NOUN vendte_VERB hjem_ADV fra_ADP verdens_NOUN største_ADJ fødevaremesse_NOUN NUGA_PROPN i_ADP Tyskland_PROPN ._PUNCT}
+Predicted: {
+Vi_PRON kan_AUX fornemme_VERB på_ADP tendenserne_NOUN i_ADP udlandet_NOUN ,_PUNCT at_SCONJ der_PRON er_AUX fremtid_NOUN i_ADP pasta_NOUN ,_PUNCT siger_VERB Lars_PROPN Bred_PROPN ,_PUNCT der_PRON i_ADP går_NOUN vendte_VERB hjem_ADV fra_ADP verdens_NOUN største_ADJ fødevaremesse_NOUN NUGA_PROPN i_ADP Tyskland_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+PISTOLMAND_NOUN TOG_VERB SELV_PRON}
+Predicted: {
+PISTOLMAND_PROPN TOG_PROPN SELV_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+PISTOLMAND: NOUN | PROPN
+TOG: VERB | PROPN
+SELV: PRON | PROPN
+}
+
+Expected: {
+Rocky_PROPN ,_PUNCT der_ADV er_AUX blevet_VERB en_DET hårdkogt_ADJ gangster_NOUN ,_PUNCT har_VERB imidlertid_ADV ikke_ADV ret_ADV meget_ADJ at_PART tale_VERB med_ADP Jerry_PROPN om_ADP ._PUNCT}
+Predicted: {
+Rocky_PROPN ,_PUNCT der_ADV er_AUX blevet_VERB en_DET hårdkogt_ADJ gangster_NOUN ,_PUNCT har_AUX imidlertid_ADV ikke_ADV ret_ADV meget_ADJ at_PART tale_VERB med_ADP Jerry_PROPN om_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+Penge_NOUN ,_PUNCT som_PRON er_AUX investeret_VERB ,_PUNCT og_CCONJ som_ADP den_DET uheldige_ADJ spiller_NOUN ikke_ADV håber_VERB at_PART røre_VERB de_DET kommende_VERB år_NOUN ._PUNCT}
+Predicted: {
+Penge_PROPN ,_PUNCT som_PRON er_AUX investeret_VERB ,_PUNCT og_CCONJ som_ADP den_DET uheldige_ADJ spiller_VERB ikke_ADV håber_VERB at_PART røre_VERB de_DET kommende_VERB år_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Penge: NOUN | PROPN
+spiller: NOUN | VERB
+}
+
+Expected: {
+De_PRON ansatte_VERB på_ADP biblioteket_NOUN håber_VERB ,_PUNCT at_SCONJ "_PUNCT projekt_NOUN bog_NOUN til_ADP tiden_NOUN "_PUNCT ,_PUNCT som_PRON er_AUX økonomisk_ADV støttet_VERB af_ADP kommunen_NOUN ,_PUNCT vil_AUX blive_VERB en_DET stor_ADJ glæde_NOUN for_ADP bibliotekets_NOUN kunder_NOUN ._PUNCT}
+Predicted: {
+De_PRON ansatte_VERB på_ADP biblioteket_NOUN håber_VERB ,_PUNCT at_SCONJ "_PUNCT projekt_NOUN bog_NOUN til_ADP tiden_NOUN "_PUNCT ,_PUNCT som_PRON er_AUX økonomisk_ADJ støttet_NOUN af_ADP kommunen_NOUN ,_PUNCT vil_AUX blive_VERB en_DET stor_ADJ glæde_NOUN for_ADP bibliotekets_NOUN kunder_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+økonomisk: ADV | ADJ
+støttet: VERB | NOUN
+}
+
+Expected: {
+SAS_PROPN AFVISER_VERB}
+Predicted: {
+SAS_PROPN AFVISER_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+AFVISER: VERB | PROPN
+}
+
+Expected: {
+Bevæg_VERB magneten_NOUN i_ADP forhold_NOUN til_ADP ledningen_NOUN og_CCONJ iagttag_VERB på_ADP voltmeteret_NOUN ,_PUNCT hvad_PRON der_ADV sker_VERB ._PUNCT}
+Predicted: {
+Bevæg_NOUN magneten_PROPN i_ADP forhold_NOUN til_ADP ledningen_NOUN og_CCONJ iagttag_VERB på_ADP voltmeteret_NOUN ,_PUNCT hvad_PRON der_ADV sker_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Bevæg: VERB | NOUN
+magneten: NOUN | PROPN
+}
+
+Expected: {
+Ingen_DET mennesker_NOUN kan_AUX vil_VERB lide_VERB raketter_NOUN ,_PUNCT heller_ADV ikke_ADV CentrumDemokraterne_NOUN og_CCONJ andre_PRON borgerligt_ADV orienterede_VERB i_ADP Danmark_PROPN ._PUNCT}
+Predicted: {
+Ingen_DET mennesker_NOUN kan_AUX vil_VERB lide_VERB raketter_NOUN ,_PUNCT heller_ADV ikke_ADV CentrumDemokraterne_NOUN og_CCONJ andre_DET borgerligt_ADV orienterede_VERB i_ADP Danmark_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+andre: PRON | DET
+}
+
+Expected: {
+Så_ADV foretrækker_VERB man_PRON at_PART udtale_VERB sig_PRON i_ADP vendinger_NOUN som_ADP denne_PRON om_ADP Rådet_NOUN for_ADP Trafiksikkerhedsforskning_NOUN :_PUNCT "_PUNCT I_ADP Rådets_NOUN notat_NOUN peges_VERB der_PRON på_ADP ,_PUNCT at_SCONJ en_DET forøgelse_NOUN af_ADP hastighedsgrænsen_NOUN på_ADP motorveje_NOUN vil_AUX medføre_VERB en_DET forøgelse_NOUN af_ADP ulykkesrisikoen_NOUN ,_PUNCT men_CCONJ denne_DET risikoforøgelse_NOUN vil_AUX afhænge_VERB af_ADP ,_PUNCT i_ADP hvilket_PRON omfang_NOUN en_DET højere_ADJ hastighedsgrænse_NOUN medfører_VERB højere_ADJ gennemsnitshastigheder_NOUN ._PUNCT}
+Predicted: {
+Så_ADV foretrækker_VERB man_PRON at_PART udtale_VERB sig_PRON i_ADP vendinger_NOUN som_ADP denne_DET om_ADP Rådet_NOUN for_ADP Trafiksikkerhedsforskning_PROPN :_PUNCT "_PUNCT I_ADP Rådets_NOUN notat_NOUN peges_VERB der_PRON på_ADP ,_PUNCT at_SCONJ en_DET forøgelse_NOUN af_ADP hastighedsgrænsen_NOUN på_ADP motorveje_NOUN vil_AUX medføre_VERB en_DET forøgelse_NOUN af_ADP ulykkesrisikoen_NOUN ,_PUNCT men_CCONJ denne_DET risikoforøgelse_NOUN vil_AUX afhænge_VERB af_ADP ,_PUNCT i_ADP hvilket_PRON omfang_NOUN en_DET højere_ADJ hastighedsgrænse_NOUN medfører_VERB højere_ADJ gennemsnitshastigheder_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+denne: PRON | DET
+Trafiksikkerhedsforskning: NOUN | PROPN
+}
+
+Expected: {
+"_PUNCT Sådan_ADV ,_PUNCT "_PUNCT siger_VERB han_PRON ,_PUNCT "_PUNCT skal_AUX det_PRON være_AUX ._PUNCT}
+Predicted: {
+"_PUNCT Sådan_PROPN ,_PUNCT "_PUNCT siger_VERB han_PRON ,_PUNCT "_PUNCT skal_AUX det_PRON være_AUX ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Sådan: ADV | PROPN
+}
+
+Expected: {
+Den_PRON er_AUX tankevækkende_ADV nok_ADV placeret_VERB lige_ADV ved_ADP siden_NOUN af_ADP kunstnerens_NOUN tre_NUM nyeste_ADJ litografier_NOUN -_PUNCT tre_NUM farvesprudlende_ADJ og_CCONJ meget_ADV spontane_ADJ "_PUNCT Drømmebilleder_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+Den_PRON er_AUX tankevækkende_ADV nok_ADV placeret_VERB lige_ADV ved_ADP siden_NOUN af_ADP kunstnerens_NOUN tre_NUM nyeste_ADJ litografier_NOUN -_PUNCT tre_NUM farvesprudlende_ADJ og_CCONJ meget_ADV spontane_ADJ "_PUNCT Drømmebilleder_PRON "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Drømmebilleder: NOUN | PRON
+}
+
+Expected: {
+Mod_ADP Danmark_PROPN bliver_VERB det_PRON formentlig_ADV Torben_PROPN Piechnik_PROPN fra_ADP Liverpool_PROPN og_CCONJ mig_PRON ,_PUNCT der_PRON skal_AUX slås_VERB ._PUNCT}
+Predicted: {
+Mod_ADP Danmark_PROPN bliver_VERB det_PRON formentlig_ADV Torben_PROPN Piechnik_PROPN fra_ADP Liverpool_PROPN og_CCONJ mig_PRON ,_PUNCT der_PRON skal_AUX slås_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+slås: VERB | NOUN
+}
+
+Expected: {
+Her_ADV to_NUM meter_NOUN under_ADP redder_NOUN Søren_PROPN Hansen_PROPN var_AUX den_DET indgang_NOUN ,_PUNCT som_ADP Morten_PROPN gik_VERB ind_ADV igennem_ADP ._PUNCT}
+Predicted: {
+Her_ADV to_NUM meter_NOUN under_ADP redder_NOUN Søren_PROPN Hansen_PROPN var_AUX den_DET indgang_NOUN ,_PUNCT som_PRON Morten_PROPN gik_VERB ind_ADV igennem_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | PRON
+}
+
+Expected: {
+"_PUNCT Åh_INTJ snak_NOUN ,_PUNCT "_PUNCT sagde_VERB hun_PRON ,_PUNCT "_PUNCT vi_PRON har_AUX da_ADV haft_VERB patienter_NOUN på_ADP 90_NUM der_ADV uden_ADP besvær_NOUN selv_PRON har_AUX kunnet_AUX tage_VERB den_PRON i_ADP øret_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT Åh_PROPN snak_PROPN ,_PUNCT "_PUNCT sagde_VERB hun_PRON ,_PUNCT "_PUNCT vi_PRON har_AUX da_ADV haft_VERB patienter_NOUN på_ADP 90_NUM der_ADV uden_ADP besvær_NOUN selv_PRON har_AUX kunnet_AUX tage_VERB den_PRON i_ADP øret_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Åh: INTJ | PROPN
+snak: NOUN | PROPN
+}
+
+Expected: {
+Lige_ADV som_ADP jeg_PRON kan_AUX lide_VERB Karin_PROPN ._PUNCT}
+Predicted: {
+Lige_PROPN som_ADP jeg_PRON kan_AUX lide_VERB Karin_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Lige: ADV | PROPN
+}
+
+Expected: {
+Som_ADP leder_NOUN er_VERB Poul_PROPN Harremoës_PROPN i_ADP stand_NOUN til_ADP at_PART fylde_VERB sine_PRON ansatte_VERB med_ADP begejstring_NOUN ._PUNCT}
+Predicted: {
+Som_ADP leder_NOUN er_AUX Poul_PROPN Harremoës_PROPN i_ADP stand_NOUN til_ADP at_PART fylde_VERB sine_PRON ansatte_VERB med_ADP begejstring_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Emballagesektoren_NOUN volder_VERB Danisco_PROPN betydelige_ADJ problemer_NOUN ._PUNCT}
+Predicted: {
+Emballagesektoren_PROPN volder_VERB Danisco_PROPN betydelige_ADJ problemer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Emballagesektoren: NOUN | PROPN
+}
+
+Expected: {
+Sygdomme_NOUN som_ADP fåresyge_NOUN eller_CCONJ gonorré_NOUN giver_VERB smerter_NOUN i_ADP stenene_NOUN ._PUNCT}
+Predicted: {
+Sygdomme_ADJ som_ADP fåresyge_PROPN eller_CCONJ gonorré_PROPN giver_VERB smerter_NOUN i_ADP stenene_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Sygdomme: NOUN | ADJ
+fåresyge: NOUN | PROPN
+gonorré: NOUN | PROPN
+}
+
+Expected: {
+Det_PRON er_AUX en_DET klar_ADJ følge_NOUN af_ADP den_DET ny_ADJ styrelseslov_NOUN ,_PUNCT at_SCONJ det_PRON nu_ADV er_VERB overladt_VERB til_ADP de_DET enkelte_ADJ uddannelsesinstitutioner_NOUN at_PART fastlægge_VERB adgangskrav_NOUN og_CCONJ sikre_VERB et_DET stadigt_ADV højere_ADJ niveau_NOUN gennem_ADP hele_ADJ uddannelsesforløbet_NOUN ._PUNCT}
+Predicted: {
+Det_PRON er_AUX en_DET klar_ADJ følge_NOUN af_ADP den_DET ny_ADJ styrelseslov_NOUN ,_PUNCT at_SCONJ det_PRON nu_ADV er_AUX overladt_VERB til_ADP de_DET enkelte_ADJ uddannelsesinstitutioner_NOUN at_PART fastlægge_VERB adgangskrav_NOUN og_CCONJ sikre_VERB et_DET stadigt_ADV højere_ADJ niveau_NOUN gennem_ADP hele_ADJ uddannelsesforløbet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Man_PRON har_VERB spisestue_NOUN eller_CCONJ i_ADP hvert_DET fald_NOUN en_DET rar_ADJ plads_NOUN i_ADP en_DET rolig_ADJ del_NOUN af_ADP stuen_NOUN ._PUNCT}
+Predicted: {
+Man_PRON har_AUX spisestue_VERB eller_CCONJ i_ADP hvert_DET fald_NOUN en_DET rar_ADJ plads_NOUN i_ADP en_DET rolig_ADJ del_NOUN af_ADP stuen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+spisestue: NOUN | VERB
+}
+
+Expected: {
+Kun_ADV 30_NUM af_ADP virksomhedens_NOUN 500_NUM ansatte_VERB beskæftiger_VERB sig_PRON med_ADP de_DET bløde_ADJ strimler_NOUN ._PUNCT}
+Predicted: {
+Kun_PROPN 30_NUM af_ADP virksomhedens_NOUN 500_NUM ansatte_VERB beskæftiger_VERB sig_PRON med_ADP de_DET bløde_ADJ strimler_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Kun: ADV | PROPN
+}
+
+Expected: {
+Han_PRON lo_VERB ,_PUNCT men_CCONJ latteren_NOUN tav_VERB i_ADP hans_DET strube_NOUN ,_PUNCT da_SCONJ han_PRON et_DET øjeblik_NOUN efter_ADV begyndte_VERB at_PART tænke_VERB nye_ADJ tanker_NOUN -_PUNCT meget_ADV pinefulde_ADJ tanker_NOUN ._PUNCT}
+Predicted: {
+Han_PRON lo_VERB ,_PUNCT men_CCONJ latteren_NOUN tav_VERB i_ADP hans_DET strube_NOUN ,_PUNCT da_SCONJ han_PRON et_DET øjeblik_NOUN efter_ADP begyndte_VERB at_PART tænke_VERB nye_ADJ tanker_NOUN -_PUNCT meget_ADV pinefulde_ADJ tanker_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+efter: ADV | ADP
+}
+
+Expected: {
+Er_VERB der_PRON problemer_NOUN med_ADP helbredet_NOUN ,_PUNCT så_ADV skriv_VERB til_ADP "_PUNCT Lægerne_NOUN "_PUNCT ,_PUNCT Ugemagasinet_NOUN SØNDAG_NOUN ,_PUNCT Vesterbrogade_PROPN 16_NUM ,_PUNCT 1505_NUM København_PROPN V._PROPN ._PUNCT}
+Predicted: {
+Er_VERB der_PRON problemer_NOUN med_ADP helbredet_NOUN ,_PUNCT så_ADV skriv_VERB til_ADP "_PUNCT Lægerne_NOUN "_PUNCT ,_PUNCT Ugemagasinet_PROPN SØNDAG_PROPN ,_PUNCT Vesterbrogade_PROPN 16_NUM ,_PUNCT 1505_NUM København_PROPN V._PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ugemagasinet: NOUN | PROPN
+SØNDAG: NOUN | PROPN
+}
+
+Expected: {
+Det_PRON måske_ADV aller_X vigtigste_X er_VERB at_PART have_VERB noget_DET fornuftigt_ADJ på_ADP fødderne_NOUN ._PUNCT}
+Predicted: {
+Det_DET måske_ADV aller_X vigtigste_X er_AUX at_PART have_VERB noget_DET fornuftigt_ADV på_ADP fødderne_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Det: PRON | DET
+er: VERB | AUX
+fornuftigt: ADJ | ADV
+}
+
+Expected: {
+Bag_ADP høje_ADJ mure_NOUN med_ADP pigtråd_NOUN fik_VERB "_PUNCT pædagogerne_NOUN "_PUNCT ,_PUNCT som_ADP i_ADP realiteten_NOUN var_AUX fangevogtere_NOUN ,_PUNCT afløb_NOUN for_ADP deres_DET sadistiske_ADJ tilbøjeligheder_NOUN ._PUNCT}
+Predicted: {
+Bag_PROPN høje_ADJ mure_NOUN med_ADP pigtråd_NOUN fik_VERB "_PUNCT pædagogerne_NOUN "_PUNCT ,_PUNCT som_PRON i_ADP realiteten_NOUN var_AUX fangevogtere_NOUN ,_PUNCT afløb_NOUN for_ADP deres_DET sadistiske_ADJ tilbøjeligheder_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Bag: ADP | PROPN
+som: ADP | PRON
+}
+
+Expected: {
+Efter_ADP at_PART være_AUX blevet_AUX uddannet_VERB til_ADP linjeofficer_NOUN ved_ADP Hærens_NOUN Officersskole_NOUN fortsatte_VERB han_PRON på_ADP skolebænken_NOUN og_CCONJ blev_VERB både_ADV elektronikingeniør_NOUN ,_PUNCT trafikflyver_NOUN og_CCONJ flyinstruktør_NOUN ._PUNCT}
+Predicted: {
+Efter_ADP at_PART være_AUX blevet_AUX uddannet_VERB til_ADP linjeofficer_NOUN ved_ADP Hærens_PROPN Officersskole_NOUN fortsatte_VERB han_PRON på_ADP skolebænken_NOUN og_CCONJ blev_VERB både_ADV elektronikingeniør_NOUN ,_PUNCT trafikflyver_NOUN og_CCONJ flyinstruktør_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Hærens: NOUN | PROPN
+}
+
+Expected: {
+Han_PRON smiler_VERB stadig_ADV sit_DET brede_ADJ smil_NOUN ,_PUNCT han_PRON må_VERB stadig_ADV ud_ADV og_CCONJ bruge_VERB sine_DET hænder_NOUN ,_PUNCT og_CCONJ i_ADP et_DET 66_NUM år_NOUN gammelt_ADJ liv_NOUN ,_PUNCT hvor_ADV glæderne_NOUN er_AUX flere_ADJ end_ADP bekymringerne_NOUN ,_PUNCT er_AUX det_PRON to_NUM dagligdags_ADJ og_CCONJ samfundsskabte_ADJ ting_NOUN ,_PUNCT der_PRON irriterer_VERB ._PUNCT}
+Predicted: {
+Han_PRON smiler_VERB stadig_ADV sit_DET brede_ADJ smil_NOUN ,_PUNCT han_PRON må_AUX stadig_ADV ud_ADV og_CCONJ bruge_VERB sine_DET hænder_NOUN ,_PUNCT og_CCONJ i_ADP et_DET 66_NUM år_NOUN gammelt_ADJ liv_NOUN ,_PUNCT hvor_ADV glæderne_NOUN er_AUX flere_ADJ end_ADP bekymringerne_NOUN ,_PUNCT er_AUX det_PRON to_NUM dagligdags_ADJ og_CCONJ samfundsskabte_ADJ ting_NOUN ,_PUNCT der_PRON irriterer_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+må: VERB | AUX
+}
+
+Expected: {
+Tvivlsom_ADJ værdi_NOUN af_ADP Hafnia_PROPN Liv_NOUN}
+Predicted: {
+Tvivlsom_ADP værdi_NOUN af_ADP Hafnia_PROPN Liv_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+Tvivlsom: ADJ | ADP
+Liv: NOUN | PROPN
+}
+
+Expected: {
+Lige_ADV i_ADP denne_DET situation_NOUN er_AUX det_PRON serberne_NOUN ,_PUNCT der_ADV er_AUX den_DET store_ADJ skurk_NOUN ,_PUNCT men_CCONJ i_ADP denne_DET utroligt_ADV beskidte_ADJ krig_NOUN foretager_VERB alle_ADJ sider_NOUN uhyrligheder_NOUN ._PUNCT}
+Predicted: {
+Lige_PROPN i_ADP denne_DET situation_NOUN er_AUX det_DET serberne_NOUN ,_PUNCT der_ADV er_AUX den_DET store_ADJ skurk_NOUN ,_PUNCT men_CCONJ i_ADP denne_DET utroligt_ADV beskidte_ADJ krig_NOUN foretager_VERB alle_ADJ sider_NOUN uhyrligheder_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Lige: ADV | PROPN
+det: PRON | DET
+}
+
+Expected: {
+Der_PRON er_VERB fx_ADV god_ADJ mening_NOUN i_ADP at_PART bruge_VERB sit_DET engelske_ADJ eller_CCONJ sit_DET tyske_ADJ i_ADP forbindelse_NOUN med_ADP Østersøprojektet_NOUN ._PUNCT}
+Predicted: {
+Der_PRON er_AUX fx_ADV god_ADJ mening_NOUN i_ADP at_PART bruge_VERB sit_DET engelske_ADJ eller_CCONJ sit_DET tyske_ADJ i_ADP forbindelse_NOUN med_ADP Østersøprojektet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+Begge_DET de_DET to_NUM bankers_NOUN økonomiske_ADJ "_PUNCT engagement_NOUN "_PUNCT i_ADP Brøndby_PROPN er_AUX for_ADP nærværende_ADJ så_ADV eksklusivt_ADJ ,_PUNCT at_SCONJ de_PRON -_PUNCT qua_SCONJ konkursbegæringer_NOUN -_PUNCT begge_PRON den_DET dag_NOUN i_ADP går_NOUN i_ADP praksis_NOUN kunne_AUX have_AUX sparket_VERB Brøndby_PROPN langt_ADV ud_ADV af_ADP dansk_ADJ topfodbold_NOUN ._PUNCT}
+Predicted: {
+Begge_DET de_DET to_NUM bankers_NOUN økonomiske_ADJ "_PUNCT engagement_NOUN "_PUNCT i_ADP Brøndby_PROPN er_AUX for_ADV nærværende_ADP så_ADV eksklusivt_ADJ ,_PUNCT at_SCONJ de_PRON -_PUNCT qua_SCONJ konkursbegæringer_NOUN -_PUNCT begge_PRON den_DET dag_NOUN i_ADP går_NOUN i_ADP praksis_NOUN kunne_AUX have_AUX sparket_VERB Brøndby_PROPN langt_ADV ud_ADV af_ADP dansk_ADJ topfodbold_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: ADP | ADV
+nærværende: ADJ | ADP
+}
+
+Expected: {
+-_PUNCT Frifindelsen_NOUN er_AUX på_ADP ingen_DET måde_NOUN en_DET blåstempling_NOUN af_ADP ,_PUNCT at_SCONJ de_PRON har_AUX varetaget_VERB deres_DET bestyrelsesarbejde_NOUN på_ADP forbilledlig_ADJ vis_NOUN -_PUNCT det_PRON er_AUX langt_ADV fra_ADP tilfældet_NOUN ,_PUNCT indskød_VERB dommeren_NOUN under_ADP sine_DET bemærkninger_NOUN til_ADP dommen_NOUN ._PUNCT}
+Predicted: {
+-_PUNCT Frifindelsen_NOUN er_VERB på_ADP ingen_DET måde_NOUN en_DET blåstempling_NOUN af_ADP ,_PUNCT at_SCONJ de_PRON har_AUX varetaget_VERB deres_DET bestyrelsesarbejde_NOUN på_ADP forbilledlig_ADJ vis_NOUN -_PUNCT det_PRON er_AUX langt_ADV fra_ADP tilfældet_NOUN ,_PUNCT indskød_SCONJ dommeren_NOUN under_ADP sine_DET bemærkninger_NOUN til_ADP dommen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: AUX | VERB
+indskød: VERB | SCONJ
+}
+
+Expected: {
+at_PART vaere_AUX en_DET hvid_ADJ er_AUX slemt_ADJ -_PUNCT pi_PROPN for_ADP politically_X incorrect_X -_PUNCT men_CCONJ at_PART vaere_AUX hvid_ADJ mand_NOUN er_AUX nok_ADV noget_PRON af_ADP det_DET vaerste_ADJ ,_PUNCT man_PRON kan_AUX vaere_VERB ._PUNCT}
+Predicted: {
+at_PART vaere_AUX en_DET hvid_NOUN er_AUX slemt_ADJ -_PUNCT pi_NOUN for_ADP politically_PROPN incorrect_PROPN -_PUNCT men_ADP at_PART vaere_AUX hvid_ADJ mand_NOUN er_AUX nok_ADJ noget_PRON af_ADP det_DET vaerste_ADJ ,_PUNCT man_PRON kan_AUX vaere_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hvid: ADJ | NOUN
+pi: PROPN | NOUN
+politically: X | PROPN
+incorrect: X | PROPN
+men: CCONJ | ADP
+nok: ADV | ADJ
+}
+
+Expected: {
+kriminalpolitiet_NOUN i_ADP logstor_PROPN har_AUX endnu_ADV ikke_ADV kunnet_AUX konstatere_VERB ,_PUNCT at_SCONJ manden_NOUN har_AUX sogt_VERB laegehjaelp_NOUN ,_PUNCT og_CCONJ man_PRON beder_VERB derfor_ADV offentligheden_NOUN om_ADP hjaelp_NOUN til_ADP at_PART identificere_VERB gerningsmanden_NOUN ._PUNCT}
+Predicted: {
+kriminalpolitiet_NOUN i_ADP logstor_NOUN har_AUX endnu_ADV ikke_ADV kunnet_AUX konstatere_VERB ,_PUNCT at_SCONJ manden_NOUN har_AUX sogt_VERB laegehjaelp_NOUN ,_PUNCT og_CCONJ man_PRON beder_VERB derfor_ADV offentligheden_NOUN om_ADP hjaelp_NOUN til_ADP at_PART identificere_VERB gerningsmanden_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+logstor: PROPN | NOUN
+}
+
+Expected: {
+dengang_ADV var_AUX de_PRON ikke_ADV ligefrem_ADV venner_NOUN ,_PUNCT men_CCONJ det_PRON kom_VERB efterhanden_ADV ,_PUNCT som_PRON det_PRON gik_VERB op_ADV for_ADP dem_PRON ,_PUNCT at_SCONJ de_PRON havde_VERB flere_ADJ interesser_NOUN til_ADP faelles_ADJ ,_PUNCT og_CCONJ i_ADP dag_NOUN er_AUX de_PRON bedste_ADJ venner_NOUN ._PUNCT}
+Predicted: {
+dengang_ADV var_AUX de_PRON ikke_ADV ligefrem_ADV venner_NOUN ,_PUNCT men_CCONJ det_PRON kom_VERB efterhanden_ADV ,_PUNCT som_ADP det_PRON gik_VERB op_ADV for_ADP dem_PRON ,_PUNCT at_SCONJ de_PRON havde_VERB flere_ADJ interesser_NOUN til_ADP faelles_ADJ ,_PUNCT og_CCONJ i_ADP dag_NOUN er_AUX de_DET bedste_ADJ venner_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: PRON | ADP
+de: PRON | DET
+}
+
+Expected: {
+men_CCONJ nanna_PROPN bakker_VERB opfordringen_NOUN op_ADV og_CCONJ det_PRON skal_AUX naevnes_VERB ,_PUNCT at_SCONJ hun_PRON var_AUX en_PRON af_ADP hovedkraefterne_NOUN bag_ADP den_DET succesrige_ADJ musical_NOUN ,_PUNCT som_PRON 10._ADJ klasses_NOUN elever_NOUN opforte_VERB som_ADP alternativ_NOUN til_ADP undervisningen_NOUN i_ADP efteraret_NOUN 1985_NUM ._PUNCT}
+Predicted: {
+men_CCONJ nanna_PROPN bakker_VERB opfordringen_NOUN op_ADV og_CCONJ det_PRON skal_AUX naevnes_VERB ,_PUNCT at_SCONJ hun_PRON var_AUX en_PRON af_ADP hovedkraefterne_NOUN bag_ADP den_DET succesrige_ADJ musical_NOUN ,_PUNCT som_PRON 10._ADP klasses_PROPN elever_PROPN opforte_VERB som_ADP alternativ_NOUN til_ADP undervisningen_NOUN i_ADP efteraret_NOUN 1985_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+10.: ADJ | ADP
+klasses: NOUN | PROPN
+elever: NOUN | PROPN
+}
+
+Expected: {
+men_CCONJ i_ADP de_DET sidste_ADJ to_NUM ar_NOUN er_AUX alting_PRON gaet_VERB skaevt_ADV ._PUNCT}
+Predicted: {
+men_CCONJ i_ADP de_DET sidste_ADJ to_NUM ar_NOUN er_AUX alting_DET gaet_VERB skaevt_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+alting: PRON | DET
+skaevt: ADV | NOUN
+}
+
+Expected: {
+chaufforen_NOUN er_AUX helt_ADV alene_ADV ,_PUNCT han_PRON lober_VERB rundt_ADV i_ADP bussen_NOUN som_ADP en_DET forvirret_VERB bille_NOUN i_ADP en_DET taendstikaeske_NOUN ._PUNCT}
+Predicted: {
+chaufforen_X er_AUX helt_ADV alene_ADV ,_PUNCT han_PRON lober_VERB rundt_ADV i_ADP bussen_NOUN som_ADP en_DET forvirret_VERB bille_NOUN i_ADP en_DET taendstikaeske_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+chaufforen: NOUN | X
+}
+
+Expected: {
+lars_PROPN mumlede_VERB noget_PRON om_ADP ,_PUNCT at_SCONJ klokken_NOUN var_AUX mange_ADJ ._PUNCT}
+Predicted: {
+lars_PROPN mumlede_VERB noget_PRON om_ADP ,_PUNCT at_SCONJ klokken_NOUN var_VERB mange_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+}
+
+Expected: {
+"_PUNCT og_CCONJ sa_ADV har_VERB vi_PRON ikke_ADV andre_DET kobere_NOUN "_PUNCT ,_PUNCT siger_VERB peter_PROPN christoffersen_PROPN ,_PUNCT der_PRON dog_ADV tilfojer_VERB ,_PUNCT at_SCONJ de_PRON ikke_ADV har_AUX vaeret_AUX ude_ADV og_CCONJ "_PUNCT scanne_VERB "_PUNCT markedet_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT og_CCONJ sa_ADV har_AUX vi_PRON ikke_ADV andre_DET kobere_NOUN "_PUNCT ,_PUNCT siger_VERB peter_PROPN christoffersen_PROPN ,_PUNCT der_PRON dog_ADV tilfojer_NOUN ,_PUNCT at_SCONJ de_PRON ikke_ADV har_AUX vaeret_AUX ude_ADV og_CCONJ "_PUNCT scanne_PROPN "_PUNCT markedet_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+tilfojer: VERB | NOUN
+scanne: VERB | PROPN
+markedet: NOUN | PROPN
+}
+
+Expected: {
+i_ADP gar_NOUN blev_AUX kosan_PROPN teknova_PROPN solgt_VERB fra_ADV ,_PUNCT og_CCONJ tilbage_ADV i_ADP kosan_PROPN holding_PROPN er_AUX kun_ADV crisplant_PROPN ._PUNCT}
+Predicted: {
+i_ADP gar_NOUN blev_AUX kosan_AUX teknova_NOUN solgt_VERB fra_ADP ,_PUNCT og_CCONJ tilbage_ADV i_ADP kosan_PROPN holding_PROPN er_AUX kun_ADV crisplant_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kosan: PROPN | AUX
+teknova: PROPN | NOUN
+fra: ADV | ADP
+crisplant: PROPN | ADJ
+}
+
+Expected: {
+de_PRON havde_AUX udviklet_VERB en_DET ny_ADJ teori_NOUN i_ADP propagandaministeriet_NOUN ,_PUNCT der_PRON gik_VERB ud_ADV pa_ADP ,_PUNCT at_SCONJ det_DET bedste_ADJ tidspunkt_NOUN for_ADP store_ADJ meddelelser_NOUN var_VERB ved_ADP slutningen_NOUN af_ADP arbejdsdagen_NOUN ._PUNCT}
+Predicted: {
+de_PRON havde_AUX udviklet_VERB en_DET ny_ADJ teori_NOUN i_ADP propagandaministeriet_NOUN ,_PUNCT der_PRON gik_VERB ud_ADV pa_ADP ,_PUNCT at_SCONJ det_DET bedste_ADJ tidspunkt_NOUN for_ADP store_ADJ meddelelser_NOUN var_AUX ved_ADP slutningen_NOUN af_ADP arbejdsdagen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+at_SCONJ mange_ADJ rygere_NOUN er_AUX lede_ADJ og_CCONJ kede_ADJ af_ADP tobakken_NOUN ,_PUNCT det_PRON er_VERB der_PRON ingen_DET tvivl_NOUN om_ADP ,_PUNCT siger_VERB poul_PROPN ebbe_PROPN nielsen_PROPN :_PUNCT}
+Predicted: {
+at_PART mange_ADJ rygere_NOUN er_AUX lede_VERB og_CCONJ kede_VERB af_ADP tobakken_NOUN ,_PUNCT det_PRON er_VERB der_PRON ingen_DET tvivl_NOUN om_ADP ,_PUNCT siger_VERB poul_PROPN ebbe_PROPN nielsen_PROPN :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+at: SCONJ | PART
+lede: ADJ | VERB
+kede: ADJ | VERB
+}
+
+Expected: {
+jeg_PRON kunne_AUX se_VERB ,_PUNCT at_SCONJ den_DET overbordfaldne_ADJ havde_AUX vaeret_VERB under_ADP vand_NOUN og_CCONJ var_VERB pa_ADP vej_NOUN op_ADV igen_ADV ._PUNCT}
+Predicted: {
+jeg_PRON kunne_AUX se_VERB ,_PUNCT at_SCONJ den_DET overbordfaldne_ADJ havde_AUX vaeret_AUX under_ADP vand_NOUN og_CCONJ var_AUX pa_ADP vej_NOUN op_ADV igen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vaeret: VERB | AUX
+var: VERB | AUX
+}
+
+Expected: {
+som_ADP leder_NOUN af_ADP sygehusets_NOUN portorgruppe_NOUN har_AUX ingen_PRON kunnet_AUX anfaegte_VERB overportorens_NOUN ret_NOUN til_ADP saette_ADV sig_PRON selv_PRON pa_ADP fast_ADJ vagt_NOUN i_ADP kapellet_NOUN ._PUNCT}
+Predicted: {
+som_ADP leder_NOUN af_ADP sygehusets_NOUN portorgruppe_NOUN har_AUX ingen_PRON kunnet_AUX anfaegte_VERB overportorens_NOUN ret_NOUN til_ADP saette_PROPN sig_PRON selv_PRON pa_ADP fast_ADJ vagt_NOUN i_ADP kapellet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+saette: ADV | PROPN
+}
+
+Expected: {
+med_ADP saftige_ADJ lunser_NOUN kod_NOUN blev_AUX vagthundene_NOUN passiviseret_VERB ,_PUNCT sa_SCONJ de_DET formentlig_ADV to_NUM gerningsmaend_NOUN uhindret_ADV kunne_AUX ga_VERB rundt_ADV ,_PUNCT bryde_VERB skuffer_NOUN og_CCONJ skabe_NOUN op_ADV og_CCONJ flygte_VERB med_ADP store_ADJ vaerdier_NOUN ._PUNCT}
+Predicted: {
+med_ADP saftige_ADJ lunser_NOUN kod_NOUN blev_AUX vagthundene_NOUN passiviseret_VERB ,_PUNCT sa_SCONJ de_DET formentlig_ADV to_NUM gerningsmaend_NOUN uhindret_ADJ kunne_AUX ga_VERB rundt_ADV ,_PUNCT bryde_VERB skuffer_NOUN og_CCONJ skabe_NOUN op_ADV og_CCONJ flygte_VERB med_ADP store_ADJ vaerdier_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+uhindret: ADV | ADJ
+}
+
+Expected: {
+nar_SCONJ raeven_NOUN roser_VERB ravnen_NOUN ,_PUNCT mister_VERB den_PRON sin_DET ost_NOUN ._PUNCT}
+Predicted: {
+nar_SCONJ raeven_ADJ roser_NOUN ravnen_NOUN ,_PUNCT mister_VERB den_PRON sin_DET ost_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+raeven: NOUN | ADJ
+roser: VERB | NOUN
+}
+
+Expected: {
+nar_SCONJ vi_PRON lever_VERB i_ADP et_DET land_NOUN ,_PUNCT hvor_ADV det_PRON er_AUX en_DET selvfolge_NOUN ,_PUNCT at_SCONJ vi_PRON far_VERB oplyst_VERB udlobsdatoen_NOUN pa_ADP spegepolser_NOUN ,_PUNCT kan_AUX det_PRON ikke_ADV accepteres_VERB ,_PUNCT at_SCONJ vi_PRON ikke_ADV har_VERB langt_ADV mere_ADJ information_NOUN fra_ADP sygehussektoren_NOUN ._PUNCT}
+Predicted: {
+nar_SCONJ vi_PRON lever_VERB i_ADP et_DET land_NOUN ,_PUNCT hvor_ADV det_PRON er_AUX en_DET selvfolge_NOUN ,_PUNCT at_SCONJ vi_PRON far_VERB oplyst_ADV udlobsdatoen_NOUN pa_ADP spegepolser_NOUN ,_PUNCT kan_AUX det_PRON ikke_ADV accepteres_VERB ,_PUNCT at_SCONJ vi_PRON ikke_ADV har_AUX langt_ADV mere_ADJ information_NOUN fra_ADP sygehussektoren_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+oplyst: VERB | ADV
+har: VERB | AUX
+}
+
+Expected: {
+ispraengt_X oplevelsesstaerke_ADJ kommentarer_NOUN til_ADP den_DET politiske_ADJ situation_NOUN i_ADP hans_DET hjemlande_NOUN indien_PROPN ,_PUNCT pakistan_PROPN og_CCONJ storbritannien_PROPN og_CCONJ essays_NOUN om_ADP religion_NOUN ,_PUNCT specielt_ADV islam_NOUN ,_PUNCT der_PRON kan_AUX give_VERB de_DET lidt_ADV for_ADV skrasikre_ADJ stof_NOUN til_ADP eftertanke_NOUN ._PUNCT}
+Predicted: {
+ispraengt_ADV oplevelsesstaerke_ADJ kommentarer_NOUN til_ADP den_DET politiske_ADJ situation_NOUN i_ADP hans_DET hjemlande_NOUN indien_PROPN ,_PUNCT pakistan_PROPN og_CCONJ storbritannien_PROPN og_CCONJ essays_NOUN om_ADP religion_NOUN ,_PUNCT specielt_ADV islam_NOUN ,_PUNCT der_PRON kan_AUX give_VERB de_DET lidt_ADV for_ADV skrasikre_ADJ stof_NOUN til_ADP eftertanke_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ispraengt: X | ADV
+}
+
+Expected: {
+under_ADP overskriften_NOUN kystland_NOUN byder_VERB hun_PRON pa_ADP en_DET blanding_NOUN af_ADP hymner_NOUN ,_PUNCT salmer_NOUN og_CCONJ nyere_ADJ sange_NOUN akkompagneret_VERB af_ADP en_DET kvartet_NOUN pa_ADP flojte_NOUN ,_PUNCT kontrabas_NOUN ,_PUNCT cello_NOUN og_CCONJ synthesizer_NOUN ._PUNCT}
+Predicted: {
+under_ADP overskriften_NOUN kystland_NOUN byder_VERB hun_PRON pa_ADP en_DET blanding_NOUN af_ADP hymner_NOUN ,_PUNCT salmer_NOUN og_CCONJ nyere_ADJ sange_NOUN akkompagneret_VERB af_ADP en_DET kvartet_NOUN pa_ADP flojte_NOUN ,_PUNCT kontrabas_NOUN ,_PUNCT cello_PROPN og_CCONJ synthesizer_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+cello: NOUN | PROPN
+synthesizer: NOUN | PROPN
+}
+
+Expected: {
+endelig_ADV er_VERB ogsa_ADV inspektionsskibet_NOUN fylla_PROPN til_ADP salg_NOUN ._PUNCT}
+Predicted: {
+endelig_ADV er_AUX ogsa_ADV inspektionsskibet_VERB fylla_PROPN til_ADP salg_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+inspektionsskibet: NOUN | VERB
+}
+
+Expected: {
+uden_ADP at_PART ane_VERB hvorfor_ADV ,_PUNCT er_VERB hun_PRON i_ADP livsfare_NOUN ._PUNCT}
+Predicted: {
+uden_ADP at_PART ane_VERB hvorfor_ADV ,_PUNCT er_AUX hun_PRON i_ADP livsfare_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+-_PUNCT ingen_PRON af_ADP os_PRON havde_AUX forudset_VERB de_DET vanskeligheder_NOUN ,_PUNCT vi_PRON lob_VERB ind_ADV i_ADP ,_PUNCT da_SCONJ vi_PRON sogte_VERB om_ADP tilladelse_NOUN til_ADP at_PART blive_VERB gift_ADJ ,_PUNCT siger_VERB lise_PROPN pedersen_PROPN ._PUNCT}
+Predicted: {
+-_PUNCT ingen_PRON af_ADP os_PRON havde_VERB forudset_VERB de_DET vanskeligheder_NOUN ,_PUNCT vi_PRON lob_VERB ind_ADV i_ADP ,_PUNCT da_SCONJ vi_PRON sogte_VERB om_ADP tilladelse_NOUN til_ADP at_PART blive_VERB gift_ADJ ,_PUNCT siger_VERB lise_PROPN pedersen_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+}
+
+Expected: {
+det_DET normale_ADJ i_ADP erhvervslivet_NOUN i_ADP den_DET slags_NOUN situationer_NOUN er_VERB ,_PUNCT nar_SCONJ en_DET ny_ADJ chef_NOUN tiltraeder_VERB ,_PUNCT sa_ADV ryger_VERB den_DET gamle_ADJ ud_ADV -_PUNCT uanset_ADP om_SCONJ hans_DET kontrakt_NOUN varer_VERB laengere_ADV ._PUNCT}
+Predicted: {
+det_DET normale_ADJ i_ADP erhvervslivet_NOUN i_ADP den_DET slags_NOUN situationer_NOUN er_AUX ,_PUNCT nar_SCONJ en_DET ny_ADJ chef_NOUN tiltraeder_NOUN ,_PUNCT sa_ADV ryger_VERB den_DET gamle_ADJ ud_ADV -_PUNCT uanset_ADP om_SCONJ hans_DET kontrakt_NOUN varer_VERB laengere_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+tiltraeder: VERB | NOUN
+}
+
+Expected: {
+saledes_ADV er_AUX vaginas_NOUN vaegge_NOUN -_PUNCT undtagen_ADP forvaeggen_NOUN -_PUNCT helt_ADV passive_ADJ under_ADP samlejet_NOUN ._PUNCT}
+Predicted: {
+saledes_ADV er_AUX vaginas_PROPN vaegge_PROPN -_PUNCT undtagen_ADP forvaeggen_NOUN -_PUNCT helt_ADV passive_ADJ under_ADP samlejet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vaginas: NOUN | PROPN
+vaegge: NOUN | PROPN
+}
+
+Expected: {
+og_CCONJ der_ADV vakte_VERB hunden_NOUN ogsa_ADV opsigt_NOUN ,_PUNCT blandt_ADP andet_PRON fordi_SCONJ brian_PROPN iklaedte_VERB den_PRON halstorklaede_NOUN og_CCONJ en_DET gammel_ADJ vindjakke_NOUN med_ADP opsmogede_ADJ aermer_NOUN ._PUNCT}
+Predicted: {
+og_CCONJ der_PRON vakte_VERB hunden_NOUN ogsa_ADV opsigt_NOUN ,_PUNCT blandt_ADP andet_PRON fordi_SCONJ brian_PROPN iklaedte_VERB den_PRON halstorklaede_NOUN og_CCONJ en_DET gammel_ADJ vindjakke_NOUN med_ADP opsmogede_ADJ aermer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+det_PRON syntes_VERB mor_NOUN ikke_ADV ,_PUNCT hun_PRON sa_VERB den_DET anden_DET vej_NOUN ,_PUNCT men_CCONJ han_PRON trak_VERB hende_PRON i_ADP frakken_NOUN og_CCONJ fortsatte_VERB :_PUNCT "_PUNCT se_VERB mor_NOUN ,_PUNCT den_PRON ligner_VERB en_DET hund_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+det_DET syntes_VERB mor_NOUN ikke_ADV ,_PUNCT hun_PRON sa_VERB den_DET anden_DET vej_NOUN ,_PUNCT men_CCONJ han_PRON trak_VERB hende_PRON i_ADP frakken_NOUN og_CCONJ fortsatte_VERB :_PUNCT "_PUNCT se_VERB mor_NOUN ,_PUNCT den_PRON ligner_VERB en_DET hund_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+"_PUNCT man_PRON ma_AUX kritisere_VERB det_DET kuldslaede_ADJ fornuftsaegteskab_NOUN med_ADP medierne_NOUN og_CCONJ branchen_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT man_PRON ma_AUX kritisere_VERB det_DET kuldslaede_NOUN fornuftsaegteskab_NOUN med_ADP medierne_NOUN og_CCONJ branchen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kuldslaede: ADJ | NOUN
+}
+
+Expected: {
+hun_PRON har_VERB gode_ADJ holdninger_NOUN ,_PUNCT er_AUX flittig_ADJ og_CCONJ ordholdende_ADJ ._PUNCT}
+Predicted: {
+hun_PRON har_AUX gode_ADJ holdninger_NOUN ,_PUNCT er_AUX flittig_ADJ og_CCONJ ordholdende_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+maskinchef_NOUN pa_ADP ask_PROPN var_AUX ole_PROPN ronnow_PROPN ,_PUNCT som_ADP ogsa_ADV var_AUX maskinchef_NOUN pa_ADP peder_PROPN paars_PROPN ._PUNCT}
+Predicted: {
+maskinchef_NOUN pa_ADP ask_PROPN var_AUX ole_PROPN ronnow_PROPN ,_PUNCT som_ADV ogsa_ADV var_AUX maskinchef_NOUN pa_ADP peder_PROPN paars_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | ADV
+}
+
+Expected: {
+forslaget_NOUN om_ADP faelles_ADJ gruppemoder_NOUN mellem_ADP v_PROPN og_CCONJ k_PROPN er_AUX ikke_ADV helt_ADV nyt_ADJ ._PUNCT}
+Predicted: {
+forslaget_NOUN om_ADP faelles_ADJ gruppemoder_NOUN mellem_ADP v_NOUN og_CCONJ k_NOUN er_AUX ikke_ADV helt_ADV nyt_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+v: PROPN | NOUN
+k: PROPN | NOUN
+}
+
+Expected: {
+og_CCONJ nar_SCONJ de_PRON var_AUX det_PRON ,_PUNCT skyldtes_VERB det_PRON ganske_ADV enkelt_ADV ,_PUNCT at_SCONJ fangevogterne_NOUN brugte_VERB dem_PRON som_ADP undskyldning_NOUN for_ADP ikke_ADV at_PART blive_AUX sendt_VERB til_ADP fronten_NOUN ._PUNCT}
+Predicted: {
+og_CCONJ nar_SCONJ de_PRON var_AUX det_PRON ,_PUNCT skyldtes_VERB det_PRON ganske_ADV enkelt_ADJ ,_PUNCT at_SCONJ fangevogterne_NOUN brugte_VERB dem_PRON som_ADP undskyldning_NOUN for_ADP ikke_ADV at_PART blive_AUX sendt_VERB til_ADP fronten_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+enkelt: ADV | ADJ
+}
+
+Expected: {
+det_PRON skyldes_VERB ,_PUNCT at_SCONJ det_PRON isaer_ADV er_AUX aeldre_ADJ mennesker_NOUN ,_PUNCT som_ADP det_PRON gar_VERB ud_ADV over_ADP ,_PUNCT og_CCONJ de_PRON har_VERB i_ADP mange_ADJ tilfaelde_NOUN andre_DET sygdomme_NOUN ._PUNCT}
+Predicted: {
+det_PRON skyldes_VERB ,_PUNCT at_SCONJ det_DET isaer_ADV er_AUX aeldre_ADJ mennesker_NOUN ,_PUNCT som_PRON det_PRON gar_VERB ud_ADV over_ADP ,_PUNCT og_CCONJ de_PRON har_AUX i_ADP mange_ADJ tilfaelde_NOUN andre_DET sygdomme_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+som: ADP | PRON
+har: VERB | AUX
+}
+
+Expected: {
+trods_ADP fremgangen_NOUN mister_VERB de_DET konservative_ADJ alligevel_ADV et_DET mandat_NOUN til_ADP 29_NUM ,_PUNCT fordi_SCONJ mandaterne_NOUN er_AUX blevet_VERB dyrere_ADJ pa_ADP grund_NOUN af_ADP mindre_ADJ stemmespild_NOUN ._PUNCT}
+Predicted: {
+trods_ADP fremgangen_NOUN mister_VERB de_DET konservative_ADJ alligevel_ADV et_DET mandat_NOUN til_ADP 29_NUM ,_PUNCT fordi_SCONJ mandaterne_NOUN er_AUX blevet_AUX dyrere_VERB pa_ADP grund_NOUN af_ADP mindre_ADJ stemmespild_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+blevet: VERB | AUX
+dyrere: ADJ | VERB
+}
+
+Expected: {
+hun_PRON var_AUX slet_ADV ikke_ADV sadan_ADV ,_PUNCT som_PRON hun_PRON foregav_VERB at_PART vaere_VERB ._PUNCT}
+Predicted: {
+hun_PRON var_VERB slet_ADV ikke_ADV sadan_ADV ,_PUNCT som_PRON hun_PRON foregav_VERB at_PART vaere_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+}
+
+Expected: {
+udsendes_VERB kl_NOUN =_SYM 1600_NUM oplaeser_NOUN =_SYM =_SYM er_VERB}
+Predicted: {
+udsendes_VERB kl_NOUN =_SYM 1600_NUM oplaeser_NOUN =_SYM =_SYM er_AUX}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+uden_ADP ble_NOUN lober_VERB barnets_NOUN diarre_NOUN ned_ADV over_ADP pigens_NOUN lar_NOUN ._PUNCT}
+Predicted: {
+uden_ADP ble_NOUN lober_VERB barnets_NOUN diarre_ADV ned_ADV over_ADP pigens_NOUN lar_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+diarre: NOUN | ADV
+lar: NOUN | PROPN
+}
+
+Expected: {
+i_ADP shell_PROPN har_VERB man_PRON ingen_DET planer_NOUN om_ADP at_PART lade_VERB en_DET del_NOUN af_ADP den_DET blyholdige_ADJ 98_NUM oktan_NOUN erstatte_VERB af_ADP blyfri_ADJ ._PUNCT}
+Predicted: {
+i_ADP shell_PROPN har_AUX man_PRON ingen_PRON planer_NOUN om_ADP at_PART lade_VERB en_DET del_NOUN af_ADP den_DET blyholdige_ADJ 98_NUM oktan_NOUN erstatte_VERB af_ADP blyfri_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+ingen: DET | PRON
+}
+
+Expected: {
+selv_ADV saerligt_ADV begavede_ADJ born_NOUN bliver_VERB nodt_ADJ til_ADP at_PART leve_VERB i_ADP det_DET samfund_NOUN vi_PRON har_AUX ,_PUNCT de_PRON kan_AUX jo_ADV ikke_ADV melde_VERB sig_PRON ud_ADV ._PUNCT}
+Predicted: {
+selv_PRON saerligt_ADV begavede_ADJ born_NOUN bliver_AUX nodt_ADJ til_ADP at_PART leve_VERB i_ADP det_DET samfund_NOUN vi_PRON har_AUX ,_PUNCT de_PRON kan_AUX jo_ADV ikke_ADV melde_VERB sig_PRON ud_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+selv: ADV | PRON
+bliver: VERB | AUX
+}
+
+Expected: {
+kurs_NOUN mod_ADP buske_NOUN}
+Predicted: {
+kurs_NOUN mod_ADP buske_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+buske: NOUN | PROPN
+}
+
+Expected: {
+adolf_PROPN hitler_PROPN er_AUX lehders_PROPN politiske_ADJ idol_NOUN ._PUNCT}
+Predicted: {
+adolf_ADP hitler_NOUN er_AUX lehders_PROPN politiske_ADJ idol_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+adolf: PROPN | ADP
+hitler: PROPN | NOUN
+}
+
+Expected: {
+firs_NUM aserbajdsjanere_NOUN er_AUX blevet_AUX tilbageholdt_VERB af_ADP en_DET militaer_ADJ garnison_NOUN ,_PUNCT og_CCONJ der_PRON er_AUX blevet_AUX ivaerksat_VERB en_DET undersogelse_NOUN af_ADP episoderne_NOUN ._PUNCT}
+Predicted: {
+firs_NUM aserbajdsjanere_NOUN er_AUX blevet_AUX tilbageholdt_VERB af_ADP en_DET militaer_ADJ garnison_NOUN ,_PUNCT og_CCONJ der_ADV er_AUX blevet_AUX ivaerksat_VERB en_DET undersogelse_NOUN af_ADP episoderne_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: PRON | ADV
+}
+
+Expected: {
+alligevel_ADV kan_AUX en_DET sadan_ADJ tourne_NOUN lobe_VERB rundt_ADV ,_PUNCT hvis_SCONJ den_PRON er_AUX ordentligt_ADV tilrettelagt_VERB ._PUNCT}
+Predicted: {
+alligevel_ADV kan_AUX en_DET sadan_ADV tourne_ADJ lobe_NOUN rundt_ADV ,_PUNCT hvis_SCONJ den_PRON er_AUX ordentligt_ADV tilrettelagt_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sadan: ADJ | ADV
+tourne: NOUN | ADJ
+lobe: VERB | NOUN
+}
+
+Expected: {
+kun_ADV ugemagasinet_NOUN sondag's_NOUN laeger_NOUN ma_AUX abne_VERB deres_DET brev_NOUN ._PUNCT}
+Predicted: {
+kun_ADV ugemagasinet_NOUN sondag's_PROPN laeger_NOUN ma_AUX abne_VERB deres_DET brev_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sondag's: NOUN | PROPN
+}
+
+Expected: {
+der_PRON er_VERB samaend_ADV bare_ADV tale_NOUN om_ADP en_DET ganske_ADV almindelig_ADJ hverdagshistorie_NOUN ._PUNCT}
+Predicted: {
+der_PRON er_AUX samaend_ADV bare_ADV tale_NOUN om_ADP en_DET ganske_ADV almindelig_ADJ hverdagshistorie_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+de_PRON har_AUX i_ADP fire_NUM uger_NOUN i_ADP traek_NOUN ligget_VERB pa_ADP en_DET forsteplads_NOUN pa_ADP billboard_PROPN i_ADP usa_PROPN med_ADP singlen_NOUN "_PUNCT jump_PROPN "_PUNCT ,_PUNCT som_PRON udkom_VERB i_ADP februar_NOUN ._PUNCT}
+Predicted: {
+de_PRON har_AUX i_ADP fire_NUM uger_NOUN i_ADP traek_NOUN ligget_VERB pa_ADP en_DET forsteplads_NOUN pa_ADP billboard_NOUN i_ADP usa_PROPN med_ADP singlen_NOUN "_PUNCT jump_NOUN "_PUNCT ,_PUNCT som_PRON udkom_VERB i_ADP februar_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+billboard: PROPN | NOUN
+jump: PROPN | NOUN
+}
+
+Expected: {
+hvad_PRON angar_VERB den_DET indenrigspolitiske_ADJ front_NOUN fremhaevede_VERB han_PRON ,_PUNCT at_SCONJ "_PUNCT sf_PROPN er_AUX hele_ADJ danmarks_PROPN taenketank_NOUN ,_PUNCT nar_SCONJ det_PRON gaelder_VERB fornyelse_NOUN og_CCONJ forandring_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+hvad_PRON angar_VERB den_DET indenrigspolitiske_ADJ front_NOUN fremhaevede_VERB han_PRON ,_PUNCT at_SCONJ "_PUNCT sf_PROPN er_AUX hele_ADJ danmarks_PROPN taenketank_VERB ,_PUNCT nar_SCONJ det_PRON gaelder_VERB fornyelse_NOUN og_CCONJ forandring_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+taenketank: NOUN | VERB
+}
+
+Expected: {
+suveraenitetsafgivelse_NOUN kan_AUX der_PRON heller_ADV ikke_ADV blive_VERB tale_NOUN om_ADP ._PUNCT}
+Predicted: {
+suveraenitetsafgivelse_NOUN kan_AUX der_PRON heller_ADV ikke_ADV blive_VERB tale_NOUN om_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+om: ADP | ADV
+}
+
+Expected: {
+hverken_ADV justy_PROPN eller_CCONJ alto_PROPN er_VERB pa_ADP programmet_NOUN ,_PUNCT og_CCONJ den_DET lette_ADJ mellemklassebil_NOUN leone_PROPN er_VERB pa_ADP vej_NOUN ud_ADV ._PUNCT}
+Predicted: {
+hverken_ADV justy_X eller_CCONJ alto_ADV er_AUX pa_ADV programmet_NOUN ,_PUNCT og_CCONJ den_DET lette_ADJ mellemklassebil_NOUN leone_PROPN er_AUX pa_ADP vej_NOUN ud_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+justy: PROPN | X
+alto: PROPN | ADV
+er: VERB | AUX
+pa: ADP | ADV
+er: VERB | AUX
+}
+
+Expected: {
+jeg_PRON vidste_VERB ,_PUNCT at_SCONJ jeg_PRON var_AUX hurtigere_ADJ end_ADP ham_PRON og_CCONJ havde_VERB hele_ADJ tiden_NOUN kontrol_NOUN over_ADP kampen_NOUN ,_PUNCT "_PUNCT siger_VERB frank_PROPN olsen_PROPN ._PUNCT}
+Predicted: {
+jeg_PRON vidste_VERB ,_PUNCT at_SCONJ jeg_PRON var_AUX hurtigere_ADV end_ADP ham_PRON og_CCONJ havde_VERB hele_ADJ tiden_NOUN kontrol_NOUN over_ADP kampen_NOUN ,_PUNCT "_PUNCT siger_VERB frank_PROPN olsen_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hurtigere: ADJ | ADV
+}
+
+Expected: {
+sekunder_NOUN for_ADP sammenstodet_NOUN var_AUX munni_PROPN blevet_AUX overhalet_VERB af_ADP skoleinspektoren_NOUN pa_ADP centralskolen_NOUN ,_PUNCT som_PRON i_ADP en_DET henkastet_VERB bemaerkning_NOUN sagde_VERB ,_PUNCT at_SCONJ nu_ADV matte_AUX de_PRON vist_ADV saette_VERB farten_NOUN lidt_ADV op_ADV for_ADP at_PART komme_VERB frem_ADV ,_PUNCT inden_SCONJ klokken_NOUN ringede_VERB i_ADP skolegarden_NOUN ._PUNCT}
+Predicted: {
+sekunder_NOUN for_ADP sammenstodet_NOUN var_AUX munni_PROPN blevet_AUX overhalet_VERB af_ADP skoleinspektoren_NOUN pa_ADP centralskolen_NOUN ,_PUNCT som_PRON i_ADP en_DET henkastet_DET bemaerkning_NOUN sagde_VERB ,_PUNCT at_SCONJ nu_ADV matte_AUX de_DET vist_ADV saette_VERB farten_NOUN lidt_ADV op_ADV for_ADP at_PART komme_VERB frem_ADV ,_PUNCT inden_SCONJ klokken_NOUN ringede_VERB i_ADP skolegarden_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+henkastet: VERB | DET
+de: PRON | DET
+}
+
+Expected: {
+"_PUNCT det_PRON er_VERB ,_PUNCT som_ADV om_ADP det_PRON kun_ADV er_AUX slovakerne_NOUN ,_PUNCT der_PRON er_VERB noget_PRON i_ADP vejen_NOUN med_ADP ,_PUNCT "_PUNCT erklaerede_VERB han_PRON ._PUNCT}
+Predicted: {
+"_PUNCT det_PRON er_AUX ,_PUNCT som_ADV om_ADP det_PRON kun_ADV er_AUX slovakerne_NOUN ,_PUNCT der_PRON er_AUX noget_PRON i_ADP vejen_NOUN med_ADP ,_PUNCT "_PUNCT erklaerede_VERB han_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+er: VERB | AUX
+}
+
+Expected: {
+"_PUNCT for_ADP at_PART fa_VERB mere_ADJ rigtig_ADJ kamperfaring_NOUN og_CCONJ dermed_ADV chancen_NOUN for_ADP et_DET bedre_ADJ job_NOUN ,_PUNCT besluttede_VERB jeg_PRON mig_PRON sa_ADV ,_PUNCT sammen_ADV med_ADP en_DET kammerat_NOUN ,_PUNCT til_ADP at_PART rejse_VERB til_ADP bosnien_PROPN ,_PUNCT dels_ADV fordi_SCONJ de_PRON betalte_VERB godt_ADV ,_PUNCT dels_ADV fordi_SCONJ jeg_PRON folte_VERB ,_PUNCT at_SCONJ jeg_PRON hjalp_VERB nogen_PRON ,_PUNCT der_PRON havde_VERB brug_NOUN for_ADP hjaelp_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT for_ADP at_PART fa_VERB mere_ADV rigtig_ADJ kamperfaring_NOUN og_CCONJ dermed_ADV chancen_NOUN for_ADP et_DET bedre_ADJ job_NOUN ,_PUNCT besluttede_VERB jeg_PRON mig_PRON sa_ADV ,_PUNCT sammen_ADV med_ADP en_DET kammerat_NOUN ,_PUNCT til_ADP at_PART rejse_VERB til_ADP bosnien_PROPN ,_PUNCT dels_ADV fordi_SCONJ de_PRON betalte_VERB godt_ADV ,_PUNCT dels_ADV fordi_SCONJ jeg_PRON folte_VERB ,_PUNCT at_SCONJ jeg_PRON hjalp_VERB nogen_PRON ,_PUNCT der_PRON havde_VERB brug_NOUN for_ADP hjaelp_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mere: ADJ | ADV
+}
+
+Expected: {
+-_PUNCT bevar_VERB mig_PRON vel_ADV ,_PUNCT lange_PROPN ,_PUNCT ja_INTJ der_PRON skete_VERB sagu_ADV meget_ADV dengang_ADV ._PUNCT}
+Predicted: {
+-_PUNCT bevar_VERB mig_PRON vel_ADV ,_PUNCT lange_ADJ ,_PUNCT ja_INTJ der_PRON skete_VERB sagu_ADV meget_ADV dengang_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+lange: PROPN | ADJ
+}
+
+Expected: {
+det_PRON er_AUX svaert_ADJ for_ADP de_DET unge_ADJ ,_PUNCT da_SCONJ 3_ADJ g_X er_AUX et_DET vigtigt_ADJ skolear_NOUN ._PUNCT}
+Predicted: {
+det_PRON er_AUX svaert_ADJ for_ADP de_DET unge_ADJ ,_PUNCT da_SCONJ 3_ADJ g_NOUN er_AUX et_DET vigtigt_ADJ skolear_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+g: X | NOUN
+}
+
+Expected: {
+pa_ADP forhand_NOUN afviser_VERB per_PROPN kaalund_PROPN og_CCONJ amtsdirektor_NOUN bo_PROPN smith_PROPN ,_PUNCT at_SCONJ politikerne_NOUN har_VERB noget_DET som_ADP helst_ADV ansvar_NOUN for_ADP placeringen_NOUN af_ADP lanet_NOUN ._PUNCT}
+Predicted: {
+pa_ADP forhand_NOUN afviser_VERB per_PROPN kaalund_PROPN og_CCONJ amtsdirektor_NOUN bo_PROPN smith_PROPN ,_PUNCT at_SCONJ politikerne_NOUN har_AUX noget_DET som_ADP helst_ADV ansvar_NOUN for_ADP placeringen_NOUN af_ADP lanet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+giv_VERB os_PRON vaben_NOUN !_PUNCT "_PUNCT siger_VERB dr._NOUN richter_PROPN ._PUNCT}
+Predicted: {
+giv_VERB os_PRON vaben_NOUN !_PUNCT "_PUNCT siger_VERB dr._PROPN richter_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+dr.: NOUN | PROPN
+}
+
+Expected: {
+devil's_PROPN marbles_PROPN i_ADP australien_PROPN er_AUX et_DET landskab_NOUN af_ADP store_ADJ stenkugler_NOUN skabt_VERB gennem_ADP halvanden_NUM milliard_NOUN ar_NOUN}
+Predicted: {
+devil's_X marbles_NOUN i_ADP australien_PROPN er_AUX et_DET landskab_NOUN af_ADP store_ADJ stenkugler_NOUN skabt_VERB gennem_ADP halvanden_NUM milliard_NOUN ar_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+devil's: PROPN | X
+marbles: PROPN | NOUN
+}
+
+Expected: {
+og_CCONJ familien_NOUN havde_VERB megen_ADJ glaede_NOUN af_ADP h.l._PROPN hansen_PROPN ,_PUNCT som_PRON drev_VERB garden_NOUN ved_ADP siden_NOUN af_ADP jobbet_NOUN som_ADP administrerende_VERB direktor_NOUN ._PUNCT}
+Predicted: {
+og_CCONJ familien_NOUN havde_AUX megen_ADJ glaede_NOUN af_ADP h.l._PROPN hansen_PROPN ,_PUNCT som_ADP drev_PROPN garden_NOUN ved_ADP siden_NOUN af_ADP jobbet_NOUN som_ADP administrerende_VERB direktor_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: VERB | AUX
+som: PRON | ADP
+drev: VERB | PROPN
+}
+
+Expected: {
+siden_SCONJ hendes_DET far_NOUN druknede_VERB pa_ADP fjorden_NOUN en_DET vinterdag_NOUN ,_PUNCT var_AUX alt_ADJ gaet_VERB skaevt_ADV for_ADP bodil_PROPN ._PUNCT}
+Predicted: {
+siden_SCONJ hendes_DET far_NOUN druknede_VERB pa_ADP fjorden_NOUN en_DET vinterdag_NOUN ,_PUNCT var_AUX alt_ADJ gaet_ADJ skaevt_ADV for_ADP bodil_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+gaet: VERB | ADJ
+}
+
+Expected: {
+and_PROPN some_X day_X we_X shall_X have_X our_X revenge_X ._PUNCT}
+Predicted: {
+and_X some_X day_X we_X shall_X have_AUX our_PROPN revenge_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+and: PROPN | X
+have: X | AUX
+our: X | PROPN
+revenge: X | NOUN
+}
+
+Expected: {
+"_PUNCT det_PRON er_AUX for_ADV sent_ADV at_PART graede_VERB over_ADP spildt_VERB maelk_NOUN ,_PUNCT "_PUNCT sagde_VERB dubcek_PROPN med_ADP henvisning_NOUN til_ADP de_DET dramatiske_ADJ begivenheder_NOUN i_ADP 1968_NUM ._PUNCT}
+Predicted: {
+"_PUNCT det_PRON er_AUX for_ADV sent_ADV at_PART graede_VERB over_ADP spildt_ADJ maelk_NOUN ,_PUNCT "_PUNCT sagde_VERB dubcek_NOUN med_ADP henvisning_NOUN til_ADP de_DET dramatiske_ADJ begivenheder_NOUN i_ADP 1968_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+spildt: VERB | ADJ
+dubcek: PROPN | NOUN
+}
+
+Expected: {
+de_DET eventuelle_ADJ andre_DET ,_PUNCT vel_ADV at_PART maerke_VERB ._PUNCT}
+Predicted: {
+de_DET eventuelle_ADJ andre_PRON ,_PUNCT vel_ADV at_PART maerke_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+andre: DET | PRON
+}
+
+Expected: {
+inger_PROPN :_PUNCT "_PUNCT det_PRON er_AUX ogsa_ADV ren_ADJ og_CCONJ skaer_ADJ misundelse_NOUN fra_ADP sportsjournalisters_NOUN side_NOUN ,_PUNCT nar_SCONJ de_PRON aldrig_ADV omtaler_VERB mesterskaber_NOUN i_ADP bodybuilding_NOUN ._PUNCT}
+Predicted: {
+inger_PROPN :_PUNCT "_PUNCT det_PRON er_AUX ogsa_ADV ren_ADJ og_CCONJ skaer_ADJ misundelse_NOUN fra_ADP sportsjournalisters_PROPN side_NOUN ,_PUNCT nar_SCONJ de_PRON aldrig_ADV omtaler_VERB mesterskaber_NOUN i_ADP bodybuilding_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sportsjournalisters: NOUN | PROPN
+}
+
+Expected: {
+safremt_SCONJ virksomheden_NOUN ikke_ADV selv_PRON er_VERB i_ADP stand_NOUN til_ADP at_PART udfore_VERB de_DET kraevede_VERB malinger_NOUN ,_PUNCT ma_AUX den_PRON for_ADP egen_ADJ regning_NOUN soge_VERB bistand_NOUN hos_ADP private_ADJ eller_CCONJ offentlige_ADJ laboratorier_NOUN ._PUNCT}
+Predicted: {
+safremt_ADJ virksomheden_NOUN ikke_ADV selv_PRON er_AUX i_ADP stand_NOUN til_ADP at_PART udfore_VERB de_DET kraevede_ADJ malinger_NOUN ,_PUNCT ma_AUX den_PRON for_ADP egen_ADJ regning_NOUN soge_VERB bistand_NOUN hos_ADP private_ADJ eller_CCONJ offentlige_ADJ laboratorier_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+safremt: SCONJ | ADJ
+er: VERB | AUX
+kraevede: VERB | ADJ
+}
+
+Expected: {
+enten_SCONJ er_AUX vi_PRON ude_ADV eller_CCONJ ogsa_ADV er_AUX vi_PRON inde_ADV ,_PUNCT mener_VERB fru_X bjerregaard_PROPN ._PUNCT}
+Predicted: {
+enten_SCONJ er_AUX vi_PRON ude_ADV eller_CCONJ ogsa_ADV er_AUX vi_PRON inde_ADV ,_PUNCT mener_VERB fru_X bjerregaard_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bjerregaard: PROPN | NOUN
+}
+
+Expected: {
+roskilde_PROPN domkirke_NOUN bliver_VERB 12._ADJ november_NOUN rammen_NOUN om_ADP den_DET forste_ADJ af_ADP en_DET raekke_NOUN koncerter_NOUN ,_PUNCT den_DET norske_ADJ sangerinde_NOUN sissel_PROPN kyrkjebo_PROPN giver_VERB i_ADP danmark_PROPN ._PUNCT}
+Predicted: {
+roskilde_X domkirke_NOUN bliver_VERB 12._ADJ november_NOUN rammen_NOUN om_ADP den_DET forste_ADJ af_ADP en_DET raekke_NOUN koncerter_NOUN ,_PUNCT den_DET norske_ADJ sangerinde_NOUN sissel_PROPN kyrkjebo_PROPN giver_VERB i_ADP danmark_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+roskilde: PROPN | X
+}
+
+Expected: {
+budskabet_NOUN i_ADP "_PUNCT medicine_PROPN man_PROPN "_PUNCT er_AUX stort_ADJ og_CCONJ uafrysteligt_ADJ -_PUNCT det_PRON handler_VERB om_ADP tilintetgorelsen_NOUN af_ADP regnskoven_NOUN og_CCONJ om_ADP klodens_NOUN selvmord_NOUN ._PUNCT}
+Predicted: {
+budskabet_NOUN i_ADP "_PUNCT medicine_AUX man_PRON "_PUNCT er_AUX stort_ADJ og_CCONJ uafrysteligt_ADJ -_PUNCT det_PRON handler_VERB om_ADP tilintetgorelsen_NOUN af_ADP regnskoven_NOUN og_CCONJ om_ADP klodens_NOUN selvmord_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+medicine: PROPN | AUX
+man: PROPN | PRON
+}
+
+Expected: {
+affald_NOUN er_AUX fremtidens_NOUN ravare_NOUN ,_PUNCT for_CCONJ virksomhederne_NOUN far_VERB pligt_NOUN til_ADP at_PART genbruge_VERB deres_DET produkter_NOUN}
+Predicted: {
+affald_NOUN er_AUX fremtidens_NOUN ravare_NOUN ,_PUNCT for_SCONJ virksomhederne_NOUN far_VERB pligt_NOUN til_ADP at_PART genbruge_VERB deres_DET produkter_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: CCONJ | SCONJ
+}
+
+Expected: {
+-_PUNCT og_CCONJ det_PRON var_AUX jo_ADV den_DET almindelige_ADJ holdning_NOUN i_ADP danmark_PROPN ,_PUNCT men_CCONJ nu_ADV vil_AUX man_PRON ikke_ADV huske_VERB det_PRON laengere_ADV og_CCONJ haevner_VERB sig_PRON pa_ADP dem_PRON der_ADV gjorde_VERB hvad_PRON man_PRON tryglede_VERB dem_PRON om_ADP at_PART gore_VERB !_PUNCT}
+Predicted: {
+-_PUNCT og_CCONJ det_PRON var_AUX jo_ADV den_DET almindelige_ADJ holdning_NOUN i_ADP danmark_PROPN ,_PUNCT men_CCONJ nu_ADV vil_AUX man_PRON ikke_ADV huske_VERB det_PRON laengere_ADV og_CCONJ haevner_VERB sig_PRON pa_ADP dem_PRON der_PRON gjorde_VERB hvad_PRON man_PRON tryglede_VERB dem_PRON om_ADV at_PART gore_VERB !_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+om: ADP | ADV
+}
+
+Expected: {
+"_PUNCT kineserne_NOUN er_VERB skuffede_VERB over_ADP danmarks_PROPN holdning_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT kineserne_NOUN er_AUX skuffede_VERB over_ADP danmarks_PROPN holdning_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+denne_DET gang_NOUN tog_VERB det_PRON kazama_PROPN omkring_ADP en_DET maneds_NOUN tid_NOUN at_PART krydse_VERB ind_ADV over_ADP iskalotten_NOUN og_CCONJ na_VERB sit_DET polare_ADJ mal_NOUN ._PUNCT}
+Predicted: {
+denne_DET gang_NOUN tog_VERB det_PRON kazama_AUX omkring_ADP en_DET maneds_NOUN tid_NOUN at_PART krydse_VERB ind_ADV over_ADP iskalotten_NOUN og_CCONJ na_VERB sit_DET polare_ADJ mal_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kazama: PROPN | AUX
+}
+
+Expected: {
+til_ADP alperne_PROPN i_ADP egen_ADJ bil_NOUN}
+Predicted: {
+til_ADP alperne_NOUN i_ADP egen_ADJ bil_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+alperne: PROPN | NOUN
+}
+
+Expected: {
+hun_PRON matte_AUX lade_VERB munter_ADJ ,_PUNCT som_PRON hun_PRON havde_AUX vaeret_VERB hele_ADJ dagen_NOUN ,_PUNCT selv_ADV om_ADP det_PRON faldt_VERB hende_PRON aldrig_ADV sa_ADV svaert_ADV ._PUNCT}
+Predicted: {
+hun_PRON matte_AUX lade_VERB munter_ADJ ,_PUNCT som_PRON hun_PRON havde_AUX vaeret_AUX hele_ADJ dagen_NOUN ,_PUNCT selv_ADV om_ADP det_PRON faldt_VERB hende_PRON aldrig_ADV sa_ADV svaert_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vaeret: VERB | AUX
+svaert: ADV | ADJ
+}
+
+Expected: {
+det_PRON indebaerer_VERB at_SCONJ langt_ADV faerre_ADJ far_VERB mulighed_NOUN for_ADP at_PART overvaere_VERB hendes_DET koncerter_NOUN ._PUNCT}
+Predicted: {
+det_PRON indebaerer_VERB at_SCONJ langt_ADV faerre_ADJ far_NOUN mulighed_NOUN for_ADP at_PART overvaere_VERB hendes_DET koncerter_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+far: VERB | NOUN
+}
+
+Expected: {
+det_PRON fremgik_VERB ogsa_ADV af_ADP poul_PROPN j._PROPN svanholms_PROPN beretning_NOUN ,_PUNCT at_SCONJ den_DET danske_ADJ bank_NOUN ikke_ADV vil_AUX ga_VERB ind_ADV og_CCONJ redde_VERB nodstedte_ADJ banker_NOUN og_CCONJ sparekasser_NOUN ,_PUNCT der_PRON er_AUX kommet_VERB i_ADP okonomisk_ADJ ufore_NOUN ._PUNCT}
+Predicted: {
+det_PRON fremgik_VERB ogsa_ADV af_ADP poul_PROPN j._PROPN svanholms_PROPN beretning_NOUN ,_PUNCT at_SCONJ den_DET danske_ADJ bank_NOUN ikke_ADV vil_AUX ga_VERB ind_ADV og_CCONJ redde_VERB nodstedte_ADJ banker_NOUN og_CCONJ sparekasser_NOUN ,_PUNCT der_PRON er_AUX kommet_VERB i_ADP okonomisk_ADV ufore_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+okonomisk: ADJ | ADV
+ufore: NOUN | ADJ
+}
+
+Expected: {
+"_PUNCT auktionsbetingelserne_NOUN siger_VERB simpelthen_ADV ,_PUNCT at_SCONJ spaekhuggeren_NOUN skal_AUX hugges_VERB op_ADV og_CCONJ ,_PUNCT at_SCONJ visse_ADJ dele_NOUN derefter_ADV skal_AUX afleveres_VERB til_ADP sovaernet_NOUN ,_PUNCT "_PUNCT oplyser_VERB kommandorkaptajn_NOUN per_PROPN mikkelsen_PROPN pa_ADP holmen_NOUN i_ADP kobenhavn_PROPN ._PUNCT}
+Predicted: {
+"_PUNCT auktionsbetingelserne_NOUN siger_VERB simpelthen_PROPN ,_PUNCT at_SCONJ spaekhuggeren_NOUN skal_AUX hugges_VERB op_ADV og_CCONJ ,_PUNCT at_SCONJ visse_ADJ dele_NOUN derefter_ADV skal_AUX afleveres_VERB til_ADP sovaernet_NOUN ,_PUNCT "_PUNCT oplyser_VERB kommandorkaptajn_NOUN per_PROPN mikkelsen_PROPN pa_ADP holmen_PROPN i_ADP kobenhavn_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+simpelthen: ADV | PROPN
+holmen: NOUN | PROPN
+}
+
+Expected: {
+"_PUNCT du_PRON kender_VERB ikke_ADV muslimerne_NOUN ._PUNCT det_PRON er_AUX fantastisk_ADJ ._PUNCT de_PRON lyver_VERB en_PRON lige_ADV op_ADV i_ADP ansigtet_NOUN ,_PUNCT selv_ADV om_ADP det_PRON er_AUX indlysende_ADJ ,_PUNCT at_SCONJ de_PRON gor_VERB det_PRON ._PUNCT det_PRON er_VERB ,_PUNCT som_ADV om_ADP det_PRON er_AUX en_DET del_NOUN af_ADP deres_DET kultur_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT du_PRON kender_VERB ikke_ADV muslimerne_NOUN ._PUNCT det_PRON er_AUX fantastisk_ADJ ._PUNCT de_PRON lyver_VERB en_DET lige_ADV op_ADV i_ADP ansigtet_NOUN ,_PUNCT selv_ADV om_ADP det_PRON er_AUX indlysende_ADJ ,_PUNCT at_SCONJ de_PRON gor_VERB det_PRON ._PUNCT det_PRON er_AUX ,_PUNCT som_ADV om_ADP det_PRON er_AUX en_DET del_NOUN af_ADP deres_DET kultur_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+en: PRON | DET
+er: VERB | AUX
+}
+
+Expected: {
+farvekataloget_NOUN ,_PUNCT som_PRON blev_AUX uddelt_VERB ved_ADP seancens_NOUN begyndelse_NOUN ,_PUNCT er_AUX en_DET vigtig_ADJ del_NOUN af_ADP kokkenkulturen_NOUN ._PUNCT}
+Predicted: {
+farvekataloget_NOUN ,_PUNCT som_PRON blev_AUX uddelt_VERB ved_ADP seancens_PROPN begyndelse_NOUN ,_PUNCT er_AUX en_DET vigtig_ADJ del_NOUN af_ADP kokkenkulturen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+seancens: NOUN | PROPN
+}
+
+Expected: {
+holmen_NOUN er_VERB samaend_ADV ogsa_ADV snart_ADV til_ADP salg_NOUN ._PUNCT}
+Predicted: {
+holmen_PROPN er_AUX samaend_ADV ogsa_ADV snart_ADV til_ADP salg_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+holmen: NOUN | PROPN
+er: VERB | AUX
+}
+
+Expected: {
+-_PUNCT i_ADP hvert_DET fald_NOUN ikke_ADV ,_PUNCT sagde_VERB han_PRON kraenket_VERB ,_PUNCT som_ADP havde_AUX jeg_PRON udsat_VERB hans_DET aere_NOUN for_ADP en_DET miskreditering_NOUN ._PUNCT}
+Predicted: {
+-_PUNCT i_ADP hvert_DET fald_NOUN ikke_ADV ,_PUNCT sagde_VERB han_PRON kraenket_NOUN ,_PUNCT som_PRON havde_VERB jeg_PRON udsat_VERB hans_DET aere_NOUN for_ADP en_DET miskreditering_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kraenket: VERB | NOUN
+som: ADP | PRON
+havde: AUX | VERB
+}
+
+Expected: {
+hun_PRON ville_AUX ikke_ADV stille_VERB sin_DET skam_NOUN og_CCONJ ydmygelse_NOUN abenlyst_ADV til_ADP skue_NOUN for_ADP hele_ADJ familien_NOUN ._PUNCT}
+Predicted: {
+hun_PRON ville_AUX ikke_ADV stille_VERB sin_DET skam_NOUN og_CCONJ ydmygelse_NOUN abenlyst_ADJ til_ADP skue_NOUN for_ADP hele_ADJ familien_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+abenlyst: ADV | ADJ
+}
+
+Expected: {
+henrik_PROPN er_AUX fuld_ADJ af_ADP energi_NOUN ,_PUNCT men_CCONJ optagelsen_NOUN pa_ADP teaterskolen_NOUN blev_VERB smertefuld_ADJ for_ADP ham_PRON ._PUNCT}
+Predicted: {
+henrik_PROPN er_AUX fuld_ADJ af_ADP energi_NOUN ,_PUNCT men_CCONJ optagelsen_NOUN pa_ADP teaterskolen_NOUN blev_AUX smertefuld_ADJ for_ADP ham_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+blev: VERB | AUX
+}
+
+Expected: {
+nu_ADV star_VERB det_PRON opstablet_ADJ foran_ADP nanas_PROPN hus_NOUN ._PUNCT}
+Predicted: {
+nu_ADV star_VERB det_DET opstablet_ADJ foran_ADP nanas_PROPN hus_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+}
+
+Expected: {
+find_VERB ud_ADV af_ADP ,_PUNCT hvad_PRON det_PRON nojagtigt_ADV er_VERB ,_PUNCT de_PRON forlanger_VERB af_ADP dig_PRON og_CCONJ lad_VERB vaere_VERB med_ADP at_PART ga_VERB i_ADP panik_NOUN ,_PUNCT hvis_SCONJ sporgsmalet_NOUN kommer_VERB bag_ADV pa_ADP dig_PRON ._PUNCT}
+Predicted: {
+find_NOUN ud_ADV af_ADP ,_PUNCT hvad_PRON det_DET nojagtigt_ADJ er_NOUN ,_PUNCT de_DET forlanger_NOUN af_ADP dig_PRON og_CCONJ lad_VERB vaere_VERB med_ADP at_PART ga_VERB i_ADP panik_NOUN ,_PUNCT hvis_SCONJ sporgsmalet_NOUN kommer_VERB bag_ADV pa_ADP dig_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+find: VERB | NOUN
+det: PRON | DET
+nojagtigt: ADV | ADJ
+er: VERB | NOUN
+de: PRON | DET
+forlanger: VERB | NOUN
+}
+
+Expected: {
+kalen_NOUN koges_VERB mor_ADJ ._PUNCT}
+Predicted: {
+kalen_NOUN koges_VERB mor_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mor: ADJ | NOUN
+}
+
+Expected: {
+efter_ADP 7._ADJ klasse_NOUN tog_VERB jeg_PRON forst_ADV et_DET ar_NOUN pa_ADP en_DET efterskole_NOUN for_ADP ordblinde_ADJ ,_PUNCT derefter_ADV et_DET ar_NOUN pa_ADP en_PRON anden_PRON ._PUNCT}
+Predicted: {
+efter_ADP 7._ADJ klasse_NOUN tog_VERB jeg_PRON forst_ADV et_DET ar_NOUN pa_ADP en_DET efterskole_NOUN for_ADP ordblinde_ADJ ,_PUNCT derefter_ADV et_DET ar_NOUN pa_ADP en_DET anden_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+en: PRON | DET
+anden: PRON | ADJ
+}
+
+Expected: {
+den_PRON er_AUX maske_ADV langsom_ADJ ,_PUNCT men_CCONJ alt_ADJ -_PUNCT selv_ADV en_DET dansk_ADJ krone_NOUN -_PUNCT er_AUX bedre_ADJ end_ADP ingenting_PRON ,_PUNCT nar_SCONJ de_PRON gives_VERB til_ADP hjaelpearbejdet_NOUN ,_PUNCT "_PUNCT siger_VERB sophia_PROPN loren_PROPN ._PUNCT}
+Predicted: {
+den_PRON er_AUX maske_ADV langsom_ADJ ,_PUNCT men_CCONJ alt_ADJ -_PUNCT selv_PRON en_DET dansk_ADJ krone_NOUN -_PUNCT er_AUX bedre_ADJ end_ADP ingenting_PRON ,_PUNCT nar_SCONJ de_PRON gives_VERB til_ADP hjaelpearbejdet_NOUN ,_PUNCT "_PUNCT siger_VERB sophia_PROPN loren_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+selv: ADV | PRON
+}
+
+Expected: {
+forsogets_NOUN formal_NOUN er_VERB at_PART undersoge_VERB ,_PUNCT om_SCONJ raolie_NOUN er_AUX en_DET blanding_NOUN eller_CCONJ et_DET rent_ADJ stof_NOUN ._PUNCT}
+Predicted: {
+forsogets_NOUN formal_NOUN er_AUX at_PART undersoge_VERB ,_PUNCT om_SCONJ raolie_NOUN er_AUX en_DET blanding_NOUN eller_CCONJ et_DET rent_ADJ stof_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+allerede_ADV nu_ADV har_VERB birlik_PROPN 500.000_NUM medlemmer_NOUN ._PUNCT}
+Predicted: {
+allerede_ADV nu_ADV har_AUX birlik_PROPN 500.000_NUM medlemmer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+han_PRON er_AUX klar_ADJ over_ADP ,_PUNCT at_SCONJ enhver_DET lille_ADJ bevaegelse_NOUN fra_ADP atp_PROPN vil_AUX blive_AUX fulgt_VERB noje_ADV af_ADP det_DET danske_ADJ aktiemarked_NOUN pa_ADP grund_NOUN af_ADP atp's_PROPN meget_ADV store_ADJ betydning_NOUN for_ADP aktiemarkedet_NOUN ._PUNCT}
+Predicted: {
+han_PRON er_AUX klar_ADJ over_ADP ,_PUNCT at_SCONJ enhver_DET lille_ADJ bevaegelse_NOUN fra_ADP atp_PROPN vil_AUX blive_AUX fulgt_VERB noje_ADJ af_ADP det_DET danske_ADJ aktiemarked_NOUN pa_ADP grund_NOUN af_ADP atp's_ADV meget_ADV store_ADJ betydning_NOUN for_ADP aktiemarkedet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+noje: ADV | ADJ
+atp's: PROPN | ADV
+}
+
+Expected: {
+samtidig_ADV med_ADP spillet_NOUN i_ADP heimdal_PROPN traenede_VERB lars_PROPN pa_ADP livet_NOUN los_ADV hjemme_ADV i_ADP garden_NOUN ,_PUNCT hvor_ADV hojreskojten_NOUN i_ADP timevis_ADV blev_AUX affyret_VERB ,_PUNCT sa_SCONJ sparket_NOUN efterhanden_ADV blev_VERB et_PRON af_ADP de_DET hardeste_ADJ og_CCONJ mest_ADV praecise_ADJ i_ADP superligaen_NOUN ._PUNCT}
+Predicted: {
+samtidig_ADV med_ADP spillet_NOUN i_ADP heimdal_PROPN traenede_VERB lars_PROPN pa_ADP livet_NOUN los_ADV hjemme_ADV i_ADP garden_NOUN ,_PUNCT hvor_ADV hojreskojten_NOUN i_ADP timevis_ADV blev_AUX affyret_VERB ,_PUNCT sa_ADV sparket_VERB efterhanden_ADV blev_VERB et_PRON af_ADP de_DET hardeste_ADJ og_CCONJ mest_ADV praecise_ADJ i_ADP superligaen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sa: SCONJ | ADV
+sparket: NOUN | VERB
+}
+
+Expected: {
+det_PRON fremgar_VERB ogsa_ADV af_ADP det_DET sigende_VERB titelnummer_NOUN follow_PROPN me_X ,_PUNCT follow_PROPN you_X pa_ADP guitaristen_NOUN karsten_PROPN houmarks_PROPN ny_ADJ cd_NOUN ,_PUNCT hvor_ADV trompetisten_NOUN uli_PROPN beckerhoff_PROPN ,_PUNCT kapelmesteren_NOUN selv_PRON og_CCONJ bassisten_NOUN arild_PROPN andersen_PROPN efter_ADP tur_NOUN folder_VERB sig_PRON ud_ADV i_ADP samspil_NOUN med_ADP mazur_PROPN ,_PUNCT hvis_PRON fascinerende_VERB ,_PUNCT flyvsk_ADV flagrende_VERB trommespil_NOUN tydeligvis_ADV er_AUX praeget_VERB af_ADP erfaringerne_NOUN fra_ADP hendes_DET mere_ADV blandede_VERB slagtojsarsenal_NOUN -_PUNCT saledes_ADV som_ADP man_PRON ogsa_ADV kunne_AUX hore_VERB da_SCONJ gruppen_NOUN i_ADP fredags_NOUN spillede_VERB i_ADP copenhagen_PROPN jazzhouse_PROPN ._PUNCT}
+Predicted: {
+det_PRON fremgar_VERB ogsa_ADV af_ADP det_DET sigende_VERB titelnummer_NOUN follow_PROPN me_PROPN ,_PUNCT follow_PROPN you_PROPN pa_ADP guitaristen_NOUN karsten_PROPN houmarks_PROPN ny_ADJ cd_NOUN ,_PUNCT hvor_ADV trompetisten_NOUN uli_ADP beckerhoff_PROPN ,_PUNCT kapelmesteren_NOUN selv_PRON og_CCONJ bassisten_NOUN arild_PROPN andersen_PROPN efter_ADP tur_NOUN folder_VERB sig_PRON ud_ADV i_ADP samspil_NOUN med_ADP mazur_NOUN ,_PUNCT hvis_PRON fascinerende_VERB ,_PUNCT flyvsk_ADV flagrende_VERB trommespil_NOUN tydeligvis_ADV er_AUX praeget_VERB af_ADP erfaringerne_NOUN fra_ADP hendes_DET mere_ADV blandede_VERB slagtojsarsenal_PROPN -_PUNCT saledes_ADV som_PRON man_PRON ogsa_ADV kunne_AUX hore_VERB da_SCONJ gruppen_NOUN i_ADP fredags_NOUN spillede_VERB i_ADP copenhagen_PROPN jazzhouse_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+me: X | PROPN
+you: X | PROPN
+uli: PROPN | ADP
+mazur: PROPN | NOUN
+slagtojsarsenal: NOUN | PROPN
+som: ADP | PRON
+}
+
+Expected: {
+til_ADP det_PRON siger_VERB bankdirektor_NOUN peter_PROPN straarup_PROPN :_PUNCT "_PUNCT kobenhavns_PROPN amts_NOUN antagelser_NOUN om_ADP ,_PUNCT at_SCONJ amtet_NOUN er_AUX priviligerede_X lantagere_NOUN er_AUX helt_ADV grundlose_ADJ ._PUNCT "_PUNCT}
+Predicted: {
+til_ADP det_DET siger_VERB bankdirektor_NOUN peter_PROPN straarup_PROPN :_PUNCT "_PUNCT kobenhavns_PROPN amts_PROPN antagelser_NOUN om_ADP ,_PUNCT at_SCONJ amtet_NOUN er_AUX priviligerede_X lantagere_NOUN er_AUX helt_ADV grundlose_ADJ ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+amts: NOUN | PROPN
+}
+
+Expected: {
+"_PUNCT den_DET bold_NOUN glemmer_VERB jeg_PRON ikke_ADV lige_ADV med_ADP det_DET samme_ADJ ,_PUNCT "_PUNCT fastslog_VERB hauth_PROPN efter_ADP staevnet_NOUN ,_PUNCT "_PUNCT men_CCONJ ellers_ADV er_AUX jeg_PRON faktisk_ADV godt_ADV tilfreds_ADJ med_ADP ,_PUNCT at_SCONJ jeg_PRON var_AUX sa_ADV naer_ADV ved_ADV mod_ADP grubba_PROPN og_CCONJ bagefter_ADV ogsa_ADV tog_VERB saet_NOUN fra_ADP appelgren_PROPN og_CCONJ viste_VERB noget_PRON af_ADP det_DET bedste_ADJ ,_PUNCT jeg_PRON kan_AUX ._PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT den_DET bold_NOUN glemmer_VERB jeg_PRON ikke_ADV lige_ADV med_ADP det_DET samme_ADJ ,_PUNCT "_PUNCT fastslog_VERB hauth_PROPN efter_ADP staevnet_NOUN ,_PUNCT "_PUNCT men_CCONJ ellers_ADV er_AUX jeg_PRON faktisk_ADV godt_ADV tilfreds_ADJ med_ADP ,_PUNCT at_SCONJ jeg_PRON var_AUX sa_ADV naer_ADJ ved_ADP mod_PROPN grubba_PROPN og_CCONJ bagefter_ADV ogsa_ADV tog_VERB saet_NOUN fra_ADP appelgren_PROPN og_CCONJ viste_VERB noget_PRON af_ADP det_DET bedste_ADJ ,_PUNCT jeg_PRON kan_AUX ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+naer: ADV | ADJ
+ved: ADV | ADP
+mod: ADP | PROPN
+}
+
+Expected: {
+resultaterne_NOUN af_ADP egenkontrollen_NOUN skal_AUX registreres_VERB og_CCONJ indfores_VERB i_ADP en_DET journal_NOUN ,_PUNCT der_ADV skal_AUX vaere_AUX tilgaengelig_ADJ for_ADP tilsynsmyndigheden_NOUN og_CCONJ opbevares_VERB i_ADP et_DET antal_NOUN ar_NOUN fastsat_VERB af_ADP tilsynsmyndigheden_NOUN (_PUNCT en_DET periode_NOUN af_ADP mindst_ADV 5_NUM ar_NOUN anbefales_VERB )_PUNCT ._PUNCT}
+Predicted: {
+resultaterne_NOUN af_ADP egenkontrollen_NOUN skal_AUX registreres_VERB og_CCONJ indfores_VERB i_ADP en_DET journal_NOUN ,_PUNCT der_PRON skal_AUX vaere_AUX tilgaengelig_ADJ for_ADP tilsynsmyndigheden_NOUN og_CCONJ opbevares_VERB i_ADP et_DET antal_NOUN ar_NOUN fastsat_VERB af_ADP tilsynsmyndigheden_NOUN (_PUNCT en_DET periode_NOUN af_ADP mindst_ADV 5_NUM ar_NOUN anbefales_VERB )_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+-_PUNCT ja_INTJ ,_PUNCT og_CCONJ opvarmet_VERB pol_NOUN og_CCONJ volvo_PROPN ._PUNCT}
+Predicted: {
+-_PUNCT ja_INTJ ,_PUNCT og_CCONJ opvarmet_VERB pol_NOUN og_CCONJ volvo_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+volvo: PROPN | NOUN
+}
+
+Expected: {
+formanden_NOUN for_ADP etagebo_NOUN jan_PROPN priess_PROPN bod_VERB velkommen_ADJ ,_PUNCT og_CCONJ da_SCONJ balet_NOUN var_VERB ved_ADP at_PART ebbe_VERB ud_ADV ,_PUNCT holdt_VERB afdelingsbestyrelsens_NOUN formand_NOUN mogens_PROPN nielsen_PROPN baltalen_NOUN ._PUNCT}
+Predicted: {
+formanden_NOUN for_ADP etagebo_DET jan_PROPN priess_PROPN bod_PROPN velkommen_PROPN ,_PUNCT og_CCONJ da_SCONJ balet_NOUN var_AUX ved_ADP at_PART ebbe_VERB ud_ADV ,_PUNCT holdt_VERB afdelingsbestyrelsens_NOUN formand_NOUN mogens_PROPN nielsen_PROPN baltalen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+etagebo: NOUN | DET
+bod: VERB | PROPN
+velkommen: ADJ | PROPN
+var: VERB | AUX
+}
+
+Expected: {
+loven_NOUN fremmer_VERB en_DET klar_ADJ ansvarsplacering_NOUN og_CCONJ det_DET selvstyre_NOUN ,_PUNCT der_PRON skal_AUX til_ADV for_ADP at_PART skabe_VERB fornyelse_NOUN ._PUNCT}
+Predicted: {
+loven_NOUN fremmer_VERB en_DET klar_ADJ ansvarsplacering_NOUN og_CCONJ det_DET selvstyre_NOUN ,_PUNCT der_PRON skal_VERB til_ADV for_ADP at_PART skabe_VERB fornyelse_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+skal: AUX | VERB
+}
+
+Expected: {
+i_ADP en_DET tid_NOUN hvor_ADV populaermusik_NOUN mere_ADV og_CCONJ mere_ADV handler_VERB om_ADP energi_NOUN og_CCONJ om_ADP lyd_NOUN ,_PUNCT og_CCONJ hvor_ADV hver_PRON kunstner_NOUN haeger_VERB om_ADP sine_DET repertoiremaessige_ADJ enemaerker_NOUN ,_PUNCT var_VERB det_PRON befriende_VERB og_CCONJ fascinerende_VERB for_ADP alvor_NOUN at_PART fa_VERB abnet_VERB for_ADP det_DET skatkammer_NOUN af_ADP sange_NOUN ,_PUNCT der_PRON har_AUX vaeret_VERB hvermands_ADV eje_NOUN i_ADP en_DET halv_ADJ snes_NOUN artier_NOUN ._PUNCT}
+Predicted: {
+i_ADP en_DET tid_NOUN hvor_ADV populaermusik_NOUN mere_ADV og_CCONJ mere_ADV handler_VERB om_ADP energi_NOUN og_CCONJ om_ADP lyd_NOUN ,_PUNCT og_CCONJ hvor_ADV hver_PRON kunstner_NOUN haeger_VERB om_ADP sine_DET repertoiremaessige_ADJ enemaerker_NOUN ,_PUNCT var_AUX det_PRON befriende_VERB og_CCONJ fascinerende_VERB for_ADP alvor_NOUN at_PART fa_VERB abnet_NOUN for_ADP det_DET skatkammer_NOUN af_ADP sange_NOUN ,_PUNCT der_PRON har_AUX vaeret_AUX hvermands_ADV eje_VERB i_ADP en_DET halv_ADJ snes_NOUN artier_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+abnet: VERB | NOUN
+vaeret: VERB | AUX
+eje: NOUN | VERB
+}
+
+Expected: {
+desvaerre_ADV har_VERB vi_PRON danskere_NOUN rekord_NOUN i_ADP at_PART vaelge_VERB forkert_ADV ._PUNCT}
+Predicted: {
+desvaerre_ADV har_AUX vi_PRON danskere_NOUN rekord_NOUN i_ADP at_PART vaelge_VERB forkert_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+derfor_ADV har_VERB jeg_PRON heller_ADV ikke_ADV svaert_ADV ved_ADP at_PART saette_VERB mig_PRON op_ADV til_ADP dette_DET dm_PROPN ._PUNCT}
+Predicted: {
+derfor_ADV har_AUX jeg_PRON heller_ADV ikke_ADV svaert_ADJ ved_ADP at_PART saette_VERB mig_PRON op_ADV til_ADP dette_DET dm_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+svaert: ADV | ADJ
+dm: PROPN | NOUN
+}
+
+Expected: {
+1._ADJ januar_NOUN i_ADP ar_NOUN abnede_VERB helles_PROPN kolonial_NOUN ._PUNCT}
+Predicted: {
+1._ADJ januar_NOUN i_ADP ar_NOUN abnede_VERB helles_PROPN kolonial_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kolonial: NOUN | PROPN
+}
+
+Expected: {
+jeg_PRON har_VERB svaert_ADV ved_ADP at_PART se_VERB ,_PUNCT at_SCONJ kurt_PROPN overhovedet_ADV har_VERB nogen_DET svagheder_NOUN som_ADP racerkorer_NOUN ._PUNCT}
+Predicted: {
+jeg_PRON har_AUX svaert_ADV ved_ADP at_PART se_VERB ,_PUNCT at_SCONJ kurt_PROPN overhovedet_ADV har_AUX nogen_DET svagheder_NOUN som_ADP racerkorer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+har: VERB | AUX
+}
+
+Expected: {
+selv_ADV det_DET abne_ADJ kraniebrud_NOUN laeges_VERB meget_ADV hurtigt_ADV}
+Predicted: {
+selv_PRON det_DET abne_ADJ kraniebrud_NOUN laeges_VERB meget_ADV hurtigt_ADV}
+Errors: {
+Tok: Ref | Pred
+---------------
+selv: ADV | PRON
+}
+
+Expected: {
+stod_VERB og_CCONJ fik_VERB lyst_NOUN til_ADP at_PART ga_VERB over_ADV at_PART hjaelpe_VERB hende_PRON ._PUNCT}
+Predicted: {
+stod_VERB og_CCONJ fik_VERB lyst_NOUN til_ADP at_PART ga_VERB over_ADP at_PART hjaelpe_VERB hende_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+over: ADV | ADP
+}
+
+Expected: {
+og_CCONJ lofgren_PROPN er_VERB meget_ADV beaeret_VERB over_ADP at_PART spille_VERB med_ADP ringo_PROPN ,_PUNCT der_PRON i_ADP arevis_ADV spillede_VERB -_PUNCT nogle_PRON ville_AUX sige_VERB forsogte_VERB at_PART spille_VERB -_PUNCT trommer_NOUN hos_ADP de_PRON der_ADV fire_NUM fra_ADP liverpool_PROPN ._PUNCT}
+Predicted: {
+og_CCONJ lofgren_PROPN er_AUX meget_ADV beaeret_VERB over_ADP at_PART spille_VERB med_ADP ringo_PROPN ,_PUNCT der_PRON i_ADP arevis_NOUN spillede_VERB -_PUNCT nogle_PRON ville_AUX sige_VERB forsogte_VERB at_PART spille_VERB -_PUNCT trommer_NOUN hos_ADP de_PRON der_ADV fire_NUM fra_ADP liverpool_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+arevis: ADV | NOUN
+}
+
+Expected: {
+maks._ADJ drejningsmoment_NOUN :_PUNCT 166_NUM nm_PROPN ved_ADP 3200_NUM o/m._X ._PUNCT}
+Predicted: {
+maks._ADJ drejningsmoment_NOUN :_PUNCT 166_NUM nm_NOUN ved_ADP 3200_NUM o/m._X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+nm: PROPN | NOUN
+}
+
+Expected: {
+den_DET anskuelse_NOUN synes_VERB han_PRON ogsa_ADV at_PART have_AUX lagt_VERB over_ADP bibelen_NOUN og_CCONJ over_ADP den_DET beskrivelse_NOUN af_ADP sig_PRON selv_PRON ,_PUNCT som_PRON han_PRON leverer_VERB i_ADP de_DET to_NUM centrale_ADJ figurer_NOUN i_ADP stykket_NOUN ,_PUNCT mr._PROPN jay_PROPN og_CCONJ goldberg_PROPN ._PUNCT}
+Predicted: {
+den_DET anskuelse_NOUN synes_VERB han_PRON ogsa_ADV at_PART have_AUX lagt_VERB over_ADP bibelen_NOUN og_CCONJ over_ADP den_DET beskrivelse_NOUN af_ADP sig_PRON selv_PRON ,_PUNCT som_PRON han_PRON leverer_VERB i_ADP de_DET to_NUM centrale_ADJ figurer_NOUN i_ADP stykket_NOUN ,_PUNCT mr._NOUN jay_PROPN og_CCONJ goldberg_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mr.: PROPN | NOUN
+}
+
+Expected: {
+ford_PROPN ,_PUNCT volkswagen_PROPN og_CCONJ renault_PROPN ventes_VERB at_PART engagere_VERB sig_PRON i_ADP britisk_ADJ standardvogns_NOUN racing_ADV i_ADP 1993_NUM ._PUNCT}
+Predicted: {
+ford_PROPN ,_PUNCT volkswagen_NOUN og_CCONJ renault_PROPN ventes_VERB at_PART engagere_VERB sig_PRON i_ADP britisk_ADJ standardvogns_NOUN racing_PROPN i_ADP 1993_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+volkswagen: PROPN | NOUN
+racing: ADV | PROPN
+}
+
+Expected: {
+di_PROPN i_ADP bikini_NOUN}
+Predicted: {
+di_NOUN i_ADP bikini_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+di: PROPN | NOUN
+}
+
+Expected: {
+regnskabet_NOUN er_AUX endnu_ADV ikke_ADV gjort_VERB op_ADV ,_PUNCT men_CCONJ jytte_PROPN rem_PROPN er_AUX bange_ADJ for_ADP ,_PUNCT at_SCONJ overskuddet_NOUN bliver_VERB knap_ADV sa_ADV stort_ADJ i_ADP ar_NOUN som_ADP de_DET foregaende_ADJ ar_NOUN ,_PUNCT fordi_SCONJ der_PRON ikke_ADV kom_VERB helt_ADV sa_ADV mange_ADJ betalende_VERB gaester_NOUN ._PUNCT}
+Predicted: {
+regnskabet_NOUN er_AUX endnu_ADV ikke_ADV gjort_VERB op_ADV ,_PUNCT men_CCONJ jytte_PROPN rem_PROPN er_AUX bange_ADJ for_ADP ,_PUNCT at_SCONJ overskuddet_NOUN bliver_AUX knap_ADV sa_ADV stort_ADJ i_ADP ar_NOUN som_ADP de_DET foregaende_ADJ ar_NOUN ,_PUNCT fordi_SCONJ der_PRON ikke_ADV kom_VERB helt_ADV sa_ADV mange_ADJ betalende_VERB gaester_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bliver: VERB | AUX
+}
+
+Expected: {
+i_ADP ef_PROPN har_VERB vi_PRON muligheden_NOUN for_ADP at_PART forene_VERB hjertet_NOUN og_CCONJ hjernen_NOUN ,_PUNCT "_PUNCT siger_VERB den_DET socialdemokratiske_ADJ formand_NOUN for_ADP markedudvalget_ADV ,_PUNCT ivar_PROPN norgaard_PROPN ._PUNCT}
+Predicted: {
+i_ADP ef_PROPN har_AUX vi_PRON muligheden_PRON for_ADP at_PART forene_VERB hjertet_NOUN og_CCONJ hjernen_NOUN ,_PUNCT "_PUNCT siger_VERB den_DET socialdemokratiske_ADJ formand_NOUN for_ADP markedudvalget_NOUN ,_PUNCT ivar_ADJ norgaard_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+muligheden: NOUN | PRON
+markedudvalget: ADV | NOUN
+ivar: PROPN | ADJ
+}
+
+Expected: {
+et_DET lidt_ADV pikant_ADJ problem_NOUN i_ADP samme_ADJ forbindelse_NOUN er_VERB ,_PUNCT hvordan_ADV schleimanns_PROPN sekretaer_NOUN ,_PUNCT hans_DET samleverske_NOUN ,_PUNCT annie_PROPN gertz'_PROPN stilling_NOUN bliver_VERB ._PUNCT}
+Predicted: {
+et_DET lidt_ADV pikant_ADJ problem_NOUN i_ADP samme_ADJ forbindelse_NOUN er_VERB ,_PUNCT hvordan_ADV schleimanns_PROPN sekretaer_PROPN ,_PUNCT hans_DET samleverske_NOUN ,_PUNCT annie_PROPN gertz'_PROPN stilling_NOUN bliver_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sekretaer: NOUN | PROPN
+}
+
+Expected: {
+for_ADP andre_PRON tager_VERB det_PRON bare_ADV lidt_ADV laengere_ADJ tid_NOUN at_PART na_VERB den_DET form_NOUN for_ADP ungdom_NOUN ,_PUNCT hvor_ADV man_PRON far_VERB vovet_VERB ._PUNCT}
+Predicted: {
+for_ADP andre_PRON tager_VERB det_PRON bare_ADV lidt_ADV laengere_ADJ tid_NOUN at_PART na_VERB den_DET form_NOUN for_ADP ungdom_NOUN ,_PUNCT hvor_ADV man_PRON far_VERB vovet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vovet: VERB | NOUN
+}
+
+Expected: {
+nu_ADV fortsaetter_VERB det_PRON med_ADP "_PUNCT karlavagnen_PROPN "_PUNCT som_PRON ulf_PROPN starks_PROPN bornebog_NOUN hedder_VERB pa_ADP svensk_NOUN ,_PUNCT hvor_ADV der_PRON er_VERB et_DET ordspil_NOUN i_ADP ,_PUNCT at_SCONJ der_PRON ligger_VERB et_DET pigenavn_NOUN gemt_VERB i_ADP stjernebilledet_NOUN ._PUNCT}
+Predicted: {
+nu_ADV fortsaetter_VERB det_PRON med_ADP "_PUNCT karlavagnen_NOUN "_PUNCT som_PRON ulf_PROPN starks_PROPN bornebog_NOUN hedder_VERB pa_ADP svensk_NOUN ,_PUNCT hvor_ADV der_PRON er_AUX et_DET ordspil_NOUN i_ADP ,_PUNCT at_SCONJ der_PRON ligger_VERB et_DET pigenavn_NOUN gemt_VERB i_ADP stjernebilledet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+karlavagnen: PROPN | NOUN
+er: VERB | AUX
+}
+
+Expected: {
+jeg_PRON tror_VERB ,_PUNCT jeg_PRON er_AUX blevet_AUX modt_VERB med_ADP mere_ADJ en_X nysgerrig_ADJ velvillighed_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+jeg_PRON tror_VERB ,_PUNCT jeg_PRON er_AUX blevet_AUX modt_VERB med_ADP mere_ADV en_DET nysgerrig_ADJ velvillighed_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mere: ADJ | ADV
+en: X | DET
+}
+
+Expected: {
+et_DET godt_ADJ eksempel_NOUN herpa_ADV er_AUX markedsforing_NOUN af_ADP laegemidler_NOUN mod_ADP mavesar_NOUN ._PUNCT}
+Predicted: {
+et_DET godt_ADJ eksempel_NOUN herpa_ADV er_AUX markedsforing_NOUN af_ADP laegemidler_NOUN mod_ADP mavesar_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+mavesar: NOUN | PROPN
+}
+
+Expected: {
+hun_PRON var_VERB selvfolgelig_ADV hos_ADP bent_PROPN og_CCONJ hans_PRON forlovede_VERB ._PUNCT}
+Predicted: {
+hun_PRON var_AUX selvfolgelig_ADV hos_ADP bent_PROPN og_CCONJ hans_PRON forlovede_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+-_PUNCT ind_ADV imellem_ADV bli'r_VERB jeg_PRON overstresset_ADJ -_PUNCT og_CCONJ sa_ADV smutter_VERB der_PRON en_DET aftale_NOUN ,_PUNCT siger_VERB den_DET myreflittige_ADJ trafikminister_NOUN ._PUNCT}
+Predicted: {
+-_PUNCT ind_ADV imellem_ADV bli'r_AUX jeg_PRON overstresset_VERB -_PUNCT og_CCONJ sa_ADV smutter_VERB der_PRON en_DET aftale_NOUN ,_PUNCT siger_VERB den_PRON myreflittige_ADJ trafikminister_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bli'r: VERB | AUX
+overstresset: ADJ | VERB
+den: DET | PRON
+}
+
+Expected: {
+de_PRON spurgte_VERB mig_PRON ,_PUNCT hvorfor_ADV jeg_PRON dog_ADV ville_AUX fortsaette_VERB med_ADP at_PART vaere_VERB i_ADP sovjet_PROPN ,_PUNCT nar_SCONJ det_PRON sandsynligvis_ADV var_AUX det_DET vaerste_ADJ land_NOUN i_ADP verden_NOUN ._PUNCT}
+Predicted: {
+de_PRON spurgte_VERB mig_PRON ,_PUNCT hvorfor_ADV jeg_PRON dog_ADV ville_AUX fortsaette_VERB med_ADP at_PART vaere_VERB i_ADP sovjet_NOUN ,_PUNCT nar_SCONJ det_DET sandsynligvis_ADV var_AUX det_DET vaerste_ADJ land_NOUN i_ADP verden_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sovjet: PROPN | NOUN
+det: PRON | DET
+}
+
+Expected: {
+hun_PRON var_AUX stadig_ADV stakandet_ADJ ,_PUNCT og_CCONJ havde_VERB svaert_ADV ved_ADP at_PART finde_VERB ordene_NOUN ._PUNCT}
+Predicted: {
+hun_PRON var_VERB stadig_ADV stakandet_ADJ ,_PUNCT og_CCONJ havde_VERB svaert_ADJ ved_ADP at_PART finde_VERB ordene_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+svaert: ADV | ADJ
+}
+
+Expected: {
+pa_ADP to_NUM numre_NOUN medvirker_VERB desuden_ADV den_DET britiske_ADJ sangerinde_NOUN norma_PROPN winstone_PROPN -_PUNCT som_PRON ogsa_ADV har_AUX skrevet_VERB teksterne_NOUN -_PUNCT og_CCONJ pa_ADP en_DET enkelt_ADJ skaering_NOUN pianisten_NOUN thomas_PROPN clausen_PROPN ._PUNCT}
+Predicted: {
+pa_ADP to_NUM numre_NOUN medvirker_VERB desuden_ADV den_DET britiske_ADJ sangerinde_NOUN norma_PROPN winstone_PROPN -_PUNCT som_ADP ogsa_ADV har_AUX skrevet_VERB teksterne_NOUN -_PUNCT og_CCONJ pa_ADP en_DET enkelt_DET skaering_NOUN pianisten_NOUN thomas_PROPN clausen_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: PRON | ADP
+enkelt: ADJ | DET
+}
+
+Expected: {
+principiel_ADJ ,_PUNCT fordi_SCONJ den_PRON handler_VERB om_ADP justitsministeriets_NOUN og_CCONJ rigspolitiets_NOUN manglende_VERB respekt_NOUN for_ADP grundloven_NOUN ._PUNCT}
+Predicted: {
+principiel_NOUN ,_PUNCT fordi_SCONJ den_PRON handler_VERB om_ADP justitsministeriets_NOUN og_CCONJ rigspolitiets_NOUN manglende_VERB respekt_NOUN for_ADP grundloven_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+principiel: ADJ | NOUN
+}
+
+Expected: {
+-_PUNCT de_DET fleste_ADJ har_VERB ikke_ADV besvaer_NOUN med_ADP det_PRON ,_PUNCT men_CCONJ der_PRON er_VERB altid_ADV nogle_PRON som_ADP er_AUX langsomme_ADJ ._PUNCT}
+Predicted: {
+-_PUNCT de_DET fleste_ADJ har_AUX ikke_ADV besvaer_ADJ med_ADP det_PRON ,_PUNCT men_CCONJ der_PRON er_AUX altid_ADV nogle_PRON som_ADP er_AUX langsomme_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+besvaer: NOUN | ADJ
+er: VERB | AUX
+}
+
+Expected: {
+men_CCONJ der_PRON er_VERB ogsa_ADV nogle_PRON ,_PUNCT der_PRON kober_VERB ._PUNCT}
+Predicted: {
+men_CCONJ der_PRON er_AUX ogsa_ADV nogle_PRON ,_PUNCT der_PRON kober_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+de_PRON har_VERB 20_NUM i_ADP handicap_NOUN ,_PUNCT det_PRON er_AUX da_ADV meget_ADV staerkt_ADJ ,_PUNCT ikke_ADV ?_PUNCT}
+Predicted: {
+de_PRON har_AUX 20_NUM i_ADP handicap_NOUN ,_PUNCT det_PRON er_AUX da_ADV meget_ADV staerkt_ADJ ,_PUNCT ikke_ADV ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+har_VERB du_PRON nogle_DET planer_NOUN for_ADP fremtiden_NOUN ?_PUNCT}
+Predicted: {
+har_AUX du_PRON nogle_DET planer_NOUN for_ADP fremtiden_NOUN ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+topmalet_NOUN af_ADP farlig_ADJ indoktrinering_NOUN indtraf_VERB d._DET 12._ADJ januar_NOUN 1976_NUM ,_PUNCT da_SCONJ clevin_PROPN for_ADP ojnene_NOUN af_ADP en_DET halv_NUM million_NOUN mindrearige_ADJ sagde_VERB :_PUNCT -_PUNCT og_CCONJ nu_ADV skal_AUX vi_PRON bruge_VERB hammeren_NOUN til_ADP at_PART saette_VERB sejlet_NOUN fast_ADV ._PUNCT}
+Predicted: {
+topmalet_NOUN af_ADP farlig_ADJ indoktrinering_NOUN indtraf_VERB d._DET 12._ADJ januar_NOUN 1976_NUM ,_PUNCT da_SCONJ clevin_PROPN for_ADP ojnene_NOUN af_ADP en_DET halv_NUM million_NOUN mindrearige_ADJ sagde_VERB :_PUNCT -_PUNCT og_CCONJ nu_ADV skal_AUX vi_PRON bruge_VERB hammeren_NOUN til_ADP at_PART saette_VERB sejlet_VERB fast_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sejlet: NOUN | VERB
+}
+
+Expected: {
+princippet_NOUN med_ADP at_PART gemme_VERB de_DET store_ADJ kursgevinster_NOUN til_ADP "_PUNCT magre_ADJ ar_NOUN "_PUNCT er_VERB i_ADP smuk_ADJ overensstemmelse_NOUN med_ADP "_PUNCT gennemsnitsprincippet_NOUN "_PUNCT ,_PUNCT men_CCONJ er_VERB det_PRON ogsa_ADV i_ADP overensstemmelse_NOUN med_ADP pensionsopsparernes_NOUN interesser_NOUN ?_PUNCT}
+Predicted: {
+princippet_NOUN med_ADP at_PART gemme_VERB de_DET store_ADJ kursgevinster_NOUN til_ADP "_PUNCT magre_ADJ ar_NOUN "_PUNCT er_AUX i_ADP smuk_ADJ overensstemmelse_NOUN med_ADP "_PUNCT gennemsnitsprincippet_NOUN "_PUNCT ,_PUNCT men_CCONJ er_AUX det_PRON ogsa_ADV i_ADP overensstemmelse_NOUN med_ADP pensionsopsparernes_NOUN interesser_NOUN ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+er: VERB | AUX
+}
+
+Expected: {
+man_PRON skal_AUX saledes_ADV ikke_ADV vente_VERB ,_PUNCT at_SCONJ poul_PROPN erik_PROPN bastrup_PROPN pa_ADP provinsbankforeningens_NOUN arsmode_NOUN den_DET 17._ADJ september_NOUN vil_AUX understotte_VERB sparekasseforeningens_NOUN budskaber_NOUN ._PUNCT}
+Predicted: {
+man_PRON skal_VERB saledes_ADV ikke_ADV vente_ADJ ,_PUNCT at_SCONJ poul_PROPN erik_PROPN bastrup_PROPN pa_ADP provinsbankforeningens_NOUN arsmode_NOUN den_DET 17._ADJ september_NOUN vil_AUX understotte_VERB sparekasseforeningens_NOUN budskaber_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+skal: AUX | VERB
+vente: VERB | ADJ
+}
+
+Expected: {
+for_ADP det_DET forste_ADJ :_PUNCT sindssygdom_NOUN kan_AUX fa_VERB patienten_NOUN til_ADP at_PART tro_VERB ,_PUNCT at_SCONJ han_PRON bliver_VERB til_ADP et_DET uhyre_NOUN i_ADP fuldmanens_NOUN lys_NOUN ._PUNCT}
+Predicted: {
+for_ADP det_DET forste_ADJ :_PUNCT sindssygdom_PRON kan_AUX fa_VERB patienten_NOUN til_ADP at_PART tro_VERB ,_PUNCT at_SCONJ han_PRON bliver_VERB til_ADP et_DET uhyre_NOUN i_ADP fuldmanens_NOUN lys_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sindssygdom: NOUN | PRON
+}
+
+Expected: {
+med_ADP den_DET buldrende_VERB stemmeforing_NOUN ,_PUNCT der_ADV er_AUX blevet_VERB hans_DET varemaerke_NOUN ,_PUNCT forsikrede_VERB han_PRON fra_ADP usas_PROPN fornemste_ADJ talerstol_NOUN ,_PUNCT at_SCONJ den_DET demokratiske_ADJ russiske_ADJ regering_NOUN ikke_ADV kan_AUX styrtes_VERB af_ADP reaktionaere_ADJ kraefter_NOUN ._PUNCT}
+Predicted: {
+med_ADP den_DET buldrende_VERB stemmeforing_NOUN ,_PUNCT der_PRON er_AUX blevet_VERB hans_DET varemaerke_NOUN ,_PUNCT forsikrede_VERB han_PRON fra_ADP usas_PROPN fornemste_ADJ talerstol_NOUN ,_PUNCT at_SCONJ den_DET demokratiske_ADJ russiske_ADJ regering_NOUN ikke_ADV kan_AUX styrtes_VERB af_ADP reaktionaere_ADJ kraefter_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+"_PUNCT spar_VERB os_PRON for_ADP mere_ADJ nyttelos_ADJ snak_NOUN ,_PUNCT "_PUNCT bad_VERB enzo_PROPN biagi_PROPN ,_PUNCT en_PRON af_ADP italiens_PROPN mest_ADV respekterede_VERB journalister_NOUN ,_PUNCT i_ADP en_DET kommentar_NOUN i_ADP avisen_NOUN corriere_PROPN della_PROPN sera_PROPN mandag_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT spar_VERB os_PRON for_ADP mere_ADJ nyttelos_ADJ snak_NOUN ,_PUNCT "_PUNCT bad_VERB enzo_PROPN biagi_PROPN ,_PUNCT en_PRON af_ADP italiens_PROPN mest_ADV respekterede_VERB journalister_NOUN ,_PUNCT i_ADP en_DET kommentar_NOUN i_ADP avisen_NOUN corriere_NOUN della_PROPN sera_PROPN mandag_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+corriere: PROPN | NOUN
+}
+
+Expected: {
+den_PRON kobte_VERB polakkerne_NOUN ikke_ADV ._PUNCT}
+Predicted: {
+den_DET kobte_VERB polakkerne_NOUN ikke_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+den: PRON | DET
+}
+
+Expected: {
+det_PRON er_AUX sa_ADV folelsesmaessigt_ADV staerkt_ADJ ,_PUNCT og_CCONJ i_ADP min_DET alder_NOUN skal_VERB der_PRON ikke_ADV meget_ADJ til_ADV ,_PUNCT for_SCONJ man_PRON falder_VERB sammen_ADV af_ADP bevaegelse_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+det_PRON er_AUX sa_ADV folelsesmaessigt_ADJ staerkt_ADV ,_PUNCT og_CCONJ i_ADP min_DET alder_NOUN skal_VERB der_PRON ikke_ADV meget_ADJ til_ADV ,_PUNCT for_SCONJ man_PRON falder_VERB sammen_ADV af_ADP bevaegelse_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+folelsesmaessigt: ADV | ADJ
+staerkt: ADJ | ADV
+}
+
+Expected: {
+"_PUNCT det_PRON afhaenger_VERB af_ADP personen_NOUN ,_PUNCT om_SCONJ der_PRON sa_ADV skal_AUX ske_VERB en_DET overlapning_NOUN i_ADP en_DET periode_NOUN eller_CCONJ hvad_PRON ,_PUNCT "_PUNCT siger_VERB bestyrelsesformanden_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT det_DET afhaenger_NOUN af_ADP personen_NOUN ,_PUNCT om_SCONJ der_PRON sa_ADV skal_AUX ske_VERB en_DET overlapning_NOUN i_ADP en_DET periode_NOUN eller_CCONJ hvad_PRON ,_PUNCT "_PUNCT siger_VERB bestyrelsesformanden_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+afhaenger: VERB | NOUN
+}
+
+Expected: {
+diskussionen_NOUN om_ADP forklaringen_NOUN pa_ADP det_DET "_PUNCT japanske_ADJ okonomiske_ADJ mirakel_NOUN "_PUNCT har_AUX isaer_ADV drejet_VERB sig_PRON om_ADP ,_PUNCT hvorvidt_SCONJ man_PRON kunne_AUX nojes_VERB med_ADP okonomiske_ADJ faktorer_NOUN i_ADP sin_DET forklaring_NOUN ,_PUNCT eller_CCONJ om_SCONJ det_PRON ogsa_ADV er_AUX nodvendigt_ADJ at_PART inddrage_VERB saerlige_ADJ kulturelle_ADJ og_CCONJ historiske_ADJ forhold_NOUN for_ADP at_PART finde_VERB en_DET rimelig_ADJ forklaring_NOUN ._PUNCT}
+Predicted: {
+diskussionen_NOUN om_ADP forklaringen_NOUN pa_ADP det_DET "_PUNCT japanske_ADJ okonomiske_ADJ mirakel_NOUN "_PUNCT har_AUX isaer_ADV drejet_VERB sig_PRON om_ADP ,_PUNCT hvorvidt_SCONJ man_PRON kunne_AUX nojes_VERB med_ADP okonomiske_ADJ faktorer_NOUN i_ADP sin_DET forklaring_NOUN ,_PUNCT eller_CCONJ om_SCONJ det_DET ogsa_ADV er_AUX nodvendigt_ADJ at_PART inddrage_VERB saerlige_ADJ kulturelle_NOUN og_CCONJ historiske_ADJ forhold_NOUN for_ADP at_PART finde_VERB en_DET rimelig_ADJ forklaring_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+det: PRON | DET
+kulturelle: ADJ | NOUN
+}
+
+Expected: {
+ef's_PROPN trafikministre_NOUN har_AUX besluttet_VERB ,_PUNCT at_SCONJ alle_ADJ lastbiler_NOUN fra_ADP 1._ADJ januar_NOUN 1994_NUM skal_AUX vaere_AUX udstyret_VERB med_ADP en_PRON fartbegraenser_VERB ,_PUNCT sa_SCONJ der_PRON maksimalt_ADV kan_AUX kores_VERB med_ADP en_DET topfart_NOUN pa_ADP 85_NUM km/t._X ._PUNCT}
+Predicted: {
+ef's_PROPN trafikministre_NOUN har_AUX besluttet_VERB ,_PUNCT at_SCONJ alle_ADJ lastbiler_NOUN fra_ADP 1._ADJ januar_NOUN 1994_NUM skal_AUX vaere_AUX udstyret_NOUN med_ADP en_DET fartbegraenser_NOUN ,_PUNCT sa_SCONJ der_PRON maksimalt_ADV kan_AUX kores_VERB med_ADP en_DET topfart_NOUN pa_ADP 85_NUM km/t._X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+udstyret: VERB | NOUN
+en: PRON | DET
+fartbegraenser: VERB | NOUN
+}
+
+Expected: {
+sa_ADV stort_ADJ et_DET aerinde_NOUN er_AUX helle_PROPN stangerup_PROPN ogsa_ADV ude_ADV i_ADP ._PUNCT}
+Predicted: {
+sa_ADV stort_ADJ et_DET aerinde_NOUN er_AUX helle_ADJ stangerup_NOUN ogsa_ADV ude_ADV i_ADP ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+helle: PROPN | ADJ
+stangerup: PROPN | NOUN
+}
+
+Expected: {
+i_ADP seks_NUM timer_NOUN naegtede_VERB hun_PRON hardnakket_ADV ethvert_DET kendskab_NOUN til_ADP bortforelsen_NOUN af_ADP noget_DET barn_NOUN ._PUNCT}
+Predicted: {
+i_ADP seks_NUM timer_NOUN naegtede_VERB hun_PRON hardnakket_ADJ ethvert_DET kendskab_NOUN til_ADP bortforelsen_NOUN af_ADP noget_DET barn_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hardnakket: ADV | ADJ
+}
+
+Expected: {
+michael_PROPN :_PUNCT "_PUNCT ja_INTJ ,_PUNCT for_CCONJ jeg_PRON forstar_VERB stadig_ADV ikke_ADV ,_PUNCT hvordan_ADV i_ADP himlens_NOUN navn_NOUN de_PRON kunne_AUX stemme_VERB os_PRON ned_ADV pa_ADP en_DET tredjesidste_ADJ plads_NOUN ._PUNCT}
+Predicted: {
+michael_PROPN :_PUNCT "_PUNCT ja_INTJ ,_PUNCT for_SCONJ jeg_PRON forstar_VERB stadig_ADV ikke_ADV ,_PUNCT hvordan_ADV i_ADP himlens_NOUN navn_X de_PRON kunne_AUX stemme_VERB os_PRON ned_ADV pa_ADP en_DET tredjesidste_ADJ plads_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: CCONJ | SCONJ
+navn: NOUN | X
+}
+
+Expected: {
+vi_PRON har_AUX hele_ADJ tiden_NOUN sigtet_VERB pa_ADP at_PART fa_VERB en_DET lokal_ADJ losning_NOUN ,_PUNCT og_CCONJ den_PRON har_AUX vi_PRON ogsa_ADV faet_VERB ,_PUNCT "_PUNCT siger_VERB han_PRON ._PUNCT}
+Predicted: {
+vi_PRON har_VERB hele_ADJ tiden_NOUN sigtet_VERB pa_ADP at_PART fa_VERB en_DET lokal_ADJ losning_NOUN ,_PUNCT og_CCONJ den_PRON har_AUX vi_PRON ogsa_ADV faet_VERB ,_PUNCT "_PUNCT siger_VERB han_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: AUX | VERB
+}
+
+Expected: {
+jo_INTJ ,_PUNCT nu_ADV kommer_VERB der_PRON en_DET pige_NOUN ,_PUNCT der_ADV helt_ADV sikkert_ADV ikke_ADV er_AUX nordmand_NOUN ._PUNCT}
+Predicted: {
+jo_INTJ ,_PUNCT nu_ADV kommer_VERB der_PRON en_DET pige_NOUN ,_PUNCT der_PRON helt_ADV sikkert_ADV ikke_ADV er_AUX nordmand_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+sa_ADV en_DET samlet_VERB blok_NOUN vil_AUX vi_PRON aldrig_ADV blive_VERB ._PUNCT}
+Predicted: {
+sa_ADV en_DET samlet_NOUN blok_NOUN vil_AUX vi_PRON aldrig_ADV blive_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+samlet: VERB | NOUN
+}
+
+Expected: {
+der_PRON kan_AUX vaere_VERB tale_NOUN om_ADP brok_NOUN eller_CCONJ vandsvulst_NOUN ._PUNCT}
+Predicted: {
+der_PRON kan_AUX vaere_AUX tale_NOUN om_ADP brok_NOUN eller_CCONJ vandsvulst_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vaere: VERB | AUX
+}
+
+Expected: {
+et_DET skaktraek_NOUN som_ADP med_ADP et_DET slag_NOUN viftede_VERB kreditorer_NOUN med_ADP et_DET tilgodehavende_NOUN pa_ADP seks_NUM mia._NOUN kr._NOUN vaek_ADV ._PUNCT}
+Predicted: {
+et_DET skaktraek_NOUN som_PRON med_ADP et_DET slag_NOUN viftede_VERB kreditorer_NOUN med_ADP et_DET tilgodehavende_ADJ pa_ADP seks_NUM mia._NOUN kr._NOUN vaek_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | PRON
+tilgodehavende: NOUN | ADJ
+}
+
+Expected: {
+men_CCONJ der_PRON kan_AUX osse_ADV vaere_VERB tale_NOUN om_ADP en_DET ondartet_ADJ svulst_NOUN ,_PUNCT der_PRON skal_AUX fjernes_VERB ved_ADP operation_NOUN ._PUNCT}
+Predicted: {
+men_CCONJ der_PRON kan_AUX osse_NOUN vaere_AUX tale_NOUN om_ADP en_DET ondartet_ADJ svulst_NOUN ,_PUNCT der_PRON skal_AUX fjernes_VERB ved_ADP operation_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+osse: ADV | NOUN
+vaere: VERB | AUX
+}
+
+Expected: {
+smag_VERB til_ADV med_ADP salt_NOUN og_CCONJ peber_NOUN ._PUNCT}
+Predicted: {
+smag_NOUN til_ADV med_ADP salt_NOUN og_CCONJ peber_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+smag: VERB | NOUN
+}
+
+Expected: {
+baglokalet_NOUN star_VERB tomt_ADJ indtil_ADP videre_ADV ,_PUNCT men_CCONJ helle_PROPN har_VERB planer_NOUN ._PUNCT}
+Predicted: {
+baglokalet_NOUN star_VERB tomt_ADJ indtil_ADP videre_ADV ,_PUNCT men_CCONJ helle_PROPN har_AUX planer_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+dette_PRON kan_AUX ikke_ADV lade_VERB sig_PRON gore_VERB uden_ADP en_DET forhojelse_NOUN af_ADP skatterne_NOUN ,_PUNCT hvilket_PRON er_AUX politisk_ADV umuligt_ADJ ,_PUNCT eller_CCONJ en_DET drastisk_ADJ forogelse_NOUN af_ADP budgetunderskuddet_NOUN ,_PUNCT hvilket_PRON vil_AUX vaere_AUX meget_ADV risikabelt_ADJ og_CCONJ politisk_ADV farligt_ADJ ._PUNCT}
+Predicted: {
+dette_PRON kan_AUX ikke_ADV lade_VERB sig_PRON gore_VERB uden_ADP en_DET forhojelse_NOUN af_ADP skatterne_NOUN ,_PUNCT hvilket_PRON er_AUX politisk_ADV umuligt_ADJ ,_PUNCT eller_CCONJ en_DET drastisk_ADJ forogelse_NOUN af_ADP budgetunderskuddet_NOUN ,_PUNCT hvilket_PRON vil_AUX vaere_AUX meget_ADJ risikabelt_NOUN og_CCONJ politisk_ADJ farligt_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+meget: ADV | ADJ
+risikabelt: ADJ | NOUN
+politisk: ADV | ADJ
+}
+
+Expected: {
+siden_ADV har_AUX han_PRON bl.a._ADV vaeret_VERB pa_ADP pakhuset_NOUN i_ADP esbjerg_PROPN ,_PUNCT hotel_NOUN plaza_PROPN i_ADP kobenhavn_PROPN og_CCONJ pa_ADP henne_PROPN kirkeby_PROPN kro_NOUN ._PUNCT}
+Predicted: {
+siden_ADV har_AUX han_PRON bl.a._ADV vaeret_AUX pa_ADV pakhuset_VERB i_ADP esbjerg_PROPN ,_PUNCT hotel_PROPN plaza_PROPN i_ADP kobenhavn_PROPN og_CCONJ pa_ADP henne_ADV kirkeby_PROPN kro_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+vaeret: VERB | AUX
+pa: ADP | ADV
+pakhuset: NOUN | VERB
+hotel: NOUN | PROPN
+henne: PROPN | ADV
+kro: NOUN | PROPN
+}
+
+Expected: {
+herefter_ADV tildanner_VERB man_PRON menisken_NOUN ved_ADP at_PART slibe_VERB af_ADV der_ADV ,_PUNCT hvor_ADV den_PRON er_VERB laederet_VERB ._PUNCT}
+Predicted: {
+herefter_ADV tildanner_VERB man_PRON menisken_NOUN ved_ADP at_PART slibe_VERB af_ADP der_PRON ,_PUNCT hvor_ADV den_PRON er_AUX laederet_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+af: ADV | ADP
+der: ADV | PRON
+er: VERB | AUX
+}
+
+Expected: {
+"_PUNCT det_PRON kan_AUX lyde_VERB af_ADP meget_ADJ men_CCONJ er_AUX det_PRON ikke_ADV ,_PUNCT sa_ADV laenge_ADV militsia_PROPN og_CCONJ kgb_PROPN er_VERB i_ADP haenderne_NOUN pa_ADP kommunisterne_NOUN ,_PUNCT "_PUNCT siger_VERB pulatov_PROPN abduzahim_PROPN ._PUNCT}
+Predicted: {
+"_PUNCT det_PRON kan_AUX lyde_VERB af_ADP meget_ADJ men_CCONJ er_AUX det_PRON ikke_ADV ,_PUNCT sa_ADV laenge_ADV militsia_ADJ og_CCONJ kgb_ADJ er_AUX i_ADP haenderne_NOUN pa_ADP kommunisterne_NOUN ,_PUNCT "_PUNCT siger_VERB pulatov_PROPN abduzahim_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+militsia: PROPN | ADJ
+kgb: PROPN | ADJ
+er: VERB | AUX
+}
+
+Expected: {
+jess_PROPN ingerslev_PROPN kan_VERB det_DET samme_ADJ -_PUNCT det_DET overrumplende_VERB ,_PUNCT gale_ADJ -_PUNCT og_CCONJ viser_VERB det_PRON flere_ADJ gange_NOUN ._PUNCT}
+Predicted: {
+jess_PROPN ingerslev_PROPN kan_AUX det_DET samme_ADJ -_PUNCT det_DET overrumplende_VERB ,_PUNCT gale_ADJ -_PUNCT og_CCONJ viser_VERB det_PRON flere_ADJ gange_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+kan: VERB | AUX
+}
+
+Expected: {
+brug_VERB spolerne_NOUN ,_PUNCT jernloddet_NOUN og_CCONJ vaegtlodderne_NOUN (_PUNCT fig._NOUN 11.2_NUM )_PUNCT ._PUNCT}
+Predicted: {
+brug_NOUN spolerne_NOUN ,_PUNCT jernloddet_NOUN og_CCONJ vaegtlodderne_NOUN (_PUNCT fig._NOUN 11.2_NUM )_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+brug: VERB | NOUN
+}
+
+Expected: {
+"_PUNCT der_PRON er_VERB et_DET virkeligt_ADV stort_ADJ behov_NOUN for_ADP servicering_NOUN af_ADP sommerhuse_NOUN med_ADP hovedrengoring_NOUN ,_PUNCT overvagning_NOUN ,_PUNCT maling_NOUN og_CCONJ graesslaning_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT der_PRON er_AUX et_DET virkeligt_ADV stort_ADJ behov_NOUN for_ADP servicering_NOUN af_ADP sommerhuse_NOUN med_ADP hovedrengoring_NOUN ,_PUNCT overvagning_NOUN ,_PUNCT maling_NOUN og_CCONJ graesslaning_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+familien_NOUN knudsen_PROPN i_ADP landsbyen_NOUN akkerup_PROPN ved_ADP assens_PROPN var_AUX lamslaede_ADJ ojenvidner_NOUN til_ADP en_DET tragisk_ADJ flyulykke_NOUN sondag_NOUN middag_NOUN ,_PUNCT hvor_ADV tre_NUM omkom_VERB ._PUNCT}
+Predicted: {
+familien_NOUN knudsen_PROPN i_ADP landsbyen_NOUN akkerup_PROPN ved_ADP assens_PROPN var_AUX lamslaede_ADJ ojenvidner_NOUN til_ADP en_DET tragisk_ADJ flyulykke_NOUN sondag_PROPN middag_PROPN ,_PUNCT hvor_ADV tre_NUM omkom_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+sondag: NOUN | PROPN
+middag: NOUN | PROPN
+}
+
+Expected: {
+kun_ADV ved_ADP middagsbordet_NOUN har_VERB man_PRON en_DET chance_NOUN for_ADP at_PART vaere_AUX sammen_ADV ._PUNCT}
+Predicted: {
+kun_ADV ved_ADP middagsbordet_NOUN har_AUX man_PRON en_DET chance_NOUN for_ADP at_PART vaere_AUX sammen_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+}
+
+Expected: {
+hun_PRON var_AUX pa_ADP de_DET seks_NUM dogn_NOUN rundt_ADV i_ADP fem_NUM lejre_NOUN ,_PUNCT og_CCONJ hvert_PRON sted_NOUN snakkede_VERB hun_PRON med_ADP ledere_NOUN og_CCONJ gik_VERB ind_ADV i_ADP arbejdet_NOUN med_ADP at_PART dele_VERB de_DET sparsomme_ADJ madrationer_NOUN ud_ADV ,_PUNCT made_VERB bornene_NOUN og_CCONJ vaere_AUX med_ADV til_ADP at_PART rydde_VERB op_ADV og_CCONJ fa_VERB bade_ADV de_DET syge_ADJ born_NOUN og_CCONJ voksne_ADJ i_ADP lejrene_NOUN vasket_VERB og_CCONJ givet_VERB medicin_NOUN ._PUNCT}
+Predicted: {
+hun_PRON var_VERB pa_ADP de_DET seks_NUM dogn_NOUN rundt_ADV i_ADP fem_NUM lejre_NOUN ,_PUNCT og_CCONJ hvert_PRON sted_NOUN snakkede_VERB hun_PRON med_ADP ledere_NOUN og_CCONJ gik_VERB ind_ADV i_ADP arbejdet_NOUN med_ADP at_PART dele_VERB de_DET sparsomme_ADJ madrationer_NOUN ud_ADV ,_PUNCT made_VERB bornene_NOUN og_CCONJ vaere_AUX med_ADV til_ADP at_PART rydde_VERB op_ADV og_CCONJ fa_VERB bade_ADV de_DET syge_ADJ born_NOUN og_CCONJ voksne_ADJ i_ADP lejrene_NOUN vasket_VERB og_CCONJ givet_VERB medicin_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+}
+
+Expected: {
+-_PUNCT han_PRON har_VERB en_DET skide_ADV sexet_ADJ stemme_NOUN ,_PUNCT tilfojer_VERB maja_PROPN ._PUNCT}
+Predicted: {
+-_PUNCT han_PRON har_AUX en_DET skide_NOUN sexet_VERB stemme_NOUN ,_PUNCT tilfojer_VERB maja_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+har: VERB | AUX
+skide: ADV | NOUN
+sexet: ADJ | VERB
+}
+
+Expected: {
+chaufforen_NOUN blev_AUX igen_ADV tvunget_VERB ind_ADV i_ADP bilen_NOUN med_ADP besked_NOUN pa_ADP at_PART laegge_VERB sig_PRON hen_ADV over_ADP saederne_NOUN og_CCONJ ikke_ADV kigge_VERB op_ADV ,_PUNCT for_SCONJ roveren_NOUN var_AUX vaek_ADV ._PUNCT}
+Predicted: {
+chaufforen_NOUN blev_AUX igen_ADV tvunget_VERB ind_ADV i_ADP bilen_NOUN med_ADP besked_NOUN pa_ADP at_PART laegge_VERB sig_PRON hen_ADV over_ADP saederne_NOUN og_CCONJ ikke_ADV kigge_VERB op_ADV ,_PUNCT for_SCONJ roveren_NOUN var_VERB vaek_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: AUX | VERB
+}
+
+Expected: {
+og_CCONJ konditor_NOUN lars_PROPN hjorth_PROPN har_AUX ikke_ADV et_DET ojeblik_NOUN fortrudt_VERB ,_PUNCT at_SCONJ han_PRON sprang_VERB til_ADV og_CCONJ ansatte_VERB "_PUNCT nr._NOUN 46_NUM ,_PUNCT "_PUNCT der_PRON i_ADP nogle_DET maneder_NOUN havde_AUX mattet_AUX ga_VERB den_DET traelse_ADJ gang_NOUN til_ADP bistandskontoret_NOUN efter_ADP at_PART vaere_AUX vendt_VERB hjem_ADV fra_ADP et_DET ophold_NOUN pa_ADP idraetshojskole_NOUN ._PUNCT}
+Predicted: {
+og_CCONJ konditor_NOUN lars_PROPN hjorth_PROPN har_AUX ikke_ADV et_DET ojeblik_NOUN fortrudt_VERB ,_PUNCT at_SCONJ han_PRON sprang_VERB til_ADV og_CCONJ ansatte_VERB "_PUNCT nr._NOUN 46_NUM ,_PUNCT "_PUNCT der_PRON i_ADP nogle_DET maneder_NOUN havde_AUX mattet_AUX ga_VERB den_DET traelse_NOUN gang_NOUN til_ADP bistandskontoret_NOUN efter_ADP at_PART vaere_AUX vendt_VERB hjem_ADV fra_ADP et_DET ophold_NOUN pa_ADP idraetshojskole_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+traelse: ADJ | NOUN
+}
+
+Expected: {
+hun_PRON indrommer_VERB ,_PUNCT at_SCONJ hun_PRON var_VERB meget_ADV rystet_VERB over_ADP og_CCONJ totalt_ADV uforberedt_ADJ pa_ADP den_DET kontrast_NOUN ,_PUNCT der_PRON findes_VERB i_ADP det_DET hungerhaergede_ADJ land_NOUN ._PUNCT}
+Predicted: {
+hun_PRON indrommer_VERB ,_PUNCT at_SCONJ hun_PRON var_AUX meget_ADV rystet_VERB over_ADP og_CCONJ totalt_ADV uforberedt_ADJ pa_ADP den_DET kontrast_NOUN ,_PUNCT der_PRON findes_VERB i_ADP det_DET hungerhaergede_ADJ land_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+}
+
+Expected: {
+selv_ADV i_ADP perioder_NOUN hvor_ADV der_PRON har_AUX vaeret_VERB konflikter_NOUN ,_PUNCT og_CCONJ hvor_ADV man_PRON ikke_ADV ses_VERB sa_ADV ofte_ADV ,_PUNCT er_AUX sosterens_NOUN eksistens_NOUN et_DET fast_ADJ holdepunkt_NOUN i_ADP livet_NOUN ._PUNCT}
+Predicted: {
+selv_PRON i_ADP perioder_NOUN hvor_ADV der_PRON har_AUX vaeret_AUX konflikter_NOUN ,_PUNCT og_CCONJ hvor_ADV man_PRON ikke_ADV ses_VERB sa_ADV ofte_ADV ,_PUNCT er_AUX sosterens_NOUN eksistens_NOUN et_DET fast_ADJ holdepunkt_NOUN i_ADP livet_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+selv: ADV | PRON
+vaeret: VERB | AUX
+}
+
+Expected: {
+kaempemusen_NOUN blev_AUX konstrueret_VERB ved_ADP at_PART overfore_VERB en_DET del_NOUN af_ADP en_DET rottes_NOUN arvelige_ADJ "_PUNCT vokseegenskaber_NOUN "_PUNCT til_ADP en_DET mus_NOUN ._PUNCT}
+Predicted: {
+kaempemusen_NOUN blev_VERB konstrueret_VERB ved_ADP at_PART overfore_VERB en_DET del_NOUN af_ADP en_DET rottes_NOUN arvelige_ADJ "_PUNCT vokseegenskaber_NOUN "_PUNCT til_ADP en_DET mus_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+blev: AUX | VERB
+}
+
+Expected: {
+"_PUNCT hvalbadenes_NOUN "_PUNCT saerpraeg_NOUN og_CCONJ gedigne_ADJ sejleregenskaber_NOUN har_AUX appelleret_VERB til_ADP mange_ADJ sejlere_NOUN ,_PUNCT badene_NOUN er_VERB funktionelt_ADV rigtigt_ADV udformede_VERB ,_PUNCT og_CCONJ de_PRON er_AUX rummelige_ADJ ._PUNCT}
+Predicted: {
+"_PUNCT hvalbadenes_NOUN "_PUNCT saerpraeg_NOUN og_CCONJ gedigne_ADJ sejleregenskaber_NOUN har_AUX appelleret_VERB til_ADP mange_ADJ sejlere_NOUN ,_PUNCT badene_NOUN er_AUX funktionelt_ADV rigtigt_ADJ udformede_VERB ,_PUNCT og_CCONJ de_PRON er_AUX rummelige_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+rigtigt: ADV | ADJ
+}
+
+Expected: {
+-_PUNCT det_PRON er_AUX sgu_ADV nok_ADV en_DET invalidevogn_NOUN ,_PUNCT lissom_ADV sidst_ADV ,_PUNCT griner_VERB sally_PROPN og_CCONJ tag_X sin_DET smogaeske_NOUN frem_ADV ._PUNCT}
+Predicted: {
+-_PUNCT det_PRON er_AUX sgu_ADV nok_ADV en_DET invalidevogn_NOUN ,_PUNCT lissom_PROPN sidst_ADV ,_PUNCT griner_VERB sally_PROPN og_CCONJ tag_X sin_DET smogaeske_NOUN frem_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+lissom: ADV | PROPN
+}
+
+Expected: {
+brug_VERB spolerne_NOUN ,_PUNCT voltmeteret_NOUN og_CCONJ magneterne_NOUN som_ADP pa_ADP fig._NOUN 11.4_NUM ._PUNCT}
+Predicted: {
+brug_NOUN spolerne_NOUN ,_PUNCT voltmeteret_NOUN og_CCONJ magneterne_NOUN som_ADP pa_ADP fig._NOUN 11.4_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+brug: VERB | NOUN
+}
+
+Expected: {
+sa_ADV for_ADP james_PROPN mellon_PROPN er_AUX lyst_ADJ har_NOUN og_CCONJ dejlige_ADJ piger_NOUN kernedansk_ADJ ,_PUNCT men_CCONJ danskheden_NOUN er_AUX primaert_ADV vores_DET samarbejdsvilje_NOUN og_CCONJ unikke_ADJ sprog_NOUN ,_PUNCT der_ADV stort_ADV set_VERB er_AUX en_DET hemmelighed_NOUN for_ADP klodens_NOUN fem_NUM milliarder_NOUN ovrige_ADJ indbyggere_NOUN ._PUNCT}
+Predicted: {
+sa_ADV for_ADP james_PROPN mellon_PROPN er_AUX lyst_NOUN har_VERB og_CCONJ dejlige_ADJ piger_NOUN kernedansk_ADJ ,_PUNCT men_CCONJ danskheden_NOUN er_AUX primaert_ADV vores_DET samarbejdsvilje_NOUN og_CCONJ unikke_ADJ sprog_NOUN ,_PUNCT der_ADV stort_ADV set_VERB er_AUX en_DET hemmelighed_NOUN for_ADP klodens_NOUN fem_NUM milliarder_NOUN ovrige_ADJ indbyggere_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+lyst: ADJ | NOUN
+har: NOUN | VERB
+}
+
+Expected: {
+men_CCONJ politiet_NOUN er_VERB ikke_ADV i_ADP tvivl_NOUN om_ADP ,_PUNCT at_SCONJ det_PRON var_AUX et_DET drabsforsog_NOUN ._PUNCT}
+Predicted: {
+men_CCONJ politiet_NOUN er_AUX ikke_ADV i_ADP tvivl_NOUN om_ADP ,_PUNCT at_SCONJ det_PRON var_AUX et_DET drabsforsog_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+sporgsmalet_NOUN er_AUX sa_ADV ,_PUNCT hvor_ADV meget_ADJ han_PRON vil_AUX investere_VERB i_ADP en_DET branche_NOUN ,_PUNCT der_ADV er_AUX inde_ADV i_ADP en_DET periode_NOUN med_ADP faldende_VERB marked_NOUN ._PUNCT}
+Predicted: {
+sporgsmalet_NOUN er_AUX sa_ADV ,_PUNCT hvor_ADV meget_ADJ han_PRON vil_AUX investere_VERB i_ADP en_DET branche_NOUN ,_PUNCT der_PRON er_AUX inde_ADV i_ADP en_DET periode_NOUN med_ADP faldende_VERB marked_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+}
+
+Expected: {
+traegulvet_NOUN er_AUX tilpas_ADV blodt_ADJ ,_PUNCT sa_SCONJ man_PRON ikke_ADV bliver_VERB traet_ADJ i_ADP benene_NOUN ,_PUNCT selv_ADV efter_ADP lang_ADJ tids_NOUN gaen_VERB og_CCONJ staen_VERB ._PUNCT}
+Predicted: {
+traegulvet_NOUN er_AUX tilpas_ADV blodt_ADJ ,_PUNCT sa_SCONJ man_PRON ikke_ADV bliver_VERB traet_ADJ i_ADP benene_NOUN ,_PUNCT selv_PRON efter_ADP lang_ADJ tids_NOUN gaen_NOUN og_CCONJ staen_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+selv: ADV | PRON
+gaen: VERB | NOUN
+staen: VERB | NOUN
+}
+
+Expected: {
+ogsa_ADV pa_ADP kobenhavns_PROPN fondbors_NOUN har_VERB unibank_PROPN brug_NOUN for_ADP tillid_NOUN ._PUNCT}
+Predicted: {
+ogsa_ADV pa_ADP kobenhavns_PROPN fondbors_PROPN har_AUX unibank_PROPN brug_NOUN for_ADP tillid_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+fondbors: NOUN | PROPN
+har: VERB | AUX
+}
+
+Expected: {
+"_PUNCT vil_AUX man_PRON soge_VERB en_DET plads_NOUN i_ADP kvote_NOUN ii_NUM ,_PUNCT er_AUX det_PRON en_DET meget_ADV god_ADJ ide_NOUN at_PART kontakte_VERB uddannelsesstederne_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT vil_AUX man_PRON soge_VERB en_DET plads_NOUN i_ADP kvote_NOUN ii_NUM ,_PUNCT er_AUX det_PRON en_DET meget_ADJ god_ADJ ide_NOUN at_PART kontakte_VERB uddannelsesstederne_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+meget: ADV | ADJ
+}
+
+Expected: {
+men_CCONJ det_DET tidligere_ADJ jugoslavien_PROPN ,_PUNCT som_PRON blev_AUX sammentomret_VERB med_ADP hard_ADJ hand_NOUN af_ADP anden_ADJ verdenskrigs_NOUN partisanhelt_NOUN ,_PUNCT marskal_NOUN tito_PROPN ,_PUNCT tog_VERB ikke_ADV hensyn_NOUN til_ADP befolkningens_NOUN etniske_ADJ graenser_NOUN ._PUNCT}
+Predicted: {
+men_CCONJ det_DET tidligere_ADJ jugoslavien_NOUN ,_PUNCT som_PRON blev_AUX sammentomret_VERB med_ADP hard_ADJ hand_NOUN af_ADP anden_DET verdenskrigs_NOUN partisanhelt_NOUN ,_PUNCT marskal_NOUN tito_PROPN ,_PUNCT tog_VERB ikke_ADV hensyn_NOUN til_ADP befolkningens_NOUN etniske_ADJ graenser_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+jugoslavien: PROPN | NOUN
+anden: ADJ | DET
+}
+
+Expected: {
+da_SCONJ han_PRON bliver_AUX spurgt_VERB hvorfor_ADV ,_PUNCT tover_VERB han_PRON ikke_ADV med_ADP svaret_NOUN :_PUNCT "_PUNCT der_PRON bor_VERB for_ADV mange_ADJ indvandrere_NOUN ._PUNCT "_PUNCT}
+Predicted: {
+da_SCONJ han_PRON bliver_AUX spurgt_VERB hvorfor_ADV ,_PUNCT tover_VERB han_PRON ikke_ADV med_ADP svaret_NOUN :_PUNCT "_PUNCT der_PRON bor_VERB for_ADP mange_ADJ indvandrere_NOUN ._PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: ADV | ADP
+}
+
+Expected: {
+"_PUNCT jamen_CCONJ ,_PUNCT det_PRON er_VERB da_ADV fortvivlende_VERB ._PUNCT}
+Predicted: {
+"_PUNCT jamen_CCONJ ,_PUNCT det_PRON er_AUX da_ADV fortvivlende_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+er: VERB | AUX
+}
+
+Expected: {
+damen_NOUN hedder_VERB irina_PROPN tweedie_PROPN ,_PUNCT er_AUX 83_NUM ar_NOUN og_CCONJ bor_VERB i_ADP london_PROPN ,_PUNCT hvor_ADV koreografen_NOUN modte_VERB hende_PRON for_ADP ar_NOUN tilbage_ADV ._PUNCT}
+Predicted: {
+damen_NOUN hedder_VERB irina_PROPN tweedie_PROPN ,_PUNCT er_AUX 83_NUM ar_NOUN og_CCONJ bor_AUX i_ADP london_PROPN ,_PUNCT hvor_ADV koreografen_NOUN modte_VERB hende_PRON for_ADP ar_NOUN tilbage_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bor: VERB | AUX
+}
+
+Expected: {
+"_PUNCT den_DET udtalelse_NOUN er_AUX i_ADV folge_X jan_PROPN carlzon_PROPN selv_PRON fremsat_VERB under_ADP en_DET diskussion_NOUN om_ADP faren_NOUN for_ADP ,_PUNCT at_SCONJ medier_NOUN drager_VERB for_ADV hastige_ADJ konklusioner_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT den_DET udtalelse_NOUN er_AUX i_ADP folge_NOUN jan_PROPN carlzon_PROPN selv_PRON fremsat_VERB under_ADP en_DET diskussion_NOUN om_ADP faren_NOUN for_ADP ,_PUNCT at_SCONJ medier_NOUN drager_VERB for_ADP hastige_ADJ konklusioner_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+i: ADV | ADP
+folge: X | NOUN
+for: ADV | ADP
+}
+
+Expected: {
+vi_PRON forstar_VERB hinanden_PRON godt_ADV ,_PUNCT og_CCONJ jeg_PRON nyder_VERB at_PART heade_VERB ham_PRON fri_ADJ til_ADP scoring_NOUN ._PUNCT}
+Predicted: {
+vi_PRON forstar_VERB hinanden_PRON godt_ADV ,_PUNCT og_CCONJ jeg_PRON nyder_VERB at_PART heade_VERB ham_PRON fri_ADJ til_ADP scoring_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+scoring: NOUN | PROPN
+}
+
+Expected: {
+samtidig_ADV er_AUX de_PRON traette_ADJ af_ADP at_PART blive_AUX betragtet_VERB som_ADP "_PUNCT eksotiske_ADJ sjaeldenheder_NOUN "_PUNCT ,_PUNCT som_ADP pr._ADP definition_NOUN er_AUX svage_ADJ og_CCONJ skal_AUX beskyttes_VERB ._PUNCT}
+Predicted: {
+samtidig_ADV er_AUX de_DET traette_ADJ af_ADP at_PART blive_AUX betragtet_VERB som_ADP "_PUNCT eksotiske_ADJ sjaeldenheder_NOUN "_PUNCT ,_PUNCT som_ADP pr._ADP definition_NOUN er_AUX svage_ADJ og_CCONJ skal_AUX beskyttes_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+de: PRON | DET
+}
+
+Expected: {
+men_CCONJ senere_ADV flyttede_VERB familien_NOUN til_ADP en_DET storre_ADJ villa_NOUN i_ADP mere_ADV luftige_ADJ omgivelser_NOUN laengere_ADV vaek_ADV fra_ADP downtown_ADV ._PUNCT}
+Predicted: {
+men_CCONJ senere_ADV flyttede_VERB familien_NOUN til_ADP en_DET storre_ADJ villa_NOUN i_ADP mere_ADV luftige_ADJ omgivelser_NOUN laengere_ADV vaek_ADV fra_ADP downtown_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+downtown: ADV | PROPN
+}
+
+Expected: {
+-_PUNCT og_CCONJ hvis_SCONJ nu_ADV ogsa_ADV tina_PROPN er_AUX forrykt_ADJ nok_ADV ?_PUNCT}
+Predicted: {
+-_PUNCT og_CCONJ hvis_PRON nu_ADV ogsa_ADV tina_PROPN er_AUX forrykt_ADJ nok_ADV ?_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+hvis: SCONJ | PRON
+}
+
+Expected: {
+det_DET perspektiv_NOUN kommer_VERB forstaeligt_ADV nok_ADV endnu_ADV i_ADP anden_ADJ raekke_NOUN for_ADP de_DET partisaner_NOUN ,_PUNCT der_PRON ser_VERB forbundshaeren_NOUN som_ADP et_DET utaleligt_ADJ levn_NOUN efter_ADP det_DET regime_NOUN ,_PUNCT der_PRON i_ADP generationer_NOUN har_AUX staet_VERB for_ADP serbisk_ADJ undertrykkelse_NOUN af_ADP de_DET andre_DET jugoslaviske_ADJ folkegruppers_NOUN nationale_ADJ selvstaendighed_NOUN ._PUNCT}
+Predicted: {
+det_DET perspektiv_NOUN kommer_VERB forstaeligt_ADV nok_ADV endnu_ADV i_ADP anden_DET raekke_NOUN for_ADP de_DET partisaner_NOUN ,_PUNCT der_PRON ser_VERB forbundshaeren_NOUN som_ADP et_DET utaleligt_ADJ levn_NOUN efter_ADP det_DET regime_NOUN ,_PUNCT der_PRON i_ADP generationer_NOUN har_AUX staet_VERB for_ADP serbisk_ADV undertrykkelse_NOUN af_ADP de_DET andre_DET jugoslaviske_ADJ folkegruppers_NOUN nationale_ADJ selvstaendighed_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+anden: ADJ | DET
+serbisk: ADJ | ADV
+}
+
+Expected: {
+anne_PROPN la_VERB med_ADP ryggen_NOUN til_ADP doren_NOUN ,_PUNCT som_ADP et_DET fornaermet_ADJ barn_NOUN der_ADV surmuler_VERB ._PUNCT}
+Predicted: {
+anne_PROPN la_VERB med_ADP ryggen_NOUN til_ADP doren_NOUN ,_PUNCT som_PRON et_DET fornaermet_ADJ barn_NOUN der_ADV surmuler_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+som: ADP | PRON
+}
+
+Expected: {
+med_ADP de_DET skiftende_VERB stillinger_NOUN fulgte_VERB tillidshverv_NOUN i_ADP bestyrelser_NOUN og_CCONJ organisationer_NOUN som_ADP f.eks._ADV danish_PROPN american_PROPN chamber_PROPN of_X commerce_PROPN ,_PUNCT rebild_PROPN national_PROPN park_PROPN committee_PROPN ,_PUNCT president_PROPN association_PROPN usa_PROPN og_CCONJ danish_PROPN america_PROPN society_PROPN ._PUNCT}
+Predicted: {
+med_ADP de_DET skiftende_VERB stillinger_NOUN fulgte_VERB tillidshverv_NOUN i_ADP bestyrelser_NOUN og_CCONJ organisationer_NOUN som_ADP f.eks._ADV danish_PROPN american_PROPN chamber_X of_X commerce_PROPN ,_PUNCT rebild_PROPN national_PROPN park_PROPN committee_PROPN ,_PUNCT president_PROPN association_PROPN usa_PROPN og_CCONJ danish_PROPN america_PROPN society_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+chamber: PROPN | X
+}
+
+Expected: {
+bestyrelsesformanden_NOUN for_ADP tv_NOUN 2_NUM ,_PUNCT professor_NOUN jorn_PROPN henrik_PROPN petersen_PROPN ,_PUNCT afviser_VERB ikke_ADV ,_PUNCT at_SCONJ den_DET ny_ADJ chef_NOUN kan_AUX tiltraede_VERB ,_PUNCT for_SCONJ schleimanns_PROPN kontrakt_NOUN udlober_VERB til_ADP oktober_NOUN ._PUNCT}
+Predicted: {
+bestyrelsesformanden_NOUN for_ADP tv_NOUN 2_NUM ,_PUNCT professor_NOUN jorn_PROPN henrik_PROPN petersen_PROPN ,_PUNCT afviser_VERB ikke_ADV ,_PUNCT at_SCONJ den_DET ny_ADJ chef_NOUN kan_AUX tiltraede_VERB ,_PUNCT for_CCONJ schleimanns_PROPN kontrakt_NOUN udlober_VERB til_ADP oktober_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+for: SCONJ | CCONJ
+}
+
+Expected: {
+brug_VERB tiden_NOUN til_ADP sammen_ADV med_ADP hele_ADJ familien_NOUN at_PART overveje_VERB folgende_VERB punkter_NOUN :_PUNCT}
+Predicted: {
+brug_NOUN tiden_NOUN til_ADP sammen_ADV med_ADP hele_ADJ familien_NOUN at_PART overveje_VERB folgende_VERB punkter_NOUN :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+brug: VERB | NOUN
+}
+
+Expected: {
+med_ADP scout_PROPN skulle_AUX der_PRON heller_ADV ikke_ADV vaere_VERB noget_PRON at_PART tage_VERB fejl_ADJ af_ADP :_PUNCT tast_VERB firmanavn_NOUN eller_CCONJ tast_VERB et_DET sogeord_NOUN ,_PUNCT og_CCONJ skaermen_NOUN viser_VERB meget_ADV paedagogisk_ADV naermeste_ADJ vej_NOUN til_ADP den_DET eller_CCONJ de_PRON aktuelle_ADJ stande_NOUN ._PUNCT}
+Predicted: {
+med_ADP scout_PROPN skulle_AUX der_PRON heller_ADV ikke_ADV vaere_VERB noget_PRON at_PART tage_VERB fejl_ADJ af_ADP :_PUNCT tast_ADJ firmanavn_NOUN eller_CCONJ tast_VERB et_DET sogeord_NOUN ,_PUNCT og_CCONJ skaermen_NOUN viser_VERB meget_ADV paedagogisk_ADJ naermeste_ADJ vej_NOUN til_ADP den_DET eller_CCONJ de_PRON aktuelle_ADJ stande_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+tast: VERB | ADJ
+paedagogisk: ADV | ADJ
+}
+
+Expected: {
+et_DET godt_ADJ gaet_NOUN pa_ADP udviklingen_NOUN i_ADP ar_NOUN vil_AUX vaere_AUX et_DET fornyet_VERB fald_NOUN ._PUNCT}
+Predicted: {
+et_DET godt_ADJ gaet_VERB pa_ADP udviklingen_NOUN i_ADP ar_NOUN vil_AUX vaere_AUX et_DET fornyet_VERB fald_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+gaet: NOUN | VERB
+}
+
+Expected: {
+han_PRON sagde_VERB ,_PUNCT at_SCONJ udgangsforbudet_NOUN havde_AUX hjulpet_VERB ,_PUNCT og_CCONJ at_SCONJ der_PRON var_VERB roligt_ADJ i_ADP kirovabad_PROPN ._PUNCT}
+Predicted: {
+han_PRON sagde_VERB ,_PUNCT at_SCONJ udgangsforbudet_NOUN havde_AUX hjulpet_VERB ,_PUNCT og_CCONJ at_SCONJ der_PRON var_AUX roligt_ADV i_ADP kirovabad_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+var: VERB | AUX
+roligt: ADJ | ADV
+}
+
+Expected: {
+hun_PRON havde_AUX laest_VERB og_CCONJ hort_VERB og_CCONJ taenkt_VERB de_DET ord_NOUN ,_PUNCT masser_NOUN af_ADP gange_NOUN ,_PUNCT men_CCONJ det_PRON var_VERB som_ADV om_ADP det_PRON forst_ADV var_AUX nu_ADV ,_PUNCT hun_PRON begyndte_VERB at_PART forsta_VERB ,_PUNCT hvad_PRON de_PRON betod_VERB ._PUNCT}
+Predicted: {
+hun_PRON havde_VERB laest_NOUN og_CCONJ hort_VERB og_CCONJ taenkt_VERB de_DET ord_NOUN ,_PUNCT masser_NOUN af_ADP gange_NOUN ,_PUNCT men_CCONJ det_PRON var_AUX som_ADV om_ADP det_DET forst_ADV var_VERB nu_ADV ,_PUNCT hun_PRON begyndte_VERB at_PART forsta_VERB ,_PUNCT hvad_PRON de_PRON betod_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+havde: AUX | VERB
+laest: VERB | NOUN
+var: VERB | AUX
+det: PRON | DET
+var: AUX | VERB
+}
+
+Expected: {
+det_PRON er_AUX fa_ADJ der_ADV ved_VERB at_SCONJ kjeld_PROPN christensen_PROPN er_AUX fodt_VERB i_ADP kobenhavn_PROPN ,_PUNCT bob,bob_ADV !_PUNCT}
+Predicted: {
+det_PRON er_AUX fa_ADJ der_PRON ved_ADP at_PART kjeld_VERB christensen_PROPN er_AUX fodt_VERB i_ADP kobenhavn_PROPN ,_PUNCT bob,bob_ADV !_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+der: ADV | PRON
+ved: VERB | ADP
+at: SCONJ | PART
+kjeld: PROPN | VERB
+}

@@ -1,0 +1,2753 @@
+=== EVALUATION INFO ===
+Evaluation-Score=0.978150289017341
+Training-Sample-Size=7587
+Evaluation-Sample-Size=842
+Training-Algorithm=MAXENT
+
+=== MODEL PROPERTIES ===
+BeamSize=3
+Component-Name=POSTaggerME
+Language=el
+Manifest-Version=1.0
+OpenNLP-Version=2.5.0
+Timestamp=1742447716026
+TrainerType=Event
+Training-Eventhash=1326451688
+factory=opennlp.tools.postag.POSTaggerFactory
+
+=== MISCLASSIFIED DETAILS ===
+Expected: {
+Η_DET φύση_NOUN του_DET προβλεπόμενου_ADJ μέσου_NOUN αφορά_VERB μόνο_ADV τις_DET κατασταλτικές_ADJ πτυχές_NOUN του_DET φαινομένου_NOUN των_DET ναρκωτικών_NOUN ._PUNCT}
+Predicted: {
+Η_DET φύση_NOUN του_DET προβλεπόμενου_NOUN μέσου_NOUN αφορά_VERB μόνο_ADV τις_DET κατασταλτικές_ADJ πτυχές_NOUN του_DET φαινομένου_NOUN των_DET ναρκωτικών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+προβλεπόμενου: ADJ | NOUN
+}
+
+Expected: {
+Ψηλότερη_ADJ κορυφή_NOUN του_PRON είναι_AUX το_DET Μάτι_NOUN ή_CCONJ Πιλάφ_X Τεπέ_X (_PUNCT 1956_NUM μ._NOUN )_PUNCT ,_PUNCT περιοχή_NOUN που_PRON είναι_AUX προσβάσιμη_ADJ από_ADP το_DET χωριό_NOUN Ακροβούνι_PROPN σ_ADP την_DET παλαιά_ADJ εθνική_ADJ οδό_NOUN Θεσσαλονίκης_PROPN -_PUNCT Ελευθερούπολης_PROPN -_PUNCT Καβάλας_PROPN και_CCONJ σ_ADP την_DET οποία_PRON λειτουργεί_VERB και_CCONJ Χιονοδρομικό_ADJ Κέντρο_NOUN ._PUNCT}
+Predicted: {
+Ψηλότερη_ADJ κορυφή_NOUN του_PRON είναι_AUX το_DET Μάτι_NOUN ή_CCONJ Πιλάφ_NOUN Τεπέ_X (_PUNCT 1956_NUM μ._NOUN )_PUNCT ,_PUNCT περιοχή_NOUN που_PRON είναι_AUX προσβάσιμη_ADJ από_ADP το_DET χωριό_NOUN Ακροβούνι_PROPN σ_ADP την_DET παλαιά_ADJ εθνική_ADJ οδό_NOUN Θεσσαλονίκης_PROPN -_PUNCT Ελευθερούπολης_PROPN -_PUNCT Καβάλας_PROPN και_CCONJ σ_ADP την_DET οποία_PRON λειτουργεί_VERB και_CCONJ Χιονοδρομικό_ADJ Κέντρο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Πιλάφ: X | NOUN
+}
+
+Expected: {
+Σύμφωνα_ADV με_ADP τους_DET διαδηλωτές_NOUN η_DET συμφωνία_NOUN μεταξύ_ADP Ηνωμένων_ADJ Πολιτειών_NOUN και_CCONJ Φιλιππίνων_PROPN είναι_AUX αντίθετη_ADJ προς_ADP τις_DET δημοκρατικές_ADJ κατακτήσεις_NOUN που_PRON επιτεύχθηκαν_VERB με_ADP το_DET κλείσιμο_NOUN των_DET στρατιωτικών_ADJ βάσεων_NOUN των_DET Ηνωμένων_ADJ Πολιτειών_NOUN σ_ADP τις_DET αρχές_NOUN της_DET δεκαετίας_NOUN του_DET 1990_NUM ._PUNCT}
+Predicted: {
+Σύμφωνα_ADV με_ADP τους_DET διαδηλωτές_NOUN η_DET συμφωνία_NOUN μεταξύ_ADP Ηνωμένων_ADJ Πολιτειών_NOUN και_CCONJ Φιλιππίνων_PROPN είναι_AUX αντίθετη_ADJ προς_ADP τις_DET δημοκρατικές_ADJ κατακτήσεις_NOUN που_PRON επιτεύχθηκαν_VERB με_ADP το_DET κλείσιμο_NOUN των_DET στρατιωτικών_ADJ βάσεων_NOUN των_DET Ηνωμένων_ADJ Πολιτειών_NOUN σ_ADP τις_DET αρχές_NOUN της_DET δεκαετίας_NOUN του_DET 1990_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+1990: NUM | NOUN
+}
+
+Expected: {
+Σ_ADP τα_DET 356_NOUN π.Χ._NOUN κάτω_ADV από_ADP την_DET απειλή_NOUN των_DET Θρακών_PROPN ,_PUNCT οι_DET κάτοικοι_NOUN ζητούν_VERB τη_DET βοήθεια_NOUN του_DET Φιλίππου_PROPN Β΄_ADJ ,_PUNCT ο_DET οποίος_PRON ,_PUNCT διαβλέποντας_VERB την_DET οικονομική_ADJ και_CCONJ στρατηγική_ADJ σημασία_NOUN της_DET πόλης_NOUN ,_PUNCT την_PRON καταλαμβάνει_VERB ,_PUNCT την_PRON οχυρώνει_VERB και_CCONJ την_PRON μετονομάζει_VERB σε_ADP Φιλίππους_PROPN ._PUNCT}
+Predicted: {
+Σ_ADP τα_DET 356_NOUN π.Χ._NOUN κάτω_ADV από_ADP την_DET απειλή_NOUN των_DET Θρακών_PROPN ,_PUNCT οι_DET κάτοικοι_NOUN ζητούν_VERB τη_DET βοήθεια_NOUN του_DET Φιλίππου_PROPN Β΄_PROPN ,_PUNCT ο_DET οποίος_PRON ,_PUNCT διαβλέποντας_VERB την_DET οικονομική_ADJ και_CCONJ στρατηγική_ADJ σημασία_NOUN της_DET πόλης_NOUN ,_PUNCT την_DET καταλαμβάνει_VERB ,_PUNCT την_DET οχυρώνει_VERB και_CCONJ την_DET μετονομάζει_VERB σε_ADP Φιλίππους_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Β΄: ADJ | PROPN
+την: PRON | DET
+την: PRON | DET
+την: PRON | DET
+Φιλίππους: PROPN | NOUN
+}
+
+Expected: {
+Σε_ADP αυτό_PRON εκτίθενται_VERB ευρήματα_NOUN από_ADP τον_DET προϊστορικό_ADJ οικισμό_NOUN σ_ADP το_DET Ντικιλί_X Τας_X ,_PUNCT την_DET ελληνιστική_ADJ ,_PUNCT ρωμαϊκή_ADJ και_CCONJ παλιοχριστιανική_ADJ πόλη_NOUN των_DET Φιλίππων_PROPN ._PUNCT}
+Predicted: {
+Σε_ADP αυτό_PRON εκτίθενται_VERB ευρήματα_NOUN από_ADP τον_DET προϊστορικό_ADJ οικισμό_NOUN σ_ADP το_DET Ντικιλί_X Τας_PROPN ,_PUNCT την_DET ελληνιστική_ADJ ,_PUNCT ρωμαϊκή_ADJ και_CCONJ παλιοχριστιανική_ADJ πόλη_NOUN των_DET Φιλίππων_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Τας: X | PROPN
+}
+
+Expected: {
+Αυτό_PRON με_ADP τη_DET σειρά_NOUN του_PRON ,_PUNCT ώθησε_VERB τον_DET Κάστρο_X να_AUX απομακρυνθεί_VERB από_ADP οποιαδήποτε_DET φιλελεύθερα_ADJ στοιχεία_NOUN που_PRON υπήρχαν_VERB σ_ADP το_DET επαναστατικό_ADJ του_PRON κίνημα_NOUN και_CCONJ να_AUX στραφεί_VERB προς_ADP τους_DET κομουνιστές_NOUN ._PUNCT}
+Predicted: {
+Αυτό_PRON με_ADP τη_DET σειρά_NOUN του_PRON ,_PUNCT ώθησε_VERB τον_DET Κάστρο_X να_AUX απομακρυνθεί_VERB από_ADP οποιαδήποτε_DET φιλελεύθερα_ADJ στοιχεία_NOUN που_PRON υπήρχαν_VERB σ_ADP το_DET επαναστατικό_ADJ του_DET κίνημα_NOUN και_CCONJ να_AUX στραφεί_VERB προς_ADP τους_DET κομουνιστές_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+}
+
+Expected: {
+Η_DET ομηρία_NOUN των_DET εργατών_NOUN έληξε_VERB μετά_ADV από_ADP διαπραγματεύσεις_NOUN ,_PUNCT κατά_ADP τις_DET οποίες_PRON ο_DET δράστης_NOUN απαίτησε_VERB την_DET καταβολή_NOUN δεδουλευμένων_ADJ ύψους_NOUN 31.000_NUM ευρώ_NOUN και_CCONJ την_DET επαναπρόσληψή_NOUN του_PRON σ_ADP την_DET εταιρεία_NOUN «_PUNCT HELESI_X »_PUNCT ,_PUNCT απ'_ADP την_DET οποία_PRON απολύθηκε_VERB πέρσι_ADV ._PUNCT}
+Predicted: {
+Η_DET ομηρία_NOUN των_DET εργατών_NOUN έληξε_VERB μετά_ADV από_ADP διαπραγματεύσεις_NOUN ,_PUNCT κατά_ADP τις_DET οποίες_PRON ο_DET δράστης_NOUN απαίτησε_VERB την_DET καταβολή_NOUN δεδουλευμένων_NOUN ύψους_NOUN 31.000_NUM ευρώ_NOUN και_CCONJ την_DET επαναπρόσληψή_NOUN του_PRON σ_ADP την_DET εταιρεία_NOUN «_PUNCT HELESI_X »_PUNCT ,_PUNCT απ'_ADP την_DET οποία_PRON απολύθηκε_VERB πέρσι_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δεδουλευμένων: ADJ | NOUN
+}
+
+Expected: {
+Η_DET στρατιωτική_ADJ ηγεσία_NOUN της_DET Αιγύπτου_PROPN που_PRON ανέλαβε_VERB την_DET διοίκηση_NOUN της_DET χώρας_NOUN από_ADP τον_DET Χόσνι_X Μουμπάρακ_X είχε_AUX υποσχεθεί_VERB ότι_SCONJ «_PUNCT θα_AUX παραδώσει_VERB την_DET εξουσία_NOUN σε_ADP μια_DET εκλεγμένη_ADJ πολιτική_ADJ κυβέρνηση_NOUN μέχρι_ADP τα_DET τέλη_NOUN Ιουνίου_PROPN ._PUNCT}
+Predicted: {
+Η_DET στρατιωτική_ADJ ηγεσία_NOUN της_DET Αιγύπτου_PROPN που_PRON ανέλαβε_VERB την_DET διοίκηση_NOUN της_DET χώρας_NOUN από_ADP τον_DET Χόσνι_X Μουμπάρακ_X είχε_AUX υποσχεθεί_VERB ότι_SCONJ «_PUNCT θα_AUX παραδώσει_VERB την_DET εξουσία_NOUN σε_ADP μια_DET εκλεγμένη_ADJ πολιτική_NOUN κυβέρνηση_NOUN μέχρι_ADP τα_DET τέλη_NOUN Ιουνίου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολιτική: ADJ | NOUN
+}
+
+Expected: {
+Τελευταίο_ADJ παράδειγμα_NOUN ,_PUNCT που_PRON προσεγγίζει_VERB την_DET πρότασή_NOUN σας_PRON ,_PUNCT κύριε_NOUN Πρόεδρε_NOUN :_PUNCT να_AUX οργανώσουμε_VERB συναντήσεις_NOUN μελών_NOUN της_DET κοινωνίας_NOUN των_DET πολιτών_NOUN από_ADP τις_DET υποψήφιες_ADJ χώρες_NOUN και_CCONJ από_ADP τα_DET κράτη_NOUN μέλη_NOUN προκειμένου_SCONJ να_AUX εξετάσουμε_VERB ,_PUNCT από_ADP κοινού_NOUN ,_PUNCT τα_DET αρνητικά_ADJ και_CCONJ τα_DET θετικά_ADJ σημεία_NOUN του_DET πραγματικά_ADV ιστορικού_ADJ αυτού_DET σχεδίου_NOUN και_CCONJ να_AUX μεγιστοποιήσουμε_VERB τις_DET πιθανότητες_NOUN επιτυχούς_ADJ υλοποίησής_NOUN του_PRON ._PUNCT}
+Predicted: {
+Τελευταίο_ADJ παράδειγμα_NOUN ,_PUNCT που_PRON προσεγγίζει_VERB την_DET πρότασή_NOUN σας_PRON ,_PUNCT κύριε_NOUN Πρόεδρε_NOUN :_PUNCT να_AUX οργανώσουμε_VERB συναντήσεις_NOUN μελών_NOUN της_DET κοινωνίας_NOUN των_DET πολιτών_NOUN από_ADP τις_DET υποψήφιες_ADJ χώρες_NOUN και_CCONJ από_ADP τα_DET κράτη_NOUN μέλη_NOUN προκειμένου_SCONJ να_AUX εξετάσουμε_VERB ,_PUNCT από_ADP κοινού_NOUN ,_PUNCT τα_DET αρνητικά_ADJ και_CCONJ τα_DET θετικά_ADJ σημεία_NOUN του_DET πραγματικά_ADV ιστορικού_ADJ αυτού_DET σχεδίου_NOUN και_CCONJ να_AUX μεγιστοποιήσουμε_VERB τις_DET πιθανότητες_ADJ επιτυχούς_NOUN υλοποίησής_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πιθανότητες: NOUN | ADJ
+επιτυχούς: ADJ | NOUN
+}
+
+Expected: {
+Ο_DET νόμος_NOUN αυτός_DET τέθηκε_VERB θεωρητικά_ADV σε_ADP ισχύ_NOUN σ_ADP τη_DET 1_NUM Ιανουαρίου_PROPN 2012_NUM ,_PUNCT ωστόσο_CCONJ θα_AUX ισχύσει_VERB και_CCONJ σ_ADP την_DET πράξη_NOUN το_DET 2013_NUM ._PUNCT}
+Predicted: {
+Ο_DET νόμος_NOUN αυτός_DET τέθηκε_VERB θεωρητικά_NOUN σε_ADP ισχύ_NOUN σ_ADP τη_DET 1_NUM Ιανουαρίου_PROPN 2012_NUM ,_PUNCT ωστόσο_CCONJ θα_AUX ισχύσει_VERB και_CCONJ σ_ADP την_DET πράξη_NOUN το_DET 2013_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+θεωρητικά: ADV | NOUN
+}
+
+Expected: {
+Φυσικά_ADV δεν_PART μπορεί_VERB παρά_CCONJ να_AUX μας_PRON βάλει_VERB σε_ADP σκέψεις_NOUN ότι_SCONJ εδώ_ADV και_CCONJ πολλά_ADJ χρόνια_NOUN αναγκαζόμαστε_VERB να_AUX παραδεχτούμε_VERB ότι_SCONJ λειτουργούμε_VERB παραβιάζοντας_VERB ως_ADV ένα_DET βαθμό_NOUN τα_DET όρια_NOUN που_PRON θέτει_VERB η_DET ΠΟΥ_NOUN για_ADP ορισμένες_ADJ μέρες_NOUN ετησίως_ADV ._PUNCT}
+Predicted: {
+Φυσικά_ADV δεν_PART μπορεί_VERB παρά_CCONJ να_SCONJ μας_PRON βάλει_VERB σε_ADP σκέψεις_NOUN ότι_SCONJ εδώ_ADV και_CCONJ πολλά_DET χρόνια_NOUN αναγκαζόμαστε_VERB να_AUX παραδεχτούμε_VERB ότι_SCONJ λειτουργούμε_VERB παραβιάζοντας_VERB ως_ADV ένα_DET βαθμό_NOUN τα_DET όρια_NOUN που_PRON θέτει_VERB η_DET ΠΟΥ_PROPN για_ADP ορισμένες_ADJ μέρες_NOUN ετησίως_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+πολλά: ADJ | DET
+ΠΟΥ: NOUN | PROPN
+}
+
+Expected: {
+η_DET πρώτη_ADJ ,_PUNCT μεγάλης_ADJ σημασίας_NOUN κατά_ADP τη_DET γνώμη_NOUN μου_PRON ,_PUNCT είναι_AUX η_DET αντικατάσταση_NOUN ,_PUNCT μέχρι_ADP το_DET 2020_NUM ,_PUNCT του_DET 20%_NUM των_DET κλασικών_ADJ καυσίμων_NOUN με_ADP καθαρότερα_ADJ εναλλακτικά_ADJ καύσιμα_NOUN ,_PUNCT είτε_CCONJ βιολογικά_ADJ καύσιμα_NOUN είτε_CCONJ ακόμη_ADV και_CCONJ υδρογόνο_NOUN ,_PUNCT θέτοντας_VERB ως_ADV ενδιάμεσο_ADJ σταθμό_NOUN όσον_ADV αφορά_VERB τη_DET χρήση_NOUN των_DET βιολογικών_ADJ καυσίμων_NOUN το_DET 2010_NUM ,_PUNCT με_ADP τον_DET φιλόδοξο_ADJ στόχο_NOUN να_AUX αποτελούν_VERB τότε_ADV τα_DET βιολογικά_ADJ καύσιμα_NOUN το_DET 5,75%_NUM του_DET συνόλου_NOUN των_DET καυσίμων_NOUN που_PRON χρησιμοποιούνται_VERB σ_ADP την_DET Ένωση_NOUN ._PUNCT}
+Predicted: {
+η_DET πρώτη_ADJ ,_PUNCT μεγάλης_ADJ σημασίας_NOUN κατά_ADP τη_DET γνώμη_NOUN μου_PRON ,_PUNCT είναι_AUX η_DET αντικατάσταση_NOUN ,_PUNCT μέχρι_ADP το_DET 2020_NOUN ,_PUNCT του_DET 20%_NUM των_DET κλασικών_ADJ καυσίμων_NOUN με_ADP καθαρότερα_ADJ εναλλακτικά_ADJ καύσιμα_NOUN ,_PUNCT είτε_CCONJ βιολογικά_ADJ καύσιμα_NOUN είτε_CCONJ ακόμη_ADV και_CCONJ υδρογόνο_NOUN ,_PUNCT θέτοντας_VERB ως_ADV ενδιάμεσο_ADJ σταθμό_NOUN όσον_ADV αφορά_VERB τη_DET χρήση_NOUN των_DET βιολογικών_ADJ καυσίμων_NOUN το_DET 2010_NUM ,_PUNCT με_ADP τον_DET φιλόδοξο_ADJ στόχο_NOUN να_AUX αποτελούν_VERB τότε_ADV τα_DET βιολογικά_ADJ καύσιμα_NOUN το_DET 5,75%_NUM του_DET συνόλου_NOUN των_DET καυσίμων_NOUN που_PRON χρησιμοποιούνται_VERB σ_ADP την_DET Ένωση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+2020: NUM | NOUN
+}
+
+Expected: {
+Η_DET Απολλωνία_PROPN χαρακτηρίζεται_VERB για_ADP την_DET παραδοσιακή_ADJ κυκλαδίτικη_ADJ αρχιτεκτονική_NOUN ,_PUNCT τα_DET πλακόστρωτα_ADJ δρομάκια_NOUN ,_PUNCT τις_DET λουλουδιασμένες_ADJ αυλές_NOUN και_CCONJ τις_DET πανέμορφες_ADJ εκκλησιές_NOUN ._PUNCT}
+Predicted: {
+Η_DET Απολλωνία_PROPN χαρακτηρίζεται_VERB για_ADP την_DET παραδοσιακή_ADJ κυκλαδίτικη_ADJ αρχιτεκτονική_NOUN ,_PUNCT τα_DET πλακόστρωτα_NOUN δρομάκια_NOUN ,_PUNCT τις_DET λουλουδιασμένες_ADJ αυλές_NOUN και_CCONJ τις_DET πανέμορφες_ADJ εκκλησιές_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πλακόστρωτα: ADJ | NOUN
+}
+
+Expected: {
+Έχοντας_VERB ως_ADV ορμητήριο_NOUN την_DET Ηγουμενίτσα_PROPN μπορεί_VERB ο_DET επισκέπτης_NOUN να_AUX πραγματοποιήσει_VERB εκδρομές_NOUN προς_ADP τα_DET κοντινά_ADJ παραλιακά_ADJ χωριά_ADJ Πλαταριά_PROPN ,_PUNCT Σύβοτα_PROPN ,_PUNCT Πέρδικα_PROPN ._PUNCT}
+Predicted: {
+Έχοντας_VERB ως_ADV ορμητήριο_NOUN την_DET Ηγουμενίτσα_PROPN μπορεί_VERB ο_DET επισκέπτης_NOUN να_AUX πραγματοποιήσει_VERB εκδρομές_NOUN προς_ADP τα_DET κοντινά_ADJ παραλιακά_ADJ χωριά_NOUN Πλαταριά_PROPN ,_PUNCT Σύβοτα_PROPN ,_PUNCT Πέρδικα_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+χωριά: ADJ | NOUN
+}
+
+Expected: {
+Ένας_DET περίπατος_NOUN σ_ADP τους_DET δρόμους_NOUN και_CCONJ τα_DET σοκάκια_NOUN της_DET Παλιάς_ADJ και_CCONJ Νέας_ADJ Πόλης_PROPN δίνει_VERB την_DET ευκαιρία_NOUN σ_ADP τον_DET επισκέπτη_NOUN να_AUX θαυμάσει_VERB μερικές_DET εικόνες_NOUN από_ADP το_DET παρελθόν_NOUN της_DET πόλης_NOUN ._PUNCT}
+Predicted: {
+Ένας_DET περίπατος_NOUN σ_ADP τους_DET δρόμους_NOUN και_CCONJ τα_DET σοκάκια_NOUN της_DET Παλιάς_PROPN και_CCONJ Νέας_ADJ Πόλης_PROPN δίνει_VERB την_DET ευκαιρία_NOUN σ_ADP τον_DET επισκέπτη_NOUN να_AUX θαυμάσει_VERB μερικές_DET εικόνες_NOUN από_ADP το_DET παρελθόν_NOUN της_DET πόλης_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Παλιάς: ADJ | PROPN
+}
+
+Expected: {
+Το_DET καθεστώς_NOUN υποστήριξε_VERB ότι_SCONJ ένας_DET πειραματικός_ADJ τηλεπικοινωνιακός_ADJ δορυφόρος_NOUN τέθηκε_VERB σε_ADP τροχιά_NOUN ,_PUNCT μεταδίδοντας_VERB επαναστατικά_ADJ τραγούδια_NOUN καθώς_ADV και_CCONJ κάποια_DET δεδομένα_NOUN ._PUNCT}
+Predicted: {
+Το_DET καθεστώς_NOUN υποστήριξε_VERB ότι_SCONJ ένας_DET πειραματικός_ADJ τηλεπικοινωνιακός_ADJ δορυφόρος_NOUN τέθηκε_VERB σε_ADP τροχιά_NOUN ,_PUNCT μεταδίδοντας_VERB επαναστατικά_ADV τραγούδια_NOUN καθώς_ADV και_CCONJ κάποια_DET δεδομένα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+επαναστατικά: ADJ | ADV
+}
+
+Expected: {
+Πράγματι_ADV ,_PUNCT ο_DET επόμενος_ADJ Πρόεδρός_NOUN μας_PRON δεν_PART θα_AUX έχει_VERB πολύ_ADJ χρόνο_NOUN για_ADP ταξίδια_NOUN ._PUNCT}
+Predicted: {
+Πράγματι_ADV ,_PUNCT ο_DET επόμενος_ADJ Πρόεδρός_NOUN μας_PRON δεν_PART θα_AUX έχει_VERB πολύ_ADV χρόνο_NOUN για_ADP ταξίδια_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολύ: ADJ | ADV
+}
+
+Expected: {
+Επιλέξτε_VERB κάποιον_PRON καλύτερο_ADJ ,_PUNCT τόσο_ADV από_ADP τον_DET Cox_X όσο_ADV και_CCONJ από_ADP τον_DET Martin_X ,_PUNCT ψηφίζοντας_VERB τον_DET κ._NOUN Bonde_X του_DET γραφείου_NOUN 007_NUM ._PUNCT}
+Predicted: {
+Επιλέξτε_VERB κάποιον_DET καλύτερο_ADJ ,_PUNCT τόσο_ADV από_ADP τον_DET Cox_X όσο_ADV και_CCONJ από_ADP τον_DET Martin_X ,_PUNCT ψηφίζοντας_VERB τον_DET κ._NOUN Bonde_X του_DET γραφείου_NOUN 007_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάποιον: PRON | DET
+}
+
+Expected: {
+"_PUNCT Μήπως_ADV θα_AUX είναι_AUX καλύτερο_ADJ να_AUX μην_PART κάνουμε_VERB τίποτα_PRON ,_PUNCT μήπως_ADV θα_AUX υπήρχε_VERB άλλος_DET τρόπος_NOUN επέμβασης_NOUN ,_PUNCT που_PRON θα_AUX ήταν_AUX πιο_ADV αποτελεσματικός_ADJ "_PUNCT ,_PUNCT καθώς_SCONJ ,_PUNCT όπως_ADV τονίζει_VERB χαρακτηριστικά_ADV ,_PUNCT αν_SCONJ ένας_DET χειρούργος_NOUN κάνει_VERB επέμβαση_NOUN σ_ADP την_DET αορτή_NOUN ,_PUNCT μπορεί_VERB να_AUX υποστεί_VERB άλλες_DET βλάβες_NOUN σε_ADP ζωτικά_ADJ όργανα_NOUN ή_CCONJ να_AUX δημιουργηθούν_VERB κυκλοφορικά_ADJ προβλήματα_NOUN σε_ADP άλλα_DET αγγεία_NOUN ._PUNCT}
+Predicted: {
+"_PUNCT Μήπως_ADV θα_AUX είναι_AUX καλύτερο_ADJ να_AUX μην_PART κάνουμε_VERB τίποτα_DET ,_PUNCT μήπως_ADV θα_AUX υπήρχε_VERB άλλος_DET τρόπος_NOUN επέμβασης_NOUN ,_PUNCT που_PRON θα_AUX ήταν_AUX πιο_ADV αποτελεσματικός_ADJ "_PUNCT ,_PUNCT καθώς_SCONJ ,_PUNCT όπως_ADV τονίζει_VERB χαρακτηριστικά_ADV ,_PUNCT αν_SCONJ ένας_DET χειρούργος_NOUN κάνει_VERB επέμβαση_NOUN σ_ADP την_DET αορτή_NOUN ,_PUNCT μπορεί_VERB να_AUX υποστεί_VERB άλλες_DET βλάβες_NOUN σε_ADP ζωτικά_ADJ όργανα_NOUN ή_CCONJ να_AUX δημιουργηθούν_VERB κυκλοφορικά_ADJ προβλήματα_NOUN σε_ADP άλλα_DET αγγεία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τίποτα: PRON | DET
+}
+
+Expected: {
+Θα_AUX ήθελα_VERB καταρχάς_ADV να_AUX υπογραμμίσω_VERB ότι_SCONJ για_ADP λόγους_NOUN ηθικής_NOUN δεν_PART θα_AUX πρέπει_AUX ποτέ_ADV να_AUX δίνονται_VERB κρεατάλευρα_NOUN ως_ADV ζωοτροφές_NOUN σε_ADP μηρυκαστικά_ADJ ._PUNCT}
+Predicted: {
+Θα_AUX ήθελα_VERB καταρχάς_ADV να_AUX υπογραμμίσω_VERB ότι_SCONJ για_ADP λόγους_NOUN ηθικής_NOUN δεν_PART θα_AUX πρέπει_AUX ποτέ_ADV να_AUX δίνονται_VERB κρεατάλευρα_NOUN ως_ADV ζωοτροφές_NOUN σε_ADP μηρυκαστικά_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μηρυκαστικά: ADJ | ADV
+}
+
+Expected: {
+Όλα_ADJ αυτά_PRON μετέβαλαν_VERB το_DET ρόλο_NOUN μου_PRON ως_ADV συμπρόεδρος_NOUN τον_DET τελευταίο_ADJ χρόνο_NOUN ._PUNCT}
+Predicted: {
+Όλα_ADJ αυτά_DET μετέβαλαν_VERB το_DET ρόλο_NOUN μου_PRON ως_ADV συμπρόεδρος_NOUN τον_DET τελευταίο_ADJ χρόνο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτά: PRON | DET
+}
+
+Expected: {
+Ο_DET Πρωθυπουργός_NOUN της_DET Τουρκίας_PROPN ,_PUNCT Ρετζέπ_PROPN Ταγίπ_PROPN Ερντογάν_PROPN ,_PUNCT ανέφερε_VERB σε_ADP συνέντευξη_NOUN που_PRON παραχώρησε_VERB σ_ADP τη_DET δημόσια_ADJ τηλεόραση_NOUN των_DET ΗΠΑ_NOUN ,_PUNCT ότι_SCONJ η_DET κυβέρνηση_NOUN του_PRON θα_AUX ζητήσει_VERB από_ADP τις_DET ΗΠΑ_NOUN την_DET έκδοση_NOUN σ_ADP την_DET Τουρκία_PROPN του_DET αμφιλεγόμενου_ADJ ισλαμιστή_NOUN ηγέτη_NOUN ,_PUNCT Φετουλάχ_X Γκιουλέν_PROPN ._PUNCT}
+Predicted: {
+Ο_DET Πρωθυπουργός_NOUN της_DET Τουρκίας_PROPN ,_PUNCT Ρετζέπ_PROPN Ταγίπ_PROPN Ερντογάν_PROPN ,_PUNCT ανέφερε_VERB σε_ADP συνέντευξη_NOUN που_PRON παραχώρησε_VERB σ_ADP τη_DET δημόσια_ADJ τηλεόραση_NOUN των_DET ΗΠΑ_NOUN ,_PUNCT ότι_SCONJ η_DET κυβέρνηση_NOUN του_DET θα_AUX ζητήσει_VERB από_ADP τις_DET ΗΠΑ_NOUN την_DET έκδοση_NOUN σ_ADP την_DET Τουρκία_PROPN του_DET αμφιλεγόμενου_ADJ ισλαμιστή_NOUN ηγέτη_NOUN ,_PUNCT Φετουλάχ_PROPN Γκιουλέν_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+Φετουλάχ: X | PROPN
+}
+
+Expected: {
+Επίσης_ADV ,_PUNCT μην_PART παραλείψετε_VERB να_AUX βρεθείτε_VERB σ_ADP τις_DET εκκλησίες_NOUN του_DET Αγίου_ADJ Aθανασίου_PROPN και_CCONJ του_DET Αγίου_ADJ Γεωργίου_PROPN ,_PUNCT αλλά_CCONJ και_CCONJ σ_ADP το_DET εκκλησάκι_NOUN του_DET Χριστού_PROPN με_ADP μεταβυζαντινές_ADJ τοιχογραφίες_NOUN ,_PUNCT από_ADP τον_DET 16ο_ADJ -_PUNCT 17ο_ADJ αιώνα_NOUN ._PUNCT}
+Predicted: {
+Επίσης_ADV ,_PUNCT μην_PART παραλείψετε_VERB να_AUX βρεθείτε_VERB σ_ADP τις_DET εκκλησίες_NOUN του_DET Αγίου_ADJ Aθανασίου_NOUN και_CCONJ του_DET Αγίου_ADJ Γεωργίου_PROPN ,_PUNCT αλλά_CCONJ και_CCONJ σ_ADP το_DET εκκλησάκι_NOUN του_DET Χριστού_PROPN με_ADP μεταβυζαντινές_ADJ τοιχογραφίες_NOUN ,_PUNCT από_ADP τον_DET 16ο_ADJ -_PUNCT 17ο_ADJ αιώνα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Aθανασίου: PROPN | NOUN
+}
+
+Expected: {
+Η_DET εξέλιξη_NOUN αυτή_DET ανακοινώθηκε_VERB ταυτόχρονα_ADV σ_ADP τις_DET ΗΠΑ_NOUN και_CCONJ τη_DET Βόρεια_ADJ Κορέα_PROPN ,_PUNCT μετά_ADV από_ADP συνομιλίες_NOUN σ_ADP το_DET Πεκίνο_PROPN και_CCONJ προέκυψε_VERB δύο_NUM μήνες_NOUN μετά_ADP το_DET θάνατο_NOUN του_DET ηγέτη_NOUN της_DET Βόρειας_ADJ Κορέας_PROPN ,_PUNCT Κιμ_X Γιόνγκ_X Ιλ_X ._PUNCT}
+Predicted: {
+Η_DET εξέλιξη_NOUN αυτή_DET ανακοινώθηκε_VERB ταυτόχρονα_ADV σ_ADP τις_DET ΗΠΑ_NOUN και_CCONJ τη_DET Βόρεια_ADJ Κορέα_PROPN ,_PUNCT μετά_ADV από_ADP συνομιλίες_NOUN σ_ADP το_DET Πεκίνο_PROPN και_CCONJ προέκυψε_VERB δύο_NUM μήνες_NOUN μετά_ADP το_DET θάνατο_NOUN του_DET ηγέτη_NOUN της_DET Βόρειας_ADJ Κορέας_PROPN ,_PUNCT Κιμ_PROPN Γιόνγκ_PROPN Ιλ_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Κιμ: X | PROPN
+Γιόνγκ: X | PROPN
+Ιλ: X | PROPN
+}
+
+Expected: {
+Από_ADP αυτά_PRON τα_DET μισά_ADJ είναι_AUX έτοιμα_ADJ και_CCONJ τα_DET υπόλοιπα_ADJ θα_AUX ετοιμασθούν_VERB τέλος_NOUN Απριλίου_PROPN ._PUNCT}
+Predicted: {
+Από_ADP αυτά_PRON τα_DET μισά_DET είναι_AUX έτοιμα_ADJ και_CCONJ τα_DET υπόλοιπα_ADJ θα_AUX ετοιμασθούν_VERB τέλος_NOUN Απριλίου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μισά: ADJ | DET
+}
+
+Expected: {
+Η_DET αναχαίτιση_NOUN του_DET -_PUNCT πυραύλου_NOUN φορέα_NOUN δορυφόρου_NOUN είναι_AUX μια_NUM απ'_ADP αυτές_DET τις_DET επιλογές_NOUN »_PUNCT ,_PUNCT δήλωσε_VERB ο_DET Υπουργός_NOUN Αμύνης_NOUN της_DET Ιαπωνίας_PROPN ,_PUNCT Ναόκι_X Τανάκα_X ._PUNCT}
+Predicted: {
+Η_DET αναχαίτιση_NOUN του_PRON -_PUNCT πυραύλου_NOUN φορέα_NOUN δορυφόρου_NOUN είναι_AUX μια_NUM απ'_ADP αυτές_DET τις_DET επιλογές_NOUN »_PUNCT ,_PUNCT δήλωσε_VERB ο_DET Υπουργός_NOUN Αμύνης_NOUN της_DET Ιαπωνίας_PROPN ,_PUNCT Ναόκι_PROPN Τανάκα_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: DET | PRON
+Ναόκι: X | PROPN
+Τανάκα: X | PROPN
+}
+
+Expected: {
+Είναι_AUX προφανές_ADJ ότι_SCONJ καμία_DET διάταξη_NOUN της_DET Συνθήκης_NOUN δεν_PART επιβάλλει_VERB σ_ADP το_DET Συμβούλιο_NOUN να_AUX διαβουλευθεί_VERB ή_CCONJ να_AUX ενημερώσει_VERB το_DET Κοινοβούλιο_NOUN σχετικά_ADV μ'_ADP αυτό_DET το_DET εμπιστευτικό_ADJ έγγραφο_NOUN ,_PUNCT το_DET οποίο_PRON ,_PUNCT εν_ADP πάση_ADJ περιπτώσει_NOUN ,_PUNCT θα_AUX έχανε_VERB την_DET αξία_NOUN του_PRON αν_SCONJ συζητιόταν_VERB δημοσίως_ADV ,_PUNCT και_CCONJ ο_DET τελικός_ADJ αποδέκτης_NOUN του_DET οποίου_PRON είναι_AUX οι_DET αντιτρομοκρατικές_ADJ υπηρεσίες_NOUN των_DET κρατών_NOUN μελών_NOUN ._PUNCT}
+Predicted: {
+Είναι_AUX προφανές_ADJ ότι_SCONJ καμία_DET διάταξη_NOUN της_DET Συνθήκης_NOUN δεν_PART επιβάλλει_VERB σ_ADP το_DET Συμβούλιο_NOUN να_AUX διαβουλευθεί_VERB ή_CCONJ να_AUX ενημερώσει_VERB το_DET Κοινοβούλιο_NOUN σχετικά_ADV μ'_ADP αυτό_DET το_DET εμπιστευτικό_ADJ έγγραφο_NOUN ,_PUNCT το_DET οποίο_PRON ,_PUNCT εν_ADP πάση_ADJ περιπτώσει_NOUN ,_PUNCT θα_AUX έχανε_VERB την_DET αξία_NOUN του_DET αν_ADJ συζητιόταν_VERB δημοσίως_ADV ,_PUNCT και_CCONJ ο_DET τελικός_ADJ αποδέκτης_NOUN του_DET οποίου_PRON είναι_AUX οι_DET αντιτρομοκρατικές_ADJ υπηρεσίες_NOUN των_DET κρατών_NOUN μελών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+αν: SCONJ | ADJ
+}
+
+Expected: {
+Για_ADP τον_DET λόγο_NOUN αυτό_DET η_DET Σύνοδος_NOUN Κορυφής_NOUN της_DET Βαρκελώνης_PROPN καλείται_VERB να_AUX ανταλλάξει_VERB τον_DET δογματισμό_NOUN σ_ADP την_DET εφαρμογή_NOUN του_DET Συμφώνου_NOUN Σταθερότητας_NOUN και_CCONJ Ανάπτυξης_NOUN ,_PUNCT το_DET οποίο_PRON δίνει_VERB περιθώρια_NOUN ,_PUNCT με_ADP μια_DET συμπαγή_ADJ πολιτική_NOUN που_PRON στόχο_NOUN θα_AUX έχει_VERB τη_DET νομισματική_ADJ ,_PUNCT τη_DET χρηματοοικονομική_ADJ αλλά_CCONJ και_CCONJ την_DET κοινωνική_ADJ σταθερότητα_NOUN ._PUNCT}
+Predicted: {
+Για_ADP τον_DET λόγο_NOUN αυτό_DET η_DET Σύνοδος_NOUN Κορυφής_NOUN της_DET Βαρκελώνης_PROPN καλείται_VERB να_AUX ανταλλάξει_VERB τον_DET δογματισμό_NOUN σ_ADP την_DET εφαρμογή_NOUN του_DET Συμφώνου_NOUN Σταθερότητας_NOUN και_CCONJ Ανάπτυξης_NOUN ,_PUNCT το_DET οποίο_PRON δίνει_VERB περιθώρια_NOUN ,_PUNCT με_ADP μια_DET συμπαγή_NOUN πολιτική_NOUN που_PRON στόχο_NOUN θα_AUX έχει_VERB τη_DET νομισματική_ADJ ,_PUNCT τη_DET χρηματοοικονομική_ADJ αλλά_CCONJ και_CCONJ την_DET κοινωνική_ADJ σταθερότητα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+συμπαγή: ADJ | NOUN
+}
+
+Expected: {
+Το_DET σκορ_X του_DET αγώνα_NOUN άνοιξε_VERB ο_DET Γουέν_X Ρούνι_X σ_ADP το_DET 22ο_ADJ λεπτό_NOUN ,_PUNCT ωστόσο_CCONJ οι_DET φιλοξενούμενοι_ADJ ισοφάρισαν_VERB με_ADP τον_DET Λλορέντε_X σ_ADP το_DET 44'_NUM ._PUNCT}
+Predicted: {
+Το_DET σκορ_X του_DET αγώνα_NOUN άνοιξε_VERB ο_DET Γουέν_X Ρούνι_X σ_ADP το_DET 22ο_ADJ λεπτό_NOUN ,_PUNCT ωστόσο_CCONJ οι_DET φιλοξενούμενοι_ADJ ισοφάρισαν_VERB με_ADP τον_DET Λλορέντε_X σ_ADP το_DET 44'_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+44': NUM | PROPN
+}
+
+Expected: {
+σε_ADP άλλες_DET πλευρές_NOUN ο_DET ποταμός_NOUN κυλά_VERB από_ADP ψηλούς_ADJ βράχους_NOUN -_PUNCT μερικές_DET φορές_NOUN φτάνει_VERB τα_DET εκατό_NUM μέτρα_NOUN -_PUNCT και_CCONJ το_DET πλάτος_NOUN του_PRON φτάνει_VERB τα_DET δύο_NUM μέτρα_NOUN ._PUNCT}
+Predicted: {
+σε_ADP άλλες_PRON πλευρές_NOUN ο_DET ποταμός_NOUN κυλά_ADV από_ADP ψηλούς_ADJ βράχους_NOUN -_PUNCT μερικές_DET φορές_NOUN φτάνει_VERB τα_DET εκατό_NUM μέτρα_NOUN -_PUNCT και_CCONJ το_DET πλάτος_NOUN του_PRON φτάνει_VERB τα_DET δύο_NUM μέτρα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άλλες: DET | PRON
+κυλά: VERB | ADV
+}
+
+Expected: {
+Η_DET κυρία_NOUN Strick_X δήλωσε_VERB ,_PUNCT αναφερόμενη_ADJ σ_ADP την_DET κατάσταση_NOUN που_PRON επικρατεί_VERB σ_ADP την_DET Ελλάδα_PROPN ,_PUNCT ότι_SCONJ "_PUNCT το_DET μεταναστευτικό_ADJ αποτέλεσε_VERB την_DET αφορμή_NOUN για_ADP την_DET άνοδο_NOUN του_DET φασιστικού_ADJ φαινομένου_NOUN της_DET Χρυσής_PROPN Αυγής_NOUN "_PUNCT και_CCONJ ότι_SCONJ "_PUNCT ενώ_SCONJ οι_DET συνθήκες_NOUN κράτησης_NOUN είναι_AUX απαράδεκτες_NOUN ,_PUNCT μπορεί_VERB να_AUX κατανοήσει_VERB τις_DET τεράστιες_ADJ δυσκολίες_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+Η_DET κυρία_NOUN Strick_X δήλωσε_VERB ,_PUNCT αναφερόμενη_ADJ σ_ADP την_DET κατάσταση_NOUN που_PRON επικρατεί_VERB σ_ADP την_DET Ελλάδα_PROPN ,_PUNCT ότι_SCONJ "_PUNCT το_DET μεταναστευτικό_ADJ αποτέλεσε_VERB την_DET αφορμή_NOUN για_ADP την_DET άνοδο_NOUN του_DET φασιστικού_ADJ φαινομένου_NOUN της_DET Χρυσής_PROPN Αυγής_PROPN "_PUNCT και_CCONJ ότι_SCONJ "_PUNCT ενώ_SCONJ οι_DET συνθήκες_NOUN κράτησης_NOUN είναι_AUX απαράδεκτες_ADJ ,_PUNCT μπορεί_VERB να_AUX κατανοήσει_VERB τις_DET τεράστιες_ADJ δυσκολίες_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Αυγής: NOUN | PROPN
+απαράδεκτες: NOUN | ADJ
+}
+
+Expected: {
+Λίγο_ADV πριν_ADP την_DET έκθεση_NOUN έγινε_VERB γνωστό_ADJ ότι_SCONJ οι_DET κρατήσεις_NOUN από_ADP τη_DET Γερμανία_PROPN σ_ADP την_DET Ελλάδα_PROPN μειώθηκαν_VERB κατά_ADP 30%_NUM ,_PUNCT ενώ_SCONJ επίσημα_ADJ στοχεία_NOUN αναφέρουν_VERB ότι_SCONJ την_DET Ελλάδα_PROPN ,_PUNCT κατά_ADP το_DET 2011_NUM ,_PUNCT επισκέπτηκαν_VERB 2.240.000_NUM Γερμανοί_PROPN ,_PUNCT έχοντας_AUX δαπανήσει_VERB 1.8_NUM δισεκατομμύρια_NOUN ευρώ_NOUN ._PUNCT}
+Predicted: {
+Λίγο_ADV πριν_ADP την_DET έκθεση_NOUN έγινε_VERB γνωστό_ADJ ότι_SCONJ οι_DET κρατήσεις_NOUN από_ADP τη_DET Γερμανία_PROPN σ_ADP την_DET Ελλάδα_PROPN μειώθηκαν_VERB κατά_ADP 30%_NUM ,_PUNCT ενώ_SCONJ επίσημα_ADV στοχεία_NOUN αναφέρουν_VERB ότι_SCONJ την_DET Ελλάδα_PROPN ,_PUNCT κατά_ADP το_DET 2011_NUM ,_PUNCT επισκέπτηκαν_VERB 2.240.000_NUM Γερμανοί_PROPN ,_PUNCT έχοντας_AUX δαπανήσει_VERB 1.8_NUM δισεκατομμύρια_NOUN ευρώ_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+επίσημα: ADJ | ADV
+}
+
+Expected: {
+Επίσης_ADV την_DET Τρίτη_PROPN ,_PUNCT η_DET Ιαπωνία_PROPN δήλωσε_VERB ότι_SCONJ θα_AUX αρνηθεί_VERB βίζα_NOUN σε_ADP 23_NUM ρώσους_PROPN σ_ADP τα_DET πλαίσια_NOUN κυρώσεών_NOUN της_PRON σε_ADP βάρος_NOUN της_DET Μόσχας_PROPN λόγω_ADP της_DET κατάστασης_NOUN σ_ADP την_DET Ουκρανία_PROPN ._PUNCT}
+Predicted: {
+Επίσης_ADV την_DET Τρίτη_NOUN ,_PUNCT η_DET Ιαπωνία_PROPN δήλωσε_VERB ότι_SCONJ θα_AUX αρνηθεί_VERB βίζα_NOUN σε_ADP 23_NUM ρώσους_PROPN σ_ADP τα_DET πλαίσια_NOUN κυρώσεών_NOUN της_PRON σε_ADP βάρος_NOUN της_DET Μόσχας_PROPN λόγω_ADP της_DET κατάστασης_NOUN σ_ADP την_DET Ουκρανία_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Τρίτη: PROPN | NOUN
+}
+
+Expected: {
+Θα_AUX ήθελα_VERB όμως_CCONJ να_AUX ολοκληρώσω_VERB επιστρέφοντας_VERB σε_ADP μια_DET τροπολογία_NOUN της_DET έκθεσης_NOUN την_DET οποία_PRON ,_PUNCT όπως_ADV παρατηρώ_VERB ,_PUNCT κατέθεσε_VERB η_DET Ομάδα_NOUN του_DET Κόμματος_NOUN των_DET Ευρωπαίων_PROPN Σοσιαλιστών_NOUN ,_PUNCT και_CCONJ η_DET οποία_PRON θα_AUX καθυστερήσει_VERB την_DET έναρξη_NOUN των_DET αξιολογήσεων_NOUN των_DET επιπτώσεων_NOUN σ_ADP την_DET υγεία_NOUN ως_ADV το_DET 2004_NUM ._PUNCT}
+Predicted: {
+Θα_AUX ήθελα_VERB όμως_CCONJ να_AUX ολοκληρώσω_VERB επιστρέφοντας_VERB σε_ADP μια_DET τροπολογία_NOUN της_DET έκθεσης_NOUN την_DET οποία_PRON ,_PUNCT όπως_ADV παρατηρώ_VERB ,_PUNCT κατέθεσε_VERB η_DET Ομάδα_NOUN του_DET Κόμματος_NOUN των_DET Ευρωπαίων_PROPN Σοσιαλιστών_NOUN ,_PUNCT και_CCONJ η_DET οποία_PRON θα_AUX καθυστερήσει_VERB την_DET έναρξη_NOUN των_DET αξιολογήσεων_NOUN των_DET επιπτώσεων_NOUN σ_ADP την_DET υγεία_NOUN ως_ADV το_DET 2004_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+2004: NUM | NOUN
+}
+
+Expected: {
+Από_ADP την_DET πλευρά_NOUN της_DET Ομάδας_NOUN των_DET Σοσιαλιστών_NOUN ,_PUNCT όσον_ADV αφορά_VERB την_DET έκθεση_NOUN του_DET κ._NOUN Χατζηδάκη_PROPN ,_PUNCT είμαστε_AUX ικανοποιημένοι_VERB από_ADP την_DET κοινή_ADJ θέση_NOUN που_PRON επιτεύχθηκε_VERB και_CCONJ το_DET ίδιο_ADJ ισχύει_VERB και_CCONJ για_ADP την_DET έκθεση_NOUN του_DET κ._NOUN van_X Dam_X ._PUNCT}
+Predicted: {
+Από_ADP την_DET πλευρά_NOUN της_DET Ομάδας_NOUN των_DET Σοσιαλιστών_PROPN ,_PUNCT όσον_ADV αφορά_VERB την_DET έκθεση_NOUN του_DET κ._NOUN Χατζηδάκη_PROPN ,_PUNCT είμαστε_AUX ικανοποιημένοι_VERB από_ADP την_DET κοινή_ADJ θέση_NOUN που_PRON επιτεύχθηκε_VERB και_CCONJ το_DET ίδιο_ADJ ισχύει_VERB και_CCONJ για_ADP την_DET έκθεση_NOUN του_DET κ._NOUN van_X Dam_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Σοσιαλιστών: NOUN | PROPN
+}
+
+Expected: {
+Θα_AUX ψηφίσουμε_VERB επίσης_ADV υπέρ_ADP της_DET τροπολογίας_NOUN αρ._NOUN 43_NUM που_PRON προτείνει_VERB την_DET αξιολόγηση_NOUN της_DET αποτελεσματικότητας_NOUN αυτής_DET της_DET οδηγίας_NOUN και_CCONJ θα_AUX καταψηφίσουμε_VERB τις_DET υπόλοιπες_ADJ τροπολογίες_NOUN που_PRON επιχειρούν_VERB να_AUX είναι_AUX ιδιαίτερα_ADV περιοριστικές_ADJ ._PUNCT}
+Predicted: {
+Θα_AUX ψηφίσουμε_VERB επίσης_ADV υπέρ_ADP της_DET τροπολογίας_NOUN αρ._PUNCT 43_NUM που_PRON προτείνει_VERB την_DET αξιολόγηση_NOUN της_DET αποτελεσματικότητας_NOUN αυτής_DET της_DET οδηγίας_NOUN και_CCONJ θα_AUX καταψηφίσουμε_VERB τις_DET υπόλοιπες_ADJ τροπολογίες_NOUN που_PRON επιχειρούν_VERB να_AUX είναι_AUX ιδιαίτερα_ADV περιοριστικές_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αρ.: NOUN | PUNCT
+}
+
+Expected: {
+Όσον_ADV αφορά_VERB τη_DET διεύρυνση_NOUN ,_PUNCT από_ADP εσάς_PRON εξαρτάται_VERB να_AUX ωριμάσετε_VERB και_CCONJ να_AUX προχωρήσετε_VERB σε_ADP κάτι_PRON που_PRON δεν_PART θα_AUX μπορέσετε_VERB να_AUX θερίσετε_VERB ,_PUNCT αλλά_CCONJ πρέπει_AUX να_AUX το_PRON κάνετε_VERB και_CCONJ ελπίζω_VERB να_AUX το_PRON αναλάβετε_VERB με_ADP υπευθυνότητα_NOUN ._PUNCT}
+Predicted: {
+Όσον_ADV αφορά_VERB τη_DET διεύρυνση_NOUN ,_PUNCT από_ADP εσάς_PRON εξαρτάται_VERB να_AUX ωριμάσετε_VERB και_CCONJ να_AUX προχωρήσετε_VERB σε_ADP κάτι_DET που_PRON δεν_PART θα_AUX μπορέσετε_VERB να_AUX θερίσετε_VERB ,_PUNCT αλλά_CCONJ πρέπει_AUX να_AUX το_PRON κάνετε_VERB και_CCONJ ελπίζω_VERB να_SCONJ το_DET αναλάβετε_VERB με_ADP υπευθυνότητα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάτι: PRON | DET
+να: AUX | SCONJ
+το: PRON | DET
+}
+
+Expected: {
+Ωστόσο_CCONJ ,_PUNCT η_DET Επιτροπή_NOUN είναι_AUX διατεθειμένη_VERB να_AUX αναφέρει_VERB σ_ADP τις_DET αιτιολογικές_ADJ σκέψεις_NOUN των_DET οδηγιών_NOUN ότι_SCONJ οι_DET προσφέροντες_ADJ πρέπει_AUX να_AUX συμμορφώνονται_VERB με_ADP τους_DET εφαρμοστέους_ADJ κοινωνικούς_ADJ κανόνες_NOUN ,_PUNCT συμπεριλαμβανομένων_VERB των_DET συλλογικών_ADJ συμβάσεων_NOUN γενικής_ADJ εφαρμογής_NOUN ,_PUNCT κατά_ADP την_DET εκτέλεση_NOUN των_DET συμβάσεων_NOUN προμηθειών_NOUN του_DET δημοσίου_ADJ ._PUNCT}
+Predicted: {
+Ωστόσο_CCONJ ,_PUNCT η_DET Επιτροπή_NOUN είναι_AUX διατεθειμένη_VERB να_AUX αναφέρει_VERB σ_ADP τις_DET αιτιολογικές_ADJ σκέψεις_NOUN των_DET οδηγιών_NOUN ότι_SCONJ οι_DET προσφέροντες_NOUN πρέπει_AUX να_AUX συμμορφώνονται_VERB με_ADP τους_DET εφαρμοστέους_ADJ κοινωνικούς_ADJ κανόνες_NOUN ,_PUNCT συμπεριλαμβανομένων_VERB των_DET συλλογικών_ADJ συμβάσεων_NOUN γενικής_ADJ εφαρμογής_NOUN ,_PUNCT κατά_ADP την_DET εκτέλεση_NOUN των_DET συμβάσεων_NOUN προμηθειών_NOUN του_DET δημοσίου_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+προσφέροντες: ADJ | NOUN
+}
+
+Expected: {
+Ο_DET Ρικ_X Σαντόρουμ_X δήλωσε_VERB σ_ADP τους_DET υποστηρικτές_NOUN του_PRON ότι_SCONJ «_PUNCT η_DET εκστρατεία_NOUN του_PRON απευθύνεται_VERB σ_ADP τους_DET απλούς_ADJ πολίτες_NOUN που_PRON τον_PRON βοήθησαν_VERB να_AUX κάνει_VERB το_DET ακατόρθωτο_ADJ ._PUNCT}
+Predicted: {
+Ο_DET Ρικ_X Σαντόρουμ_X δήλωσε_VERB σ_ADP τους_DET υποστηρικτές_NOUN του_PRON ότι_SCONJ «_PUNCT η_DET εκστρατεία_NOUN του_PRON απευθύνεται_VERB σ_ADP τους_DET απλούς_ADJ πολίτες_NOUN που_PRON τον_PRON βοήθησαν_VERB να_SCONJ κάνει_VERB το_DET ακατόρθωτο_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+Σ_ADP την_DET Αίγυπτο_PROPN ζουν_VERB περίπου_ADV 10_NUM εκατομμύρια_NOUN Κόπτες_NOUN ,_PUNCT οι_DET οποίοι_PRON τα_DET τελευταία_ADJ χρόνια_NOUN δέχονται_VERB αρκετές_DET διώξεις_NOUN εις_ADP βάρος_NOUN τους_PRON από_ADP τον_DET μουσουλμανικό_ADJ πληθυσμό_NOUN της_DET χώρας_NOUN ._PUNCT}
+Predicted: {
+Σ_ADP την_DET Αίγυπτο_PROPN ζουν_VERB περίπου_ADV 10_NUM εκατομμύρια_NOUN Κόπτες_NOUN ,_PUNCT οι_DET οποίοι_PRON τα_DET τελευταία_ADJ χρόνια_NOUN δέχονται_VERB αρκετές_DET διώξεις_NOUN εις_ADP βάρος_NOUN τους_PRON από_ADP τον_DET μουσουλμανικό_ADJ πληθυσμό_NOUN της_PRON χώρας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+της: DET | PRON
+}
+
+Expected: {
+Εάν_SCONJ το_DET Συμβούλιο_NOUN Υπουργών_NOUN δεν_PART εγκρίνει_VERB την_DET αύξηση_NOUN ,_PUNCT το_DET μόνο_ADJ που_PRON μπορώ_VERB να_AUX πω_VERB είναι_AUX ότι_SCONJ όλες_ADJ οι_DET δηλώσεις_NOUN του_PRON σ_ADP τις_DET συνόδους_NOUN κορυφής_NOUN δεν_PART έχουν_VERB καμία_DET αξία_NOUN !_PUNCT}
+Predicted: {
+Εάν_SCONJ το_DET Συμβούλιο_NOUN Υπουργών_NOUN δεν_PART εγκρίνει_VERB την_DET αύξηση_NOUN ,_PUNCT το_DET μόνο_DET που_PRON μπορώ_VERB να_AUX πω_VERB είναι_AUX ότι_SCONJ όλες_ADJ οι_DET δηλώσεις_NOUN του_PRON σ_ADP τις_DET συνόδους_NOUN κορυφής_NOUN δεν_PART έχουν_VERB καμία_DET αξία_NOUN !_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μόνο: ADJ | DET
+}
+
+Expected: {
+Τελειώνοντας_VERB θα_AUX ήθελα_VERB να_AUX πω_VERB ότι_SCONJ το_DET όλο_ADJ ζήτημα_NOUN θα_AUX μπορούσε_VERB να_AUX αποτελέσει_VERB μία_DET ενότητα_NOUN εάν_SCONJ αύριο_ADV αποκτούσαμε_VERB ένα_DET ενιαίο_ADJ πιστοποιητικό_NOUN επαγγελματικής_ADJ ικανότητας_NOUN οδηγού_NOUN ,_PUNCT μία_DET οδηγία_NOUN για_ADP τους_DET χρόνους_NOUN οδήγησης_NOUN και_CCONJ ανάπαυσης_NOUN ,_PUNCT μία_DET ανάλογη_ADJ κάρτα_NOUN που_PRON θα_AUX το_PRON αποδεικνύει_VERB ,_PUNCT καθώς_ADV και_CCONJ αυτήν_DET την_DET οδηγία_NOUN για_ADP την_DET άδεια_NOUN οδήγησης_NOUN και_CCONJ την_DET κατάρτιση_NOUN που_PRON συζητούμε_VERB σήμερα_ADV ._PUNCT}
+Predicted: {
+Τελειώνοντας_VERB θα_AUX ήθελα_VERB να_AUX πω_VERB ότι_SCONJ το_DET όλο_ADJ ζήτημα_NOUN θα_AUX μπορούσε_VERB να_AUX αποτελέσει_VERB μία_DET ενότητα_NOUN εάν_SCONJ αύριο_ADV αποκτούσαμε_VERB ένα_DET ενιαίο_ADJ πιστοποιητικό_NOUN επαγγελματικής_ADJ ικανότητας_NOUN οδηγού_NOUN ,_PUNCT μία_DET οδηγία_NOUN για_ADP τους_DET χρόνους_NOUN οδήγησης_NOUN και_CCONJ ανάπαυσης_NOUN ,_PUNCT μία_DET ανάλογη_ADJ κάρτα_NOUN που_PRON θα_AUX το_DET αποδεικνύει_VERB ,_PUNCT καθώς_ADV και_CCONJ αυτήν_DET την_DET οδηγία_NOUN για_ADP την_DET άδεια_NOUN οδήγησης_NOUN και_CCONJ την_DET κατάρτιση_NOUN που_PRON συζητούμε_VERB σήμερα_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+}
+
+Expected: {
+Με_PRON χαροποίησε_VERB ιδιαίτερα_ADV η_DET χθεσινή_ADJ απόφαση_NOUN του_DET Ευρωπαϊκού_ADJ Δικαστηρίου_NOUN ._PUNCT}
+Predicted: {
+Με_ADP χαροποίησε_VERB ιδιαίτερα_ADV η_DET χθεσινή_ADJ απόφαση_NOUN του_DET Ευρωπαϊκού_ADJ Δικαστηρίου_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Με: PRON | ADP
+}
+
+Expected: {
+Σ_ADP το_DET νομοσχέδιο_NOUN προβλέπεται_VERB τα_DET ποσά_NOUN να_AUX μπαίνουν_VERB σε_ADP ειδικό_ADJ κωδικό_ADJ και_CCONJ να_AUX διατίθενται_VERB για_ADP ειδικούς_ADJ σκοπούς_NOUN στήριξης_NOUN ευάλωτων_ADJ κοινωνικών_ADJ ομάδων_NOUN σ_ADP τα_DET θέματα_NOUN υγείας_NOUN ,_PUNCT εκπαίδευσης_NOUN και_CCONJ δια_ADP βίου_NOUN μάθησης_NOUN ._PUNCT}
+Predicted: {
+Σ_ADP το_DET νομοσχέδιο_NOUN προβλέπεται_VERB τα_DET ποσά_NOUN να_AUX μπαίνουν_VERB σε_ADP ειδικό_ADJ κωδικό_NOUN και_CCONJ να_AUX διατίθενται_VERB για_ADP ειδικούς_ADJ σκοπούς_NOUN στήριξης_NOUN ευάλωτων_ADJ κοινωνικών_ADJ ομάδων_NOUN σ_ADP τα_DET θέματα_NOUN υγείας_NOUN ,_PUNCT εκπαίδευσης_NOUN και_CCONJ δια_ADP βίου_NOUN μάθησης_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κωδικό: ADJ | NOUN
+}
+
+Expected: {
+Συνεπώς_ADV ήταν_AUX επόμενο_ADJ ,_PUNCT σ_ADP το_DET διάβα_NOUN της_DET Ιστορίας_NOUN ,_PUNCT πολλοί_ADJ λαοί_NOUN ,_PUNCT παλαιότερα_ADV Πέρσες_PROPN ,_PUNCT Ρωμαίοι_PROPN ,_PUNCT Βυζαντινοί_PROPN ,_PUNCT και_CCONJ σ_ADP τα_DET νεότερα_ADJ χρόνια_NOUN Βούλγαροι_PROPN ,_PUNCT Σέρβοι_PROPN και_CCONJ Τούρκοι_PROPN να_AUX προσπαθούσαν_VERB να_AUX κυριαρχούν_VERB του_DET χώρου_NOUN ,_PUNCT σε_ADP βάρος_NOUN πάντα_ADV των_DET γηγενών_ADJ κατοίκων_NOUN ._PUNCT}
+Predicted: {
+Συνεπώς_ADV ήταν_AUX επόμενο_ADJ ,_PUNCT σ_ADP το_DET διάβα_NOUN της_DET Ιστορίας_NOUN ,_PUNCT πολλοί_ADJ λαοί_NOUN ,_PUNCT παλαιότερα_ADV Πέρσες_VERB ,_PUNCT Ρωμαίοι_PROPN ,_PUNCT Βυζαντινοί_PROPN ,_PUNCT και_CCONJ σ_ADP τα_DET νεότερα_ADJ χρόνια_NOUN Βούλγαροι_PROPN ,_PUNCT Σέρβοι_PROPN και_CCONJ Τούρκοι_PROPN να_AUX προσπαθούσαν_VERB να_AUX κυριαρχούν_VERB του_DET χώρου_NOUN ,_PUNCT σε_ADP βάρος_NOUN πάντα_ADV των_DET γηγενών_ADJ κατοίκων_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Πέρσες: PROPN | VERB
+}
+
+Expected: {
+Μετά_ADP την_DET έκρηξη_NOUN των_DET εθνικών_ADJ κινημάτων_NOUN σ_ADP τη_DET Μακεδονία_PROPN ,_PUNCT οι_DET Προστάτιδες_ADJ Δυνάμεις_NOUN ,_PUNCT για_ADP να_AUX εξυπηρετήσουν_VERB τα_DET συμφέροντά_NOUN τους_PRON ,_PUNCT απευθύνθηκαν_VERB σ_ADP τον_DET Σουλτάνο_NOUN και_CCONJ απαίτησαν_VERB αυτονόμηση_NOUN της_DET Μακεδονίας_PROPN ,_PUNCT με_ADP τη_DET δικαιολογία_NOUN ότι_SCONJ η_DET περιοχή_NOUN αποτελούσε_VERB πυριτιδαποθήκη_NOUN ._PUNCT}
+Predicted: {
+Μετά_ADP την_DET έκρηξη_NOUN των_DET εθνικών_ADJ κινημάτων_NOUN σ_ADP τη_DET Μακεδονία_PROPN ,_PUNCT οι_DET Προστάτιδες_ADJ Δυνάμεις_NOUN ,_PUNCT για_ADP να_SCONJ εξυπηρετήσουν_VERB τα_DET συμφέροντά_NOUN τους_PRON ,_PUNCT απευθύνθηκαν_VERB σ_ADP τον_DET Σουλτάνο_NOUN και_CCONJ απαίτησαν_VERB αυτονόμηση_NOUN της_DET Μακεδονίας_PROPN ,_PUNCT με_ADP τη_DET δικαιολογία_NOUN ότι_SCONJ η_DET περιοχή_NOUN αποτελούσε_VERB πυριτιδαποθήκη_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+Αυτοί_PRON ήρθαν_VERB σε_ADP σύγκρουση_NOUN με_ADP τμήματα_NOUN του_DET ΕΛΑΣ_NOUN τον_DET Οκτώβριο_του_1944_NOUN ,_PUNCT με_ADP αποτέλεσμα_NOUN να_AUX εκδιωχθούν_VERB από_ADP την_DET Ελλάδα_PROPN ._PUNCT}
+Predicted: {
+Αυτοί_DET ήρθαν_VERB σε_ADP σύγκρουση_NOUN με_ADP τμήματα_NOUN του_DET ΕΛΑΣ_NOUN τον_DET Οκτώβριο_του_1944_NOUN ,_PUNCT με_ADP αποτέλεσμα_NOUN να_AUX εκδιωχθούν_VERB από_ADP την_DET Ελλάδα_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Αυτοί: PRON | DET
+}
+
+Expected: {
+Ο_DET βιότοπος_NOUN των_DET Κουκουναριών_PROPN είναι_AUX ένας_NUM από_ADP τους_DET τρεις_NUM σημαντικότερους_ADJ της_DET χώρας_NOUN ._PUNCT}
+Predicted: {
+Ο_DET βιότοπος_NOUN των_DET Κουκουναριών_PROPN είναι_AUX ένας_NUM από_ADP τους_DET τρεις_NUM σημαντικότερους_NOUN της_DET χώρας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+σημαντικότερους: ADJ | NOUN
+}
+
+Expected: {
+Δεν_PART είναι_AUX η_DET εποχή_NOUN του_DET εμβολίου_NOUN τώρα_ADV ,_PUNCT κατέληξε_VERB ο_DET κύριος_NOUN Γεωργιάδης_PROPN ,_PUNCT γιατί_SCONJ σε_ADP 2_NUM με_ADP 3_NUM εβδομάδες_NOUN το_DET κύμα_NOUN της_DET γρίπης_NOUN θα_AUX περάσει_VERB "_PUNCT ._PUNCT}
+Predicted: {
+Δεν_PART είναι_AUX η_DET εποχή_NOUN του_DET εμβολίου_NOUN τώρα_ADV ,_PUNCT κατέληξε_VERB ο_DET κύριος_ADJ Γεωργιάδης_PROPN ,_PUNCT γιατί_SCONJ σε_ADP 2_NUM με_ADP 3_NUM εβδομάδες_NOUN το_DET κύμα_NOUN της_DET γρίπης_NOUN θα_AUX περάσει_VERB "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κύριος: NOUN | ADJ
+}
+
+Expected: {
+Το_DET Υπουργείο_NOUN Εξωτερικών_NOUN ανέφερε_VERB ότι_SCONJ "_PUNCT η_DET Χίλαρι_PROPN Κλίντον_PROPN βρίσκεται_VERB σε_ADP επαφή_NOUN με_ADP τον_DET Πρωθυπουργό_NOUN της_DET Αλγερίας_PROPN ,_PUNCT Αμπντελμαλέκ_PROPN Σελάλ_PROPN "_PUNCT ._PUNCT}
+Predicted: {
+Το_DET Υπουργείο_NOUN Εξωτερικών_NOUN ανέφερε_VERB ότι_SCONJ "_PUNCT η_DET Χίλαρι_PROPN Κλίντον_PROPN βρίσκεται_VERB σε_ADP επαφή_NOUN με_ADP τον_DET Πρωθυπουργό_NOUN της_DET Αλγερίας_PROPN ,_PUNCT Αμπντελμαλέκ_X Σελάλ_X "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Αμπντελμαλέκ: PROPN | X
+Σελάλ: PROPN | X
+}
+
+Expected: {
+Μετά_ADP την_DET αναγκαστική_ADJ προσγείωση_NOUN που_PRON πραγματοποίησε_VERB το_DET αεροσκάφος_NOUN της_DET "_PUNCT All_X Nippon_X "_PUNCT ,_PUNCT ο_DET Οσάμου_PROPN Σινόμπε_PROPN (_PUNCT Αντιπρόεδρος_NOUN )_PUNCT ζήτησε_VERB συγγνώμη_ADJ από_ADP τους_DET επιβάτες_NOUN σε_ADP συνέντευξη_NOUN τύπου_NOUN που_PRON παραχώρησε_VERB από_ADP το_DET Τόκυο_PROPN ._PUNCT}
+Predicted: {
+Μετά_ADP την_DET αναγκαστική_ADJ προσγείωση_NOUN που_PRON πραγματοποίησε_VERB το_DET αεροσκάφος_NOUN της_DET "_PUNCT All_X Nippon_X "_PUNCT ,_PUNCT ο_DET Οσάμου_NOUN Σινόμπε_PROPN (_PUNCT Αντιπρόεδρος_NOUN )_PUNCT ζήτησε_VERB συγγνώμη_ADJ από_ADP τους_DET επιβάτες_NOUN σε_ADP συνέντευξη_NOUN τύπου_NOUN που_PRON παραχώρησε_VERB από_ADP το_DET Τόκυο_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Οσάμου: PROPN | NOUN
+}
+
+Expected: {
+Συνειδητοποιώ_VERB με_ADP ανακούφιση_NOUN ότι_SCONJ δεν_PART είμαι_AUX ο_DET αρμόδιος_ADJ Επίτροπος_NOUN ούτε_CCONJ για_ADP τη_DET φορολογία_NOUN ούτε_CCONJ για_ADP τη_DET νομισματική_ADJ ένωση_NOUN ,_PUNCT αλλά_CCONJ απλά_ADV ο_DET Επίτροπος_NOUN για_ADP την_DET ταπεινή_ADJ πολιτική_NOUN ανταγωνισμού_NOUN η_DET οποία_PRON ,_PUNCT παρόλα_ADV ταύτα_PRON ,_PUNCT έχει_VERB να_AUX διαδραματίσει_VERB ένα_DET ρόλο_NOUN και_CCONJ προσπαθεί_VERB να_AUX τον_PRON διαδραματίσει_VERB δραστήρια_ADV -_PUNCT με_ADP την_DET υποστήριξη_NOUN του_DET Κοινοβουλίου_NOUN ,_PUNCT η_DET οποία_PRON είναι_AUX εμφανής_ADJ για_ADP μία_NUM ακόμη_ADV φορά_NOUN σήμερα_ADV ._PUNCT}
+Predicted: {
+Συνειδητοποιώ_VERB με_ADP ανακούφιση_NOUN ότι_SCONJ δεν_PART είμαι_AUX ο_DET αρμόδιος_ADJ Επίτροπος_NOUN ούτε_CCONJ για_ADP τη_DET φορολογία_NOUN ούτε_CCONJ για_ADP τη_DET νομισματική_ADJ ένωση_NOUN ,_PUNCT αλλά_CCONJ απλά_ADV ο_DET Επίτροπος_NOUN για_ADP την_DET ταπεινή_ADJ πολιτική_NOUN ανταγωνισμού_NOUN η_DET οποία_PRON ,_PUNCT παρόλα_ADV ταύτα_PRON ,_PUNCT έχει_AUX να_AUX διαδραματίσει_VERB ένα_DET ρόλο_NOUN και_CCONJ προσπαθεί_VERB να_SCONJ τον_PRON διαδραματίσει_VERB δραστήρια_ADV -_PUNCT με_ADP την_DET υποστήριξη_NOUN του_DET Κοινοβουλίου_NOUN ,_PUNCT η_DET οποία_PRON είναι_AUX εμφανής_ADJ για_ADP μία_NUM ακόμη_ADV φορά_NOUN σήμερα_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έχει: VERB | AUX
+να: AUX | SCONJ
+}
+
+Expected: {
+250.000_NUM Κινεζικά_ADJ στρατεύματα_NOUN παραμένουν_VERB σταθμευμένα_VERB σ_ADP το_DET Θιβέτ_X ._PUNCT}
+Predicted: {
+250.000_NUM Κινεζικά_PROPN στρατεύματα_NOUN παραμένουν_VERB σταθμευμένα_VERB σ_ADP το_DET Θιβέτ_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Κινεζικά: ADJ | PROPN
+}
+
+Expected: {
+Ενώ_SCONJ τον_DET Ιανουάριο_του_1897_NOUN γίνονταν_VERB σφαγές_NOUN σ_ADP τα_DET Χανιά_PROPN και_CCONJ σ_ADP το_DET Ρέθυμνο_PROPN ,_PUNCT ο_DET Βενιζέλος_PROPN που_PRON περιόδευε_VERB σ_ADP το_DET νησί_NOUN ,_PUNCT έσπευσε_VERB σ_ADP τη_DET Μαλάξα_PROPN ,_PUNCT κοντά_ADV σ_ADP τα_DET Χανιά_PROPN όπου_ADV είχαν_AUX συγκεντρωθεί_VERB περισσότεροι_ADJ από_ADP 2.000_NUM επαναστάτες_NOUN και_CCONJ τέθηκε_VERB επικεφαλής_NOUN τους_PRON ._PUNCT}
+Predicted: {
+Ενώ_SCONJ τον_DET Ιανουάριο_του_1897_NOUN γίνονταν_VERB σφαγές_NOUN σ_ADP τα_DET Χανιά_PROPN και_CCONJ σ_ADP το_DET Ρέθυμνο_NOUN ,_PUNCT ο_DET Βενιζέλος_PROPN που_PRON περιόδευε_VERB σ_ADP το_DET νησί_NOUN ,_PUNCT έσπευσε_VERB σ_ADP τη_DET Μαλάξα_PROPN ,_PUNCT κοντά_ADV σ_ADP τα_DET Χανιά_PROPN όπου_ADV είχαν_AUX συγκεντρωθεί_VERB περισσότεροι_ADJ από_ADP 2.000_NUM επαναστάτες_NOUN και_CCONJ τέθηκε_VERB επικεφαλής_NOUN τους_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ρέθυμνο: PROPN | NOUN
+}
+
+Expected: {
+Η_DET Ρωσία_PROPN υπέδειξε_VERB τον_DET γιό_NOUN του_DET βασιλιά_NOUN των_DET Ελλήνων_PROPN Γεωργίου_PROPN του_DET Α'_ADJ ,_PUNCT τον_DET πρίγκιπα_NOUN Γεώργιο_PROPN ,_PUNCT ο_DET οποίος_PRON και_CCONJ επελέγη_VERB τελικά_ADV ._PUNCT}
+Predicted: {
+Η_DET Ρωσία_PROPN υπέδειξε_VERB τον_DET γιό_NOUN του_DET βασιλιά_NOUN των_DET Ελλήνων_PROPN Γεωργίου_PROPN του_DET Α'_X ,_PUNCT τον_DET πρίγκιπα_NOUN Γεώργιο_PROPN ,_PUNCT ο_DET οποίος_PRON και_CCONJ επελέγη_VERB τελικά_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Α': ADJ | X
+}
+
+Expected: {
+Υπάρχει_VERB ένας_DET εκλεγμένος_VERB Πρόεδρος_NOUN αυτού_DET του_DET παλαιστινιακού_ADJ κράτους_NOUN και_CCONJ δεν_PART μπορούμε_VERB να_AUX τον_PRON αγνοήσουμε_VERB ούτε_CCONJ εμείς_PRON ούτε_CCONJ ο_DET κ._NOUN Sharon_X ._PUNCT}
+Predicted: {
+Υπάρχει_VERB ένας_DET εκλεγμένος_VERB Πρόεδρος_NOUN αυτού_DET του_DET παλαιστινιακού_ADJ κράτους_NOUN και_CCONJ δεν_PART μπορούμε_VERB να_SCONJ τον_PRON αγνοήσουμε_VERB ούτε_CCONJ εμείς_PRON ούτε_CCONJ ο_DET κ._NOUN Sharon_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+Οι_DET σύμμαχοι_NOUN αποφάσισαν_VERB να_AUX απομακρύνουν_VERB από_ADP τον_DET θρόνο_NOUN και_CCONJ την_DET Ελλάδα_PROPN τον_DET Βασιλιά_NOUN Κωνσταντίνο_PROPN ,_PUNCT να_AUX τον_PRON διαδεχθεί_VERB δε_ADV ο_DET γιός_NOUN του_PRON Αλέξανδρος_PROPN ._PUNCT}
+Predicted: {
+Οι_DET σύμμαχοι_NOUN αποφάσισαν_VERB να_AUX απομακρύνουν_VERB από_ADP τον_DET θρόνο_NOUN και_CCONJ την_DET Ελλάδα_PROPN τον_DET Βασιλιά_NOUN Κωνσταντίνο_PROPN ,_PUNCT να_AUX τον_PRON διαδεχθεί_VERB δε_ADV ο_DET γιός_NOUN του_DET Αλέξανδρος_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+}
+
+Expected: {
+Το_DET Κόμμα_NOUN των_DET Φιλελευθέρων_NOUN νικήθηκε_VERB από_ADP την_DET ενωμένη_VERB αντιπολίτευση_NOUN ,_PUNCT ο_DET δε_ADV Βενιζέλος_PROPN δεν_PART εξελέγη_VERB καν_ADV βουλευτής_NOUN ._PUNCT}
+Predicted: {
+Το_DET Κόμμα_NOUN των_DET Φιλελευθέρων_PROPN νικήθηκε_VERB από_ADP την_DET ενωμένη_ADJ αντιπολίτευση_NOUN ,_PUNCT ο_DET δε_ADV Βενιζέλος_PROPN δεν_PART εξελέγη_VERB καν_ADV βουλευτής_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Φιλελευθέρων: NOUN | PROPN
+ενωμένη: VERB | ADJ
+}
+
+Expected: {
+Τα_DET καταπράσινα_ADJ νησάκια_NOUN Άγιος_ADJ Νικόλαος_PROPN και_CCONJ Μαύρον_ADJ Όρος_NOUN -_PUNCT όπου_ADV και_CCONJ χτίστηκε_VERB το_DET 1884_NOUN φάρος_NOUN για_ADP τη_DET διευκόλυνση_NOUN της_DET ακτοπλοΐας_NOUN -_PUNCT που_PRON περιστοιχίζουν_VERB το_DET χωριό_NOUN είναι_AUX προσβάσιμα_ADJ με_ADP βάρκα_NOUN ενώ_SCONJ οι_DET παραλίες_NOUN που_PRON προσφέρονται_VERB για_ADP κολύμπι_NOUN είναι_AUX πολλές_ADJ και_CCONJ πεντακάθαρες_ADJ :_PUNCT}
+Predicted: {
+Τα_DET καταπράσινα_ADJ νησάκια_NOUN Άγιος_ADJ Νικόλαος_PROPN και_CCONJ Μαύρον_PROPN Όρος_PROPN -_PUNCT όπου_ADV και_CCONJ χτίστηκε_VERB το_DET 1884_NOUN φάρος_NOUN για_ADP τη_DET διευκόλυνση_NOUN της_DET ακτοπλοΐας_NOUN -_PUNCT που_PRON περιστοιχίζουν_VERB το_DET χωριό_NOUN είναι_AUX προσβάσιμα_ADJ με_ADP βάρκα_NOUN ενώ_SCONJ οι_DET παραλίες_NOUN που_PRON προσφέρονται_VERB για_ADP κολύμπι_NOUN είναι_AUX πολλές_ADJ και_CCONJ πεντακάθαρες_ADJ :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Μαύρον: ADJ | PROPN
+Όρος: NOUN | PROPN
+}
+
+Expected: {
+Επίσης_ADV καταδικάστηκαν_VERB ,_PUNCT σε_ADP 18_NUM μήνες_NOUN φυλάκιση_NOUN ,_PUNCT ένας_DET αξιωματούχος_NOUN του_DET Γραφείου_NOUN Τύπου_NOUN των_DET Βαλεαρίδων_PROPN Νήσων_NOUN και_CCONJ ένας_DET επικεφαλής_ADJ μιας_DET υπηρεσίας_NOUN εποικονωνίας_NOUN ._PUNCT}
+Predicted: {
+Επίσης_ADV καταδικάστηκαν_VERB ,_PUNCT σε_ADP 18_NUM μήνες_NOUN φυλάκιση_NOUN ,_PUNCT ένας_DET αξιωματούχος_NOUN του_DET Γραφείου_NOUN Τύπου_NOUN των_DET Βαλεαρίδων_NOUN Νήσων_NOUN και_CCONJ ένας_DET επικεφαλής_ADJ μιας_DET υπηρεσίας_NOUN εποικονωνίας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Βαλεαρίδων: PROPN | NOUN
+}
+
+Expected: {
+Αυτό_PRON μπορεί_VERB να_AUX μην_PART οδηγήσει_VERB σ_ADP τη_DET λήξη_NOUN του_DET εν_ADP λόγω_NOUN ζητήματος_NOUN αλλά_CCONJ ,_PUNCT σ_ADP τη_DET μορφή_NOUN υπό_ADP την_DET οποία_PRON την_PRON λάβαμε_VERB ,_PUNCT αυτή_DET η_DET αίτηση_NOUN άρσης_NOUN της_DET ασυλίας_NOUN ήταν_AUX ,_PUNCT κατά_ADP την_DET άποψη_NOUN της_DET Επιτροπής_NOUN Νομικών_ADJ Θεμάτων_NOUN ,_PUNCT απαράδεκτη_ADJ ,_PUNCT άποψη_NOUN την_DET οποία_PRON συνιστώ_VERB σ_ADP το_DET Σώμα_NOUN να_AUX υιοθετήσει_VERB ._PUNCT}
+Predicted: {
+Αυτό_DET μπορεί_VERB να_AUX μην_PART οδηγήσει_VERB σ_ADP τη_DET λήξη_NOUN του_DET εν_ADP λόγω_NOUN ζητήματος_NOUN αλλά_CCONJ ,_PUNCT σ_ADP τη_DET μορφή_NOUN υπό_ADP την_DET οποία_PRON την_DET λάβαμε_VERB ,_PUNCT αυτή_DET η_DET αίτηση_NOUN άρσης_NOUN της_DET ασυλίας_NOUN ήταν_AUX ,_PUNCT κατά_ADP την_DET άποψη_NOUN της_DET Επιτροπής_NOUN Νομικών_ADJ Θεμάτων_NOUN ,_PUNCT απαράδεκτη_ADJ ,_PUNCT άποψη_NOUN την_DET οποία_PRON συνιστώ_VERB σ_ADP το_DET Σώμα_NOUN να_AUX υιοθετήσει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Αυτό: PRON | DET
+την: PRON | DET
+}
+
+Expected: {
+Κάποιος_DET τους_PRON είπε_VERB να_SCONJ τα_PRON κάνουν_VERB αυτά_DET σ_ADP την_DET πατρίδα_NOUN τους_PRON ,_PUNCT γιατί_SCONJ εδώ_ADV είναι_VERB Ευρώπη_PROPN ,_PUNCT δεν_PART είναι_VERB ο_DET Καύκασος_PROPN με_ADP τα_DET άγρια_ADJ θηρία_NOUN ._PUNCT}
+Predicted: {
+Κάποιος_DET τους_PRON είπε_VERB να_SCONJ τα_PRON κάνουν_VERB αυτά_DET σ_ADP την_DET πατρίδα_NOUN τους_PRON ,_PUNCT γιατί_SCONJ εδώ_ADV είναι_VERB Ευρώπη_PROPN ,_PUNCT δεν_PART είναι_AUX ο_DET Καύκασος_PROPN με_ADP τα_DET άγρια_ADJ θηρία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+«_PUNCT Σκέψου_VERB την_DET εποχή_NOUN των_DET γονιών_NOUN μας_PRON »_PUNCT μου_PRON εξηγεί_VERB ._PUNCT}
+Predicted: {
+«_PUNCT Σκέψου_DET την_DET εποχή_NOUN των_DET γονιών_NOUN μας_PRON »_PUNCT μου_PRON εξηγεί_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Σκέψου: VERB | DET
+}
+
+Expected: {
+Κανονικά_ADV δε_PART χρειάζονται_VERB άλλες_DET εξηγήσεις_NOUN ,_PUNCT αλλά_CCONJ ο_DET Ζήσης_PROPN βιάζεται_VERB να_SCONJ τα_PRON πει_VERB όλα_DET ._PUNCT}
+Predicted: {
+Κανονικά_ADV δε_PART χρειάζονται_VERB άλλες_DET εξηγήσεις_NOUN ,_PUNCT αλλά_CCONJ ο_DET Ζήσης_PROPN βιάζεται_VERB να_SCONJ τα_PRON πει_VERB όλα_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+όλα: DET | ADJ
+}
+
+Expected: {
+Σ_ADP το_DET κάτω_ADV -_PUNCT κάτω_ADV ,_PUNCT οι_DET λιμενικοί_NOUN είναι_AUX πιο_ADV έμπειροι_ADJ από_ADP μας_PRON σε_ADP έρευνες_NOUN που_PRON αφορούν_VERB σκάφη_NOUN και_CCONJ λιμάνια_NOUN ._PUNCT}
+Predicted: {
+Σ_ADP το_DET κάτω_ADV -_PUNCT κάτω_ADV ,_PUNCT οι_DET λιμενικοί_PROPN είναι_AUX πιο_ADV έμπειροι_ADJ από_ADP μας_PRON σε_ADP έρευνες_NOUN που_PRON αφορούν_VERB σκάφη_NOUN και_CCONJ λιμάνια_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+λιμενικοί: NOUN | PROPN
+}
+
+Expected: {
+«_PUNCT Αλήθεια_ADV ,_PUNCT ρε_INTJ μαμά_NOUN ,_PUNCT τι_SCONJ τα_PRON ήθελες_VERB τα_DET ορεκτικά_NOUN ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Αλήθεια_NOUN ,_PUNCT ρε_INTJ μαμά_NOUN ,_PUNCT τι_PRON τα_PRON ήθελες_VERB τα_DET ορεκτικά_ADJ ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Αλήθεια: ADV | NOUN
+τι: SCONJ | PRON
+ορεκτικά: NOUN | ADJ
+}
+
+Expected: {
+Και_CCONJ μήπως_SCONJ ο_DET Χαρδάκος_PROPN επιλέχτηκε_VERB ,_PUNCT γιατί_SCONJ τους_PRON ήταν_VERB το_DET μεγαλύτερο_ADJ εμπόδιο_NOUN ,_PUNCT και_CCONJ το_PRON πλήρωσε_VERB με_ADP τη_DET ζωή_NOUN του_PRON ;_PUNCT}
+Predicted: {
+Και_CCONJ μήπως_SCONJ ο_DET Χαρδάκος_PROPN επιλέχτηκε_VERB ,_PUNCT γιατί_SCONJ τους_PRON ήταν_AUX το_DET μεγαλύτερο_ADJ εμπόδιο_NOUN ,_PUNCT και_CCONJ το_DET πλήρωσε_VERB με_ADP τη_DET ζωή_NOUN του_PRON ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ήταν: VERB | AUX
+το: PRON | DET
+}
+
+Expected: {
+Πάντως_ADV ,_PUNCT βεβαιότητα_NOUN δεν_PART μπορεί_VERB να_SCONJ υπάρξει_VERB παρά_CCONJ μόνον_ADV έμμεσα_ADV :_PUNCT αν_SCONJ ήταν_VERB βρομοδουλειά_NOUN και_CCONJ το_DET ναυάγιο_NOUN σ_ADP την_DET Ταϊλάνδη_PROPN ,_PUNCT τότε_ADV το_DET ένα_DET επιβεβαιώνει_VERB το_DET άλλο_DET ._PUNCT}
+Predicted: {
+Πάντως_ADV ,_PUNCT βεβαιότητα_NOUN δεν_PART μπορεί_VERB να_SCONJ υπάρξει_VERB παρά_CCONJ μόνον_ADV έμμεσα_ADV :_PUNCT αν_SCONJ ήταν_AUX βρομοδουλειά_NOUN και_CCONJ το_DET ναυάγιο_NOUN σ_ADP την_DET Ταϊλάνδη_PROPN ,_PUNCT τότε_ADV το_DET ένα_DET επιβεβαιώνει_VERB το_DET άλλο_DET ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ήταν: VERB | AUX
+}
+
+Expected: {
+«_PUNCT Άννα_PROPN »_PUNCT της_PRON ψιθυρίζει_VERB ο_DET ψηλός_ADJ και_CCONJ της_PRON χαϊδεύει_VERB τρυφερά_ADV τα_DET μαλλιά_NOUN ._PUNCT}
+Predicted: {
+«_PUNCT Άννα_PROPN »_PUNCT της_PRON ψιθυρίζει_VERB ο_DET ψηλός_ADJ και_CCONJ της_DET χαϊδεύει_VERB τρυφερά_ADV τα_DET μαλλιά_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+της: PRON | DET
+}
+
+Expected: {
+«_PUNCT Τα_DET κακά_ADJ μαντάτα_NOUN δεν_PART πρέπει_VERB να_SCONJ τα_PRON λέμε_VERB με_ADP γεμάτο_ADJ στομάχι_NOUN ,_PUNCT γιατί_SCONJ αυτός_DET που_PRON τ'_PRON ακούει_VERB ,_PUNCT μπορεί_VERB να_SCONJ λιποθυμήσει_VERB ή_CCONJ να_SCONJ κάνει_VERB εμετό_NOUN »_PUNCT μου_PRON εξηγεί_VERB ._PUNCT}
+Predicted: {
+«_PUNCT Τα_DET κακά_ADJ μαντάτα_NOUN δεν_PART πρέπει_AUX να_AUX τα_PRON λέμε_VERB με_ADP γεμάτο_ADJ στομάχι_NOUN ,_PUNCT γιατί_SCONJ αυτός_DET που_PRON τ'_PRON ακούει_VERB ,_PUNCT μπορεί_VERB να_AUX λιποθυμήσει_VERB ή_CCONJ να_AUX κάνει_VERB εμετό_NOUN »_PUNCT μου_PRON εξηγεί_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πρέπει: VERB | AUX
+να: SCONJ | AUX
+να: SCONJ | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+Επειδή_SCONJ δε_PART βρίσκω_VERB λύση_NOUN ,_PUNCT καταφεύγω_VERB σ_ADP το_DET σωσίβιό_NOUN μου_PRON σ'_ADP αυτήν_DET την_DET υπόθεση_NOUN και_CCONJ παίρνω_VERB τηλέφωνο_NOUN τον_DET Στεργιάδη_PROPN του_DET Λιμενικού_NOUN ._PUNCT}
+Predicted: {
+Επειδή_SCONJ δε_PART βρίσκω_VERB λύση_NOUN ,_PUNCT καταφεύγω_VERB σ_ADP το_DET σωσίβιό_NOUN μου_PRON σ'_ADP αυτήν_DET την_DET υπόθεση_NOUN και_CCONJ παίρνω_VERB τηλέφωνο_NOUN τον_DET Στεργιάδη_PROPN του_DET Λιμενικού_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Λιμενικού: NOUN | PROPN
+}
+
+Expected: {
+«_PUNCT Εκτός_ADV αυτού_DET ,_PUNCT σας_PRON είπα_VERB όλα_DET όσα_DET προέκυψαν_VERB από_ADP την_DET έρευνα_NOUN μέχρι_ADP τούδε_ADV »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Εκτός_ADV αυτού_DET ,_PUNCT σας_PRON είπα_VERB όλα_DET όσα_PRON προέκυψαν_VERB από_ADP την_DET έρευνα_NOUN μέχρι_ADP τούδε_ADV »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+όσα: DET | PRON
+}
+
+Expected: {
+«_PUNCT Όταν_SCONJ έφυγε_VERB πήρε_VERB τα_DET δικά_ADJ της_PRON ,_PUNCT αλλά_CCONJ ήταν_AUX τόσο_ADV βίαιος_ADJ ο_DET χωρισμός_NOUN ,_PUNCT που_SCONJ ξέχασε_VERB να_SCONJ του_PRON ζητήσει_VERB το_DET άλλο_DET ζευγάρι_NOUN »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Όταν_SCONJ έφυγε_VERB πήρε_VERB τα_DET δικά_ADJ της_PRON ,_PUNCT αλλά_CCONJ ήταν_AUX τόσο_ADV βίαιος_ADJ ο_DET χωρισμός_NOUN ,_PUNCT που_PRON ξέχασε_VERB να_SCONJ του_PRON ζητήσει_VERB το_DET άλλο_DET ζευγάρι_NOUN »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: SCONJ | PRON
+}
+
+Expected: {
+Κάποιος_DET σου_PRON είπε_VERB να_SCONJ τον_PRON σκοτώσεις_VERB και_CCONJ να_SCONJ πάρεις_VERB τον_DET υπολογιστή_NOUN ._PUNCT}
+Predicted: {
+Κάποιος_PRON σου_PRON είπε_VERB να_SCONJ τον_PRON σκοτώσεις_VERB και_CCONJ να_SCONJ πάρεις_VERB τον_DET υπολογιστή_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Κάποιος: DET | PRON
+}
+
+Expected: {
+Οι_DET δικοί_PRON μου_PRON σηκώνονται_VERB για_ADP να_SCONJ φύγουν_VERB μόλις_ADV κλείνει_VERB η_DET πόρτα_NOUN ,_PUNCT αλλά_CCONJ τους_PRON κόβω_VERB τη_DET φόρα_NOUN ._PUNCT}
+Predicted: {
+Οι_DET δικοί_ADJ μου_PRON σηκώνονται_VERB για_ADP να_SCONJ φύγουν_VERB μόλις_SCONJ κλείνει_VERB η_DET πόρτα_NOUN ,_PUNCT αλλά_CCONJ τους_PRON κόβω_VERB τη_DET φόρα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δικοί: PRON | ADJ
+μόλις: ADV | SCONJ
+}
+
+Expected: {
+Το_PRON λέω_VERB ,_PUNCT γιατί_SCONJ ο_DET δράστης_NOUN φρόντισε_VERB να_SCONJ πάρει_VERB το_DET σάκο_NOUN του_DET Σωτηρόπουλου_PROPN από_ADP το_DET πίσω_ADV κάθισμα_NOUN ._PUNCT}
+Predicted: {
+Το_DET λέω_VERB ,_PUNCT γιατί_SCONJ ο_DET δράστης_NOUN φρόντισε_VERB να_SCONJ πάρει_VERB το_DET σάκο_NOUN του_DET Σωτηρόπουλου_PROPN από_ADP το_DET πίσω_ADV κάθισμα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Το: PRON | DET
+}
+
+Expected: {
+«_PUNCT Ήταν_AUX στραβό_ADJ το_DET κλίμα_NOUN ,_PUNCT το_DET 'φαγε_VERB και_CCONJ ο_DET γάιδαρος_NOUN »_PUNCT μου_PRON λέει_VERB ._PUNCT}
+Predicted: {
+«_PUNCT Ήταν_AUX στραβό_ADJ το_DET κλίμα_NOUN ,_PUNCT το_DET 'φαγε_NOUN και_CCONJ ο_DET γάιδαρος_PROPN »_PUNCT μου_PRON λέει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+'φαγε: VERB | NOUN
+γάιδαρος: NOUN | PROPN
+}
+
+Expected: {
+Μπορώ_VERB να_SCONJ κινητοποιήσω_VERB το_DET μηχανισμό_NOUN της_DET αστυνομίας_NOUN ,_PUNCT αλλά_CCONJ φοβάμαι_VERB ότι_SCONJ θα_AUX μας_PRON πάρει_VERB μέρες_NOUN ._PUNCT}
+Predicted: {
+Μπορώ_VERB να_AUX κινητοποιήσω_VERB το_DET μηχανισμό_NOUN της_DET αστυνομίας_NOUN ,_PUNCT αλλά_CCONJ φοβάμαι_VERB ότι_SCONJ θα_AUX μας_PRON πάρει_VERB μέρες_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+Η_DET υποχώρηση_NOUN είναι_AUX ,_PUNCT εντούτοις_CCONJ ,_PUNCT προσωρινή_ADJ ,_PUNCT γιατί_SCONJ δεν_PART προλαβαίνω_VERB να_PART μπω_VERB σ_ADP το_DET γραφείο_NOUN και_CCONJ μπουκάρουν_VERB πίσω_ADV μου_PRON ._PUNCT}
+Predicted: {
+Η_DET υποχώρηση_NOUN είναι_AUX ,_PUNCT εντούτοις_CCONJ ,_PUNCT προσωρινή_ADJ ,_PUNCT γιατί_SCONJ δεν_PART προλαβαίνω_VERB να_SCONJ μπω_VERB σ_ADP το_DET γραφείο_NOUN και_CCONJ μπουκάρουν_VERB πίσω_ADV μου_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: PART | SCONJ
+}
+
+Expected: {
+«_PUNCT Σας_PRON μεταφέρω_VERB απλώς_ADV την_DET πληροφορία_NOUN ,_PUNCT δίχως_ADP να_SCONJ τη_PRON συμμερίζομαι_VERB »_PUNCT του_PRON τονίζω_VERB ,_PUNCT για_ADP να_SCONJ είμαι_AUX καλυμμένος_ADJ ._PUNCT}
+Predicted: {
+«_PUNCT Σας_PRON μεταφέρω_VERB απλώς_ADV την_DET πληροφορία_NOUN ,_PUNCT δίχως_ADP να_SCONJ τη_PRON συμμερίζομαι_VERB »_PUNCT του_PRON τονίζω_VERB ,_PUNCT για_ADP να_SCONJ είμαι_AUX καλυμμένος_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+καλυμμένος: ADJ | VERB
+}
+
+Expected: {
+«_PUNCT Έβγαλε_VERB ανακοίνωση_NOUN το_DET αρχηγείο_NOUN της_DET αστυνομίας_NOUN »_PUNCT με_PRON ενημερώνει_VERB η_DET κοντή_ADJ με_ADP το_DET ροζ_ADJ καλσόν_NOUN ._PUNCT}
+Predicted: {
+«_PUNCT Έβγαλε_VERB ανακοίνωση_NOUN το_DET αρχηγείο_NOUN της_DET αστυνομίας_NOUN »_PUNCT με_PRON ενημερώνει_VERB η_DET κοντή_NOUN με_ADP το_DET ροζ_ADJ καλσόν_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κοντή: ADJ | NOUN
+}
+
+Expected: {
+αναρωτιέται_VERB ξαφνικά_ADV ο_DET Ούλι_PROPN ,_PUNCT που_PRON ως_ADP τώρα_ADV παρακολουθούσε_VERB αμίλητος_ADJ την_DET κουβέντα_NOUN ._PUNCT}
+Predicted: {
+αναρωτιέται_VERB ξαφνικά_ADV ο_DET Ούλι_PROPN ,_PUNCT που_PRON ως_ADV τώρα_ADV παρακολουθούσε_VERB αμίλητος_ADJ την_DET κουβέντα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ως: ADP | ADV
+}
+
+Expected: {
+Έφτανε_VERB να_SCONJ δουν_VERB τις_DET ειδήσεις_NOUN ._PUNCT}
+Predicted: {
+Έφτανε_VERB να_AUX δουν_VERB τις_DET ειδήσεις_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+Μπορεί_VERB να_SCONJ γκρίνιαζε_VERB ,_PUNCT μπορεί_VERB να_SCONJ απειλούσε_VERB ότι_SCONJ θα_AUX με_PRON άφηνε_VERB να_SCONJ τα_PRON βγάλω_VERB πέρα_ADV μόνος_DET μου_PRON ,_PUNCT αλλά_CCONJ εκ_ADP των_DET υστέρων_ADJ θαυμάζω_VERB την_DET ικανότητά_NOUN του_PRON να_SCONJ μου_PRON βάζει_VERB πλάτη_NOUN και_CCONJ ταυτόχρονα_ADV να_SCONJ φυλάει_VERB τα_DET νώτα_NOUN του_PRON ._PUNCT}
+Predicted: {
+Μπορεί_VERB να_AUX γκρίνιαζε_VERB ,_PUNCT μπορεί_VERB να_AUX απειλούσε_VERB ότι_SCONJ θα_AUX με_PRON άφηνε_VERB να_SCONJ τα_PRON βγάλω_VERB πέρα_ADV μόνος_DET μου_PRON ,_PUNCT αλλά_CCONJ εκ_ADP των_DET υστέρων_ADJ θαυμάζω_VERB την_DET ικανότητά_NOUN του_DET να_AUX μου_PRON βάζει_VERB πλάτη_NOUN και_CCONJ ταυτόχρονα_ADV να_AUX φυλάει_VERB τα_DET νώτα_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+να: SCONJ | AUX
+του: PRON | DET
+να: SCONJ | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+Ο_DET Δημητρίου_PROPN έχει_AUX δώσει_VERB ήδη_ADV οδηγίες_NOUN σ_ADP το_DET συνεργείο_NOUN της_DET σήμανσης_NOUN για_ADP να_SCONJ πιάσει_VERB δουλειά_NOUN ._PUNCT}
+Predicted: {
+Ο_DET Δημητρίου_PROPN έχει_AUX δώσει_VERB ήδη_ADV οδηγίες_NOUN σ_ADP το_DET συνεργείο_NOUN της_DET σήμανσης_NOUN για_ADP να_AUX πιάσει_VERB δουλειά_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+Οι_DET υπόλοιποι_ADJ δημοσιογράφοι_NOUN γυρίζουν_VERB και_CCONJ τον_PRON κοιτάζουν_VERB με_ADP περιέργεια_NOUN και_CCONJ με_ADP κάποια_DET ενόχληση_NOUN ,_PUNCT επειδή_SCONJ μπλέκεται_VERB σ_ADP τα_DET πόδια_NOUN τους_PRON ,_PUNCT αλλά_CCONJ ο_DET Σωτηρόπουλος_PROPN τους_PRON αγνοεί_VERB και_CCONJ προχωράει_VERB σ_ADP την_DET ερώτησή_NOUN του_PRON ._PUNCT}
+Predicted: {
+Οι_DET υπόλοιποι_ADJ δημοσιογράφοι_NOUN γυρίζουν_VERB και_CCONJ τον_DET κοιτάζουν_VERB με_ADP περιέργεια_NOUN και_CCONJ με_ADP κάποια_DET ενόχληση_NOUN ,_PUNCT επειδή_SCONJ μπλέκεται_VERB σ_ADP τα_DET πόδια_NOUN τους_PRON ,_PUNCT αλλά_CCONJ ο_DET Σωτηρόπουλος_PROPN τους_PRON αγνοεί_VERB και_CCONJ προχωράει_VERB σ_ADP την_DET ερώτησή_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τον: PRON | DET
+}
+
+Expected: {
+Η_DET άλλη_DET λύση_NOUN ,_PUNCT για_ADP να_SCONJ καταπολεμήσω_VERB το_DET άγχος_NOUN μου_PRON είναι_VERB να_SCONJ καταφύγω_VERB σ_ADP τον_DET Δημητράκο_PROPN ,_PUNCT αλλά_CCONJ θεωρώ_VERB πιο_ADV σωστό_ADJ να_SCONJ είμαι_AUX παρών_ADJ όταν_SCONJ θα_AUX έρθουν_VERB η_DET Κατερίνα_PROPN με_ADP τον_DET Φάνη_PROPN ._PUNCT}
+Predicted: {
+Η_DET άλλη_DET λύση_NOUN ,_PUNCT για_ADP να_SCONJ καταπολεμήσω_VERB το_DET άγχος_NOUN μου_PRON είναι_AUX να_AUX καταφύγω_VERB σ_ADP τον_DET Δημητράκο_PROPN ,_PUNCT αλλά_CCONJ θεωρώ_VERB πιο_ADV σωστό_ADJ να_SCONJ είμαι_AUX παρών_ADJ όταν_SCONJ θα_AUX έρθουν_VERB η_DET Κατερίνα_PROPN με_ADP τον_DET Φάνη_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+Το_DET μόνο_DET που_PRON σας_PRON ζητάμε_VERB είναι_VERB ,_PUNCT σε_ADP κάποιες_DET περιπτώσεις_NOUN που_ADV θα_AUX σας_PRON παραδίδουμε_VERB τον_DET δράστη_NOUN ,_PUNCT να_SCONJ τον_PRON συλλαμβάνετε_VERB και_CCONJ να_SCONJ μην_PART ψάχνετε_VERB παραπέρα_ADV ._PUNCT}
+Predicted: {
+Το_DET μόνο_ADV που_PRON σας_PRON ζητάμε_VERB είναι_AUX ,_PUNCT σε_ADP κάποιες_DET περιπτώσεις_NOUN που_ADV θα_AUX σας_PRON παραδίδουμε_VERB τον_DET δράστη_NOUN ,_PUNCT να_SCONJ τον_PRON συλλαμβάνετε_VERB και_CCONJ να_AUX μην_PART ψάχνετε_VERB παραπέρα_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μόνο: DET | ADV
+είναι: VERB | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+Εμείς_PRON που_PRON θέλαμε_VERB να_SCONJ σώσουμε_VERB την_DET ανθρωπότητα_NOUN πάθαμε_VERB πολύ_ADV χειρότερα_ADJ ._PUNCT}
+Predicted: {
+Εμείς_PRON που_PRON θέλαμε_VERB να_AUX σώσουμε_VERB την_DET ανθρωπότητα_NOUN πάθαμε_VERB πολύ_ADV χειρότερα_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+«_PUNCT Καλά_ADV ,_PUNCT δεν_PART είχαμε_AUX πει_VERB να_SCONJ κρατηθεί_VERB μυστικό_NOUN ,_PUNCT επειδή_SCONJ συνεχίζεται_VERB η_DET έρευνα_NOUN ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Καλά_ADV ,_PUNCT δεν_PART είχαμε_AUX πει_VERB να_AUX κρατηθεί_VERB μυστικό_ADJ ,_PUNCT επειδή_SCONJ συνεχίζεται_VERB η_DET έρευνα_NOUN ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+μυστικό: NOUN | ADJ
+}
+
+Expected: {
+Ανοίγει_VERB τα_DET συρτάρια_NOUN και_CCONJ τα_PRON κλείνει_VERB ._PUNCT}
+Predicted: {
+Ανοίγει_VERB τα_DET συρτάρια_NOUN και_CCONJ τα_DET κλείνει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τα: PRON | DET
+}
+
+Expected: {
+«_PUNCT Κυριαζίδης_PROPN ,_PUNCT κύριε_NOUN αστυνόμε_NOUN »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Κυριαζίδης_PROPN ,_PUNCT κύριε_ADJ αστυνόμε_NOUN »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κύριε: NOUN | ADJ
+}
+
+Expected: {
+Αν_SCONJ τον_PRON είχε_AUX πουλήσει_VERB ,_PUNCT θα_AUX μας_PRON έλεγε_VERB σε_ADP ποιον_DET τον_PRON πούλησε_VERB ,_PUNCT για_ADP να_SCONJ ελαφρύνει_VERB τη_DET θέση_NOUN του_PRON ._PUNCT}
+Predicted: {
+Αν_SCONJ τον_PRON είχε_VERB πουλήσει_VERB ,_PUNCT θα_AUX μας_PRON έλεγε_VERB σε_ADP ποιον_DET τον_PRON πούλησε_VERB ,_PUNCT για_ADP να_SCONJ ελαφρύνει_VERB τη_DET θέση_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είχε: AUX | VERB
+}
+
+Expected: {
+Τα_DET μόνα_DET έπιπλα_NOUN είναι_VERB σ_ADP την_DET κουζίνα_NOUN :_PUNCT ένα_DET τραπέζι_NOUN και_CCONJ τέσσερις_NUM καρέκλες_NOUN ._PUNCT}
+Predicted: {
+Τα_DET μόνα_DET έπιπλα_NOUN είναι_AUX σ_ADP την_DET κουζίνα_NOUN :_PUNCT ένα_DET τραπέζι_NOUN και_CCONJ τέσσερις_NUM καρέκλες_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+Αρχίζει_VERB να_SCONJ περιεργάζεται_VERB το_DET έπιπλο_NOUN και_CCONJ να_SCONJ κάνει_VERB σ_ADP την_DET ασπρομάλλα_ADJ διάφορες_ADJ ερωτήσεις_NOUN ,_PUNCT ενώ_SCONJ εγώ_PRON περιμένω_VERB υπομονετικά_ADV να_SCONJ λιώσει_VERB η_DET Κούλα_PROPN τον_DET πάγο_NOUN ,_PUNCT για_ADP να_SCONJ κάνω_VERB μια_DET δεύτερη_ADJ απόπειρα_NOUN με_ADP τις_DET ερωτήσεις_NOUN μου_PRON ._PUNCT}
+Predicted: {
+Αρχίζει_VERB να_SCONJ περιεργάζεται_VERB το_DET έπιπλο_NOUN και_CCONJ να_AUX κάνει_VERB σ_ADP την_DET ασπρομάλλα_ADJ διάφορες_ADJ ερωτήσεις_NOUN ,_PUNCT ενώ_SCONJ εγώ_PRON περιμένω_VERB υπομονετικά_ADV να_SCONJ λιώσει_VERB η_DET Κούλα_PROPN τον_DET πάγο_NOUN ,_PUNCT για_ADP να_SCONJ κάνω_VERB μια_DET δεύτερη_ADJ απόπειρα_NOUN με_ADP τις_DET ερωτήσεις_NOUN μου_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+Κύριε_PROPN ,_PUNCT δώσ'_VERB μου_PRON να_SCONJ φάω_VERB και_CCONJ δε_PART ρωτάω_VERB από_ADP πού_ADV θα_AUX το_PRON βρεις_VERB αύριο_ADV ._PUNCT}
+Predicted: {
+Κύριε_NOUN ,_PUNCT δώσ'_VERB μου_PRON να_AUX φάω_VERB και_CCONJ δε_PART ρωτάω_VERB από_ADP πού_ADV θα_AUX το_PRON βρεις_VERB αύριο_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Κύριε: PROPN | NOUN
+να: SCONJ | AUX
+}
+
+Expected: {
+Είναι_VERB πολύ_ADV νωρίς_ADV ακόμα_ADV για_ADP να_SCONJ έχουμε_VERB μια_DET ξεκάθαρη_ADJ εικόνα_NOUN ._PUNCT}
+Predicted: {
+Είναι_AUX πολύ_ADV νωρίς_ADJ ακόμα_ADV για_ADP να_AUX έχουμε_VERB μια_DET ξεκάθαρη_ADJ εικόνα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Είναι: VERB | AUX
+νωρίς: ADV | ADJ
+να: SCONJ | AUX
+}
+
+Expected: {
+«_PUNCT Η_DET ληστεία_NOUN είναι_AUX το_DET ανακουφιστικό_ADJ »_PUNCT σχολιάζει_VERB ._PUNCT}
+Predicted: {
+«_PUNCT Η_DET ληστεία_NOUN είναι_VERB το_DET ανακουφιστικό_ADJ »_PUNCT σχολιάζει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: AUX | VERB
+}
+
+Expected: {
+Το_PRON παίρνω_VERB και_CCONJ το_PRON διαβάζω_VERB ._PUNCT}
+Predicted: {
+Το_DET παίρνω_VERB και_CCONJ το_DET διαβάζω_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Το: PRON | DET
+το: PRON | DET
+}
+
+Expected: {
+Εκεί_ADV πάνω_ADV χτυπάει_VERB το_DET τηλέφωνο_NOUN και_CCONJ επαληθεύεται_VERB η_DET ρήση_NOUN «_PUNCT άλλαι_DET μεν_CCONJ βουλαί_NOUN ανθρώπων_NOUN ,_PUNCT άλλα_DET δε_CCONJ Θεός_PROPN κελεύει_VERB »_PUNCT ._PUNCT}
+Predicted: {
+Εκεί_ADV πάνω_ADV χτυπάει_VERB το_DET τηλέφωνο_NOUN και_CCONJ επαληθεύεται_VERB η_DET ρήση_NOUN «_PUNCT άλλαι_DET μεν_CCONJ βουλαί_NOUN ανθρώπων_NOUN ,_PUNCT άλλα_DET δε_PART Θεός_PROPN κελεύει_VERB »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δε: CCONJ | PART
+}
+
+Expected: {
+Αν_SCONJ ο_DET προϊστάμενός_NOUN μου_PRON θέλει_VERB να_SCONJ κλείσει_VERB τις_DET δύο_NUM δολοφονίες_NOUN σύμφωνα_ADV με_ADP το_DET τραγούδι_NOUN «_PUNCT εσύ_PRON σ_ADP το_DET χώμα_NOUN κι_CCONJ εγώ_PRON σ_ADP τη_DET φυλακή_NOUN »_PUNCT ,_PUNCT αυτό_DET είναι_AUX δική_PRON του_PRON υπόθεση_NOUN ._PUNCT}
+Predicted: {
+Αν_SCONJ ο_DET προϊστάμενός_NOUN μου_PRON θέλει_VERB να_SCONJ κλείσει_VERB τις_DET δύο_NUM δολοφονίες_NOUN σύμφωνα_ADV με_ADP το_DET τραγούδι_NOUN «_PUNCT εσύ_PRON σ_ADP το_DET χώμα_NOUN κι_CCONJ εγώ_PRON σ_ADP τη_DET φυλακή_NOUN »_PUNCT ,_PUNCT αυτό_DET είναι_AUX δική_ADJ του_DET υπόθεση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δική: PRON | ADJ
+του: PRON | DET
+}
+
+Expected: {
+Με_PRON ανεβάζει_VERB σ_ADP τον_DET πρώτο_ADJ όροφο_NOUN και_CCONJ ανοίγει_VERB την_DET πόρτα_NOUN ενός_DET άδειου_ADJ δωματίου_NOUN ._PUNCT}
+Predicted: {
+Με_ADP ανεβάζει_VERB σ_ADP τον_DET πρώτο_ADJ όροφο_NOUN και_CCONJ ανοίγει_VERB την_DET πόρτα_NOUN ενός_DET άδειου_ADJ δωματίου_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Με: PRON | ADP
+}
+
+Expected: {
+Η_DET μόνη_DET εξήγηση_NOUN που_PRON μπορώ_VERB να_SCONJ δώσω_VERB είναι_VERB ότι_SCONJ οι_DET δυο_NUM ομολογίες_NOUN κλείνουν_VERB και_CCONJ τις_DET αντίστοιχες_ADJ υποθέσεις_NOUN και_CCONJ μας_PRON αποτρέπουν_VERB να_SCONJ ψάξουμε_VERB για_ADP άλλα_DET κίνητρα_NOUN ,_PUNCT που_PRON κάποιοι_DET έχουν_VERB συμφέρον_NOUN να_SCONJ παραμείνουν_VERB σ_ADP το_DET σκοτάδι_NOUN ._PUNCT}
+Predicted: {
+Η_DET μόνη_DET εξήγηση_NOUN που_PRON μπορώ_VERB να_SCONJ δώσω_VERB είναι_VERB ότι_SCONJ οι_DET δυο_NUM ομολογίες_NOUN κλείνουν_VERB και_CCONJ τις_DET αντίστοιχες_ADJ υποθέσεις_NOUN και_CCONJ μας_PRON αποτρέπουν_VERB να_AUX ψάξουμε_VERB για_ADP άλλα_DET κίνητρα_NOUN ,_PUNCT που_PRON κάποιοι_DET έχουν_VERB συμφέρον_NOUN να_SCONJ παραμείνουν_VERB σ_ADP το_DET σκοτάδι_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+Κανένας_DET μεγάλος_ADJ πλοιοκτήτης_NOUN δε_PART θα_AUX ήταν_AUX τόσο_ADV ηλίθιος_ADJ ,_PUNCT ώστε_SCONJ να_SCONJ μεταφέρει_VERB δηλωμένο_VERB φορτίο_NOUN για_ADP τη_DET ρωσική_ADJ ή_CCONJ την_DET ουκρανική_ADJ μαφία_NOUN ._PUNCT}
+Predicted: {
+Κανένας_DET μεγάλος_ADJ πλοιοκτήτης_NOUN δε_PART θα_AUX ήταν_AUX τόσο_ADV ηλίθιος_ADJ ,_PUNCT ώστε_SCONJ να_AUX μεταφέρει_VERB δηλωμένο_VERB φορτίο_NOUN για_ADP τη_DET ρωσική_ADJ ή_CCONJ την_DET ουκρανική_ADJ μαφία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+«_PUNCT Να_AUX δείτε_VERB που_SCONJ σ_ADP το_DET τέλος_NOUN θα_AUX δικαιωθούν_VERB ο_DET Ούλι_PROPN με_ADP την_DET κυρία_ADJ Αδριανή_PROPN »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Να_AUX δείτε_VERB που_PRON σ_ADP το_DET τέλος_NOUN θα_AUX δικαιωθούν_VERB ο_DET Ούλι_PROPN με_ADP την_DET κυρία_ADJ Αδριανή_PROPN »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: SCONJ | PRON
+}
+
+Expected: {
+Ήταν_VERB ανάγκη_NOUN να_SCONJ κάνετε_VERB τόση_DET φασαρία_NOUN ;_PUNCT}
+Predicted: {
+Ήταν_AUX ανάγκη_NOUN να_AUX κάνετε_VERB τόση_ADV φασαρία_NOUN ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Ήταν: VERB | AUX
+να: SCONJ | AUX
+τόση: DET | ADV
+}
+
+Expected: {
+«_PUNCT Καλά_ADV ,_PUNCT και_CCONJ τα_DET καΐκια_NOUN ,_PUNCT τα_DET κότερα_NOUN και_CCONJ τα_DET τρεχαντήρια_NOUN ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Καλά_ADV ,_PUNCT και_CCONJ τα_DET καΐκια_NOUN ,_PUNCT τα_DET κότερα_ADJ και_CCONJ τα_DET τρεχαντήρια_ADJ ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κότερα: NOUN | ADJ
+τρεχαντήρια: NOUN | ADJ
+}
+
+Expected: {
+Αν_SCONJ θα_AUX πρέπει_VERB να_SCONJ της_PRON το_PRON πω_VERB και_CCONJ πώς_ADV να_SCONJ της_PRON το_PRON πω_VERB ._PUNCT}
+Predicted: {
+Αν_SCONJ θα_AUX πρέπει_AUX να_AUX της_PRON το_PRON πω_VERB και_CCONJ πώς_ADV να_SCONJ της_PRON το_PRON πω_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πρέπει: VERB | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+Μόλις_ADV τώρα_ADV συνειδητοποιώ_VERB πως_SCONJ ο_DET Σωτηρόπουλος_PROPN δεν_PART υποπτεύεται_VERB τον_DET Ασιάτη_ADJ ότι_SCONJ τον_PRON παρακολουθεί_VERB ,_PUNCT αλλά_CCONJ ένα_DET κόκκινο_ADJ φορτηγό_NOUN και_CCONJ ένα_DET Σουζούκι_PROPN ._PUNCT}
+Predicted: {
+Μόλις_SCONJ τώρα_ADV συνειδητοποιώ_VERB πως_SCONJ ο_DET Σωτηρόπουλος_PROPN δεν_PART υποπτεύεται_VERB τον_DET Ασιάτη_ADJ ότι_SCONJ τον_PRON παρακολουθεί_VERB ,_PUNCT αλλά_CCONJ ένα_DET κόκκινο_ADJ φορτηγό_NOUN και_CCONJ ένα_DET Σουζούκι_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Μόλις: ADV | SCONJ
+}
+
+Expected: {
+«_PUNCT Μπορεί_VERB ,_PUNCT αλλά_CCONJ με_ADP ερωτηματικό_NOUN »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Μπορεί_VERB ,_PUNCT αλλά_CCONJ με_PRON ερωτηματικό_ADJ »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+με: ADP | PRON
+ερωτηματικό: NOUN | ADJ
+}
+
+Expected: {
+Η_DET οικογένεια_NOUN είναι_VERB σαν_ADV να_SCONJ ζει_VERB σε_ADP τέντα_NOUN ,_PUNCT με_ADP τοίχους_NOUN και_CCONJ οροφή_NOUN ._PUNCT}
+Predicted: {
+Η_DET οικογένεια_NOUN είναι_AUX σαν_ADV να_SCONJ ζει_VERB σε_ADP τέντα_NOUN ,_PUNCT με_ADP τοίχους_NOUN και_CCONJ οροφή_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+Σκέφτομαι_VERB πως_SCONJ δεν_PART έχει_VERB άδικο_ADJ ._PUNCT}
+Predicted: {
+Σκέφτομαι_VERB πως_SCONJ δεν_PART έχει_VERB άδικο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άδικο: ADJ | NOUN
+}
+
+Expected: {
+«_PUNCT Μήπως_SCONJ θυμάστε_VERB πώς_ADV έλεγαν_VERB τον_DET πλοιοκτήτη_NOUN που_PRON είχε_VERB απαντήσει_VERB σ_ADP τον_DET Σωτηρόπουλο_PROPN σ_ADP τη_DET συνέντευξη_NOUN τύπου_NOUN ,_PUNCT μαζί_ADV με_ADP τον_DET υπουργό_NOUN ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Μήπως_ADV θυμάστε_VERB πώς_ADV έλεγαν_VERB τον_DET πλοιοκτήτη_NOUN που_PRON είχε_AUX απαντήσει_VERB σ_ADP τον_DET Σωτηρόπουλο_PROPN σ_ADP τη_DET συνέντευξη_NOUN τύπου_NOUN ,_PUNCT μαζί_ADV με_ADP τον_DET υπουργό_NOUN ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Μήπως: SCONJ | ADV
+είχε: VERB | AUX
+}
+
+Expected: {
+«_PUNCT Από_ADP πού_ADV ν'_AUX αρχίσω_VERB ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Από_ADP πού_ADV ν'_SCONJ αρχίσω_VERB ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ν': AUX | SCONJ
+}
+
+Expected: {
+Όχι_INTJ ,_PUNCT η_DET διαφορά_NOUN όμως_CCONJ δεν_PART είναι_AUX διαφορά_NOUN αντίληψης_NOUN αλλά_CCONJ ηλικίας_NOUN ._PUNCT}
+Predicted: {
+Όχι_PART ,_PUNCT η_DET διαφορά_NOUN όμως_CCONJ δεν_PART είναι_AUX διαφορά_NOUN αντίληψης_NOUN αλλά_CCONJ ηλικίας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Όχι: INTJ | PART
+}
+
+Expected: {
+Ακόμα_ADV και_CCONJ αν_SCONJ τον_PRON εντοπίσουμε_VERB ,_PUNCT είναι_AUX ζήτημα_NOUN αν_SCONJ θα_AUX θυμάται_VERB ένα_DET τόσο_DET ασήμαντο_ADJ γι'_ADP αυτόν_DET περιστατικό_NOUN μέσα_ADV σ_ADP τη_DET φασαρία_NOUN της_DET λαχαναγοράς_NOUN ._PUNCT}
+Predicted: {
+Ακόμα_ADV και_CCONJ αν_SCONJ τον_PRON εντοπίσουμε_VERB ,_PUNCT είναι_AUX ζήτημα_NOUN αν_SCONJ θα_AUX θυμάται_VERB ένα_DET τόσο_ADV ασήμαντο_ADJ γι'_ADP αυτόν_DET περιστατικό_NOUN μέσα_ADV σ_ADP τη_DET φασαρία_NOUN της_DET λαχαναγοράς_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τόσο: DET | ADV
+}
+
+Expected: {
+«_PUNCT Τουλάχιστον_ADV ,_PUNCT εσύ_PRON θέλεις_VERB να_SCONJ πιάσεις_VERB τους_DET ενόχους_ADJ ,_PUNCT δε_PART θέλεις_VERB να_SCONJ σώσεις_VERB την_DET ανθρωπότητα_NOUN »_PUNCT ._PUNCT}
+Predicted: {
+«_PUNCT Τουλάχιστον_ADV ,_PUNCT εσύ_PRON θέλεις_VERB να_SCONJ πιάσεις_VERB τους_DET ενόχους_NOUN ,_PUNCT δε_PART θέλεις_VERB να_SCONJ σώσεις_VERB την_DET ανθρωπότητα_NOUN »_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ενόχους: ADJ | NOUN
+}
+
+Expected: {
+Πίνω_VERB τον_DET καφέ_NOUN μου_PRON ,_PUNCT ενώ_SCONJ προσπαθώ_VERB να_SCONJ σκεφτώ_VERB από_ADP πού_SCONJ θα_AUX μπορούσα_VERB να_SCONJ βρω_VERB άκρη_NOUN με_ADP τον_DET υπολογιστή_NOUN του_DET Σωτηρόπουλου_PROPN ._PUNCT}
+Predicted: {
+Πίνω_VERB τον_DET καφέ_NOUN μου_PRON ,_PUNCT ενώ_SCONJ προσπαθώ_VERB να_SCONJ σκεφτώ_VERB από_ADP πού_ADV θα_AUX μπορούσα_VERB να_SCONJ βρω_VERB άκρη_NOUN με_ADP τον_DET υπολογιστή_NOUN του_DET Σωτηρόπουλου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πού: SCONJ | ADV
+}
+
+Expected: {
+«_PUNCT Τι_DET πληροφορία_NOUN ;_PUNCT »_PUNCT}
+Predicted: {
+«_PUNCT Τι_PRON πληροφορία_NOUN ;_PUNCT »_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+Τι: DET | PRON
+}
+
+Expected: {
+Βγάζει_VERB τη_DET λίστα_NOUN από_ADP την_DET τσέπη_NOUN του_PRON ,_PUNCT την_PRON ανοίγει_VERB και_CCONJ την_PRON κρατάει_VERB σ_ADP τα_DET γόνατά_NOUN του_PRON ._PUNCT}
+Predicted: {
+Βγάζει_VERB τη_DET λίστα_NOUN από_ADP την_DET τσέπη_NOUN του_PRON ,_PUNCT την_DET ανοίγει_VERB και_CCONJ την_PRON κρατάει_VERB σ_ADP τα_DET γόνατά_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+την: PRON | DET
+}
+
+Expected: {
+Αλλάζω_VERB αμέσως_ADV θέμα_NOUN ,_PUNCT και_CCONJ τους_PRON αναπτύσσω_VERB τη_DET θεωρία_NOUN μου_PRON σχετικά_ADV με_ADP την_DET εκτέλεση_NOUN του_DET Λαλόπουλου_PROPN και_CCONJ τα_DET στοιχεία_NOUN που_PRON με_PRON οδήγησαν_VERB σ'_ADP αυτήν_DET ._PUNCT}
+Predicted: {
+Αλλάζω_VERB αμέσως_ADV θέμα_NOUN ,_PUNCT και_CCONJ τους_PRON αναπτύσσω_VERB τη_DET θεωρία_NOUN μου_PRON σχετικά_ADV με_ADP την_DET εκτέλεση_NOUN του_DET Λαλόπουλου_PROPN και_CCONJ τα_DET στοιχεία_NOUN που_PRON με_PRON οδήγησαν_VERB σ'_ADP αυτήν_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτήν: DET | PRON
+}
+
+Expected: {
+Ξεκινάω_VERB να_SCONJ κάνω_VERB τα_DET σκάρτα_ADJ διακόσια_NUM μέτρα_NOUN με_ADP τα_DET πόδια_NOUN ,_PUNCT μια_SCONJ και_CCONJ η_DET Αρχή_NOUN έχει_VERB την_DET έδρα_NOUN της_PRON μέσα_ADV σ_ADP το_DET κτίριο_NOUN του_DET Αρείου_ADJ Πάγου_PROPN ._PUNCT}
+Predicted: {
+Ξεκινάω_VERB να_SCONJ κάνω_VERB τα_DET σκάρτα_ADJ διακόσια_NUM μέτρα_NOUN με_ADP τα_DET πόδια_NOUN ,_PUNCT μια_SCONJ και_CCONJ η_DET Αρχή_NOUN έχει_VERB την_DET έδρα_NOUN της_DET μέσα_NOUN σ_ADP το_DET κτίριο_NOUN του_DET Αρείου_NOUN Πάγου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+της: PRON | DET
+μέσα: ADV | NOUN
+Αρείου: ADJ | NOUN
+}
+
+Expected: {
+τα_DET κράτη_NOUN δεν_PART μπορούν_VERB να_AUX διαθέτουν_VERB δύο_NUM ποινικούς_ADJ κώδικες_NOUN ,_PUNCT έναν_NUM που_PRON θα_AUX εφαρμόζεται_VERB σ_ADP τη_DET διακίνηση_NOUN ναρκωτικών_NOUN αποκλειστικά_ADV μέσα_ADV σ_ADP τα_DET σύνορά_NOUN τους_PRON ,_PUNCT και_CCONJ έναν_NUM άλλο_DET που_PRON θα_AUX εφαρμόζεται_VERB σ_ADP τη_DET διακίνηση_NOUN ναρκωτικών_NOUN όταν_SCONJ αυτή_PRON έχει_VERB διασυνοριακή_ADJ διάσταση_NOUN ._PUNCT}
+Predicted: {
+τα_DET κράτη_NOUN δεν_PART μπορούν_VERB να_AUX διαθέτουν_VERB δύο_NUM ποινικούς_ADJ κώδικες_NOUN ,_PUNCT έναν_DET που_PRON θα_AUX εφαρμόζεται_VERB σ_ADP τη_DET διακίνηση_NOUN ναρκωτικών_NOUN αποκλειστικά_ADV μέσα_ADV σ_ADP τα_DET σύνορά_NOUN τους_PRON ,_PUNCT και_CCONJ έναν_DET άλλο_DET που_PRON θα_AUX εφαρμόζεται_VERB σ_ADP τη_DET διακίνηση_NOUN ναρκωτικών_NOUN όταν_SCONJ αυτή_PRON έχει_VERB διασυνοριακή_ADJ διάσταση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έναν: NUM | DET
+έναν: NUM | DET
+}
+
+Expected: {
+έχει_VERB έκταση_NOUN 538_NUM στρέμματα_NOUN και_CCONJ φημίζεται_VERB για_ADP τις_DET πανέμορφες_ADJ παραλίες_NOUN και_CCONJ μαγευτική_ADJ φυσική_ADJ ομορφιά_NOUN του_PRON ._PUNCT}
+Predicted: {
+έχει_AUX έκταση_NOUN 538_NUM στρέμματα_NOUN και_CCONJ φημίζεται_VERB για_ADP τις_DET πανέμορφες_ADJ παραλίες_NOUN και_CCONJ μαγευτική_ADJ φυσική_ADJ ομορφιά_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έχει: VERB | AUX
+}
+
+Expected: {
+για_ADP αυτό_PRON είναι_AUX σημαντικό_ADJ αυτός_DET ο_DET διάλογος_NOUN μεταξύ_ADP κονγκολέζων_PROPN ,_PUNCT που_PRON ξαναρχίζει_VERB σ_ADP τη_DET σαν_X σίτυ_X της_DET νότιας_ADJ αφρικής_PROPN ,_PUNCT να_AUX θέσει_VERB τέλος_NOUN σε_ADP αυτή_DET τη_DET σύγκρουση_NOUN ._PUNCT}
+Predicted: {
+για_ADP αυτό_PRON είναι_AUX σημαντικό_ADJ αυτός_DET ο_DET διάλογος_NOUN μεταξύ_ADP κονγκολέζων_ADJ ,_PUNCT που_PRON ξαναρχίζει_VERB σ_ADP τη_DET σαν_ADV σίτυ_NOUN της_DET νότιας_ADJ αφρικής_PROPN ,_PUNCT να_AUX θέσει_VERB τέλος_NOUN σε_ADP αυτή_DET τη_DET σύγκρουση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κονγκολέζων: PROPN | ADJ
+σαν: X | ADV
+σίτυ: X | NOUN
+}
+
+Expected: {
+ουσιαστικά_ADV ο_DET ελληνικός_ADJ λαός_NOUN είχε_VERB να_AUX δει_VERB κάλπη_NOUN από_ADP την_DET προηγούμενη_ADJ δεκαετία_NOUN ._PUNCT}
+Predicted: {
+ουσιαστικά_ADV ο_DET ελληνικός_ADJ λαός_NOUN είχε_AUX να_AUX δει_VERB κάλπη_NOUN από_ADP την_DET προηγούμενη_ADJ δεκαετία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είχε: VERB | AUX
+}
+
+Expected: {
+επίσης_ADV ,_PUNCT ο_DET επισκέπτης_NOUN μπορεί_VERB να_AUX συναντήσει_VERB ρωμαϊκά_ADJ ερείπια_NOUN ,_PUNCT περίφημες_ADJ παλιοχριστιανικές_ADJ βασιλικές_NOUN ,_PUNCT το_DET βυζαντινό_ADJ οκτάγωνο_NOUN των_DET φιλίππων_PROPN ,_PUNCT ερείπια_NOUN από_ADP τη_DET ρωμαϊκή_ADJ αγορά_NOUN ,_PUNCT τα_DET λουτρά_NOUN ,_PUNCT την_DET παλαίστρα_NOUN ,_PUNCT τη_DET φυλακή_NOUN του_DET αποστόλου_NOUN παύλου_PROPN ,_PUNCT το_DET βαπτιστήριο_NOUN της_DET λυδίας_PROPN (_PUNCT της_DET πρώτης_ADJ ευρωπαίας_PROPN χριστιανής_NOUN )_PUNCT ,_PUNCT αλλά_CCONJ και_CCONJ υπολείμματα_NOUN ρωμαϊκών_ADJ και_CCONJ βυζαντινών_ADJ τειχών_NOUN ._PUNCT}
+Predicted: {
+επίσης_ADV ,_PUNCT ο_DET επισκέπτης_NOUN μπορεί_VERB να_AUX συναντήσει_VERB ρωμαϊκά_ADJ ερείπια_NOUN ,_PUNCT περίφημες_ADJ παλιοχριστιανικές_ADJ βασιλικές_ADJ ,_PUNCT το_DET βυζαντινό_ADJ οκτάγωνο_NOUN των_DET φιλίππων_PROPN ,_PUNCT ερείπια_NOUN από_ADP τη_DET ρωμαϊκή_ADJ αγορά_NOUN ,_PUNCT τα_DET λουτρά_NOUN ,_PUNCT την_DET παλαίστρα_PROPN ,_PUNCT τη_DET φυλακή_NOUN του_DET αποστόλου_NOUN παύλου_NOUN ,_PUNCT το_DET βαπτιστήριο_NOUN της_DET λυδίας_NOUN (_PUNCT της_DET πρώτης_ADJ ευρωπαίας_PROPN χριστιανής_NOUN )_PUNCT ,_PUNCT αλλά_CCONJ και_CCONJ υπολείμματα_NOUN ρωμαϊκών_ADJ και_CCONJ βυζαντινών_ADJ τειχών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+βασιλικές: NOUN | ADJ
+παλαίστρα: NOUN | PROPN
+παύλου: PROPN | NOUN
+λυδίας: PROPN | NOUN
+}
+
+Expected: {
+παρόλο_ADV που_ADV ο_DET ίδιος_ADJ ο_DET κάστρο_X δεν_PART θεωρήθηκε_VERB κομουνιστής_ADJ ,_PUNCT οι_DET ηπα_NOUN ήταν_AUX ενήμερες_ADJ για_ADP τον_DET ρόλο_NOUN του_DET τσε_X γκεβάρα_X και_CCONJ την_DET αναθέρμανση_NOUN των_DET σχέσεων_NOUN ανάμεσα_ADV σ_ADP τον_DET κάστρο_X και_CCONJ τους_DET κουβανούς_PROPN κομουνιστές_ADJ ._PUNCT}
+Predicted: {
+παρόλο_ADV που_ADV ο_DET ίδιος_ADJ ο_DET κάστρο_X δεν_PART θεωρήθηκε_VERB κομουνιστής_ADJ ,_PUNCT οι_DET ηπα_NOUN ήταν_AUX ενήμερες_ADJ για_ADP τον_DET ρόλο_NOUN του_DET τσε_X γκεβάρα_X και_CCONJ την_DET αναθέρμανση_NOUN των_DET σχέσεων_NOUN ανάμεσα_ADV σ_ADP τον_DET κάστρο_PROPN και_CCONJ τους_DET κουβανούς_PROPN κομουνιστές_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάστρο: X | PROPN
+κομουνιστές: ADJ | NOUN
+}
+
+Expected: {
+δύο_NUM απ'_ADP τους_DET ομήρους_NOUN δεν_PART έπαθαν_VERB τίποτα_PRON ,_PUNCT ενώ_SCONJ ένας_DET μεγαλομέτοχος_NOUN της_DET εταιρείας_NOUN και_CCONJ ένας_DET βούλγαρος_PROPN εργάτης_NOUN τραυματίστηκαν_VERB απ'_ADP τον_DET οπλισμένο_VERB άνδρα_NOUN ._PUNCT}
+Predicted: {
+δύο_NUM απ'_ADP τους_DET ομήρους_NOUN δεν_PART έπαθαν_VERB τίποτα_DET ,_PUNCT ενώ_SCONJ ένας_DET μεγαλομέτοχος_NOUN της_DET εταιρείας_NOUN και_CCONJ ένας_DET βούλγαρος_PROPN εργάτης_NOUN τραυματίστηκαν_VERB απ'_ADP τον_DET οπλισμένο_VERB άνδρα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τίποτα: PRON | DET
+}
+
+Expected: {
+η_DET περιοχή_NOUN (_PUNCT ανάμεσα_ADV σ_ADP τη_DET σαγιάδα_PROPN ,_PUNCT το_DET ράγιο_PROPN και_CCONJ την_DET ηγουμενίτσα_PROPN )_PUNCT φιλοξενεί_VERB έναν_NUM από_ADP τους_DET σημαντικότερους_ADJ υγροβιότοπους_NOUN της_DET ελλάδας_PROPN ,_PUNCT σ_ADP τον_DET οποίο_PRON βρίσκουν_VERB προστασία_NOUN σπάνια_ADJ είδη_NOUN πουλιών_NOUN και_CCONJ λουλουδιών_NOUN ._PUNCT}
+Predicted: {
+η_DET περιοχή_NOUN (_PUNCT ανάμεσα_ADV σ_ADP τη_DET σαγιάδα_PROPN ,_PUNCT το_DET ράγιο_NOUN και_CCONJ την_DET ηγουμενίτσα_PROPN )_PUNCT φιλοξενεί_VERB έναν_NUM από_ADP τους_DET σημαντικότερους_ADJ υγροβιότοπους_NOUN της_DET ελλάδας_PROPN ,_PUNCT σ_ADP τον_DET οποίο_PRON βρίσκουν_VERB προστασία_NOUN σπάνια_ADJ είδη_NOUN πουλιών_NOUN και_CCONJ λουλουδιών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ράγιο: PROPN | NOUN
+}
+
+Expected: {
+πριν_ADV ,_PUNCT σ_ADP τις_DET 30_απριλίου_NOUN ,_PUNCT ο_DET χίτλερ_X αυτοκτονεί_VERB ενώ_SCONJ το_DET 1946_NOUN οι_DET επιζώντες_NOUN πολιτικά_ADV και_CCONJ στρατιωτικά_ADV κυρίως_ADV υπεύθυνοι_ADJ καταδικάζονται_VERB σ_ADP την_DET δίκη_NOUN της_DET νυρεμβέργης_PROPN ._PUNCT}
+Predicted: {
+πριν_ADV ,_PUNCT σ_ADP τις_DET 30_απριλίου_NOUN ,_PUNCT ο_DET χίτλερ_X αυτοκτονεί_X ενώ_SCONJ το_DET 1946_NOUN οι_DET επιζώντες_NOUN πολιτικά_ADV και_CCONJ στρατιωτικά_ADV κυρίως_ADV υπεύθυνοι_ADJ καταδικάζονται_VERB σ_ADP την_DET δίκη_NOUN της_DET νυρεμβέργης_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτοκτονεί: VERB | X
+νυρεμβέργης: PROPN | NOUN
+}
+
+Expected: {
+το_DET 1973_NOUN η_DET κοινότητα_NOUN διευρύνθηκε_VERB για_ADP να_AUX συμπεριλάβει_VERB την_DET δανία_PROPN ,_PUNCT την_DET ιρλανδία_PROPN και_CCONJ το_DET ηνωμένο_ADJ βασίλειο_NOUN ._PUNCT}
+Predicted: {
+το_DET 1973_NOUN η_DET κοινότητα_NOUN διευρύνθηκε_VERB για_ADP να_SCONJ συμπεριλάβει_VERB την_DET δανία_PROPN ,_PUNCT την_DET ιρλανδία_PROPN και_CCONJ το_DET ηνωμένο_ADJ βασίλειο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+το_DET 1999_NOUN το_DET ευρώ_NOUN αντικατέστησε_VERB τα_DET εθνικά_ADJ νομίσματα_NOUN σε_ADP 11_NUM κράτη_NOUN μέλη_NOUN ,_PUNCT την_DET λεγόμενη_ADJ ευρωζώνη_NOUN ._PUNCT}
+Predicted: {
+το_DET 1999_NUM το_DET ευρώ_NOUN αντικατέστησε_VERB τα_DET εθνικά_ADJ νομίσματα_NOUN σε_ADP 11_NUM κράτη_NOUN μέλη_NOUN ,_PUNCT την_DET λεγόμενη_ADJ ευρωζώνη_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+1999: NOUN | NUM
+}
+
+Expected: {
+ο_DET νόμος_NOUN αυτός_DET τέθηκε_VERB θεωρητικά_ADV σε_ADP ισχύ_NOUN σ_ADP τη_DET 1_NUM ιανουαρίου_PROPN 2012_NUM ,_PUNCT ωστόσο_CCONJ θα_AUX ισχύσει_VERB και_CCONJ σ_ADP την_DET πράξη_NOUN το_DET 2013_NUM ._PUNCT}
+Predicted: {
+ο_DET νόμος_NOUN αυτός_DET τέθηκε_VERB θεωρητικά_NOUN σε_ADP ισχύ_NOUN σ_ADP τη_DET 1_NUM ιανουαρίου_PROPN 2012_NUM ,_PUNCT ωστόσο_CCONJ θα_AUX ισχύσει_VERB και_CCONJ σ_ADP την_DET πράξη_NOUN το_DET 2013_NUM ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+θεωρητικά: ADV | NOUN
+}
+
+Expected: {
+φυσικά_ADV δεν_PART μπορεί_VERB παρά_CCONJ να_AUX μας_PRON βάλει_VERB σε_ADP σκέψεις_NOUN ότι_SCONJ εδώ_ADV και_CCONJ πολλά_ADJ χρόνια_NOUN αναγκαζόμαστε_VERB να_AUX παραδεχτούμε_VERB ότι_SCONJ λειτουργούμε_VERB παραβιάζοντας_VERB ως_ADV ένα_DET βαθμό_NOUN τα_DET όρια_NOUN που_PRON θέτει_VERB η_DET που_NOUN για_ADP ορισμένες_ADJ μέρες_NOUN ετησίως_ADV ._PUNCT}
+Predicted: {
+φυσικά_ADV δεν_PART μπορεί_VERB παρά_CCONJ να_SCONJ μας_PRON βάλει_VERB σε_ADP σκέψεις_NOUN ότι_SCONJ εδώ_ADV και_CCONJ πολλά_DET χρόνια_NOUN αναγκαζόμαστε_VERB να_AUX παραδεχτούμε_VERB ότι_SCONJ λειτουργούμε_VERB παραβιάζοντας_VERB ως_ADV ένα_DET βαθμό_NOUN τα_DET όρια_NOUN που_PRON θέτει_VERB η_DET που_PRON για_ADP ορισμένες_ADJ μέρες_NOUN ετησίως_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+πολλά: ADJ | DET
+που: NOUN | PRON
+}
+
+Expected: {
+θα_AUX ήθελα_VERB να_AUX υπενθυμίσω_VERB ορισμένα_ADJ από_ADP τα_DET τελευταία_ADJ μέτρα_NOUN που_PRON έχουμε_AUX παρουσιάσει_VERB για_ADP τη_DET βελτίωση_NOUN αυτής_DET της_DET ασφάλειας_NOUN ,_PUNCT όπως_ADV για_ADP παράδειγμα_NOUN την_DET οδηγία_NOUN που_PRON εγκρίθηκε_VERB πρόσφατα_ADV σχετικά_ADV με_ADP τα_DET ωράρια_NOUN εργασίας_NOUN για_ADP τις_DET οδικές_ADJ μεταφορές_NOUN ,_PUNCT η_DET οποία_PRON θα_AUX έχει_VERB σαφείς_ADJ συνέπειες_NOUN για_ADP την_DET ασφάλεια_NOUN ._PUNCT}
+Predicted: {
+θα_AUX ήθελα_VERB να_AUX υπενθυμίσω_VERB ορισμένα_ADJ από_ADP τα_DET τελευταία_ADJ μέτρα_NOUN που_PRON έχουμε_AUX παρουσιάσει_VERB για_ADP τη_DET βελτίωση_NOUN αυτής_DET της_DET ασφάλειας_NOUN ,_PUNCT όπως_ADV για_ADP παράδειγμα_NOUN την_DET οδηγία_NOUN που_PRON εγκρίθηκε_VERB πρόσφατα_ADV σχετικά_ADV με_ADP τα_DET ωράρια_NOUN εργασίας_NOUN για_ADP τις_DET οδικές_ADJ μεταφορές_NOUN ,_PUNCT η_DET οποία_PRON θα_AUX έχει_AUX σαφείς_ADJ συνέπειες_NOUN για_ADP την_DET ασφάλεια_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έχει: VERB | AUX
+}
+
+Expected: {
+σ_ADP την_DET κεντρική_ADJ πλατεία_NOUN της_DET απολλωνίας_PROPN ,_PUNCT την_DET πλατεία_NOUN ηρώου_PROPN ,_PUNCT μπορεί_VERB να_AUX δει_VERB κάποιος_PRON το_DET μουσείο_NOUN λαϊκής_ADJ τέχνης_NOUN ,_PUNCT όπου_ADV εκτίθενται_VERB αντικείμενα_NOUN από_ADP την_DET παραδοσιακή_ADJ ζωή_NOUN του_DET νησιού_NOUN και_CCONJ τα_DET παλιά_ADJ σχολεία_NOUN του_DET αγίου_ADJ αρτεμίου_PROPN ._PUNCT}
+Predicted: {
+σ_ADP την_DET κεντρική_ADJ πλατεία_NOUN της_DET απολλωνίας_PROPN ,_PUNCT την_DET πλατεία_NOUN ηρώου_PROPN ,_PUNCT μπορεί_VERB να_AUX δει_VERB κάποιος_PRON το_DET μουσείο_NOUN λαϊκής_ADJ τέχνης_NOUN ,_PUNCT όπου_ADV εκτίθενται_VERB αντικείμενα_NOUN από_ADP την_DET παραδοσιακή_ADJ ζωή_NOUN του_PRON νησιού_NOUN και_CCONJ τα_DET παλιά_ADJ σχολεία_NOUN του_DET αγίου_ADJ αρτεμίου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: DET | PRON
+}
+
+Expected: {
+το_DET 1380_NOUN η_DET πόλη_NOUN κατελήφθη_VERB από_ADP τους_DET τούρκους_PROPN και_CCONJ μετονομάστηκε_VERB σε_ADP καβάλα_PROPN ._PUNCT}
+Predicted: {
+το_DET 1380_NOUN η_DET πόλη_NOUN κατελήφθη_VERB από_ADP τους_DET τούρκους_PROPN και_CCONJ μετονομάστηκε_VERB σε_ADP καβάλα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+καβάλα: PROPN | NOUN
+}
+
+Expected: {
+η_DET μεταλίστ_X χάρη_ADV σ'_ADP αυτή_DET τη_DET νίκη_NOUN κατάφερε_VERB να_AUX πάρει_VERB την_DET πρόκριση_NOUN για_ADP την_DET επόμενη_ADJ φάση_NOUN της_DET διοργάνωσης_NOUN μαζί_ADV με_ADP τις_DET αθλέτικο_X μπιλμπάο_X ,_PUNCT σπόρτινγκ_X λισαβόνας_PROPN ,_PUNCT σάλκε_X ,_PUNCT ανόβερο_X ,_PUNCT βαλένθια_X ,_PUNCT άλκμααρ_X και_CCONJ ουντινέζε_X ._PUNCT}
+Predicted: {
+η_DET μεταλίστ_X χάρη_ADV σ'_ADP αυτή_DET τη_DET νίκη_NOUN κατάφερε_VERB να_AUX πάρει_VERB την_DET πρόκριση_NOUN για_ADP την_DET επόμενη_ADJ φάση_NOUN της_DET διοργάνωσης_NOUN μαζί_ADV με_ADP τις_DET αθλέτικο_ADJ μπιλμπάο_NOUN ,_PUNCT σπόρτινγκ_X λισαβόνας_PROPN ,_PUNCT σάλκε_X ,_PUNCT ανόβερο_ADJ ,_PUNCT βαλένθια_PROPN ,_PUNCT άλκμααρ_X και_CCONJ ουντινέζε_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αθλέτικο: X | ADJ
+μπιλμπάο: X | NOUN
+ανόβερο: X | ADJ
+βαλένθια: X | PROPN
+}
+
+Expected: {
+πολλοί_ADJ από_ADP τους_DET διαδηλωτές_NOUN φώναζαν_VERB συνθήματα_NOUN όπως_ADV "_PUNCT ντροπή_ADJ σου_PRON ντv_NOUN "_PUNCT και_CCONJ "_PUNCT ρωσία_PROPN χωρίς_ADP τον_DET πούτιν_X "_PUNCT ._PUNCT}
+Predicted: {
+πολλοί_ADJ από_ADP τους_DET διαδηλωτές_NOUN φώναζαν_VERB συνθήματα_NOUN όπως_ADV "_PUNCT ντροπή_NOUN σου_PRON ντv_AUX "_PUNCT και_CCONJ "_PUNCT ρωσία_PROPN χωρίς_ADP τον_DET πούτιν_PROPN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ντροπή: ADJ | NOUN
+ντv: NOUN | AUX
+πούτιν: X | PROPN
+}
+
+Expected: {
+χρειαζόμαστε_VERB μάλλον_ADV έναν_DET άνθρωπο_NOUN των_DET έργων_NOUN ,_PUNCT έναν_DET εργάτη_NOUN παρά_CCONJ έναν_DET πολιτικό_NOUN ._PUNCT}
+Predicted: {
+χρειαζόμαστε_VERB μάλλον_ADV έναν_DET άνθρωπο_NOUN των_DET έργων_NOUN ,_PUNCT έναν_DET εργάτη_NOUN παρά_CCONJ έναν_DET πολιτικό_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολιτικό: NOUN | ADJ
+}
+
+Expected: {
+η_DET ομάδα_NOUN με_ADP επικεφαλής_ADJ τον_DET οικονομολόγο_NOUN τίμοθι_PROPN χάτον_PROPN ανέλυσε_VERB το_DET ύψος_NOUN των_DET ανδρών_NOUN σε_ADP ηλίκια_NOUN περίπου_ADV 21_NUM την_DET περίοδο_NOUN 1870_NUM -_PUNCT 1980_NUM από_ADP 15_NUM ευρωπαϊκές_ADJ χώρες_NOUN ._PUNCT}
+Predicted: {
+η_DET ομάδα_NOUN με_ADP επικεφαλής_ADJ τον_DET οικονομολόγο_NOUN τίμοθι_DET χάτον_X ανέλυσε_VERB το_DET ύψος_NOUN των_DET ανδρών_NOUN σε_ADP ηλίκια_NOUN περίπου_ADV 21_NUM την_DET περίοδο_NOUN 1870_NUM -_PUNCT 1980_NUM από_ADP 15_NUM ευρωπαϊκές_ADJ χώρες_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τίμοθι: PROPN | DET
+χάτον: PROPN | X
+}
+
+Expected: {
+οι_DET εγχειρήσεις_NOUN σ_ADP τα_DET αιμοφόρα_ADJ αγγεία_NOUN ,_PUNCT ενώ_SCONJ πολλές_ADJ φορές_NOUN μπορεί_VERB να_AUX αποβούν_VERB σωτήριες_ADJ ,_PUNCT κάποιες_DET φορές_NOUN μπορεί_VERB να_AUX δημιουργήσουν_VERB περισσότερα_ADJ προβλήματα_NOUN σ_ADP τον_DET ασθενή_NOUN ή_CCONJ να_AUX τον_PRON υποβάλουν_VERB σε_ADP μία_DET ανώφελη_ADJ και_CCONJ επώδυνη_ADJ διαδικασία_NOUN ._PUNCT}
+Predicted: {
+οι_DET εγχειρήσεις_NOUN σ_ADP τα_DET αιμοφόρα_ADJ αγγεία_NOUN ,_PUNCT ενώ_SCONJ πολλές_DET φορές_NOUN μπορεί_VERB να_AUX αποβούν_VERB σωτήριες_ADJ ,_PUNCT κάποιες_DET φορές_NOUN μπορεί_VERB να_AUX δημιουργήσουν_VERB περισσότερα_ADJ προβλήματα_NOUN σ_ADP τον_DET ασθενή_NOUN ή_CCONJ να_AUX τον_PRON υποβάλουν_VERB σε_ADP μία_DET ανώφελη_ADJ και_CCONJ επώδυνη_ADJ διαδικασία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολλές: ADJ | DET
+}
+
+Expected: {
+αυτός_PRON είναι_AUX ,_PUNCT φαντάζομαι_VERB ,_PUNCT ο_DET λόγος_NOUN για_ADP τον_DET οποίο_PRON έχει_AUX περιληφθεί_VERB σ_ADP την_DET έκθεση_NOUN το_DET σημείο_NOUN 11_NUM σχετικά_ADV με_ADP τους_DET ελέγχους_NOUN σ_ADP τα_DET πρόβατα_NOUN ._PUNCT}
+Predicted: {
+αυτός_DET είναι_AUX ,_PUNCT φαντάζομαι_VERB ,_PUNCT ο_DET λόγος_NOUN για_ADP τον_DET οποίο_PRON έχει_AUX περιληφθεί_VERB σ_ADP την_DET έκθεση_NOUN το_DET σημείο_NOUN 11_NUM σχετικά_ADV με_ADP τους_DET ελέγχους_NOUN σ_ADP τα_DET πρόβατα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτός: PRON | DET
+}
+
+Expected: {
+ο_DET τούρκος_ADJ πρωθυπουργός_NOUN τόνισε_VERB επίσης_ADV ότι_SCONJ η_DET χώρα_NOUN του_PRON έχει_AUX ανταποκριθεί_VERB σε_ADP περισσότερα_ADJ από_ADP δέκα_NUM αιτήματα_NOUN των_DET ηπα_NOUN για_ADP εκδόσεις_NOUN πολιτών_NOUN από_ADP την_DET τουρκία_PROPN και_CCONJ περιμένει_VERB από_ADP τις_DET ηπα_NOUN να_AUX δράσουν_VERB αναλόγως_ADV σ_ADP το_DET αίτημα_NOUN που_PRON υποβάλλει_VERB μια_DET "_PUNCT φίλη_NOUN χώρα_NOUN και_CCONJ σύμμαχός_NOUN τους_PRON σ_ADP το_DET νατο_NOUN "_PUNCT ,_PUNCT όπως_ADV επεσήμανε_VERB ο_DET κ._NOUN ερντογάν_PROPN ._PUNCT}
+Predicted: {
+ο_DET τούρκος_ADJ πρωθυπουργός_NOUN τόνισε_VERB επίσης_ADV ότι_SCONJ η_DET χώρα_NOUN του_PRON έχει_VERB ανταποκριθεί_VERB σε_ADP περισσότερα_ADJ από_ADP δέκα_NUM αιτήματα_NOUN των_DET ηπα_NOUN για_ADP εκδόσεις_NOUN πολιτών_NOUN από_ADP την_DET τουρκία_PROPN και_CCONJ περιμένει_VERB από_ADP τις_DET ηπα_NOUN να_AUX δράσουν_VERB αναλόγως_ADV σ_ADP το_DET αίτημα_NOUN που_PRON υποβάλλει_VERB μια_DET "_PUNCT φίλη_NOUN χώρα_NOUN και_CCONJ σύμμαχός_NOUN τους_PRON σ_ADP το_DET νατο_NOUN "_PUNCT ,_PUNCT όπως_ADV επεσήμανε_VERB ο_DET κ._NOUN ερντογάν_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έχει: AUX | VERB
+}
+
+Expected: {
+πρωτεύουσα_NOUN της_DET σίφνου_PROPN είναι_AUX η_DET απολλωνία_PROPN ,_PUNCT ένα_DET γραφικότατο_ADJ χωριό_NOUN ,_PUNCT σ_ADP το_DET κεντρικότερο_ADJ σημείο_NOUN του_DET νησιού_NOUN ,_PUNCT που_PRON οφείλει_VERB το_DET όνομά_NOUN του_PRON σ_ADP το_DET θεό_NOUN απόλλωνα_PROPN ._PUNCT}
+Predicted: {
+πρωτεύουσα_NOUN της_DET σίφνου_PROPN είναι_AUX η_DET απολλωνία_PROPN ,_PUNCT ένα_DET γραφικότατο_ADJ χωριό_NOUN ,_PUNCT σ_ADP το_DET κεντρικότερο_ADJ σημείο_NOUN του_DET νησιού_NOUN ,_PUNCT που_PRON οφείλει_VERB το_DET όνομά_NOUN του_PRON σ_ADP το_DET θεό_ADJ απόλλωνα_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+θεό: NOUN | ADJ
+}
+
+Expected: {
+η_DET αμερικανίδα_PROPN υπουργός_NOUN εξωτερικών_NOUN επεσήμανε_VERB επίσης_ADV ότι_SCONJ "_PUNCT ομάδες_NOUN αρωγής_NOUN σε_ADP θέματα_NOUN σίτισης_NOUN από_ADP τις_DET ηπα_NOUN και_CCONJ τη_DET βόρεια_ADJ κορέα_PROPN πρόκειται_VERB να_AUX συναντηθούν_VERB σ_ADP το_DET άμεσο_ADJ μέλλον_NOUN για_ADP να_AUX ολοκληρώσουν_VERB τις_DET λεπτομέρειες_NOUN σχεδίου_NOUN για_ADP την_DET αποστολή_NOUN 240.000_NUM τόνων_NOUN βοήθειας_NOUN σε_ADP τρόφιμα_NOUN σ_ADP την_DET πιονγκγιάνγκ_X "_PUNCT ._PUNCT}
+Predicted: {
+η_DET αμερικανίδα_PROPN υπουργός_NOUN εξωτερικών_NOUN επεσήμανε_VERB επίσης_ADV ότι_SCONJ "_PUNCT ομάδες_NOUN αρωγής_NOUN σε_ADP θέματα_NOUN σίτισης_NOUN από_ADP τις_DET ηπα_NOUN και_CCONJ τη_DET βόρεια_ADJ κορέα_PROPN πρόκειται_VERB να_AUX συναντηθούν_VERB σ_ADP το_DET άμεσο_ADJ μέλλον_NOUN για_ADP να_AUX ολοκληρώσουν_VERB τις_DET λεπτομέρειες_NOUN σχεδίου_NOUN για_ADP την_DET αποστολή_NOUN 240.000_NUM τόνων_NOUN βοήθειας_NOUN σε_ADP τρόφιμα_NOUN σ_ADP την_DET πιονγκγιάνγκ_PROPN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πιονγκγιάνγκ: X | PROPN
+}
+
+Expected: {
+παράλληλα_ADV ,_PUNCT το_DET φυλάκιο_NOUN έξω_ADV από_ADP την_DET πρεσβεία_NOUN ,_PUNCT καθώς_ADV επίσης_ADV και_CCONJ το_DET κτήριο_NOUN της_DET πρέσβειας_NOUN ,_PUNCT έχουν_AUX δεχτεί_VERB σοβαρές_ADJ ζημιές_NOUN "_PUNCT ,_PUNCT αναφέρει_VERB ο_DET αλααντίν_PROPN γιουκσέλ_PROPN ,_PUNCT κυβερνήτης_NOUN της_DET άγκυρας_PROPN ._PUNCT}
+Predicted: {
+παράλληλα_ADV ,_PUNCT το_DET φυλάκιο_NOUN έξω_ADV από_ADP την_DET πρεσβεία_NOUN ,_PUNCT καθώς_ADV επίσης_ADV και_CCONJ το_DET κτήριο_NOUN της_DET πρέσβειας_NOUN ,_PUNCT έχουν_AUX δεχτεί_VERB σοβαρές_ADJ ζημιές_NOUN "_PUNCT ,_PUNCT αναφέρει_VERB ο_DET αλααντίν_PROPN γιουκσέλ_PROPN ,_PUNCT κυβερνήτης_NOUN της_DET άγκυρας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άγκυρας: PROPN | NOUN
+}
+
+Expected: {
+παρά_ADP το_DET επείγον_ADJ του_DET θέματος_NOUN ,_PUNCT το_DET συμβούλιο_NOUN διαβουλεύθηκε_VERB με_ADP το_DET κοινοβούλιο_NOUN σχετικά_ADV με_ADP τον_DET κανονισμό_NOUN (_PUNCT εκ_NOUN )_PUNCT αριθ._NOUN 2580/2001_NUM ,_PUNCT αλλά_CCONJ οι_DET αλλαγές_NOUN σ_ADP το_DET νομοθετικό_ADJ πλαίσιο_NOUN ,_PUNCT όπου_ADV το_DET συμβούλιο_NOUN διαφυλάττει_VERB τις_DET εκτελεστικές_ADJ αρμοδιότητες_NOUN για_ADP τον_DET εαυτό_NOUN του_PRON ,_PUNCT σύμφωνα_ADV με_ADP το_DET άρθρο_NOUN 202_NUM της_DET συνθήκης_NOUN ,_PUNCT που_PRON επιβεβαιώνεται_VERB από_ADP τη_DET νομολογία_NOUN του_DET ευρωπαϊκού_ADJ δικαστηρίου_NOUN ,_PUNCT δεν_PART το_PRON υποχρεώνουν_VERB να_AUX διαβουλεύεται_VERB με_ADP το_DET κοινοβούλιο_NOUN ._PUNCT}
+Predicted: {
+παρά_ADP το_DET επείγον_NOUN του_DET θέματος_NOUN ,_PUNCT το_DET συμβούλιο_NOUN διαβουλεύθηκε_VERB με_ADP το_DET κοινοβούλιο_NOUN σχετικά_ADV με_ADP τον_DET κανονισμό_NOUN (_PUNCT εκ_NOUN )_PUNCT αριθ._NOUN 2580/2001_NUM ,_PUNCT αλλά_CCONJ οι_DET αλλαγές_NOUN σ_ADP το_DET νομοθετικό_ADJ πλαίσιο_NOUN ,_PUNCT όπου_ADV το_DET συμβούλιο_NOUN διαφυλάττει_VERB τις_DET εκτελεστικές_ADJ αρμοδιότητες_NOUN για_ADP τον_DET εαυτό_NOUN του_PRON ,_PUNCT σύμφωνα_ADV με_ADP το_DET άρθρο_NOUN 202_NUM της_DET συνθήκης_NOUN ,_PUNCT που_PRON επιβεβαιώνεται_VERB από_ADP τη_DET νομολογία_NOUN του_DET ευρωπαϊκού_ADJ δικαστηρίου_NOUN ,_PUNCT δεν_PART το_PRON υποχρεώνουν_VERB να_AUX διαβουλεύεται_VERB με_ADP το_DET κοινοβούλιο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+επείγον: ADJ | NOUN
+}
+
+Expected: {
+η_DET συμφωνία_NOUN θα_AUX στηρίξει_VERB το_DET ευρώ_NOUN -_PUNCT γιατί_ADV τι_PRON είναι_AUX το_DET ενιαίο_ADJ νόμισμα_NOUN αν_SCONJ οι_DET αγορές_NOUN σ_ADP τις_DET οποίες_PRON κυκλοφορεί_VERB χωρίζονται_VERB ακόμη_ADV από_ADP εθνικούς_ADJ φραγμούς_NOUN ;_PUNCT}
+Predicted: {
+η_DET συμφωνία_NOUN θα_AUX στηρίξει_VERB το_DET ευρώ_NOUN -_PUNCT γιατί_SCONJ τι_PRON είναι_AUX το_DET ενιαίο_ADJ νόμισμα_NOUN αν_SCONJ οι_DET αγορές_NOUN σ_ADP τις_DET οποίες_PRON κυκλοφορεί_VERB χωρίζονται_VERB ακόμη_ADV από_ADP εθνικούς_ADJ φραγμούς_NOUN ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+γιατί: ADV | SCONJ
+}
+
+Expected: {
+ο_DET ποταμός_NOUN αχέροντας_PROPN αποτελούσε_VERB κατά_ADP τη_DET μυθολογία_NOUN το_DET δρόμο_NOUN μέσω_ADP του_DET οποίου_PRON ο_DET άδης_PROPN μετέφερε_VERB τις_DET ψυχές_NOUN σ_ADP το_DET βασίλειό_NOUN του_PRON ,_PUNCT σ_ADP τη_DET λίμνη_NOUN αχερουσία_PROPN ._PUNCT}
+Predicted: {
+ο_DET ποταμός_NOUN αχέροντας_PROPN αποτελούσε_VERB κατά_ADP τη_DET μυθολογία_NOUN το_DET δρόμο_NOUN μέσω_ADP του_DET οποίου_PRON ο_DET άδης_PROPN μετέφερε_VERB τις_DET ψυχές_NOUN σ_ADP το_DET βασίλειό_NOUN του_PRON ,_PUNCT σ_ADP τη_DET λίμνη_NOUN αχερουσία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αχερουσία: PROPN | NOUN
+}
+
+Expected: {
+οι_DET σουνίτες_NOUN διαδηλώνουν_VERB κατά_ADP της_DET κυβέρνησης_NOUN του_DET νούρι_PROPN αλ_X μάλικι_PROPN ,_PUNCT ο_DET οποίος_PRON ανήκει_VERB σ_ADP την_DET πλειοψηφία_NOUN των_DET σιίτων_PROPN ,_PUNCT ότι_SCONJ περιθωριοποιεί_VERB τους_DET ηγέτες_NOUN της_DET σουνιτικής_ADJ μειοψηφίας_NOUN ._PUNCT}
+Predicted: {
+οι_DET σουνίτες_NOUN διαδηλώνουν_VERB κατά_ADP της_DET κυβέρνησης_NOUN του_DET νούρι_NOUN αλ_X μάλικι_X ,_PUNCT ο_DET οποίος_PRON ανήκει_VERB σ_ADP την_DET πλειοψηφία_NOUN των_DET σιίτων_PROPN ,_PUNCT ότι_SCONJ περιθωριοποιεί_VERB τους_DET ηγέτες_NOUN της_DET σουνιτικής_ADJ μειοψηφίας_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+νούρι: PROPN | NOUN
+μάλικι: PROPN | X
+}
+
+Expected: {
+το_DET κέντρο_NOUN ανεφοδιασμού_NOUN που_PRON βρίσκεται_VERB κοντά_ADV σ_ADP την_DET πρωτεύουσα_NOUN της_DET κιργισίας_PROPN ήταν_AUX το_DET βασικό_ADJ σημείο_NOUN εισόδου_NOUN και_CCONJ εξόδου_NOUN των_DET συμμαχικών_ADJ δυνάμεων_NOUN σ_ADP το_DET αφγανιστάν_X ._PUNCT}
+Predicted: {
+το_DET κέντρο_NOUN ανεφοδιασμού_NOUN που_PRON βρίσκεται_VERB κοντά_ADV σ_ADP την_DET πρωτεύουσα_NOUN της_DET κιργισίας_NOUN ήταν_AUX το_DET βασικό_ADJ σημείο_NOUN εισόδου_NOUN και_CCONJ εξόδου_NOUN των_DET συμμαχικών_ADJ δυνάμεων_NOUN σ_ADP το_DET αφγανιστάν_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κιργισίας: PROPN | NOUN
+}
+
+Expected: {
+πιστεύω_VERB ότι_SCONJ το_DET ένταλμα_NOUN για_ADP το_DET οποίο_PRON εργαζόμαστε_VERB μπορεί_VERB να_AUX είναι_AUX ,_PUNCT τουλάχιστον_ADV ,_PUNCT πρακτικό_ADJ και_CCONJ να_AUX μας_PRON οδηγήσει_VERB σε_ADP θετικά_ADJ αποτελέσματα_NOUN ._PUNCT}
+Predicted: {
+πιστεύω_VERB ότι_SCONJ το_DET ένταλμα_NOUN για_ADP το_DET οποίο_PRON εργαζόμαστε_VERB μπορεί_VERB να_AUX είναι_AUX ,_PUNCT τουλάχιστον_ADV ,_PUNCT πρακτικό_NOUN και_CCONJ να_AUX μας_PRON οδηγήσει_VERB σε_ADP θετικά_ADJ αποτελέσματα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πρακτικό: ADJ | NOUN
+}
+
+Expected: {
+επίσης_ADV ,_PUNCT οι_DET αρνητικές_ADJ τάσεις_NOUN σ_ADP την_DET οικονομική_ADJ συγκυρία_NOUN δεν_PART πρέπει_AUX να_AUX χρησιμοποιούνται_VERB ως_ADV άλλοθι_NOUN ,_PUNCT επιδιώκοντας_VERB τη_DET χαλάρωση_NOUN αυτών_DET των_DET δεσμεύσεων_NOUN ._PUNCT}
+Predicted: {
+επίσης_ADV ,_PUNCT οι_DET αρνητικές_ADJ τάσεις_NOUN σ_ADP την_DET οικονομική_ADJ συγκυρία_NOUN δεν_PART πρέπει_AUX να_AUX χρησιμοποιούνται_VERB ως_ADV άλλοθι_DET ,_PUNCT επιδιώκοντας_VERB τη_DET χαλάρωση_NOUN αυτών_DET των_DET δεσμεύσεων_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άλλοθι: NOUN | DET
+}
+
+Expected: {
+με_ADP μεγάλη_ADJ πλειοψηφία_NOUN εγκρίθηκε_VERB από_ADP τη_DET γενική_ADJ συνέλευση_NOUN του_DET συμβουλίου_NOUN της_DET ευρώπης_PROPN σ_ADP το_DET στρασβούργο_PROPN η_DET έκθεση_NOUN της_DET ολλανδής_PROPN βουλευτού_NOUN ,_PUNCT κυρίας_NOUN strick_X ,_PUNCT για_ADP το_DET μεταναστευτικό_ADJ σ_ADP την_DET ελλάδα_PROPN ._PUNCT}
+Predicted: {
+με_ADP μεγάλη_ADJ πλειοψηφία_NOUN εγκρίθηκε_VERB από_ADP τη_DET γενική_ADJ συνέλευση_NOUN του_DET συμβουλίου_NOUN της_DET ευρώπης_PROPN σ_ADP το_DET στρασβούργο_PROPN η_DET έκθεση_NOUN της_DET ολλανδής_ADJ βουλευτού_NOUN ,_PUNCT κυρίας_NOUN strick_X ,_PUNCT για_ADP το_DET μεταναστευτικό_NOUN σ_ADP την_DET ελλάδα_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ολλανδής: PROPN | ADJ
+μεταναστευτικό: ADJ | NOUN
+}
+
+Expected: {
+ο_DET αμερικανός_PROPN πρόεδρος_NOUN επισήμανε_VERB ότι_SCONJ το_DET πρόγραμμα_NOUN ,_PUNCT που_PRON θα_AUX πραγματοποιηθεί_VERB εν_ADP μέσω_ADP άλλων_DET περικοπών_NOUN ,_PUNCT αποτελεί_VERB μεγάλη_ADJ επένδυση_NOUN για_ADP το_DET μέλλον_NOUN των_DET ηνωμένων_ADJ πολιτειών_NOUN ._PUNCT}
+Predicted: {
+ο_DET αμερικανός_ADJ πρόεδρος_NOUN επισήμανε_VERB ότι_SCONJ το_DET πρόγραμμα_NOUN ,_PUNCT που_PRON θα_AUX πραγματοποιηθεί_VERB εν_ADP μέσω_ADP άλλων_DET περικοπών_NOUN ,_PUNCT αποτελεί_VERB μεγάλη_ADJ επένδυση_NOUN για_ADP το_DET μέλλον_NOUN των_DET ηνωμένων_ADJ πολιτειών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αμερικανός: PROPN | ADJ
+}
+
+Expected: {
+η_DET βεατρίκη_PROPN της_DET ολλανδίας_PROPN ανακοίνωσε_VERB πρόσφατα_ADV ότι_SCONJ θα_AUX παραιτηθεί_VERB από_ADP το_DET θρόνο_NOUN της_DET χώρας_NOUN σ_ADP τις_DET 30_NUM απριλίου_PROPN και_CCONJ πως_SCONJ διάδοχός_NOUN της_PRON θα_AUX είναι_AUX ο_DET πρίγκηπας_NOUN γουλιέλμος_PROPN -_PUNCT αλέξανδρος_PROPN ._PUNCT}
+Predicted: {
+η_DET βεατρίκη_NOUN της_DET ολλανδίας_PROPN ανακοίνωσε_VERB πρόσφατα_ADV ότι_SCONJ θα_AUX παραιτηθεί_VERB από_ADP το_DET θρόνο_NOUN της_DET χώρας_NOUN σ_ADP τις_DET 30_NUM απριλίου_PROPN και_CCONJ πως_SCONJ διάδοχός_NOUN της_PRON θα_AUX είναι_AUX ο_DET πρίγκηπας_NOUN γουλιέλμος_PROPN -_PUNCT αλέξανδρος_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+βεατρίκη: PROPN | NOUN
+}
+
+Expected: {
+ευχόμαστε_VERB να_AUX μπορέσουν_VERB να_AUX συζητηθούν_VERB εκεί_ADV ,_PUNCT θεωρώντας_VERB ότι_SCONJ θα_AUX έχουν_AUX ήδη_ADV πραγματοποιηθεί_VERB ,_PUNCT οι_DET διαδικασίες_NOUN που_PRON αναφέρθηκαν_VERB προηγουμένως_ADV και_CCONJ να_AUX μπορέσουμε_VERB να_AUX βρούμε_VERB και_CCONJ με_ADP τους_DET πολίτες_NOUN της_DET ερυθραίας_PROPN τον_DET τρόπο_NOUN να_AUX ξεκινήσουμε_VERB την_DET ειρηνευτική_ADJ διαδικασία_NOUN ,_PUNCT να_AUX αποκατασταθεί_VERB η_DET δημοκρατία_NOUN και_CCONJ ιδιαίτερα_ADV να_AUX αποδοθούν_VERB εκ_ADP νέου_ADV σ_ADP τους_DET πολίτες_NOUN ,_PUNCT γυναίκες_NOUN ,_PUNCT άνδρες_NOUN και_CCONJ παιδιά_NOUN ,_PUNCT συνθήκες_NOUN ζωής_NOUN αποδεκτές_ADJ ,_PUNCT συνθήκες_NOUN για_ADP τις_DET οποίες_PRON κανείς_PRON μας_PRON δεν_PART θα_AUX πρέπει_AUX να_AUX ντρέπεται_VERB ._PUNCT}
+Predicted: {
+ευχόμαστε_VERB να_AUX μπορέσουν_VERB να_AUX συζητηθούν_VERB εκεί_ADV ,_PUNCT θεωρώντας_VERB ότι_SCONJ θα_AUX έχουν_AUX ήδη_ADV πραγματοποιηθεί_VERB ,_PUNCT οι_DET διαδικασίες_NOUN που_PRON αναφέρθηκαν_VERB προηγουμένως_ADV και_CCONJ να_AUX μπορέσουμε_VERB να_AUX βρούμε_VERB και_CCONJ με_ADP τους_DET πολίτες_NOUN της_DET ερυθραίας_PROPN τον_DET τρόπο_NOUN να_AUX ξεκινήσουμε_VERB την_DET ειρηνευτική_ADJ διαδικασία_NOUN ,_PUNCT να_AUX αποκατασταθεί_VERB η_DET δημοκρατία_NOUN και_CCONJ ιδιαίτερα_ADV να_AUX αποδοθούν_VERB εκ_ADP νέου_ADJ σ_ADP τους_DET πολίτες_NOUN ,_PUNCT γυναίκες_NOUN ,_PUNCT άνδρες_NOUN και_CCONJ παιδιά_NOUN ,_PUNCT συνθήκες_NOUN ζωής_NOUN αποδεκτές_ADJ ,_PUNCT συνθήκες_NOUN για_ADP τις_DET οποίες_PRON κανείς_PRON μας_PRON δεν_PART θα_AUX πρέπει_AUX να_AUX ντρέπεται_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+νέου: ADV | ADJ
+}
+
+Expected: {
+ο_DET πάπας_NOUN ιωάννης_PROPN παύλος_PROPN σε_ADP μήνυμά_NOUN του_PRON δήλωσε_VERB ότι_SCONJ προσεύχεται_VERB για_ADP τα_DET θύματα_NOUN ,_PUNCT μεταξύ_ADP των_DET οποίων_PRON συγκαταλέγονται_VERB δυστυχώς_ADV και_CCONJ αρκετά_ADJ παιδιά_NOUN και_CCONJ νεογνά_NOUN ._PUNCT}
+Predicted: {
+ο_DET πάπας_NOUN ιωάννης_PROPN παύλος_PROPN σε_ADP μήνυμά_NOUN του_DET δήλωσε_VERB ότι_SCONJ προσεύχεται_VERB για_ADP τα_DET θύματα_NOUN ,_PUNCT μεταξύ_ADP των_DET οποίων_PRON συγκαταλέγονται_VERB δυστυχώς_ADV και_CCONJ αρκετά_ADJ παιδιά_NOUN και_CCONJ νεογνά_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+}
+
+Expected: {
+για_ADP το_DET λόγο_NOUN αυτό_DET ,_PUNCT θα_AUX υποβάλω_VERB μια_DET προφορική_ADJ τροπολογία_NOUN ,_PUNCT την_DET οποία_PRON από_ADP όσο_ADV γνωρίζω_VERB εγκρίνει_VERB η_DET ομάδα_NOUN του_DET κόμματος_NOUN των_DET ευρωπαίων_PROPN σοσιαλιστών_NOUN ,_PUNCT να_AUX μεταβληθεί_VERB το_DET 2004_NUM σε_ADP 2003_NUM ._PUNCT}
+Predicted: {
+για_ADP το_DET λόγο_NOUN αυτό_DET ,_PUNCT θα_AUX υποβάλω_VERB μια_DET προφορική_ADJ τροπολογία_NOUN ,_PUNCT την_DET οποία_PRON από_ADP όσο_ADV γνωρίζω_VERB εγκρίνει_VERB η_DET ομάδα_NOUN του_DET κόμματος_NOUN των_DET ευρωπαίων_PROPN σοσιαλιστών_NOUN ,_PUNCT να_AUX μεταβληθεί_VERB το_DET 2004_NOUN σε_ADP 2003_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+2004: NUM | NOUN
+2003: NUM | NOUN
+}
+
+Expected: {
+κύριε_NOUN πρόεδρε_NOUN ,_PUNCT κύριε_NOUN προεδρεύοντα_NOUN του_DET συμβουλίου_NOUN ,_PUNCT κύριε_NOUN πρόεδρε_NOUN της_DET επιτροπής_NOUN ,_PUNCT κυρίες_NOUN και_CCONJ κύριοι_NOUN ,_PUNCT καταρχάς_ADV ,_PUNCT ευχαριστώ_VERB την_DET ισπανική_ADJ προεδρία_NOUN για_ADP την_DET ευθύτητα_NOUN με_ADP την_DET οποία_PRON παρουσιάζεται_VERB εδώ_ADV ,_PUNCT ακολουθώντας_VERB κάτι_PRON που_PRON αποτελεί_VERB πλέον_ADV έθιμο_NOUN ,_PUNCT και_CCONJ επισημαίνω_VERB ότι_SCONJ έχουμε_AUX περάσει_VERB τον_DET ισημερινό_ADJ της_DET νομοθετικής_ADJ περιόδου_NOUN με_ADP μια_DET σαφώς_ADV συντηρητική_ADJ στροφή_NOUN σ_ADP το_DET συμβούλιο_NOUN ,_PUNCT το_DET οποίο_PRON ,_PUNCT κύριε_NOUN πρόεδρε_NOUN ,_PUNCT ανακόπτεται_VERB από_ADP την_DET ιδιότητά_NOUN σας_PRON ως_ADV προέδρου_NOUN της_DET χδδ_NOUN -_PUNCT της_DET κεντρώας_ADJ δημοκρατικής_ADJ διεθνούς_ADJ ,_PUNCT για_ADP εσάς_PRON ,_PUNCT χριστιανοδημοκρατικής_ADJ διεθνούς_ADJ για_ADP τον_DET κ._NOUN poettering_X ·_PUNCT}
+Predicted: {
+κύριε_NOUN πρόεδρε_NOUN ,_PUNCT κύριε_NOUN προεδρεύοντα_NOUN του_DET συμβουλίου_NOUN ,_PUNCT κύριε_NOUN πρόεδρε_NOUN της_DET επιτροπής_NOUN ,_PUNCT κυρίες_NOUN και_CCONJ κύριοι_NOUN ,_PUNCT καταρχάς_ADV ,_PUNCT ευχαριστώ_VERB την_DET ισπανική_ADJ προεδρία_NOUN για_ADP την_DET ευθύτητα_NOUN με_ADP την_DET οποία_PRON παρουσιάζεται_VERB εδώ_ADV ,_PUNCT ακολουθώντας_VERB κάτι_DET που_PRON αποτελεί_VERB πλέον_ADV έθιμο_NOUN ,_PUNCT και_CCONJ επισημαίνω_VERB ότι_SCONJ έχουμε_AUX περάσει_VERB τον_DET ισημερινό_ADJ της_DET νομοθετικής_ADJ περιόδου_NOUN με_ADP μια_DET σαφώς_ADV συντηρητική_ADJ στροφή_NOUN σ_ADP το_DET συμβούλιο_NOUN ,_PUNCT το_DET οποίο_PRON ,_PUNCT κύριε_NOUN πρόεδρε_NOUN ,_PUNCT ανακόπτεται_VERB από_ADP την_DET ιδιότητά_NOUN σας_PRON ως_ADV προέδρου_NOUN της_DET χδδ_X -_PUNCT της_DET κεντρώας_ADJ δημοκρατικής_ADJ διεθνούς_ADJ ,_PUNCT για_ADP εσάς_PRON ,_PUNCT χριστιανοδημοκρατικής_ADJ διεθνούς_ADJ για_ADP τον_DET κ._NOUN poettering_X ·_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάτι: PRON | DET
+χδδ: NOUN | X
+}
+
+Expected: {
+με_ADP την_DET αργεντινή_PROPN οι_DET ευρωπαίοι_PROPN έχουμε_VERB ιστορικούς_ADJ δεσμούς_NOUN και_CCONJ χρέη_NOUN έναντι_ADP όσων_PRON κατέφυγαν_VERB εκεί_ADV για_ADP να_AUX γλιτώσουν_VERB από_ADP την_DET πείνα_NOUN ή_CCONJ την_DET καταπίεση_NOUN ._PUNCT}
+Predicted: {
+με_ADP την_DET αργεντινή_ADJ οι_DET ευρωπαίοι_ADJ έχουμε_VERB ιστορικούς_ADJ δεσμούς_NOUN και_CCONJ χρέη_NOUN έναντι_ADP όσων_PRON κατέφυγαν_VERB εκεί_ADV για_ADP να_AUX γλιτώσουν_VERB από_ADP την_DET πείνα_NOUN ή_CCONJ την_DET καταπίεση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αργεντινή: PROPN | ADJ
+ευρωπαίοι: PROPN | ADJ
+}
+
+Expected: {
+μιλήστε_VERB μαζί_ADV μας_PRON ,_PUNCT σπείρετε_VERB και_CCONJ καλλιεργείστε_VERB ,_PUNCT εκτός_ADV από_ADP το_DET να_AUX θερίζετε_VERB ._PUNCT (_PUNCT χειροκροτήματα_NOUN )_PUNCT}
+Predicted: {
+μιλήστε_VERB μαζί_ADV μας_PRON ,_PUNCT σπείρετε_VERB και_CCONJ καλλιεργείστε_VERB ,_PUNCT εκτός_ADV από_ADP το_DET να_SCONJ θερίζετε_VERB ._PUNCT (_PUNCT χειροκροτήματα_NOUN )_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+συμφωνώ_VERB με_ADP αυτήν_PRON ,_PUNCT όμως_CCONJ θεωρώ_VERB εξαιρετικά_ADV σημαντικό_ADJ να_AUX εξετάζονται_VERB οι_DET υποψήφιοι_ADJ μετά_ADV από_ADP την_DET εκπαίδευσή_NOUN τους_PRON με_ADP τον_DET κατάλληλο_ADJ τρόπο_NOUN και_CCONJ να_AUX λαμβάνεται_VERB υπόψη_ADV η_DET καθημερινή_ADJ πρακτική_ADJ κατά_ADP την_DET περαιτέρω_ADV μετεκπαίδευσή_NOUN τους_PRON ._PUNCT}
+Predicted: {
+συμφωνώ_VERB με_ADP αυτήν_PRON ,_PUNCT όμως_CCONJ θεωρώ_VERB εξαιρετικά_ADV σημαντικό_ADJ να_AUX εξετάζονται_VERB οι_DET υποψήφιοι_NOUN μετά_ADV από_ADP την_DET εκπαίδευσή_NOUN τους_PRON με_ADP τον_DET κατάλληλο_ADJ τρόπο_NOUN και_CCONJ να_AUX λαμβάνεται_VERB υπόψη_ADV η_DET καθημερινή_ADJ πρακτική_ADJ κατά_ADP την_DET περαιτέρω_ADV μετεκπαίδευσή_NOUN τους_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+υποψήφιοι: ADJ | NOUN
+}
+
+Expected: {
+ο_DET πρόεδρος_NOUN των_DET ηπα_NOUN ,_PUNCT μπαράκ_PROPN ομπάμα_PROPN ,_PUNCT δήλωσε_VERB ότι_SCONJ "_PUNCT η_DET ομοσπονδιακή_ADJ υπηρεσία_NOUN αντιμετώπισης_NOUN εκτάκτων_ADJ καταστάσεων_NOUN θα_AUX προσφέρει_VERB βοήθεια_NOUN σε_ADP κάθε_DET πολιτεία_NOUN εάν_SCONJ αυτό_PRON θεωρηθεί_VERB αναγκαίο_ADJ "_PUNCT ._PUNCT}
+Predicted: {
+ο_DET πρόεδρος_NOUN των_DET ηπα_NOUN ,_PUNCT μπαράκ_PROPN ομπάμα_PROPN ,_PUNCT δήλωσε_VERB ότι_SCONJ "_PUNCT η_DET ομοσπονδιακή_ADJ υπηρεσία_NOUN αντιμετώπισης_NOUN εκτάκτων_NOUN καταστάσεων_NOUN θα_AUX προσφέρει_VERB βοήθεια_NOUN σε_ADP κάθε_DET πολιτεία_NOUN εάν_SCONJ αυτό_PRON θεωρηθεί_VERB αναγκαίο_ADJ "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+εκτάκτων: ADJ | NOUN
+}
+
+Expected: {
+είχε_AUX γίνει_VERB αντικείμενο_NOUN δρυμείας_ADJ κριτικής_NOUN για_ADP τις_DET δηλώσεις_NOUN του_PRON τα_DET τελευταία_ADJ χρόνια_NOUN ,_PUNCT σ_ADP τις_DET οποίες_PRON κατέκρινε_VERB τις_DET δημόσιες_ADJ διαδηλώσεις_NOUN εναντίον_ADP του_DET μουμπάρακ_X ._PUNCT}
+Predicted: {
+είχε_AUX γίνει_VERB αντικείμενο_NOUN δρυμείας_NOUN κριτικής_NOUN για_ADP τις_DET δηλώσεις_NOUN του_PRON τα_DET τελευταία_ADJ χρόνια_NOUN ,_PUNCT σ_ADP τις_DET οποίες_PRON κατέκρινε_VERB τις_DET δημόσιες_ADJ διαδηλώσεις_NOUN εναντίον_ADP του_DET μουμπάρακ_X ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δρυμείας: ADJ | NOUN
+}
+
+Expected: {
+όταν_SCONJ μετά_ADP το_DET 2004_NUM -_PUNCT το_DET πρόγραμμα_NOUN φθάνει_VERB μέχρι_ADP το_DET 2007_NUM -_PUNCT θα_AUX προστεθούν_VERB νέες_ADJ υποψήφιες_ADJ χώρες_NOUN ,_PUNCT οι_DET πόροι_NOUN του_DET προγράμματος_NOUN θα_AUX πρέπει_AUX να_AUX αυξηθούν_VERB ._PUNCT}
+Predicted: {
+όταν_SCONJ μετά_ADV το_DET 2004_NOUN -_PUNCT το_DET πρόγραμμα_NOUN φθάνει_VERB μέχρι_ADP το_DET 2007_NUM -_PUNCT θα_AUX προστεθούν_VERB νέες_ADJ υποψήφιες_ADJ χώρες_NOUN ,_PUNCT οι_DET πόροι_NOUN του_DET προγράμματος_NOUN θα_AUX πρέπει_AUX να_AUX αυξηθούν_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μετά: ADP | ADV
+2004: NUM | NOUN
+}
+
+Expected: {
+χαίρομαι_VERB για_ADP την_DET έκθεση_NOUN του_DET κ._NOUN gahrton_X ,_PUNCT επειδή_SCONJ αποτελεί_VERB καίρια_ADJ και_CCONJ χρήσιμη_ADJ συμβολή_NOUN σ_ADP τους_DET προβληματισμούς_NOUN μας_PRON σχετικά_ADV με_ADP την_DET αρμενία_PROPN ,_PUNCT τη_DET γεωργία_PROPN και_CCONJ το_DET αζερμπαϊτζάν_X ,_PUNCT τρεις_NUM χώρες_NOUN ,_PUNCT μέλη_NOUN σήμερα_ADV του_DET συμβουλίου_NOUN της_DET ευρώπης_PROPN ,_PUNCT που_PRON δεν_PART έχουν_AUX φθάσει_VERB σ_ADP το_DET επίπεδο_NOUN πολιτικής_ADJ και_CCONJ οικονομικής_ADJ ανάπτυξης_NOUN το_DET οποίο_PRON επιθυμούν_VERB και_CCONJ το_DET οποίο_PRON και_CCONJ εμείς_PRON τους_PRON ευχόμαστε_VERB ._PUNCT}
+Predicted: {
+χαίρομαι_VERB για_ADP την_DET έκθεση_NOUN του_DET κ._NOUN gahrton_X ,_PUNCT επειδή_SCONJ αποτελεί_VERB καίρια_ADJ και_CCONJ χρήσιμη_ADJ συμβολή_NOUN σ_ADP τους_DET προβληματισμούς_NOUN μας_PRON σχετικά_ADV με_ADP την_DET αρμενία_PROPN ,_PUNCT τη_DET γεωργία_PROPN και_CCONJ το_DET αζερμπαϊτζάν_X ,_PUNCT τρεις_NUM χώρες_NOUN ,_PUNCT μέλη_NOUN σήμερα_ADV του_DET συμβουλίου_NOUN της_DET ευρώπης_PROPN ,_PUNCT που_PRON δεν_PART έχουν_VERB φθάσει_VERB σ_ADP το_DET επίπεδο_NOUN πολιτικής_ADJ και_CCONJ οικονομικής_ADJ ανάπτυξης_NOUN το_DET οποίο_PRON επιθυμούν_VERB και_CCONJ το_DET οποίο_PRON και_CCONJ εμείς_PRON τους_PRON ευχόμαστε_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+έχουν: AUX | VERB
+}
+
+Expected: {
+ο_DET κ._NOUN gahrton_X εφιστά_VERB την_DET προσοχή_NOUN μας_PRON σε_ADP ορισμένα_ADJ από_ADP τα_DET μέσα_NOUN που_PRON έχουμε_AUX χρησιμοποιήσει_VERB σε_ADP άλλα_DET μέρη_NOUN και_CCONJ συνιστά_VERB να_AUX τα_PRON εφαρμόσουμε_VERB σ_ADP τον_DET νότιο_ADJ καύκασο_PROPN :_PUNCT κοινή_ADJ στρατηγική_NOUN ,_PUNCT σύμφωνο_NOUN σταθερότητας_NOUN ,_PUNCT ειδικό_ADJ απεσταλμένο_NOUN και_CCONJ άλλα_PRON ._PUNCT}
+Predicted: {
+ο_DET κ._NOUN gahrton_X εφιστά_VERB την_DET προσοχή_NOUN μας_PRON σε_ADP ορισμένα_ADJ από_ADP τα_DET μέσα_NOUN που_PRON έχουμε_AUX χρησιμοποιήσει_VERB σε_ADP άλλα_DET μέρη_NOUN και_CCONJ συνιστά_VERB να_AUX τα_PRON εφαρμόσουμε_VERB σ_ADP τον_DET νότιο_ADJ καύκασο_PROPN :_PUNCT κοινή_ADJ στρατηγική_NOUN ,_PUNCT σύμφωνο_NOUN σταθερότητας_NOUN ,_PUNCT ειδικό_ADJ απεσταλμένο_ADJ και_CCONJ άλλα_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+απεσταλμένο: NOUN | ADJ
+}
+
+Expected: {
+εκεί_ADV δε_ADV που_ADV δεν_PART εκπροσωπούνται_VERB οι_DET μικρές_ADJ ομάδες_NOUN πρέπει_AUX να_AUX τους_PRON δοθούν_VERB θέσεις_NOUN παρατηρητών_NOUN ._PUNCT}
+Predicted: {
+εκεί_ADV δε_PART που_PRON δεν_PART εκπροσωπούνται_VERB οι_DET μικρές_ADJ ομάδες_NOUN πρέπει_AUX να_AUX τους_PRON δοθούν_VERB θέσεις_NOUN παρατηρητών_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δε: ADV | PART
+που: ADV | PRON
+}
+
+Expected: {
+η_DET ρωσία_PROPN προέβη_VERB σ_ADP τις_DET δριμύτερες_ADJ ,_PUNCT μέχρι_ADP τώρα_ADV ,_PUNCT επικρίσεις_NOUN της_PRON προς_ADP τον_DET πρόεδρο_NOUN της_DET συρίας_PROPN ,_PUNCT μπασάρ_PROPN αλ_X άσαντ_PROPN ,_PUNCT λέγοντας_VERB ότι_SCONJ "_PUNCT έχει_AUX διαπράξει_VERB ενδεχομένως_ADV θανάσιμο_ADJ σφάλμα_NOUN με_ADP το_DET να_AUX καθυστερήσει_VERB τις_DET μεταρρυθμίσεις_NOUN που_PRON ζητά_VERB η_DET αντιπολίτευση_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+η_DET ρωσία_PROPN προέβη_VERB σ_ADP τις_DET δριμύτερες_NOUN ,_PUNCT μέχρι_ADP τώρα_ADV ,_PUNCT επικρίσεις_NOUN της_PRON προς_ADP τον_DET πρόεδρο_NOUN της_DET συρίας_PROPN ,_PUNCT μπασάρ_PROPN αλ_X άσαντ_PROPN ,_PUNCT λέγοντας_VERB ότι_SCONJ "_PUNCT έχει_AUX διαπράξει_VERB ενδεχομένως_ADV θανάσιμο_ADJ σφάλμα_NOUN με_ADP το_DET να_AUX καθυστερήσει_VERB τις_DET μεταρρυθμίσεις_NOUN που_PRON ζητά_VERB η_DET αντιπολίτευση_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δριμύτερες: ADJ | NOUN
+}
+
+Expected: {
+η_DET μία_DET ημέρα_NOUN ,_PUNCT που_PRON αντιστοιχεί_VERB σε_ADP 0,05%_NUM εργάσιμου_ADJ χρόνου_NOUN για_ADP έναν_DET εργαζόμενο_NOUN ,_PUNCT πιστεύουμε_VERB ότι_SCONJ δεν_PART είναι_AUX υπερβολική_ADJ ._PUNCT}
+Predicted: {
+η_DET μία_DET ημέρα_NOUN ,_PUNCT που_PRON αντιστοιχεί_VERB σε_ADP 0,05%_NUM εργάσιμου_NOUN χρόνου_NOUN για_ADP έναν_DET εργαζόμενο_NOUN ,_PUNCT πιστεύουμε_VERB ότι_SCONJ δεν_PART είναι_AUX υπερβολική_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+εργάσιμου: ADJ | NOUN
+}
+
+Expected: {
+όπως_ADV ανέφεραν_VERB ,_PUNCT "_PUNCT οι_DET συμπλοκές_NOUN ξέσπασαν_VERB σ_ADP την_DET επαρχία_NOUN αμπιγιάν_X ,_PUNCT όταν_SCONJ οι_DET ένοπλοι_ADJ πυροδότησαν_VERB αυτοκίνητα_NOUN παγιδευμένα_VERB με_ADP εκρηκτικά_NOUN και_CCONJ κατέλαβαν_VERB στρατιωτικό_ADJ φυλάκιο_NOUN σ_ADP την_DET περιοχή_NOUN κουντ_X κοντά_ADV σ_ADP την_DET πρωτεύουσα_NOUN της_DET επαρχίας_NOUN ζίνζιμπαρ_X "_PUNCT ._PUNCT}
+Predicted: {
+όπως_ADV ανέφεραν_VERB ,_PUNCT "_PUNCT οι_DET συμπλοκές_ADJ ξέσπασαν_VERB σ_ADP την_DET επαρχία_NOUN αμπιγιάν_PROPN ,_PUNCT όταν_SCONJ οι_DET ένοπλοι_ADJ πυροδότησαν_VERB αυτοκίνητα_NOUN παγιδευμένα_VERB με_ADP εκρηκτικά_NOUN και_CCONJ κατέλαβαν_VERB στρατιωτικό_ADJ φυλάκιο_NOUN σ_ADP την_DET περιοχή_NOUN κουντ_PROPN κοντά_ADV σ_ADP την_DET πρωτεύουσα_NOUN της_DET επαρχίας_NOUN ζίνζιμπαρ_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+συμπλοκές: NOUN | ADJ
+αμπιγιάν: X | PROPN
+κουντ: X | PROPN
+ζίνζιμπαρ: X | NOUN
+}
+
+Expected: {
+όσον_ADV αφορά_VERB τη_DET θεματική_ADJ του_DET φακέλου_NOUN με_ADP τα_DET στοιχεία_NOUN που_PRON συνέλεξε_VERB ο_DET κ._NOUN van_X buitenen_X ,_PUNCT έχω_VERB να_AUX επισημάνω_VERB ότι_SCONJ ο_DET ίδιος_ADJ ο_DET κ._NOUN van_X buitenen_X επέμεινε_VERB να_AUX υπάρξουν_VERB μόνο_ADV λίγα_ADJ αντίτυπα_NOUN ._PUNCT}
+Predicted: {
+όσον_ADV αφορά_VERB τη_DET θεματική_ADJ του_PRON φακέλου_NOUN με_ADP τα_DET στοιχεία_NOUN που_PRON συνέλεξε_VERB ο_DET κ._NOUN van_X buitenen_X ,_PUNCT έχω_VERB να_AUX επισημάνω_VERB ότι_SCONJ ο_DET ίδιος_ADJ ο_DET κ._NOUN van_X buitenen_X επέμεινε_VERB να_AUX υπάρξουν_VERB μόνο_ADV λίγα_ADJ αντίτυπα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: DET | PRON
+}
+
+Expected: {
+με_ADP αυτή_DET την_DET απόφαση_NOUN ενισχύθηκαν_VERB για_ADP ακόμη_ADV μια_NUM φορά_NOUN η_DET olaf_X και_CCONJ ο_DET ρόλος_NOUN που_PRON διαδραματίζει_VERB ._PUNCT}
+Predicted: {
+με_ADP αυτή_DET την_DET απόφαση_NOUN ενισχύθηκαν_VERB για_ADP ακόμη_ADV μια_DET φορά_NOUN η_DET olaf_X και_CCONJ ο_DET ρόλος_NOUN που_PRON διαδραματίζει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μια: NUM | DET
+}
+
+Expected: {
+έτσι_ADV όταν_SCONJ περί_ADP το_DET τέλος_NOUN του_DET 19ου_ADJ αιώνα_NOUN η_DET οθωμανική_ADJ αυτοκρατορία_NOUN άρχισε_VERB να_AUX δείχνει_VERB σημεία_NOUN παρακμής_NOUN οι_DET μεγάλες_ADJ δυνάμεις_NOUN της_DET εποχής_NOUN άρχισαν_VERB να_AUX συνειδητοποιούν_VERB τα_DET ίσως_ADV παραμελημένα_VERB συμφέροντά_NOUN τους_PRON σ_ADP το_DET χώρο_NOUN αυτό_DET ,_PUNCT όπου_ADV μάλιστα_ADV σ_ADP την_DET εποχή_NOUN αυτή_DET του_DET σιδηροδρόμου_NOUN αποκτούσε_VERB ιδιαίτερη_ADJ σπουδαιότητα_NOUN ._PUNCT}
+Predicted: {
+έτσι_ADV όταν_SCONJ περί_ADP το_DET τέλος_NOUN του_DET 19ου_ADJ αιώνα_NOUN η_DET οθωμανική_ADJ αυτοκρατορία_NOUN άρχισε_VERB να_AUX δείχνει_VERB σημεία_NOUN παρακμής_NOUN οι_DET μεγάλες_ADJ δυνάμεις_NOUN της_DET εποχής_NOUN άρχισαν_VERB να_AUX συνειδητοποιούν_VERB τα_DET ίσως_ADV παραμελημένα_VERB συμφέροντά_NOUN τους_PRON σ_ADP το_DET χώρο_NOUN αυτό_PRON ,_PUNCT όπου_ADV μάλιστα_ADV σ_ADP την_DET εποχή_NOUN αυτή_DET του_DET σιδηροδρόμου_NOUN αποκτούσε_VERB ιδιαίτερη_ADJ σπουδαιότητα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτό: DET | PRON
+}
+
+Expected: {
+το_DET 1946_NOUN επέστρεψαν_VERB και_CCONJ αγωνίστηκαν_VERB σ_ADP τις_DET τάξεις_NOUN του_DET δσε_NOUN ,_PUNCT ιδρύοντας_VERB ταυτόχρονα_ADV τη_DET σλαβομακεδονική_ADJ κομματική_ADJ οργάνωση_NOUN νοφ_NOUN ,_PUNCT εκπατρίστηκαν_VERB όμως_CCONJ οριστικά_ADV το_DET 1949_NOUN ._PUNCT}
+Predicted: {
+το_DET 1946_NOUN επέστρεψαν_VERB και_CCONJ αγωνίστηκαν_VERB σ_ADP τις_DET τάξεις_NOUN του_DET δσε_VERB ,_PUNCT ιδρύοντας_VERB ταυτόχρονα_ADV τη_DET σλαβομακεδονική_ADJ κομματική_ADJ οργάνωση_NOUN νοφ_NOUN ,_PUNCT εκπατρίστηκαν_VERB όμως_CCONJ οριστικά_ADV το_DET 1949_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+δσε: NOUN | VERB
+}
+
+Expected: {
+μέχρι_ADP σήμερα_ADV ,_PUNCT οι_DET ρεπουμπλικανοί_NOUN επέμεναν_VERB ότι_SCONJ "_PUNCT θα_AUX συμφωνούσαν_VERB σε_ADP αύξηση_NOUN του_DET ορίου_NOUN χρέους_NOUN με_ADP την_DET προϋπόθεση_NOUN ότι_SCONJ για_ADP κάθε_DET δολάριο_NOUN που_ADV θα_AUX αυξανόταν_VERB το_DET όριο_NOUN χρέους_NOUN θα_AUX γίνονταν_VERB αντίστοιχου_ADJ χρηματικού_ADJ ποσού_NOUN περικοπές_NOUN σ_ADP τις_DET δαπάνες_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+μέχρι_ADP σήμερα_ADV ,_PUNCT οι_DET ρεπουμπλικανοί_NOUN επέμεναν_VERB ότι_SCONJ "_PUNCT θα_AUX συμφωνούσαν_VERB σε_ADP αύξηση_NOUN του_DET ορίου_NOUN χρέους_NOUN με_ADP την_DET προϋπόθεση_NOUN ότι_SCONJ για_ADP κάθε_DET δολάριο_NOUN που_PRON θα_AUX αυξανόταν_VERB το_DET όριο_NOUN χρέους_NOUN θα_AUX γίνονταν_VERB αντίστοιχου_ADJ χρηματικού_ADJ ποσού_NOUN περικοπές_NOUN σ_ADP τις_DET δαπάνες_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: ADV | PRON
+}
+
+Expected: {
+ο_DET λόγος_NOUN για_ADP τους_DET αλεξέι_X ναβάλνι_X και_CCONJ σεργκέι_X ουνταλτσόφ_X -_PUNCT ο_DET πρώτος_ADJ είναι_AUX γνωστός_ADJ blogger_X και_CCONJ ο_DET δεύτερος_ADJ ηγέτης_NOUN του_DET μετώπου_NOUN της_DET αριστεράς_NOUN ._PUNCT}
+Predicted: {
+ο_DET λόγος_NOUN για_ADP τους_DET αλεξέι_NOUN ναβάλνι_NOUN και_CCONJ σεργκέι_X ουνταλτσόφ_X -_PUNCT ο_DET πρώτος_ADJ είναι_AUX γνωστός_ADJ blogger_X και_CCONJ ο_DET δεύτερος_ADJ ηγέτης_NOUN του_DET μετώπου_NOUN της_DET αριστεράς_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αλεξέι: X | NOUN
+ναβάλνι: X | NOUN
+}
+
+Expected: {
+το_DET 2002_NOUN χρηματοδοτήθηκαν_VERB 10.029_NUM σχέδια_NOUN με_ADP ποσόν_NOUN λίγο_ADV μεγαλύτερο_ADJ των_DET 80_NUM εκατ._NOUN ευρώ_NOUN ._PUNCT}
+Predicted: {
+το_DET 2002_NUM χρηματοδοτήθηκαν_VERB 10.029_NUM σχέδια_NOUN με_ADP ποσόν_NOUN λίγο_ADV μεγαλύτερο_ADJ των_DET 80_NUM εκατ._NOUN ευρώ_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+2002: NOUN | NUM
+}
+
+Expected: {
+επιμένω_VERB οι_DET συμμετέχοντες_ADJ από_ADP τις_DET υποψήφιες_ADJ χώρες_NOUN να_AUX αποκτούν_VERB θεώρηση_NOUN αυτόματα_ADV ,_PUNCT δίχως_ADP γραφειοκρατικές_ADJ διαδικασίες_NOUN και_CCONJ ατελώς_ADV ._PUNCT}
+Predicted: {
+επιμένω_VERB οι_DET συμμετέχοντες_ADJ από_ADP τις_DET υποψήφιες_ADJ χώρες_NOUN να_AUX αποκτούν_VERB θεώρηση_NOUN αυτόματα_DET ,_PUNCT δίχως_ADP γραφειοκρατικές_ADJ διαδικασίες_NOUN και_CCONJ ατελώς_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτόματα: ADV | DET
+}
+
+Expected: {
+ο_DET ισα_ADV τονίζει_VERB ότι_SCONJ παρά_ADP το_DET γεγονός_NOUN ότι_SCONJ είχε_AUX προειδοποιήσει_VERB για_ADP την_DET επερχόμενη_ADJ επιδημία_NOUN ,_PUNCT ο_DET πληθυσμός_NOUN έμεινε_VERB ακάλυπτος_ADJ ,_PUNCT επισημαίνοντας_VERB χαρακτηριστικά_NOUN ότι_SCONJ "_PUNCT για_ADP ένα_DET εμβόλιο_NOUN των_DET 6_NUM ευρώ_NOUN πεθαίνουν_VERB άνθρωποι_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+ο_DET ισα_NOUN τονίζει_VERB ότι_SCONJ παρά_ADP το_DET γεγονός_NOUN ότι_SCONJ είχε_AUX προειδοποιήσει_VERB για_ADP την_DET επερχόμενη_ADJ επιδημία_NOUN ,_PUNCT ο_DET πληθυσμός_NOUN έμεινε_VERB ακάλυπτος_ADJ ,_PUNCT επισημαίνοντας_VERB χαρακτηριστικά_ADV ότι_SCONJ "_PUNCT για_ADP ένα_DET εμβόλιο_NOUN των_DET 6_NUM ευρώ_NOUN πεθαίνουν_VERB άνθρωποι_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ισα: ADV | NOUN
+χαρακτηριστικά: NOUN | ADV
+}
+
+Expected: {
+οι_DET εξτρεμιστές_NOUN απήγαγαν_VERB τα_DET άτομα_NOUN κατά_ADP τη_DET διάρκεια_NOUN επίθεσης_NOUN που_PRON πραγματοποίησαν_VERB την_DET τετάρτη_NOUN σε_ADP εγκαταστάσεις_NOUN εξόρυξης_NOUN φυσικού_ADJ αερίου_ADJ ,_PUNCT οι_DET οποίες_PRON εν_ADP μέρει_NOUN ανήκουν_VERB σ_ADP τη_DET βρετανική_ADJ εταιρεία_NOUN bp._NOUN}
+Predicted: {
+οι_DET εξτρεμιστές_NOUN απήγαγαν_VERB τα_DET άτομα_NOUN κατά_ADP τη_DET διάρκεια_NOUN επίθεσης_NOUN που_PRON πραγματοποίησαν_VERB την_DET τετάρτη_NOUN σε_ADP εγκαταστάσεις_NOUN εξόρυξης_NOUN φυσικού_ADJ αερίου_ADJ ,_PUNCT οι_DET οποίες_PRON εν_ADP μέρει_NOUN ανήκουν_VERB σ_ADP τη_DET βρετανική_ADJ εταιρεία_NOUN bp._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+bp.: NOUN | PUNCT
+}
+
+Expected: {
+τα_DET οχήματα_NOUN με_ADP κινητήρα_NOUN είναι_AUX πράγματι_ADV ,_PUNCT όπως_ADV λέει_VERB η_DET κ._NOUN caullery_X ,_PUNCT πολύπλοκα_ADJ και_CCONJ σύνθετα_ADJ ._PUNCT}
+Predicted: {
+τα_DET οχήματα_NOUN με_ADP κινητήρα_NOUN είναι_AUX πράγματι_ADV ,_PUNCT όπως_ADV λέει_VERB η_DET κ._NOUN caullery_X ,_PUNCT πολύπλοκα_NOUN και_CCONJ σύνθετα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολύπλοκα: ADJ | NOUN
+σύνθετα: ADJ | NOUN
+}
+
+Expected: {
+σ_ADP την_DET παναγία_PROPN της_DET άμμου_NOUN βρίσκεται_VERB η_DET παναγία_PROPN η_DET μοναχή_ADJ ,_PUNCT μια_DET σπάνια_ADJ απεικόνιση_NOUN της_DET παναγίας_PROPN χωρίς_ADP το_DET θείο_ADJ βρέφος_NOUN ,_PUNCT η_DET παναγία_PROPN η_DET κόγχη_NOUN πιθανολογείται_VERB πως_SCONJ κτίστηκε_VERB σ_ADP τη_DET θέση_NOUN του_DET ιερού_NOUN της_DET εκβατήριας_ADJ αρτέμιδος_PROPN ενώ_SCONJ ο_DET άγιος_ADJ γεώργιος_PROPN ο_DET αφέντης_NOUN κτίστηκε_VERB το_DET 17ο_ADJ αιώνα_NOUN και_CCONJ έχει_VERB πολλές_ADJ σπάνιες_ADJ και_CCONJ αξιόλογες_ADJ εικόνες_NOUN ._PUNCT}
+Predicted: {
+σ_ADP την_DET παναγία_PROPN της_DET άμμου_NOUN βρίσκεται_VERB η_DET παναγία_PROPN η_DET μοναχή_NOUN ,_PUNCT μια_DET σπάνια_ADJ απεικόνιση_NOUN της_DET παναγίας_PROPN χωρίς_ADP το_DET θείο_NOUN βρέφος_NOUN ,_PUNCT η_DET παναγία_PROPN η_DET κόγχη_NOUN πιθανολογείται_VERB πως_SCONJ κτίστηκε_VERB σ_ADP τη_DET θέση_NOUN του_DET ιερού_NOUN της_DET εκβατήριας_NOUN αρτέμιδος_PROPN ενώ_SCONJ ο_DET άγιος_ADJ γεώργιος_ADJ ο_DET αφέντης_NOUN κτίστηκε_VERB το_DET 17ο_ADJ αιώνα_NOUN και_CCONJ έχει_VERB πολλές_ADJ σπάνιες_ADJ και_CCONJ αξιόλογες_ADJ εικόνες_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μοναχή: ADJ | NOUN
+θείο: ADJ | NOUN
+εκβατήριας: ADJ | NOUN
+γεώργιος: PROPN | ADJ
+}
+
+Expected: {
+τρίτον_ADV ,_PUNCT είναι_AUX συμβατή_ADJ με_ADP όλα_ADJ τα_DET εθνικά_ADJ συστήματα_NOUN και_CCONJ προσφέρει_VERB μηχανισμούς_NOUN που_PRON επιτρέπουν_VERB την_DET ομαλή_ADJ ένταξη_NOUN νέων_ADJ ρυθμίσεων_NOUN σε_ADP καθένα_PRON από_ADP αυτά_PRON ._PUNCT}
+Predicted: {
+τρίτον_ADV ,_PUNCT είναι_AUX συμβατή_ADJ με_ADP όλα_ADJ τα_DET εθνικά_ADJ συστήματα_NOUN και_CCONJ προσφέρει_VERB μηχανισμούς_NOUN που_PRON επιτρέπουν_VERB την_DET ομαλή_ADJ ένταξη_NOUN νέων_ADJ ρυθμίσεων_NOUN σε_ADP καθένα_PRON από_ADP αυτά_DET ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτά: PRON | DET
+}
+
+Expected: {
+σημαντικό_ADJ είναι_AUX και_CCONJ το_DET αρχαιολογικό_ADJ μουσείο_NOUN κέρκυρας_PROPN ,_PUNCT σ_ADP το_DET οποίο_PRON φιλοξενούνται_VERB ευρήματα_NOUN από_ADP ανασκαφές_NOUN σ_ADP την_DET κέρκυρα_PROPN και_CCONJ τη_DET θεσπρωτία_PROPN και_CCONJ το_DET σπίτι_NOUN του_DET διονυσίου_PROPN σολωμού_PROPN ,_PUNCT το_DET οποίο_PRON λειτουργεί_VERB ως_ADV μουσείο_NOUN ._PUNCT}
+Predicted: {
+σημαντικό_ADJ είναι_AUX και_CCONJ το_DET αρχαιολογικό_ADJ μουσείο_NOUN κέρκυρας_PROPN ,_PUNCT σ_ADP το_DET οποίο_PRON φιλοξενούνται_VERB ευρήματα_NOUN από_ADP ανασκαφές_NOUN σ_ADP την_DET κέρκυρα_PROPN και_CCONJ τη_DET θεσπρωτία_PROPN και_CCONJ το_DET σπίτι_NOUN του_DET διονυσίου_NOUN σολωμού_NOUN ,_PUNCT το_DET οποίο_PRON λειτουργεί_VERB ως_ADV μουσείο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+διονυσίου: PROPN | NOUN
+σολωμού: PROPN | NOUN
+}
+
+Expected: {
+εδώ_ADV σχεδιάστηκε_VERB ,_PUNCT ευλογήθηκε_VERB και_CCONJ υψώθηκε_VERB η_DET πρώτη_ADJ σημαία_NOUN της_DET νεώτερης_ADJ ελλάδας_PROPN και_CCONJ δόθηκε_VERB ο_DET όρκος_NOUN της_DET ελευθερίας_NOUN από_ADP τους_DET θεόδωρο_PROPN κολοκοτρώνη_PROPN ,_PUNCT γιάννη_PROPN σταθά_PROPN ,_PUNCT παπαβλαχάβα_PROPN και_CCONJ νικοτσάρα_PROPN τον_DET σεπτέμβριο_του_1807_NOUN ._PUNCT}
+Predicted: {
+εδώ_ADV σχεδιάστηκε_VERB ,_PUNCT ευλογήθηκε_VERB και_CCONJ υψώθηκε_VERB η_DET πρώτη_ADJ σημαία_NOUN της_DET νεώτερης_ADJ ελλάδας_PROPN και_CCONJ δόθηκε_VERB ο_DET όρκος_NOUN της_DET ελευθερίας_NOUN από_ADP τους_DET θεόδωρο_NOUN κολοκοτρώνη_NOUN ,_PUNCT γιάννη_PROPN σταθά_PROPN ,_PUNCT παπαβλαχάβα_PROPN και_CCONJ νικοτσάρα_PROPN τον_DET σεπτέμβριο_του_1807_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+θεόδωρο: PROPN | NOUN
+κολοκοτρώνη: PROPN | NOUN
+}
+
+Expected: {
+η_DET αμερικανική_ADJ αντιπροσωπεία_NOUN έφτασε_VERB σ_ADP την_DET πιονγκγιάνγκ_PROPN την_DET δευτέρα_NOUN για_ADP τετραήμερη_ADJ επίσκεψη_NOUN ,_PUNCT την_DET οποία_PRON ο_DET μπιλ_PROPN ρίτσαρντσον_PROPN χαρακτήρισε_VERB "_PUNCT ανθρωπιστικού_ADJ χαρακτήρα_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+η_DET αμερικανική_ADJ αντιπροσωπεία_NOUN έφτασε_VERB σ_ADP την_DET πιονγκγιάνγκ_PROPN την_DET δευτέρα_NOUN για_ADP τετραήμερη_ADJ επίσκεψη_NOUN ,_PUNCT την_DET οποία_PRON ο_PRON μπιλ_PROPN ρίτσαρντσον_PROPN χαρακτήρισε_VERB "_PUNCT ανθρωπιστικού_ADJ χαρακτήρα_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ο: DET | PRON
+}
+
+Expected: {
+θα_AUX είμαστε_AUX σ_ADP το_DET πλευρό_NOUN σας_PRON ._PUNCT}
+Predicted: {
+θα_AUX είμαστε_VERB σ_ADP το_DET πλευρό_NOUN σας_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είμαστε: AUX | VERB
+}
+
+Expected: {
+το_DET 1991_NOUN ισχυρίστηκε_VERB πως_SCONJ οι_DET κινέζοι_PROPN άποικοι_NOUN σ_ADP το_DET θιβέτ_X δημιουργούν_VERB ένα_DET "_PUNCT κινεζικό_ADJ απαρτχάιντ_NOUN "_PUNCT :_PUNCT}
+Predicted: {
+το_DET 1991_NUM ισχυρίστηκε_VERB πως_SCONJ οι_DET κινέζοι_PROPN άποικοι_NOUN σ_ADP το_DET θιβέτ_X δημιουργούν_VERB ένα_DET "_PUNCT κινεζικό_ADJ απαρτχάιντ_X "_PUNCT :_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+1991: NOUN | NUM
+απαρτχάιντ: NOUN | X
+}
+
+Expected: {
+όταν_SCONJ η_DET γερμανία_PROPN υπέγραψε_VERB ανακωχή_NOUN ,_PUNCT συνήλθε_VERB σ_ADP το_DET παρίσι_PROPN η_DET συνδιάσκεψη_NOUN της_DET ειρήνης_NOUN ,_PUNCT όπου_ADV ο_DET βενιζέλος_PROPN παρέστη_VERB ως_ADV αντιπρόσωπος_NOUN της_DET ελλάδας_PROPN και_CCONJ πρόβαλε_VERB τις_DET αξιώσεις_NOUN της_DET χώρας_NOUN μας_PRON ,_PUNCT οι_DET οποίες_PRON έγιναν_VERB σ_ADP το_DET σύνολό_NOUN τους_PRON δεκτές_ADJ με_ADP τις_DET συνθήκες_NOUN του_DET νεϊγύ_X (_PUNCT 27_νοεμβρίου_1919_NOUN )_PUNCT και_CCONJ των_DET σεβρών_PROPN (_PUNCT 10_αυγούστου_1920_NOUN )_PUNCT ._PUNCT}
+Predicted: {
+όταν_SCONJ η_DET γερμανία_PROPN υπέγραψε_VERB ανακωχή_NOUN ,_PUNCT συνήλθε_VERB σ_ADP το_DET παρίσι_PROPN η_DET συνδιάσκεψη_NOUN της_DET ειρήνης_NOUN ,_PUNCT όπου_ADV ο_DET βενιζέλος_PROPN παρέστη_VERB ως_ADV αντιπρόσωπος_NOUN της_DET ελλάδας_PROPN και_CCONJ πρόβαλε_VERB τις_DET αξιώσεις_NOUN της_DET χώρας_NOUN μας_PRON ,_PUNCT οι_DET οποίες_PRON έγιναν_VERB σ_ADP το_DET σύνολό_NOUN τους_PRON δεκτές_ADJ με_ADP τις_DET συνθήκες_NOUN του_DET νεϊγύ_X (_PUNCT 27_νοεμβρίου_1919_NOUN )_PUNCT και_CCONJ των_DET σεβρών_NOUN (_PUNCT 10_αυγούστου_1920_NOUN )_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+σεβρών: PROPN | NOUN
+}
+
+Expected: {
+εν_ADP τω_DET μεταξύ_ADV είχε_AUX ήδη_ADV χρεωθεί_VERB την_DET οδυνηρή_ADJ περιπέτεια_NOUN της_DET μικρασιατικής_ADJ καταστροφής_NOUN που_PRON εξυπηρετούσε_VERB τα_DET σχέδια_NOUN των_DET μεγάλων_ADJ δυνάμεων_NOUN σ_ADP την_DET περιοχή_NOUN και_CCONJ βασίστηκε_VERB σε_ADP αβάσιμους_ADJ σχεδιασμούς_NOUN όπως_ADV αυτοί_PRON συνοψίζονταν_VERB σ_ADP το_DET δόγμα_NOUN "_PUNCT η_DET ελλάς_PROPN των_DET δύο_NUM ηπείρων_NOUN και_CCONJ των_DET πέντε_NUM θαλασσών_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+εν_ADP τω_DET μεταξύ_ADV είχε_AUX ήδη_ADV χρεωθεί_VERB την_DET οδυνηρή_ADJ περιπέτεια_NOUN της_DET μικρασιατικής_ADJ καταστροφής_NOUN που_PRON εξυπηρετούσε_VERB τα_DET σχέδια_NOUN των_DET μεγάλων_ADJ δυνάμεων_NOUN σ_ADP την_DET περιοχή_NOUN και_CCONJ βασίστηκε_VERB σε_ADP αβάσιμους_ADJ σχεδιασμούς_NOUN όπως_ADV αυτοί_DET συνοψίζονταν_VERB σ_ADP το_DET δόγμα_NOUN "_PUNCT η_DET ελλάς_PROPN των_DET δύο_NUM ηπείρων_NOUN και_CCONJ των_DET πέντε_NUM θαλασσών_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτοί: PRON | DET
+}
+
+Expected: {
+η_DET γαλλία_PROPN δήλωσε_VERB ότι_SCONJ "_PUNCT ο_DET αλ_X σενούσι_X έχει_AUX συλληφθεί_VERB μετά_ADV από_ADP συνεργασία_NOUN γάλλων_PROPN και_CCONJ μαυριτανών_PROPN πρακτόρων_NOUN ._PUNCT}
+Predicted: {
+η_DET γαλλία_PROPN δήλωσε_VERB ότι_SCONJ "_PUNCT ο_DET αλ_X σενούσι_X έχει_AUX συλληφθεί_VERB μετά_ADV από_ADP συνεργασία_NOUN γάλλων_PROPN και_CCONJ μαυριτανών_ADJ πρακτόρων_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μαυριτανών: PROPN | ADJ
+}
+
+Expected: {
+"_PUNCT συγχαρητήρια_INTJ "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT συγχαρητήρια_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+συγχαρητήρια: INTJ | NOUN
+}
+
+Expected: {
+το_PRON κατάλαβα_VERB ,_PUNCT όταν_SCONJ μου_PRON είπε_VERB εκείνο_PRON το_DET "_PUNCT καλύτερα_ADV να_AUX μην_PART ξέρεις_VERB "_PUNCT ._PUNCT}
+Predicted: {
+το_DET κατάλαβα_NOUN ,_PUNCT όταν_SCONJ μου_PRON είπε_VERB εκείνο_DET το_DET "_PUNCT καλύτερα_ADV να_AUX μην_PART ξέρεις_VERB "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+κατάλαβα: VERB | NOUN
+εκείνο: PRON | DET
+}
+
+Expected: {
+"_PUNCT το_DET ερώτημα_NOUN είναι_VERB αν_SCONJ τον_PRON έκλεψε_VERB για_ADP να_SCONJ τον_PRON πουλήσει_VERB ή_CCONJ αν_SCONJ τον_PRON πήρε_VERB ,_PUNCT επειδή_SCONJ έψαχνε_VERB κάτι_PRON που_PRON βρίσκεται_VERB σ_ADP τον_DET υπολογιστή_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT το_DET ερώτημα_NOUN είναι_AUX αν_SCONJ τον_DET έκλεψε_VERB για_ADP να_SCONJ τον_PRON πουλήσει_VERB ή_CCONJ αν_SCONJ τον_PRON πήρε_VERB ,_PUNCT επειδή_SCONJ έψαχνε_VERB κάτι_PRON που_PRON βρίσκεται_VERB σ_ADP τον_DET υπολογιστή_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+τον: PRON | DET
+}
+
+Expected: {
+κατόπιν_ADP όλων_DET αυτών_DET πηγαίνω_VERB με_ADP το_DET σέατ_NOUN σ_ADP την_DET υπηρεσία_NOUN ,_PUNCT ξεκούραστος_ADJ και_CCONJ ευδιάθετος_ADJ ._PUNCT}
+Predicted: {
+κατόπιν_ADP όλων_DET αυτών_DET πηγαίνω_VERB με_ADP το_DET σέατ_PROPN σ_ADP την_DET υπηρεσία_NOUN ,_PUNCT ξεκούραστος_ADJ και_CCONJ ευδιάθετος_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+σέατ: NOUN | PROPN
+}
+
+Expected: {
+η_DET μόνη_DET παρασπονδία_NOUN που_PRON μου_PRON επέτρεψε_VERB ,_PUNCT ήταν_VERB να_SCONJ τρώω_VERB εγώ_PRON τα_DET νηστίσιμα_ADJ με_ADP λάδι_NOUN ,_PUNCT ενώ_SCONJ εκείνη_DET τα_PRON έτρωγε_VERB νερόβραστα_ADJ τετάρτη_PROPN και_CCONJ παρασκευή_PROPN}
+Predicted: {
+η_DET μόνη_ADJ παρασπονδία_NOUN που_PRON μου_PRON επέτρεψε_VERB ,_PUNCT ήταν_VERB να_SCONJ τρώω_VERB εγώ_PRON τα_DET νηστίσιμα_ADJ με_ADP λάδι_NOUN ,_PUNCT ενώ_SCONJ εκείνη_DET τα_DET έτρωγε_VERB νερόβραστα_ADJ τετάρτη_NOUN και_CCONJ παρασκευή_NOUN}
+Errors: {
+Tok: Ref | Pred
+---------------
+μόνη: DET | ADJ
+τα: PRON | DET
+τετάρτη: PROPN | NOUN
+παρασκευή: PROPN | NOUN
+}
+
+Expected: {
+αρκεί_VERB που_SCONJ υπάρχει_VERB και_CCONJ μπορεί_VERB να_SCONJ βαφτιστεί_VERB επιτυχία_NOUN ._PUNCT}
+Predicted: {
+αρκεί_VERB που_PRON υπάρχει_VERB και_CCONJ μπορεί_VERB να_SCONJ βαφτιστεί_VERB επιτυχία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: SCONJ | PRON
+}
+
+Expected: {
+κάτι_DET βγάζει_VERB μάτι_NOUN εδώ_ADV ,_PUNCT και_CCONJ καλά_ADV θα_AUX κάνω_VERB να_SCONJ το_PRON ξεκαθαρίσω_VERB τώρα_ADV ,_PUNCT πριν_SCONJ ο_DET υπαρχηγός_NOUN μετατρέψει_VERB την_DET κωλοφαρδία_NOUN μου_PRON σε_ADP ψυχρολουσία_NOUN ._PUNCT}
+Predicted: {
+κάτι_PRON βγάζει_VERB μάτι_NOUN εδώ_ADV ,_PUNCT και_CCONJ καλά_ADV θα_AUX κάνω_VERB να_SCONJ το_PRON ξεκαθαρίσω_VERB τώρα_ADV ,_PUNCT πριν_SCONJ ο_DET υπαρχηγός_NOUN μετατρέψει_VERB την_DET κωλοφαρδία_NOUN μου_PRON σε_ADP ψυχρολουσία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάτι: DET | PRON
+}
+
+Expected: {
+τους_PRON ζητάω_VERB να_SCONJ ελέγξουν_VERB με_ADP τον_DET παροχέα_NOUN τον_DET αριθμό_NOUN του_DET τηλεφωνικού_ADJ κέντρου_NOUN ,_PUNCT μπας_PART και_CCONJ εξακριβώσουμε_VERB από_ADP πού_ADV έπαιρνε_VERB ο_DET άγνωστος_ADJ που_PRON ζητούσε_VERB τον_DET χαρδάκο_PROPN ,_PUNCT αν_SCONJ και_CCONJ είμαι_AUX βέβαιος_ADJ ότι_SCONJ έπαιρνε_VERB από_ADP θάλαμο_NOUN ._PUNCT}
+Predicted: {
+τους_PRON ζητάω_VERB να_AUX ελέγξουν_VERB με_ADP τον_DET παροχέα_NOUN τον_DET αριθμό_NOUN του_DET τηλεφωνικού_ADJ κέντρου_NOUN ,_PUNCT μπας_PART και_CCONJ εξακριβώσουμε_VERB από_ADP πού_ADV έπαιρνε_VERB ο_DET άγνωστος_ADJ που_PRON ζητούσε_VERB τον_DET χαρδάκο_PROPN ,_PUNCT αν_SCONJ και_CCONJ είμαι_AUX βέβαιος_ADJ ότι_SCONJ έπαιρνε_VERB από_ADP θάλαμο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+ξεκινάω_VERB για_ADP την_DET ακτή_NOUN κονδύλη_PROPN χωρίς_ADP τους_DET βοηθούς_NOUN μου_PRON ,_PUNCT αφενός_CCONJ για_ADP να_SCONJ μην_PART τους_PRON φορτώσω_VERB ευθύνες_NOUN για_ADP τις_DET δικές_PRON μου_PRON αποφάσεις_NOUN ,_PUNCT αφετέρου_CCONJ γιατί_SCONJ θέλω_VERB να_SCONJ δημιουργήσω_VERB πιο_ADV πολύ_ADV την_DET εντύπωση_NOUN μιας_DET προσωπικής_ADJ και_CCONJ λιγότερο_ADV υπηρεσιακής_ADJ επίσκεψης_NOUN ._PUNCT}
+Predicted: {
+ξεκινάω_VERB για_ADP την_DET ακτή_NOUN κονδύλη_PROPN χωρίς_ADP τους_DET βοηθούς_NOUN μου_PRON ,_PUNCT αφενός_ADV για_ADP να_SCONJ μην_PART τους_PRON φορτώσω_VERB ευθύνες_NOUN για_ADP τις_DET δικές_PRON μου_PRON αποφάσεις_NOUN ,_PUNCT αφετέρου_CCONJ γιατί_SCONJ θέλω_VERB να_AUX δημιουργήσω_VERB πιο_ADV πολύ_ADV την_DET εντύπωση_NOUN μιας_DET προσωπικής_ADJ και_CCONJ λιγότερο_ADJ υπηρεσιακής_ADJ επίσκεψης_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αφενός: CCONJ | ADV
+να: SCONJ | AUX
+λιγότερο: ADV | ADJ
+}
+
+Expected: {
+"_PUNCT αν_SCONJ παντρευτείτε_VERB ,_PUNCT ο_DET ένας_DET από_ADP τους_DET δυο_NUM θα_AUX πρέπει_AUX να_SCONJ μετατεθεί_VERB σε_ADP άλλη_DET υπηρεσία_NOUN και_CCONJ θα_AUX μου_PRON βάλετε_VERB δίλημμα_NOUN "_PUNCT του_PRON απαντώ_VERB γελώντας_VERB ._PUNCT}
+Predicted: {
+"_PUNCT αν_SCONJ παντρευτείτε_VERB ,_PUNCT ο_DET ένας_NUM από_ADP τους_DET δυο_NUM θα_AUX πρέπει_AUX να_AUX μετατεθεί_VERB σε_ADP άλλη_DET υπηρεσία_NOUN και_CCONJ θα_AUX μου_PRON βάλετε_VERB δίλημμα_NOUN "_PUNCT του_PRON απαντώ_VERB γελώντας_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ένας: DET | NUM
+να: SCONJ | AUX
+}
+
+Expected: {
+είναι_VERB ο_DET ζήσης_PROPN ,_PUNCT που_PRON ήρθε_VERB να_SCONJ μας_PRON πει_VERB τις_DET ευχές_NOUN του_PRON με_ADP το_DET απαραίτητο_ADJ πακέτο_NOUN σ_ADP το_DET χέρι_NOUN ._PUNCT}
+Predicted: {
+είναι_AUX ο_DET ζήσης_PROPN ,_PUNCT που_PRON ήρθε_VERB να_SCONJ μας_PRON πει_VERB τις_DET ευχές_NOUN του_PRON με_ADP το_DET απαραίτητο_ADJ πακέτο_NOUN σ_ADP το_DET χέρι_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+η_DET ρίτα_PROPN ,_PUNCT η_DET κοπέλα_NOUN που_PRON σερβίρει_VERB ,_PUNCT τους_PRON είπε_VERB ότι_SCONJ δεν_PART μπορεί_VERB να_SCONJ πάρει_VERB πίσω_ADV δαγκωμένα_VERB μπιφτέκια_NOUN ,_PUNCT γιατί_SCONJ σ_ADP το_DET μεταξύ_ADV τα_PRON μασούλαγαν_VERB ._PUNCT}
+Predicted: {
+η_DET ρίτα_PROPN ,_PUNCT η_DET κοπέλα_NOUN που_PRON σερβίρει_VERB ,_PUNCT τους_PRON είπε_VERB ότι_SCONJ δεν_PART μπορεί_VERB να_SCONJ πάρει_VERB πίσω_ADV δαγκωμένα_VERB μπιφτέκια_NOUN ,_PUNCT γιατί_SCONJ σ_ADP το_DET μεταξύ_ADV τα_DET μασούλαγαν_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τα: PRON | DET
+}
+
+Expected: {
+παίρνω_VERB τηλέφωνο_NOUN την_DET αδριανή_PROPN και_CCONJ της_PRON λέω_VERB ότι_SCONJ είμαι_VERB σ_ADP το_DET γραφείο_NOUN της_DET κατερίνας_PROPN ,_PUNCT για_ADP να_SCONJ μην_PART αρχίσει_VERB να_SCONJ τρώγεται_VERB με_ADP τα_DET ρούχα_NOUN της_PRON ._PUNCT}
+Predicted: {
+παίρνω_VERB τηλέφωνο_NOUN την_DET αδριανή_PROPN και_CCONJ της_PRON λέω_VERB ότι_SCONJ είμαι_VERB σ_ADP το_DET γραφείο_NOUN της_DET κατερίνας_PROPN ,_PUNCT για_ADP να_SCONJ μην_PART αρχίσει_VERB να_AUX τρώγεται_VERB με_ADP τα_DET ρούχα_NOUN της_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+τώρα_ADV τη_DET γεωγραφία_NOUN της_DET ελλάδας_PROPN δεν_PART την_PRON ξέρω_VERB καλά_ADV ,_PUNCT αλλά_CCONJ είναι_VERB λιμάνια_NOUN που_PRON είναι_VERB κοντά_ADV σε_ADP πόλεις_NOUN ._PUNCT}
+Predicted: {
+τώρα_ADV τη_DET γεωγραφία_NOUN της_DET ελλάδας_PROPN δεν_PART την_PRON ξέρω_VERB καλά_ADV ,_PUNCT αλλά_CCONJ είναι_VERB λιμάνια_NOUN που_PRON είναι_AUX κοντά_ADV σε_ADP πόλεις_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+του_PRON έκανε_VERB εξίσου_ADV ο_DET άλιμος_PROPN ή_CCONJ η_DET μαρίνα_NOUN της_DET βουλιαγμένης_PROPN ._PUNCT}
+Predicted: {
+του_PRON έκανε_VERB εξίσου_ADV ο_DET άλιμος_NOUN ή_CCONJ η_DET μαρίνα_NOUN της_DET βουλιαγμένης_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άλιμος: PROPN | NOUN
+βουλιαγμένης: PROPN | NOUN
+}
+
+Expected: {
+ο_DET ιδιοκτήτης_NOUN τού_PRON είπε_VERB ότι_SCONJ θα_AUX το_PRON σκεφτεί_VERB ._PUNCT}
+Predicted: {
+ο_DET ιδιοκτήτης_NOUN τού_PRON είπε_VERB ότι_SCONJ θα_AUX το_DET σκεφτεί_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+}
+
+Expected: {
+είναι_VERB μία_NUM και_CCONJ τέταρτο_ADJ ._PUNCT}
+Predicted: {
+είναι_AUX μία_NUM και_CCONJ τέταρτο_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+"_PUNCT πολλοί_DET ετοιμοθάνατοι_ADJ περνούν_VERB μια_DET σύντομη_ADJ περίοδο_NOUN αναλαμπής_NOUN ,_PUNCT πριν_SCONJ τελειώσουν_VERB "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT πολλοί_ADJ ετοιμοθάνατοι_ADJ περνούν_VERB μια_DET σύντομη_ADJ περίοδο_NOUN αναλαμπής_NOUN ,_PUNCT πριν_SCONJ τελειώσουν_VERB "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πολλοί: DET | ADJ
+}
+
+Expected: {
+κανείς_DET δεν_PART ξέρει_VERB ,_PUNCT αλλά_CCONJ και_CCONJ κανείς_DET δεν_PART ενδιαφέρεται_VERB ._PUNCT}
+Predicted: {
+κανείς_PRON δεν_PART ξέρει_VERB ,_PUNCT αλλά_CCONJ και_CCONJ κανείς_PRON δεν_PART ενδιαφέρεται_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κανείς: DET | PRON
+κανείς: DET | PRON
+}
+
+Expected: {
+"_PUNCT το_PRON 'πε_VERB και_CCONJ σ'_ADP εμένα_PRON και_CCONJ σκέφτηκα_VERB μ'_ADP ένα_DET σμπάρο_NOUN δυο_NUM τριγώνια_NOUN "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT το_DET 'πε_NOUN και_CCONJ σ'_ADP εμένα_PRON και_CCONJ σκέφτηκα_VERB μ'_ADP ένα_DET σμπάρο_NOUN δυο_NUM τριγώνια_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+'πε: VERB | NOUN
+}
+
+Expected: {
+ωραία_ADV ,_PUNCT μπορεί_VERB να_SCONJ υπάρχουν_VERB συμπτώσεις_NOUN ,_PUNCT αλλά_CCONJ αυτές_DET δεν_PART έχουν_VERB απαραίτητα_ADV σχέση_NOUN με_ADP τη_DET δολοφονία_NOUN του_DET χαρδάκου_PROPN ._PUNCT}
+Predicted: {
+ωραία_ADV ,_PUNCT μπορεί_VERB να_SCONJ υπάρχουν_VERB συμπτώσεις_NOUN ,_PUNCT αλλά_CCONJ αυτές_PRON δεν_PART έχουν_VERB απαραίτητα_ADV σχέση_NOUN με_ADP τη_DET δολοφονία_NOUN του_DET χαρδάκου_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+αυτές: DET | PRON
+}
+
+Expected: {
+μετά_ADV ,_PUNCT γυρίζει_VERB σ_ADP τον_DET φάνη_PROPN και_CCONJ του_PRON πετάει_VERB τη_DET σπόντα_NOUN της_PRON ._PUNCT}
+Predicted: {
+μετά_ADV ,_PUNCT γυρίζει_VERB σ_ADP τον_DET φάνη_PROPN και_CCONJ του_DET πετάει_VERB τη_DET σπόντα_NOUN της_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+}
+
+Expected: {
+τον_PRON κοιτάζω_VERB έκπληκτος_ADJ ._PUNCT}
+Predicted: {
+τον_DET κοιτάζω_VERB έκπληκτος_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τον: PRON | DET
+}
+
+Expected: {
+υπάρχει_VERB ωστόσο_CCONJ η_DET πιθανότητα_NOUN να_SCONJ μην_PART πουλάει_VERB μόνο_ADV εξυπνάδα_NOUN αλλά_CCONJ να_SCONJ ξέρει_VERB και_CCONJ λεπτομέρειες_NOUN που_PRON εμείς_PRON αγνοούμε_VERB ._PUNCT}
+Predicted: {
+υπάρχει_VERB ωστόσο_CCONJ η_DET πιθανότητα_NOUN να_AUX μην_PART πουλάει_VERB μόνο_ADV εξυπνάδα_NOUN αλλά_CCONJ να_SCONJ ξέρει_VERB και_CCONJ λεπτομέρειες_NOUN που_PRON εμείς_PRON αγνοούμε_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+"_PUNCT ο_DET μένης_PROPN μου_PRON είπε_VERB ότι_SCONJ θέλετε_VERB κάποιες_DET πληροφορίες_NOUN σχετικά_ADV με_ADP τις_DET ναυτιλιακές_ADJ εταιρείες_NOUN που_PRON μετέφεραν_VERB την_DET έδρα_NOUN τους_PRON σ_ADP την_DET ελλάδα_PROPN "_PUNCT αρχίζει_VERB την_DET κουβέντα_NOUN ο_DET κυριαζίδης_PROPN}
+Predicted: {
+"_PUNCT ο_DET μένης_NOUN μου_PRON είπε_VERB ότι_SCONJ θέλετε_VERB κάποιες_DET πληροφορίες_NOUN σχετικά_ADV με_ADP τις_DET ναυτιλιακές_ADJ εταιρείες_NOUN που_PRON μετέφεραν_VERB την_DET έδρα_NOUN τους_PRON σ_ADP την_DET ελλάδα_PROPN "_PUNCT αρχίζει_VERB την_DET κουβέντα_NOUN ο_DET κυριαζίδης_PROPN}
+Errors: {
+Tok: Ref | Pred
+---------------
+μένης: PROPN | NOUN
+}
+
+Expected: {
+"_PUNCT το_DET μόνο_DET που_PRON μου_PRON είπαν_VERB οι_DET συνάδελφοι_NOUN από_ADP το_DET τμήμα_NOUN της_DET ηλιούπολης_PROPN είναι_VERB ότι_SCONJ δεν_PART άγγιξαν_VERB τίποτα_PRON ,_PUNCT για_ADP να_SCONJ αποφασίσετε_VERB εσείς_PRON "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT το_DET μόνο_DET που_PRON μου_PRON είπαν_VERB οι_DET συνάδελφοι_NOUN από_ADP το_DET τμήμα_NOUN της_DET ηλιούπολης_PROPN είναι_VERB ότι_SCONJ δεν_PART άγγιξαν_VERB τίποτα_DET ,_PUNCT για_ADP να_SCONJ αποφασίσετε_VERB εσείς_PRON "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τίποτα: PRON | DET
+}
+
+Expected: {
+δεν_PART είναι_VERB μόνο_ADV το_DET κύμα_NOUN των_DET τουριστών_NOUN που_PRON κλείνει_VERB ό,τι_DET βρει_VERB για_ADP φέτος_ADV το_DET καλοκαίρι_NOUN ._PUNCT}
+Predicted: {
+δεν_PART είναι_AUX μόνο_ADV το_DET κύμα_NOUN των_DET τουριστών_NOUN που_PRON κλείνει_VERB ό,τι_DET βρει_VERB για_ADP φέτος_ADV το_DET καλοκαίρι_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+εγώ_PRON έχω_VERB το_DET νόμιμο_ADJ και_CCONJ ηθικό_ADJ καθήκον_NOUN να_SCONJ εξιχνιάζω_VERB τα_DET εγκλήματα_NOUN ,_PUNCT και_CCONJ όχι_PART μόνο_ADV να_SCONJ συλλαμβάνω_VERB τους_DET δολοφόνους_NOUN ._PUNCT}
+Predicted: {
+εγώ_PRON έχω_VERB το_DET νόμιμο_ADJ και_CCONJ ηθικό_ADJ καθήκον_NOUN να_SCONJ εξιχνιάζω_VERB τα_DET εγκλήματα_NOUN ,_PUNCT και_CCONJ όχι_PART μόνο_ADV να_AUX συλλαμβάνω_VERB τους_DET δολοφόνους_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+αναρωτιέται_VERB ξαφνικά_ADV ο_DET ούλι_PROPN ,_PUNCT που_PRON ως_ADP τώρα_ADV παρακολουθούσε_VERB αμίλητος_ADJ την_DET κουβέντα_NOUN ._PUNCT}
+Predicted: {
+αναρωτιέται_VERB ξαφνικά_ADV ο_DET ούλι_PROPN ,_PUNCT που_PRON ως_ADV τώρα_ADV παρακολουθούσε_VERB αμίλητος_ADJ την_DET κουβέντα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ως: ADP | ADV
+}
+
+Expected: {
+έφτανε_VERB να_SCONJ δουν_VERB τις_DET ειδήσεις_NOUN ._PUNCT}
+Predicted: {
+έφτανε_VERB να_AUX δουν_VERB τις_DET ειδήσεις_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+μπορεί_VERB να_SCONJ γκρίνιαζε_VERB ,_PUNCT μπορεί_VERB να_SCONJ απειλούσε_VERB ότι_SCONJ θα_AUX με_PRON άφηνε_VERB να_SCONJ τα_PRON βγάλω_VERB πέρα_ADV μόνος_DET μου_PRON ,_PUNCT αλλά_CCONJ εκ_ADP των_DET υστέρων_ADJ θαυμάζω_VERB την_DET ικανότητά_NOUN του_PRON να_SCONJ μου_PRON βάζει_VERB πλάτη_NOUN και_CCONJ ταυτόχρονα_ADV να_SCONJ φυλάει_VERB τα_DET νώτα_NOUN του_PRON ._PUNCT}
+Predicted: {
+μπορεί_VERB να_AUX γκρίνιαζε_VERB ,_PUNCT μπορεί_VERB να_AUX απειλούσε_VERB ότι_SCONJ θα_AUX με_PRON άφηνε_VERB να_SCONJ τα_PRON βγάλω_VERB πέρα_ADV μόνος_DET μου_PRON ,_PUNCT αλλά_CCONJ εκ_ADP των_DET υστέρων_ADJ θαυμάζω_VERB την_DET ικανότητά_NOUN του_DET να_AUX μου_PRON βάζει_VERB πλάτη_NOUN και_CCONJ ταυτόχρονα_ADV να_AUX φυλάει_VERB τα_DET νώτα_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+να: SCONJ | AUX
+του: PRON | DET
+να: SCONJ | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+ο_DET δημητρίου_PROPN έχει_AUX δώσει_VERB ήδη_ADV οδηγίες_NOUN σ_ADP το_DET συνεργείο_NOUN της_DET σήμανσης_NOUN για_ADP να_SCONJ πιάσει_VERB δουλειά_NOUN ._PUNCT}
+Predicted: {
+ο_DET δημητρίου_PROPN έχει_AUX δώσει_VERB ήδη_ADV οδηγίες_NOUN σ_ADP το_DET συνεργείο_NOUN της_DET σήμανσης_NOUN για_ADP να_AUX πιάσει_VERB δουλειά_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+"_PUNCT ακούστε_VERB ,_PUNCT δεν_PART είστε_AUX οι_DET πρώτοι_ADJ που_SCONJ ερωτεύεστε_VERB σε_ADP υπηρεσιακό_ADJ περιβάλλον_NOUN "_PUNCT τους_PRON λέω_VERB ._PUNCT}
+Predicted: {
+"_PUNCT ακούστε_VERB ,_PUNCT δεν_PART είστε_AUX οι_DET πρώτοι_ADJ που_PRON ερωτεύεστε_VERB σε_ADP υπηρεσιακό_ADJ περιβάλλον_NOUN "_PUNCT τους_PRON λέω_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: SCONJ | PRON
+}
+
+Expected: {
+"_PUNCT πότε_ADV σ_ADP την_DET ερέτρια_PROPN από_ADP γιοτ_NOUN ή_CCONJ κότερο_NOUN και_CCONJ πότε_ADV σ_ADP τα_DET ανοιχτά_ADJ ,_PUNCT από_ADP εξωλέμβια_ADJ "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT πότε_ADV σ_ADP την_DET ερέτρια_NOUN από_ADP γιοτ_NOUN ή_CCONJ κότερο_NOUN και_CCONJ πότε_ADV σ_ADP τα_DET ανοιχτά_ADJ ,_PUNCT από_ADP εξωλέμβια_NOUN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ερέτρια: PROPN | NOUN
+εξωλέμβια: ADJ | NOUN
+}
+
+Expected: {
+η_DET πρώτη_ADJ μου_PRON σκέψη_NOUN είναι_VERB να_SCONJ πάρω_VERB μαζί_ADV μου_PRON τον_DET παπαδάκη_PROPN ,_PUNCT επειδή_SCONJ το_DET μυαλό_NOUN του_PRON δουλεύει_VERB καλύτερα_ADV από_ADP των_DET άλλων_DET ._PUNCT}
+Predicted: {
+η_DET πρώτη_ADJ μου_PRON σκέψη_NOUN είναι_AUX να_SCONJ πάρω_VERB μαζί_ADV μου_PRON τον_DET παπαδάκη_PROPN ,_PUNCT επειδή_SCONJ το_DET μυαλό_NOUN του_PRON δουλεύει_VERB καλύτερα_ADV από_ADP των_DET άλλων_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+άλλων: DET | PRON
+}
+
+Expected: {
+"_PUNCT γιατί_ADV να_AUX ρωτήσει_VERB ;_PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT γιατί_SCONJ να_AUX ρωτήσει_VERB ;_PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+γιατί: ADV | SCONJ
+}
+
+Expected: {
+ξέρετε_VERB αν_SCONJ είχε_VERB φορητό_ADJ υπολογιστή_NOUN ο_DET σωτηρόπουλος_PROPN ;_PUNCT}
+Predicted: {
+ξέρετε_VERB αν_SCONJ είχε_VERB φορητό_NOUN υπολογιστή_NOUN ο_DET σωτηρόπουλος_PROPN ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+φορητό: ADJ | NOUN
+}
+
+Expected: {
+το_PRON ερευνήσατε_VERB ;_PUNCT}
+Predicted: {
+το_DET ερευνήσατε_VERB ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+}
+
+Expected: {
+αν_SCONJ μπορέσω_VERB να_SCONJ βρω_VERB τον_DET σεργκέι_PROPN ,_PUNCT μπορεί_VERB κάτι_DET να_SCONJ ξετρυπώσει_VERB σ_ADP την_DET οδησσό_PROPN ._PUNCT}
+Predicted: {
+αν_SCONJ μπορέσω_VERB να_SCONJ βρω_VERB τον_DET σεργκέι_PROPN ,_PUNCT μπορεί_VERB κάτι_PRON να_SCONJ ξετρυπώσει_VERB σ_ADP την_DET οδησσό_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κάτι: DET | PRON
+}
+
+Expected: {
+σ_ADP τη_DET ζωή_NOUN μου_PRON όμως_CCONJ δεν_PART είδα_VERB ποτέ_ADV τους_DET μάγους_NOUN με_ADP τα_DET δώρα_NOUN να_SCONJ μας_PRON πέφτουν_VERB από_ADP τον_DET ουρανό_NOUN ._PUNCT}
+Predicted: {
+σ_ADP τη_DET ζωή_NOUN μου_PRON όμως_CCONJ δεν_PART είδα_VERB ποτέ_ADV τους_DET μάγους_NOUN με_ADP τα_DET δώρα_NOUN να_AUX μας_PRON πέφτουν_VERB από_ADP τον_DET ουρανό_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+όλα_DET τα_DET νήματα_NOUN κόβονται_VERB ,_PUNCT πριν_SCONJ περάσουν_VERB από_ADP την_DET τρύπα_NOUN της_DET βελόνας_NOUN ._PUNCT}
+Predicted: {
+όλα_DET τα_DET νήματα_NOUN κόβονται_VERB ,_PUNCT πριν_SCONJ περάσουν_VERB από_ADP την_DET τρύπα_NOUN της_DET βελόνας_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+βελόνας: NOUN | PROPN
+}
+
+Expected: {
+θέλω_VERB να_SCONJ κλειδώνω_VERB τις_DET υποθέσεις_NOUN που_PRON ερευνώ_VERB σ_ADP το_DET γραφείο_NOUN ,_PUNCT και_CCONJ σ_ADP το_DET σπίτι_NOUN να_SCONJ χαλαρώνω_VERB είτε_CCONJ μπροστά_ADV σ_ADP την_DET τηλεόραση_NOUN είτε_CCONJ οικογενειακώς_ADV ._PUNCT}
+Predicted: {
+θέλω_VERB να_AUX κλειδώνω_VERB τις_DET υποθέσεις_NOUN που_PRON ερευνώ_VERB σ_ADP το_DET γραφείο_NOUN ,_PUNCT και_CCONJ σ_ADP το_DET σπίτι_NOUN να_SCONJ χαλαρώνω_VERB είτε_CCONJ μπροστά_ADV σ_ADP την_DET τηλεόραση_NOUN είτε_CCONJ οικογενειακώς_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+ξεσπάει_VERB άθελα_ADV του_PRON σε_ADP ένα_DET πικρό_ADJ γέλιο_NOUN ,_PUNCT αλλά_CCONJ το_PRON συμμαζεύει_VERB αμέσως_ADV και_CCONJ κουνάει_VERB μοιρολατρικά_ADV το_DET κεφάλι_NOUN του_PRON ._PUNCT}
+Predicted: {
+ξεσπάει_VERB άθελα_NOUN του_PRON σε_ADP ένα_DET πικρό_ADJ γέλιο_NOUN ,_PUNCT αλλά_CCONJ το_PRON συμμαζεύει_VERB αμέσως_ADV και_CCONJ κουνάει_VERB μοιρολατρικά_ADV το_DET κεφάλι_NOUN του_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+άθελα: ADV | NOUN
+}
+
+Expected: {
+η_DET χτεσινή_ADJ κούραση_NOUN όμως_CCONJ συνεχίστηκε_VERB αυξανόμενη_VERB ,_PUNCT και_CCONJ τώρα_ADV το_DET μόνο_DET που_PRON θέλω_VERB είναι_VERB να_SCONJ την_PRON αράξω_VERB σ_ADP το_DET σπίτι_NOUN και_CCONJ να_SCONJ πάω_VERB νωρίς_ADV για_ADP ύπνο_NOUN ._PUNCT}
+Predicted: {
+η_DET χτεσινή_ADJ κούραση_NOUN όμως_CCONJ συνεχίστηκε_VERB αυξανόμενη_VERB ,_PUNCT και_CCONJ τώρα_ADV το_DET μόνο_DET που_PRON θέλω_VERB είναι_AUX να_AUX την_DET αράξω_VERB σ_ADP το_DET σπίτι_NOUN και_CCONJ να_SCONJ πάω_VERB νωρίς_ADV για_ADP ύπνο_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+να: SCONJ | AUX
+την: PRON | DET
+}
+
+Expected: {
+"_PUNCT εντάξει_ADV ,_PUNCT αλλά_CCONJ άλλο_DET να_AUX τα_PRON διαβάζω_VERB και_CCONJ άλλο_DET ν'_AUX ακούω_VERB εμένα_PRON να_SCONJ τα_PRON λέω_VERB "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT εντάξει_ADV ,_PUNCT αλλά_CCONJ άλλο_DET να_SCONJ τα_PRON διαβάζω_VERB και_CCONJ άλλο_DET ν'_AUX ακούω_VERB εμένα_PRON να_SCONJ τα_PRON λέω_VERB "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: AUX | SCONJ
+}
+
+Expected: {
+τα_DET πράγματα_NOUN ήταν_AUX τότε_ADV απλά_ADJ ._PUNCT}
+Predicted: {
+τα_DET πράγματα_NOUN ήταν_AUX τότε_ADV απλά_ADV ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+απλά: ADJ | ADV
+}
+
+Expected: {
+τη_PRON ρωτάει_VERB ._PUNCT}
+Predicted: {
+τη_DET ρωτάει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+τη: PRON | DET
+}
+
+Expected: {
+τα_DET συστήματα_NOUN ασφαλείας_NOUN και_CCONJ οι_DET κωδικοί_NOUN είναι_VERB ψωμοτύρι_NOUN για_ADP τους_DET κλέφτες_NOUN ,_PUNCT λέω_VERB μέσα_ADV μου_PRON ._PUNCT}
+Predicted: {
+τα_DET συστήματα_NOUN ασφαλείας_NOUN και_CCONJ οι_DET κωδικοί_NOUN είναι_AUX ψωμοτύρι_NOUN για_ADP τους_DET κλέφτες_NOUN ,_PUNCT λέω_VERB μέσα_ADV μου_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είναι: VERB | AUX
+}
+
+Expected: {
+"_PUNCT ενώ_SCONJ το_DET να_SCONJ μαγειρεύεις_VERB είναι_VERB μια_DET απόλαυση_NOUN κι_CCONJ εκεί_ADV πάνω_ADV τα_PRON καταπίνεις_VERB πιο_ADV εύκολα_ADV "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT ενώ_SCONJ το_DET να_AUX μαγειρεύεις_VERB είναι_AUX μια_DET απόλαυση_NOUN κι_CCONJ εκεί_ADV πάνω_ADV τα_DET καταπίνεις_NOUN πιο_ADV εύκολα_ADV "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+είναι: VERB | AUX
+τα: PRON | DET
+καταπίνεις: VERB | NOUN
+}
+
+Expected: {
+"_PUNCT μαμά_NOUN ,_PUNCT μπορείς_VERB να_PART μου_PRON πεις_VERB γιατί_SCONJ έχεις_VERB αυτήν_DET την_DET άρνηση_NOUN ;_PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT μαμά_NOUN ,_PUNCT μπορείς_VERB να_SCONJ μου_PRON πεις_VERB γιατί_SCONJ έχεις_VERB αυτήν_DET την_DET άρνηση_NOUN ;_PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: PART | SCONJ
+}
+
+Expected: {
+"_PUNCT δε_PART θέλω_VERB να_SCONJ γίνει_VERB η_DET κουβέντα_NOUN μπροστά_ADV τους_PRON "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT δε_PART θέλω_VERB να_PART γίνει_VERB η_DET κουβέντα_NOUN μπροστά_ADV τους_PRON "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | PART
+}
+
+Expected: {
+από_ADP το_DET "_PUNCT καλά_ADV ,_PUNCT μαλάκας_NOUN είναι_AUX ο_DET χαρίτος_PROPN ;_PUNCT "_PUNCT ,_PUNCT ως_ADV το_DET "_PUNCT ποιος_DET ξέρει_VERB πόσα_DET άλλα_DET ράμματα_NOUN είχαν_VERB για_ADP τη_DET γούνα_NOUN του_PRON "_PUNCT ._PUNCT}
+Predicted: {
+από_ADP το_DET "_PUNCT καλά_ADV ,_PUNCT μαλάκας_NOUN είναι_AUX ο_DET χαρίτος_PROPN ;_PUNCT "_PUNCT ,_PUNCT ως_ADV το_DET "_PUNCT ποιος_DET ξέρει_VERB πόσα_DET άλλα_DET ράμματα_NOUN είχαν_AUX για_ADP τη_DET γούνα_NOUN του_DET "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είχαν: VERB | AUX
+του: PRON | DET
+}
+
+Expected: {
+"_PUNCT να_AUX δείτε_VERB που_SCONJ σ_ADP το_DET τέλος_NOUN θα_AUX δικαιωθούν_VERB ο_DET ούλι_PROPN με_ADP την_DET κυρία_ADJ αδριανή_PROPN "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT να_AUX δείτε_VERB που_PRON σ_ADP το_DET τέλος_NOUN θα_AUX δικαιωθούν_VERB ο_DET ούλι_PROPN με_ADP την_DET κυρία_ADJ αδριανή_PROPN "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: SCONJ | PRON
+}
+
+Expected: {
+ήταν_VERB ανάγκη_NOUN να_SCONJ κάνετε_VERB τόση_DET φασαρία_NOUN ;_PUNCT}
+Predicted: {
+ήταν_AUX ανάγκη_NOUN να_AUX κάνετε_VERB τόση_ADV φασαρία_NOUN ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+ήταν: VERB | AUX
+να: SCONJ | AUX
+τόση: DET | ADV
+}
+
+Expected: {
+"_PUNCT καλά_ADV ,_PUNCT και_CCONJ τα_DET καΐκια_NOUN ,_PUNCT τα_DET κότερα_NOUN και_CCONJ τα_DET τρεχαντήρια_NOUN ;_PUNCT "_PUNCT}
+Predicted: {
+"_PUNCT καλά_ADV ,_PUNCT και_CCONJ τα_DET καΐκια_NOUN ,_PUNCT τα_DET κότερα_ADJ και_CCONJ τα_DET τρεχαντήρια_ADJ ;_PUNCT "_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+κότερα: NOUN | ADJ
+τρεχαντήρια: NOUN | ADJ
+}
+
+Expected: {
+αν_SCONJ θα_AUX πρέπει_VERB να_SCONJ της_PRON το_PRON πω_VERB και_CCONJ πώς_ADV να_SCONJ της_PRON το_PRON πω_VERB ._PUNCT}
+Predicted: {
+αν_SCONJ θα_AUX πρέπει_AUX να_AUX της_PRON το_PRON πω_VERB και_CCONJ πώς_ADV να_SCONJ της_PRON το_PRON πω_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+πρέπει: VERB | AUX
+να: SCONJ | AUX
+}
+
+Expected: {
+μπορεί_VERB ο_DET δημοσιογράφος_NOUN της_DET ισβέστια_PROPN να_SCONJ έγινε_VERB άνθρωπος_NOUN της_DET μαφίας_NOUN και_CCONJ να_SCONJ μου_PRON πέταξε_VERB απλώς_ADV ένα_DET δόλωμα_NOUN για_ADP να_SCONJ δει_VERB αν_SCONJ θα_AUX τσιμπήσω_VERB ;_PUNCT}
+Predicted: {
+μπορεί_VERB ο_DET δημοσιογράφος_NOUN της_DET ισβέστια_PROPN να_AUX έγινε_VERB άνθρωπος_NOUN της_DET μαφίας_NOUN και_CCONJ να_SCONJ μου_PRON πέταξε_VERB απλώς_ADV ένα_DET δόλωμα_NOUN για_ADP να_SCONJ δει_VERB αν_SCONJ θα_AUX τσιμπήσω_VERB ;_PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+ευτυχώς_ADV που_ADV έχω_VERB να_SCONJ κάνω_VERB με_ADP ξύπνιο_ADJ γερμανό_ADJ ,_PUNCT γιατί_SCONJ δεν_PART κάνει_VERB καμία_DET ερώτηση_NOUN ._PUNCT}
+Predicted: {
+ευτυχώς_ADV που_PRON έχω_VERB να_SCONJ κάνω_VERB με_ADP ξύπνιο_ADJ γερμανό_ADJ ,_PUNCT γιατί_SCONJ δεν_PART κάνει_VERB καμία_DET ερώτηση_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+που: ADV | PRON
+}
+
+Expected: {
+"_PUNCT όσοι_DET κατέθεσαν_VERB τις_DET πινακίδες_NOUN τους_PRON ,_PUNCT γιατί_SCONJ δεν_PART είχαν_VERB να_SCONJ πληρώσουν_VERB τα_DET τέλη_NOUN κυκλοφορίας_NOUN ,_PUNCT τώρα_ADV τις_PRON παίρνουν_VERB πίσω_ADV "_PUNCT σχολιάζει_VERB ο_DET παπαδάκης_PROPN ._PUNCT}
+Predicted: {
+"_PUNCT όσοι_PRON κατέθεσαν_VERB τις_DET πινακίδες_NOUN τους_PRON ,_PUNCT γιατί_SCONJ δεν_PART είχαν_VERB να_AUX πληρώσουν_VERB τα_DET τέλη_NOUN κυκλοφορίας_NOUN ,_PUNCT τώρα_ADV τις_DET παίρνουν_VERB πίσω_ADV "_PUNCT σχολιάζει_VERB ο_DET παπαδάκης_PROPN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+όσοι: DET | PRON
+να: SCONJ | AUX
+τις: PRON | DET
+}
+
+Expected: {
+κάθε_DET φορά_NOUN που_ADV παίρνω_VERB την_DET απόφαση_NOUN να_SCONJ χαλαρώσω_VERB ,_PUNCT βάζει_VERB ο_DET διάολος_NOUN το_DET πόδι_NOUN του_PRON και_CCONJ μου_PRON τα_PRON χαλάει_VERB ._PUNCT}
+Predicted: {
+κάθε_DET φορά_NOUN που_ADV παίρνω_VERB την_DET απόφαση_NOUN να_SCONJ χαλαρώσω_VERB ,_PUNCT βάζει_VERB ο_DET διάολος_NOUN το_DET πόδι_NOUN του_DET και_CCONJ μου_PRON τα_PRON χαλάει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+του: PRON | DET
+}
+
+Expected: {
+"_PUNCT το_PRON είχα_VERB "_PUNCT ._PUNCT}
+Predicted: {
+"_PUNCT το_DET είχα_VERB "_PUNCT ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+το: PRON | DET
+}
+
+Expected: {
+το_DET περιεχόμενο_NOUN είναι_AUX δύο_NUM αράδες_NOUN όλες_DET κι_CCONJ όλες_DET ._PUNCT}
+Predicted: {
+το_DET περιεχόμενο_NOUN είναι_AUX δύο_NUM αράδες_NOUN όλες_DET κι_CCONJ όλες_ADJ ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+όλες: DET | ADJ
+}
+
+Expected: {
+"_PUNCT υλικά_NOUN για_ADP να_SCONJ μάθω_VERB σ_ADP την_DET αδριανή_PROPN να_SCONJ φτιάχνει_VERB χορτόπιτα_NOUN "_PUNCT μου_PRON απαντάει_VERB ._PUNCT}
+Predicted: {
+"_PUNCT υλικά_ADV για_ADP να_SCONJ μάθω_VERB σ_ADP την_DET αδριανή_PROPN να_SCONJ φτιάχνει_VERB χορτόπιτα_NOUN "_PUNCT μου_PRON απαντάει_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+υλικά: NOUN | ADV
+}
+
+Expected: {
+με_ADP την_DET απερισκεψία_NOUN και_CCONJ την_DET επιπολαιότητά_NOUN σας_PRON κινδυνεύετε_VERB να_SCONJ τινάξετε_VERB τις_DET προσπάθειες_NOUN της_DET κυβέρνησης_NOUN σ_ADP τον_DET αέρα_NOUN ._PUNCT}
+Predicted: {
+με_ADP την_DET απερισκεψία_NOUN και_CCONJ την_DET επιπολαιότητά_NOUN σας_PRON κινδυνεύετε_VERB να_AUX τινάξετε_VERB τις_DET προσπάθειες_NOUN της_DET κυβέρνησης_NOUN σ_ADP τον_DET αέρα_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+να: SCONJ | AUX
+}
+
+Expected: {
+ήρθε_VERB με_ADP την_DET προσμονή_NOUN ότι_SCONJ θα_AUX γινόταν_VERB γιαγιά_NOUN ,_PUNCT αλλά_CCONJ την_PRON έβαλε_VERB σ_ADP την_DET άκρη_NOUN και_CCONJ χάρηκε_VERB με_ADP την_DET επαγγελματική_ADJ επιτυχία_NOUN της_DET κόρης_NOUN της_PRON ._PUNCT}
+Predicted: {
+ήρθε_VERB με_ADP την_DET προσμονή_NOUN ότι_SCONJ θα_AUX γινόταν_VERB γιαγιά_NOUN ,_PUNCT αλλά_CCONJ την_DET έβαλε_VERB σ_ADP την_DET άκρη_NOUN και_CCONJ χάρηκε_VERB με_ADP την_DET επαγγελματική_ADJ επιτυχία_NOUN της_DET κόρης_NOUN της_PRON ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+την: PRON | DET
+}
+
+Expected: {
+"_PUNCT μπράβο_INTJ σου_PRON ,_PUNCT είσαι_VERB καλός_ADJ πατέρας_NOUN "_PUNCT του_PRON λέω_VERB ._PUNCT}
+Predicted: {
+"_PUNCT μπράβο_INTJ σου_PRON ,_PUNCT είσαι_AUX καλός_ADJ πατέρας_NOUN "_PUNCT του_PRON λέω_VERB ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+είσαι: VERB | AUX
+}
+
+Expected: {
+γι_ADP '_PUNCT αυτό_DET και_CCONJ ερχόμαστε_VERB εναλλάξ_ADV μισή_DET ώρα_NOUN νωρίτερα_ADV κάθε_DET πρωί_NOUN ,_PUNCT για_ADP ν'_SCONJ ανοίξουμε_VERB τα_DET γραφεία_NOUN ._PUNCT}
+Predicted: {
+γι_ADP '_PUNCT αυτό_DET και_CCONJ ερχόμαστε_VERB εναλλάξ_ADV μισή_ADJ ώρα_NOUN νωρίτερα_ADV κάθε_DET πρωί_NOUN ,_PUNCT για_ADP ν'_SCONJ ανοίξουμε_VERB τα_DET γραφεία_NOUN ._PUNCT}
+Errors: {
+Tok: Ref | Pred
+---------------
+μισή: DET | ADJ
+}
